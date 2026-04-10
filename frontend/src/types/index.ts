@@ -221,3 +221,70 @@ export interface BatchDeleteResponse {
   deleted_files: number;
   skipped_count?: number;
 }
+
+// ==================== 智能修正功能类型 ====================
+
+/** 段落更新 */
+export interface ParagraphUpdate {
+  index: number;
+  content_type: string;
+}
+
+/** 快速修正请求 */
+export interface QuickCorrectionRequest {
+  paragraph_updates: ParagraphUpdate[];
+  user_feedback?: string;
+  regenerate?: boolean;
+}
+
+/** 快速修正响应 */
+export interface QuickCorrectionResponse {
+  updated_count: number;
+  structure_analysis: StructureAnalysis;
+}
+
+/** AI识别请求 */
+export interface AIRecognizeRequest {
+  user_feedback?: string;
+  mode: 'preview' | 'apply';
+}
+
+/** 修正变化 */
+export interface CorrectionChange {
+  index: number;
+  old_type: string;
+  old_type_name: string;
+  new_type: string;
+  new_type_name: string;
+  reason: string;
+}
+
+/** AI识别预览响应 */
+export interface AIRecognizePreviewResponse {
+  mode: 'preview';
+  changes: CorrectionChange[];
+  structure_analysis: StructureAnalysis;
+}
+
+/** AI识别应用响应 */
+export interface AIRecognizeApplyResponse {
+  mode: 'apply';
+  applied_count: number;
+  structure_analysis: StructureAnalysis;
+}
+
+/** 重新生成文档响应 */
+export interface RegenerateDocumentResponse {
+  output_filename: string;
+  download_url: string;
+}
+
+/** 段落编辑状态 */
+export interface ParagraphEdit {
+  paragraphIndex: number;
+  originalType: string;
+  newType: string;
+}
+
+/** AI识别响应类型（联合类型） */
+export type AIRecognizeResponse = AIRecognizePreviewResponse | AIRecognizeApplyResponse;

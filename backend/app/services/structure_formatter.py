@@ -232,6 +232,41 @@ class StructureFormatter:
         total_confidence = sum(p["confidence"] for p in paragraphs)
         return round(total_confidence / len(paragraphs), 2)
 
+    def compare_structures(
+        self, old_structure: dict, new_structure: dict
+    ) -> List[Dict[str, Any]]:
+        """对比两个结构分析，返回变化列表
+
+        Args:
+            old_structure: 旧的结构分析数据
+            new_structure: 新的结构分析数据
+
+        Returns:
+            变化列表，每个变化包含index, old_type, old_type_name, new_type, new_type_name, reason
+        """
+        changes = []
+        old_paras = {p["index"]: p for p in old_structure.get("paragraphs", [])}
+        new_paras = {p["index"]: p for p in new_structure.get("paragraphs", [])}
+
+        for index in new_paras:
+            new_para = new_paras[index]
+            if index in old_paras:
+                old_para = old_paras[index]
+                # 检查是否有类型变化
+                if old_para["content_type"] != new_para["content_type"]:
+                    changes.append(
+                        {
+                            "index": index,
+                            "old_type": old_para["content_type"],
+                            "old_type_name": old_para["content_type_name"],
+                            "new_type": new_para["content_type"],
+                            "new_type_name": new_para["content_type_name"],
+                            "reason": new_para.get("reason", "AI重新识别"),
+                        }
+                    )
+
+        return changes
+
 
 # 全局格式化器实例
 structure_formatter = StructureFormatter()

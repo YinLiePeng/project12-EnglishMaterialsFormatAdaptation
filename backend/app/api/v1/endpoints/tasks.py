@@ -4,7 +4,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select, func, delete, and_, or_
 from sqlalchemy.sql import Select
 from pathlib import Path
-from typing import List, Optional
+from typing import List, Optional, Dict, Any
 from datetime import datetime, timedelta
 import json
 import os
@@ -13,6 +13,8 @@ from app.core.database import get_db
 from app.models.task import Task
 from app.services.processor import document_processor
 from app.services.structure_formatter import structure_formatter
+from app.services.docx import DocxParser, DocxGenerator
+from app.core.presets.styles import get_preset_style, get_style_mapping
 
 router = APIRouter()
 
@@ -329,3 +331,294 @@ async def get_statistics(
             else 0,
         },
     }
+
+
+# ==================== 智能修正功能端点 ====================
+
+
+@router.post("/{task_id}/quick-correction")
+async def quick_correction(
+    task_id: str,
+    request_data: Dict[str, Any],
+    db: AsyncSession = Depends(get_db),
+):
+    """快速修正：直接更新用户指定的段落类型
+
+    Args:
+        task_id: 任务ID
+        request_data: 包含paragraph_updates和user_feedback的字典
+
+    Returns:
+        更新后的结构分析数据
+    """
+    # 获取任务
+    result = await db.execute(select(Task).where(Task.task_id == task_id))
+    task = result.scalar_one_or_none()
+
+    if not task:
+        raise HTTPException(
+            status_code=404, detail={"code": 404, "message": "任务不存在"}
+        )
+
+    if not task.structure_analysis:
+        raise HTTPException(
+            status_code=400, detail={"code": 400, "message": "没有结构分析数据"}
+        )
+
+    # 解析当前结构分析
+    structure = json.loads(task.structure_analysis)
+    updates = request_data.get("paragraph_updates", [])
+
+    if not updates:
+        raise HTTPException(
+            status_code=400, detail={"code": 400, "message": "没有提供更新内容"}
+        )
+
+    # 内容类型名称映射
+    CONTENT_TYPE_NAMES = {
+        "title": "主标题",
+        "heading": "子标题",
+        "question_number": "题号",
+        "option": "选项",
+        "body": "正文",
+        "answer": "答案",
+        "analysis": "解析",
+    }
+
+    # 更新段落类型
+    update_map = {u["index"]: u["content_type"] for u in updates}
+    updated_count = 0
+
+    for para in structure["paragraphs"]:
+        if para["index"] in update_map:
+            old_type = para["content_type"]
+            new_type = update_map[para["index"]]
+
+            # 更新类型
+            para["content_type"] = new_type
+            para["content_type_name"] = CONTENT_TYPE_NAMES.get(new_type, new_type)
+            para["confidence"] = 1.0
+            para["reason"] = f"用户手动修正（从{old_type}改为{new_type}）"
+
+            # 更新applied_style
+            style_key = document_processor._content_type_to_style_key(new_type)
+            # 获取样式映射
+            preset = get_preset_style(task.preset_style or "universal")
+            style_mapping = get_style_mapping(preset)
+            style_def = style_mapping.get(style_key, {})
+            para["applied_style"] = structure_formatter._format_style_details(
+                style_key, style_def
+            )
+
+            updated_count += 1
+
+    # 重新计算整体置信度
+    structure["overall_confidence"] = structure_formatter._calculate_overall_confidence(
+        structure["paragraphs"]
+    )
+
+    # 保存到数据库
+    task.structure_analysis = json.dumps(structure, ensure_ascii=False)
+    await db.commit()
+
+    return {
+        "code": 0,
+        "message": f"修正成功，已更新{updated_count}个段落",
+        "data": {
+            "updated_count": updated_count,
+            "structure_analysis": structure,
+        },
+    }
+
+
+@router.post("/{task_id}/ai-recognize")
+async def ai_recognize(
+    task_id: str,
+    request_data: Dict[str, Any],
+    db: AsyncSession = Depends(get_db),
+):
+    """AI重新识别：基于用户意见重新运行结构识别
+
+    Args:
+        task_id: 任务ID
+        request_data: 包含user_feedback和mode的字典
+
+    Returns:
+        preview模式: changes列表 + 新的structure_analysis
+        apply模式: 应用结果 + 新的structure_analysis
+    """
+    # 获取任务
+    result = await db.execute(select(Task).where(Task.task_id == task_id))
+    task = result.scalar_one_or_none()
+
+    if not task:
+        raise HTTPException(
+            status_code=404, detail={"code": 404, "message": "任务不存在"}
+        )
+
+    if task.enable_llm != 1:
+        raise HTTPException(
+            status_code=400, detail={"code": 400, "message": "该任务未启用AI识别功能"}
+        )
+
+    user_feedback = request_data.get("user_feedback", "")
+    mode = request_data.get("mode", "preview")
+
+    # 重新解析文档
+    try:
+        parser = DocxParser(task.input_file_path)
+        elements = parser.extract_content()
+        para_dicts = document_processor._extract_para_dicts(elements)
+    except Exception as e:
+        raise HTTPException(
+            status_code=500, detail={"code": 500, "message": f"文档解析失败: {str(e)}"}
+        )
+
+    # 构建增强的Prompt
+    base_prompt = """请基于以下段落识别文档结构，特别关注用户反馈的内容。"""
+    if user_feedback:
+        enhanced_prompt = f"""{base_prompt}
+
+【用户反馈】
+{user_feedback}
+
+请基于用户反馈进行识别，特别注意用户提到的段落或模式。"""
+    else:
+        enhanced_prompt = base_prompt
+
+    # 调用混合识别器（强制使用LLM）
+    try:
+        from app.services.llm.hybrid_recognizer import hybrid_recognizer
+
+        structures = await hybrid_recognizer.recognize(
+            para_dicts, use_llm=True, custom_prompt=enhanced_prompt
+        )
+    except Exception as e:
+        raise HTTPException(
+            status_code=500, detail={"code": 500, "message": f"AI识别失败: {str(e)}"}
+        )
+
+    # 格式化结果
+    style_mapping = get_style_mapping(
+        get_preset_style(task.preset_style or "universal")
+    )
+
+    # 提取段落信息
+    paragraphs = []
+    from app.services.docx.parser import ParagraphInfo, FontInfo, ParagraphFormat
+
+    for i, pd in enumerate(para_dicts):
+        paragraphs.append(
+            ParagraphInfo(
+                index=i,
+                text=pd.get("text", ""),
+                style_name="Normal",
+                font=FontInfo(
+                    size=pd.get("font_size", 12.0), bold=pd.get("font_bold", False)
+                ),
+                format=ParagraphFormat(alignment=pd.get("alignment", "left")),
+            )
+        )
+
+    formatted = structure_formatter.format_rule_engine_results(
+        structures, style_mapping, paragraphs
+    )
+    formatted["method"] = "llm"
+
+    if mode == "preview":
+        # 预览模式：对比变化
+        current_structure = json.loads(task.structure_analysis)
+        changes = structure_formatter.compare_structures(current_structure, formatted)
+
+        return {
+            "code": 0,
+            "message": f"识别完成，{len(changes)}处变化，请确认",
+            "data": {
+                "mode": "preview",
+                "changes": changes,
+                "structure_analysis": formatted,  # 预览结果，未保存
+            },
+        }
+    else:
+        # 应用模式：直接保存
+        task.structure_analysis = json.dumps(formatted, ensure_ascii=False)
+        await db.commit()
+
+        return {
+            "code": 0,
+            "message": "已应用AI识别结果",
+            "data": {
+                "mode": "apply",
+                "applied_count": len(formatted["paragraphs"]),
+                "structure_analysis": formatted,
+            },
+        }
+
+
+@router.post("/{task_id}/regenerate")
+async def regenerate_document(
+    task_id: str,
+    db: AsyncSession = Depends(get_db),
+):
+    """使用当前structure_analysis重新生成文档"""
+    # 获取任务
+    result = await db.execute(select(Task).where(Task.task_id == task_id))
+    task = result.scalar_one_or_none()
+
+    if not task:
+        raise HTTPException(
+            status_code=404, detail={"code": 404, "message": "任务不存在"}
+        )
+
+    if not task.structure_analysis:
+        raise HTTPException(
+            status_code=400, detail={"code": 400, "message": "没有结构分析数据"}
+        )
+
+    # 解析结构分析
+    structure = json.loads(task.structure_analysis)
+
+    # 重新生成文档
+    try:
+        # 解析原始文档
+        parser = DocxParser(task.input_file_path)
+        elements = parser.extract_content()
+
+        # 构建新的style_keys
+        style_keys = {}
+        for para_info in structure["paragraphs"]:
+            style_key = document_processor._content_type_to_style_key(
+                para_info["content_type"]
+            )
+            style_keys[para_info["index"]] = style_key
+
+        # 获取样式映射
+        preset = get_preset_style(task.preset_style or "universal")
+        style_mapping = get_style_mapping(preset)
+
+        # 生成新文档
+        output_path = document_processor._get_output_path(
+            task.input_file_path, task.input_filename
+        )
+
+        generator = DocxGenerator()
+        generator.generate_from_elements(elements, style_mapping, style_keys)
+        generator.save(output_path)
+
+        # 更新任务
+        task.output_file_path = output_path
+        task.output_filename = os.path.basename(output_path)
+        await db.commit()
+
+        return {
+            "code": 0,
+            "message": "文档重新生成成功",
+            "data": {
+                "output_filename": task.output_filename,
+                "download_url": f"/api/v1/tasks/{task_id}/download",
+            },
+        }
+    except Exception as e:
+        raise HTTPException(
+            status_code=500, detail={"code": 500, "message": f"重新生成失败: {str(e)}"}
+        )
