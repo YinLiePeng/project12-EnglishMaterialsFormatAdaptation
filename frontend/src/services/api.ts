@@ -16,7 +16,8 @@ import type {
   AIRecognizeRequest,
   AIRecognizePreviewResponse,
   AIRecognizeApplyResponse,
-  RegenerateDocumentResponse
+  RegenerateDocumentResponse,
+  SSECallbacks
 } from '../types';
 
 // 创建axios实例
@@ -215,7 +216,8 @@ export async function aiRecognize(
 ): Promise<AIRecognizePreviewResponse | AIRecognizeApplyResponse> {
   const response = await api.post<ApiResponse<AIRecognizePreviewResponse | AIRecognizeApplyResponse>>(
     `/tasks/${taskId}/ai-recognize`,
-    params
+    params,
+    { timeout: 120000 }
   );
   return response.data.data;
 }
@@ -228,4 +230,55 @@ export async function regenerateDocument(
     `/tasks/${taskId}/regenerate`
   );
   return response.data.data;
+}
+
+// ==================== LLM 流式处理 SSE ====================
+
+/** 连接 LLM 流式处理端点 */
+export function connectLLMStream(
+  taskId: string,
+  callbacks: SSECallbacks
+): EventSource {
+  const url = `/api/v1/tasks/${taskId}/llm-stream`;
+  const eventSource = new EventSource(url);
+
+  eventSource.addEventListener('progress', (e: MessageEvent) => {
+    const data = JSON.parse(e.data);
+    callbacks.onProgress?.(data);
+  });
+
+  eventSource.addEventListener('chunk', (e: MessageEvent) => {
+    const data = JSON.parse(e.data);
+    callbacks.onChunk?.(data);
+  });
+
+  eventSource.addEventListener('analysis', (e: MessageEvent) => {
+    const data = JSON.parse(e.data);
+    callbacks.onAnalysis?.(data);
+  });
+
+  eventSource.addEventListener('done', (e: MessageEvent) => {
+    const data = JSON.parse(e.data);
+    callbacks.onDone?.(data);
+    eventSource.close();
+  });
+
+  eventSource.addEventListener('error', (e: MessageEvent) => {
+    if (e.data) {
+      try {
+        const data = JSON.parse(e.data);
+        callbacks.onError?.(data);
+      } catch {
+        callbacks.onError?.({ code: 'CONNECTION_ERROR', message: 'SSE连接异常' });
+      }
+    }
+    eventSource.close();
+  });
+
+  eventSource.onerror = () => {
+    callbacks.onError?.({ code: 'CONNECTION_ERROR', message: 'SSE连接断开' });
+    eventSource.close();
+  };
+
+  return eventSource;
 }

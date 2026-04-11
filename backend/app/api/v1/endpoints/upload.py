@@ -112,18 +112,19 @@ async def upload_file(
     db.add(task)
     await db.commit()
 
-    # 启动后台处理任务
-    background_tasks.add_task(
-        process_task_background,
-        task_id=task_id,
-        input_file_path=str(file_path),
-        layout_mode=layout_mode,
-        preset_style=preset_style,
-        template_file_path=str(template_path) if template_path else None,
-        enable_cleaning=enable_cleaning,
-        enable_correction=enable_correction,
-        use_llm=use_llm,
-    )
+    # 启动后台处理任务（启用LLM时由SSE端点驱动，不在这里启动）
+    if not use_llm:
+        background_tasks.add_task(
+            process_task_background,
+            task_id=task_id,
+            input_file_path=str(file_path),
+            layout_mode=layout_mode,
+            preset_style=preset_style,
+            template_file_path=str(template_path) if template_path else None,
+            enable_cleaning=enable_cleaning,
+            enable_correction=enable_correction,
+            use_llm=use_llm,
+        )
 
     return {
         "code": 0,

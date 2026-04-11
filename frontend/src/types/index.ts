@@ -116,6 +116,7 @@ export interface TaskStatus {
   status: 'pending' | 'processing' | 'completed' | 'failed';
   layout_mode: string;
   preset_style: string;
+  enable_llm?: number;
   input_filename: string;
   output_filename: string | null;
   processing_time: number | null;
@@ -246,6 +247,7 @@ export interface QuickCorrectionResponse {
 /** AI识别请求 */
 export interface AIRecognizeRequest {
   user_feedback?: string;
+  paragraph_updates?: ParagraphUpdate[];
   mode: 'preview' | 'apply';
 }
 
@@ -288,3 +290,45 @@ export interface ParagraphEdit {
 
 /** AI识别响应类型（联合类型） */
 export type AIRecognizeResponse = AIRecognizePreviewResponse | AIRecognizeApplyResponse;
+
+// ==================== LLM 流式处理 SSE 事件类型 ====================
+
+/** SSE 进度事件 */
+export interface SSEProgressEvent {
+  stage: 'parsing' | 'cleaning' | 'correcting' | 'recognizing' | 'formatting';
+  message: string;
+}
+
+/** SSE 文本块事件 */
+export interface SSEChunkEvent {
+  content: string;
+}
+
+/** SSE 分析结果事件 */
+export interface SSEAnalysisEvent {
+  structure: StructureAnalysis;
+  raw_output: string;
+  method: 'llm';
+}
+
+/** SSE 完成事件 */
+export interface SSEDoneEvent {
+  status: 'completed';
+  processing_time: number;
+  output_filename: string | null;
+}
+
+/** SSE 错误事件 */
+export interface SSEErrorEvent {
+  code: string;
+  message: string;
+}
+
+/** SSE 事件回调集合 */
+export interface SSECallbacks {
+  onProgress?: (data: SSEProgressEvent) => void;
+  onChunk?: (data: SSEChunkEvent) => void;
+  onAnalysis?: (data: SSEAnalysisEvent) => void;
+  onDone?: (data: SSEDoneEvent) => void;
+  onError?: (data: SSEErrorEvent) => void;
+}

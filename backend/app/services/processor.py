@@ -127,7 +127,28 @@ class DocumentProcessor:
         """无模板模式：使用预设样式从头生成文档"""
 
         para_dicts = self._extract_para_dicts(elements)
-        structures = await self._run_structure_recognition(para_dicts, use_llm)
+        structures = await self._run_structure_recognition(
+            para_dicts, use_llm, preset_style
+        )
+
+        style_mapping = get_style_mapping(get_preset_style(preset_style or "universal"))
+        style_keys = self._build_style_keys(structures)
+
+        output_path = self._get_output_path(template_file_path, original_filename)
+        marker = "{{CONTENT}}"
+        generator = DocxGenerator(template_file_path)
+        generator.fill_template_from_elements(
+            elements, marker, style_mapping, style_keys
+        )
+        generator.save(output_path)
+
+        await self._save_structure_analysis(
+            structures,
+            para_dicts,
+            style_mapping,
+            task_id,
+            "llm" if use_llm else "rule_engine",
+        )
 
         style_mapping = get_style_mapping(get_preset_style(preset_style or "universal"))
         style_keys = self._build_style_keys(structures)
@@ -137,8 +158,9 @@ class DocumentProcessor:
         generator.generate_from_elements(elements, style_mapping, style_keys)
         generator.save(output_path)
 
+        method = "llm" if use_llm else "rule_engine"
         await self._save_structure_analysis(
-            structures, para_dicts, style_mapping, task_id, "rule_engine"
+            structures, para_dicts, style_mapping, task_id, method
         )
 
         return output_path
@@ -156,7 +178,9 @@ class DocumentProcessor:
         """空模板模式：在模板标记位处填充内容"""
 
         para_dicts = self._extract_para_dicts(elements)
-        structures = await self._run_structure_recognition(para_dicts, use_llm)
+        structures = await self._run_structure_recognition(
+            para_dicts, use_llm, preset_style
+        )
 
         style_mapping = get_style_mapping(get_preset_style(preset_style or "universal"))
         style_keys = self._build_style_keys(structures)
@@ -171,7 +195,11 @@ class DocumentProcessor:
         generator.save(output_path)
 
         await self._save_structure_analysis(
-            structures, para_dicts, style_mapping, task_id, "rule_engine"
+            structures,
+            para_dicts,
+            style_mapping,
+            task_id,
+            "llm" if use_llm else "rule_engine",
         )
 
         return output_path
@@ -212,7 +240,9 @@ class DocumentProcessor:
             style_mapping["body"] = preset.get("body", {})
 
         para_dicts = self._extract_para_dicts(elements)
-        structures = await self._run_structure_recognition(para_dicts, use_llm)
+        structures = await self._run_structure_recognition(
+            para_dicts, use_llm, preset_style
+        )
         style_keys = self._build_style_keys(structures)
 
         marker_info = template_parser.get_marker_info()
@@ -226,7 +256,11 @@ class DocumentProcessor:
         generator.save(output_path)
 
         await self._save_structure_analysis(
-            structures, para_dicts, style_mapping, task_id, "rule_engine"
+            structures,
+            para_dicts,
+            style_mapping,
+            task_id,
+            "llm" if use_llm else "rule_engine",
         )
 
         return output_path
@@ -254,14 +288,65 @@ class DocumentProcessor:
         return {s.index: s.style_hint for s in structures}
 
     async def _run_structure_recognition(
-        self, para_dicts: List[Dict[str, Any]], use_llm: bool
+        self, para_dicts: List[Dict[str, Any]], use_llm: bool, preset_style: str = None
     ) -> list:
-        """执行结构识别（规则引擎 + 可选LLM）"""
-        if use_llm:
-            from .llm.hybrid_recognizer import hybrid_recognizer
+        """执行结构识别
 
-            return await hybrid_recognizer.recognize(para_dicts, use_llm=True)
+        use_llm=True 时纯用 LLM，否则用规则引擎
+        """
+        if use_llm:
+            from .llm.client import deepseek_client
+
+            style_desc = None
+            if preset_style:
+                from app.core.presets.styles import (
+                    get_preset_style,
+                    get_style_mapping,
+                    get_preset_list,
+                )
+                from app.api.v1.endpoints.tasks import _build_style_description
+
+                style_desc = _build_style_description(preset_style)
+
+            llm_output = await deepseek_client.recognize_structure(
+                para_dicts, style_description=style_desc
+            )
+            if llm_output:
+                return self._convert_llm_to_structures(llm_output)
+
+            return self.rule_engine.analyze_structure(para_dicts)
         return self.rule_engine.analyze_structure(para_dicts)
+
+    @staticmethod
+    def _convert_llm_to_structures(llm_output) -> list:
+        """将 LLMStructureOutput 转换为 ContentStructure 列表"""
+        from .docx.rule_engine import ContentStructure, ContentType
+        from .llm.models import ContentType as LLMContentType
+
+        type_mapping = {
+            LLMContentType.TITLE: ContentType.TITLE,
+            LLMContentType.HEADING: ContentType.HEADING,
+            LLMContentType.QUESTION_NUMBER: ContentType.QUESTION_NUMBER,
+            LLMContentType.OPTION: ContentType.OPTION,
+            LLMContentType.BODY: ContentType.BODY,
+            LLMContentType.ANSWER: ContentType.ANSWER,
+            LLMContentType.ANALYSIS: ContentType.ANALYSIS,
+        }
+
+        results = []
+        for r in llm_output.results:
+            content_type = type_mapping.get(r.content_type, ContentType.BODY)
+            style_hint = rule_engine._get_style_hint(content_type)
+            results.append(
+                ContentStructure(
+                    index=r.index,
+                    text="",
+                    content_type=content_type,
+                    confidence=0.8,
+                    style_hint=style_hint,
+                )
+            )
+        return results
 
     async def _save_structure_analysis(
         self,

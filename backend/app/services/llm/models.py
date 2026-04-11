@@ -22,8 +22,6 @@ class ParagraphStructure(BaseModel):
 
     index: int = Field(..., description="段落索引")
     content_type: ContentType = Field(..., description="内容类型")
-    confidence: float = Field(..., description="置信度 (0-1)", ge=0, le=1)
-    reason: str = Field(..., description="识别理由")
 
 
 class LLMStructureOutput(BaseModel):

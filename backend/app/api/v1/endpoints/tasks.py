@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException, Depends, BackgroundTasks, Query
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, StreamingResponse
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select, func, delete, and_, or_
 from sqlalchemy.sql import Select
@@ -9,14 +9,71 @@ from datetime import datetime, timedelta
 import json
 import os
 import copy
-from app.core.database import get_db
+import asyncio
+from app.core.config import settings, get_prompts
+from app.core.database import get_db, AsyncSessionLocal
 from app.models.task import Task
 from app.services.processor import document_processor
 from app.services.structure_formatter import structure_formatter
 from app.services.docx import DocxParser, DocxGenerator
-from app.core.presets.styles import get_preset_style, get_style_mapping
+from app.core.presets.styles import get_preset_style, get_style_mapping, get_preset_list
 
 router = APIRouter()
+
+
+ALIGNMENT_NAMES = {
+    "center": "居中",
+    "left": "左对齐",
+    "right": "右对齐",
+    "justify": "两端对齐",
+}
+
+STYLE_TYPE_LABELS = {
+    "heading1": "title / heading1（主标题）",
+    "heading2": "heading（大题标题/章节标题）",
+    "heading3": "heading3（小节标题）",
+    "body": "body（正文）",
+    "question_number": "question_number（题号）",
+    "option": "option（选项）",
+}
+
+
+def _build_style_description(preset_style_id: str) -> str:
+    preset_id = preset_style_id or "universal"
+    style = get_preset_style(preset_id)
+    mapping = get_style_mapping(style)
+
+    preset_name = "通用排版"
+    for p in get_preset_list():
+        if p["id"] == preset_id:
+            preset_name = p["name"]
+            break
+
+    lines = [f'用户选择了"{preset_name}"样式，各类型的排版效果如下：']
+    for key, label in STYLE_TYPE_LABELS.items():
+        s = mapping.get(key)
+        if not s:
+            continue
+        font = s.get("font", {})
+        fmt = s.get("format", {})
+        parts = [f"{font.get('name', '宋体')} {font.get('size', 12)}pt"]
+        if font.get("bold"):
+            parts.append("加粗")
+        parts.append(ALIGNMENT_NAMES.get(fmt.get("alignment", "left"), "左对齐"))
+        if fmt.get("line_spacing"):
+            parts.append(f"行距{fmt['line_spacing']}")
+        if fmt.get("first_line_indent"):
+            parts.append(f"首行缩进{fmt['first_line_indent']}字符")
+        if fmt.get("left_indent"):
+            parts.append(f"左缩进{fmt['left_indent']}字符")
+        if fmt.get("space_before"):
+            parts.append(f"段前{fmt['space_before']}pt")
+        if fmt.get("space_after"):
+            parts.append(f"段后{fmt['space_after']}pt")
+        lines.append(f"  - {label}: {', '.join(parts)}")
+
+    lines.append("  - answer（答案）/ analysis（解析）: 与正文(body)相同样式")
+    return "\n".join(lines)
 
 
 @router.get("/{task_id}")
@@ -45,6 +102,7 @@ async def get_task_status(task_id: str, db: AsyncSession = Depends(get_db)):
             "status": task.status,
             "layout_mode": task.layout_mode,
             "preset_style": task.preset_style,
+            "enable_llm": task.enable_llm,
             "input_filename": task.input_filename,
             "output_filename": task.output_filename,
             "processing_time": task.processing_time,
@@ -333,6 +391,391 @@ async def get_statistics(
     }
 
 
+# ==================== LLM 流式处理 SSE 端点 ====================
+
+
+def _sse_event(event: str, data: Any) -> str:
+    """构建 SSE 事件字符串"""
+    payload = json.dumps(data, ensure_ascii=False)
+    return f"event: {event}\ndata: {payload}\n\n"
+
+
+@router.get("/{task_id}/llm-stream")
+async def llm_stream(task_id: str):
+    """SSE 流式端点：启用 LLM 时由前端连接，驱动整个处理流程"""
+
+    async def event_generator():
+        try:
+            async with AsyncSessionLocal() as db:
+                result = await db.execute(select(Task).where(Task.task_id == task_id))
+                task = result.scalar_one_or_none()
+
+                if not task:
+                    yield _sse_event(
+                        "error", {"code": "NOT_FOUND", "message": "任务不存在"}
+                    )
+                    return
+
+                if task.enable_llm != 1:
+                    yield _sse_event(
+                        "error", {"code": "INVALID", "message": "该任务未启用LLM"}
+                    )
+                    return
+
+                if task.status not in ("pending", "processing"):
+                    yield _sse_event(
+                        "error",
+                        {
+                            "code": "INVALID",
+                            "message": f"任务状态为 {task.status}，无法处理",
+                        },
+                    )
+                    return
+
+                input_file_path = task.input_file_path
+                template_file_path = task.template_file_path
+                layout_mode = task.layout_mode
+                preset_style = task.preset_style
+                enable_cleaning = task.enable_cleaning == 1
+                enable_correction = task.enable_correction == 1
+                original_filename = task.input_filename
+
+            async with AsyncSessionLocal() as db:
+                result = await db.execute(select(Task).where(Task.task_id == task_id))
+                task = result.scalar_one_or_none()
+                if not task:
+                    yield _sse_event(
+                        "error", {"code": "NOT_FOUND", "message": "任务不存在"}
+                    )
+                    return
+                task.status = "processing"
+                task.started_at = datetime.now()
+                await db.commit()
+
+            yield _sse_event(
+                "progress", {"stage": "parsing", "message": "正在解析文档..."}
+            )
+
+            file_ext = Path(input_file_path).suffix.lower()
+            from app.services.docx.parser import (
+                DocxParser as DocxP,
+                ContentElement,
+                ElementType,
+            )
+
+            if file_ext == ".pdf":
+                from app.services.pdf import PDFParser
+
+                pdf_parser = PDFParser(input_file_path)
+                paragraphs_info = pdf_parser.convert_to_paragraph_info_list()
+                elements = []
+                for i, p in enumerate(paragraphs_info):
+                    from app.services.docx.parser import (
+                        ParagraphInfo as PI,
+                        FontInfo as FI,
+                        ParagraphFormat as PF,
+                    )
+
+                    text = p.get("text", "")
+                    font_data = p.get("font", {})
+                    fmt_data = p.get("format", {})
+                    pi = PI(
+                        index=i,
+                        text=text,
+                        style_name="Normal",
+                        font=FI(
+                            name=font_data.get("name", "宋体"),
+                            size=font_data.get("size", 12.0),
+                            bold=font_data.get("bold", False),
+                        ),
+                        format=PF(
+                            alignment=fmt_data.get("alignment", "left"),
+                        ),
+                    )
+                    elements.append(
+                        ContentElement(
+                            element_type=ElementType.PARAGRAPH,
+                            original_index=i,
+                            paragraph=pi,
+                            table_cells=None,
+                            image_data=None,
+                            image_ext=None,
+                        )
+                    )
+            else:
+                docx_parser = DocxP(input_file_path)
+                elements = docx_parser.extract_content()
+
+            if enable_cleaning:
+                yield _sse_event(
+                    "progress", {"stage": "cleaning", "message": "正在清洗内容..."}
+                )
+                from app.services.cleaner import content_cleaner
+                from app.services.llm.client import deepseek_client
+
+                paragraphs_info = document_processor._extract_para_dicts(elements)
+                clean_results = await content_cleaner.clean_with_llm(
+                    paragraphs_info, deepseek_client
+                )
+                paragraphs_info = content_cleaner.apply_cleaning(
+                    paragraphs_info, clean_results
+                )
+
+            correction_result = None
+            if enable_correction:
+                yield _sse_event(
+                    "progress", {"stage": "correcting", "message": "正在纠错内容..."}
+                )
+                from app.services.correction import content_corrector
+                from app.services.llm.client import deepseek_client
+
+                paragraphs_info = document_processor._extract_para_dicts(elements)
+                correction_result = await content_corrector.correct_with_llm(
+                    paragraphs_info, deepseek_client
+                )
+
+            yield _sse_event(
+                "progress",
+                {"stage": "recognizing", "message": "AI 正在识别文档结构..."},
+            )
+
+            from app.services.llm.client import deepseek_client
+
+            para_dicts = document_processor._extract_para_dicts(elements)
+            raw_output = ""
+
+            style_desc = _build_style_description(preset_style)
+
+            async for event_type, content in deepseek_client.recognize_structure_stream(
+                para_dicts, style_description=style_desc
+            ):
+                if event_type == "chunk":
+                    raw_output += content
+                    yield _sse_event("chunk", {"content": content})
+                elif event_type == "result":
+                    raw_output = content
+                    break
+                elif event_type == "error":
+                    yield _sse_event(
+                        "error", {"code": "LLM_FAILED", "message": content}
+                    )
+                    async with AsyncSessionLocal() as db:
+                        result = await db.execute(
+                            select(Task).where(Task.task_id == task_id)
+                        )
+                        t = result.scalar_one_or_none()
+                        if t:
+                            t.status = "failed"
+                            t.error_message = content
+                            t.error_code = "LLM_FAILED"
+                            t.completed_at = datetime.now()
+                            await db.commit()
+                    return
+
+            from app.services.llm.models import LLMStructureOutput
+
+            try:
+                llm_data = json.loads(raw_output)
+                llm_output = LLMStructureOutput(**llm_data)
+            except Exception:
+                yield _sse_event(
+                    "error", {"code": "PARSE_FAILED", "message": "无法解析LLM结果"}
+                )
+                async with AsyncSessionLocal() as db:
+                    result = await db.execute(
+                        select(Task).where(Task.task_id == task_id)
+                    )
+                    t = result.scalar_one_or_none()
+                    if t:
+                        t.status = "failed"
+                        t.error_message = "LLM结果解析失败"
+                        t.error_code = "PARSE_FAILED"
+                        t.completed_at = datetime.now()
+                        await db.commit()
+                return
+
+            structures = document_processor._convert_llm_to_structures(llm_output)
+
+            yield _sse_event(
+                "progress", {"stage": "formatting", "message": "正在排版生成文档..."}
+            )
+
+            style_mapping = get_style_mapping(
+                get_preset_style(preset_style or "universal")
+            )
+            style_keys = document_processor._build_style_keys(structures)
+
+            if layout_mode == "none":
+                from app.services.docx import DocxGenerator
+
+                output_path = document_processor._get_output_path(
+                    input_file_path, original_filename
+                )
+                generator = DocxGenerator()
+                generator.generate_from_elements(elements, style_mapping, style_keys)
+                generator.save(output_path)
+            elif layout_mode == "empty":
+                from app.services.docx import DocxGenerator
+
+                output_path = document_processor._get_output_path(
+                    template_file_path, original_filename
+                )
+                marker = "{{CONTENT}}"
+                generator = DocxGenerator(template_file_path)
+                generator.fill_template_from_elements(
+                    elements, marker, style_mapping, style_keys
+                )
+                generator.save(output_path)
+            elif layout_mode == "complete":
+                from app.services.docx import DocxGenerator, TemplateParser
+
+                template_parser = TemplateParser(template_file_path)
+                template_styles = template_parser.extract_style_system()
+                content_type_keys = [
+                    "title",
+                    "heading",
+                    "question_number",
+                    "option",
+                    "body",
+                ]
+                style_mapping = {}
+                for ct in content_type_keys:
+                    matched = template_parser.get_style_for_content_type(ct)
+                    if matched:
+                        style_key = document_processor._content_type_to_style_key(ct)
+                        style_mapping[style_key] = {
+                            "font": matched.get("font", {}),
+                            "format": matched.get("format", {}),
+                        }
+                if "body" not in style_mapping:
+                    preset = get_preset_style(preset_style or "universal")
+                    style_mapping["body"] = preset.get("body", {})
+
+                output_path = document_processor._get_output_path(
+                    template_file_path, original_filename
+                )
+                generator = DocxGenerator(template_file_path)
+                generator.fill_template_from_elements(
+                    elements, "{{CONTENT}}", style_mapping, style_keys
+                )
+                generator.save(output_path)
+            else:
+                output_path = None
+
+            if correction_result and correction_result.corrections and output_path:
+                from app.services.revision import TrackedDocument
+
+                tracked_doc = TrackedDocument(output_path)
+                corrections_dict = [
+                    {
+                        "paragraph_index": c.paragraph_index,
+                        "old_text": c.original_text,
+                        "new_text": c.corrected_text,
+                        "reason": c.reason,
+                        "action": c.action.value,
+                        "correction_type": c.correction_type.value,
+                    }
+                    for c in correction_result.corrections
+                ]
+                tracked_doc.apply_corrections(corrections_dict)
+                tracked_doc.save(output_path)
+
+            from app.services.docx.parser import (
+                ParagraphInfo,
+                FontInfo,
+                ParagraphFormat,
+            )
+
+            paragraphs = []
+            for i, pd in enumerate(para_dicts):
+                paragraphs.append(
+                    ParagraphInfo(
+                        index=i,
+                        text=pd.get("text", ""),
+                        style_name="Normal",
+                        font=FontInfo(
+                            size=pd.get("font_size", 12.0),
+                            bold=pd.get("font_bold", False),
+                        ),
+                        format=ParagraphFormat(
+                            alignment=pd.get("alignment", "left"),
+                        ),
+                    )
+                )
+
+            formatted = structure_formatter.format_rule_engine_results(
+                structures, style_mapping, paragraphs
+            )
+            formatted["method"] = "llm"
+            formatted["raw_llm_output"] = raw_output
+
+            processing_time = 0
+            async with AsyncSessionLocal() as db:
+                result = await db.execute(select(Task).where(Task.task_id == task_id))
+                t = result.scalar_one_or_none()
+                if t and output_path:
+                    t.status = "completed"
+                    t.output_file_path = output_path
+                    t.output_filename = Path(output_path).name
+                    t.processing_time = processing_time
+                    t.output_expire_at = datetime.now() + timedelta(
+                        hours=settings.TEMP_EXPIRE_HOURS
+                    )
+                    t.structure_analysis = json.dumps(formatted, ensure_ascii=False)
+                    t.completed_at = datetime.now()
+                    if t.started_at:
+                        processing_time = int(
+                            (datetime.now() - t.started_at).total_seconds()
+                        )
+                        t.processing_time = processing_time
+                    await db.commit()
+
+            yield _sse_event(
+                "analysis",
+                {
+                    "structure": formatted,
+                    "raw_output": raw_output,
+                    "method": "llm",
+                },
+            )
+
+            yield _sse_event(
+                "done",
+                {
+                    "status": "completed",
+                    "processing_time": processing_time,
+                    "output_filename": Path(output_path).name if output_path else None,
+                },
+            )
+
+        except Exception as e:
+            yield _sse_event("error", {"code": "UNKNOWN_ERROR", "message": str(e)})
+            try:
+                async with AsyncSessionLocal() as db:
+                    result = await db.execute(
+                        select(Task).where(Task.task_id == task_id)
+                    )
+                    t = result.scalar_one_or_none()
+                    if t:
+                        t.status = "failed"
+                        t.error_message = str(e)
+                        t.error_code = "UNKNOWN_ERROR"
+                        t.completed_at = datetime.now()
+                        await db.commit()
+            except Exception:
+                pass
+
+    return StreamingResponse(
+        event_generator(),
+        media_type="text/event-stream",
+        headers={
+            "Cache-Control": "no-cache",
+            "Connection": "keep-alive",
+            "X-Accel-Buffering": "no",
+        },
+    )
+
+
 # ==================== 智能修正功能端点 ====================
 
 
@@ -456,13 +899,25 @@ async def ai_recognize(
             status_code=404, detail={"code": 404, "message": "任务不存在"}
         )
 
-    if task.enable_llm != 1:
-        raise HTTPException(
-            status_code=400, detail={"code": 400, "message": "该任务未启用AI识别功能"}
-        )
-
     user_feedback = request_data.get("user_feedback", "")
+    paragraph_updates = request_data.get("paragraph_updates", [])
     mode = request_data.get("mode", "preview")
+    client_structure = request_data.get("structure_analysis")
+
+    # apply 模式且前端传了 structure_analysis，直接保存，跳过 LLM 调用
+    if mode == "apply" and client_structure:
+        task.structure_analysis = json.dumps(client_structure, ensure_ascii=False)
+        await db.commit()
+
+        return {
+            "code": 0,
+            "message": "已应用AI识别结果",
+            "data": {
+                "mode": "apply",
+                "applied_count": len(client_structure.get("paragraphs", [])),
+                "structure_analysis": client_structure,
+            },
+        }
 
     # 重新解析文档
     try:
@@ -474,25 +929,70 @@ async def ai_recognize(
             status_code=500, detail={"code": 500, "message": f"文档解析失败: {str(e)}"}
         )
 
-    # 构建增强的Prompt
-    base_prompt = """请基于以下段落识别文档结构，特别关注用户反馈的内容。"""
-    if user_feedback:
-        enhanced_prompt = f"""{base_prompt}
+    original_prompt = get_prompts().get(
+        "structure_recognition", "你是一个英语教学资料结构分析专家"
+    )
+    style_desc = _build_style_description(task.preset_style)
+    original_prompt = original_prompt.replace("{style_description}", style_desc)
 
-【用户反馈】
-{user_feedback}
-
-请基于用户反馈进行识别，特别注意用户提到的段落或模式。"""
-    else:
-        enhanced_prompt = base_prompt
-
-    # 调用混合识别器（强制使用LLM）
-    try:
-        from app.services.llm.hybrid_recognizer import hybrid_recognizer
-
-        structures = await hybrid_recognizer.recognize(
-            para_dicts, use_llm=True, custom_prompt=enhanced_prompt
+    user_hints = []
+    if paragraph_updates:
+        CONTENT_TYPE_NAMES = {
+            "title": "主标题",
+            "heading": "子标题",
+            "question_number": "题号",
+            "option": "选项",
+            "body": "正文",
+            "answer": "答案",
+            "analysis": "解析",
+        }
+        hint_lines = []
+        for u in paragraph_updates:
+            idx = u.get("index", "?")
+            ct = u.get("content_type", "body")
+            ct_name = CONTENT_TYPE_NAMES.get(ct, ct)
+            text = para_dicts[idx].get("text", "")[:40] if idx < len(para_dicts) else ""
+            hint_lines.append(f'  段落{idx}("{text}...") → {ct_name}')
+        user_hints.append(
+            "【用户已确认的示例】\n用户已手动调整了以下段落的类型，请将这些作为参考模式应用到类似段落：\n"
+            + "\n".join(hint_lines)
         )
+
+    if user_feedback:
+        user_hints.append(f"【用户补充说明】\n{user_feedback}")
+
+    if user_hints:
+        constraint = (
+            "【行为约束】\n"
+            "1. 严格按照用户指示去做，不要少做也不要多做。\n"
+            "2. 用户已确认的示例段落类型必须保持不变，不要纠正用户的判断。\n"
+            "3. 参考用户示例的模式，将相同的逻辑一致地应用到所有类似段落。"
+        )
+        enhanced_prompt = (
+            original_prompt
+            + "\n\n"
+            + "\n\n".join(user_hints)
+            + "\n\n"
+            + constraint
+            + "\n\n请结合以上信息进行识别。"
+        )
+    else:
+        enhanced_prompt = original_prompt
+
+    # 调用 LLM 直接识别（使用增强 prompt）
+    try:
+        from app.services.llm.client import deepseek_client
+
+        llm_output = await deepseek_client.recognize_structure(
+            para_dicts, custom_prompt=enhanced_prompt
+        )
+        if not llm_output:
+            raise HTTPException(
+                status_code=500, detail={"code": 500, "message": "AI识别返回空结果"}
+            )
+        structures = document_processor._convert_llm_to_structures(llm_output)
+    except HTTPException:
+        raise
     except Exception as e:
         raise HTTPException(
             status_code=500, detail={"code": 500, "message": f"AI识别失败: {str(e)}"}
@@ -536,11 +1036,10 @@ async def ai_recognize(
             "data": {
                 "mode": "preview",
                 "changes": changes,
-                "structure_analysis": formatted,  # 预览结果，未保存
+                "structure_analysis": formatted,
             },
         }
     else:
-        # 应用模式：直接保存
         task.structure_analysis = json.dumps(formatted, ensure_ascii=False)
         await db.commit()
 
