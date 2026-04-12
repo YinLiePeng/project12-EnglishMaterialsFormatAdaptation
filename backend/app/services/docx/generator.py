@@ -1,13 +1,20 @@
 from docx import Document
 from docx.shared import Pt, Cm, RGBColor, Inches
-from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_LINE_SPACING
 from docx.oxml import OxmlElement
+from docx.oxml.ns import qn
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 from io import BytesIO
 
 from .parser import ParagraphInfo, FontInfo, ParagraphFormat, RunInfo
-from .parser import ContentElement, ElementType, TableCellInfo
+from .parser import (
+    ContentElement,
+    ElementType,
+    TableCellInfo,
+    CellFormatInfo,
+    TableFormatInfo,
+)
 
 
 class DocxGenerator:
@@ -28,6 +35,7 @@ class DocxGenerator:
         elements: List[ContentElement],
         style_mapping: Dict[str, Dict[str, Any]],
         style_keys: Optional[Dict[int, str]] = None,
+        preserve_format: bool = False,
     ):
         """按统一内容元素列表生成新文档
 
@@ -35,6 +43,7 @@ class DocxGenerator:
             elements: ContentElement 列表（保持原始顺序）
             style_mapping: 样式映射 {style_key: {font: {}, format: {}}}
             style_keys: 可选的段落索引→样式key映射，由结构识别结果生成
+            preserve_format: 是否保留原始格式
         """
         para_counter = 0
         for element in elements:
@@ -45,20 +54,45 @@ class DocxGenerator:
                     style_keys.get(para_counter, "body") if style_keys else "body"
                 )
                 style_def = style_mapping.get(style_key, style_mapping.get("body", {}))
-                self.add_paragraph_with_runs(
-                    element.paragraph.runs, style_def, extract_images=True
-                )
+
+                if preserve_format:
+                    para = self.doc.add_paragraph()
+                    self._apply_paragraph_format_obj(para, element.paragraph.format)
+                    self._add_runs_preserve(para, element.paragraph.runs)
+                else:
+                    self.add_paragraph_with_runs(
+                        element.paragraph.runs, style_def, extract_images=True
+                    )
                 para_counter += 1
 
             elif element.element_type == ElementType.BLANK_LINE:
-                self.add_blank_line()
+                if preserve_format and element.paragraph:
+                    blank_para = self.doc.add_paragraph()
+                    self._apply_paragraph_format_obj(
+                        blank_para, element.paragraph.format
+                    )
+                else:
+                    self.add_blank_line()
 
             elif element.element_type == ElementType.TABLE:
-                table_style = style_mapping.get("table", style_mapping.get("body", {}))
-                self.add_table_from_cells(element.table_cells, table_style)
+                if preserve_format:
+                    self._add_table_preserve(element.table_cells, element.table_format)
+                else:
+                    table_style = style_mapping.get(
+                        "table", style_mapping.get("body", {})
+                    )
+                    self.add_table_from_cells(element.table_cells, table_style)
 
             elif element.element_type == ElementType.IMAGE:
-                self.add_image(element.image_data, element.image_ext)
+                if preserve_format:
+                    self._add_image_preserve(
+                        element.image_data,
+                        element.image_ext,
+                        element.image_width,
+                        element.image_height,
+                    )
+                else:
+                    self.add_image(element.image_data, element.image_ext)
 
     def fill_template_from_elements(
         self,
@@ -66,6 +100,7 @@ class DocxGenerator:
         marker: str,
         style_mapping: Dict[str, Dict[str, Any]],
         style_keys: Optional[Dict[int, str]] = None,
+        preserve_format: bool = False,
     ):
         """在模板标记位处填充内容，保持原始元素顺序
 
@@ -74,6 +109,7 @@ class DocxGenerator:
             marker: 标记文本（如 {{CONTENT}}）
             style_mapping: 样式映射
             style_keys: 段落索引→样式key映射
+            preserve_format: 是否保留原始格式
         """
         marker_para = None
         for para in self.doc.paragraphs:
@@ -115,10 +151,14 @@ class DocxGenerator:
                     ref_element.addnext(para._element)
                     ref_element = para._element
 
-                self._apply_paragraph_format(para, style_def.get("format", {}))
-                self._add_runs_to_paragraph(
-                    para, element.paragraph.runs, style_def, extract_images=True
-                )
+                if preserve_format:
+                    self._apply_paragraph_format_obj(para, element.paragraph.format)
+                    self._add_runs_preserve(para, element.paragraph.runs)
+                else:
+                    self._apply_paragraph_format(para, style_def.get("format", {}))
+                    self._add_runs_to_paragraph(
+                        para, element.paragraph.runs, style_def, extract_images=True
+                    )
                 para_counter += 1
 
             elif element.element_type == ElementType.BLANK_LINE:
@@ -130,18 +170,39 @@ class DocxGenerator:
                     ref_element.addnext(para._element)
                     ref_element = para._element
 
+                if preserve_format and element.paragraph:
+                    self._apply_paragraph_format_obj(para, element.paragraph.format)
+
             elif element.element_type == ElementType.TABLE:
-                table_style = style_mapping.get("table", style_mapping.get("body", {}))
-                table = self._create_table_at(element.table_cells, ref_element)
-                if table is not None:
-                    self._style_table(table, table_style)
-                    ref_element = table._tbl
+                if preserve_format:
+                    table = self._create_table_preserve_at(
+                        element.table_cells, element.table_format, ref_element
+                    )
+                    if table is not None:
+                        ref_element = table._tbl
+                else:
+                    table_style = style_mapping.get(
+                        "table", style_mapping.get("body", {})
+                    )
+                    table = self._create_table_at(element.table_cells, ref_element)
+                    if table is not None:
+                        self._style_table(table, table_style)
+                        ref_element = table._tbl
                 para_counter += 1
 
             elif element.element_type == ElementType.IMAGE:
-                img_para = self._create_image_paragraph_at(
-                    element.image_data, element.image_ext, ref_element
-                )
+                if preserve_format:
+                    img_para = self._create_image_preserve_paragraph_at(
+                        element.image_data,
+                        element.image_ext,
+                        element.image_width,
+                        element.image_height,
+                        ref_element,
+                    )
+                else:
+                    img_para = self._create_image_paragraph_at(
+                        element.image_data, element.image_ext, ref_element
+                    )
                 if img_para is not None:
                     ref_element = img_para._element
 
@@ -293,26 +354,38 @@ class DocxGenerator:
                     break
                 cell = table.cell(i, j)
 
-                # 处理文本 runs
-                if cell_info.runs:
+                if cell_info.paragraph_runs:
                     first_para = True
-                    for ci, run_info in enumerate(cell_info.runs):
+                    for para_run_list in cell_info.paragraph_runs:
                         if first_para:
                             para = cell.paragraphs[0]
                             para.clear()
                             first_para = False
-                        elif ci > 0 and run_info.text and run_info.text.strip():
-                            para = cell.add_paragraph()
                         else:
-                            continue
-                        run = para.add_run(run_info.text)
-                        if "name" in font_def:
-                            run.font.name = font_def["name"]
-                        if "size" in font_def:
-                            run.font.size = Pt(font_def["size"])
-                        run.font.bold = run_info.bold
-                        run.font.italic = run_info.italic
-                        run.font.underline = run_info.underline
+                            para = cell.add_paragraph()
+                        for run_info in para_run_list:
+                            if run_info.text:
+                                run = para.add_run(run_info.text)
+                                if "name" in font_def:
+                                    run.font.name = font_def["name"]
+                                if "size" in font_def:
+                                    run.font.size = Pt(font_def["size"])
+                                run.font.bold = run_info.bold
+                                run.font.italic = run_info.italic
+                                run.font.underline = run_info.underline
+                elif cell_info.runs:
+                    para = cell.paragraphs[0]
+                    para.clear()
+                    for run_info in cell_info.runs:
+                        if run_info.text:
+                            run = para.add_run(run_info.text)
+                            if "name" in font_def:
+                                run.font.name = font_def["name"]
+                            if "size" in font_def:
+                                run.font.size = Pt(font_def["size"])
+                            run.font.bold = run_info.bold
+                            run.font.italic = run_info.italic
+                            run.font.underline = run_info.underline
                 else:
                     cell.text = cell_info.text
                     for para in cell.paragraphs:
@@ -322,7 +395,6 @@ class DocxGenerator:
                             if "size" in font_def:
                                 run.font.size = Pt(font_def["size"])
 
-                # 处理单元格内的图片
                 for img_data in cell_info.images:
                     self._add_image_to_cell(cell, img_data)
 
@@ -409,6 +481,399 @@ class DocxGenerator:
             section = self.doc.sections[0]
             return section.page_width - section.left_margin - section.right_margin
         return Cm(15)
+
+    # ================================================================
+    # 保留原格式方法
+    # ================================================================
+
+    def _apply_paragraph_format_obj(self, para, fmt: ParagraphFormat):
+        """从 ParagraphFormat 对象应用段落格式（保留原格式模式）
+
+        所有属性均显式写入（包括 0 值），以覆盖目标文档的 docDefaults。
+        """
+        pf = para.paragraph_format
+        alignment_map = {
+            "left": WD_ALIGN_PARAGRAPH.LEFT,
+            "center": WD_ALIGN_PARAGRAPH.CENTER,
+            "right": WD_ALIGN_PARAGRAPH.RIGHT,
+            "justify": WD_ALIGN_PARAGRAPH.JUSTIFY,
+        }
+        if fmt.alignment is not None:
+            para.alignment = alignment_map.get(fmt.alignment, WD_ALIGN_PARAGRAPH.LEFT)
+
+        if fmt.line_spacing is not None:
+            rule = fmt.line_spacing_rule or "auto"
+            if rule == "auto":
+                pf.line_spacing = fmt.line_spacing
+            elif rule == "exact":
+                pf.line_spacing = Pt(fmt.line_spacing)
+                pf.line_spacing_rule = WD_LINE_SPACING.EXACTLY
+            elif rule == "atLeast":
+                pf.line_spacing = Pt(fmt.line_spacing)
+                pf.line_spacing_rule = WD_LINE_SPACING.AT_LEAST
+            else:
+                pf.line_spacing = fmt.line_spacing
+
+        if fmt.space_before is not None:
+            pf.space_before = Pt(fmt.space_before)
+        if fmt.space_after is not None:
+            pf.space_after = Pt(fmt.space_after)
+        if fmt.first_line_indent is not None:
+            pf.first_line_indent = Cm(fmt.first_line_indent)
+        if fmt.left_indent is not None:
+            pf.left_indent = Cm(fmt.left_indent)
+        if fmt.right_indent is not None:
+            pf.right_indent = Cm(fmt.right_indent)
+
+        if fmt.keep_with_next is not None:
+            pf.keep_with_next = fmt.keep_with_next
+        if fmt.keep_together is not None:
+            pf.keep_together = fmt.keep_together
+        if fmt.page_break_before is not None:
+            pf.page_break_before = fmt.page_break_before
+        if fmt.widow_control is not None:
+            pf.widow_control = fmt.widow_control
+
+    def _add_runs_preserve(self, para, runs: List[RunInfo]):
+        """以保留原格式方式添加 runs（字体/字号/粗斜体全部用原始值）"""
+        extracted_images = []
+        for run_info in runs:
+            if run_info.image:
+                extracted_images.append(run_info.image)
+            if run_info.text:
+                run = para.add_run(run_info.text)
+                run.font.name = run_info.font_name
+                run.font.size = Pt(run_info.font_size)
+                run.font.bold = run_info.bold
+                run.font.italic = run_info.italic
+                run.font.underline = run_info.underline
+                self._apply_color(run, run_info.color)
+        for img_data in extracted_images:
+            self._add_image_preserve(
+                img_data.get("data"),
+                img_data.get("ext"),
+                img_data.get("width_emu"),
+                img_data.get("height_emu"),
+            )
+
+    def _emu_to_cm(self, emu: Optional[int]) -> Optional[float]:
+        if emu is None:
+            return None
+        return emu / 360000.0
+
+    def _add_image_preserve(
+        self,
+        image_data: Optional[bytes],
+        image_ext: Optional[str],
+        image_width_emu: Optional[int] = None,
+        image_height_emu: Optional[int] = None,
+    ):
+        """添加图片，保留原始尺寸"""
+        if not image_data:
+            return
+        stream = BytesIO(image_data)
+        try:
+            width_cm = self._emu_to_cm(image_width_emu)
+            if width_cm and width_cm > 0:
+                available = self._get_available_width()
+                from docx.shared import Cm as CmShared
+
+                img_width = CmShared(width_cm)
+                if img_width > available:
+                    scale = available / img_width
+                    img_width = available
+                self.doc.add_picture(stream, width=img_width)
+            else:
+                available = self._get_available_width()
+                self.doc.add_picture(stream, width=available)
+        except Exception:
+            self.doc.add_paragraph("[图片]")
+
+    def _add_table_preserve(
+        self,
+        table_cells: Optional[List[List[TableCellInfo]]],
+        table_format: Optional[TableFormatInfo],
+    ):
+        """添加表格，保留原始列宽、行高、单元格格式、合并单元格"""
+        if not table_cells:
+            return
+        rows = len(table_cells)
+        cols = max((len(r) for r in table_cells), default=0)
+        if rows == 0 or cols == 0:
+            return
+
+        table = self.doc.add_table(rows=rows, cols=cols)
+        table.style = "Table Grid"
+
+        if table_format:
+            if table_format.column_widths:
+                for i, w in enumerate(table_format.column_widths):
+                    if i < len(table.columns) and w > 0:
+                        table.columns[i].width = Cm(w)
+            if table_format.alignment and table_format.alignment != "left":
+                tbl = table._tbl
+                tbl_pr = tbl.find(qn("w:tblPr"))
+                if tbl_pr is None:
+                    tbl_pr = OxmlElement("w:tblPr")
+                    tbl.insert(0, tbl_pr)
+                jc = tbl_pr.find(qn("w:jc"))
+                if jc is None:
+                    jc = OxmlElement("w:jc")
+                    tbl_pr.append(jc)
+                jc.set(qn("w:val"), table_format.alignment)
+
+        self._fill_table_preserve(table, table_cells)
+
+        self._apply_merges(table, table_cells)
+
+        if table_format and table_format.row_heights:
+            for i, h in enumerate(table_format.row_heights):
+                if i < len(table.rows) and h > 0:
+                    tr = table.rows[i]._tr
+                    tr_pr = tr.find(qn("w:trPr"))
+                    if tr_pr is None:
+                        tr_pr = OxmlElement("w:trPr")
+                        tr.insert(0, tr_pr)
+                    tr_height = tr_pr.find(qn("w:trHeight"))
+                    if tr_height is None:
+                        tr_height = OxmlElement("w:trHeight")
+                        tr_pr.append(tr_height)
+                    tr_height.set(qn("w:val"), str(int(h * 567)))
+                    tr_height.set(qn("w:hRule"), "atLeast")
+
+        return table
+
+    def _fill_table_preserve(
+        self,
+        table,
+        table_cells: List[List[TableCellInfo]],
+    ):
+        """填充表格单元格内容，保留原始 run 格式"""
+        for i, row_cells in enumerate(table_cells):
+            for j, cell_info in enumerate(row_cells):
+                if j >= len(table.columns):
+                    break
+                if cell_info.v_merge == "continue":
+                    continue
+
+                cell = table.cell(i, j)
+
+                if cell_info.paragraph_runs:
+                    first_para = True
+                    for para_run_list in cell_info.paragraph_runs:
+                        if first_para:
+                            para = cell.paragraphs[0]
+                            para.clear()
+                            first_para = False
+                        else:
+                            para = cell.add_paragraph()
+                        for run_info in para_run_list:
+                            if run_info.text:
+                                run = para.add_run(run_info.text)
+                                run.font.name = run_info.font_name
+                                run.font.size = Pt(run_info.font_size)
+                                run.font.bold = run_info.bold
+                                run.font.italic = run_info.italic
+                                run.font.underline = run_info.underline
+                                self._apply_color(run, run_info.color)
+                elif cell_info.runs:
+                    para = cell.paragraphs[0]
+                    para.clear()
+                    for run_info in cell_info.runs:
+                        if run_info.text:
+                            run = para.add_run(run_info.text)
+                            run.font.name = run_info.font_name
+                            run.font.size = Pt(run_info.font_size)
+                            run.font.bold = run_info.bold
+                            run.font.italic = run_info.italic
+                            run.font.underline = run_info.underline
+                            self._apply_color(run, run_info.color)
+                else:
+                    cell.text = cell_info.text
+
+                for img_data in cell_info.images:
+                    self._add_image_to_cell_preserve(cell, img_data)
+
+                if cell_info.cell_format:
+                    self._apply_cell_format(cell, cell_info.cell_format)
+
+    def _add_image_to_cell_preserve(self, cell, img_data: Dict[str, Any]):
+        """向表格单元格添加图片，保留原始尺寸"""
+        try:
+            image_bytes = img_data.get("data")
+            if not image_bytes:
+                return
+            stream = BytesIO(image_bytes)
+            if cell.paragraphs:
+                para = cell.paragraphs[0]
+            else:
+                para = cell.add_paragraph()
+
+            width_cm = self._emu_to_cm(img_data.get("width_emu"))
+            if width_cm and width_cm > 0:
+                cell_width = cell.width
+                if cell_width:
+                    from docx.shared import Cm as CmShared
+
+                    img_width = min(CmShared(width_cm), cell_width * 0.9)
+                    para.add_picture(stream, width=img_width)
+                else:
+                    para.add_picture(stream, width=Cm(width_cm))
+            else:
+                cell_width = cell.width
+                if cell_width:
+                    img_width = min(cell_width * 0.8, Inches(6))
+                    para.add_picture(stream, width=img_width)
+                else:
+                    para.add_picture(stream)
+        except Exception:
+            if cell.paragraphs:
+                para = cell.paragraphs[0]
+            else:
+                para = cell.add_paragraph()
+            para.add_run("[图片]")
+
+    def _apply_cell_format(self, cell, cell_format: CellFormatInfo):
+        """应用单元格格式（垂直对齐、底色、边框、内边距）"""
+        tc = cell._tc
+        tc_pr = tc.find(qn("w:tcPr"))
+        if tc_pr is None:
+            tc_pr = OxmlElement("w:tcPr")
+            tc.insert(0, tc_pr)
+
+        if cell_format.vertical_alignment and cell_format.vertical_alignment != "top":
+            existing = tc_pr.find(qn("w:vAlign"))
+            if existing is not None:
+                tc_pr.remove(existing)
+            v_align = OxmlElement("w:vAlign")
+            v_align.set(qn("w:val"), cell_format.vertical_alignment)
+            tc_pr.append(v_align)
+
+        if cell_format.shading_fill:
+            existing = tc_pr.find(qn("w:shd"))
+            if existing is not None:
+                tc_pr.remove(existing)
+            shd = OxmlElement("w:shd")
+            shd.set(qn("w:val"), cell_format.shading_pattern)
+            shd.set(qn("w:fill"), cell_format.shading_fill)
+            tc_pr.append(shd)
+
+        if cell_format.borders:
+            existing = tc_pr.find(qn("w:tcBorders"))
+            if existing is not None:
+                tc_pr.remove(existing)
+            tc_borders = OxmlElement("w:tcBorders")
+            for side, border_info in cell_format.borders.items():
+                border_el = OxmlElement("w:%s" % side)
+                border_el.set(qn("w:val"), border_info.get("val", "single"))
+                border_el.set(qn("w:sz"), border_info.get("sz", "4"))
+                border_el.set(qn("w:color"), border_info.get("color", "000000"))
+                border_el.set(qn("w:space"), "0")
+                tc_borders.append(border_el)
+            tc_pr.append(tc_borders)
+
+        if cell_format.margins:
+            existing = tc_pr.find(qn("w:tcMar"))
+            if existing is not None:
+                tc_pr.remove(existing)
+            tc_mar = OxmlElement("w:tcMar")
+            for side, val_cm in cell_format.margins.items():
+                mar_el = OxmlElement("w:%s" % side)
+                dxa = int(val_cm * 567)
+                mar_el.set(qn("w:w"), str(dxa))
+                mar_el.set(qn("w:type"), "dxa")
+                tc_mar.append(mar_el)
+            tc_pr.append(tc_mar)
+
+    def _apply_merges(self, table, table_cells: List[List[TableCellInfo]]):
+        """根据 gridSpan 和 vMerge 信息重建合并单元格"""
+        h_merges = []
+        for i, row_cells in enumerate(table_cells):
+            j = 0
+            for cell_info in row_cells:
+                if cell_info.v_merge == "continue":
+                    j += 1
+                    continue
+                if cell_info.grid_span > 1 and j + cell_info.grid_span <= len(
+                    table.columns
+                ):
+                    h_merges.append((i, j, i, j + cell_info.grid_span - 1))
+                j += cell_info.grid_span
+
+        v_merge_starts = {}
+        for i, row_cells in enumerate(table_cells):
+            j = 0
+            for cell_info in row_cells:
+                if cell_info.v_merge == "continue":
+                    if j in v_merge_starts:
+                        v_merge_starts[j] = (v_merge_starts[j][0], i)
+                elif cell_info.v_merge == "restart":
+                    v_merge_starts[j] = (i, i)
+                j += cell_info.grid_span
+
+        v_merges = []
+        for j, (start_row, end_row) in v_merge_starts.items():
+            if end_row > start_row:
+                v_merges.append((start_row, j, end_row, j))
+
+        for r1, c1, r2, c2 in h_merges:
+            try:
+                table.cell(r1, c1).merge(table.cell(r2, c2))
+            except Exception:
+                pass
+        for r1, c1, r2, c2 in v_merges:
+            try:
+                table.cell(r1, c1).merge(table.cell(r2, c2))
+            except Exception:
+                pass
+
+    def _create_table_preserve_at(
+        self,
+        table_cells: Optional[List[List[TableCellInfo]]],
+        table_format: Optional[TableFormatInfo],
+        ref_element,
+    ):
+        """在指定位置创建保留原始格式的表格"""
+        table = self._add_table_preserve(table_cells, table_format)
+        if table is not None:
+            ref_element.addnext(table._tbl)
+        return table
+
+    def _create_image_preserve_paragraph_at(
+        self,
+        image_data,
+        image_ext,
+        image_width_emu,
+        image_height_emu,
+        ref_element,
+    ):
+        """在指定位置创建保留原始尺寸的图片"""
+        if not image_data:
+            return None
+        stream = BytesIO(image_data)
+        try:
+            width_cm = self._emu_to_cm(image_width_emu)
+            if width_cm and width_cm > 0:
+                available = self._get_available_width()
+                from docx.shared import Cm as CmShared
+
+                img_width = CmShared(width_cm)
+                if img_width > available:
+                    img_width = available
+                self.doc.add_picture(stream, width=img_width)
+            else:
+                available = self._get_available_width()
+                self.doc.add_picture(stream, width=available)
+            body = self.doc.element.body
+            last = body[-1]
+            ref_element.addnext(last)
+            from docx.text.paragraph import Paragraph
+
+            return Paragraph(last, body)
+        except Exception:
+            para = self.doc.add_paragraph("[图片]")
+            ref_element.addnext(para._element)
+            return para
 
     # ================================================================
     # 段落/字体格式方法（向后兼容）

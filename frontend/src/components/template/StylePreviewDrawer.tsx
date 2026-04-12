@@ -92,10 +92,15 @@ export function StylePreviewDrawer({
   useEffect(() => {
     if (styleId && styles.length > 0) {
       const style = styles.find((s) => s.id === styleId);
-      if (style && style.config) {
+      if (style) {
         setCurrentStyle(style);
-        setPreviewStyles(generateStyleCSS(style.config));
-        setPaperStyles(generatePaperStyles(style.config.page));
+        if (style.config && Object.keys(style.config).length > 0) {
+          setPreviewStyles(generateStyleCSS(style.config));
+          setPaperStyles(generatePaperStyles(style.config.page));
+        } else {
+          setPreviewStyles(null);
+          setPaperStyles(null);
+        }
       }
     }
   }, [styleId, styles]);
@@ -189,7 +194,104 @@ export function StylePreviewDrawer({
     setTouchDistance(0);
   };
 
-  if (!isOpen || !currentStyle || !previewStyles || !paperStyles) {
+  if (!isOpen || !currentStyle) {
+    return null;
+  }
+
+  const isPreserve = styleId === 'preserve';
+
+  if (isPreserve) {
+    return (
+      <>
+        <div
+          className="fixed inset-0 bg-gray-900/20 backdrop-blur-[2px] z-40 transition-opacity"
+          onClick={onClose}
+        />
+        <div className="fixed inset-y-0 right-0 w-full md:w-[500px] bg-white shadow-xl z-50 transform transition-transform">
+          <div className="h-full flex flex-col">
+            <div className="flex items-center justify-between p-4 border-b">
+              <div className="flex items-center gap-2">
+                <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                </svg>
+                <h2 className="text-lg font-bold text-gray-900">保留原格式</h2>
+              </div>
+              <button
+                onClick={onClose}
+                className="text-gray-400 hover:text-gray-600 transition-colors"
+              >
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+
+            <div className="flex-1 overflow-auto p-6 space-y-6">
+              <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+                <h3 className="font-medium text-green-900 mb-2">功能说明</h3>
+                <p className="text-sm text-green-800 leading-relaxed">
+                  保持原文档全部格式不变，将内容复制到模板中。系统会自动审查并纠正复制过程中产生的格式漂移，确保输出文档与原文件格式一致。
+                </p>
+              </div>
+
+              <div>
+                <h3 className="font-medium text-gray-900 mb-3">保留的格式范围</h3>
+                <div className="space-y-2">
+                  {[
+                    { icon: '📝', title: '文字格式', desc: '字体、字号、粗体、斜体、下划线、颜色' },
+                    { icon: '📏', title: '段落格式', desc: '缩进（首行/左/右）、行间距、段前段后间距、对齐方式' },
+                    { icon: '📊', title: '表格格式', desc: '列宽、行高、合并单元格、单元格边框、底色、垂直对齐' },
+                    { icon: '🖼️', title: '图片格式', desc: '原始尺寸、宽高比例' },
+                  ].map((item) => (
+                    <div key={item.title} className="flex items-start gap-3 p-3 bg-gray-50 rounded-lg">
+                      <span className="text-lg">{item.icon}</span>
+                      <div>
+                        <div className="font-medium text-gray-900 text-sm">{item.title}</div>
+                        <div className="text-xs text-gray-500">{item.desc}</div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <h3 className="font-medium text-gray-900 mb-3">格式审查</h3>
+                <p className="text-sm text-gray-600 leading-relaxed">
+                  生成文档后，系统会自动比对原始格式与输出格式，检测并纠正因复制操作产生的格式漂移（如缩进偏移、字体变化、间距改变等）。仅纠正复制导致的差异，不修改原文件自身的不一致。
+                </p>
+              </div>
+
+              <div className="bg-gray-50 rounded-lg p-4">
+                <h3 className="font-medium text-gray-900 mb-2">适用场景</h3>
+                <ul className="text-sm text-gray-600 space-y-1.5">
+                  <li>• 需要将内容复制到学校统一的空模板中，但不想手动调整格式</li>
+                  <li>• 原文档格式已经很完善，不需要套用预设样式</li>
+                  <li>• 担心复制粘贴后格式走样（如缩进错误、字体变化）</li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="p-4 border-t bg-gray-50 flex space-x-3">
+              <button
+                onClick={() => onApply(styleId)}
+                className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors font-medium text-sm"
+              >
+                应用此样式
+              </button>
+              <button
+                onClick={onClose}
+                className="px-4 py-2 bg-white border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors text-sm"
+              >
+                关闭
+              </button>
+            </div>
+          </div>
+        </div>
+      </>
+    );
+  }
+
+  if (!previewStyles || !paperStyles) {
     return null;
   }
 

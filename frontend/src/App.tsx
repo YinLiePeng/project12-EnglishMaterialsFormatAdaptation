@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Home } from './pages/Home';
 import { Process } from './pages/Process';
-import { Result } from './pages/Result';
 import { TestCase } from './pages/TestCase';
 import { TaskList } from './pages/TaskList';
 import { TestCaseManagement } from './pages/TestCaseManagement';
@@ -54,7 +53,6 @@ function App() {
                 <Route path="/tasks" element={<TaskList />} />
                 <Route path="/testcases" element={<TestCaseManagement />} />
                 <Route path="/process" element={<Process />} />
-                <Route path="/result" element={<Result />} />
                 <Route path="/feedback" element={<TestCase />} />
                 <Route path="/preview/:taskId" element={<DocumentPreview />} />
               </Routes>

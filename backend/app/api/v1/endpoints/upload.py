@@ -263,7 +263,7 @@ async def process_task_background(
                 task.status = "completed"
                 task.output_file_path = result["output_path"]
                 task.output_filename = Path(result["output_path"]).name
-                task.processing_time = int(result.get("processing_time", 0))
+                task.processing_time = round(result.get("processing_time", 0), 1)
                 task.output_expire_at = datetime.now() + timedelta(
                     hours=settings.TEMP_EXPIRE_HOURS
                 )

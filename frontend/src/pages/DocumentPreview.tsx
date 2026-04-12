@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { getTaskStatus, quickCorrection, aiRecognize, regenerateDocument } from '../services/api';
 import { Button } from '../components/common/Button';
 import { CorrectionPreviewModal } from '../components/CorrectionPreviewModal';
+import { mapFontName, mapLineSpacing, indentToEm, ptToPx } from '../utils/styleMapping';
 import type { StructureAnalysis, TaskStatus, ParagraphEdit, CorrectionChange } from '../types';
 
 const CONTENT_TYPE_COLORS: Record<string, string> = {
@@ -25,13 +26,6 @@ const CONTENT_TYPE_HIGHLIGHT: Record<string, string> = {
   analysis: 'ring-2 ring-orange-400 bg-orange-50',
 };
 
-const ALIGNMENT_MAP: Record<string, string> = {
-  left: 'text-left',
-  center: 'text-center',
-  right: 'text-right',
-  justify: 'text-justify',
-};
-
 const CONTENT_TYPE_OPTIONS = [
   { value: 'title', label: '主标题' },
   { value: 'heading', label: '子标题' },
@@ -51,6 +45,45 @@ const CONTENT_TYPE_NAMES: Record<string, string> = {
   answer: '答案',
   analysis: '解析',
 };
+
+const ALIGNMENT_LABELS: Record<string, string> = {
+  left: '左对齐',
+  center: '居中',
+  right: '右对齐',
+  justify: '两端对齐',
+};
+
+function formatStyleSummary(style: any): string {
+  if (!style) return '';
+  const parts: string[] = [];
+  const font = style.font;
+  const fmt = style.format;
+
+  if (font?.name) parts.push(font.name);
+  if (font?.size) parts.push(`${font.size}pt`);
+  if (font?.bold) parts.push('加粗');
+  if (font?.italic) parts.push('斜体');
+  if (font?.underline) parts.push('下划线');
+  if (fmt?.alignment) parts.push(ALIGNMENT_LABELS[fmt.alignment] || fmt.alignment);
+  if (fmt?.line_spacing) parts.push(`行距:${fmt.line_spacing}${fmt.line_spacing_rule === 'exact' ? 'pt固定' : '倍'}`);
+  if (fmt?.first_line_indent && fmt.first_line_indent > 0) parts.push(`首行缩进:${fmt.first_line_indent}字符`);
+  if (fmt?.left_indent && fmt.left_indent > 0) parts.push(`左缩进:${fmt.left_indent}`);
+  if (fmt?.space_before && fmt.space_before > 0) parts.push(`段前:${fmt.space_before}pt`);
+  if (fmt?.space_after && fmt.space_after > 0) parts.push(`段后:${fmt.space_after}pt`);
+
+  return parts.join(' ');
+}
+
+function buildTypeStyleMap(paragraphs: any[]): Record<string, any> {
+  const map: Record<string, any> = {};
+  for (const p of paragraphs) {
+    const ct = p.content_type;
+    if (!map[ct] && p.applied_style) {
+      map[ct] = p.applied_style;
+    }
+  }
+  return map;
+}
 
 export function DocumentPreview() {
   const { taskId } = useParams<{ taskId: string }>();
@@ -75,6 +108,10 @@ export function DocumentPreview() {
   const rightPanelRef = useRef<HTMLDivElement>(null);
 
   const isEditMode = correctionMode !== null;
+
+  const typeStyleMap = analysis?.style_map && Object.keys(analysis.style_map).length > 0
+    ? analysis.style_map
+    : (analysis ? buildTypeStyleMap(analysis.paragraphs) : {});
 
   useEffect(() => {
     const fetchTask = async () => {
@@ -175,6 +212,10 @@ export function DocumentPreview() {
   };
 
   const handleUnsatisfied = () => {
+    if (taskStatus?.preset_style === 'preserve') {
+      alert('此模式下不支持修改。如有需要，下载文档后自行修改更为便捷哦~');
+      return;
+    }
     setShowChoicePanel(true);
   };
 
@@ -383,6 +424,9 @@ export function DocumentPreview() {
                     <span className="text-xs text-amber-600">
                       已修改 {edits.length} 处
                     </span>
+                    <Button variant="outline" onClick={() => { setEdits([]); setShowTypeSelector(null); }}>
+                      ↩️ 重置全部
+                    </Button>
                     <Button onClick={handleDirectComplete}>
                       ✓ 完成 ({edits.length})
                     </Button>
@@ -396,9 +440,14 @@ export function DocumentPreview() {
               <>
                 <span className="text-sm text-gray-600">🤖 AI辅助修改</span>
                 {edits.length > 0 && (
-                  <span className="text-xs text-amber-600">
-                    已修改 {edits.length} 处
-                  </span>
+                  <>
+                    <span className="text-xs text-amber-600">
+                      已修改 {edits.length} 处
+                    </span>
+                    <Button variant="outline" onClick={() => { setEdits([]); setShowTypeSelector(null); }}>
+                      ↩️ 重置全部
+                    </Button>
+                  </>
                 )}
                 <Button
                   onClick={handleSubmitToAI}
@@ -461,7 +510,22 @@ export function DocumentPreview() {
                 <div className="bg-white border rounded-lg shadow-sm max-w-3xl mx-auto p-6" style={{ minHeight: '800px' }}>
                   {analysis.paragraphs.map((para) => {
                     const isHovered = hoveredParagraph === para.index;
-                    const originalStyle = (para as any).original_style || {};
+                    const originalStyle = para.original_style || {};
+
+                    const leftStyle: React.CSSProperties = {
+                      fontFamily: mapFontName(originalStyle.font_name),
+                      fontSize: ptToPx(originalStyle.font_size || 12),
+                      fontWeight: originalStyle.font_bold ? 'bold' : 'normal',
+                      fontStyle: originalStyle.font_italic ? 'italic' : 'normal',
+                      textDecoration: originalStyle.font_underline ? 'underline' : 'none',
+                      color: originalStyle.font_color ? `#${originalStyle.font_color}` : undefined,
+                      textAlign: (originalStyle.alignment as React.CSSProperties['textAlign']) || 'left',
+                      lineHeight: originalStyle.line_spacing || 1.5,
+                      marginTop: originalStyle.space_before ? ptToPx(originalStyle.space_before) : undefined,
+                      marginBottom: originalStyle.space_after ? ptToPx(originalStyle.space_after) : undefined,
+                      textIndent: originalStyle.first_line_indent ? indentToEm(originalStyle.first_line_indent) : undefined,
+                      paddingLeft: originalStyle.left_indent ? ptToPx(originalStyle.left_indent) : undefined,
+                    };
 
                     return (
                       <div
@@ -475,13 +539,9 @@ export function DocumentPreview() {
                           }
                         `}
                         onMouseEnter={() => handleParagraphHover(para.index)}
-                        style={{
-                          fontFamily: originalStyle.font_name || '宋体',
-                          fontSize: `${Math.min(originalStyle.font_size || 12, 18)}px`,
-                          fontWeight: originalStyle.font_bold ? 'bold' : 'normal',
-                        }}
+                        style={leftStyle}
                       >
-                        <p className={`${ALIGNMENT_MAP[originalStyle.alignment || 'left']} leading-relaxed`}>
+                        <p>
                           {para.text || <span className="text-gray-300">(空行)</span>}
                         </p>
                       </div>
@@ -516,13 +576,21 @@ export function DocumentPreview() {
                     const appliedStyle = para.applied_style;
 
                     const paragraphStyle: React.CSSProperties = {
-                      fontFamily: appliedStyle?.font?.name || '宋体',
-                      fontSize: `${appliedStyle?.font?.size || 12}pt`,
+                      fontFamily: mapFontName(appliedStyle?.font?.name),
+                      fontSize: ptToPx(appliedStyle?.font?.size || 12),
                       fontWeight: appliedStyle?.font?.bold ? 'bold' : 'normal',
-                      textAlign: appliedStyle?.format?.alignment as any || 'left',
-                      lineHeight: appliedStyle?.format?.line_spacing || 1.5,
-                      marginBottom: `${appliedStyle?.format?.space_after || 0}pt`,
-                      textIndent: `${appliedStyle?.format?.first_line_indent || 0}pt`,
+                      fontStyle: appliedStyle?.font?.italic ? 'italic' : 'normal',
+                      textDecoration: appliedStyle?.font?.underline ? 'underline' : 'none',
+                      color: appliedStyle?.font?.color ? `#${appliedStyle.font.color}` : undefined,
+                      textAlign: (appliedStyle?.format?.alignment as React.CSSProperties['textAlign']) || 'left',
+                      lineHeight: mapLineSpacing(
+                        appliedStyle?.format?.line_spacing,
+                        appliedStyle?.format?.line_spacing_rule,
+                      ),
+                      marginTop: appliedStyle?.format?.space_before ? ptToPx(appliedStyle.format.space_before) : undefined,
+                      marginBottom: appliedStyle?.format?.space_after ? ptToPx(appliedStyle.format.space_after) : undefined,
+                      textIndent: appliedStyle?.format?.first_line_indent ? indentToEm(appliedStyle.format.first_line_indent) : undefined,
+                      paddingLeft: appliedStyle?.format?.left_indent ? ptToPx(appliedStyle.format.left_indent) : undefined,
                     };
 
                     return (
@@ -545,56 +613,28 @@ export function DocumentPreview() {
                       >
                         {/* 编辑模式下的类型选择器 */}
                         {isEditMode && showTypeSelector === para.index && (
-                          <div className="absolute -top-16 left-0 z-10 bg-white rounded-lg shadow-lg border p-3 space-y-2">
-                            <div className="text-xs text-gray-600 mb-1">选择段落类型：</div>
-                            <div className="grid grid-cols-4 gap-1">
-                              {CONTENT_TYPE_OPTIONS.map(option => (
-                                <button
-                                  key={option.value}
-                                  className={`text-xs px-2 py-1 rounded border cursor-pointer hover:ring-2 transition-all ${
-                                    (edits.find(e => e.paragraphIndex === para.index)?.newType || para.content_type) === option.value
-                                      ? `${CONTENT_TYPE_COLORS[option.value]} ring-2 ring-blue-400`
-                                      : `${CONTENT_TYPE_COLORS[option.value]}`
-                                  }`}
-                                  onClick={(e) => {
-                                    e.stopPropagation();
-                                    handleTypeChange(para.index, option.value);
-                                  }}
-                                >
-                                  {option.label}
-                                </button>
-                              ))}
-                            </div>
-                            {hasEdit && (
-                              <button
-                                className="w-full text-xs bg-gray-100 text-gray-700 rounded px-2 py-1 hover:bg-gray-200 transition-colors"
-                                onClick={(e) => {
-                                  e.stopPropagation();
-                                  handleRevert(para.index);
-                                }}
-                              >
-                                ↩️ 恢复原始类型
-                              </button>
-                            )}
-                          </div>
+                          <TypeSelector
+                            paraIndex={para.index}
+                            currentType={para.content_type}
+                            edits={edits}
+                            typeStyleMap={typeStyleMap}
+                            hasEdit={hasEdit}
+                            onSelect={handleTypeChange}
+                            onRevert={handleRevert}
+                            containerRef={rightPanelRef}
+                          />
                         )}
 
                         {/* 悬停样式信息tooltip */}
-                        {isHovered && (
-                          <div className="absolute -top-12 left-0 z-10 bg-gray-900 text-white text-xs rounded px-2 py-1 whitespace-nowrap">
-                            <div>
+                        {isHovered && !(isEditMode && showTypeSelector === para.index) && (
+                          <div className="absolute -top-10 left-0 z-10 bg-gray-900 text-white text-xs rounded px-2 py-1 whitespace-nowrap max-w-[90vw]">
+                            <span>
                               <strong>{para.content_type_name}</strong>
                               {' · '}
-                              {appliedStyle?.font?.size}pt
-                              {appliedStyle?.font?.bold ? ' 加粗' : ''}
-                            </div>
-                            <div className="text-gray-300">
-                              {appliedStyle?.name}
-                            </div>
+                              {formatStyleSummary(appliedStyle)}
+                            </span>
                             {hasEdit && (
-                              <div className="text-amber-400 mt-1">
-                                ✏️ 已编辑
-                              </div>
+                              <span className="text-amber-400 ml-2">✏️ 已编辑</span>
                             )}
                           </div>
                         )}
@@ -606,7 +646,7 @@ export function DocumentPreview() {
                           </div>
                         )}
 
-                        <p className="leading-relaxed">
+                        <p>
                           {para.text || <span className="text-gray-300">(空行)</span>}
                         </p>
                       </div>
@@ -739,6 +779,83 @@ function AIFeedbackModal({ editSummary, feedback, onFeedbackChange, onConfirm, o
           <Button onClick={onConfirm}>确认并交给AI</Button>
         </div>
       </div>
+    </div>
+  );
+}
+
+function TypeSelector({ paraIndex, currentType, edits, typeStyleMap, hasEdit, onSelect, onRevert, containerRef }: {
+  paraIndex: number;
+  currentType: string;
+  edits: ParagraphEdit[];
+  typeStyleMap: Record<string, any>;
+  hasEdit: boolean;
+  onSelect: (index: number, type: string) => void;
+  onRevert: (index: number) => void;
+  containerRef: React.RefObject<HTMLDivElement | null>;
+}) {
+  const selectorRef = useRef<HTMLDivElement>(null);
+  const [position, setPosition] = useState<'top' | 'bottom'>('top');
+
+  useEffect(() => {
+    const el = selectorRef.current;
+    const container = containerRef.current;
+    if (!el || !container) return;
+
+    const elRect = el.getBoundingClientRect();
+    const containerRect = container.getBoundingClientRect();
+
+    if (elRect.top < containerRect.top) {
+      setPosition('bottom');
+    }
+  }, []);
+
+  return (
+    <div
+      ref={selectorRef}
+      className={`absolute left-0 z-20 bg-white rounded-lg shadow-lg border p-2 min-w-[320px] ${
+        position === 'top' ? '-top-1 translate-y-[-100%]' : 'top-full mt-1'
+      }`}
+    >
+      <div className="text-[10px] text-gray-500 mb-1">选择段落类型：</div>
+      <div className="grid grid-cols-2 gap-1">
+        {CONTENT_TYPE_OPTIONS.map(option => {
+          const effectiveType = edits.find(e => e.paragraphIndex === paraIndex)?.newType || currentType;
+          const isSelected = effectiveType === option.value;
+          const styleSummary = typeStyleMap[option.value]
+            ? formatStyleSummary(typeStyleMap[option.value])
+            : '';
+          return (
+            <button
+              key={option.value}
+              className={`text-left text-xs px-2 py-1 rounded border cursor-pointer hover:ring-2 transition-all ${
+                isSelected
+                  ? `${CONTENT_TYPE_COLORS[option.value]} ring-2 ring-blue-400`
+                  : `${CONTENT_TYPE_COLORS[option.value]}`
+              }`}
+              onClick={(e) => {
+                e.stopPropagation();
+                onSelect(paraIndex, option.value);
+              }}
+            >
+              <span className="font-medium">{option.label}</span>
+              {styleSummary && (
+                <span className="block text-[10px] opacity-60 truncate leading-tight">{styleSummary}</span>
+              )}
+            </button>
+          );
+        })}
+      </div>
+      {hasEdit && (
+        <button
+          className="w-full text-xs bg-gray-100 text-gray-700 rounded px-2 py-1 mt-1 hover:bg-gray-200 transition-colors"
+          onClick={(e) => {
+            e.stopPropagation();
+            onRevert(paraIndex);
+          }}
+        >
+          ↩️ 恢复原始类型
+        </button>
+      )}
     </div>
   );
 }

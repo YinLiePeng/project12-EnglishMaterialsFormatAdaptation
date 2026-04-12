@@ -5,6 +5,8 @@ from .parser import (
     ParagraphFormat,
     RunInfo,
     TableCellInfo,
+    CellFormatInfo,
+    TableFormatInfo,
     ElementType,
     ContentElement,
 )
@@ -26,6 +28,8 @@ __all__ = [
     "ParagraphFormat",
     "RunInfo",
     "TableCellInfo",
+    "CellFormatInfo",
+    "TableFormatInfo",
     "ElementType",
     "ContentElement",
 ]

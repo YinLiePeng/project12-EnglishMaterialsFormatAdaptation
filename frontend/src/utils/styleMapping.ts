@@ -15,6 +15,35 @@ export const FONT_MAPPING: Record<string, string> = {
 };
 
 /**
+ * 将字体名映射为 CSS 字体栈
+ */
+export function mapFontName(name: string | undefined): string {
+  if (!name) return FONT_MAPPING['宋体'];
+  return FONT_MAPPING[name] || name;
+}
+
+/**
+ * 计算行距 CSS 值
+ * - auto 模式：直接作为倍数
+ * - exact / atLeast 模式：转为 pt 字符串
+ */
+export function mapLineSpacing(value: number | undefined, rule?: string): string | number {
+  if (value === undefined || value === null) return 1.5;
+  if (rule === 'exact' || rule === 'atLeast') return `${value}pt`;
+  return value;
+}
+
+/**
+ * 根据字体大小计算首行缩进 em 值
+ * 后端 first_line_indent 单位为"字符数"（如 2.0 表示2个字符宽）
+ * CSS 中 1em = 当前字体大小，1个中文字符 ≈ 1em
+ */
+export function indentToEm(charCount: number | undefined): string {
+  if (!charCount) return '0';
+  return `${charCount}em`;
+}
+
+/**
  * 对齐方式映射
  */
 export const ALIGNMENT_MAPPING: Record<string, string> = {

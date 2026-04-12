@@ -466,6 +466,13 @@ PRESET_STYLES = {
     "exam": EXAM_STYLE,  # 模拟试卷
     "lecture": LECTURE_STYLE,  # 专题讲义
     "essay": ESSAY_STYLE,  # 作文范文
+    "preserve": {
+        "name": "保留原格式",
+        "description": "保持原文档格式不变，将内容复制到模板中，自动审查并纠正格式漂移",
+        "category": "special",
+        "preserve_format": True,
+        "config": {},
+    },
 }
 
 
@@ -488,7 +495,23 @@ def get_style_mapping(preset_style: Dict[str, Any]) -> Dict[str, Dict[str, Any]]
 
 def get_preset_list() -> list:
     """获取预设样式列表（用于API返回）"""
-    return [
-        {"id": style_id, "name": style["name"], "description": style["description"]}
-        for style_id, style in PRESET_STYLES.items()
-    ]
+    result = []
+    for style_id, style in PRESET_STYLES.items():
+        item = {
+            "id": style_id,
+            "name": style["name"],
+            "description": style["description"],
+        }
+        if style.get("preserve_format"):
+            item["preserve_format"] = True
+            item["category"] = style.get("category", "special")
+        if "config" in style:
+            item["config"] = style["config"]
+        result.append(item)
+    return result
+
+
+def is_preserve_style(style_id: str) -> bool:
+    """判断是否为保留原格式样式"""
+    style = PRESET_STYLES.get(style_id)
+    return bool(style and style.get("preserve_format"))

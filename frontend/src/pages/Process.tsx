@@ -2,7 +2,7 @@ import { useState, useCallback, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useUploadStore } from '../store/uploadStore';
 import { useTaskPolling } from '../hooks/useTaskPolling';
-import { connectLLMStream, getTaskStatus } from '../services/api';
+import { connectLLMStream, getTaskStatus, getDownloadUrl } from '../services/api';
 import { Button } from '../components/common/Button';
 import type { TaskStatus, SSEProgressEvent, SSEAnalysisEvent, SSEDoneEvent, SSEErrorEvent } from '../types';
 
@@ -24,7 +24,7 @@ const STAGE_MESSAGES: Record<string, string> = {
 
 export function Process() {
   const navigate = useNavigate();
-  const { currentTaskId, taskStatus, setTaskStatus } = useUploadStore();
+  const { currentTaskId, taskStatus, setTaskStatus, reset } = useUploadStore();
   const [progress, setProgress] = useState(0);
   const [isLLM, setIsLLM] = useState(false);
   const [llmChecked, setLlmChecked] = useState(false);
@@ -152,13 +152,6 @@ export function Process() {
     onComplete: handleComplete,
   });
 
-  useEffect(() => {
-    if (progress === 100 && currentTaskId && !isLLM) {
-      const timer = setTimeout(() => navigate('/result'), 1500);
-      return () => clearTimeout(timer);
-    }
-  }, [progress, currentTaskId, navigate, isLLM]);
-
   if (!currentTaskId) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
@@ -252,15 +245,6 @@ export function Process() {
                   >
                     {showJson ? '隐藏 JSON 结果' : '查看完整 JSON 结果'}
                   </Button>
-                  {isCompleted && (
-                    <Button
-                      variant="outline"
-                      onClick={() => navigate(`/preview/${currentTaskId}`)}
-                      className="text-sm"
-                    >
-                      查看解析预览
-                    </Button>
-                  )}
                 </div>
               )}
 
@@ -329,10 +313,22 @@ export function Process() {
           <div className="flex justify-center space-x-4">
             {isCompleted ? (
               <>
+                <a
+                  href={getDownloadUrl(currentTaskId)}
+                  download={taskStatus?.output_filename || 'formatted.docx'}
+                  className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+                >
+                  <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                  </svg>
+                  下载文件
+                </a>
                 <Button variant="outline" onClick={() => navigate(`/preview/${currentTaskId}`)}>
                   查看解析预览
                 </Button>
-                <Button onClick={() => navigate('/result')}>查看结果</Button>
+                <Button variant="outline" onClick={() => { reset(); navigate('/'); }}>
+                  处理新文件
+                </Button>
               </>
             ) : isFailed ? (
               <>
@@ -350,6 +346,34 @@ export function Process() {
               </Button>
             )}
           </div>
+
+          {/* 完成后的说明和反馈 */}
+          {isCompleted && (
+            <>
+              <div className="bg-blue-50 rounded-lg p-4 mt-6">
+                <div className="flex items-start">
+                  <svg className="w-5 h-5 text-blue-600 mt-0.5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+                  </svg>
+                  <div className="text-sm text-blue-700">
+                    <p className="font-medium">说明：</p>
+                    <ul className="list-disc list-inside mt-1 space-y-1">
+                      <li>下载的文件包含Word原生修订和批注</li>
+                      <li>您可以在Word中一键接受/驳回单条修订</li>
+                      <li>批注内容为疑似问题，仅供参考</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-6 pt-6 border-t border-gray-200 text-center">
+                <p className="text-sm text-gray-500 mb-2">对结果不满意？</p>
+                <Button variant="outline" size="sm" onClick={() => navigate('/feedback')}>
+                  提交反馈帮助我们改进
+                </Button>
+              </div>
+            </>
+          )}
         </div>
       </div>
     </div>

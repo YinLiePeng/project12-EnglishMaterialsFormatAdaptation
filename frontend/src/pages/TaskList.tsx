@@ -21,6 +21,24 @@ const STATUS_LABELS: Record<string, string> = {
   failed: '处理失败',
 };
 
+const LAYOUT_MODE_LABELS: Record<string, string> = {
+  none: '无模板排版',
+  empty: '空模板排版',
+  complete: '完整模板排版',
+};
+
+const PRESET_STYLE_LABELS: Record<string, string> = {
+  universal: '通用排版',
+  primary_low: '小学低年级护眼版',
+  primary_high: '小学高年级版',
+  junior: '初中通用版',
+  senior: '高中通用版',
+  exam: '模拟试卷版',
+  lecture: '专题讲义版',
+  essay: '作文范文版',
+  preserve: '保留原格式',
+};
+
 const SORT_OPTIONS: Array<{ value: TaskSort['by']; label: string }> = [
   { value: 'created_at', label: '创建时间' },
   { value: 'processing_time', label: '处理时长' },
@@ -310,7 +328,7 @@ export function TaskList() {
                         {formatDate(task.created_at)}
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                        {task.processing_time ? `${task.processing_time}秒` : '-'}
+                        {task.processing_time != null ? `${task.processing_time}秒` : '-'}
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                         <div className="flex justify-end space-x-2">
@@ -385,7 +403,7 @@ export function TaskList() {
 
         {/* 任务详情模态框 */}
         {selectedTask && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+          <div className="fixed inset-0 bg-gray-900/20 backdrop-blur-[2px] flex items-center justify-center z-50 p-4">
             <div className="bg-white rounded-lg shadow-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
               <div className="p-6">
                 <div className="flex justify-between items-start mb-4">
@@ -433,11 +451,11 @@ export function TaskList() {
                   <div className="grid grid-cols-2 gap-4">
                     <div>
                       <label className="block text-sm font-medium text-gray-500">排版模式</label>
-                      <p className="mt-1 text-sm text-gray-900">{selectedTask.layout_mode}</p>
+                      <p className="mt-1 text-sm text-gray-900">{LAYOUT_MODE_LABELS[selectedTask.layout_mode] || selectedTask.layout_mode || '-'}</p>
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-500">预设样式</label>
-                      <p className="mt-1 text-sm text-gray-900">{selectedTask.preset_style || '-'}</p>
+                      <p className="mt-1 text-sm text-gray-900">{PRESET_STYLE_LABELS[selectedTask.preset_style] || selectedTask.preset_style || '-'}</p>
                     </div>
                   </div>
 
@@ -463,7 +481,7 @@ export function TaskList() {
                       <div>
                         <label className="block text-sm font-medium text-gray-500">处理用时</label>
                         <p className="mt-1 text-sm text-gray-900">
-                          {selectedTask.processing_time ? `${selectedTask.processing_time}秒` : '-'}
+                          {selectedTask.processing_time != null ? `${selectedTask.processing_time}秒` : '-'}
                         </p>
                       </div>
                     </div>

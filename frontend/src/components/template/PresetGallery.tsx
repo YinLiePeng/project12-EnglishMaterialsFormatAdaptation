@@ -8,8 +8,12 @@ interface PresetGalleryProps {
   onChange: (style: string) => void;
 }
 
-// 预设样式分组
 const STYLE_GROUPS = [
+  {
+    title: '特殊方案',
+    description: '按原样保留文档格式',
+    styleIds: ['preserve'],
+  },
   {
     title: '通用方案',
     description: '适用于各类场景',
@@ -28,10 +32,7 @@ const STYLE_GROUPS = [
 ];
 
 export function PresetGallery({ presets, value, onChange }: PresetGalleryProps) {
-  // 创建预设样式映射
   const presetMap = new Map(presets.map((p) => [p.id, p]));
-
-  // 预览状态
   const [previewStyleId, setPreviewStyleId] = useState<string | null>(null);
 
   return (
@@ -47,6 +48,8 @@ export function PresetGallery({ presets, value, onChange }: PresetGalleryProps) 
               const preset = presetMap.get(styleId);
               if (!preset) return null;
 
+              const isPreserve = styleId === 'preserve';
+
               return (
                 <div
                   key={preset.id}
@@ -55,7 +58,11 @@ export function PresetGallery({ presets, value, onChange }: PresetGalleryProps) 
                     p-4 rounded-lg border-2 cursor-pointer transition-all
                     ${
                       value === preset.id
-                        ? 'border-blue-500 bg-blue-50 shadow-sm'
+                        ? isPreserve
+                          ? 'border-green-500 bg-green-50 shadow-sm'
+                          : 'border-blue-500 bg-blue-50 shadow-sm'
+                        : isPreserve
+                        ? 'border-green-200 hover:border-green-300 hover:bg-green-50/50'
                         : 'border-gray-200 hover:border-blue-300 hover:bg-gray-50'
                     }
                   `}
@@ -65,31 +72,41 @@ export function PresetGallery({ presets, value, onChange }: PresetGalleryProps) 
                       <div
                         className={`
                           w-4 h-4 rounded-full border-2 mr-2 mt-0.5 flex-shrink-0 flex items-center justify-center
-                          ${value === preset.id ? 'border-blue-500' : 'border-gray-300'}
+                          ${value === preset.id
+                            ? isPreserve ? 'border-green-500' : 'border-blue-500'
+                            : 'border-gray-300'}
                         `}
                       >
                         {value === preset.id && (
-                          <div className="w-2 h-2 rounded-full bg-blue-500" />
+                          <div className={`w-2 h-2 rounded-full ${isPreserve ? 'bg-green-500' : 'bg-blue-500'}`} />
                         )}
                       </div>
                       <div className="min-w-0">
-                        <h4 className="font-medium text-gray-900 text-sm truncate">
-                          {preset.name}
-                        </h4>
+                        <div className="flex items-center gap-1.5">
+                          {isPreserve && (
+                            <svg className="w-4 h-4 text-green-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                            </svg>
+                          )}
+                          <h4 className="font-medium text-gray-900 text-sm truncate">
+                            {preset.name}
+                          </h4>
+                        </div>
                         <p className="text-xs text-gray-500 mt-1 line-clamp-2">
                           {preset.description}
                         </p>
                       </div>
                     </div>
 
-                    {/* 预览按钮 */}
                     <button
                       onClick={(e) => {
                         e.stopPropagation();
                         setPreviewStyleId(preset.id);
                       }}
-                      className="ml-2 text-gray-400 hover:text-blue-600 transition-colors flex-shrink-0 p-1"
-                      title="查看样式预览"
+                      className={`ml-2 transition-colors flex-shrink-0 p-1 ${
+                        isPreserve ? 'text-green-400 hover:text-green-600' : 'text-gray-400 hover:text-blue-600'
+                      }`}
+                      title="查看详情"
                     >
                       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -104,7 +121,6 @@ export function PresetGallery({ presets, value, onChange }: PresetGalleryProps) 
         </div>
       ))}
 
-      {/* 预览抽屉 */}
       <StylePreviewDrawer
         isOpen={previewStyleId !== null}
         onClose={() => setPreviewStyleId(null)}

@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, DateTime, Text, Index
+from sqlalchemy import Column, Integer, String, DateTime, Text, Float, Index
 from datetime import datetime
 import uuid
 from ..core.database import Base
@@ -46,7 +46,7 @@ class Task(Base):
     output_filename = Column(String(255))
     output_file_path = Column(String(500))
     output_expire_at = Column(DateTime)
-    processing_time = Column(Integer)  # 处理时长(秒)
+    processing_time = Column(Float)  # 处理时长(秒)
 
     # 错误信息
     error_message = Column(Text)

@@ -11,6 +11,8 @@ export interface PresetStyle {
   name: string;
   description: string;
   config?: StyleConfig;
+  preserve_format?: boolean;
+  category?: string;
 }
 
 /** 样式配置 */
@@ -72,6 +74,23 @@ export interface StyleElement {
   };
 }
 
+/** 段落原始样式（从原文档提取） */
+export interface OriginalStyle {
+  font_name: string;
+  font_size: number;
+  font_bold: boolean;
+  font_italic: boolean;
+  font_underline: boolean;
+  font_color: string;
+  alignment: string;
+  line_spacing: number | null;
+  line_spacing_rule: string | null;
+  space_before: number | null;
+  space_after: number | null;
+  first_line_indent: number | null;
+  left_indent: number | null;
+}
+
 /** 样式详情 */
 export interface AppliedStyle {
   key: string;
@@ -81,13 +100,17 @@ export interface AppliedStyle {
     size: number;
     bold: boolean;
     color?: string;
+    italic?: boolean;
+    underline?: boolean;
   };
   format: {
     alignment: string;
     line_spacing: number;
+    line_spacing_rule?: string | null;
     space_before?: number;
     space_after?: number;
     first_line_indent?: number;
+    left_indent?: number;
   };
 }
 
@@ -98,6 +121,7 @@ export interface ParagraphStructure {
   content_type: string;
   content_type_name: string;
   confidence: number;
+  original_style: OriginalStyle;
   applied_style: AppliedStyle;
   reason?: string;
 }
@@ -105,6 +129,7 @@ export interface ParagraphStructure {
 /** 文章结构分析 */
 export interface StructureAnalysis {
   method: 'rule_engine' | 'llm';
+  style_map?: Record<string, AppliedStyle>;
   overall_confidence: number;
   paragraphs: ParagraphStructure[];
   summary?: string;

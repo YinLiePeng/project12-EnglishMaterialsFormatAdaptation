@@ -717,17 +717,16 @@ async def llm_stream(task_id: str):
                     t.status = "completed"
                     t.output_file_path = output_path
                     t.output_filename = Path(output_path).name
+                    if t.started_at:
+                        processing_time = round(
+                            (datetime.now() - t.started_at).total_seconds(), 1
+                        )
                     t.processing_time = processing_time
                     t.output_expire_at = datetime.now() + timedelta(
                         hours=settings.TEMP_EXPIRE_HOURS
                     )
                     t.structure_analysis = json.dumps(formatted, ensure_ascii=False)
                     t.completed_at = datetime.now()
-                    if t.started_at:
-                        processing_time = int(
-                            (datetime.now() - t.started_at).total_seconds()
-                        )
-                        t.processing_time = processing_time
                     await db.commit()
 
             yield _sse_event(

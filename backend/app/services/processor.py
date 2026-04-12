@@ -19,8 +19,9 @@ from .docx import (
     ParagraphInfo,
 )
 from .docx.parser import ContentElement, ElementType
+from .docx.format_auditor import format_auditor
 from .exception_handler import exception_handler, AppException, ExceptionType
-from ..core.presets.styles import get_preset_style, get_style_mapping
+from ..core.presets.styles import get_preset_style, get_style_mapping, is_preserve_style
 from .structure_formatter import structure_formatter
 from ..models.task import Task
 from ..core.database import AsyncSessionLocal
@@ -131,32 +132,25 @@ class DocumentProcessor:
             para_dicts, use_llm, preset_style
         )
 
-        style_mapping = get_style_mapping(get_preset_style(preset_style or "universal"))
-        style_keys = self._build_style_keys(structures)
-
-        output_path = self._get_output_path(template_file_path, original_filename)
-        marker = "{{CONTENT}}"
-        generator = DocxGenerator(template_file_path)
-        generator.fill_template_from_elements(
-            elements, marker, style_mapping, style_keys
-        )
-        generator.save(output_path)
-
-        await self._save_structure_analysis(
-            structures,
-            para_dicts,
-            style_mapping,
-            task_id,
-            "llm" if use_llm else "rule_engine",
-        )
-
-        style_mapping = get_style_mapping(get_preset_style(preset_style or "universal"))
-        style_keys = self._build_style_keys(structures)
+        preserve = is_preserve_style(preset_style or "")
+        if preserve:
+            style_mapping = {}
+            style_keys = self._build_style_keys(structures)
+        else:
+            style_mapping = get_style_mapping(
+                get_preset_style(preset_style or "universal")
+            )
+            style_keys = self._build_style_keys(structures)
 
         output_path = self._get_output_path(input_file_path, original_filename)
         generator = DocxGenerator()
-        generator.generate_from_elements(elements, style_mapping, style_keys)
+        generator.generate_from_elements(
+            elements, style_mapping, style_keys, preserve_format=preserve
+        )
         generator.save(output_path)
+
+        if preserve:
+            format_auditor.audit_and_correct(output_path, elements)
 
         method = "llm" if use_llm else "rule_engine"
         await self._save_structure_analysis(
@@ -182,17 +176,27 @@ class DocumentProcessor:
             para_dicts, use_llm, preset_style
         )
 
-        style_mapping = get_style_mapping(get_preset_style(preset_style or "universal"))
-        style_keys = self._build_style_keys(structures)
+        preserve = is_preserve_style(preset_style or "")
+        if preserve:
+            style_mapping = {}
+            style_keys = self._build_style_keys(structures)
+        else:
+            style_mapping = get_style_mapping(
+                get_preset_style(preset_style or "universal")
+            )
+            style_keys = self._build_style_keys(structures)
 
         marker = "{{CONTENT}}"
         output_path = self._get_output_path(template_file_path, original_filename)
 
         generator = DocxGenerator(template_file_path)
         generator.fill_template_from_elements(
-            elements, marker, style_mapping, style_keys
+            elements, marker, style_mapping, style_keys, preserve_format=preserve
         )
         generator.save(output_path)
+
+        if preserve:
+            format_auditor.audit_and_correct(output_path, elements)
 
         await self._save_structure_analysis(
             structures,
@@ -267,7 +271,7 @@ class DocumentProcessor:
 
     @staticmethod
     def _extract_para_dicts(elements: List[ContentElement]) -> List[Dict[str, Any]]:
-        """从内容元素列表中提取段落信息字典列表（供结构识别用）"""
+        """从内容元素列表中提取段落信息字典列表（供结构识别和预览用）"""
         result = []
         for e in elements:
             if e.element_type == ElementType.PARAGRAPH and e.paragraph:
@@ -275,9 +279,19 @@ class DocumentProcessor:
                 result.append(
                     {
                         "text": p.text,
+                        "font_name": p.font.name,
                         "font_size": p.font.size,
                         "font_bold": p.font.bold,
+                        "font_italic": p.font.italic,
+                        "font_underline": p.font.underline,
+                        "font_color": p.font.color,
                         "alignment": p.format.alignment,
+                        "line_spacing": p.format.line_spacing,
+                        "line_spacing_rule": p.format.line_spacing_rule,
+                        "space_before": p.format.space_before,
+                        "space_after": p.format.space_after,
+                        "first_line_indent": p.format.first_line_indent,
+                        "left_indent": p.format.left_indent,
                     }
                 )
         return result
@@ -370,11 +384,21 @@ class DocumentProcessor:
                     text=pd.get("text", ""),
                     style_name="Normal",
                     font=FontInfo(
+                        name=pd.get("font_name", "宋体"),
                         size=pd.get("font_size", 12.0),
                         bold=pd.get("font_bold", False),
+                        italic=pd.get("font_italic", False),
+                        underline=pd.get("font_underline", False),
+                        color=pd.get("font_color", "000000"),
                     ),
                     format=ParagraphFormat(
                         alignment=pd.get("alignment", "left"),
+                        line_spacing=pd.get("line_spacing"),
+                        line_spacing_rule=pd.get("line_spacing_rule"),
+                        space_before=pd.get("space_before"),
+                        space_after=pd.get("space_after"),
+                        first_line_indent=pd.get("first_line_indent"),
+                        left_indent=pd.get("left_indent"),
                     ),
                 )
             )
