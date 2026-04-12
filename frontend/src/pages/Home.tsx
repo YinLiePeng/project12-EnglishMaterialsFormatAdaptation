@@ -1,15 +1,71 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FileDropzone } from '../components/upload/FileDropzone';
 import { ModeSelector } from '../components/template/ModeSelector';
 import { PresetGallery } from '../components/template/PresetGallery';
+import { StylePreviewDrawer } from '../components/template/StylePreviewDrawer';
 import { Button } from '../components/common/Button';
 import { useUploadStore } from '../store/uploadStore';
 import { getPresetStyles, uploadFile } from '../services/api';
+import { useToast } from '../contexts/ToastContext';
 import type { PresetStyle } from '../types';
+
+const FEATURE_OPTIONS = [
+  {
+    id: 'cleaning',
+    title: '内容清洗',
+    description: '自动清除广告、水印、URL等垃圾内容',
+    detail: '采用「规则过滤为主，大模型校验为辅」的双层安全机制。第一层通过确定性规则批量过滤格式特征明确的垃圾内容（网站广告、水印文字、二维码转译文本、免责声明、版权标注、无关网址、乱码字符等），无任何误删风险；第二层通过大模型做语义层面的二次校验，识别规则无法覆盖的隐性垃圾内容，同时严格规避有效教学内容的误删。',
+  },
+  {
+    id: 'correction',
+    title: '内容纠错',
+    description: '自动修正标点混用、多余空格等问题',
+    detail: '遵循「安全优先、权责清晰」原则，严格区分自动修正与标注预警。仅对无歧义的基础错误进行自动修正（拼写错误、中英文标点全角半角不规范、多余空格与换行符、乱码字符、音标显示异常等），全部修正内容在最终文档中以 Word 修订模式留痕。对于可能影响原题题意的内容，仅做标注预警，不自动修改，最终决定权完全交给教师。',
+  },
+  {
+    id: 'llm',
+    title: '大模型语义识别',
+    description: '调用DeepSeek进行语义分析，提高识别准确率',
+    detail: '启用后，系统将调用大语言模型对原始资料进行语义层面的结构识别与内容理解，显著提升对复杂排版、非标准格式的识别准确率。大模型仅输出标准化结构化指令，不直接控制格式参数。启用后处理时间会有所增加。',
+  },
+];
+
+function InfoPopover({ content }: { content: string }) {
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!open) return;
+    const handler = (e: MouseEvent) => {
+      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
+    };
+    document.addEventListener('mousedown', handler);
+    return () => document.removeEventListener('mousedown', handler);
+  }, [open]);
+
+  return (
+    <div className="relative inline-block" ref={ref}>
+      <button
+        onClick={(e) => { e.preventDefault(); e.stopPropagation(); setOpen(!open); }}
+        className="w-4 h-4 rounded-full inline-flex items-center justify-center text-gray-300 hover:text-blue-500 hover:bg-blue-50 transition-colors flex-shrink-0"
+      >
+        <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </button>
+      {open && (
+        <div className="absolute left-0 top-full mt-1.5 w-72 p-3 bg-white rounded-lg shadow-lg border border-gray-100 text-xs text-gray-600 leading-relaxed z-50">
+          {content}
+        </div>
+      )}
+    </div>
+  );
+}
 
 export function Home() {
   const navigate = useNavigate();
+  const { showToast } = useToast();
   const {
     file,
     template,
@@ -24,36 +80,39 @@ export function Home() {
 
   const [presets, setPresets] = useState<PresetStyle[]>([]);
   const [uploading, setUploading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
   const [useLLM, setUseLLM] = useState(false);
   const [enableCleaning, setEnableCleaning] = useState(false);
   const [enableCorrection, setEnableCorrection] = useState(false);
+  const [previewStyleId, setPreviewStyleId] = useState<string | null>(null);
 
-  // 获取预设样式
+  const isPreserve = presetStyle === 'preserve';
+
+  useEffect(() => {
+    if (isPreserve) setUseLLM(false);
+  }, [isPreserve]);
+
   useEffect(() => {
     getPresetStyles()
       .then(setPresets)
       .catch(() => setPresets([]));
   }, []);
 
-  // 开始处理
   const handleStart = async () => {
     if (!file) {
-      setError('请先上传文件');
+      showToast('请先上传文件', 'error');
       return;
     }
 
     if (layoutMode === 'empty' && !template) {
-      setError('空模板模式需要上传模板文件');
+      showToast('空模板模式需要上传模板文件', 'error');
       return;
     }
 
     if (layoutMode === 'complete' && !template) {
-      setError('完整模板模式需要上传模板文件');
+      showToast('完整模板模式需要上传模板文件', 'error');
       return;
     }
 
-    setError(null);
     setUploading(true);
 
     try {
@@ -70,171 +129,134 @@ export function Home() {
       setCurrentTaskId(result.task_id);
       navigate('/process');
     } catch (err: unknown) {
-      const error = err as { response?: { data?: { message?: string } } };
-      setError(error.response?.data?.message || '上传失败，请重试');
+      const apiError = err as { response?: { data?: { message?: string } } };
+      showToast(apiError.response?.data?.message || '上传失败，请重试', 'error');
     } finally {
       setUploading(false);
     }
   };
 
+  const featureStateMap: Record<string, { checked: boolean; onChange: (v: boolean) => void; disabled?: boolean }> = {
+    cleaning: { checked: enableCleaning, onChange: setEnableCleaning },
+    correction: { checked: enableCorrection, onChange: setEnableCorrection },
+    llm: { checked: useLLM, onChange: setUseLLM, disabled: isPreserve },
+  };
+
   return (
-    <div className="min-h-screen bg-gray-50 py-8">
-      <div className="max-w-4xl mx-auto px-4">
-        {/* 标题 */}
-        <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold text-gray-900">
-            英语教学资料智能格式适配工具
-          </h1>
-          <p className="text-gray-500 mt-2">
-            一站式解决教学资料的智能清洗、格式迁移适配、分级内容纠错
-          </p>
-        </div>
-
-        {/* 步骤1：上传文件 */}
-        <div className="bg-white rounded-lg shadow-sm p-6 mb-6">
-          <h2 className="text-lg font-medium text-gray-900 mb-4">
-            步骤1：上传原始教学资料
-          </h2>
-          <FileDropzone onFileSelect={setFile} />
-          {file && (
-            <div className="mt-3 flex items-center text-sm text-green-600">
-              <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
-                <path
-                  fillRule="evenodd"
-                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              已选择：{file.name}
-            </div>
-          )}
-        </div>
-
-        {/* 步骤2：选择排版模式 */}
-        <div className="bg-white rounded-lg shadow-sm p-6 mb-6">
-          <h2 className="text-lg font-medium text-gray-900 mb-4">
-            步骤2：选择排版模式
-          </h2>
-          <ModeSelector value={layoutMode} onChange={setLayoutMode} />
-
-          {/* 空模板或完整模板需要上传模板 */}
-          {(layoutMode === 'empty' || layoutMode === 'complete') && (
-            <div className="mt-4 p-4 bg-gray-50 rounded-lg">
-              <h3 className="text-sm font-medium text-gray-700 mb-2">
-                上传{layoutMode === 'empty' ? '空模板' : '完整模板'}文件
-              </h3>
-              <FileDropzone onFileSelect={setTemplate} />
-              {template && (
-                <div className="mt-2 text-sm text-green-600">
-                  已选择：{template.name}
-                </div>
-              )}
-            </div>
-          )}
-        </div>
-
-        {/* 步骤3：选择预设样式（仅无模板模式） */}
-        {layoutMode !== 'complete' && (
-          <div className="bg-white rounded-lg shadow-sm p-6 mb-6">
-            <h2 className="text-lg font-medium text-gray-900 mb-4">
-              步骤3：选择排版样式
+    <>
+      <div className="max-w-5xl mx-auto px-4 py-4">
+        <div className="space-y-2.5">
+          {/* 步骤1：上传文件 */}
+          <div className="bg-white rounded-lg shadow-sm p-3">
+            <h2 className="text-sm font-medium text-gray-900 mb-2 flex items-center gap-2">
+              <span className="w-5 h-5 rounded-full bg-blue-600 text-white text-xs flex items-center justify-center">1</span>
+              上传原始教学资料
             </h2>
-            <PresetGallery
-              presets={presets}
-              value={presetStyle}
-              onChange={setPresetStyle}
-            />
+            <FileDropzone file={file} onClear={() => setFile(null)} onFileSelect={setFile} />
+          </div>
 
-            {/* 处理选项 */}
-            <div className="mt-6 pt-4 border-t border-gray-200 space-y-4">
-              {/* 内容清洗选项 */}
-              <label className="flex items-start cursor-pointer">
-                <input
-                  type="checkbox"
-                  checked={enableCleaning}
-                  onChange={(e) => setEnableCleaning(e.target.checked)}
-                  className="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500 mt-0.5"
-                />
-                <div className="ml-3">
-                  <span className="text-sm font-medium text-gray-700">
-                    内容清洗（可选）
-                  </span>
-                  <p className="text-xs text-gray-500 mt-1">
-                    自动清除广告、水印、URL等垃圾内容，保留有效教学内容。
-                  </p>
-                </div>
-              </label>
+          {/* 步骤2：选择排版模式 */}
+          <div className="bg-white rounded-lg shadow-sm p-3">
+            <h2 className="text-sm font-medium text-gray-900 mb-2 flex items-center gap-2">
+              <span className="w-5 h-5 rounded-full bg-blue-600 text-white text-xs flex items-center justify-center">2</span>
+              选择排版模式
+            </h2>
+            <ModeSelector value={layoutMode} onChange={setLayoutMode} />
 
-              {/* 内容纠错选项 */}
-              <label className="flex items-start cursor-pointer">
-                <input
-                  type="checkbox"
-                  checked={enableCorrection}
-                  onChange={(e) => setEnableCorrection(e.target.checked)}
-                  className="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500 mt-0.5"
-                />
-                <div className="ml-3">
-                  <span className="text-sm font-medium text-gray-700">
-                    内容纠错（可选）
-                  </span>
-                  <p className="text-xs text-gray-500 mt-1">
-                    自动修正标点混用、多余空格等问题，拼写错误仅标注不自动修改。
-                  </p>
-                </div>
-              </label>
+            {(layoutMode === 'empty' || layoutMode === 'complete') && (
+              <div className="mt-2 p-2.5 bg-gray-50 rounded-lg">
+                <FileDropzone file={template} onClear={() => setTemplate(null)} onFileSelect={setTemplate} />
+              </div>
+            )}
+          </div>
 
-              {/* 大模型选项 */}
-              <label className="flex items-start cursor-pointer">
-                <input
-                  type="checkbox"
-                  checked={useLLM}
-                  onChange={(e) => setUseLLM(e.target.checked)}
-                  className="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500 mt-0.5"
-                />
-                <div className="ml-3">
-                  <span className="text-sm font-medium text-gray-700">
-                    启用大模型语义识别（可选）
-                  </span>
-                  <p className="text-xs text-gray-500 mt-1">
-                    对于格式特征不明显的段落，调用DeepSeek大模型进行语义分析，提高识别准确率。
-                    <span className="text-orange-500"> 启用后可能增加处理时间。</span>
-                  </p>
-                </div>
-              </label>
+          {/* 步骤3：选择排版样式（仅非完整模板模式） */}
+          {layoutMode !== 'complete' && (
+            <div className="bg-white rounded-lg shadow-sm p-3">
+              <h2 className="text-sm font-medium text-gray-900 mb-2 flex items-center gap-2">
+                <span className="w-5 h-5 rounded-full bg-blue-600 text-white text-xs flex items-center justify-center">3</span>
+                选择排版样式
+              </h2>
+              <PresetGallery
+                presets={presets}
+                value={presetStyle}
+                onChange={setPresetStyle}
+                onPreview={(styleId) => setPreviewStyleId(styleId)}
+              />
+            </div>
+          )}
+
+          {/* 步骤4：功能选项（可选） */}
+          <div className="bg-white rounded-lg shadow-sm p-3">
+            <h2 className="text-sm font-medium text-gray-900 mb-2.5 flex items-center gap-2">
+              <span className="w-5 h-5 rounded-full bg-blue-600 text-white text-xs flex items-center justify-center">
+                {layoutMode === 'complete' ? '3' : '4'}
+              </span>
+              功能选项
+              <span className="text-xs text-gray-400 font-normal">（可选，按需勾选）</span>
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+              {FEATURE_OPTIONS.map((feature) => {
+                const state = featureStateMap[feature.id];
+                return (
+                  <label
+                    key={feature.id}
+                    className={`flex items-start gap-2.5 p-3 rounded-lg border-2 transition-all ${
+                      state.disabled
+                        ? 'border-gray-100 bg-gray-50/50 opacity-50 cursor-not-allowed'
+                        : state.checked
+                          ? 'border-blue-500 bg-blue-50/50 cursor-pointer'
+                          : 'border-gray-100 hover:border-gray-200 cursor-pointer'
+                    }`}
+                  >
+                    <input
+                      type="checkbox"
+                      checked={state.checked}
+                      onChange={(e) => state.onChange(e.target.checked)}
+                      disabled={state.disabled}
+                      className="w-4 h-4 text-blue-600 rounded border-gray-300 focus:ring-blue-500 mt-0.5"
+                    />
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-1.5">
+                        <span className="text-sm font-medium text-gray-900">{feature.title}</span>
+                        <InfoPopover content={feature.detail} />
+                      </div>
+                      <p className="text-xs text-gray-500 mt-0.5">{feature.description}</p>
+                      {feature.id === 'llm' && !state.disabled && (
+                        <p className="text-xs text-orange-500 mt-1">启用后可能增加处理时间</p>
+                      )}
+                      {feature.id === 'llm' && state.disabled && (
+                        <p className="text-xs text-gray-400 mt-1">保留原格式下不需要</p>
+                      )}
+                    </div>
+                  </label>
+                );
+              })}
             </div>
           </div>
-        )}
 
-        {/* 错误提示 */}
-        {error && (
-          <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg text-red-600">
-            {error}
-          </div>
-        )}
-
-        {/* 开始按钮 */}
-        <div className="flex justify-center">
+          {/* 开始按钮 */}
           <Button
             size="lg"
             onClick={handleStart}
             loading={uploading}
-            disabled={!file}
+            className="w-full"
           >
             开始处理
           </Button>
         </div>
-
-        {/* 快速开始说明 */}
-        <div className="mt-8 p-4 bg-blue-50 rounded-lg">
-          <h3 className="text-sm font-medium text-blue-800 mb-2">快速开始</h3>
-          <ol className="text-sm text-blue-700 space-y-1">
-            <li>1. 上传原始教学资料（支持DOCX格式）</li>
-            <li>2. 选择排版模式（无模板/空模板/完整模板）</li>
-            <li>3. 选择排版样式</li>
-            <li>4. 点击开始处理，等待完成</li>
-          </ol>
-        </div>
       </div>
-    </div>
+
+      <StylePreviewDrawer
+        isOpen={previewStyleId !== null}
+        onClose={() => setPreviewStyleId(null)}
+        styleId={previewStyleId || ''}
+        styles={presets}
+        onApply={(styleId) => {
+          setPresetStyle(styleId);
+          setPreviewStyleId(null);
+        }}
+      />
+    </>
   );
 }

@@ -2,8 +2,9 @@ import { useState, useCallback, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useUploadStore } from '../store/uploadStore';
 import { useTaskPolling } from '../hooks/useTaskPolling';
-import { connectLLMStream, getTaskStatus, getDownloadUrl } from '../services/api';
+import { connectLLMStream, getTaskStatus, getDownloadUrl, cancelTask } from '../services/api';
 import { Button } from '../components/common/Button';
+import { EmptyState } from '../components/common/EmptyState';
 import type { TaskStatus, SSEProgressEvent, SSEAnalysisEvent, SSEDoneEvent, SSEErrorEvent } from '../types';
 
 const STAGES = [
@@ -155,10 +156,10 @@ export function Process() {
   if (!currentTaskId) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
-        <div className="text-center">
-          <p className="text-gray-500 mb-4">没有正在进行的任务</p>
-          <Button onClick={() => navigate('/')}>返回首页</Button>
-        </div>
+        <EmptyState
+          title="没有正在进行的任务"
+          action={{ label: '返回首页', onClick: () => navigate('/') }}
+        />
       </div>
     );
   }
@@ -313,17 +314,21 @@ export function Process() {
           <div className="flex justify-center space-x-4">
             {isCompleted ? (
               <>
-                <a
-                  href={getDownloadUrl(currentTaskId)}
-                  download={taskStatus?.output_filename || 'formatted.docx'}
-                  className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+                <Button
+                  size="lg"
+                  onClick={() => {
+                    const a = document.createElement('a');
+                    a.href = getDownloadUrl(currentTaskId);
+                    a.download = taskStatus?.output_filename || 'formatted.docx';
+                    a.click();
+                  }}
                 >
                   <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                   </svg>
                   下载文件
-                </a>
-                <Button variant="outline" onClick={() => navigate(`/preview/${currentTaskId}`)}>
+                </Button>
+                <Button variant="outline" size="lg" onClick={() => navigate(`/preview/${currentTaskId}`)}>
                   查看解析预览
                 </Button>
                 <Button variant="outline" onClick={() => { reset(); navigate('/'); }}>
@@ -332,14 +337,19 @@ export function Process() {
               </>
             ) : isFailed ? (
               <>
-                <Button variant="outline" onClick={() => navigate('/')}>
+                <Button onClick={() => { reset(); navigate('/'); }}>
                   重新上传
                 </Button>
-                <Button onClick={() => navigate('/')}>返回首页</Button>
+                <Button variant="outline" onClick={() => navigate('/tasks')}>
+                  查看任务列表
+                </Button>
               </>
             ) : (
-              <Button variant="outline" onClick={() => {
+              <Button variant="outline" onClick={async () => {
                 eventSourceRef.current?.close();
+                if (currentTaskId) {
+                  try { await cancelTask(currentTaskId); } catch {}
+                }
                 navigate('/');
               }}>
                 取消并返回

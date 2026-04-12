@@ -3,76 +3,14 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { getTaskStatus, quickCorrection, aiRecognize, regenerateDocument } from '../services/api';
 import { Button } from '../components/common/Button';
 import { CorrectionPreviewModal } from '../components/CorrectionPreviewModal';
+import { useToast } from '../contexts/ToastContext';
+import { ConfirmDialog } from '../components/common/ConfirmDialog';
+import { CONTENT_TYPE_HIGHLIGHT, CONTENT_TYPE_NAMES, formatStyleSummary } from '../constants/contentTypes';
 import { mapFontName, mapLineSpacing, indentToEm, ptToPx } from '../utils/styleMapping';
 import type { StructureAnalysis, TaskStatus, ParagraphEdit, CorrectionChange } from '../types';
-
-const CONTENT_TYPE_COLORS: Record<string, string> = {
-  title: 'bg-purple-100 text-purple-800 border-purple-300',
-  heading: 'bg-indigo-100 text-indigo-800 border-indigo-300',
-  question_number: 'bg-blue-100 text-blue-800 border-blue-300',
-  option: 'bg-green-100 text-green-800 border-green-300',
-  body: 'bg-gray-100 text-gray-800 border-gray-300',
-  answer: 'bg-yellow-100 text-yellow-800 border-yellow-300',
-  analysis: 'bg-orange-100 text-orange-800 border-orange-300',
-};
-
-const CONTENT_TYPE_HIGHLIGHT: Record<string, string> = {
-  title: 'ring-2 ring-purple-400 bg-purple-50',
-  heading: 'ring-2 ring-indigo-400 bg-indigo-50',
-  question_number: 'ring-2 ring-blue-400 bg-blue-50',
-  option: 'ring-2 ring-green-400 bg-green-50',
-  body: 'ring-2 ring-gray-400 bg-gray-50',
-  answer: 'ring-2 ring-yellow-400 bg-yellow-50',
-  analysis: 'ring-2 ring-orange-400 bg-orange-50',
-};
-
-const CONTENT_TYPE_OPTIONS = [
-  { value: 'title', label: '主标题' },
-  { value: 'heading', label: '子标题' },
-  { value: 'question_number', label: '题号' },
-  { value: 'option', label: '选项' },
-  { value: 'body', label: '正文' },
-  { value: 'answer', label: '答案' },
-  { value: 'analysis', label: '解析' },
-];
-
-const CONTENT_TYPE_NAMES: Record<string, string> = {
-  title: '主标题',
-  heading: '子标题',
-  question_number: '题号',
-  option: '选项',
-  body: '正文',
-  answer: '答案',
-  analysis: '解析',
-};
-
-const ALIGNMENT_LABELS: Record<string, string> = {
-  left: '左对齐',
-  center: '居中',
-  right: '右对齐',
-  justify: '两端对齐',
-};
-
-function formatStyleSummary(style: any): string {
-  if (!style) return '';
-  const parts: string[] = [];
-  const font = style.font;
-  const fmt = style.format;
-
-  if (font?.name) parts.push(font.name);
-  if (font?.size) parts.push(`${font.size}pt`);
-  if (font?.bold) parts.push('加粗');
-  if (font?.italic) parts.push('斜体');
-  if (font?.underline) parts.push('下划线');
-  if (fmt?.alignment) parts.push(ALIGNMENT_LABELS[fmt.alignment] || fmt.alignment);
-  if (fmt?.line_spacing) parts.push(`行距:${fmt.line_spacing}${fmt.line_spacing_rule === 'exact' ? 'pt固定' : '倍'}`);
-  if (fmt?.first_line_indent && fmt.first_line_indent > 0) parts.push(`首行缩进:${fmt.first_line_indent}字符`);
-  if (fmt?.left_indent && fmt.left_indent > 0) parts.push(`左缩进:${fmt.left_indent}`);
-  if (fmt?.space_before && fmt.space_before > 0) parts.push(`段前:${fmt.space_before}pt`);
-  if (fmt?.space_after && fmt.space_after > 0) parts.push(`段后:${fmt.space_after}pt`);
-
-  return parts.join(' ');
-}
+import { UnsatisfiedPanel } from '../components/preview/UnsatisfiedPanel';
+import { AIFeedbackModal } from '../components/preview/AIFeedbackModal';
+import { TypeSelector } from '../components/preview/TypeSelector';
 
 function buildTypeStyleMap(paragraphs: any[]): Record<string, any> {
   const map: Record<string, any> = {};
@@ -88,6 +26,8 @@ function buildTypeStyleMap(paragraphs: any[]): Record<string, any> {
 export function DocumentPreview() {
   const { taskId } = useParams<{ taskId: string }>();
   const navigate = useNavigate();
+  const { showToast } = useToast();
+  const [exitConfirmOpen, setExitConfirmOpen] = useState(false);
   const [taskStatus, setTaskStatus] = useState<TaskStatus | null>(null);
   const [analysis, setAnalysis] = useState<StructureAnalysis | null>(null);
   const [loading, setLoading] = useState(true);
@@ -103,6 +43,7 @@ export function DocumentPreview() {
 
   const [showAIModal, setShowAIModal] = useState(false);
   const [aiFeedback, setAiFeedback] = useState('');
+  const [mobileTab, setMobileTab] = useState<'left' | 'right'>('left');
 
   const leftPanelRef = useRef<HTMLDivElement>(null);
   const rightPanelRef = useRef<HTMLDivElement>(null);
@@ -200,9 +141,19 @@ export function DocumentPreview() {
 
   const handleExitEditMode = () => {
     if (edits.length > 0) {
-      const ok = window.confirm(`您有 ${edits.length} 处未保存的修改，确定要退出吗？`);
-      if (!ok) return;
+      setExitConfirmOpen(true);
+      return;
     }
+    setCorrectionMode(null);
+    setEdits([]);
+    setShowTypeSelector(null);
+    setShowAIModal(false);
+    setAiFeedback('');
+    setShowChoicePanel(false);
+  };
+
+  const handleExitConfirm = () => {
+    setExitConfirmOpen(false);
     setCorrectionMode(null);
     setEdits([]);
     setShowTypeSelector(null);
@@ -213,7 +164,7 @@ export function DocumentPreview() {
 
   const handleUnsatisfied = () => {
     if (taskStatus?.preset_style === 'preserve') {
-      alert('此模式下不支持修改。如有需要，下载文档后自行修改更为便捷哦~');
+      showToast('此模式下不支持修改。如有需要，下载文档后自行修改更为便捷哦~', 'info');
       return;
     }
     setShowChoicePanel(true);
@@ -255,7 +206,7 @@ export function DocumentPreview() {
       }
     } catch (error) {
       console.error('快速修正失败:', error);
-      alert('修正失败，请重试');
+      showToast('修正失败，请重试', 'error');
     }
   };
 
@@ -282,7 +233,7 @@ export function DocumentPreview() {
 
       const changes = previewResponse.changes || [];
       if (changes.length === 0) {
-        alert('AI 认为当前识别结果已经准确，无需修改。');
+        showToast('AI 认为当前识别结果已经准确，无需修改。', 'info');
         return;
       }
 
@@ -291,7 +242,7 @@ export function DocumentPreview() {
       setShowPreviewModal(true);
     } catch (error) {
       console.error('AI识别失败:', error);
-      alert('AI识别失败，请重试');
+      showToast('AI识别失败，请重试', 'error');
     } finally {
       setIsRecognizing(false);
     }
@@ -314,16 +265,17 @@ export function DocumentPreview() {
       await handleRegenerate();
     } catch (error) {
       console.error('应用修正失败:', error);
-      alert('应用失败，请重试');
+      showToast('应用失败，请重试', 'error');
     }
   };
 
   const handleRegenerate = async () => {
     try {
       await regenerateDocument(taskId!);
-      alert('文档已重新生成，请下载新版本');
+      showToast('文档已重新生成，请下载新版本', 'success');
     } catch (error) {
       console.error('重新生成失败:', error);
+      showToast('重新生成失败', 'error');
     }
   };
 
@@ -400,7 +352,7 @@ export function DocumentPreview() {
               ← 返回
             </Button>
             <div>
-              <h1 className="text-base font-semibold text-gray-900">📄 文档解析预览</h1>
+              <h1 className="text-base font-semibold text-gray-900">文档解析预览</h1>
               <p className="text-xs text-gray-500 truncate max-w-md">
                 {taskStatus?.input_filename}
               </p>
@@ -495,9 +447,25 @@ export function DocumentPreview() {
 
       {/* 双栏内容 */}
       <div className={`max-w-screen-2xl mx-auto px-2 py-3 ${!isEditMode && !showChoicePanel ? 'pt-0' : ''}`}>
+        {/* 移动端Tab切换 */}
+        <div className="flex lg:hidden mb-2 bg-white rounded-lg shadow-sm overflow-hidden">
+          <button
+            onClick={() => setMobileTab('left')}
+            className={`flex-1 py-2 text-sm font-medium text-center transition-colors ${mobileTab === 'left' ? 'bg-blue-50 text-blue-600 border-b-2 border-blue-600' : 'text-gray-500'}`}
+          >
+            原文档
+          </button>
+          <button
+            onClick={() => setMobileTab('right')}
+            className={`flex-1 py-2 text-sm font-medium text-center transition-colors ${mobileTab === 'right' ? 'bg-blue-50 text-blue-600 border-b-2 border-blue-600' : 'text-gray-500'}`}
+          >
+            处理后
+          </button>
+        </div>
+
         <div className="flex gap-4" style={{ height: isEditMode ? 'calc(100vh - 140px)' : showChoicePanel ? 'calc(100vh - 250px)' : 'calc(100vh - 120px)' }}>
           {/* 左栏：原文档预览 */}
-          <div className="flex-1 overflow-hidden flex flex-col">
+          <div className={`flex-1 overflow-hidden flex flex-col ${mobileTab !== 'left' ? 'hidden lg:flex' : ''}`}>
             <div className="bg-white rounded-lg shadow-sm flex-1 overflow-hidden flex flex-col">
               <div className="px-3 py-2 border-b bg-gray-50">
                 <h2 className="text-sm font-medium text-gray-700">📄 原文档（处理前）</h2>
@@ -553,7 +521,7 @@ export function DocumentPreview() {
           </div>
 
           {/* 右栏：处理后文档预览 */}
-          <div className="flex-1 overflow-hidden flex flex-col">
+          <div className={`flex-1 overflow-hidden flex flex-col ${mobileTab !== 'right' ? 'hidden lg:flex' : ''}`}>
             <div className="bg-white rounded-lg shadow-sm flex-1 overflow-hidden flex flex-col">
               <div className="px-3 py-2 border-b bg-gray-50">
                 <h2 className="text-sm font-medium text-gray-700">
@@ -678,183 +646,17 @@ export function DocumentPreview() {
           onCancel={() => setShowPreviewModal(false)}
         />
       )}
-    </div>
-  );
-}
 
-function UnsatisfiedPanel({ onSelectDirect, onSelectAI, onCancel }: {
-  onSelectDirect: () => void;
-  onSelectAI: () => void;
-  onCancel: () => void;
-}) {
-  return (
-    <div className="bg-white border-b">
-      <div className="max-w-screen-2xl mx-auto px-2 py-4 relative">
-        <button
-          onClick={onCancel}
-          className="absolute top-3 right-4 text-gray-400 hover:text-gray-600 text-lg"
-        >
-          ✕
-        </button>
-        <p className="text-sm text-gray-600 mb-3 text-center">
-          请选择修改方式：
-        </p>
-        <div className="flex items-center justify-center gap-4">
-          <button
-            onClick={onSelectDirect}
-            className="flex flex-col items-center gap-2 px-8 py-4 rounded-lg border-2 border-gray-200 hover:border-blue-400 hover:bg-blue-50 transition-all cursor-pointer group"
-          >
-            <span className="text-2xl">✏️</span>
-            <span className="text-sm font-medium text-gray-700 group-hover:text-blue-700">直接修改</span>
-            <span className="text-xs text-gray-400">手动调整段落类型，立即生效</span>
-          </button>
-          <button
-            onClick={onSelectAI}
-            className="flex flex-col items-center gap-2 px-8 py-4 rounded-lg border-2 border-gray-200 hover:border-purple-400 hover:bg-purple-50 transition-all cursor-pointer group"
-          >
-            <span className="text-2xl">🤖</span>
-            <span className="text-sm font-medium text-gray-700 group-hover:text-purple-700">AI辅助修改</span>
-            <span className="text-xs text-gray-400">先调整部分段落作为示例，AI参考后全局优化</span>
-          </button>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function AIFeedbackModal({ editSummary, feedback, onFeedbackChange, onConfirm, onCancel }: {
-  editSummary: { index: number; oldType: string; newType: string; text: string }[];
-  feedback: string;
-  onFeedbackChange: (v: string) => void;
-  onConfirm: () => void;
-  onCancel: () => void;
-}) {
-  return (
-    <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
-      <div className="bg-white rounded-xl shadow-2xl w-full max-w-lg mx-4">
-        <div className="px-6 py-4 border-b">
-          <h3 className="text-lg font-semibold text-gray-900">🤖 AI 辅助修正</h3>
-          <p className="text-sm text-gray-500 mt-1">AI将参考您的调整示例进行全局优化</p>
-        </div>
-
-        <div className="px-6 py-4 space-y-4">
-          {editSummary.length > 0 && (
-            <div>
-              <h4 className="text-sm font-medium text-gray-700 mb-2">您的调整示例：</h4>
-              <div className="bg-gray-50 rounded-lg p-3 max-h-40 overflow-y-auto space-y-2">
-                {editSummary.map(e => (
-                  <div key={e.index} className="flex items-center gap-2 text-sm">
-                    <span className="text-gray-400 font-mono">#{e.index}</span>
-                    <span className="text-gray-600">{e.text ? `${e.text}...` : ''}</span>
-                    <span className="text-gray-400">→</span>
-                    <span className="inline-flex items-center px-1.5 py-0.5 rounded text-xs bg-red-100 text-red-700">
-                      {e.oldType}
-                    </span>
-                    <span className="text-gray-400">→</span>
-                    <span className="inline-flex items-center px-1.5 py-0.5 rounded text-xs bg-green-100 text-green-700">
-                      {e.newType}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-          <div>
-            <label className="text-sm font-medium text-gray-700 mb-1 block">
-              补充说明（可选）
-            </label>
-            <textarea
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
-              rows={3}
-              placeholder="例如：前面数字开头的都应该识别为题号，而不是正文"
-              value={feedback}
-              onChange={(e) => onFeedbackChange(e.target.value)}
-            />
-          </div>
-        </div>
-
-        <div className="px-6 py-4 border-t flex items-center justify-end gap-3">
-          <Button variant="outline" onClick={onCancel}>取消</Button>
-          <Button onClick={onConfirm}>确认并交给AI</Button>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function TypeSelector({ paraIndex, currentType, edits, typeStyleMap, hasEdit, onSelect, onRevert, containerRef }: {
-  paraIndex: number;
-  currentType: string;
-  edits: ParagraphEdit[];
-  typeStyleMap: Record<string, any>;
-  hasEdit: boolean;
-  onSelect: (index: number, type: string) => void;
-  onRevert: (index: number) => void;
-  containerRef: React.RefObject<HTMLDivElement | null>;
-}) {
-  const selectorRef = useRef<HTMLDivElement>(null);
-  const [position, setPosition] = useState<'top' | 'bottom'>('top');
-
-  useEffect(() => {
-    const el = selectorRef.current;
-    const container = containerRef.current;
-    if (!el || !container) return;
-
-    const elRect = el.getBoundingClientRect();
-    const containerRect = container.getBoundingClientRect();
-
-    if (elRect.top < containerRect.top) {
-      setPosition('bottom');
-    }
-  }, []);
-
-  return (
-    <div
-      ref={selectorRef}
-      className={`absolute left-0 z-20 bg-white rounded-lg shadow-lg border p-2 min-w-[320px] ${
-        position === 'top' ? '-top-1 translate-y-[-100%]' : 'top-full mt-1'
-      }`}
-    >
-      <div className="text-[10px] text-gray-500 mb-1">选择段落类型：</div>
-      <div className="grid grid-cols-2 gap-1">
-        {CONTENT_TYPE_OPTIONS.map(option => {
-          const effectiveType = edits.find(e => e.paragraphIndex === paraIndex)?.newType || currentType;
-          const isSelected = effectiveType === option.value;
-          const styleSummary = typeStyleMap[option.value]
-            ? formatStyleSummary(typeStyleMap[option.value])
-            : '';
-          return (
-            <button
-              key={option.value}
-              className={`text-left text-xs px-2 py-1 rounded border cursor-pointer hover:ring-2 transition-all ${
-                isSelected
-                  ? `${CONTENT_TYPE_COLORS[option.value]} ring-2 ring-blue-400`
-                  : `${CONTENT_TYPE_COLORS[option.value]}`
-              }`}
-              onClick={(e) => {
-                e.stopPropagation();
-                onSelect(paraIndex, option.value);
-              }}
-            >
-              <span className="font-medium">{option.label}</span>
-              {styleSummary && (
-                <span className="block text-[10px] opacity-60 truncate leading-tight">{styleSummary}</span>
-              )}
-            </button>
-          );
-        })}
-      </div>
-      {hasEdit && (
-        <button
-          className="w-full text-xs bg-gray-100 text-gray-700 rounded px-2 py-1 mt-1 hover:bg-gray-200 transition-colors"
-          onClick={(e) => {
-            e.stopPropagation();
-            onRevert(paraIndex);
-          }}
-        >
-          ↩️ 恢复原始类型
-        </button>
+      {/* 退出编辑确认 */}
+      {exitConfirmOpen && (
+        <ConfirmDialog
+          title="退出编辑"
+          message={`您有 ${edits.length} 处未保存的修改，确定要退出吗？`}
+          confirmVariant="danger"
+          confirmText="确认退出"
+          onConfirm={handleExitConfirm}
+          onCancel={() => setExitConfirmOpen(false)}
+        />
       )}
     </div>
   );

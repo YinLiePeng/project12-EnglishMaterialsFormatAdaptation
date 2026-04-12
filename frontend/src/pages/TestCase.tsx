@@ -93,18 +93,15 @@ export function TestCase() {
     <div className="min-h-screen bg-gray-50 py-8">
       <div className="max-w-2xl mx-auto px-4">
         <div className="bg-white rounded-lg shadow-sm p-8">
-          <h1 className="text-2xl font-bold text-gray-900 mb-2">提交测试用例</h1>
-          <p className="text-gray-500 mb-6">帮助我们改进工具，提交您遇到的问题</p>
+          <h1 className="text-2xl font-bold text-gray-900 mb-2">提交反馈</h1>
+          <p className="text-gray-500 mb-6">对处理结果不满意？提交您遇到的问题，帮助我们改进</p>
 
           {/* 原始文件 */}
           <div className="mb-6">
             <label className="block text-sm font-medium text-gray-700 mb-2">
               原始文件 <span className="text-red-500">*</span>
             </label>
-            <FileDropzone onFileSelect={setOriginalFile} />
-            {originalFile && (
-              <p className="mt-2 text-sm text-green-600">已选择：{originalFile.name}</p>
-            )}
+            <FileDropzone file={originalFile} onClear={() => setOriginalFile(null)} onFileSelect={setOriginalFile} />
           </div>
 
           {/* 输出文件（可选） */}
@@ -112,10 +109,7 @@ export function TestCase() {
             <label className="block text-sm font-medium text-gray-700 mb-2">
               输出文件（可选）
             </label>
-            <FileDropzone onFileSelect={setOutputFile} />
-            {outputFile && (
-              <p className="mt-2 text-sm text-green-600">已选择：{outputFile.name}</p>
-            )}
+            <FileDropzone file={outputFile} onClear={() => setOutputFile(null)} onFileSelect={setOutputFile} />
           </div>
 
           {/* 问题类型 */}

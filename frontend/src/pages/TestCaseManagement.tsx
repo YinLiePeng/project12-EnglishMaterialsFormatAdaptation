@@ -1,6 +1,9 @@
 import { useState, useEffect, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '../components/common/Button';
+import { ConfirmDialog } from '../components/common/ConfirmDialog';
+import { useToast } from '../contexts/ToastContext';
+import { EmptyState } from '../components/common/EmptyState';
 import { 
   getTestCaseList, 
   getTestCaseDetail, 
@@ -42,6 +45,7 @@ const PROBLEM_TYPE_STYLES: Record<string, string> = {
 
 export function TestCaseManagement() {
   const navigate = useNavigate();
+  const { showToast } = useToast();
   const [testcases, setTestcases] = useState<TestCase[]>([]);
   const [total, setTotal] = useState(0);
   const [page, setPage] = useState(1);
@@ -53,6 +57,7 @@ export function TestCaseManagement() {
   const [detailLoading, setDetailLoading] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
   const [showStatusModal, setShowStatusModal] = useState(false);
+  const [deleteTargetId, setDeleteTargetId] = useState<string | null>(null);
   const [statusUpdateData, setStatusUpdateData] = useState({
     status: '',
     adminNotes: '',
@@ -88,7 +93,7 @@ export function TestCaseManagement() {
       setSelectedTestcase(detail);
     } catch (err: unknown) {
       const error = err as { response?: { data?: { message?: string } } };
-      alert(error.response?.data?.message || '获取测试用例详情失败');
+      showToast(error.response?.data?.message || '获取测试用例详情失败', 'error');
     } finally {
       setDetailLoading(false);
     }
@@ -99,18 +104,23 @@ export function TestCaseManagement() {
   };
 
   const handleDelete = async (testcaseId: string) => {
-    if (!confirm('确定要删除这个测试用例吗？')) {
-      return;
-    }
+    setDeleteTargetId(testcaseId);
+  };
+
+  const handleDeleteConfirm = async () => {
+    if (!deleteTargetId) return;
     try {
-      await deleteTestCase(testcaseId);
+      await deleteTestCase(deleteTargetId);
+      showToast('测试用例已删除', 'success');
       fetchTestcases();
-      if (selectedTestcase?.id === testcaseId) {
+      if (selectedTestcase?.id === deleteTargetId) {
         setSelectedTestcase(null);
       }
     } catch (err: unknown) {
       const error = err as { response?: { data?: { message?: string } } };
-      alert(error.response?.data?.message || '删除测试用例失败');
+      showToast(error.response?.data?.message || '删除测试用例失败', 'error');
+    } finally {
+      setDeleteTargetId(null);
     }
   };
 
@@ -138,7 +148,7 @@ export function TestCaseManagement() {
       fetchTestcases();
     } catch (err: unknown) {
       const error = err as { response?: { data?: { message?: string } } };
-      alert(error.response?.data?.message || '更新状态失败');
+      showToast(error.response?.data?.message || '更新状态失败', 'error');
     }
   };
 
@@ -251,8 +261,11 @@ export function TestCaseManagement() {
                   </tr>
                 ) : filteredTestcases.length === 0 ? (
                   <tr>
-                    <td colSpan={6} className="px-6 py-12 text-center text-gray-500">
-                      暂无测试用例记录
+                    <td colSpan={6}>
+                      <EmptyState
+                        title="暂无测试用例记录"
+                        description="用户提交的反馈将显示在这里"
+                      />
                     </td>
                   </tr>
                 ) : (
@@ -341,7 +354,7 @@ export function TestCaseManagement() {
 
         {/* 测试用例详情模态框 */}
         {selectedTestcase && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+          <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 p-4">
             <div className="bg-white rounded-lg shadow-xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
               <div className="p-6">
                 <div className="flex justify-between items-start mb-4">
@@ -480,9 +493,8 @@ export function TestCaseManagement() {
                   </div>
                   <div className="flex space-x-3">
                     <Button
-                      variant="outline"
-                      onClick={() => handleDelete(selectedTestcase.id)}
-                      className="text-red-600 border-red-600 hover:bg-red-50"
+                      variant="danger"
+                      onClick={() => setDeleteTargetId(selectedTestcase.id)}
                     >
                       删除
                     </Button>
@@ -498,7 +510,7 @@ export function TestCaseManagement() {
 
         {/* 更新状态模态框 */}
         {showStatusModal && selectedTestcase && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+          <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50 p-4">
             <div className="bg-white rounded-lg shadow-xl max-w-md w-full">
               <div className="p-6">
                 <h2 className="text-xl font-bold text-gray-900 mb-4">更新状态</h2>
@@ -546,6 +558,18 @@ export function TestCaseManagement() {
               </div>
             </div>
           </div>
+        )}
+
+        {/* 删除确认 */}
+        {deleteTargetId && (
+          <ConfirmDialog
+            title="删除测试用例"
+            message="确定要删除这个测试用例吗？此操作无法恢复。"
+            confirmVariant="danger"
+            confirmText="确认删除"
+            onConfirm={handleDeleteConfirm}
+            onCancel={() => setDeleteTargetId(null)}
+          />
         )}
       </div>
     </div>

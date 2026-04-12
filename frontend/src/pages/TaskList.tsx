@@ -4,7 +4,10 @@ import { useTaskStore } from '../store/taskStore';
 import { Button } from '../components/common/Button';
 import { StatisticsPanel } from '../components/task/StatisticsPanel';
 import { AdvancedFilterDrawer } from '../components/task/AdvancedFilterDrawer';
+import { ConfirmDialog } from '../components/common/ConfirmDialog';
+import { useToast } from '../contexts/ToastContext';
 import { cancelTask, getDownloadUrl } from '../services/api';
+import { EmptyState } from '../components/common/EmptyState';
 import type { TaskStatus, TaskSort } from '../types';
 
 const STATUS_STYLES: Record<string, string> = {
@@ -47,6 +50,7 @@ const SORT_OPTIONS: Array<{ value: TaskSort['by']; label: string }> = [
 
 export function TaskList() {
   const navigate = useNavigate();
+  const { showToast } = useToast();
   const {
     tasks,
     total,
@@ -72,6 +76,9 @@ export function TaskList() {
   const [sortBy, setSortBy] = useState<TaskSort['by']>('created_at');
   const [deleteDialogOpen, setDeleteDialogOpen] = useState(false);
   const [deleteLoading, setDeleteLoading] = useState(false);
+  const [cancelTarget, setCancelTarget] = useState<string | null>(null);
+  const [searchInput, setSearchInput] = useState('');
+  const [hasSearched, setHasSearched] = useState(false);
 
   // 初始化和筛选条件变化时获取任务
   useEffect(() => {
@@ -85,15 +92,20 @@ export function TaskList() {
   }, [sortBy, sortOrder]);
 
   const handleCancel = async (taskId: string) => {
-    if (!confirm('确定要取消这个任务吗？')) {
-      return;
-    }
+    setCancelTarget(taskId);
+  };
+
+  const handleCancelConfirm = async () => {
+    if (!cancelTarget) return;
     try {
-      await cancelTask(taskId);
+      await cancelTask(cancelTarget);
+      showToast('任务已取消', 'success');
       fetchTasks();
     } catch (err: unknown) {
       const error = err as { response?: { data?: { message?: string } } };
-      alert(error.response?.data?.message || '取消任务失败');
+      showToast(error.response?.data?.message || '取消任务失败', 'error');
+    } finally {
+      setCancelTarget(null);
     }
   };
 
@@ -111,12 +123,23 @@ export function TaskList() {
 
   const handleSortChange = (newSortBy: TaskSort['by']) => {
     if (newSortBy === sortBy) {
-      // 切换排序方向
       setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc');
     } else {
-      // 新的排序字段，默认降序
       setSortBy(newSortBy);
       setSortOrder('desc');
+    }
+  };
+
+  const handleSearch = () => {
+    setFilters({ filename: searchInput || undefined });
+    setPage(1);
+    setHasSearched(!!searchInput);
+    fetchTasks();
+  };
+
+  const handleSearchKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter') {
+      handleSearch();
     }
   };
 
@@ -124,7 +147,7 @@ export function TaskList() {
     setDeleteLoading(true);
     try {
       const result = await deleteSelectedTasks();
-      alert(`成功删除 ${result.deleted_count} 个任务，清理 ${result.deleted_files} 个文件`);
+      showToast(`成功删除 ${result.deleted_count} 个任务，清理 ${result.deleted_files} 个文件`, 'success');
       setDeleteDialogOpen(false);
       clearSelection();
     } catch (err: unknown) {
@@ -134,7 +157,7 @@ export function TaskList() {
         (error.response as { message?: string })?.message ||
         (error as { message?: string }).message ||
         '批量删除失败';
-      alert(errorMessage);
+      showToast(errorMessage, 'error');
     } finally {
       setDeleteLoading(false);
     }
@@ -174,17 +197,18 @@ export function TaskList() {
         <div className="bg-white rounded-lg shadow-sm p-4 mb-6">
           <div className="flex flex-col lg:flex-row gap-4 items-center">
             {/* 搜索框 */}
-            <div className="flex-1 w-full lg:w-auto">
+            <div className="flex-1 w-full lg:w-auto flex gap-2">
               <input
                 type="text"
+                value={searchInput}
                 placeholder="搜索文件名..."
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                onChange={(e) => {
-                  setFilters({ filename: e.target.value || undefined });
-                  setPage(1);
-                  fetchTasks();
-                }}
+                className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                onChange={(e) => setSearchInput(e.target.value)}
+                onKeyDown={handleSearchKeyDown}
               />
+              <Button variant="outline" onClick={handleSearch}>
+                搜索
+              </Button>
             </div>
 
             {/* 排序选择 */}
@@ -289,10 +313,23 @@ export function TaskList() {
                       </div>
                     </td>
                   </tr>
+                ) : tasks.length === 0 && hasSearched ? (
+                  <tr>
+                    <td colSpan={7}>
+                      <EmptyState
+                        title="未找到匹配的任务"
+                        description="请尝试其他关键词，或清空搜索查看全部任务"
+                      />
+                    </td>
+                  </tr>
                 ) : tasks.length === 0 ? (
                   <tr>
-                    <td colSpan={7} className="px-6 py-12 text-center text-gray-500">
-                      暂无任务记录
+                    <td colSpan={7}>
+                      <EmptyState
+                        title="暂无任务记录"
+                        description="上传文档开始第一次处理"
+                        action={{ label: '新建任务', onClick: () => navigate('/') }}
+                      />
                     </td>
                   </tr>
                 ) : (
@@ -513,6 +550,18 @@ export function TaskList() {
           isOpen={isFilterDrawerOpen}
           onClose={() => setIsFilterDrawerOpen(false)}
         />
+
+        {/* 取消任务确认 */}
+        {cancelTarget && (
+          <ConfirmDialog
+            title="取消任务"
+            message="确定要取消这个任务吗？"
+            confirmVariant="danger"
+            confirmText="确认取消"
+            onConfirm={handleCancelConfirm}
+            onCancel={() => setCancelTarget(null)}
+          />
+        )}
 
         {/* 批量删除确认对话框 */}
         {deleteDialogOpen && (

@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useTaskStore } from '../../store/taskStore';
+import { Button } from '../common/Button';
 import type { TaskFilters } from '../../types';
 
 interface AdvancedFilterDrawerProps {
@@ -31,6 +32,30 @@ const DATE_PRESETS = [
 
 export function AdvancedFilterDrawer({ isOpen, onClose }: AdvancedFilterDrawerProps) {
   const { filters, setFilters, resetFilters } = useTaskStore();
+  const [isVisible, setIsVisible] = useState(false);
+  const [shouldRender, setShouldRender] = useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      setShouldRender(true);
+    }
+  }, [isOpen]);
+
+  useEffect(() => {
+    if (shouldRender && isOpen) {
+      const frame = requestAnimationFrame(() => {
+        setIsVisible(true);
+      });
+      return () => cancelAnimationFrame(frame);
+    }
+    if (shouldRender && !isOpen) {
+      setIsVisible(false);
+      const timer = setTimeout(() => {
+        setShouldRender(false);
+      }, 300);
+      return () => clearTimeout(timer);
+    }
+  }, [shouldRender, isOpen]);
   
   // 本地状态
   const [localFilters, setLocalFilters] = useState<TaskFilters>(filters);
@@ -95,18 +120,16 @@ export function AdvancedFilterDrawer({ isOpen, onClose }: AdvancedFilterDrawerPr
     return count;
   };
 
-  if (!isOpen) return null;
+  if (!shouldRender) return null;
 
   return (
     <>
-      {/* 遮罩层 */}
       <div
-        className="fixed inset-0 bg-gray-900/20 backdrop-blur-[2px] z-40 transition-opacity"
+        className={`fixed inset-0 bg-black/50 backdrop-blur-sm z-40 transition-opacity duration-300 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
         onClick={onClose}
       />
 
-      {/* 抽屉 */}
-      <div className="fixed inset-y-0 right-0 w-full md:w-96 bg-white shadow-xl z-50 transform transition-transform">
+      <div className={`fixed inset-y-0 right-0 w-full md:w-96 bg-white shadow-xl z-50 transform transition-transform duration-300 ease-out ${isVisible ? 'translate-x-0' : 'translate-x-full'}`}>
         <div className="h-full flex flex-col">
           {/* 标题栏 */}
           <div className="flex items-center justify-between p-6 border-b">
@@ -258,18 +281,12 @@ export function AdvancedFilterDrawer({ isOpen, onClose }: AdvancedFilterDrawerPr
           {/* 操作按钮 */}
           <div className="p-6 border-t bg-gray-50">
             <div className="flex space-x-3">
-              <button
-                onClick={handleReset}
-                className="flex-1 px-4 py-2 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-100 transition-colors"
-              >
+              <Button variant="outline" onClick={handleReset} className="flex-1">
                 重置
-              </button>
-              <button
-                onClick={handleApply}
-                className="flex-1 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-              >
+              </Button>
+              <Button onClick={handleApply} className="flex-1">
                 应用筛选
-              </button>
+              </Button>
             </div>
           </div>
         </div>

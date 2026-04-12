@@ -1,20 +1,11 @@
 import { useState } from 'react';
+import { CONTENT_TYPE_COLORS } from '../constants/contentTypes';
 import type { StructureAnalysis } from '../types';
 
 interface StructureAnalysisPanelProps {
   analysis: StructureAnalysis | null;
   loading?: boolean;
 }
-
-const CONTENT_TYPE_COLORS: Record<string, string> = {
-  title: 'bg-purple-100 text-purple-800 border-purple-300',
-  heading: 'bg-indigo-100 text-indigo-800 border-indigo-300',
-  question_number: 'bg-blue-100 text-blue-800 border-blue-300',
-  option: 'bg-green-100 text-green-800 border-green-300',
-  body: 'bg-gray-100 text-gray-800 border-gray-300',
-  answer: 'bg-yellow-100 text-yellow-800 border-yellow-300',
-  analysis: 'bg-orange-100 text-orange-800 border-orange-300',
-};
 
 const CONTENT_TYPE_ICONS: Record<string, string> = {
   title: '📌',

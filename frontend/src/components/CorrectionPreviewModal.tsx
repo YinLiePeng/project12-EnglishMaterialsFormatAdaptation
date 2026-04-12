@@ -16,7 +16,7 @@ export function CorrectionPreviewModal({
   onCancel,
 }: CorrectionPreviewModalProps) {
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm">
       <div className="bg-white rounded-lg shadow-xl max-w-2xl w-full max-h-[80vh] overflow-hidden flex flex-col">
         {/* 头部 */}
         <div className="px-6 py-4 border-b bg-gray-50">
