@@ -32,6 +32,7 @@ async def upload_file(
     enable_cleaning: bool = Form(False),
     enable_correction: bool = Form(False),
     use_llm: bool = Form(False),
+    marker_position: Optional[str] = Form(None),
     db: AsyncSession = Depends(get_db),
 ):
     """上传文件并创建处理任务
@@ -107,6 +108,7 @@ async def upload_file(
         enable_cleaning=1 if enable_cleaning else 0,
         enable_correction=1 if enable_correction else 0,
         enable_llm=1 if use_llm else 0,
+        marker_position=marker_position,
     )
 
     db.add(task)
@@ -124,6 +126,7 @@ async def upload_file(
             enable_cleaning=enable_cleaning,
             enable_correction=enable_correction,
             use_llm=use_llm,
+            marker_position=marker_position,
         )
 
     return {
@@ -150,6 +153,7 @@ async def process_task_background(
     enable_cleaning: bool = False,
     enable_correction: bool = False,
     use_llm: bool = False,
+    marker_position: Optional[str] = None,
 ):
     """后台处理任务"""
     from app.core.database import AsyncSessionLocal
@@ -232,6 +236,7 @@ async def process_task_background(
                 layout_mode=layout_mode,
                 preset_style=preset_style,
                 template_file_path=template_file_path,
+                marker_position_str=marker_position,
                 use_llm=use_llm,
                 task_id=task_id,
                 original_filename=task.input_filename,
@@ -280,6 +285,101 @@ async def process_task_background(
 
         task.completed_at = datetime.now()
         await db.commit()
+
+
+@router.post("/template-preview")
+async def template_preview(template: UploadFile = File(...)):
+    """上传空模板并返回可交互的HTML预览（用于标记位选择）
+
+    返回:
+        - html: 带data-*属性的HTML预览
+        - elements: 模板结构概要
+        - auto_detected_area: 自动检测的主内容区
+    """
+    if not template.filename:
+        raise HTTPException(
+            status_code=400,
+            detail={"code": 1002, "message": "请提供模板文件名"},
+        )
+
+    template_ext = Path(template.filename).suffix.lower()
+    if template_ext not in {".docx"}:
+        raise HTTPException(
+            status_code=400,
+            detail={
+                "code": 1002,
+                "message": f"模板仅支持DOCX格式，当前文件: {template_ext}",
+            },
+        )
+
+    template_content = await template.read()
+    if len(template_content) > settings.MAX_UPLOAD_SIZE:
+        raise HTTPException(
+            status_code=400,
+            detail={"code": 1003, "message": "模板文件大小超过50MB限制"},
+        )
+
+    if len(template_content) == 0:
+        raise HTTPException(
+            status_code=400,
+            detail={"code": 1002, "message": "模板文件为空"},
+        )
+
+    temp_dir = Path(settings.TEMP_STORAGE_PATH)
+    temp_dir.mkdir(parents=True, exist_ok=True)
+    preview_id = str(uuid.uuid4())
+    temp_path = temp_dir / f"_preview_{preview_id}{template_ext}"
+
+    try:
+        with open(temp_path, "wb") as f:
+            f.write(template_content)
+
+        try:
+            from app.services.docx import DocxParser, docx_html_renderer
+
+            parser = DocxParser(str(temp_path))
+            elements = parser.extract_content()
+        except Exception as e:
+            error_msg = str(e).lower()
+            if "encrypted" in error_msg or "password" in error_msg:
+                raise HTTPException(
+                    status_code=400,
+                    detail={
+                        "code": 2001,
+                        "message": "模板文件已加密，请解除密码保护后重新上传",
+                        "suggestion": "请使用Word打开文件，点击「文件」→「信息」→「保护文档」→清除密码",
+                    },
+                )
+            raise HTTPException(
+                status_code=400,
+                detail={
+                    "code": 2002,
+                    "message": f"模板文件解析失败: {str(e)[:100]}",
+                    "suggestion": "请确认模板是有效的DOCX文件",
+                },
+            )
+
+        if not elements:
+            raise HTTPException(
+                status_code=400,
+                detail={
+                    "code": 2003,
+                    "message": "模板内容为空或无法解析",
+                    "suggestion": "请上传包含内容的模板文件",
+                },
+            )
+
+        result = docx_html_renderer.render_template_for_marking(elements)
+        result["filename"] = template.filename
+
+        return {"code": 0, "data": result}
+
+    finally:
+        if temp_path.exists():
+            try:
+                temp_path.unlink()
+            except OSError:
+                pass
 
 
 @router.get("/presets")

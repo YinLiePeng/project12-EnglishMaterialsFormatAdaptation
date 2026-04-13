@@ -38,6 +38,7 @@ class Task(Base):
     enable_cleaning = Column(Integer, default=0)
     enable_correction = Column(Integer, default=0)
     enable_llm = Column(Integer, default=0)  # 是否启用大模型语义识别
+    marker_position = Column(Text, nullable=True)  # 标记位位置(JSON)
 
     # 结构分析结果(JSON格式存储)
     structure_analysis = Column(Text, nullable=True)  # 存储文章结构识别结果

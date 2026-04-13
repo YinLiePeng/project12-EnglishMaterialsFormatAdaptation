@@ -101,6 +101,7 @@ class DocxGenerator:
         style_mapping: Dict[str, Dict[str, Any]],
         style_keys: Optional[Dict[int, str]] = None,
         preserve_format: bool = False,
+        marker_position: Optional[Dict[str, Any]] = None,
     ):
         """在模板标记位处填充内容，保持原始元素顺序
 
@@ -110,30 +111,51 @@ class DocxGenerator:
             style_mapping: 样式映射
             style_keys: 段落索引→样式key映射
             preserve_format: 是否保留原始格式
+            marker_position: 标记位位置信息（可选，用于精确单元格定位）
         """
+        ref_element = None
         marker_para = None
-        for para in self.doc.paragraphs:
-            if marker in para.text:
-                marker_para = para
-                break
 
-        if marker_para is None:
-            for alt in ["{{content}}", "{内容}", "【内容】"]:
-                for para in self.doc.paragraphs:
-                    if alt in para.text:
-                        marker_para = para
-                        break
-                if marker_para:
+        if marker_position and marker_position.get("type") == "table_cell":
+            target_row = marker_position.get("row")
+            target_col = marker_position.get("col")
+
+            if target_row is not None and target_col is not None:
+                for table in self.doc.tables:
+                    if target_row < len(table.rows):
+                        row = table.rows[target_row]
+                        if target_col < len(row.cells):
+                            cell = row.cells[target_col]
+                            if cell.paragraphs:
+                                last_para = cell.paragraphs[-1]
+                                ref_element = last_para._element
+                            else:
+                                para = cell.add_paragraph()
+                                ref_element = para._element
+                            break
+
+        if ref_element is None:
+            for para in self.doc.paragraphs:
+                if marker in para.text:
+                    marker_para = para
                     break
 
-        if marker_para is None:
-            raise ValueError(f"未找到标记位: {marker}")
+            if marker_para is None:
+                for alt in ["{{content}}", "{内容}", "【内容】"]:
+                    for para in self.doc.paragraphs:
+                        if alt in para.text:
+                            marker_para = para
+                            break
+                    if marker_para:
+                        break
 
-        marker_para.clear()
-        ref_element = marker_para._element
+            if marker_para is None:
+                raise ValueError(f"未找到标记位: {marker}")
+
+            marker_para.clear()
+            ref_element = marker_para._element
 
         para_counter = 0
-        first = True
         for element in elements:
             if element.element_type == ElementType.PARAGRAPH:
                 if element.paragraph is None:
@@ -143,13 +165,9 @@ class DocxGenerator:
                 )
                 style_def = style_mapping.get(style_key, style_mapping.get("body", {}))
 
-                if first:
-                    para = marker_para
-                    first = False
-                else:
-                    para = self.doc.add_paragraph()
-                    ref_element.addnext(para._element)
-                    ref_element = para._element
+                para = self.doc.add_paragraph()
+                ref_element.addnext(para._element)
+                ref_element = para._element
 
                 if preserve_format:
                     self._apply_paragraph_format_obj(para, element.paragraph.format)
@@ -162,13 +180,9 @@ class DocxGenerator:
                 para_counter += 1
 
             elif element.element_type == ElementType.BLANK_LINE:
-                if first:
-                    para = marker_para
-                    first = False
-                else:
-                    para = self.doc.add_paragraph()
-                    ref_element.addnext(para._element)
-                    ref_element = para._element
+                para = self.doc.add_paragraph()
+                ref_element.addnext(para._element)
+                ref_element = para._element
 
                 if preserve_format and element.paragraph:
                     self._apply_paragraph_format_obj(para, element.paragraph.format)
@@ -249,7 +263,10 @@ class DocxGenerator:
             return
 
         table = self.doc.add_table(rows=rows, cols=cols)
-        table.style = "Table Grid"
+        try:
+            table.style = "Table Grid"
+        except KeyError:
+            pass
         self._fill_table(table, table_cells, style_def)
         return table
 
@@ -450,7 +467,10 @@ class DocxGenerator:
         if rows == 0 or cols == 0:
             return None
         table = self.doc.add_table(rows=rows, cols=cols)
-        table.style = "Table Grid"
+        try:
+            table.style = "Table Grid"
+        except KeyError:
+            pass
         ref_element.addnext(table._tbl)
         return table
 
@@ -603,7 +623,10 @@ class DocxGenerator:
             return
 
         table = self.doc.add_table(rows=rows, cols=cols)
-        table.style = "Table Grid"
+        try:
+            table.style = "Table Grid"
+        except KeyError:
+            pass
 
         if table_format:
             if table_format.column_widths:

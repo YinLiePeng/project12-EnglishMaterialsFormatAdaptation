@@ -20,6 +20,7 @@ from .docx import (
 )
 from .docx.parser import ContentElement, ElementType
 from .docx.format_auditor import format_auditor
+from .docx.template_filler import fill_template_zip
 from .exception_handler import exception_handler, AppException, ExceptionType
 from ..core.presets.styles import get_preset_style, get_style_mapping, is_preserve_style
 from .structure_formatter import structure_formatter
@@ -39,7 +40,7 @@ class DocumentProcessor:
         layout_mode: str,
         preset_style: Optional[str] = None,
         template_file_path: Optional[str] = None,
-        marker_position: Optional[int] = None,
+        marker_position_str: Optional[str] = None,
         use_llm: bool = False,
         task_id: Optional[str] = None,
         original_filename: Optional[str] = None,
@@ -58,6 +59,13 @@ class DocumentProcessor:
                 raise AppException(
                     ExceptionType.FILE_CORRUPTED, "文档内容为空或无法解析"
                 )
+
+            marker_position = None
+            if marker_position_str:
+                try:
+                    marker_position = json.loads(marker_position_str)
+                except (json.JSONDecodeError, TypeError):
+                    pass
 
             if layout_mode == "none":
                 output_path = await self._process_no_template(
@@ -163,13 +171,13 @@ class DocumentProcessor:
         self,
         elements: List[ContentElement],
         template_file_path: str,
-        marker_position: Optional[int],
+        marker_position: Optional[Dict[str, Any]],
         preset_style: Optional[str],
         use_llm: bool,
         task_id: Optional[str],
         original_filename: Optional[str] = None,
     ) -> str:
-        """空模板模式：在模板标记位处填充内容"""
+        """空模板模式：ZIP级保真填充，模板框架字节级不变"""
 
         para_dicts = self._extract_para_dicts(elements)
         structures = await self._run_structure_recognition(
@@ -186,17 +194,17 @@ class DocumentProcessor:
             )
             style_keys = self._build_style_keys(structures)
 
-        marker = "{{CONTENT}}"
         output_path = self._get_output_path(template_file_path, original_filename)
 
-        generator = DocxGenerator(template_file_path)
-        generator.fill_template_from_elements(
-            elements, marker, style_mapping, style_keys, preserve_format=preserve
+        fill_template_zip(
+            template_path=template_file_path,
+            output_path=output_path,
+            elements=elements,
+            style_mapping=style_mapping,
+            style_keys=style_keys,
+            preserve_format=preserve,
+            marker_position=marker_position,
         )
-        generator.save(output_path)
-
-        if preserve:
-            format_auditor.audit_and_correct(output_path, elements)
 
         await self._save_structure_analysis(
             structures,

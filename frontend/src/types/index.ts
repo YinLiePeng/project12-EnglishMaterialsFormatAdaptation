@@ -357,3 +357,48 @@ export interface SSECallbacks {
   onDone?: (data: SSEDoneEvent) => void;
   onError?: (data: SSEErrorEvent) => void;
 }
+
+// ==================== 模板预览与标记位类型 ====================
+
+/** 模板元素摘要 */
+export interface TemplateElementSummary {
+  index: number;
+  type: 'paragraph' | 'table' | 'image' | 'blank_line';
+  text_preview?: string;
+  rows?: number;
+  cols?: number;
+  row_summaries?: Array<{
+    row: number;
+    text_preview: string;
+    col_count: number;
+  }>;
+}
+
+/** 自动检测的主内容区 */
+export interface AutoDetectedArea {
+  element_index: number;
+  type: 'table_cell' | 'blank_line_group';
+  table_index?: number;
+  row?: number;
+  col?: number;
+  reason: string;
+}
+
+/** 标记位位置 */
+export interface MarkerPosition {
+  element_index: number;
+  type: 'table_cell' | 'paragraph' | 'blank_line_group';
+  table_index?: number;
+  row?: number;
+  col?: number;
+}
+
+/** 模板预览响应 */
+export interface TemplatePreviewResponse {
+  html: string;
+  elements: TemplateElementSummary[];
+  total_elements: number;
+  auto_detected_area: AutoDetectedArea | null;
+  filename: string;
+}
+}

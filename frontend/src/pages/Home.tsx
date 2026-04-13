@@ -4,11 +4,12 @@ import { FileDropzone } from '../components/upload/FileDropzone';
 import { ModeSelector } from '../components/template/ModeSelector';
 import { PresetGallery } from '../components/template/PresetGallery';
 import { StylePreviewDrawer } from '../components/template/StylePreviewDrawer';
+import TemplatePreview from '../components/template/TemplatePreview';
 import { Button } from '../components/common/Button';
 import { useUploadStore } from '../store/uploadStore';
-import { getPresetStyles, uploadFile } from '../services/api';
+import { getPresetStyles, uploadFile, getTemplatePreview } from '../services/api';
 import { useToast } from '../contexts/ToastContext';
-import type { PresetStyle } from '../types';
+import type { PresetStyle, MarkerPosition } from '../types';
 
 const FEATURE_OPTIONS = [
   {
@@ -71,11 +72,19 @@ export function Home() {
     template,
     layoutMode,
     presetStyle,
+    templatePreview,
+    templatePreviewLoading,
+    templatePreviewError,
+    markerPosition,
     setFile,
     setTemplate,
     setLayoutMode,
     setPresetStyle,
     setCurrentTaskId,
+    setTemplatePreview,
+    setTemplatePreviewLoading,
+    setTemplatePreviewError,
+    setMarkerPosition,
   } = useUploadStore();
 
   const [presets, setPresets] = useState<PresetStyle[]>([]);
@@ -97,6 +106,29 @@ export function Home() {
       .catch(() => setPresets([]));
   }, []);
 
+  useEffect(() => {
+    if (layoutMode === 'empty' && template) {
+      setMarkerPosition(null);
+      setTemplatePreviewLoading(true);
+      setTemplatePreviewError(null);
+      getTemplatePreview(template)
+        .then((data) => {
+          setTemplatePreview(data);
+          setTemplatePreviewLoading(false);
+        })
+        .catch((err: unknown) => {
+          const apiError = err as { response?: { data?: { message?: string } } };
+          setTemplatePreviewError(apiError.response?.data?.message || '模板预览失败');
+          setTemplatePreview(null);
+          setTemplatePreviewLoading(false);
+        });
+    } else {
+      setTemplatePreview(null);
+      setTemplatePreviewError(null);
+      setMarkerPosition(null);
+    }
+  }, [layoutMode, template, setTemplatePreview, setTemplatePreviewLoading, setTemplatePreviewError, setMarkerPosition]);
+
   const handleStart = async () => {
     if (!file) {
       showToast('请先上传文件', 'error');
@@ -105,6 +137,11 @@ export function Home() {
 
     if (layoutMode === 'empty' && !template) {
       showToast('空模板模式需要上传模板文件', 'error');
+      return;
+    }
+
+    if (layoutMode === 'empty' && !markerPosition) {
+      showToast('请在模板预览中选择内容填充位置', 'error');
       return;
     }
 
@@ -124,6 +161,7 @@ export function Home() {
         enable_cleaning: enableCleaning,
         enable_correction: enableCorrection,
         use_llm: useLLM,
+        marker_position: markerPosition ? JSON.stringify(markerPosition) : undefined,
       });
 
       setCurrentTaskId(result.task_id);
@@ -140,6 +178,14 @@ export function Home() {
     cleaning: { checked: enableCleaning, onChange: setEnableCleaning },
     correction: { checked: enableCorrection, onChange: setEnableCorrection },
     llm: { checked: useLLM, onChange: setUseLLM, disabled: isPreserve },
+  };
+
+  const handleMarkerSelect = (pos: MarkerPosition | null) => {
+    if (pos === null) {
+      setMarkerPosition(null);
+    } else {
+      setMarkerPosition(pos);
+    }
   };
 
   return (
@@ -170,11 +216,46 @@ export function Home() {
             )}
           </div>
 
-          {/* 步骤3：选择排版样式（仅非完整模板模式） */}
-          {layoutMode !== 'complete' && (
+          {/* 步骤2.5：模板预览与标记位选择（仅空模板模式） */}
+          {layoutMode === 'empty' && template && (
             <div className="bg-white rounded-lg shadow-sm p-3">
               <h2 className="text-sm font-medium text-gray-900 mb-2 flex items-center gap-2">
                 <span className="w-5 h-5 rounded-full bg-blue-600 text-white text-xs flex items-center justify-center">3</span>
+                选择内容填充位置
+                <span className="text-xs text-gray-400 font-normal">（点击模板中的目标位置）</span>
+              </h2>
+              {templatePreviewLoading && (
+                <div className="flex items-center justify-center py-8">
+                  <svg className="animate-spin h-5 w-5 text-blue-600 mr-2" fill="none" viewBox="0 0 24 24">
+                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                  </svg>
+                  <span className="text-sm text-gray-500">正在解析模板...</span>
+                </div>
+              )}
+              {templatePreviewError && (
+                <div className="p-3 bg-red-50 border border-red-200 rounded-lg">
+                  <div className="text-sm text-red-800 font-medium">模板解析失败</div>
+                  <div className="text-xs text-red-600 mt-1">{templatePreviewError}</div>
+                </div>
+              )}
+              {templatePreview && !templatePreviewLoading && (
+                <TemplatePreview
+                  preview={templatePreview}
+                  markerPosition={markerPosition}
+                  onMarkerSelect={handleMarkerSelect}
+                />
+              )}
+            </div>
+          )}
+
+          {/* 步骤3/4：选择排版样式（仅非完整模板模式） */}
+          {layoutMode !== 'complete' && (
+            <div className="bg-white rounded-lg shadow-sm p-3">
+              <h2 className="text-sm font-medium text-gray-900 mb-2 flex items-center gap-2">
+                <span className="w-5 h-5 rounded-full bg-blue-600 text-white text-xs flex items-center justify-center">
+                  {layoutMode === 'empty' ? '4' : '3'}
+                </span>
                 选择排版样式
               </h2>
               <PresetGallery
@@ -190,7 +271,7 @@ export function Home() {
           <div className="bg-white rounded-lg shadow-sm p-3">
             <h2 className="text-sm font-medium text-gray-900 mb-2.5 flex items-center gap-2">
               <span className="w-5 h-5 rounded-full bg-blue-600 text-white text-xs flex items-center justify-center">
-                {layoutMode === 'complete' ? '3' : '4'}
+                {layoutMode === 'complete' ? '3' : layoutMode === 'empty' ? '5' : '4'}
               </span>
               功能选项
               <span className="text-xs text-gray-400 font-normal">（可选，按需勾选）</span>

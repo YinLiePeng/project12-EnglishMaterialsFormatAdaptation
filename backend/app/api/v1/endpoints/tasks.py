@@ -439,6 +439,7 @@ async def llm_stream(task_id: str):
                 enable_cleaning = task.enable_cleaning == 1
                 enable_correction = task.enable_correction == 1
                 original_filename = task.input_filename
+                task_marker_position = task.marker_position
 
             async with AsyncSessionLocal() as db:
                 result = await db.execute(select(Task).where(Task.task_id == task_id))
@@ -615,17 +616,25 @@ async def llm_stream(task_id: str):
                 generator.generate_from_elements(elements, style_mapping, style_keys)
                 generator.save(output_path)
             elif layout_mode == "empty":
-                from app.services.docx import DocxGenerator
+                from app.services.docx import fill_template_zip
 
                 output_path = document_processor._get_output_path(
                     template_file_path, original_filename
                 )
-                marker = "{{CONTENT}}"
-                generator = DocxGenerator(template_file_path)
-                generator.fill_template_from_elements(
-                    elements, marker, style_mapping, style_keys
+                mp = None
+                if task_marker_position:
+                    try:
+                        mp = json.loads(task_marker_position)
+                    except (json.JSONDecodeError, TypeError):
+                        pass
+                fill_template_zip(
+                    template_path=template_file_path,
+                    output_path=output_path,
+                    elements=elements,
+                    style_mapping=style_mapping,
+                    style_keys=style_keys,
+                    marker_position=mp,
                 )
-                generator.save(output_path)
             elif layout_mode == "complete":
                 from app.services.docx import DocxGenerator, TemplateParser
 

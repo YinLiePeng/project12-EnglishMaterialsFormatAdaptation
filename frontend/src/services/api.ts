@@ -17,7 +17,8 @@ import type {
   AIRecognizePreviewResponse,
   AIRecognizeApplyResponse,
   RegenerateDocumentResponse,
-  SSECallbacks
+  SSECallbacks,
+  TemplatePreviewResponse
 } from '../types';
 
 // 创建axios实例
@@ -25,6 +26,16 @@ export const api = axios.create({
   baseURL: '/api/v1',
   timeout: 30000,
 });
+
+/** 获取模板预览（用于标记位选择） */
+export async function getTemplatePreview(templateFile: File): Promise<TemplatePreviewResponse> {
+  const formData = new FormData();
+  formData.append('template', templateFile);
+  const response = await api.post<ApiResponse<TemplatePreviewResponse>>('/upload/template-preview', formData, {
+    timeout: 30000,
+  });
+  return response.data.data;
+}
 
 /** 获取预设样式列表 */
 export async function getPresetStyles(): Promise<PresetStyle[]> {
@@ -41,6 +52,7 @@ export async function uploadFile(params: {
   enable_cleaning?: boolean;
   enable_correction?: boolean;
   use_llm?: boolean;
+  marker_position?: string;
 }): Promise<{ task_id: string }> {
   const formData = new FormData();
   formData.append('file', params.file);
@@ -54,6 +66,9 @@ export async function uploadFile(params: {
   formData.append('enable_cleaning', params.enable_cleaning ? 'true' : 'false');
   formData.append('enable_correction', params.enable_correction ? 'true' : 'false');
   formData.append('use_llm', params.use_llm ? 'true' : 'false');
+  if (params.marker_position) {
+    formData.append('marker_position', params.marker_position);
+  }
 
   const response = await api.post<ApiResponse<{ task_id: string }>>('/upload', formData);
   return response.data.data;
