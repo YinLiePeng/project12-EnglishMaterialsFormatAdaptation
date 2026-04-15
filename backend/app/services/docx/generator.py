@@ -60,9 +60,25 @@ class DocxGenerator:
                     self._apply_paragraph_format_obj(para, element.paragraph.format)
                     self._add_runs_preserve(para, element.paragraph.runs)
                 else:
-                    self.add_paragraph_with_runs(
-                        element.paragraph.runs, style_def, extract_images=True
-                    )
+                    if element.paragraph.runs:
+                        self.add_paragraph_with_runs(
+                            element.paragraph.runs, style_def, extract_images=True
+                        )
+                    elif element.paragraph.text.strip():
+                        para = self.doc.add_paragraph()
+                        self._apply_paragraph_format(para, style_def.get("format", {}))
+                        font_def = style_def.get("font", {})
+                        run = para.add_run(element.paragraph.text)
+                        if "name" in font_def:
+                            run.font.name = font_def["name"]
+                        if "size" in font_def:
+                            run.font.size = Pt(font_def["size"])
+                        if font_def.get("bold"):
+                            run.font.bold = True
+                        if font_def.get("italic"):
+                            run.font.italic = True
+                        color = getattr(element.paragraph.font, "color", None)
+                        self._apply_color(run, color or "000000")
                 para_counter += 1
 
             elif element.element_type == ElementType.BLANK_LINE:

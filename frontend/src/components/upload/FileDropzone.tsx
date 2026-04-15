@@ -12,7 +12,7 @@ interface FileDropzoneProps {
 
 const ERROR_MESSAGES: Record<string, string> = {
   'file-too-large': '文件大小超过限制（最大50MB）',
-  'file-invalid-type': '不支持的文件格式，请上传DOCX文件',
+  'file-invalid-type': '不支持的文件格式，请上传DOCX或PDF文件',
   'too-many-files': '只能上传一个文件',
 };
 
@@ -28,6 +28,7 @@ export function FileDropzone({
   onClear,
   accept = {
     'application/vnd.openxmlformats-officedocument.wordprocessingml.document': ['.docx'],
+    'application/pdf': ['.pdf'],
   },
   maxSize = 50 * 1024 * 1024,
   disabled = false,
@@ -108,7 +109,7 @@ export function FileDropzone({
           {isDragActive ? (
             <span className="text-blue-600 text-sm font-medium">释放文件以上传</span>
           ) : (
-            <span className="text-sm text-gray-500">拖拽文件到这里，或<span className="text-blue-600">点击选择</span>（DOCX，最大50MB）</span>
+            <span className="text-sm text-gray-500">拖拽文件到这里，或<span className="text-blue-600">点击选择</span>（DOCX/PDF，最大50MB）</span>
           )}
         </div>
       </div>

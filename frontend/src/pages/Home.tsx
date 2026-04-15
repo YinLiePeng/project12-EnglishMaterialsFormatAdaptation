@@ -95,6 +95,7 @@ export function Home() {
   const [previewStyleId, setPreviewStyleId] = useState<string | null>(null);
 
   const isPreserve = presetStyle === 'preserve';
+  const isPdf = file?.name.toLowerCase().endsWith('.pdf') ?? false;
 
   useEffect(() => {
     if (isPreserve) setUseLLM(false);
@@ -199,6 +200,16 @@ export function Home() {
               上传原始教学资料
             </h2>
             <FileDropzone file={file} onClear={() => setFile(null)} onFileSelect={setFile} />
+            {isPdf && (
+              <div className="mt-2 flex items-center gap-2 px-3 py-2 bg-amber-50 border border-amber-200 rounded-lg">
+                <svg className="w-4 h-4 text-amber-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span className="text-xs text-amber-700">
+                  已选择PDF文件，系统将自动检测类型（原生/扫描/混合）并选择最佳处理方式
+                </span>
+              </div>
+            )}
           </div>
 
           {/* 步骤2：选择排版模式 */}

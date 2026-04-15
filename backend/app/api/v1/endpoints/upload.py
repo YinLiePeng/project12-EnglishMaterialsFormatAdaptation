@@ -254,12 +254,6 @@ async def process_task_background(
                     pre_extracted_elements = await process_scanned_pdf(
                         input_file_path, detection_result
                     )
-                    if not pre_extracted_elements:
-                        raise ValueError(
-                            "扫描版PDF需要OCR识别，但OCR服务返回了空结果。"
-                            "请确认LLM API密钥配置正确（LLM_API_KEY），"
-                            "或尝试上传原生可复制PDF。"
-                        )
                 elif detection_result.pdf_type.value == "mixed":
                     from app.services.ocr.pipeline import process_scanned_pdf
 
