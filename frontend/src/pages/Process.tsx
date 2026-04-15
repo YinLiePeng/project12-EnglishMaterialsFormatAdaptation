@@ -5,7 +5,7 @@ import { useTaskPolling } from '../hooks/useTaskPolling';
 import { connectLLMStream, getTaskStatus, getDownloadUrl, cancelTask } from '../services/api';
 import { Button } from '../components/common/Button';
 import { EmptyState } from '../components/common/EmptyState';
-import type { TaskStatus, SSEProgressEvent, SSEAnalysisEvent, SSEDoneEvent, SSEErrorEvent } from '../types';
+import type { TaskStatus, SSEProgressEvent, SSEAnalysisEvent, SSEDoneEvent, SSEErrorEvent, PdfInfo } from '../types';
 
 const STAGES = [
   { key: 'pending', label: '等待处理' },
@@ -302,6 +302,11 @@ export function Process() {
             </div>
           )}
 
+          {/* PDF检测信息 */}
+          {isCompleted && taskStatus?.pdf_info && (
+            <PdfDetectionCard pdfInfo={taskStatus.pdf_info} />
+          )}
+
           {/* 错误信息 */}
           {isFailed && taskStatus?.error_message && (
             <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-6">
@@ -429,6 +434,48 @@ function TerminalLine({ text }: { text: string }) {
           {part.content}
         </span>
       ))}
+    </div>
+  );
+}
+
+const PDF_TYPE_CONFIG: Record<string, { color: string; bg: string; border: string; icon: string }> = {
+  native: { color: 'text-green-700', bg: 'bg-green-50', border: 'border-green-200', icon: 'text-green-500' },
+  scanned: { color: 'text-amber-700', bg: 'bg-amber-50', border: 'border-amber-200', icon: 'text-amber-500' },
+  mixed: { color: 'text-blue-700', bg: 'bg-blue-50', border: 'border-blue-200', icon: 'text-blue-500' },
+};
+
+function PdfDetectionCard({ pdfInfo }: { pdfInfo: PdfInfo }) {
+  const cfg = PDF_TYPE_CONFIG[pdfInfo.type] || PDF_TYPE_CONFIG.native;
+  const confidencePct = Math.round(pdfInfo.confidence * 100);
+
+  return (
+    <div className={`${cfg.bg} border ${cfg.border} rounded-lg p-4 mb-6`}>
+      <div className="flex items-center gap-2 mb-3">
+        <svg className={`w-5 h-5 ${cfg.icon}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+        </svg>
+        <h3 className={`text-sm font-medium ${cfg.color}`}>PDF 检测结果</h3>
+      </div>
+      <div className={`text-sm ${cfg.color} space-y-1.5`}>
+        <div className="flex items-center gap-2">
+          <span className="opacity-60 w-16 flex-shrink-0">类型</span>
+          <span className="font-medium">{pdfInfo.type_name}</span>
+          <span className="text-xs opacity-60">（置信度 {confidencePct}%）</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <span className="opacity-60 w-16 flex-shrink-0">页数</span>
+          <span>共 {pdfInfo.total_pages} 页</span>
+          {pdfInfo.type === 'mixed' && (
+            <span className="text-xs opacity-60">
+              （原生 {pdfInfo.native_pages} 页 / 扫描 {pdfInfo.scanned_pages} 页）
+            </span>
+          )}
+        </div>
+        <div className="flex items-center gap-2">
+          <span className="opacity-60 w-16 flex-shrink-0">处理方式</span>
+          <span>{pdfInfo.processing_hint}</span>
+        </div>
+      </div>
     </div>
   );
 }

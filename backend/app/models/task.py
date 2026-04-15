@@ -41,7 +41,8 @@ class Task(Base):
     marker_position = Column(Text, nullable=True)  # 标记位位置(JSON)
 
     # 结构分析结果(JSON格式存储)
-    structure_analysis = Column(Text, nullable=True)  # 存储文章结构识别结果
+    structure_analysis = Column(Text, nullable=True)
+    pdf_info = Column(Text, nullable=True)  # PDF检测结果: {is_pdf, type, type_name, confidence, processing_method, total_pages, ...}
 
     # 处理结果(临时存储)
     output_filename = Column(String(255))

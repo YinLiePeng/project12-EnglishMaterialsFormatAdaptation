@@ -135,6 +135,18 @@ export interface StructureAnalysis {
   summary?: string;
 }
 
+/** PDF检测信息 */
+export interface PdfInfo {
+  is_pdf: boolean;
+  type: 'native' | 'scanned' | 'mixed';
+  type_name: string;
+  confidence: number;
+  processing_hint: string;
+  total_pages: number;
+  native_pages: number;
+  scanned_pages: number;
+}
+
 /** 任务状态 */
 export interface TaskStatus {
   task_id: string;
@@ -151,6 +163,7 @@ export interface TaskStatus {
   started_at: string | null;
   completed_at: string | null;
   structure_analysis?: StructureAnalysis;
+  pdf_info?: PdfInfo | null;
 }
 
 /** 上传参数 */

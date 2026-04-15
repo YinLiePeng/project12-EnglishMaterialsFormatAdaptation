@@ -281,7 +281,10 @@ class DocumentProcessor:
 
     @staticmethod
     def _extract_para_dicts(elements: List[ContentElement]) -> List[Dict[str, Any]]:
-        """从内容元素列表中提取段落信息字典列表（供结构识别和预览用）"""
+        """从内容元素列表中提取段落信息字典列表（供结构识别和预览用）
+
+        包含段落、表格（占位文本）和图片（占位文本），保持原始元素顺序
+        """
         result = []
         for e in elements:
             if e.element_type == ElementType.PARAGRAPH and e.paragraph:
@@ -302,6 +305,59 @@ class DocumentProcessor:
                         "space_after": p.format.space_after,
                         "first_line_indent": p.format.first_line_indent,
                         "left_indent": p.format.left_indent,
+                        "_element_type": "paragraph",
+                    }
+                )
+            elif e.element_type == ElementType.TABLE and e.table_cells:
+                rows = len(e.table_cells)
+                cols = max((len(r) for r in e.table_cells), default=0)
+                preview_text = f"[表格: {rows}行{cols}列]"
+                cell_texts = []
+                for row in e.table_cells:
+                    for cell in row:
+                        if cell.text.strip():
+                            cell_texts.append(cell.text.strip())
+                if cell_texts:
+                    preview_text += " " + " | ".join(cell_texts[:8])
+                    if len(cell_texts) > 8:
+                        preview_text += " ..."
+                result.append(
+                    {
+                        "text": preview_text,
+                        "font_name": "宋体",
+                        "font_size": 12.0,
+                        "font_bold": False,
+                        "font_italic": False,
+                        "font_underline": False,
+                        "font_color": "000000",
+                        "alignment": "left",
+                        "line_spacing": None,
+                        "line_spacing_rule": None,
+                        "space_before": None,
+                        "space_after": None,
+                        "first_line_indent": None,
+                        "left_indent": None,
+                        "_element_type": "table",
+                    }
+                )
+            elif e.element_type == ElementType.IMAGE and e.image_data:
+                result.append(
+                    {
+                        "text": "[图片]",
+                        "font_name": "宋体",
+                        "font_size": 12.0,
+                        "font_bold": False,
+                        "font_italic": False,
+                        "font_underline": False,
+                        "font_color": "000000",
+                        "alignment": "left",
+                        "line_spacing": None,
+                        "line_spacing_rule": None,
+                        "space_before": None,
+                        "space_after": None,
+                        "first_line_indent": None,
+                        "left_indent": None,
+                        "_element_type": "image",
                     }
                 )
         return result

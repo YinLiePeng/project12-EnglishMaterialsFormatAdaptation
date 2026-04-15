@@ -33,9 +33,18 @@ async def get_db():
 
 
 async def init_db():
-    """初始化数据库(创建所有表)"""
+    """初始化数据库(创建所有表 + 自动补列)"""
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
+
+        from sqlalchemy import text, inspect
+        def _migrate(sync_conn):
+            insp = inspect(sync_conn)
+            if "tasks" in insp.get_table_names():
+                existing = {c["name"] for c in insp.get_columns("tasks")}
+                if "pdf_info" not in existing:
+                    sync_conn.execute(text("ALTER TABLE tasks ADD COLUMN pdf_info TEXT"))
+        await conn.run_sync(_migrate)
 
 
 async def close_db():

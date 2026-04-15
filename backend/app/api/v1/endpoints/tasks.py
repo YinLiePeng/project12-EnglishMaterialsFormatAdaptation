@@ -21,6 +21,28 @@ from app.core.presets.styles import get_preset_style, get_style_mapping, get_pre
 router = APIRouter()
 
 
+def _sync_cleaning_to_elements(elements, cleaned_paragraphs_info):
+    """根据清洗结果同步过滤elements列表"""
+    from app.services.docx.parser import ElementType
+
+    remaining_texts = {p["text"] for p in cleaned_paragraphs_info if "text" in p}
+    filtered = []
+    for e in elements:
+        if e.element_type == ElementType.PARAGRAPH and e.paragraph:
+            if e.paragraph.text in remaining_texts:
+                filtered.append(e)
+        else:
+            filtered.append(e)
+
+    for i, e in enumerate(filtered):
+        if hasattr(e, "original_index"):
+            e.original_index = i
+        if e.paragraph:
+            e.paragraph.index = i
+
+    return filtered
+
+
 ALIGNMENT_NAMES = {
     "center": "居中",
     "left": "左对齐",
@@ -95,6 +117,14 @@ async def get_task_status(task_id: str, db: AsyncSession = Depends(get_db)):
         except json.JSONDecodeError:
             structure_analysis = None
 
+    # 解析PDF检测信息
+    pdf_info = None
+    if task.pdf_info:
+        try:
+            pdf_info = json.loads(task.pdf_info)
+        except json.JSONDecodeError:
+            pdf_info = None
+
     return {
         "code": 0,
         "data": {
@@ -114,6 +144,7 @@ async def get_task_status(task_id: str, db: AsyncSession = Depends(get_db)):
             if task.completed_at
             else None,
             "structure_analysis": structure_analysis,
+            "pdf_info": pdf_info,
         },
     }
 
@@ -545,6 +576,7 @@ async def llm_stream(task_id: str):
                 paragraphs_info = content_cleaner.apply_cleaning(
                     paragraphs_info, clean_results
                 )
+                elements = _sync_cleaning_to_elements(elements, paragraphs_info)
 
             correction_result = None
             if enable_correction:
@@ -727,11 +759,21 @@ async def llm_stream(task_id: str):
                         text=pd.get("text", ""),
                         style_name="Normal",
                         font=FontInfo(
+                            name=pd.get("font_name", "宋体"),
                             size=pd.get("font_size", 12.0),
                             bold=pd.get("font_bold", False),
+                            italic=pd.get("font_italic", False),
+                            underline=pd.get("font_underline", False),
+                            color=pd.get("font_color", "000000"),
                         ),
                         format=ParagraphFormat(
                             alignment=pd.get("alignment", "left"),
+                            line_spacing=pd.get("line_spacing"),
+                            line_spacing_rule=pd.get("line_spacing_rule"),
+                            space_before=pd.get("space_before"),
+                            space_after=pd.get("space_after"),
+                            first_line_indent=pd.get("first_line_indent"),
+                            left_indent=pd.get("left_indent"),
                         ),
                     )
                 )

@@ -1,5 +1,6 @@
 import uuid
 import shutil
+import json
 from datetime import datetime, timedelta
 from pathlib import Path
 from fastapi import (
@@ -20,6 +21,32 @@ from app.models.task import Task
 from app.services import document_processor, testcase_service
 
 router = APIRouter()
+
+
+def _sync_cleaning_to_elements(elements, cleaned_paragraphs_info):
+    """根据清洗结果同步过滤elements列表
+
+    清洗后的paragraphs_info可能删除了一些段落。
+    对应地从elements中移除这些已删除的段落元素。
+    """
+    remaining_texts = {p["text"] for p in cleaned_paragraphs_info if "text" in p}
+    filtered = []
+    for e in elements:
+        from app.services.docx.parser import ElementType
+
+        if e.element_type == ElementType.PARAGRAPH and e.paragraph:
+            if e.paragraph.text in remaining_texts:
+                filtered.append(e)
+        else:
+            filtered.append(e)
+
+    for i, e in enumerate(filtered):
+        if hasattr(e, "original_index"):
+            e.original_index = i
+        if e.paragraph:
+            e.paragraph.index = i
+
+    return filtered
 
 
 @router.post("")
@@ -133,6 +160,31 @@ async def upload_file(
         with open(template_path, "wb") as f:
             f.write(template_content)
 
+    # PDF类型检测（在创建task之前，以便存入数据库）
+    pdf_info_json = None
+    pdf_detection = None
+    if file_ext == ".pdf":
+        try:
+            from app.services.pdf import PDFParser, detect_pdf_type
+
+            with PDFParser(str(file_path)) as pdf_p:
+                detection_result = detect_pdf_type(pdf_p)
+            pdf_detection = {
+                "type": detection_result.pdf_type.value,
+                "type_name": detection_result.summary.get("type_name", ""),
+                "confidence": detection_result.confidence,
+                "processing_hint": detection_result.summary.get("processing_hint", ""),
+                "total_pages": detection_result.summary.get("total_pages", 0),
+                "native_pages": detection_result.summary.get("native_pages", 0),
+                "scanned_pages": detection_result.summary.get("scanned_pages", 0),
+            }
+            pdf_info_json = json.dumps({
+                "is_pdf": True,
+                **pdf_detection,
+            })
+        except Exception:
+            pass
+
     # 创建任务记录
     task = Task(
         task_id=task_id,
@@ -150,6 +202,7 @@ async def upload_file(
         enable_correction=1 if enable_correction else 0,
         enable_llm=1 if use_llm else 0,
         marker_position=marker_position,
+        pdf_info=pdf_info_json,
     )
 
     db.add(task)
@@ -169,23 +222,6 @@ async def upload_file(
             use_llm=use_llm,
             marker_position=marker_position,
         )
-
-    pdf_detection = None
-    if file_ext == ".pdf":
-        try:
-            from app.services.pdf import PDFParser, detect_pdf_type
-
-            with PDFParser(str(file_path)) as pdf_p:
-                detection_result = detect_pdf_type(pdf_p)
-            pdf_detection = {
-                "type": detection_result.pdf_type.value,
-                "type_name": detection_result.summary.get("type_name", ""),
-                "confidence": detection_result.confidence,
-                "processing_hint": detection_result.summary.get("processing_hint", ""),
-                "total_pages": detection_result.summary.get("total_pages", 0),
-            }
-        except Exception:
-            pass
 
     result_data = {
         "task_id": task_id,
@@ -327,6 +363,10 @@ async def process_task_background(
                 paragraphs_info = content_cleaner.apply_cleaning(
                     paragraphs_info, clean_results
                 )
+                if pre_extracted_elements is not None:
+                    pre_extracted_elements = _sync_cleaning_to_elements(
+                        pre_extracted_elements, paragraphs_info
+                    )
 
             # 3. 内容纠错（可选）
             correction_result = None

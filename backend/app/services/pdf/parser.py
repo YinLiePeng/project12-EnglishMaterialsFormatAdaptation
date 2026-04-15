@@ -349,7 +349,7 @@ class PDFParser:
         2. 行合并 → 将span级文本合并为逻辑行
         3. 段落分组 → 基于行距和字体变化合并为段落
         4. 连字符处理 → 跨行/跨页的连字符合并
-        5. 表格/图片提取 → 附加为独立元素
+        5. 逐页按Y坐标混合排列段落/表格/图片（保持原文位置）
         """
         from ..docx.parser import (
             ContentElement,
@@ -380,7 +380,6 @@ class PDFParser:
                     col_lines = self._group_blocks_by_y(col_blocks)
                     for y_key in sorted(col_lines.keys()):
                         line_blocks = col_lines[y_key]
-                        col_rect = columns[col_idx] if col_idx < len(columns) else page_rect
                         all_lines.append(
                             self._build_line_info(
                                 line_blocks, page_rect, page_num, col_idx
@@ -399,41 +398,67 @@ class PDFParser:
         paragraphs = self._merge_lines_into_paragraphs(all_lines)
         paragraphs = self._handle_hyphenation(paragraphs)
 
-        elements = []
-        original_index = 0
-
-        para_line_page_map: Dict[int, int] = {}
+        # 为每个段落记录其页面和Y位置（用于与表格/图片混合排序）
+        para_with_pos = []
         for para in paragraphs:
             if para["lines"]:
-                para_line_page_map[original_index] = para["lines"][0]["page_num"]
+                first_line = para["lines"][0]
+                y_pos = first_line["y_position"]
+                pg = first_line["page_num"]
             else:
-                para_line_page_map[original_index] = 0
+                y_pos = 0
+                pg = 0
+            para_with_pos.append((para, pg, y_pos))
 
-            elements.append(
-                ContentElement(
-                    element_type=ElementType.PARAGRAPH,
-                    original_index=original_index,
-                    paragraph=ParagraphInfo(
-                        index=original_index,
-                        text=para["text"],
-                        style_name="Normal",
-                        font=para["font"],
-                        format=para["format"],
-                    ),
-                )
-            )
-            original_index += 1
-
+        # 逐页收集表格和图片的位置信息
+        table_with_pos = []
         for page_num in range(len(self.doc)):
             tables = self.extract_tables(page_num)
             for table in tables:
-                table_cells = []
-                for row in table.data:
-                    cell_row = []
-                    for cell_text in row:
-                        cell_row.append(TableCellInfo(text=cell_text))
-                    table_cells.append(cell_row)
+                y_pos = table.bbox[1] if table.bbox and table.bbox[1] > 0 else 0
+                table_with_pos.append((table, page_num, y_pos))
 
+        image_with_pos = []
+        for page_num in range(len(self.doc)):
+            images = self.extract_images(page_num)
+            for img in images:
+                y_pos = img.bbox[1] if img.bbox and img.bbox[1] > 0 else 0
+                image_with_pos.append((img, page_num, y_pos))
+
+        # 按 (page_num, y_position) 统一排序所有元素
+        unified = []
+        for para, pg, y in para_with_pos:
+            unified.append(("paragraph", para, pg, y))
+        for table, pg, y in table_with_pos:
+            unified.append(("table", table, pg, y))
+        for img, pg, y in image_with_pos:
+            unified.append(("image", img, pg, y))
+
+        unified.sort(key=lambda x: (x[2], x[3]))
+
+        elements = []
+        original_index = 0
+
+        for item_type, item_data, pg, y in unified:
+            if item_type == "paragraph":
+                elements.append(
+                    ContentElement(
+                        element_type=ElementType.PARAGRAPH,
+                        original_index=original_index,
+                        paragraph=ParagraphInfo(
+                            index=original_index,
+                            text=item_data["text"],
+                            style_name="Normal",
+                            font=item_data["font"],
+                            format=item_data["format"],
+                        ),
+                    )
+                )
+            elif item_type == "table":
+                table_cells = []
+                for row in item_data.data:
+                    cell_row = [TableCellInfo(text=cell_text) for cell_text in row]
+                    table_cells.append(cell_row)
                 elements.append(
                     ContentElement(
                         element_type=ElementType.TABLE,
@@ -442,19 +467,16 @@ class PDFParser:
                         table_format=TableFormatInfo(),
                     )
                 )
-                original_index += 1
-
-            images = self.extract_images(page_num)
-            for img in images:
+            elif item_type == "image":
                 elements.append(
                     ContentElement(
                         element_type=ElementType.IMAGE,
                         original_index=original_index,
-                        image_data=img.data,
-                        image_ext=img.ext,
+                        image_data=item_data.data,
+                        image_ext=item_data.ext,
                     )
                 )
-                original_index += 1
+            original_index += 1
 
         return elements
 
