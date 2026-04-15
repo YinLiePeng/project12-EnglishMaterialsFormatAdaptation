@@ -536,8 +536,9 @@ class PDFParser:
                 if same_y and same_page:
                     gap = rl["x_start"] - prev["x_end"]
                     if gap < 100:
-                        tab_span = {
-                            "text": "\t",
+                        sep_char = "\t" if gap > 30 else " "
+                        sep_span = {
+                            "text": sep_char,
                             "font_name": prev["spans"][-1]["font_name"] if prev["spans"] else "宋体",
                             "original_font_name": "",
                             "font_size": prev["spans"][-1].get("font_size", 12) if prev["spans"] else 12,
@@ -546,9 +547,9 @@ class PDFParser:
                             "is_italic": False,
                             "bbox": (prev["x_end"], prev["y_position"], rl["x_start"], prev["y_end"]),
                         }
-                        prev["spans"].append(tab_span)
+                        prev["spans"].append(sep_span)
                         prev["spans"].extend(rl["spans"])
-                        prev["text"] = prev["text"] + "\t" + rl["text"]
+                        prev["text"] = prev["text"] + sep_char + rl["text"]
                         prev["x_end"] = max(prev["x_end"], rl["x_end"])
                         prev["y_end"] = max(prev["y_end"], rl["y_end"])
                         prev["line_height"] = max(prev["line_height"], rl["line_height"])
@@ -672,10 +673,14 @@ class PDFParser:
             page_w = page_rect.width
             left_m = avg_x0 - page_rect.x0
             right_m = page_rect.x1 - avg_x1
+            text_width = avg_x1 - avg_x0
+            text_center_ratio = text_width / page_w if page_w > 0 else 0
 
-            if abs(left_m - right_m) < page_w * 0.05 and left_m > page_w * 0.05:
+            if (abs(left_m - right_m) < page_w * 0.03
+                    and left_m > page_w * 0.1
+                    and text_center_ratio < 0.85):
                 alignment = "center"
-            elif right_m > left_m * 2.0 and left_m > page_w * 0.15:
+            elif right_m > left_m * 2.5 and left_m > page_w * 0.25:
                 alignment = "right"
 
         runs = []
