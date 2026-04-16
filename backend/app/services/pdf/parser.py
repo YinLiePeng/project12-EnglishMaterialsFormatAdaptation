@@ -1,6 +1,7 @@
-"""PDF解析器 - 增强版：分栏检测、跨页拼接、段落分组、连字符处理"""
+"""PDF解析器 - v3：自适应段落合并、分栏检测、表格增强、页眉页脚过滤"""
 
 import re
+import statistics
 import fitz  # PyMuPDF
 import pdfplumber
 from pathlib import Path
@@ -10,22 +11,18 @@ from dataclasses import dataclass
 
 @dataclass
 class PDFTextBlock:
-    """PDF文本块"""
-
     text: str
     font_name: str
     font_size: float
     font_color: str
     is_bold: bool
     is_italic: bool
-    bbox: Tuple[float, float, float, float]  # (x0, y0, x1, y1)
+    bbox: Tuple[float, float, float, float]
     page_num: int
 
 
 @dataclass
 class PDFTable:
-    """PDF表格"""
-
     data: List[List[str]]
     bbox: Tuple[float, float, float, float]
     page_num: int
@@ -35,26 +32,34 @@ class PDFTable:
 
 @dataclass
 class PDFImage:
-    """PDF图片"""
-
     data: bytes
     bbox: Tuple[float, float, float, float]
     page_num: int
     ext: str
 
 
+_PAGE_NUMBER_PATTERN = re.compile(
+    r"^[\s]*第?\s*\d+\s*[页頁]?\s*(共\s*\d+\s*[页頁])?[\s]*$"
+    r"|^[\s]*Page\s*\d+[\s]*(of\s*\d+)?[\s]*$"
+    r"|^[\s]*\-\s*\d+\s*\-[\s]*$"
+    r"|^[\s]*\d+\s*/\s*\d+[\s]*$"
+    r"|^[\s]*\d+[\s]*$",
+    re.IGNORECASE,
+)
+
+_HEADER_FOOTER_PATTERN = re.compile(
+    r"学科网|中小学教育资源及组卷应用平台|21世纪教育网|百度文库|道客巴巴|豆丁网"
+    r"| wenku| docin| doc88",
+    re.IGNORECASE,
+)
+
+_SEAL_LINE_PATTERN = re.compile(
+    r"^[…\.。…\-—]+\s*[○O0]*\s*.*(?:装订|密封|线).*[○O0]*\s*[…\.。…\-—]*$"
+    r"|^[…\.。…\-—]+\s*[○O0]+\s*[…\.。…\-—]+$",
+)
+
+
 class PDFParser:
-    """PDF解析器 - 增强版
-
-    特性：
-    - 分栏检测（密度分析算法）
-    - 跨页连字符合并（如 comput-er → computer）
-    - 段落边界识别（基于行距和字体变化）
-    - 对齐方式检测（左/中/右/两端）
-    - 图片位置还原
-    - 表格增强提取（pdfplumber回退）
-    """
-
     def __init__(self, file_path: str):
         self.file_path = Path(file_path)
         self.doc = fitz.open(str(file_path))
@@ -67,7 +72,6 @@ class PDFParser:
         return len(self.doc)
 
     def extract_text_blocks(self, page_num: int) -> List[PDFTextBlock]:
-        """提取带样式信息的文本块"""
         if page_num >= len(self.doc):
             return []
 
@@ -78,24 +82,19 @@ class PDFParser:
         for block in blocks.get("blocks", []):
             if block.get("type") != 0:
                 continue
-
             for line in block.get("lines", []):
                 for span in line.get("spans", []):
                     text = span.get("text", "").strip()
                     if not text:
                         continue
-
                     font_name = span.get("font", "Unknown")
                     font_size = span.get("size", 12)
                     font_color_int = span.get("color", 0)
                     font_color = f"{font_color_int:06x}" if font_color_int else "000000"
                     flags = span.get("flags", 0)
-
                     is_bold = bool(flags & 2**4)
                     is_italic = bool(flags & 2**1)
-
                     bbox = span.get("bbox", (0, 0, 0, 0))
-
                     text_blocks.append(
                         PDFTextBlock(
                             text=text,
@@ -108,11 +107,9 @@ class PDFParser:
                             page_num=page_num,
                         )
                     )
-
         return text_blocks
 
     def extract_tables(self, page_num: int) -> List[PDFTable]:
-        """提取表格（PyMuPDF优先，pdfplumber回退）"""
         if page_num >= len(self.doc):
             return []
 
@@ -126,6 +123,29 @@ class PDFParser:
                 cleaned = []
                 for row in extracted:
                     cleaned.append([str(c) if c else "" for c in row])
+
+                non_empty_rows = sum(
+                    1 for row in cleaned if any(cell.strip() for cell in row)
+                )
+                if non_empty_rows < 1:
+                    continue
+
+                max_text_len = max(
+                    (len(cell) for row in cleaned for cell in row), default=0
+                )
+                avg_cells_per_row = sum(len(r) for r in cleaned) / max(len(cleaned), 1)
+                if max_text_len > 200 and avg_cells_per_row <= 2:
+                    continue
+
+                table_w = table.bbox[2] - table.bbox[0]
+                table_h = table.bbox[3] - table.bbox[1]
+                if table_w > 0 and table_h > 0:
+                    aspect_ratio = table_h / table_w
+                    if aspect_ratio > 8 and table.col_count <= 2:
+                        continue
+                    if table_w < 50 and table_h > 200:
+                        continue
+
                 result.append(
                     PDFTable(
                         data=cleaned,
@@ -166,7 +186,6 @@ class PDFParser:
         return result
 
     def extract_images(self, page_num: int) -> List[PDFImage]:
-        """提取图片（含位置信息）"""
         if page_num >= len(self.doc):
             return []
 
@@ -203,12 +222,7 @@ class PDFParser:
 
         return result
 
-    def detect_columns(self, page_num: int) -> List[Tuple[float, float, float, float]]:
-        """增强版分栏检测 - 基于文本密度间隙分析
-
-        Returns:
-            栏区域列表 [(x0, y0, x1, y1), ...]，单栏时返回整个页面
-        """
+    def detect_columns(self, page_num: int) -> List:
         if page_num >= len(self.doc):
             return []
 
@@ -216,6 +230,9 @@ class PDFParser:
         rect = page.rect
         page_width = rect.width
         page_height = rect.height
+
+        if page_width > page_height * 1.3:
+            return self._detect_a3_columns(page_num)
 
         blocks = page.get_text("blocks")
         text_blocks = [b for b in blocks if b[6] == 0]
@@ -261,8 +278,32 @@ class PDFParser:
 
         return [col1, col2]
 
+    def _detect_a3_columns(self, page_num: int) -> List:
+        page = self.doc[page_num]
+        rect = page.rect
+        mid_x = rect.x0 + rect.width / 2
+
+        blocks = page.get_text("blocks")
+        text_blocks = [b for b in blocks if b[6] == 0]
+
+        left_content = [b for b in text_blocks if b[2] < mid_x]
+        right_content = [b for b in text_blocks if b[0] > mid_x]
+
+        if len(left_content) >= 3 and len(right_content) >= 3:
+            left_max_x1 = max(b[2] for b in left_content)
+            right_min_x0 = min(b[0] for b in right_content)
+            gap = right_min_x0 - left_max_x1
+
+            if gap > 0:
+                col1 = fitz.Rect(rect.x0, rect.y0, left_max_x1, rect.y1)
+                col2 = fitz.Rect(right_min_x0, rect.y0, rect.x1, rect.y1)
+                return [col1, col2]
+
+        col1 = fitz.Rect(rect.x0, rect.y0, mid_x - 10, rect.y1)
+        col2 = fitz.Rect(mid_x + 10, rect.y0, rect.x1, rect.y1)
+        return [col1, col2]
+
     def extract_all_text(self) -> str:
-        """提取所有页面的文本"""
         all_text = []
         for page_num in range(len(self.doc)):
             page = self.doc[page_num]
@@ -272,7 +313,6 @@ class PDFParser:
         return "\n".join(all_text)
 
     def extract_structured_content(self) -> List[Dict[str, Any]]:
-        """提取结构化内容（向后兼容，含更多格式信息）"""
         content_list = []
 
         for page_num in range(len(self.doc)):
@@ -338,19 +378,17 @@ class PDFParser:
         return content_list
 
     def convert_to_paragraph_info_list(self) -> List[Dict[str, Any]]:
-        """转换为段落信息列表（向后兼容）"""
         return self.extract_structured_content()
 
     def convert_to_content_elements(self) -> list:
-        """将PDF内容转换为ContentElement列表（增强版v2）
+        """将PDF内容转换为ContentElement列表（v3自适应版）
 
         核心改进：
-        1. 以PDF line为基本段落单位，避免过度合并
-        2. 每个span变成独立RunInfo，保留run级格式差异
-        3. 从bbox推导段落格式（行距、缩进、对齐）
-        4. 过滤虚假图片（极小装饰性元素）
-        5. 表格内文本区域不重复输出为段落
-        6. 智能段落合并：仅合并Y间距极小的连续行
+        1. 自适应段落合并：统计主导行间距，智能区分段内换行和段间换行
+        2. 页眉页脚/水印/密封线过滤
+        3. A3横版页面自动识别并分栏
+        4. 表格质量验证（过滤假表格）
+        5. 表格区域内文本精确去重
         """
         from ..docx.parser import (
             ContentElement,
@@ -364,6 +402,7 @@ class PDFParser:
         )
         from .converter import PDFStyleMapper
 
+        header_footer_regions = self._detect_header_footer_regions()
         table_regions = self._collect_table_regions()
 
         all_raw_lines = []
@@ -377,14 +416,18 @@ class PDFParser:
 
             raw_lines = self._extract_raw_lines(page_num, page_rect)
 
+            filtered_lines = self._filter_header_footer_lines(
+                raw_lines, page_rect, header_footer_regions.get(page_num, [])
+            )
+
             if is_multi_column:
-                col_lines = self._assign_raw_lines_to_columns(raw_lines, columns)
+                col_lines = self._assign_raw_lines_to_columns(filtered_lines, columns)
                 for col_idx in sorted(col_lines.keys()):
                     for rl in col_lines[col_idx]:
                         rl["column_idx"] = col_idx
                         all_raw_lines.append(rl)
             else:
-                for rl in raw_lines:
+                for rl in filtered_lines:
                     rl["column_idx"] = 0
                     all_raw_lines.append(rl)
 
@@ -392,7 +435,7 @@ class PDFParser:
             key=lambda x: (x["page_num"], x["column_idx"], x["y_position"])
         )
 
-        paragraphs = self._smart_merge_lines(all_raw_lines)
+        paragraphs = self._adaptive_merge_lines(all_raw_lines)
 
         para_with_pos = []
         for para_info in paragraphs:
@@ -430,11 +473,12 @@ class PDFParser:
 
         for item_type, item_data, pg, y in unified:
             if item_type == "paragraph":
-                if self._is_in_table_region(pg, y, table_regions):
+                para_spans = item_data.get("spans", [])
+                x_pos = para_spans[0]["bbox"][0] if para_spans else 0
+                x_end = para_spans[-1]["bbox"][2] if para_spans else 0
+                if self._is_in_table_region(pg, y, table_regions, x_pos, x_end):
                     continue
-                para_element = self._build_paragraph_element(
-                    item_data, original_index
-                )
+                para_element = self._build_paragraph_element(item_data, original_index)
                 if para_element:
                     elements.append(para_element)
                     original_index += 1
@@ -463,8 +507,130 @@ class PDFParser:
 
         return elements
 
+    # ================================================================
+    # 页眉页脚 / 水印检测
+    # ================================================================
+
+    def _detect_header_footer_regions(self) -> Dict[int, list]:
+        """检测每页的页眉页脚区域（Y范围列表）"""
+        regions = {}
+        page_count = len(self.doc)
+
+        if page_count < 2:
+            return regions
+
+        footer_texts = {}
+        header_texts = {}
+
+        for page_num in range(page_count):
+            page = self.doc[page_num]
+            page_rect = page.rect
+            bottom_zone = page_rect.height * 0.85
+            top_zone = page_rect.height * 0.15
+
+            blocks = page.get_text("dict")
+            for block in blocks.get("blocks", []):
+                if block.get("type") != 0:
+                    continue
+                for line in block.get("lines", []):
+                    line_bbox = line.get("bbox", (0, 0, 0, 0))
+                    line_text = "".join(
+                        s.get("text", "") for s in line.get("spans", [])
+                    ).strip()
+                    if not line_text:
+                        continue
+
+                    max_font = max(
+                        (s.get("size", 12) for s in line.get("spans", [])), default=12
+                    )
+
+                    if max_font < 2:
+                        if page_num not in regions:
+                            regions[page_num] = []
+                        regions[page_num].append(
+                            (line_bbox[1], line_bbox[3], "watermark")
+                        )
+                        continue
+
+                    if line_bbox[1] > bottom_zone:
+                        key = line_text.strip()
+                        if not _PAGE_NUMBER_PATTERN.match(key):
+                            key_clean = re.sub(r"\d+", "N", key).strip()
+                        else:
+                            key_clean = "__pagenum__"
+                        footer_texts.setdefault(key_clean, []).append(
+                            (page_num, line_bbox[1], line_bbox[3])
+                        )
+
+                    if line_bbox[3] < top_zone and line_bbox[1] < top_zone * 0.5:
+                        key = line_text.strip()
+                        key_clean = re.sub(r"\d+", "N", key).strip()
+                        header_texts.setdefault(key_clean, []).append(
+                            (page_num, line_bbox[1], line_bbox[3])
+                        )
+
+        threshold = max(2, page_count * 0.4)
+
+        for key, occurrences in footer_texts.items():
+            if len(occurrences) >= threshold:
+                for page_num, y0, y1 in occurrences:
+                    if page_num not in regions:
+                        regions[page_num] = []
+                    regions[page_num].append((y0, y1, "footer"))
+
+        for key, occurrences in header_texts.items():
+            if len(occurrences) >= threshold:
+                for page_num, y0, y1 in occurrences:
+                    if page_num not in regions:
+                        regions[page_num] = []
+                    regions[page_num].append((y0, y1, "header"))
+
+        return regions
+
+    def _filter_header_footer_lines(
+        self, raw_lines: list, page_rect, hf_regions: list
+    ) -> list:
+        """过滤页眉页脚/水印/密封线"""
+        page_h = page_rect.height if page_rect else 842
+
+        filtered = []
+        for rl in raw_lines:
+            text = rl["text"].strip()
+            dominant_fs = rl["spans"][0]["font_size"] if rl["spans"] else 12
+
+            if dominant_fs < 2:
+                continue
+
+            if _SEAL_LINE_PATTERN.match(text):
+                continue
+
+            y_pos = rl["y_position"]
+            y_end = rl["y_end"]
+
+            is_hf = False
+            for region_y0, region_y1, region_type in hf_regions:
+                if region_y0 - 3 <= y_pos <= region_y1 + 3:
+                    is_hf = True
+                    break
+                if region_y0 - 3 <= y_end <= region_y1 + 3:
+                    is_hf = True
+                    break
+            if is_hf:
+                continue
+
+            if _HEADER_FOOTER_PATTERN.search(text):
+                if len(text) < 40 and (y_end < page_h * 0.08 or y_pos > page_h * 0.92):
+                    continue
+
+            filtered.append(rl)
+
+        return filtered
+
+    # ================================================================
+    # 原始行提取
+    # ================================================================
+
     def _extract_raw_lines(self, page_num: int, page_rect) -> list:
-        """提取页面中的所有原始行，每行包含完整span信息"""
         from .converter import PDFStyleMapper
 
         if page_num >= len(self.doc):
@@ -498,34 +664,40 @@ class PDFParser:
 
                     mapped_font = PDFStyleMapper.map_font(font_name)
 
-                    spans_data.append({
-                        "text": text,
-                        "font_name": mapped_font,
-                        "original_font_name": font_name,
-                        "font_size": round(font_size, 1),
-                        "font_color": font_color,
-                        "is_bold": is_bold,
-                        "is_italic": is_italic,
-                        "bbox": bbox,
-                    })
+                    spans_data.append(
+                        {
+                            "text": text,
+                            "font_name": mapped_font,
+                            "original_font_name": font_name,
+                            "font_size": round(font_size, 1),
+                            "font_color": font_color,
+                            "is_bold": is_bold,
+                            "is_italic": is_italic,
+                            "bbox": bbox,
+                        }
+                    )
 
                 if spans_data:
                     full_text = "".join(s["text"] for s in spans_data).strip()
                     if full_text:
                         line_y = line_bbox[1]
                         line_y_end = line_bbox[3]
-                        raw_lines.append({
-                            "spans": spans_data,
-                            "text": full_text,
-                            "page_num": page_num,
-                            "y_position": line_y,
-                            "y_end": line_y_end,
-                            "x_start": line_bbox[0],
-                            "x_end": line_bbox[2],
-                            "line_height": line_y_end - line_y if line_y_end > line_y else 0,
-                        })
+                        raw_lines.append(
+                            {
+                                "spans": spans_data,
+                                "text": full_text,
+                                "page_num": page_num,
+                                "y_position": line_y,
+                                "y_end": line_y_end,
+                                "x_start": line_bbox[0],
+                                "x_end": line_bbox[2],
+                                "line_height": line_y_end - line_y
+                                if line_y_end > line_y
+                                else 0,
+                            }
+                        )
 
-        raw_lines.sort(key=lambda x: x["y_position"])
+        raw_lines.sort(key=lambda x: (x["y_position"], x["x_start"]))
 
         merged_lines = []
         for rl in raw_lines:
@@ -535,56 +707,67 @@ class PDFParser:
                 same_page = rl["page_num"] == prev["page_num"]
                 if same_y and same_page:
                     gap = rl["x_start"] - prev["x_end"]
-                    if gap < 100:
-                        sep_char = "\t" if gap > 30 else " "
-                        sep_span = {
-                            "text": sep_char,
-                            "font_name": prev["spans"][-1]["font_name"] if prev["spans"] else "宋体",
-                            "original_font_name": "",
-                            "font_size": prev["spans"][-1].get("font_size", 12) if prev["spans"] else 12,
-                            "font_color": prev["spans"][-1].get("font_color", "000000") if prev["spans"] else "000000",
-                            "is_bold": False,
-                            "is_italic": False,
-                            "bbox": (prev["x_end"], prev["y_position"], rl["x_start"], prev["y_end"]),
-                        }
-                        prev["spans"].append(sep_span)
+                    if gap < 150:
+                        sep_char = "\t" if gap > 20 else ""
+                        if sep_char:
+                            sep_span = {
+                                "text": sep_char,
+                                "font_name": prev["spans"][-1]["font_name"]
+                                if prev["spans"]
+                                else "宋体",
+                                "original_font_name": "",
+                                "font_size": prev["spans"][-1].get("font_size", 12)
+                                if prev["spans"]
+                                else 12,
+                                "font_color": prev["spans"][-1].get(
+                                    "font_color", "000000"
+                                )
+                                if prev["spans"]
+                                else "000000",
+                                "is_bold": False,
+                                "is_italic": False,
+                                "bbox": (
+                                    prev["x_end"],
+                                    prev["y_position"],
+                                    rl["x_start"],
+                                    prev["y_end"],
+                                ),
+                            }
+                            prev["spans"].append(sep_span)
                         prev["spans"].extend(rl["spans"])
                         prev["text"] = prev["text"] + sep_char + rl["text"]
                         prev["x_end"] = max(prev["x_end"], rl["x_end"])
                         prev["y_end"] = max(prev["y_end"], rl["y_end"])
-                        prev["line_height"] = max(prev["line_height"], rl["line_height"])
+                        prev["line_height"] = max(
+                            prev["line_height"], rl["line_height"]
+                        )
                         continue
             merged_lines.append(rl)
 
         return merged_lines
 
-    def _assign_raw_lines_to_columns(self, raw_lines: list, columns: list) -> dict:
-        """将行分配到对应的栏"""
-        col_groups: Dict[int, list] = {i: [] for i in range(len(columns))}
-        for rl in raw_lines:
-            cx = (rl["x_start"] + rl["x_end"]) / 2
-            best_col = 0
-            for col_idx, col_rect in enumerate(columns):
-                if isinstance(col_rect, fitz.Rect):
-                    col_x0, col_x1 = col_rect.x0, col_rect.x1
-                else:
-                    col_x0, col_x1 = col_rect[0], col_rect[2]
-                if col_x0 <= cx <= col_x1:
-                    best_col = col_idx
-                    break
-            col_groups[best_col].append(rl)
-        return col_groups
+    # ================================================================
+    # 自适应段落合并（核心算法 v3）
+    # ================================================================
 
-    def _smart_merge_lines(self, raw_lines: list) -> list:
-        """智能段落合并
+    _RE_NUMBERED_START = re.compile(r"^[\d一二三四五六七八九十]+[\.．、)）\s]\s*")
+    _RE_OPTION_START = re.compile(r"^[A-D][\.．、)）\s]")
+    _RE_QUESTION_OPTION = re.compile(r"^\d+[\.．、)）]\s*[A-D][\.．、)）]")
 
-        合并策略：
-        1. 同一PDF line内多个span已经是同一行，不拆分
-        2. 不同PDF line之间：如果Y间距极小（<行高×0.1），则合并为同一段落
-        3. 跨行选项（A/B/C/D在同一行）：如果Y间距小于1行高则合并
+    def _adaptive_merge_lines(self, raw_lines: list) -> list:
+        """自适应段落合并（v3.2）
+
+        核心原则：英语教学资料中，大多数PDF行本身就是独立段落。
+        只在明确的文本连续性证据下才合并行：
+        1. Y间距极小（重叠行或紧贴行）→ 必须合并
+        2. 同字体、同粗体、x起始相似、Y间距≤主导间距×1.15
+           且有文本连续性证据 → 合并
+        3. 额外防护：短行/选项行/编号行不与前文合并
         """
         if not raw_lines:
             return []
+
+        line_gaps = self._compute_dominant_gaps(raw_lines)
 
         result = []
         current_group = [raw_lines[0]]
@@ -600,35 +783,52 @@ class PDFParser:
             if same_page and same_col:
                 y_gap = curr["y_position"] - prev["y_end"]
 
-                prev_font_size = prev["spans"][0]["font_size"] if prev["spans"] else 12
-                curr_font_size = curr["spans"][0]["font_size"] if curr["spans"] else 12
-                font_size_similar = abs(prev_font_size - curr_font_size) < 0.5
+                prev_fs = prev["spans"][0]["font_size"] if prev["spans"] else 12
+                curr_fs = curr["spans"][0]["font_size"] if curr["spans"] else 12
+                font_size_similar = abs(prev_fs - curr_fs) < 1.0
 
                 prev_bold = any(s["is_bold"] for s in prev["spans"])
                 curr_bold = any(s["is_bold"] for s in curr["spans"])
                 bold_same = prev_bold == curr_bold
 
-                prev_x_end = prev["x_end"]
-                curr_x_start = curr["x_start"]
-                horizontal_overlap = prev_x_end > curr_x_start
+                x_start_similar = abs(prev["x_start"] - curr["x_start"]) < 15
 
-                x_start_similar = abs(prev["x_start"] - curr["x_start"]) < 5
+                page_col_key = (prev["page_num"], prev.get("column_idx", 0))
+                dominant_gap = line_gaps.get(page_col_key, prev_fs * 1.3)
 
-                expected_lh = prev_font_size * 1.5
-                very_tight = y_gap < expected_lh * 0.15 and y_gap >= -2
-                tight = y_gap < expected_lh * 0.6 and y_gap >= -2
+                curr_text = curr["text"].strip()
+                prev_text = prev["text"].strip()
 
-                if very_tight and font_size_similar and bold_same:
+                is_numbered = bool(self._RE_NUMBERED_START.match(curr_text))
+                is_option = bool(self._RE_OPTION_START.match(curr_text))
+                is_question_option = bool(self._RE_QUESTION_OPTION.match(curr_text))
+
+                if is_question_option or is_numbered or is_option:
+                    pass
+                elif y_gap < 0:
                     should_merge = True
-                elif tight and horizontal_overlap and font_size_similar and bold_same:
-                    curr_text_stripped = curr["text"].strip()
-                    is_option_line = (
-                        curr_text_stripped
-                        and len(curr_text_stripped) < 60
-                        and re.match(r'^[A-D][．.、)）]', curr_text_stripped)
-                    )
-                    if is_option_line and x_start_similar:
-                        should_merge = True
+                elif y_gap < prev_fs * 0.15 and font_size_similar:
+                    should_merge = True
+                elif font_size_similar and bold_same and x_start_similar:
+                    if y_gap < dominant_gap * 1.05:
+                        if (
+                            curr_text
+                            and not curr_text[0].isupper()
+                            and not self._RE_NUMBERED_START.match(curr_text)
+                            and not self._RE_OPTION_START.match(curr_text)
+                            and not re.match(r"^[（(]\s*\)", curr_text)
+                            and prev_text
+                            and prev_text[-1] not in ".。！？!?;；:："
+                            and not prev_text.endswith("分")
+                            and not prev_text.endswith(")")
+                            and not prev_text.endswith("）")
+                            and not prev_text.endswith("…")
+                            and not prev_text.endswith("—")
+                        ):
+                            if len(prev_text) < 20 and prev_text[-1] in "，,、":
+                                pass
+                            else:
+                                should_merge = True
 
             if should_merge:
                 current_group.append(curr)
@@ -641,23 +841,76 @@ class PDFParser:
 
         return result
 
+    def _compute_dominant_gaps(self, raw_lines: list) -> Dict[tuple, float]:
+        """计算每个(页面, 栏)的段内基准行间距
+
+        使用P25分位数而非mode，避免小间距文档中mode取到过小值。
+        同时过滤掉明显的段间大间距（> font_size * 2.5）。
+        """
+        gap_groups: Dict[tuple, list] = {}
+        font_sizes: Dict[tuple, float] = {}
+
+        for i in range(1, len(raw_lines)):
+            prev = raw_lines[i - 1]
+            curr = raw_lines[i]
+
+            if prev["page_num"] != curr["page_num"]:
+                continue
+            if prev.get("column_idx", 0) != curr.get("column_idx", 0):
+                continue
+
+            prev_fs = prev["spans"][0]["font_size"] if prev["spans"] else 12
+            curr_fs = curr["spans"][0]["font_size"] if curr["spans"] else 12
+            if abs(prev_fs - curr_fs) > 1.0:
+                continue
+
+            prev_bold = any(s["is_bold"] for s in prev["spans"])
+            curr_bold = any(s["is_bold"] for s in curr["spans"])
+            if prev_bold != curr_bold:
+                continue
+
+            y_gap = curr["y_position"] - prev["y_end"]
+            if y_gap > 0:
+                key = (prev["page_num"], prev.get("column_idx", 0))
+                gap_groups.setdefault(key, []).append(y_gap)
+                font_sizes[key] = prev_fs
+
+        result = {}
+        for key, gaps in gap_groups.items():
+            fs = font_sizes.get(key, 12)
+            max_intra = fs * 2.5
+            intra_gaps = [g for g in gaps if g <= max_intra]
+
+            if len(intra_gaps) >= 3:
+                sorted_gaps = sorted(intra_gaps)
+                p50_idx = len(sorted_gaps) // 2
+                result[key] = sorted_gaps[p50_idx]
+            elif len(intra_gaps) >= 1:
+                result[key] = min(intra_gaps)
+            else:
+                result[key] = fs * 1.2
+
+        return result
+
+    # ================================================================
+    # 行分组 → 段落
+    # ================================================================
+
     def _finalize_raw_line_group(self, group: list) -> dict:
-        """将一组行合并为段落信息，保留所有span级RunInfo"""
         from ..docx.parser import FontInfo, ParagraphFormat, RunInfo
 
         all_spans = []
         for line in group:
             all_spans.extend(line["spans"])
 
-        full_text = " ".join(
-            "".join(s["text"] for s in line["spans"])
-            for line in group
+        full_text = "".join(
+            "".join(s["text"] for s in line["spans"]) for line in group
         ).strip()
 
         first_span = all_spans[0] if all_spans else None
-        last_span = all_spans[-1] if all_spans else None
-
-        dominant_span = max(all_spans, key=lambda s: len(s["text"])) if all_spans else None
+        dominant_span = (
+            max(all_spans, key=lambda s: len(s["text"])) if all_spans else None
+        )
 
         page_rect = None
         page_num = group[0]["page_num"] if group else 0
@@ -676,23 +929,27 @@ class PDFParser:
             text_width = avg_x1 - avg_x0
             text_center_ratio = text_width / page_w if page_w > 0 else 0
 
-            if (abs(left_m - right_m) < page_w * 0.03
-                    and left_m > page_w * 0.1
-                    and text_center_ratio < 0.85):
+            if (
+                abs(left_m - right_m) < page_w * 0.05
+                and left_m > page_w * 0.08
+                and text_center_ratio < 0.85
+            ):
                 alignment = "center"
             elif right_m > left_m * 2.5 and left_m > page_w * 0.25:
                 alignment = "right"
 
         runs = []
         for span in all_spans:
-            runs.append(RunInfo(
-                text=span["text"],
-                font_name=span["font_name"],
-                font_size=span["font_size"],
-                bold=span["is_bold"],
-                italic=span["is_italic"],
-                color=span["font_color"],
-            ))
+            runs.append(
+                RunInfo(
+                    text=span["text"],
+                    font_name=span["font_name"],
+                    font_size=span["font_size"],
+                    bold=span["is_bold"],
+                    italic=span["is_italic"],
+                    color=span["font_color"],
+                )
+            )
 
         font_info = FontInfo(
             name=dominant_span["font_name"] if dominant_span else "宋体",
@@ -704,17 +961,23 @@ class PDFParser:
 
         line_spacing = None
         if len(group) >= 2:
-            first_lh = group[0].get("line_height", 0)
-            if first_lh > 0:
+            gaps = []
+            for j in range(1, len(group)):
+                gap = group[j]["y_position"] - group[j - 1]["y_end"]
+                if gap > 0:
+                    gaps.append(gap)
+            if gaps:
+                avg_gap = sum(gaps) / len(gaps)
                 font_sz = dominant_span["font_size"] if dominant_span else 12
-                ratio = first_lh / font_sz if font_sz > 0 else 1
-                if ratio > 1.1:
+                line_h = avg_gap + font_sz
+                ratio = line_h / font_sz if font_sz > 0 else 1
+                if ratio > 1.05:
                     line_spacing = round(ratio, 2)
 
         left_indent = None
         if page_rect and first_span:
             margin_cm = (first_span["bbox"][0] - page_rect.x0) / 28.35
-            if margin_cm > 0.5:
+            if margin_cm > 0.3:
                 left_indent = round(margin_cm, 2)
 
         para_format = ParagraphFormat(
@@ -734,7 +997,6 @@ class PDFParser:
         }
 
     def _build_paragraph_element(self, para_data: dict, index: int):
-        """从段落数据构建ContentElement"""
         from ..docx.parser import (
             ContentElement,
             ElementType,
@@ -758,20 +1020,31 @@ class PDFParser:
             ),
         )
 
+    # ================================================================
+    # 表格相关
+    # ================================================================
+
     def _collect_table_regions(self) -> list:
-        """收集所有页面的表格区域bbox，用于过滤段落重复"""
         regions = []
         for page_num in range(len(self.doc)):
             tables = self.extract_tables(page_num)
             for table in tables:
-                regions.append({
-                    "page_num": page_num,
-                    "bbox": table.bbox,
-                })
+                regions.append(
+                    {
+                        "page_num": page_num,
+                        "bbox": table.bbox,
+                    }
+                )
         return regions
 
-    def _is_in_table_region(self, page_num: int, y_pos: float, table_regions: list) -> bool:
-        """检查指定位置是否在表格区域内"""
+    def _is_in_table_region(
+        self,
+        page_num: int,
+        y_pos: float,
+        table_regions: list,
+        x_pos: float = -1,
+        x_end: float = -1,
+    ) -> bool:
         for tr in table_regions:
             if tr["page_num"] != page_num:
                 continue
@@ -779,12 +1052,20 @@ class PDFParser:
             if not bbox or bbox == (0, 0, 0, 0):
                 continue
             margin = 5
-            if bbox[1] - margin <= y_pos <= bbox[3] + margin:
-                return True
+            if not (bbox[1] - margin <= y_pos <= bbox[3] + margin):
+                continue
+            if x_pos >= 0 and x_end >= 0:
+                para_w = x_end - x_pos
+                table_w = bbox[2] - bbox[0]
+                overlap_start = max(x_pos, bbox[0])
+                overlap_end = min(x_end, bbox[2])
+                overlap = max(0, overlap_end - overlap_start)
+                if para_w > 0 and overlap / para_w < 0.3:
+                    continue
+            return True
         return False
 
     def _extract_meaningful_images(self, page_num: int) -> list:
-        """提取有意义的图片，过滤掉装饰性/极小元素"""
         all_images = self.extract_images(page_num)
         meaningful = []
         for img in all_images:
@@ -795,7 +1076,6 @@ class PDFParser:
         return meaningful
 
     def _build_table_cells_with_runs(self, table) -> list:
-        """构建表格单元格，尽量保留run级格式信息"""
         from ..docx.parser import TableCellInfo, RunInfo
 
         cells = []
@@ -807,7 +1087,6 @@ class PDFParser:
         return cells
 
     def _build_table_format(self, table) -> "TableFormatInfo":
-        """从PDF表格提取格式信息（列宽、尺寸）"""
         from ..docx.parser import TableFormatInfo
 
         col_widths = []
@@ -821,8 +1100,13 @@ class PDFParser:
             alignment="center" if table.col_count > 2 else "left",
         )
 
-    def _group_blocks_by_y(self, blocks: List[PDFTextBlock]) -> Dict[int, List[PDFTextBlock]]:
-        """将文本块按Y坐标分组为行"""
+    # ================================================================
+    # 辅助方法（向后兼容）
+    # ================================================================
+
+    def _group_blocks_by_y(
+        self, blocks: List[PDFTextBlock]
+    ) -> Dict[int, List[PDFTextBlock]]:
         lines: Dict[int, list] = {}
         for block in blocks:
             y_key = round(block.bbox[1])
@@ -836,7 +1120,6 @@ class PDFParser:
         blocks: List[PDFTextBlock],
         columns: List,
     ) -> Dict[int, List[PDFTextBlock]]:
-        """将文本块分配到对应的栏"""
         column_groups: Dict[int, list] = {}
         for col_idx in range(len(columns)):
             column_groups[col_idx] = []
@@ -867,6 +1150,22 @@ class PDFParser:
 
         return column_groups
 
+    def _assign_raw_lines_to_columns(self, raw_lines: list, columns: list) -> dict:
+        col_groups: Dict[int, list] = {i: [] for i in range(len(columns))}
+        for rl in raw_lines:
+            cx = (rl["x_start"] + rl["x_end"]) / 2
+            best_col = 0
+            for col_idx, col_rect in enumerate(columns):
+                if isinstance(col_rect, fitz.Rect):
+                    col_x0, col_x1 = col_rect.x0, col_rect.x1
+                else:
+                    col_x0, col_x1 = col_rect[0], col_rect[2]
+                if col_x0 <= cx <= col_x1:
+                    best_col = col_idx
+                    break
+            col_groups[best_col].append(rl)
+        return col_groups
+
     def _build_line_info(
         self,
         blocks: List[PDFTextBlock],
@@ -874,7 +1173,6 @@ class PDFParser:
         page_num: int,
         column_idx: int,
     ) -> Dict[str, Any]:
-        """从一行的文本块构建行信息"""
         from ..docx.parser import FontInfo, ParagraphFormat
         from .converter import PDFStyleMapper
 
@@ -920,14 +1218,9 @@ class PDFParser:
             "bboxes": [b.bbox for b in blocks],
         }
 
-    def _merge_lines_into_paragraphs(self, lines: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """将连续行合并为逻辑段落
-
-        合并规则：
-        1. 相同页面、相同栏、Y间距小于阈值 → 同一段落
-        2. 字体大小或加粗状态变化 → 新段落
-        3. 空行 → 新段落
-        """
+    def _merge_lines_into_paragraphs(
+        self, lines: List[Dict[str, Any]]
+    ) -> List[Dict[str, Any]]:
         if not lines:
             return []
 
@@ -947,10 +1240,9 @@ class PDFParser:
                 and prev["column_idx"] == curr["column_idx"]
             )
 
-            font_changed = (
-                abs(prev.get("font_size", 12) - curr.get("font_size", 12)) > 1.0
-                or prev.get("is_bold", False) != curr.get("is_bold", False)
-            )
+            font_changed = abs(
+                prev.get("font_size", 12) - curr.get("font_size", 12)
+            ) > 1.0 or prev.get("is_bold", False) != curr.get("is_bold", False)
 
             y_gap_large = False
             if same_column:
@@ -979,7 +1271,6 @@ class PDFParser:
         return paragraphs
 
     def _finalize_paragraph(self, lines: List[Dict[str, Any]]) -> Dict[str, Any]:
-        """将一组行合并为最终段落"""
         from ..docx.parser import FontInfo, ParagraphFormat
 
         if not lines:
@@ -1013,13 +1304,9 @@ class PDFParser:
             "lines": lines,
         }
 
-    def _handle_hyphenation(self, paragraphs: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """处理英语行末连字符
-
-        规则：
-        - 行末以单个'-'结尾，且后跟小写字母 → 移除连字符合并
-        - 跨页连字符同样处理
-        """
+    def _handle_hyphenation(
+        self, paragraphs: List[Dict[str, Any]]
+    ) -> List[Dict[str, Any]]:
         if not paragraphs:
             return paragraphs
 
@@ -1055,17 +1342,16 @@ class PDFParser:
 
         return result
 
-    def _detect_alignment_from_bboxes(
-        self, bboxes: List[Tuple], page_rect
-    ) -> str:
-        """基于bbox位置检测对齐方式"""
+    def _detect_alignment_from_bboxes(self, bboxes: List[Tuple], page_rect) -> str:
         if not bboxes:
             return "left"
 
         avg_x0 = sum(b[0] for b in bboxes) / len(bboxes)
         avg_x1 = sum(b[2] for b in bboxes) / len(bboxes)
-        page_width = page_rect.width if hasattr(page_rect, "width") else (
-            page_rect[2] - page_rect[0]
+        page_width = (
+            page_rect.width
+            if hasattr(page_rect, "width")
+            else (page_rect[2] - page_rect[0])
         )
         page_x0 = page_rect.x0 if hasattr(page_rect, "x0") else page_rect[0]
         page_x1 = page_rect.x1 if hasattr(page_rect, "x1") else page_rect[2]
@@ -1085,10 +1371,7 @@ class PDFParser:
         return "left"
 
     def _detect_alignment(self, blocks: list, page_rect) -> str:
-        """基于PDFTextBlock列表检测对齐方式（向后兼容）"""
-        return self._detect_alignment_from_bboxes(
-            [b.bbox for b in blocks], page_rect
-        )
+        return self._detect_alignment_from_bboxes([b.bbox for b in blocks], page_rect)
 
     def __enter__(self):
         return self
