@@ -1,0 +1,22 @@
+{
+  "words": [
+    "apple", "banana", "cat", "dog", "elephant", "fish", "goat", "horse", "ice", "jungle",
+    "kite", "lion", "monkey", "nest", "orange", "pig", "queen", "rabbit", "snake", "tiger",
+    "umbrella", "violin", "water", "xylophone", "yacht", "zebra",
+    "the", "a", "an", "is", "are", "was", "were", "be", "been", "being",
+    "have", "has", "had", "do", "does", "did", "will", "would", "could", "should",
+    "can", "may", "might", "shall", "must", "need", "dare", "ought",
+    "i", "you", "he", "she", "it", "we", "they", "me", "him", "her", "us", "them",
+    "my", "your", "his", "her", "its", "our", "their",
+    "this", "that", "these", "those",
+    "what", "which", "who", "whom", "whose", "where", "when", "why", "how",
+    "and", "but", "or", "not", "if", "then", "so", "because", "although", "while",
+    "in", "on", "at", "to", "for", "with", "by", "from", "of", "about",
+    "good", "bad", "big", "small", "long", "short", "old", "new", "young", "beautiful",
+    "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
+    "school", "teacher", "student", "book", "pen", "pencil", "paper", "desk", "chair",
+    "read", "write", "speak", "listen", "learn", "study", "teach", "understand", "know", "think",
+    "go", "come", "run", "walk", "sit", "stand", "eat", "drink", "sleep", "play",
+    "like", "love", "want", "need", "help", "give", "take", "make", "do", "get"
+  ]
+}

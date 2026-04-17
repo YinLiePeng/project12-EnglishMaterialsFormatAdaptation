@@ -1,0 +1,1028 @@
+[
+  {
+    "filename": "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（考试版A3）.pdf",
+    "index": 1,
+    "pdf2docx_success": true,
+    "pdf2docx_output": "/mnt/e/Opencode/project12-EnglishMaterialsFormatAdaptation_2/backend/data/pdf2docx_test/pdf2docx_Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（考试版A3）.docx",
+    "standard_stats": {
+      "paragraph_count": 148,
+      "table_count": 1,
+      "sample_paragraphs": [
+        {
+          "text": "2025-2026学年七年级下册英语单元测试卷",
+          "alignment": 1,
+          "style": "Normal"
+        },
+        {
+          "text": "Unit 1·提升卷",
+          "alignment": 1,
+          "style": "Normal"
+        },
+        {
+          "text": "学校:___________班级：___________姓名：___________分数：___________",
+          "alignment": 1,
+          "style": "Normal"
+        },
+        {
+          "text": "（时间：90分钟，满分：100分）",
+          "alignment": 1,
+          "style": "Normal"
+        },
+        {
+          "text": "一、单项选择。(本大题共15小题，每小题1分，共15分)",
+          "alignment": 0,
+          "style": "Normal"
+        }
+      ],
+      "format_samples": [
+        {
+          "text": "",
+          "font_name": "Times New Roman",
+          "font_size": 18.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "",
+          "font_name": "Times New Roman",
+          "font_size": 18.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "",
+          "font_name": "Times New Roman",
+          "font_size": 18.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "",
+          "font_name": "Times New Roman",
+          "font_size": 18.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "",
+          "font_name": "Times New Roman",
+          "font_size": 18.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " 2025-2026学年七年级",
+          "font_name": "Times New Roman",
+          "font_size": 18.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "下",
+          "font_name": "Times New Roman",
+          "font_size": 18.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "册英语单元测试卷",
+          "font_name": "Times New Roman",
+          "font_size": 18.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Unit",
+          "font_name": "Times New Roman",
+          "font_size": 15.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font_name": "Times New Roman",
+          "font_size": 15.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        }
+      ],
+      "success": true
+    },
+    "pdf2docx_stats": {
+      "paragraph_count": 8,
+      "table_count": 5,
+      "sample_paragraphs": [
+        {
+          "text": "(number) are six and eight, because she thinks they are lucky numbers. Her telephone is red. Her tel...",
+          "alignment": 0,
+          "style": "Normal"
+        },
+        {
+          "text": "九、书面表达。(共10 分)",
+          "alignment": 0,
+          "style": "Normal"
+        },
+        {
+          "text": "明天是新学期的第一堂英语课，老师让你们用英语进行自我介绍。请你写一段话为明天英语课上的发",
+          "alignment": 0,
+          "style": "Normal"
+        },
+        {
+          "text": "言做准备。",
+          "alignment": 0,
+          "style": "Normal"
+        },
+        {
+          "text": "要点包括：",
+          "alignment": 0,
+          "style": "Normal"
+        }
+      ],
+      "format_samples": [
+        {
+          "text": "(number) are six and eight, because she thinks the...",
+          "font_name": "TimesNewRomanPSMT",
+          "font_size": 10.5,
+          "bold": false,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "number is 365-2458.",
+          "font_name": "TimesNewRomanPSMT",
+          "font_size": 10.5,
+          "bold": false,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "九、书面表达。",
+          "font_name": "SimSun",
+          "font_size": 10.5,
+          "bold": false,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "(",
+          "font_name": "TimesNewRomanPS",
+          "font_size": 10.5,
+          "bold": true,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "共",
+          "font_name": "SimSun",
+          "font_size": 10.5,
+          "bold": false,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "10",
+          "font_name": "TimesNewRomanPS",
+          "font_size": 10.5,
+          "bold": true,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": " 分",
+          "font_name": "SimSun",
+          "font_size": 10.5,
+          "bold": false,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": ")",
+          "font_name": "TimesNewRomanPS",
+          "font_size": 10.5,
+          "bold": true,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "明天是新学期的第一堂英语课，老师让你们用英语进行自我介绍。请你写一段话为明天英语课上的发",
+          "font_name": "SimSun",
+          "font_size": 10.5,
+          "bold": false,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "言做准备。",
+          "font_name": "SimSun",
+          "font_size": 10.5,
+          "bold": false,
+          "italic": false,
+          "underline": null
+        }
+      ],
+      "success": true
+    },
+    "pdf2docx_format": [
+      {
+        "text": "(number) are six and eight, because she thinks the...",
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 10.5,
+        "bold": false,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "number is 365-2458.",
+        "font_name": "TimesNewRomanPSMT",
+        "font_size": 10.5,
+        "bold": false,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "九、书面表达。",
+        "font_name": "SimSun",
+        "font_size": 10.5,
+        "bold": false,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "(",
+        "font_name": "TimesNewRomanPS",
+        "font_size": 10.5,
+        "bold": true,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "共",
+        "font_name": "SimSun",
+        "font_size": 10.5,
+        "bold": false,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "10",
+        "font_name": "TimesNewRomanPS",
+        "font_size": 10.5,
+        "bold": true,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": " 分",
+        "font_name": "SimSun",
+        "font_size": 10.5,
+        "bold": false,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": ")",
+        "font_name": "TimesNewRomanPS",
+        "font_size": 10.5,
+        "bold": true,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "明天是新学期的第一堂英语课，老师让你们用英语进行自我介绍。请你写一段话为明天英语课上的发",
+        "font_name": "SimSun",
+        "font_size": 10.5,
+        "bold": false,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "言做准备。",
+        "font_name": "SimSun",
+        "font_size": 10.5,
+        "bold": false,
+        "italic": false,
+        "underline": null
+      }
+    ],
+    "our_success": true,
+    "our_stats": {
+      "success": true,
+      "page_count": 4,
+      "paragraph_count": 169,
+      "table_count": 4,
+      "total_elements": 174
+    },
+    "comparison": {
+      "paragraph_count": {
+        "pdf2docx": 8,
+        "our_parser": 169,
+        "standard": 148,
+        "pdf2docx_diff": -140,
+        "our_diff": 21
+      },
+      "table_count": {
+        "pdf2docx": 5,
+        "our_parser": 4,
+        "standard": 1
+      },
+      "similarity": {
+        "pdf2docx": 5.41,
+        "our_parser": 85.81
+      }
+    }
+  },
+  {
+    "filename": "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）.pdf",
+    "index": 2,
+    "pdf2docx_success": true,
+    "pdf2docx_output": "/mnt/e/Opencode/project12-EnglishMaterialsFormatAdaptation_2/backend/data/pdf2docx_test/pdf2docx_Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）.docx",
+    "standard_stats": {
+      "paragraph_count": 259,
+      "table_count": 0,
+      "sample_paragraphs": [
+        {
+          "text": "Unit 1 Art and artists单元话题练",
+          "alignment": 1,
+          "style": "Normal"
+        },
+        {
+          "text": "（语法填空+语法选择+阅读+完形+写作）",
+          "alignment": 1,
+          "style": "Normal"
+        },
+        {
+          "text": "一、语法选择",
+          "alignment": 0,
+          "style": "Normal"
+        },
+        {
+          "text": "1     is wonderful that art can make our world more colourful. Whoever loves creating     2     can ...",
+          "alignment": 3,
+          "style": "Normal"
+        },
+        {
+          "text": "I     5     drawing since I was 10 years old.     6     practising every weekend, my skills have got...",
+          "alignment": 3,
+          "style": "Normal"
+        }
+      ],
+      "format_samples": [
+        {
+          "text": "",
+          "font_name": "Times New Roman",
+          "font_size": 16.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "Unit 1 Art and artists",
+          "font_name": "Times New Roman",
+          "font_size": 16.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "单元话题练",
+          "font_name": "Times New Roman",
+          "font_size": 16.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "（语法填空+",
+          "font_name": "Times New Roman",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "语法选择",
+          "font_name": "Times New Roman",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "+阅读+完形+写作）",
+          "font_name": "Times New Roman",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": " ",
+          "font_name": null,
+          "font_size": 14.0,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "一、语法选择",
+          "font_name": "宋体",
+          "font_size": 10.5,
+          "bold": true,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "    1    ",
+          "font_name": "Times New Roman",
+          "font_size": 10.5,
+          "bold": false,
+          "italic": null,
+          "underline": true
+        },
+        {
+          "text": " is wonderful that art can make our world more col...",
+          "font_name": null,
+          "font_size": 10.5,
+          "bold": null,
+          "italic": null,
+          "underline": null
+        }
+      ],
+      "success": true
+    },
+    "pdf2docx_stats": {
+      "paragraph_count": 180,
+      "table_count": 59,
+      "sample_paragraphs": [
+        {
+          "text": "Unit 1 Art and artists 单元话题练",
+          "alignment": 1,
+          "style": "Normal"
+        },
+        {
+          "text": "（语法填空+语法选择+阅读+完形+写作）",
+          "alignment": 1,
+          "style": "Normal"
+        },
+        {
+          "text": "一、语法选择",
+          "alignment": 0,
+          "style": "Normal"
+        },
+        {
+          "text": "can be an artist—you don’t have to be a famous painter! Our school art teacher, Mr Zhang, always enc...",
+          "alignment": 1,
+          "style": "Normal"
+        },
+        {
+          "text": "happy smile she had when she saw it! She cooked my favourite noodles for me in return.",
+          "alignment": 0,
+          "style": "Normal"
+        }
+      ],
+      "format_samples": [
+        {
+          "text": "Unit 1 Art and artists",
+          "font_name": "TimesNewRomanPS",
+          "font_size": 16.0,
+          "bold": true,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": " 单元话题练",
+          "font_name": "SimSun",
+          "font_size": 16.0,
+          "bold": false,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "（语法填空",
+          "font_name": "SimSun",
+          "font_size": 14.0,
+          "bold": false,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "+",
+          "font_name": "TimesNewRomanPS",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "语法选择",
+          "font_name": "SimSun",
+          "font_size": 14.0,
+          "bold": false,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "+",
+          "font_name": "TimesNewRomanPS",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "阅读",
+          "font_name": "SimSun",
+          "font_size": 14.0,
+          "bold": false,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "+",
+          "font_name": "TimesNewRomanPS",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "完形",
+          "font_name": "SimSun",
+          "font_size": 14.0,
+          "bold": false,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "+",
+          "font_name": "TimesNewRomanPS",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": null
+        }
+      ],
+      "success": true
+    },
+    "pdf2docx_format": [
+      {
+        "text": "Unit 1 Art and artists",
+        "font_name": "TimesNewRomanPS",
+        "font_size": 16.0,
+        "bold": true,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": " 单元话题练",
+        "font_name": "SimSun",
+        "font_size": 16.0,
+        "bold": false,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "（语法填空",
+        "font_name": "SimSun",
+        "font_size": 14.0,
+        "bold": false,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "+",
+        "font_name": "TimesNewRomanPS",
+        "font_size": 14.0,
+        "bold": true,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "语法选择",
+        "font_name": "SimSun",
+        "font_size": 14.0,
+        "bold": false,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "+",
+        "font_name": "TimesNewRomanPS",
+        "font_size": 14.0,
+        "bold": true,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "阅读",
+        "font_name": "SimSun",
+        "font_size": 14.0,
+        "bold": false,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "+",
+        "font_name": "TimesNewRomanPS",
+        "font_size": 14.0,
+        "bold": true,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "完形",
+        "font_name": "SimSun",
+        "font_size": 14.0,
+        "bold": false,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "+",
+        "font_name": "TimesNewRomanPS",
+        "font_size": 14.0,
+        "bold": true,
+        "italic": false,
+        "underline": null
+      }
+    ],
+    "our_success": true,
+    "our_stats": {
+      "success": true,
+      "page_count": 17,
+      "paragraph_count": 372,
+      "table_count": 0,
+      "total_elements": 385
+    },
+    "comparison": {
+      "paragraph_count": {
+        "pdf2docx": 180,
+        "our_parser": 372,
+        "standard": 259,
+        "pdf2docx_diff": -79,
+        "our_diff": 113
+      },
+      "table_count": {
+        "pdf2docx": 59,
+        "our_parser": 0,
+        "standard": 0
+      },
+      "similarity": {
+        "pdf2docx": 69.5,
+        "our_parser": 56.37
+      }
+    }
+  },
+  {
+    "filename": "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册.pdf",
+    "index": 3,
+    "pdf2docx_success": true,
+    "pdf2docx_output": "/mnt/e/Opencode/project12-EnglishMaterialsFormatAdaptation_2/backend/data/pdf2docx_test/pdf2docx_M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册.docx",
+    "standard_stats": {
+      "paragraph_count": 114,
+      "table_count": 2,
+      "sample_paragraphs": [
+        {
+          "text": "M2U1 Food and drinks（单元自测·提高卷）牛津上海试用本 五年级下册",
+          "alignment": 3,
+          "style": "Normal"
+        },
+        {
+          "text": "（建议用时：60分钟  满分：100分）",
+          "alignment": 1,
+          "style": "Normal"
+        },
+        {
+          "text": "Part 1 Listening（30分）",
+          "alignment": 1,
+          "style": "Normal"
+        },
+        {
+          "text": "Ⅰ.Listen and choose(请听录音，选出与你所听内容相符的选项。)10%",
+          "alignment": 0,
+          "style": "Normal"
+        },
+        {
+          "text": "(     ) 1. A．candies               B．vegetables               C．fruits",
+          "alignment": 0,
+          "style": "Normal"
+        }
+      ],
+      "format_samples": [
+        {
+          "text": "",
+          "font_name": "Times New Roman",
+          "font_size": 15.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "M2U1 Food and drinks（单元",
+          "font_name": "Times New Roman",
+          "font_size": 15.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "自测",
+          "font_name": null,
+          "font_size": 15.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "·",
+          "font_name": "Times New Roman",
+          "font_size": 15.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "提高",
+          "font_name": null,
+          "font_size": 15.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "卷）",
+          "font_name": "Times New Roman",
+          "font_size": 15.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "牛津上海试用本 五年级下册",
+          "font_name": "Times New Roman",
+          "font_size": 15.0,
+          "bold": true,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "（",
+          "font_name": "Times New Roman",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "建议用时",
+          "font_name": null,
+          "font_size": 12.0,
+          "bold": false,
+          "italic": null,
+          "underline": null
+        },
+        {
+          "text": "：60分钟  满分：100分）",
+          "font_name": "Times New Roman",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": null,
+          "underline": null
+        }
+      ],
+      "success": true
+    },
+    "pdf2docx_stats": {
+      "paragraph_count": 62,
+      "table_count": 21,
+      "sample_paragraphs": [
+        {
+          "text": "M2U1 Food and drinks（单元自测·提高卷）牛津上海试用本五年级下册",
+          "alignment": 0,
+          "style": "Normal"
+        },
+        {
+          "text": "Part 1 Listening（30 分）",
+          "alignment": 1,
+          "style": "Normal"
+        },
+        {
+          "text": "Ⅰ.Listen and choose(请听录音，选出与你所听内容相符的选项。)10%",
+          "alignment": 0,
+          "style": "Normal"
+        },
+        {
+          "text": "Ⅱ.Listen and choose(听录音，选择与所听食材/饮品相符的图片。)10%",
+          "alignment": 0,
+          "style": "Normal"
+        },
+        {
+          "text": "Ⅲ.Listen and number.(听录音，给下列句子排序。)10%",
+          "alignment": 0,
+          "style": "Normal"
+        }
+      ],
+      "format_samples": [
+        {
+          "text": "M2U1 Food and drinks",
+          "font_name": "TimesNewRomanPS",
+          "font_size": 15.0,
+          "bold": true,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "（单元自测",
+          "font_name": "KaiTi",
+          "font_size": 15.0,
+          "bold": false,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "·",
+          "font_name": "TimesNewRomanPS",
+          "font_size": 15.0,
+          "bold": true,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "提高卷）牛津上海试用本五年级下册",
+          "font_name": "KaiTi",
+          "font_size": 15.0,
+          "bold": false,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "Part 1 Listening",
+          "font_name": "TimesNewRomanPS",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "（",
+          "font_name": "SimSun",
+          "font_size": 14.0,
+          "bold": false,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "30",
+          "font_name": "TimesNewRomanPS",
+          "font_size": 14.0,
+          "bold": true,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": " 分）",
+          "font_name": "SimSun",
+          "font_size": 14.0,
+          "bold": false,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "Ⅰ.Listen and choose(",
+          "font_name": "TimesNewRomanPS",
+          "font_size": 12.0,
+          "bold": true,
+          "italic": false,
+          "underline": null
+        },
+        {
+          "text": "请听录音，选出与你所听内容相符的选项。",
+          "font_name": "KaiTi",
+          "font_size": 12.0,
+          "bold": false,
+          "italic": false,
+          "underline": null
+        }
+      ],
+      "success": true
+    },
+    "pdf2docx_format": [
+      {
+        "text": "M2U1 Food and drinks",
+        "font_name": "TimesNewRomanPS",
+        "font_size": 15.0,
+        "bold": true,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "（单元自测",
+        "font_name": "KaiTi",
+        "font_size": 15.0,
+        "bold": false,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "·",
+        "font_name": "TimesNewRomanPS",
+        "font_size": 15.0,
+        "bold": true,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "提高卷）牛津上海试用本五年级下册",
+        "font_name": "KaiTi",
+        "font_size": 15.0,
+        "bold": false,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "Part 1 Listening",
+        "font_name": "TimesNewRomanPS",
+        "font_size": 14.0,
+        "bold": true,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "（",
+        "font_name": "SimSun",
+        "font_size": 14.0,
+        "bold": false,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "30",
+        "font_name": "TimesNewRomanPS",
+        "font_size": 14.0,
+        "bold": true,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": " 分）",
+        "font_name": "SimSun",
+        "font_size": 14.0,
+        "bold": false,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "Ⅰ.Listen and choose(",
+        "font_name": "TimesNewRomanPS",
+        "font_size": 12.0,
+        "bold": true,
+        "italic": false,
+        "underline": null
+      },
+      {
+        "text": "请听录音，选出与你所听内容相符的选项。",
+        "font_name": "KaiTi",
+        "font_size": 12.0,
+        "bold": false,
+        "italic": false,
+        "underline": null
+      }
+    ],
+    "our_success": true,
+    "our_stats": {
+      "success": true,
+      "page_count": 6,
+      "paragraph_count": 124,
+      "table_count": 2,
+      "total_elements": 146
+    },
+    "comparison": {
+      "paragraph_count": {
+        "pdf2docx": 62,
+        "our_parser": 124,
+        "standard": 114,
+        "pdf2docx_diff": -52,
+        "our_diff": 10
+      },
+      "table_count": {
+        "pdf2docx": 21,
+        "our_parser": 2,
+        "standard": 2
+      },
+      "similarity": {
+        "pdf2docx": 54.39,
+        "our_parser": 91.23
+      }
+    }
+  }
+]

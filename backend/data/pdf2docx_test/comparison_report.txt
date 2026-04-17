@@ -1,0 +1,164 @@
+================================================================================
+pdf2docx vs 自研parser 对比测试报告
+生成时间: 2026-04-16 17:50:09
+================================================================================
+
+文件 1: Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（考试版A3）.pdf
+--------------------------------------------------------------------------------
+pdf2docx转换状态: 成功
+自研parser状态: 成功
+
+段落数对比:
+  pdf2docx: 8 (差异: -140)
+  自研parser: 169 (差异: +21)
+  标准结果: 148
+
+表格数对比:
+  pdf2docx: 5
+  自研parser: 4
+  标准结果: 1
+
+相似度 (以标准结果为基准):
+  pdf2docx: 5.41%
+  自研parser: 85.81%
+
+pdf2docx格式信息 (前10个样本):
+  1. 文本: (number) are six and eight, because she thinks the...
+     字体: TimesNewRomanPSMT, 字号: 10.5pt
+     加粗: False, 斜体: False, 下划线: None
+  2. 文本: number is 365-2458.
+     字体: TimesNewRomanPSMT, 字号: 10.5pt
+     加粗: False, 斜体: False, 下划线: None
+  3. 文本: 九、书面表达。
+     字体: SimSun, 字号: 10.5pt
+     加粗: False, 斜体: False, 下划线: None
+  4. 文本: (
+     字体: TimesNewRomanPS, 字号: 10.5pt
+     加粗: True, 斜体: False, 下划线: None
+  5. 文本: 共
+     字体: SimSun, 字号: 10.5pt
+     加粗: False, 斜体: False, 下划线: None
+  6. 文本: 10
+     字体: TimesNewRomanPS, 字号: 10.5pt
+     加粗: True, 斜体: False, 下划线: None
+  7. 文本:  分
+     字体: SimSun, 字号: 10.5pt
+     加粗: False, 斜体: False, 下划线: None
+  8. 文本: )
+     字体: TimesNewRomanPS, 字号: 10.5pt
+     加粗: True, 斜体: False, 下划线: None
+  9. 文本: 明天是新学期的第一堂英语课，老师让你们用英语进行自我介绍。请你写一段话为明天英语课上的发
+     字体: SimSun, 字号: 10.5pt
+     加粗: False, 斜体: False, 下划线: None
+  10. 文本: 言做准备。
+     字体: SimSun, 字号: 10.5pt
+     加粗: False, 斜体: False, 下划线: None
+
+================================================================================
+
+文件 2: Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）.pdf
+--------------------------------------------------------------------------------
+pdf2docx转换状态: 成功
+自研parser状态: 成功
+
+段落数对比:
+  pdf2docx: 180 (差异: -79)
+  自研parser: 372 (差异: +113)
+  标准结果: 259
+
+表格数对比:
+  pdf2docx: 59
+  自研parser: 0
+  标准结果: 0
+
+相似度 (以标准结果为基准):
+  pdf2docx: 69.5%
+  自研parser: 56.37%
+
+pdf2docx格式信息 (前10个样本):
+  1. 文本: Unit 1 Art and artists
+     字体: TimesNewRomanPS, 字号: 16.0pt
+     加粗: True, 斜体: False, 下划线: None
+  2. 文本:  单元话题练
+     字体: SimSun, 字号: 16.0pt
+     加粗: False, 斜体: False, 下划线: None
+  3. 文本: （语法填空
+     字体: SimSun, 字号: 14.0pt
+     加粗: False, 斜体: False, 下划线: None
+  4. 文本: +
+     字体: TimesNewRomanPS, 字号: 14.0pt
+     加粗: True, 斜体: False, 下划线: None
+  5. 文本: 语法选择
+     字体: SimSun, 字号: 14.0pt
+     加粗: False, 斜体: False, 下划线: None
+  6. 文本: +
+     字体: TimesNewRomanPS, 字号: 14.0pt
+     加粗: True, 斜体: False, 下划线: None
+  7. 文本: 阅读
+     字体: SimSun, 字号: 14.0pt
+     加粗: False, 斜体: False, 下划线: None
+  8. 文本: +
+     字体: TimesNewRomanPS, 字号: 14.0pt
+     加粗: True, 斜体: False, 下划线: None
+  9. 文本: 完形
+     字体: SimSun, 字号: 14.0pt
+     加粗: False, 斜体: False, 下划线: None
+  10. 文本: +
+     字体: TimesNewRomanPS, 字号: 14.0pt
+     加粗: True, 斜体: False, 下划线: None
+
+================================================================================
+
+文件 3: M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册.pdf
+--------------------------------------------------------------------------------
+pdf2docx转换状态: 成功
+自研parser状态: 成功
+
+段落数对比:
+  pdf2docx: 62 (差异: -52)
+  自研parser: 124 (差异: +10)
+  标准结果: 114
+
+表格数对比:
+  pdf2docx: 21
+  自研parser: 2
+  标准结果: 2
+
+相似度 (以标准结果为基准):
+  pdf2docx: 54.39%
+  自研parser: 91.23%
+
+pdf2docx格式信息 (前10个样本):
+  1. 文本: M2U1 Food and drinks
+     字体: TimesNewRomanPS, 字号: 15.0pt
+     加粗: True, 斜体: False, 下划线: None
+  2. 文本: （单元自测
+     字体: KaiTi, 字号: 15.0pt
+     加粗: False, 斜体: False, 下划线: None
+  3. 文本: ·
+     字体: TimesNewRomanPS, 字号: 15.0pt
+     加粗: True, 斜体: False, 下划线: None
+  4. 文本: 提高卷）牛津上海试用本五年级下册
+     字体: KaiTi, 字号: 15.0pt
+     加粗: False, 斜体: False, 下划线: None
+  5. 文本: Part 1 Listening
+     字体: TimesNewRomanPS, 字号: 14.0pt
+     加粗: True, 斜体: False, 下划线: None
+  6. 文本: （
+     字体: SimSun, 字号: 14.0pt
+     加粗: False, 斜体: False, 下划线: None
+  7. 文本: 30
+     字体: TimesNewRomanPS, 字号: 14.0pt
+     加粗: True, 斜体: False, 下划线: None
+  8. 文本:  分）
+     字体: SimSun, 字号: 14.0pt
+     加粗: False, 斜体: False, 下划线: None
+  9. 文本: Ⅰ.Listen and choose(
+     字体: TimesNewRomanPS, 字号: 12.0pt
+     加粗: True, 斜体: False, 下划线: None
+  10. 文本: 请听录音，选出与你所听内容相符的选项。
+     字体: KaiTi, 字号: 12.0pt
+     加粗: False, 斜体: False, 下划线: None
+
+================================================================================
+

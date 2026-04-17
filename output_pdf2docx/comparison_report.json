@@ -1,0 +1,2848 @@
+[
+  {
+    "pdf": "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463].pdf",
+    "docx": "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463].docx",
+    "text": {
+      "text_overlap": 0.7427,
+      "ref_word_count": 585,
+      "out_word_count": 604,
+      "missing_words_pct": 25.7,
+      "extra_words_pct": 47.7
+    },
+    "structure": {
+      "ref_paragraphs": 159,
+      "out_paragraphs": 129,
+      "ref_nonempty_paragraphs": 129,
+      "out_nonempty_paragraphs": 100,
+      "para_ratio": 0.78
+    },
+    "tables": {
+      "ref_table_count": 6,
+      "out_table_count": 16,
+      "tables_matched": false
+    },
+    "images": {
+      "ref_image_count": 9,
+      "out_image_count": 17,
+      "image_ratio": 1.89
+    },
+    "ref_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "899795",
+        "bottom_margin": "899795",
+        "left_margin": "683895",
+        "right_margin": "683895"
+      }
+    ],
+    "out_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "567690"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "609600",
+        "right_margin": "595630"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "595630"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "664210",
+        "right_margin": "674370"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "596900"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "671830"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "674370"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "623570"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "671830"
+      }
+    ],
+    "out_file_size": 479704,
+    "ref_file_size": 281252
+  },
+  {
+    "pdf": "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册.pdf",
+    "docx": "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册.docx",
+    "text": {
+      "text_overlap": 0.6697,
+      "ref_word_count": 1070,
+      "out_word_count": 658,
+      "missing_words_pct": 33.0,
+      "extra_words_pct": 2.4
+    },
+    "structure": {
+      "ref_paragraphs": 122,
+      "out_paragraphs": 86,
+      "ref_nonempty_paragraphs": 114,
+      "out_nonempty_paragraphs": 62,
+      "para_ratio": 0.54
+    },
+    "tables": {
+      "ref_table_count": 2,
+      "out_table_count": 21,
+      "tables_matched": false
+    },
+    "images": {
+      "ref_image_count": 21,
+      "out_image_count": 21,
+      "image_ratio": 1.0
+    },
+    "ref_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "914400",
+        "bottom_margin": "914400",
+        "left_margin": "685800",
+        "right_margin": "685800"
+      }
+    ],
+    "out_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "345440",
+        "bottom_margin": "257810",
+        "left_margin": "685800",
+        "right_margin": "673100"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "345440",
+        "bottom_margin": "257810",
+        "left_margin": "685800",
+        "right_margin": "673100"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "345440",
+        "bottom_margin": "257810",
+        "left_margin": "685800",
+        "right_margin": "673100"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "345440",
+        "bottom_margin": "257810",
+        "left_margin": "681990",
+        "right_margin": "669290"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "345440",
+        "bottom_margin": "257810",
+        "left_margin": "600710",
+        "right_margin": "623570"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "345440",
+        "bottom_margin": "257810",
+        "left_margin": "681990",
+        "right_margin": "673100"
+      }
+    ],
+    "out_file_size": 983991,
+    "ref_file_size": 686378
+  },
+  {
+    "pdf": "Module 2 Unit 1 Food and drinks（课时练）-五年级英语下学期同步备课系列（牛津上海版试用本）[52332535].pdf",
+    "docx": "Module 2 Unit 1 Food and drinks（课时练）-五年级英语下学期同步备课系列（牛津上海版试用本）[52332535].docx",
+    "text": {
+      "text_overlap": 0.6978,
+      "ref_word_count": 979,
+      "out_word_count": 814,
+      "missing_words_pct": 30.2,
+      "extra_words_pct": 14.7
+    },
+    "structure": {
+      "ref_paragraphs": 128,
+      "out_paragraphs": 96,
+      "ref_nonempty_paragraphs": 109,
+      "out_nonempty_paragraphs": 79,
+      "para_ratio": 0.72
+    },
+    "tables": {
+      "ref_table_count": 0,
+      "out_table_count": 5,
+      "tables_matched": false
+    },
+    "images": {
+      "ref_image_count": 4,
+      "out_image_count": 4,
+      "image_ratio": 1.0
+    },
+    "ref_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "914400",
+        "bottom_margin": "914400",
+        "left_margin": "685800",
+        "right_margin": "685800"
+      }
+    ],
+    "out_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "501650",
+        "right_margin": "673100"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "534670",
+        "right_margin": "673100"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "673100"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "673100"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "596900"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "673100"
+      }
+    ],
+    "out_file_size": 139573,
+    "ref_file_size": 84379
+  },
+  {
+    "pdf": "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）.pdf",
+    "docx": "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）.docx",
+    "text": {
+      "text_overlap": 0.689,
+      "ref_word_count": 4822,
+      "out_word_count": 3224,
+      "missing_words_pct": 31.1,
+      "extra_words_pct": 1.6
+    },
+    "structure": {
+      "ref_paragraphs": 295,
+      "out_paragraphs": 239,
+      "ref_nonempty_paragraphs": 259,
+      "out_nonempty_paragraphs": 180,
+      "para_ratio": 0.69
+    },
+    "tables": {
+      "ref_table_count": 0,
+      "out_table_count": 59,
+      "tables_matched": false
+    },
+    "images": {
+      "ref_image_count": 14,
+      "out_image_count": 13,
+      "image_ratio": 0.93
+    },
+    "ref_page_settings": [
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "720090",
+        "bottom_margin": "720090",
+        "left_margin": "720090",
+        "right_margin": "720090"
+      }
+    ],
+    "out_page_settings": [
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "316230",
+        "left_margin": "716280",
+        "right_margin": "703580"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "313690",
+        "left_margin": "718820",
+        "right_margin": "706120"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "316230",
+        "left_margin": "716280",
+        "right_margin": "706120"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "313690",
+        "left_margin": "718820",
+        "right_margin": "673100"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "316230",
+        "left_margin": "716280",
+        "right_margin": "703580"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "313690",
+        "left_margin": "716280",
+        "right_margin": "706120"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "316230",
+        "left_margin": "718820",
+        "right_margin": "704850"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "313690",
+        "left_margin": "716280",
+        "right_margin": "674370"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "316230",
+        "left_margin": "716280",
+        "right_margin": "674370"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "313690",
+        "left_margin": "718820",
+        "right_margin": "708660"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "316230",
+        "left_margin": "718820",
+        "right_margin": "674370"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "316230",
+        "left_margin": "718820",
+        "right_margin": "674370"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "316230",
+        "left_margin": "718820",
+        "right_margin": "674370"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "316230",
+        "left_margin": "718820",
+        "right_margin": "674370"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "313690",
+        "left_margin": "718820",
+        "right_margin": "706120"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "313690",
+        "left_margin": "718820",
+        "right_margin": "706120"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "313690",
+        "left_margin": "718820",
+        "right_margin": "706120"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "313690",
+        "left_margin": "718820",
+        "right_margin": "706120"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "316230",
+        "left_margin": "718820",
+        "right_margin": "706120"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "316230",
+        "left_margin": "718820",
+        "right_margin": "706120"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "316230",
+        "left_margin": "718820",
+        "right_margin": "706120"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "316230",
+        "left_margin": "718820",
+        "right_margin": "706120"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "398780",
+        "bottom_margin": "313690",
+        "left_margin": "718820",
+        "right_margin": "704850"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "398780",
+        "bottom_margin": "313690",
+        "left_margin": "718820",
+        "right_margin": "704850"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "398780",
+        "bottom_margin": "313690",
+        "left_margin": "718820",
+        "right_margin": "704850"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "398780",
+        "bottom_margin": "313690",
+        "left_margin": "718820",
+        "right_margin": "704850"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "316230",
+        "left_margin": "718820",
+        "right_margin": "640080"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "401320",
+        "bottom_margin": "313690",
+        "left_margin": "718820",
+        "right_margin": "706120"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "388620",
+        "bottom_margin": "316230",
+        "left_margin": "718820",
+        "right_margin": "760730"
+      }
+    ],
+    "out_file_size": 746825,
+    "ref_file_size": 620005
+  },
+  {
+    "pdf": "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）.pdf",
+    "docx": "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）.docx",
+    "text": {
+      "text_overlap": 0.8113,
+      "ref_word_count": 1776,
+      "out_word_count": 1476,
+      "missing_words_pct": 18.9,
+      "extra_words_pct": 3.5
+    },
+    "structure": {
+      "ref_paragraphs": 145,
+      "out_paragraphs": 130,
+      "ref_nonempty_paragraphs": 124,
+      "out_nonempty_paragraphs": 102,
+      "para_ratio": 0.82
+    },
+    "tables": {
+      "ref_table_count": 2,
+      "out_table_count": 25,
+      "tables_matched": false
+    },
+    "images": {
+      "ref_image_count": 5,
+      "out_image_count": 3,
+      "image_ratio": 0.6
+    },
+    "ref_page_settings": [
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "720090",
+        "bottom_margin": "720090",
+        "left_margin": "687705",
+        "right_margin": "687705"
+      }
+    ],
+    "out_page_settings": [
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "608330"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "608330"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "608330"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "608330"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "270510",
+        "bottom_margin": "318770",
+        "left_margin": "601980",
+        "right_margin": "641350"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "601980",
+        "right_margin": "589280"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "270510",
+        "bottom_margin": "318770",
+        "left_margin": "601980",
+        "right_margin": "589280"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "687070",
+        "right_margin": "674370"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "270510",
+        "bottom_margin": "318770",
+        "left_margin": "687070",
+        "right_margin": "671830"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "671830"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "270510",
+        "bottom_margin": "318770",
+        "left_margin": "684530",
+        "right_margin": "671830"
+      }
+    ],
+    "out_file_size": 146747,
+    "ref_file_size": 125325
+  },
+  {
+    "pdf": "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（考试版A3）.pdf",
+    "docx": "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（考试版A3）.docx",
+    "text": {
+      "text_overlap": 0.0481,
+      "ref_word_count": 1221,
+      "out_word_count": 42,
+      "missing_words_pct": 95.2,
+      "extra_words_pct": 0.9
+    },
+    "structure": {
+      "ref_paragraphs": 148,
+      "out_paragraphs": 21,
+      "ref_nonempty_paragraphs": 148,
+      "out_nonempty_paragraphs": 8,
+      "para_ratio": 0.05
+    },
+    "tables": {
+      "ref_table_count": 1,
+      "out_table_count": 5,
+      "tables_matched": false
+    },
+    "images": {
+      "ref_image_count": 4,
+      "out_image_count": 2,
+      "image_ratio": 0.5
+    },
+    "ref_page_settings": [
+      {
+        "page_width": "15121890",
+        "page_height": "10692765",
+        "top_margin": "720090",
+        "bottom_margin": "720090",
+        "left_margin": "720090",
+        "right_margin": "720090"
+      }
+    ],
+    "out_page_settings": [
+      {
+        "page_width": "15121890",
+        "page_height": "10692765",
+        "top_margin": "163830",
+        "bottom_margin": null,
+        "left_margin": "33020",
+        "right_margin": "706120"
+      },
+      {
+        "page_width": "15121890",
+        "page_height": "10692765",
+        "top_margin": "161290",
+        "bottom_margin": null,
+        "left_margin": "645160",
+        "right_margin": "19050"
+      },
+      {
+        "page_width": "15121890",
+        "page_height": "10692765",
+        "top_margin": "163830",
+        "bottom_margin": null,
+        "left_margin": "33020",
+        "right_margin": "706120"
+      },
+      {
+        "page_width": "15121890",
+        "page_height": "10692765",
+        "top_margin": "161290",
+        "bottom_margin": null,
+        "left_margin": "718820",
+        "right_margin": "19050"
+      }
+    ],
+    "out_file_size": 80177,
+    "ref_file_size": 64057
+  },
+  {
+    "pdf": "Unit 1 Everyone is different 重点单词及词性转换进阶练80题（三题型）（原卷版）.pdf",
+    "docx": "Unit 1 Everyone is different 重点单词及词性转换进阶练80题（三题型）（原卷版）.docx",
+    "text": {
+      "text_overlap": 0.8147,
+      "ref_word_count": 939,
+      "out_word_count": 799,
+      "missing_words_pct": 18.5,
+      "extra_words_pct": 12.2
+    },
+    "structure": {
+      "ref_paragraphs": 107,
+      "out_paragraphs": 100,
+      "ref_nonempty_paragraphs": 101,
+      "out_nonempty_paragraphs": 79,
+      "para_ratio": 0.78
+    },
+    "tables": {
+      "ref_table_count": 0,
+      "out_table_count": 1,
+      "tables_matched": false
+    },
+    "images": {
+      "ref_image_count": 96,
+      "out_image_count": 10,
+      "image_ratio": 0.1
+    },
+    "ref_page_settings": [
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "558165",
+        "bottom_margin": null,
+        "left_margin": "720090",
+        "right_margin": "63500"
+      }
+    ],
+    "out_page_settings": [
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "278130",
+        "bottom_margin": "328930",
+        "left_margin": "683260",
+        "right_margin": "670560"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "278130",
+        "bottom_margin": "318770",
+        "left_margin": "683260",
+        "right_margin": "670560"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "278130",
+        "bottom_margin": "318770",
+        "left_margin": "683260",
+        "right_margin": "670560"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "278130",
+        "bottom_margin": "318770",
+        "left_margin": "683260",
+        "right_margin": "670560"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "278130",
+        "bottom_margin": "318770",
+        "left_margin": "683260",
+        "right_margin": "670560"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "278130",
+        "bottom_margin": "318770",
+        "left_margin": "683260",
+        "right_margin": "670560"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "278130",
+        "bottom_margin": "318770",
+        "left_margin": "683260",
+        "right_margin": "670560"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "278130",
+        "bottom_margin": "318770",
+        "left_margin": "683260",
+        "right_margin": "670560"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "278130",
+        "bottom_margin": "327660",
+        "left_margin": "683260",
+        "right_margin": "670560"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "278130",
+        "bottom_margin": "322580",
+        "left_margin": "683260",
+        "right_margin": "670560"
+      }
+    ],
+    "out_file_size": 149104,
+    "ref_file_size": 112173
+  },
+  {
+    "pdf": "Unit 1 Everyone is different 重点语法：一般将来时（will）和指示代词精讲精练（原卷版）.pdf",
+    "docx": "Unit 1 Everyone is different 重点语法：一般将来时（will）和指示代词精讲精练（原卷版）.docx",
+    "text": {
+      "text_overlap": 0.7069,
+      "ref_word_count": 879,
+      "out_word_count": 612,
+      "missing_words_pct": 29.3,
+      "extra_words_pct": 3.4
+    },
+    "structure": {
+      "ref_paragraphs": 125,
+      "out_paragraphs": 99,
+      "ref_nonempty_paragraphs": 117,
+      "out_nonempty_paragraphs": 82,
+      "para_ratio": 0.7
+    },
+    "tables": {
+      "ref_table_count": 2,
+      "out_table_count": 41,
+      "tables_matched": false
+    },
+    "images": {
+      "ref_image_count": 3,
+      "out_image_count": 2,
+      "image_ratio": 0.67
+    },
+    "ref_page_settings": [
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "720090",
+        "bottom_margin": "720090",
+        "left_margin": "720090",
+        "right_margin": "720090"
+      }
+    ],
+    "out_page_settings": [
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "279400",
+        "bottom_margin": "316230",
+        "left_margin": "718820",
+        "right_margin": "708660"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "279400",
+        "bottom_margin": "325120",
+        "left_margin": "718820",
+        "right_margin": "708660"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "279400",
+        "bottom_margin": "316230",
+        "left_margin": "718820",
+        "right_margin": "708660"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "279400",
+        "bottom_margin": "325120",
+        "left_margin": "718820",
+        "right_margin": "708660"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "279400",
+        "bottom_margin": "316230",
+        "left_margin": "718820",
+        "right_margin": "708660"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "279400",
+        "bottom_margin": "325120",
+        "left_margin": "718820",
+        "right_margin": "708660"
+      }
+    ],
+    "out_file_size": 85249,
+    "ref_file_size": 48822
+  },
+  {
+    "pdf": "Unit 3 Food 基础过关练-2025-2026学年高中英语沪外版（2020）必修第二册[56421977].pdf",
+    "docx": "Unit 3 Food 基础过关练-2025-2026学年高中英语沪外版（2020）必修第二册[56421977].docx",
+    "text": {
+      "text_overlap": 0.363,
+      "ref_word_count": 778,
+      "out_word_count": 210,
+      "missing_words_pct": 63.7,
+      "extra_words_pct": 1.1
+    },
+    "structure": {
+      "ref_paragraphs": 98,
+      "out_paragraphs": 37,
+      "ref_nonempty_paragraphs": 76,
+      "out_nonempty_paragraphs": 31,
+      "para_ratio": 0.41
+    },
+    "tables": {
+      "ref_table_count": 2,
+      "out_table_count": 3,
+      "tables_matched": false
+    },
+    "images": {
+      "ref_image_count": 1,
+      "out_image_count": 0,
+      "image_ratio": 0.0
+    },
+    "ref_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "914400",
+        "bottom_margin": "914400",
+        "left_margin": "1143000",
+        "right_margin": "1143000"
+      }
+    ],
+    "out_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "454660",
+        "bottom_margin": "316230",
+        "left_margin": "914400",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "455930",
+        "bottom_margin": "316230",
+        "left_margin": "914400",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "553720",
+        "bottom_margin": "316230",
+        "left_margin": "914400",
+        "right_margin": "914400"
+      }
+    ],
+    "out_file_size": 43889,
+    "ref_file_size": 31808
+  },
+  {
+    "pdf": "Unit 3 Food.词汇同步笔记 清单-2025-2026学年高中英语沪外版必修第二册[54995683].pdf",
+    "docx": "Unit 3 Food.词汇同步笔记 清单-2025-2026学年高中英语沪外版必修第二册[54995683].docx",
+    "text": {
+      "text_overlap": 1.0,
+      "ref_word_count": 4,
+      "out_word_count": 17,
+      "missing_words_pct": 0.0,
+      "extra_words_pct": 175.0
+    },
+    "structure": {
+      "ref_paragraphs": 2,
+      "out_paragraphs": 27,
+      "ref_nonempty_paragraphs": 1,
+      "out_nonempty_paragraphs": 14,
+      "para_ratio": 14.0
+    },
+    "tables": {
+      "ref_table_count": 1,
+      "out_table_count": 13,
+      "tables_matched": false
+    },
+    "images": {
+      "ref_image_count": 1,
+      "out_image_count": 7,
+      "image_ratio": 7.0
+    },
+    "ref_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "914400",
+        "bottom_margin": "914400",
+        "left_margin": "914400",
+        "right_margin": "914400"
+      }
+    ],
+    "out_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "485140",
+        "bottom_margin": "316230",
+        "left_margin": "455930",
+        "right_margin": "425450"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "518160",
+        "bottom_margin": "316230",
+        "left_margin": "455930",
+        "right_margin": "425450"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "518160",
+        "bottom_margin": "316230",
+        "left_margin": "455930",
+        "right_margin": "430530"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "518160",
+        "bottom_margin": "316230",
+        "left_margin": "455930",
+        "right_margin": "422910"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "518160",
+        "bottom_margin": "316230",
+        "left_margin": "455930",
+        "right_margin": "439420"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "518160",
+        "bottom_margin": "316230",
+        "left_margin": "455930",
+        "right_margin": "434340"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "518160",
+        "bottom_margin": "316230",
+        "left_margin": "455930",
+        "right_margin": "438150"
+      }
+    ],
+    "out_file_size": 107900,
+    "ref_file_size": 47861
+  },
+  {
+    "pdf": "Unit1 Music  单元测试卷【A卷 ★ 对接新教材】 （考试版） .pdf",
+    "docx": "Unit1 Music  单元测试卷【A卷 ★ 对接新教材】 （考试版） .docx",
+    "text": {
+      "text_overlap": 0.8596,
+      "ref_word_count": 1379,
+      "out_word_count": 1246,
+      "missing_words_pct": 14.0,
+      "extra_words_pct": 8.6
+    },
+    "structure": {
+      "ref_paragraphs": 123,
+      "out_paragraphs": 101,
+      "ref_nonempty_paragraphs": 113,
+      "out_nonempty_paragraphs": 81,
+      "para_ratio": 0.72
+    },
+    "tables": {
+      "ref_table_count": 0,
+      "out_table_count": 11,
+      "tables_matched": false
+    },
+    "images": {
+      "ref_image_count": 5,
+      "out_image_count": 1,
+      "image_ratio": 0.2
+    },
+    "ref_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "899795",
+        "bottom_margin": "899795",
+        "left_margin": "683895",
+        "right_margin": "683895"
+      }
+    ],
+    "out_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "697230"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "697230"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "697230"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "697230"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "697230"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "674370"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "670560"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "670560"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "697230"
+      }
+    ],
+    "out_file_size": 72033,
+    "ref_file_size": 49510
+  },
+  {
+    "pdf": "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）.pdf",
+    "docx": "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）.docx",
+    "text": {
+      "text_overlap": 0.7234,
+      "ref_word_count": 1624,
+      "out_word_count": 1274,
+      "missing_words_pct": 27.7,
+      "extra_words_pct": 8.5
+    },
+    "structure": {
+      "ref_paragraphs": 134,
+      "out_paragraphs": 137,
+      "ref_nonempty_paragraphs": 119,
+      "out_nonempty_paragraphs": 107,
+      "para_ratio": 0.9
+    },
+    "tables": {
+      "ref_table_count": 2,
+      "out_table_count": 18,
+      "tables_matched": false
+    },
+    "images": {
+      "ref_image_count": 11,
+      "out_image_count": 7,
+      "image_ratio": 0.64
+    },
+    "ref_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "914400",
+        "bottom_margin": "914400",
+        "left_margin": "685800",
+        "right_margin": "685800"
+      }
+    ],
+    "out_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "637540"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "600710",
+        "right_margin": "673100"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "674370"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "600710",
+        "right_margin": "673100"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "673100"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "670560"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "670560"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "670560"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "670560"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "683260",
+        "right_margin": "673100"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "674370"
+      }
+    ],
+    "out_file_size": 465493,
+    "ref_file_size": 375444
+  },
+  {
+    "pdf": "Unit1 Music 单元词汇精讲巧练 （原题版） .pdf",
+    "docx": "Unit1 Music 单元词汇精讲巧练 （原题版） .docx",
+    "text": {
+      "text_overlap": 0.8191,
+      "ref_word_count": 1227,
+      "out_word_count": 1176,
+      "missing_words_pct": 18.1,
+      "extra_words_pct": 19.4
+    },
+    "structure": {
+      "ref_paragraphs": 185,
+      "out_paragraphs": 258,
+      "ref_nonempty_paragraphs": 150,
+      "out_nonempty_paragraphs": 171,
+      "para_ratio": 1.14
+    },
+    "tables": {
+      "ref_table_count": 10,
+      "out_table_count": 32,
+      "tables_matched": false
+    },
+    "images": {
+      "ref_image_count": 3,
+      "out_image_count": 220,
+      "image_ratio": 73.33
+    },
+    "ref_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "914400",
+        "bottom_margin": "914400",
+        "left_margin": "685800",
+        "right_margin": "685800"
+      }
+    ],
+    "out_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "654050",
+        "right_margin": "721360"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "654050",
+        "right_margin": "721360"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "654050",
+        "right_margin": "721360"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "654050",
+        "right_margin": "721360"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "721360"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "721360"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "721360"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "607060"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "614680"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "607060"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "607060"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "457200",
+        "right_margin": "706120"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "457200",
+        "right_margin": "721360"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "457200",
+        "right_margin": "721360"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "721360"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "721360"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "721360"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "721360"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "654050",
+        "right_margin": "721360"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "654050",
+        "right_margin": "721360"
+      }
+    ],
+    "out_file_size": 373401,
+    "ref_file_size": 112729
+  },
+  {
+    "pdf": "Unit1 Music 单元语法请讲巧练 （原题版） .pdf",
+    "docx": "Unit1 Music 单元语法请讲巧练 （原题版） .docx",
+    "text": {
+      "text_overlap": 0.7669,
+      "ref_word_count": 1115,
+      "out_word_count": 849,
+      "missing_words_pct": 23.3,
+      "extra_words_pct": 6.0
+    },
+    "structure": {
+      "ref_paragraphs": 188,
+      "out_paragraphs": 149,
+      "ref_nonempty_paragraphs": 170,
+      "out_nonempty_paragraphs": 123,
+      "para_ratio": 0.72
+    },
+    "tables": {
+      "ref_table_count": 2,
+      "out_table_count": 43,
+      "tables_matched": false
+    },
+    "images": {
+      "ref_image_count": 3,
+      "out_image_count": 3,
+      "image_ratio": 1.0
+    },
+    "ref_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "914400",
+        "bottom_margin": "914400",
+        "left_margin": "685800",
+        "right_margin": "685800"
+      }
+    ],
+    "out_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "721360"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "673100"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "673100"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "610870",
+        "right_margin": "598170"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "593090",
+        "right_margin": "598170"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "685800",
+        "right_margin": "673100"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "683260",
+        "right_margin": "721360"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "683260",
+        "right_margin": "674370"
+      }
+    ],
+    "out_file_size": 205938,
+    "ref_file_size": 71649
+  },
+  {
+    "pdf": "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）.pdf",
+    "docx": "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）.docx",
+    "text": {
+      "text_overlap": 0.7584,
+      "ref_word_count": 5359,
+      "out_word_count": 4187,
+      "missing_words_pct": 24.2,
+      "extra_words_pct": 4.6
+    },
+    "structure": {
+      "ref_paragraphs": 972,
+      "out_paragraphs": 526,
+      "ref_nonempty_paragraphs": 876,
+      "out_nonempty_paragraphs": 396,
+      "para_ratio": 0.45
+    },
+    "tables": {
+      "ref_table_count": 0,
+      "out_table_count": 66,
+      "tables_matched": false
+    },
+    "images": {
+      "ref_image_count": 136,
+      "out_image_count": 25,
+      "image_ratio": 0.18
+    },
+    "ref_page_settings": [
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "789305",
+        "bottom_margin": null,
+        "left_margin": "609600",
+        "right_margin": "63500"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "765810",
+        "bottom_margin": null,
+        "left_margin": "609600",
+        "right_margin": "63500"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "762635",
+        "bottom_margin": null,
+        "left_margin": "609600",
+        "right_margin": "63500"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "765175",
+        "bottom_margin": null,
+        "left_margin": "609600",
+        "right_margin": "63500"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "767080",
+        "bottom_margin": null,
+        "left_margin": "609600",
+        "right_margin": "63500"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "754380",
+        "bottom_margin": null,
+        "left_margin": "609600",
+        "right_margin": "63500"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "765810",
+        "bottom_margin": null,
+        "left_margin": "609600",
+        "right_margin": "63500"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "770890",
+        "bottom_margin": null,
+        "left_margin": "609600",
+        "right_margin": "63500"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "1064260",
+        "bottom_margin": null,
+        "left_margin": "609600",
+        "right_margin": "63500"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "767080",
+        "bottom_margin": null,
+        "left_margin": "609600",
+        "right_margin": "63500"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "770890",
+        "bottom_margin": null,
+        "left_margin": "609600",
+        "right_margin": "63500"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "767080",
+        "bottom_margin": null,
+        "left_margin": "609600",
+        "right_margin": "63500"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "1064260",
+        "bottom_margin": null,
+        "left_margin": "609600",
+        "right_margin": "63500"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "767080",
+        "bottom_margin": null,
+        "left_margin": "609600",
+        "right_margin": "63500"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "1064260",
+        "bottom_margin": null,
+        "left_margin": "609600",
+        "right_margin": "63500"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "1068705",
+        "bottom_margin": null,
+        "left_margin": "609600",
+        "right_margin": "63500"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "767080",
+        "bottom_margin": null,
+        "left_margin": "609600",
+        "right_margin": "63500"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "765810",
+        "bottom_margin": null,
+        "left_margin": "609600",
+        "right_margin": "63500"
+      }
+    ],
+    "out_page_settings": [
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "379730",
+        "bottom_margin": "309880",
+        "left_margin": "609600",
+        "right_margin": "529590"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "382270",
+        "bottom_margin": "383540",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "384810",
+        "bottom_margin": "401320",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "382270",
+        "bottom_margin": "405130",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "384810",
+        "bottom_margin": "375920",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "373380",
+        "bottom_margin": "303530",
+        "left_margin": "609600",
+        "right_margin": "499110"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "382270",
+        "bottom_margin": "303530",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "388620",
+        "bottom_margin": "303530",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "383540",
+        "bottom_margin": "311150",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "388620",
+        "bottom_margin": "304800",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": null,
+        "bottom_margin": "304800",
+        "left_margin": null,
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "388620",
+        "bottom_margin": "304800",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "383540",
+        "bottom_margin": "303530",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "311150",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "388620",
+        "bottom_margin": "303530",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "388620",
+        "bottom_margin": "309880",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "383540",
+        "bottom_margin": "302260",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "383540",
+        "bottom_margin": "302260",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "383540",
+        "bottom_margin": "302260",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "383540",
+        "bottom_margin": "302260",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "309880",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "309880",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "309880",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "309880",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "309880",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "309880",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "309880",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "309880",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "309880",
+        "left_margin": "609600",
+        "right_margin": "530860"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "388620",
+        "bottom_margin": "303530",
+        "left_margin": "609600",
+        "right_margin": "532130"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "388620",
+        "bottom_margin": "303530",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "383540",
+        "bottom_margin": "303530",
+        "left_margin": "609600",
+        "right_margin": "530860"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "309880",
+        "left_margin": "609600",
+        "right_margin": "534670"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "382270",
+        "bottom_margin": "303530",
+        "left_margin": "609600",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "309880",
+        "left_margin": "609600",
+        "right_margin": "499110"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "309880",
+        "left_margin": "609600",
+        "right_margin": "483870"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "309880",
+        "left_margin": "609600",
+        "right_margin": "527050"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "309880",
+        "left_margin": "609600",
+        "right_margin": "527050"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "309880",
+        "left_margin": "609600",
+        "right_margin": "527050"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "309880",
+        "left_margin": "609600",
+        "right_margin": "527050"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "308610",
+        "left_margin": "609600",
+        "right_margin": "513080"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "308610",
+        "left_margin": "609600",
+        "right_margin": "513080"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "308610",
+        "left_margin": "609600",
+        "right_margin": "513080"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "308610",
+        "left_margin": "609600",
+        "right_margin": "513080"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "309880",
+        "left_margin": "609600",
+        "right_margin": "501650"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": null,
+        "bottom_margin": "311150",
+        "left_margin": null,
+        "right_margin": "532130"
+      },
+      {
+        "page_width": "7556500",
+        "page_height": "10693400",
+        "top_margin": "375920",
+        "bottom_margin": "312420",
+        "left_margin": "607060",
+        "right_margin": "532130"
+      }
+    ],
+    "out_file_size": 285594,
+    "ref_file_size": 235875
+  },
+  {
+    "pdf": "Unit3 Food 一轮复习单词及派生词语境记忆法导学案-2026届高三英语沪外版必修第二册[55909778].pdf",
+    "docx": "Unit3 Food 一轮复习单词及派生词语境记忆法导学案-2026届高三英语沪外版必修第二册[55909778].docx",
+    "text": {
+      "text_overlap": 0.9288,
+      "ref_word_count": 2891,
+      "out_word_count": 3108,
+      "missing_words_pct": 7.1,
+      "extra_words_pct": 20.9
+    },
+    "structure": {
+      "ref_paragraphs": 333,
+      "out_paragraphs": 341,
+      "ref_nonempty_paragraphs": 251,
+      "out_nonempty_paragraphs": 312,
+      "para_ratio": 1.24
+    },
+    "tables": {
+      "ref_table_count": 0,
+      "out_table_count": 0,
+      "tables_matched": true
+    },
+    "images": {
+      "ref_image_count": 1,
+      "out_image_count": 0,
+      "image_ratio": 0.0
+    },
+    "ref_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "914400",
+        "bottom_margin": "914400",
+        "left_margin": "1143000",
+        "right_margin": "1143000"
+      }
+    ],
+    "out_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "292100",
+        "bottom_margin": "316230",
+        "left_margin": "914400",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "292100",
+        "bottom_margin": "316230",
+        "left_margin": "914400",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "292100",
+        "bottom_margin": "316230",
+        "left_margin": "914400",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "292100",
+        "bottom_margin": "316230",
+        "left_margin": "914400",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "292100",
+        "bottom_margin": "316230",
+        "left_margin": "914400",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "292100",
+        "bottom_margin": "316230",
+        "left_margin": "914400",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "292100",
+        "bottom_margin": "316230",
+        "left_margin": "914400",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "292100",
+        "bottom_margin": "316230",
+        "left_margin": "914400",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "292100",
+        "bottom_margin": "316230",
+        "left_margin": "914400",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "292100",
+        "bottom_margin": "316230",
+        "left_margin": "914400",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "292100",
+        "bottom_margin": "316230",
+        "left_margin": "914400",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "292100",
+        "bottom_margin": "316230",
+        "left_margin": "914400",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "292100",
+        "bottom_margin": "316230",
+        "left_margin": "914400",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "292100",
+        "bottom_margin": "316230",
+        "left_margin": "914400",
+        "right_margin": "914400"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "292100",
+        "bottom_margin": "316230",
+        "left_margin": "914400",
+        "right_margin": "914400"
+      }
+    ],
+    "out_file_size": 60583,
+    "ref_file_size": 45255
+  },
+  {
+    "pdf": "专题01 高频词汇变形归纳（复习讲义）（上海专用）（原卷版）.pdf",
+    "docx": "专题01 高频词汇变形归纳（复习讲义）（上海专用）（原卷版）.docx",
+    "text": {
+      "text_overlap": 0.8777,
+      "ref_word_count": 1337,
+      "out_word_count": 1304,
+      "missing_words_pct": 12.2,
+      "extra_words_pct": 5.2
+    },
+    "structure": {
+      "ref_paragraphs": 198,
+      "out_paragraphs": 216,
+      "ref_nonempty_paragraphs": 195,
+      "out_nonempty_paragraphs": 167,
+      "para_ratio": 0.86
+    },
+    "tables": {
+      "ref_table_count": 10,
+      "out_table_count": 45,
+      "tables_matched": false
+    },
+    "images": {
+      "ref_image_count": 2,
+      "out_image_count": 8,
+      "image_ratio": 4.0
+    },
+    "ref_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "900430",
+        "bottom_margin": "900430",
+        "left_margin": "683895",
+        "right_margin": "683895"
+      }
+    ],
+    "out_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "614680",
+        "right_margin": "601980"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "614680",
+        "right_margin": "600710"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "614680",
+        "right_margin": "600710"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "609600",
+        "right_margin": "596900"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "609600",
+        "right_margin": "596900"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "609600",
+        "right_margin": "596900"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "614680",
+        "right_margin": "601980"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "614680",
+        "right_margin": "600710"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "609600",
+        "right_margin": "596900"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "609600",
+        "right_margin": "596900"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "614680",
+        "right_margin": "600710"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "614680",
+        "right_margin": "601980"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "614680",
+        "right_margin": "601980"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "614680",
+        "right_margin": "601980"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "614680",
+        "right_margin": "601980"
+      }
+    ],
+    "out_file_size": 112071,
+    "ref_file_size": 149777
+  },
+  {
+    "pdf": "专题02 高频短语归纳（复习讲义）（上海专用）（原卷版）.pdf",
+    "docx": "专题02 高频短语归纳（复习讲义）（上海专用）（原卷版）.docx",
+    "text": {
+      "text_overlap": 0.7636,
+      "ref_word_count": 1019,
+      "out_word_count": 817,
+      "missing_words_pct": 23.6,
+      "extra_words_pct": 3.3
+    },
+    "structure": {
+      "ref_paragraphs": 152,
+      "out_paragraphs": 154,
+      "ref_nonempty_paragraphs": 150,
+      "out_nonempty_paragraphs": 104,
+      "para_ratio": 0.69
+    },
+    "tables": {
+      "ref_table_count": 9,
+      "out_table_count": 53,
+      "tables_matched": false
+    },
+    "images": {
+      "ref_image_count": 3,
+      "out_image_count": 11,
+      "image_ratio": 3.67
+    },
+    "ref_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "900430",
+        "bottom_margin": "900430",
+        "left_margin": "683895",
+        "right_margin": "683895"
+      }
+    ],
+    "out_page_settings": [
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "609600",
+        "right_margin": "596900"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "609600",
+        "right_margin": "596900"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "656590"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "614680",
+        "right_margin": "601980"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "656590"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "609600",
+        "right_margin": "596900"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "609600",
+        "right_margin": "596900"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "609600",
+        "right_margin": "596900"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "609600",
+        "right_margin": "596900"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "614680",
+        "right_margin": "601980"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "656590"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "656590"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "656590"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "656590"
+      },
+      {
+        "page_width": "7560310",
+        "page_height": "10692130",
+        "top_margin": "276860",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "656590"
+      }
+    ],
+    "out_file_size": 353103,
+    "ref_file_size": 357520
+  },
+  {
+    "pdf": "专题13 词汇辨析、短语及固定搭配（93题）（原卷版）.pdf",
+    "docx": "专题13 词汇辨析、短语及固定搭配（93题）（原卷版）.docx",
+    "text": {
+      "text_overlap": 0.7337,
+      "ref_word_count": 1666,
+      "out_word_count": 1321,
+      "missing_words_pct": 26.6,
+      "extra_words_pct": 2.4
+    },
+    "structure": {
+      "ref_paragraphs": 200,
+      "out_paragraphs": 152,
+      "ref_nonempty_paragraphs": 196,
+      "out_nonempty_paragraphs": 129,
+      "para_ratio": 0.66
+    },
+    "tables": {
+      "ref_table_count": 0,
+      "out_table_count": 89,
+      "tables_matched": false
+    },
+    "images": {
+      "ref_image_count": 1,
+      "out_image_count": 1,
+      "image_ratio": 1.0
+    },
+    "ref_page_settings": [
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "720090",
+        "bottom_margin": "720090",
+        "left_margin": "683895",
+        "right_margin": "683895"
+      }
+    ],
+    "out_page_settings": [
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "657860"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "270510",
+        "bottom_margin": "318770",
+        "left_margin": "684530",
+        "right_margin": "656590"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "656590"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "270510",
+        "bottom_margin": "318770",
+        "left_margin": "684530",
+        "right_margin": "656590"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "656590"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "270510",
+        "bottom_margin": "318770",
+        "left_margin": "684530",
+        "right_margin": "656590"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "270510",
+        "bottom_margin": "316230",
+        "left_margin": "684530",
+        "right_margin": "656590"
+      },
+      {
+        "page_width": "7560945",
+        "page_height": "10692765",
+        "top_margin": "270510",
+        "bottom_margin": "318770",
+        "left_margin": "684530",
+        "right_margin": "656590"
+      }
+    ],
+    "out_file_size": 80992,
+    "ref_file_size": 56327
+  }
+]
