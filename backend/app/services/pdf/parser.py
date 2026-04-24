@@ -1,31 +1,39 @@
-"""PDF解析器 - 增强版：分栏检测、跨页拼接、段落分组、连字符处理"""
+"""PDF解析器 - 基于opendataloader_pdf的JSON输出转换为DOCX
 
+完全替代原有的PyMuPDF/pdfplumber解析方案，使用opendataloader_pdf生成结构化JSON，
+然后转换为ContentElement列表供后续处理。
+"""
+
+import json
 import re
-import fitz  # PyMuPDF
-import pdfplumber
 from pathlib import Path
 from typing import List, Dict, Any, Optional, Tuple
 from dataclasses import dataclass
 
+from docx import Document
+from docx.shared import Pt, RGBColor, Inches, Cm
+from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.enum.table import WD_TABLE_ALIGNMENT
+from docx.oxml.ns import qn
+from docx.oxml import OxmlElement
+
 
 @dataclass
 class PDFTextBlock:
-    """PDF文本块"""
-
+    """PDF文本块 - 保持向后兼容"""
     text: str
     font_name: str
     font_size: float
     font_color: str
     is_bold: bool
     is_italic: bool
-    bbox: Tuple[float, float, float, float]  # (x0, y0, x1, y1)
+    bbox: Tuple[float, float, float, float]
     page_num: int
 
 
 @dataclass
 class PDFTable:
-    """PDF表格"""
-
+    """PDF表格 - 保持向后兼容"""
     data: List[List[str]]
     bbox: Tuple[float, float, float, float]
     page_num: int
@@ -35,723 +43,639 @@ class PDFTable:
 
 @dataclass
 class PDFImage:
-    """PDF图片"""
-
+    """PDF图片 - 保持向后兼容"""
     data: bytes
     bbox: Tuple[float, float, float, float]
     page_num: int
     ext: str
 
 
+class PDFType:
+    """PDF类型枚举 - 保持向后兼容"""
+    NATIVE = "native"
+    SCANNED = "scanned"
+    MIXED = "mixed"
+
+
+class PDFDetectionResult:
+    """PDF检测结果 - 保持向后兼容"""
+    def __init__(self, pdf_type, confidence, page_analyses=None, summary=None):
+        self.pdf_type = pdf_type if isinstance(pdf_type, str) else pdf_type.value
+        self.confidence = confidence
+        self.page_analyses = page_analyses or []
+        self.summary = summary or {}
+
+
+class PDFTypeDetector:
+    """PDF类型检测器 - opendataloader_pdf解析的PDF都是原生文本型"""
+    
+    def __init__(self, pdf_parser):
+        self.parser = pdf_parser
+    
+    def detect(self):
+        """检测PDF类型 - opendataloader_pdf只处理原生PDF"""
+        return PDFDetectionResult(
+            pdf_type=PDFType.NATIVE,
+            confidence=1.0,
+            page_analyses=[],
+            summary={
+                "type": "native",
+                "type_name": "原生可复制PDF",
+                "total_pages": self.parser.get_page_count(),
+                "processing_hint": "将直接提取文本内容并进行智能排版"
+            }
+        )
+
+
+def detect_pdf_type(pdf_parser):
+    """便捷函数：检测PDF类型"""
+    detector = PDFTypeDetector(pdf_parser)
+    return detector.detect()
+
+
+class FontMapper:
+    """PDF字体到DOCX字体映射器"""
+    
+    FONT_MAPPING = {
+        # Times New Roman 系列
+        "TimesNewRomanPSMT": "Times New Roman",
+        "TimesNewRomanPS-BoldMT": "Times New Roman",
+        "TimesNewRomanPS-ItalicMT": "Times New Roman",
+        "TimesNewRomanPS-BoldItalicMT": "Times New Roman",
+        "TimesNewRoman": "Times New Roman",
+        "Times-Roman": "Times New Roman",
+        "Times-Bold": "Times New Roman",
+        "Times-Italic": "Times New Roman",
+        "Times-BoldItalic": "Times New Roman",
+        
+        # Arial 系列
+        "ArialMT": "Arial",
+        "Arial-BoldMT": "Arial",
+        "Arial-ItalicMT": "Arial",
+        "Arial-BoldItalicMT": "Arial",
+        "Arial": "Arial",
+        "Helvetica": "Arial",
+        
+        # 中文字体
+        "SimSun": "宋体",
+        "SimSun-Bold": "宋体",
+        "SimSun-ExtB": "宋体",
+        "SimHei": "黑体",
+        "KaiTi": "楷体",
+        "KaiTi_GB2312": "楷体",
+        "FangSong": "仿宋",
+        "FangSong_GB2312": "仿宋",
+        "MicrosoftYaHei": "微软雅黑",
+        "MicrosoftYaHei-Bold": "微软雅黑",
+        "STSong": "宋体",
+        "STHeiti": "黑体",
+        "STKaiti": "楷体",
+        "STFangsong": "仿宋",
+        
+        # 其他常见字体
+        "CourierNewPSMT": "Courier New",
+        "CourierNew": "Courier New",
+        "Verdana": "Verdana",
+        "Georgia": "Georgia",
+        "Tahoma": "Tahoma",
+        "Calibri": "Calibri",
+        "Calibri-Bold": "Calibri",
+        "Cambria": "Cambria",
+        "Cambria-Bold": "Cambria",
+    }
+    
+    @classmethod
+    def map_font(cls, pdf_font: str) -> str:
+        """映射PDF字体到DOCX字体"""
+        if not pdf_font:
+            return "宋体"
+        
+        # 直接匹配
+        if pdf_font in cls.FONT_MAPPING:
+            return cls.FONT_MAPPING[pdf_font]
+        
+        # 去除子集前缀 (如 AAAAAA+SimSun)
+        if "+" in pdf_font:
+            pdf_font = pdf_font.split("+", 1)[1]
+            if pdf_font in cls.FONT_MAPPING:
+                return cls.FONT_MAPPING[pdf_font]
+        
+        # 模糊匹配
+        pdf_font_lower = pdf_font.lower()
+        for key, value in cls.FONT_MAPPING.items():
+            if key.lower() in pdf_font_lower or pdf_font_lower in key.lower():
+                return value
+        
+        # 默认字体
+        return "宋体"
+    
+    @classmethod
+    def is_bold(cls, pdf_font: str) -> bool:
+        """判断字体是否为粗体"""
+        if not pdf_font:
+            return False
+        bold_keywords = ["bold", "heavy", "black", "demi"]
+        pdf_font_lower = pdf_font.lower()
+        return any(kw in pdf_font_lower for kw in bold_keywords)
+    
+    @classmethod
+    def is_italic(cls, pdf_font: str) -> bool:
+        """判断字体是否为斜体"""
+        if not pdf_font:
+            return False
+        italic_keywords = ["italic", "oblique", "slant"]
+        pdf_font_lower = pdf_font.lower()
+        return any(kw in pdf_font_lower for kw in italic_keywords)
+
+
+class ColorConverter:
+    """颜色转换器"""
+    
+    @classmethod
+    def parse_rgb(cls, color_str: str) -> Optional[RGBColor]:
+        """解析JSON中的颜色字符串 [R, G, B]"""
+        if not color_str:
+            return RGBColor(0, 0, 0)
+        
+        try:
+            # 处理 [0.0, 0.0, 0.0] 格式
+            match = re.match(r'\[\s*([\d.]+)\s*,\s*([\d.]+)\s*,\s*([\d.]+)\s*\]', color_str)
+            if match:
+                r = int(float(match.group(1)) * 255)
+                g = int(float(match.group(2)) * 255)
+                b = int(float(match.group(3)) * 255)
+                return RGBColor(r, g, b)
+            
+            # 处理 6位16进制格式
+            color_str = color_str.strip('#')
+            if len(color_str) == 6:
+                r = int(color_str[0:2], 16)
+                g = int(color_str[2:4], 16)
+                b = int(color_str[4:6], 16)
+                return RGBColor(r, g, b)
+        except (ValueError, IndexError):
+            pass
+        
+        return RGBColor(0, 0, 0)
+
+
+class AlignmentDetector:
+    """对齐方式检测器"""
+    
+    @classmethod
+    def detect_from_bbox(cls, bbox: List[float], page_width: float = 595.0) -> str:
+        """根据bounding box检测对齐方式"""
+        if not bbox or len(bbox) < 4:
+            return "left"
+        
+        x1, y1, x2, y2 = bbox
+        element_width = x2 - x1
+        left_margin = x1
+        right_margin = page_width - x2
+        
+        # 居中对齐：左右边距大致相等，且元素宽度小于页面宽度的80%
+        if abs(left_margin - right_margin) < page_width * 0.1 and element_width < page_width * 0.8:
+            return "center"
+        
+        # 右对齐：右边距明显小于左边距
+        if right_margin < left_margin * 0.5 and left_margin > page_width * 0.2:
+            return "right"
+        
+        # 两端对齐：元素宽度接近页面宽度
+        if element_width > page_width * 0.85:
+            return "justify"
+        
+        # 默认左对齐
+        return "left"
+    
+    @classmethod
+    def get_wd_align(cls, alignment: str):
+        """获取docx对齐常量"""
+        mapping = {
+            "left": WD_ALIGN_PARAGRAPH.LEFT,
+            "center": WD_ALIGN_PARAGRAPH.CENTER,
+            "right": WD_ALIGN_PARAGRAPH.RIGHT,
+            "justify": WD_ALIGN_PARAGRAPH.JUSTIFY,
+        }
+        return mapping.get(alignment, WD_ALIGN_PARAGRAPH.LEFT)
+
+
 class PDFParser:
-    """PDF解析器 - 增强版
-
-    特性：
-    - 分栏检测（密度分析算法）
-    - 跨页连字符合并（如 comput-er → computer）
-    - 段落边界识别（基于行距和字体变化）
-    - 对齐方式检测（左/中/右/两端）
-    - 图片位置还原
-    - 表格增强提取（pdfplumber回退）
+    """PDF解析器 - 基于opendataloader_pdf的JSON输出
+    
+    完全替代原有的PyMuPDF/pdfplumber解析方案。
     """
-
+    
     def __init__(self, file_path: str):
         self.file_path = Path(file_path)
-        self.doc = fitz.open(str(file_path))
-
+        self.json_data = None
+        self.json_path = None
+        self.images_dir = None
+        self._load_json()
+    
+    def _load_json(self):
+        """加载opendataloader_pdf生成的JSON文件"""
+        # 尝试查找同名的JSON文件
+        json_path = self.file_path.with_suffix('.json')
+        if json_path.exists():
+            self.json_path = json_path
+            with open(json_path, 'r', encoding='utf-8') as f:
+                self.json_data = json.load(f)
+        
+        # 查找图片目录
+        images_dir = Path(str(self.file_path.with_suffix('')) + '_images')
+        if images_dir.exists():
+            self.images_dir = images_dir
+    
     def close(self):
-        if self.doc:
-            self.doc.close()
-
+        """关闭解析器"""
+        pass
+    
     def get_page_count(self) -> int:
-        return len(self.doc)
-
+        """获取页面数量"""
+        if self.json_data:
+            return self.json_data.get('number of pages', 0)
+        return 0
+    
     def extract_text_blocks(self, page_num: int) -> List[PDFTextBlock]:
-        """提取带样式信息的文本块"""
-        if page_num >= len(self.doc):
-            return []
-
-        page = self.doc[page_num]
-        blocks = page.get_text("dict")
-        text_blocks = []
-
-        for block in blocks.get("blocks", []):
-            if block.get("type") != 0:
-                continue
-
-            for line in block.get("lines", []):
-                for span in line.get("spans", []):
-                    text = span.get("text", "").strip()
-                    if not text:
-                        continue
-
-                    font_name = span.get("font", "Unknown")
-                    font_size = span.get("size", 12)
-                    font_color_int = span.get("color", 0)
-                    font_color = f"{font_color_int:06x}" if font_color_int else "000000"
-                    flags = span.get("flags", 0)
-
-                    is_bold = bool(flags & 2**4)
-                    is_italic = bool(flags & 2**1)
-
-                    bbox = span.get("bbox", (0, 0, 0, 0))
-
-                    text_blocks.append(
-                        PDFTextBlock(
-                            text=text,
-                            font_name=font_name,
-                            font_size=font_size,
-                            font_color=font_color,
-                            is_bold=is_bold,
-                            is_italic=is_italic,
-                            bbox=bbox,
-                            page_num=page_num,
-                        )
-                    )
-
-        return text_blocks
-
+        """提取带样式信息的文本块 - 保持向后兼容"""
+        blocks = []
+        if not self.json_data:
+            return blocks
+        
+        for element in self.json_data.get('kids', []):
+            if element.get('page number') == page_num and element.get('type') in ['paragraph', 'heading']:
+                bbox = element.get('bounding box', [0, 0, 0, 0])
+                blocks.append(PDFTextBlock(
+                    text=element.get('content', ''),
+                    font_name=element.get('font', ''),
+                    font_size=element.get('font size', 12),
+                    font_color=element.get('text color', ''),
+                    is_bold=FontMapper.is_bold(element.get('font', '')),
+                    is_italic=FontMapper.is_italic(element.get('font', '')),
+                    bbox=tuple(bbox) if len(bbox) == 4 else (0, 0, 0, 0),
+                    page_num=page_num
+                ))
+        
+        return blocks
+    
     def extract_tables(self, page_num: int) -> List[PDFTable]:
-        """提取表格（PyMuPDF优先，pdfplumber回退）"""
-        if page_num >= len(self.doc):
-            return []
-
-        result = []
-        page = self.doc[page_num]
-
-        try:
-            tables = page.find_tables()
-            for table in tables:
-                extracted = table.extract()
-                cleaned = []
-                for row in extracted:
-                    cleaned.append([str(c) if c else "" for c in row])
-                result.append(
-                    PDFTable(
-                        data=cleaned,
-                        bbox=table.bbox,
-                        page_num=page_num,
-                        row_count=table.row_count,
-                        col_count=table.col_count,
-                    )
-                )
-        except Exception:
-            pass
-
-        if not result:
-            try:
-                with pdfplumber.open(str(self.file_path)) as pdf:
-                    if page_num < len(pdf.pages):
-                        pl_page = pdf.pages[page_num]
-                        pl_tables = pl_page.extract_tables()
-                        for t in pl_tables:
-                            if not t:
-                                continue
-                            cleaned = [[str(c) if c else "" for c in row] for row in t]
-                            rows = len(cleaned)
-                            cols = max(len(r) for r in cleaned) if cleaned else 0
-                            if rows > 0 and cols > 0:
-                                result.append(
-                                    PDFTable(
-                                        data=cleaned,
-                                        bbox=(0, 0, 0, 0),
-                                        page_num=page_num,
-                                        row_count=rows,
-                                        col_count=cols,
-                                    )
-                                )
-            except Exception:
-                pass
-
-        return result
-
+        """提取表格 - 保持向后兼容"""
+        tables = []
+        if not self.json_data:
+            return tables
+        
+        for element in self.json_data.get('kids', []):
+            if element.get('page number') == page_num and element.get('type') == 'table':
+                bbox = element.get('bounding box', [0, 0, 0, 0])
+                rows_data = []
+                for row in element.get('rows', []):
+                    row_data = []
+                    for cell in row.get('cells', []):
+                        cell_text = self._extract_cell_text(cell)
+                        row_data.append(cell_text)
+                    rows_data.append(row_data)
+                
+                tables.append(PDFTable(
+                    data=rows_data,
+                    bbox=tuple(bbox) if len(bbox) == 4 else (0, 0, 0, 0),
+                    page_num=page_num,
+                    row_count=element.get('number of rows', 0),
+                    col_count=element.get('number of columns', 0)
+                ))
+        
+        return tables
+    
+    def _extract_cell_text(self, cell: Dict) -> str:
+        """提取单元格文本"""
+        texts = []
+        for kid in cell.get('kids', []):
+            if kid.get('type') in ['paragraph', 'heading']:
+                texts.append(kid.get('content', ''))
+            elif kid.get('type') == 'list':
+                for item in kid.get('list items', []):
+                    texts.append(item.get('content', ''))
+        return '\n'.join(texts)
+    
     def extract_images(self, page_num: int) -> List[PDFImage]:
-        """提取图片（含位置信息）"""
-        if page_num >= len(self.doc):
-            return []
-
-        page = self.doc[page_num]
-        image_list = page.get_images()
-
-        result = []
-        for img_index, img in enumerate(image_list):
-            try:
-                xref = img[0]
-                base_image = self.doc.extract_image(xref)
-                if not base_image:
-                    continue
-
-                img_bbox = (0, 0, 0, 0)
-                try:
-                    page_img_rects = page.get_image_rects(xref)
-                    if page_img_rects:
-                        r = page_img_rects[0]
-                        img_bbox = (r.x0, r.y0, r.x1, r.y1)
-                except Exception:
-                    pass
-
-                result.append(
-                    PDFImage(
-                        data=base_image["image"],
-                        bbox=img_bbox,
-                        page_num=page_num,
-                        ext=base_image.get("ext", "png"),
-                    )
-                )
-            except Exception:
-                pass
-
-        return result
-
-    def detect_columns(self, page_num: int) -> List[Tuple[float, float, float, float]]:
-        """增强版分栏检测 - 基于文本密度间隙分析
-
-        Returns:
-            栏区域列表 [(x0, y0, x1, y1), ...]，单栏时返回整个页面
-        """
-        if page_num >= len(self.doc):
-            return []
-
-        page = self.doc[page_num]
-        rect = page.rect
-        page_width = rect.width
-        page_height = rect.height
-
-        blocks = page.get_text("blocks")
-        text_blocks = [b for b in blocks if b[6] == 0]
-
-        if len(text_blocks) < 4:
-            return [fitz.Rect(rect)]
-
-        all_x0 = sorted(set(b[0] for b in text_blocks))
-        all_x1 = sorted(set(b[2] for b in text_blocks))
-
-        if len(all_x0) < 2:
-            return [fitz.Rect(rect)]
-
-        center_x = rect.x0 + page_width / 2
-        search_zone_min = center_x - page_width * 0.2
-        search_zone_max = center_x + page_width * 0.2
-
-        best_gap = 0
-        gap_x0 = 0
-        gap_x1 = 0
-
-        for x1_val in all_x1:
-            if x1_val < search_zone_min:
-                continue
-            next_x0_candidates = [x for x in all_x0 if x > x1_val]
-            if not next_x0_candidates:
-                continue
-            next_x0 = next_x0_candidates[0]
-            if next_x0 > search_zone_max:
-                continue
-            gap = next_x0 - x1_val
-            if gap > best_gap:
-                best_gap = gap
-                gap_x0 = x1_val
-                gap_x1 = next_x0
-
-        min_column_gap = page_width * 0.04
-        if best_gap < min_column_gap:
-            return [fitz.Rect(rect)]
-
-        col1 = fitz.Rect(rect.x0, rect.y0, gap_x0, rect.y1)
-        col2 = fitz.Rect(gap_x1, rect.y0, rect.x1, rect.y1)
-
-        return [col1, col2]
-
+        """提取图片 - 保持向后兼容"""
+        images = []
+        if not self.json_data or not self.images_dir:
+            return images
+        
+        for element in self.json_data.get('kids', []):
+            if element.get('page number') == page_num and element.get('type') == 'image':
+                source = element.get('source', '')
+                if source:
+                    img_path = self.images_dir / Path(source).name
+                    if img_path.exists():
+                        with open(img_path, 'rb') as f:
+                            img_data = f.read()
+                        
+                        bbox = element.get('bounding box', [0, 0, 0, 0])
+                        images.append(PDFImage(
+                            data=img_data,
+                            bbox=tuple(bbox) if len(bbox) == 4 else (0, 0, 0, 0),
+                            page_num=page_num,
+                            ext=img_path.suffix.lstrip('.') or 'png'
+                        ))
+        
+        return images
+    
     def extract_all_text(self) -> str:
         """提取所有页面的文本"""
-        all_text = []
-        for page_num in range(len(self.doc)):
-            page = self.doc[page_num]
-            text = page.get_text("text")
-            if text.strip():
-                all_text.append(text)
-        return "\n".join(all_text)
-
+        texts = []
+        if not self.json_data:
+            return ''
+        
+        for element in self.json_data.get('kids', []):
+            if element.get('type') in ['paragraph', 'heading']:
+                texts.append(element.get('content', ''))
+        
+        return '\n'.join(texts)
+    
     def extract_structured_content(self) -> List[Dict[str, Any]]:
-        """提取结构化内容（向后兼容，含更多格式信息）"""
+        """提取结构化内容（向后兼容）"""
         content_list = []
-
-        for page_num in range(len(self.doc)):
-            text_blocks = self.extract_text_blocks(page_num)
-
-            lines = {}
-            for block in text_blocks:
-                y_key = round(block.bbox[1])
-                if y_key not in lines:
-                    lines[y_key] = {
-                        "text": [],
-                        "font_sizes": [],
-                        "font_names": [],
-                        "is_bold": False,
-                        "is_italic": False,
-                        "font_colors": [],
-                        "bboxes": [],
-                    }
-                lines[y_key]["text"].append(block.text)
-                lines[y_key]["font_sizes"].append(block.font_size)
-                lines[y_key]["font_names"].append(block.font_name)
-                lines[y_key]["font_colors"].append(block.font_color)
-                lines[y_key]["bboxes"].append(block.bbox)
-                if block.is_bold:
-                    lines[y_key]["is_bold"] = True
-                if block.is_italic:
-                    lines[y_key]["is_italic"] = True
-
-            page = self.doc[page_num]
-            page_rect = page.rect
-
-            for y_key in sorted(lines.keys()):
-                line = lines[y_key]
-                text = " ".join(line["text"])
-                avg_font_size = (
-                    sum(line["font_sizes"]) / len(line["font_sizes"])
-                    if line["font_sizes"]
-                    else 12
-                )
-                dominant_font = max(
-                    set(line["font_names"]), key=line["font_names"].count
-                )
-                dominant_color = max(
-                    set(line["font_colors"]), key=line["font_colors"].count
-                )
-
-                all_bboxes = line["bboxes"]
-                alignment = self._detect_alignment_from_bboxes(all_bboxes, page_rect)
-
-                content_list.append(
-                    {
-                        "text": text,
-                        "font_name": dominant_font,
-                        "font_size": avg_font_size,
-                        "font_bold": line["is_bold"],
-                        "font_italic": line["is_italic"],
-                        "font_color": dominant_color,
-                        "alignment": alignment,
-                        "page_num": page_num,
-                    }
-                )
-
+        if not self.json_data:
+            return content_list
+        
+        for element in self.json_data.get('kids', []):
+            if element.get('type') in ['paragraph', 'heading']:
+                bbox = element.get('bounding box', [0, 0, 0, 0])
+                alignment = AlignmentDetector.detect_from_bbox(bbox)
+                
+                content_list.append({
+                    'text': element.get('content', ''),
+                    'font_name': FontMapper.map_font(element.get('font', '')),
+                    'font_size': element.get('font size', 12),
+                    'font_bold': FontMapper.is_bold(element.get('font', '')),
+                    'font_italic': FontMapper.is_italic(element.get('font', '')),
+                    'font_color': element.get('text color', ''),
+                    'alignment': alignment,
+                    'page_num': element.get('page number', 0),
+                })
+        
         return content_list
-
+    
     def convert_to_paragraph_info_list(self) -> List[Dict[str, Any]]:
         """转换为段落信息列表（向后兼容）"""
         return self.extract_structured_content()
-
+    
     def convert_to_content_elements(self) -> list:
-        """将PDF内容转换为ContentElement列表（增强版）
-
-        核心处理流程：
-        1. 分栏检测 → 按栏提取文本
-        2. 行合并 → 将span级文本合并为逻辑行
-        3. 段落分组 → 基于行距和字体变化合并为段落
-        4. 连字符处理 → 跨行/跨页的连字符合并
-        5. 逐页按Y坐标混合排列段落/表格/图片（保持原文位置）
+        """将PDF内容转换为ContentElement列表
+        
+        这是核心方法，生成与原有解析器兼容的ContentElement列表。
         """
         from ..docx.parser import (
-            ContentElement,
-            ElementType,
-            ParagraphInfo,
-            FontInfo,
-            ParagraphFormat,
-            TableCellInfo,
-            TableFormatInfo,
+            ContentElement, ElementType, ParagraphInfo, 
+            FontInfo, ParagraphFormat, TableCellInfo, TableFormatInfo
         )
-        from .converter import PDFStyleMapper
-
-        all_lines = []
-
-        for page_num in range(len(self.doc)):
-            page = self.doc[page_num]
-            page_rect = page.rect
-
-            columns = self.detect_columns(page_num)
-            is_multi_column = len(columns) > 1
-
-            text_blocks = self.extract_text_blocks(page_num)
-
-            if is_multi_column:
-                column_groups = self._assign_blocks_to_columns(text_blocks, columns)
-                for col_idx in sorted(column_groups.keys()):
-                    col_blocks = column_groups[col_idx]
-                    col_lines = self._group_blocks_by_y(col_blocks)
-                    for y_key in sorted(col_lines.keys()):
-                        line_blocks = col_lines[y_key]
-                        all_lines.append(
-                            self._build_line_info(
-                                line_blocks, page_rect, page_num, col_idx
-                            )
-                        )
-            else:
-                col_lines = self._group_blocks_by_y(text_blocks)
-                for y_key in sorted(col_lines.keys()):
-                    line_blocks = col_lines[y_key]
-                    all_lines.append(
-                        self._build_line_info(line_blocks, page_rect, page_num, 0)
-                    )
-
-        all_lines.sort(key=lambda x: (x["page_num"], x["column_idx"], x["y_key"]))
-
-        paragraphs = self._merge_lines_into_paragraphs(all_lines)
-        paragraphs = self._handle_hyphenation(paragraphs)
-
-        # 为每个段落记录其页面和Y位置（用于与表格/图片混合排序）
-        para_with_pos = []
-        for para in paragraphs:
-            if para["lines"]:
-                first_line = para["lines"][0]
-                y_pos = first_line["y_position"]
-                pg = first_line["page_num"]
-            else:
-                y_pos = 0
-                pg = 0
-            para_with_pos.append((para, pg, y_pos))
-
-        # 逐页收集表格和图片的位置信息
-        table_with_pos = []
-        for page_num in range(len(self.doc)):
-            tables = self.extract_tables(page_num)
-            for table in tables:
-                y_pos = table.bbox[1] if table.bbox and table.bbox[1] > 0 else 0
-                table_with_pos.append((table, page_num, y_pos))
-
-        image_with_pos = []
-        for page_num in range(len(self.doc)):
-            images = self.extract_images(page_num)
-            for img in images:
-                y_pos = img.bbox[1] if img.bbox and img.bbox[1] > 0 else 0
-                image_with_pos.append((img, page_num, y_pos))
-
-        # 按 (page_num, y_position) 统一排序所有元素
-        unified = []
-        for para, pg, y in para_with_pos:
-            unified.append(("paragraph", para, pg, y))
-        for table, pg, y in table_with_pos:
-            unified.append(("table", table, pg, y))
-        for img, pg, y in image_with_pos:
-            unified.append(("image", img, pg, y))
-
-        unified.sort(key=lambda x: (x[2], x[3]))
-
+        
         elements = []
+        if not self.json_data:
+            return elements
+        
         original_index = 0
-
-        for item_type, item_data, pg, y in unified:
-            if item_type == "paragraph":
-                elements.append(
-                    ContentElement(
+        
+        # 获取所有元素并按页面和Y坐标排序
+        all_elements = self.json_data.get('kids', [])
+        
+        # 过滤掉header/footer中的元素，避免重复
+        filtered_elements = []
+        header_footer_ids = set()
+        
+        for elem in all_elements:
+            if elem.get('type') in ['header', 'footer']:
+                for kid in elem.get('kids', []):
+                    header_footer_ids.add(kid.get('id'))
+        
+        for elem in all_elements:
+            if elem.get('id') in header_footer_ids:
+                continue
+            if elem.get('type') in ['header', 'footer']:
+                continue
+            filtered_elements.append(elem)
+        
+        # 按页面和Y坐标排序（PDF坐标系Y从底部开始，所以用-y排序）
+        filtered_elements.sort(key=lambda e: (
+            e.get('page number', 0),
+            -(e.get('bounding box', [0, 0, 0, 0])[1] if len(e.get('bounding box', [])) >= 2 else 0)
+        ))
+        
+        for element in filtered_elements:
+            elem_type = element.get('type')
+            
+            if elem_type in ['paragraph', 'heading']:
+                # 处理段落和标题
+                bbox = element.get('bounding box', [0, 0, 0, 0])
+                alignment = AlignmentDetector.detect_from_bbox(bbox)
+                
+                font_info = FontInfo(
+                    name=FontMapper.map_font(element.get('font', '')),
+                    size=round(element.get('font size', 12), 1),
+                    bold=FontMapper.is_bold(element.get('font', '')),
+                    italic=FontMapper.is_italic(element.get('font', '')),
+                    color=element.get('text color', ''),
+                )
+                
+                format_info = ParagraphFormat(alignment=alignment)
+                
+                # 标题使用对应的style_name
+                style_name = 'Normal'
+                if elem_type == 'heading':
+                    heading_level = element.get('heading level', 1)
+                    if heading_level == 1:
+                        style_name = 'Heading 1'
+                    elif heading_level == 2:
+                        style_name = 'Heading 2'
+                    elif heading_level == 3:
+                        style_name = 'Heading 3'
+                    elif heading_level == 4:
+                        style_name = 'Heading 4'
+                
+                para_info = ParagraphInfo(
+                    index=original_index,
+                    text=element.get('content', ''),
+                    style_name=style_name,
+                    font=font_info,
+                    format=format_info,
+                )
+                
+                elements.append(ContentElement(
+                    element_type=ElementType.PARAGRAPH,
+                    original_index=original_index,
+                    paragraph=para_info,
+                ))
+                original_index += 1
+            
+            elif elem_type == 'table':
+                # 处理表格
+                table_cells = []
+                for row in element.get('rows', []):
+                    cell_row = []
+                    for cell in row.get('cells', []):
+                        cell_text = self._extract_cell_text(cell)
+                        cell_row.append(TableCellInfo(text=cell_text))
+                    table_cells.append(cell_row)
+                
+                elements.append(ContentElement(
+                    element_type=ElementType.TABLE,
+                    original_index=original_index,
+                    table_cells=table_cells,
+                    table_format=TableFormatInfo(),
+                ))
+                original_index += 1
+            
+            elif elem_type == 'image':
+                # 处理图片
+                source = element.get('source', '')
+                if source and self.images_dir:
+                    img_path = self.images_dir / Path(source).name
+                    if img_path.exists():
+                        with open(img_path, 'rb') as f:
+                            img_data = f.read()
+                        
+                        # 跳过1x1像素的装饰性图片
+                        if len(img_data) > 100:  # 简单启发式：小于100字节的可能是装饰
+                            elements.append(ContentElement(
+                                element_type=ElementType.IMAGE,
+                                original_index=original_index,
+                                image_data=img_data,
+                                image_ext=img_path.suffix.lstrip('.') or 'png',
+                            ))
+                            original_index += 1
+            
+            elif elem_type == 'list':
+                # 处理列表 - 将列表项转换为段落
+                list_items = element.get('list items', [])
+                numbering_style = element.get('numbering style', 'unordered')
+                
+                for i, item in enumerate(list_items):
+                    bbox = item.get('bounding box', [0, 0, 0, 0])
+                    alignment = AlignmentDetector.detect_from_bbox(bbox)
+                    
+                    # 构建列表项文本
+                    content = item.get('content', '')
+                    if numbering_style == 'arabic numbers' and not content[0].isdigit():
+                        content = f"{i + 1}. {content}"
+                    elif numbering_style == 'unordered' and not content.startswith('-'):
+                        content = f"• {content}"
+                    
+                    font_info = FontInfo(
+                        name=FontMapper.map_font(item.get('font', '')),
+                        size=round(item.get('font size', 12), 1),
+                        bold=FontMapper.is_bold(item.get('font', '')),
+                        italic=FontMapper.is_italic(item.get('font', '')),
+                        color=item.get('text color', ''),
+                    )
+                    
+                    format_info = ParagraphFormat(alignment=alignment)
+                    
+                    para_info = ParagraphInfo(
+                        index=original_index,
+                        text=content,
+                        style_name='List Paragraph',
+                        font=font_info,
+                        format=format_info,
+                    )
+                    
+                    elements.append(ContentElement(
                         element_type=ElementType.PARAGRAPH,
                         original_index=original_index,
-                        paragraph=ParagraphInfo(
-                            index=original_index,
-                            text=item_data["text"],
-                            style_name="Normal",
-                            font=item_data["font"],
-                            format=item_data["format"],
-                        ),
-                    )
-                )
-            elif item_type == "table":
-                table_cells = []
-                for row in item_data.data:
-                    cell_row = [TableCellInfo(text=cell_text) for cell_text in row]
-                    table_cells.append(cell_row)
-                elements.append(
-                    ContentElement(
-                        element_type=ElementType.TABLE,
-                        original_index=original_index,
-                        table_cells=table_cells,
-                        table_format=TableFormatInfo(),
-                    )
-                )
-            elif item_type == "image":
-                elements.append(
-                    ContentElement(
-                        element_type=ElementType.IMAGE,
-                        original_index=original_index,
-                        image_data=item_data.data,
-                        image_ext=item_data.ext,
-                    )
-                )
-            original_index += 1
-
+                        paragraph=para_info,
+                    ))
+                    original_index += 1
+                    
+                    # 处理列表项中的嵌套元素
+                    for kid in item.get('kids', []):
+                        if kid.get('type') == 'paragraph':
+                            kid_bbox = kid.get('bounding box', [0, 0, 0, 0])
+                            kid_alignment = AlignmentDetector.detect_from_bbox(kid_bbox)
+                            
+                            kid_font_info = FontInfo(
+                                name=FontMapper.map_font(kid.get('font', '')),
+                                size=round(kid.get('font size', 12), 1),
+                                bold=FontMapper.is_bold(kid.get('font', '')),
+                                italic=FontMapper.is_italic(kid.get('font', '')),
+                                color=kid.get('text color', ''),
+                            )
+                            
+                            kid_para_info = ParagraphInfo(
+                                index=original_index,
+                                text=kid.get('content', ''),
+                                style_name='Normal',
+                                font=kid_font_info,
+                                format=ParagraphFormat(alignment=kid_alignment),
+                            )
+                            
+                            elements.append(ContentElement(
+                                element_type=ElementType.PARAGRAPH,
+                                original_index=original_index,
+                                paragraph=kid_para_info,
+                            ))
+                            original_index += 1
+        
         return elements
-
-    def _group_blocks_by_y(self, blocks: List[PDFTextBlock]) -> Dict[int, List[PDFTextBlock]]:
-        """将文本块按Y坐标分组为行"""
-        lines: Dict[int, list] = {}
-        for block in blocks:
-            y_key = round(block.bbox[1])
-            if y_key not in lines:
-                lines[y_key] = []
-            lines[y_key].append(block)
-        return lines
-
-    def _assign_blocks_to_columns(
-        self,
-        blocks: List[PDFTextBlock],
-        columns: List,
-    ) -> Dict[int, List[PDFTextBlock]]:
-        """将文本块分配到对应的栏"""
-        column_groups: Dict[int, list] = {}
-        for col_idx in range(len(columns)):
-            column_groups[col_idx] = []
-
-        for block in blocks:
-            block_center_x = (block.bbox[0] + block.bbox[2]) / 2
-            best_col = 0
-            best_overlap = -1
-
-            for col_idx, col_rect in enumerate(columns):
-                if isinstance(col_rect, fitz.Rect):
-                    col_x0, col_y0, col_x1, col_y1 = (
-                        col_rect.x0,
-                        col_rect.y0,
-                        col_rect.x1,
-                        col_rect.y1,
-                    )
-                else:
-                    col_x0, col_y0, col_x1, col_y1 = col_rect
-
-                if col_x0 <= block_center_x <= col_x1:
-                    overlap = min(block.bbox[2], col_x1) - max(block.bbox[0], col_x0)
-                    if overlap > best_overlap:
-                        best_overlap = overlap
-                        best_col = col_idx
-
-            column_groups[best_col].append(block)
-
-        return column_groups
-
-    def _build_line_info(
-        self,
-        blocks: List[PDFTextBlock],
-        page_rect,
-        page_num: int,
-        column_idx: int,
-    ) -> Dict[str, Any]:
-        """从一行的文本块构建行信息"""
-        from ..docx.parser import FontInfo, ParagraphFormat
-        from .converter import PDFStyleMapper
-
-        if not blocks:
-            return {
-                "text": "",
-                "font": FontInfo(),
-                "format": ParagraphFormat(),
-                "page_num": page_num,
-                "column_idx": column_idx,
-                "y_key": 0,
-                "y_position": 0,
-                "font_size": 12,
-                "is_bold": False,
-                "bboxes": [],
-            }
-
-        text = " ".join(b.text for b in blocks)
-        dominant = max(blocks, key=lambda b: len(b.text))
-        mapped_font = PDFStyleMapper.map_font(dominant.font_name)
-
-        y_key = round(blocks[0].bbox[1])
-        alignment = self._detect_alignment_from_bboxes(
-            [b.bbox for b in blocks], page_rect
-        )
-
-        return {
-            "text": text.strip(),
-            "font": FontInfo(
-                name=mapped_font,
-                size=round(dominant.font_size, 1),
-                bold=dominant.is_bold,
-                italic=dominant.is_italic,
-                color=dominant.font_color,
-            ),
-            "format": ParagraphFormat(alignment=alignment),
-            "page_num": page_num,
-            "column_idx": column_idx,
-            "y_key": y_key,
-            "y_position": blocks[0].bbox[1],
-            "font_size": dominant.font_size,
-            "is_bold": dominant.is_bold,
-            "bboxes": [b.bbox for b in blocks],
-        }
-
-    def _merge_lines_into_paragraphs(self, lines: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """将连续行合并为逻辑段落
-
-        合并规则：
-        1. 相同页面、相同栏、Y间距小于阈值 → 同一段落
-        2. 字体大小或加粗状态变化 → 新段落
-        3. 空行 → 新段落
-        """
-        if not lines:
-            return []
-
-        paragraphs = []
-        current_lines = [lines[0]]
-
-        for i in range(1, len(lines)):
-            prev = lines[i - 1]
-            curr = lines[i]
-
-            same_column = (
-                prev["page_num"] == curr["page_num"]
-                and prev["column_idx"] == curr["column_idx"]
-            )
-            is_cross_page_continuation = (
-                prev["page_num"] + 1 == curr["page_num"]
-                and prev["column_idx"] == curr["column_idx"]
-            )
-
-            font_changed = (
-                abs(prev.get("font_size", 12) - curr.get("font_size", 12)) > 1.0
-                or prev.get("is_bold", False) != curr.get("is_bold", False)
-            )
-
-            y_gap_large = False
-            if same_column:
-                y_gap = curr["y_position"] - prev["y_position"]
-                if y_gap > 0:
-                    expected_line_height = prev.get("font_size", 12) * 1.8
-                    if y_gap > expected_line_height * 1.5:
-                        y_gap_large = True
-
-            should_merge = False
-            if same_column and not font_changed and not y_gap_large:
-                should_merge = True
-            elif is_cross_page_continuation and not font_changed:
-                if prev["text"] and not prev["text"][-1] in ".!?。！？":
-                    should_merge = True
-
-            if should_merge:
-                current_lines.append(curr)
-            else:
-                paragraphs.append(self._finalize_paragraph(current_lines))
-                current_lines = [curr]
-
-        if current_lines:
-            paragraphs.append(self._finalize_paragraph(current_lines))
-
-        return paragraphs
-
-    def _finalize_paragraph(self, lines: List[Dict[str, Any]]) -> Dict[str, Any]:
-        """将一组行合并为最终段落"""
-        from ..docx.parser import FontInfo, ParagraphFormat
-
-        if not lines:
-            return {
-                "text": "",
-                "font": FontInfo(),
-                "format": ParagraphFormat(),
-                "lines": [],
-            }
-
-        text_parts = []
-        for line in lines:
-            text_parts.append(line["text"])
-
-        text = " ".join(text_parts)
-
-        dominant_line = max(lines, key=lambda l: len(l.get("text", "")))
-
-        font = dominant_line.get("font")
-        if font is None:
-            font = FontInfo()
-
-        fmt = dominant_line.get("format")
-        if fmt is None:
-            fmt = ParagraphFormat()
-
-        return {
-            "text": text.strip(),
-            "font": font,
-            "format": fmt,
-            "lines": lines,
-        }
-
-    def _handle_hyphenation(self, paragraphs: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """处理英语行末连字符
-
-        规则：
-        - 行末以单个'-'结尾，且后跟小写字母 → 移除连字符合并
-        - 跨页连字符同样处理
-        """
-        if not paragraphs:
-            return paragraphs
-
-        result = []
-        i = 0
-        while i < len(paragraphs):
-            para = paragraphs[i]
-            text = para["text"]
-
-            if text.endswith("-") and i + 1 < len(paragraphs):
-                next_text = paragraphs[i + 1]["text"]
-                if next_text and next_text[0].islower():
-                    words = text.rsplit(None, 1)
-                    if len(words) > 1:
-                        prefix = words[0]
-                        hyphenated = words[-1][:-1]
-                    else:
-                        prefix = ""
-                        hyphenated = text[:-1]
-
-                    if prefix:
-                        merged_text = f"{prefix} {hyphenated}{next_text}"
-                    else:
-                        merged_text = f"{hyphenated}{next_text}"
-
-                    para["text"] = merged_text
-                    i += 2
-                    result.append(para)
-                    continue
-
-            result.append(para)
-            i += 1
-
-        return result
-
-    def _detect_alignment_from_bboxes(
-        self, bboxes: List[Tuple], page_rect
-    ) -> str:
-        """基于bbox位置检测对齐方式"""
-        if not bboxes:
-            return "left"
-
-        avg_x0 = sum(b[0] for b in bboxes) / len(bboxes)
-        avg_x1 = sum(b[2] for b in bboxes) / len(bboxes)
-        page_width = page_rect.width if hasattr(page_rect, "width") else (
-            page_rect[2] - page_rect[0]
-        )
-        page_x0 = page_rect.x0 if hasattr(page_rect, "x0") else page_rect[0]
-        page_x1 = page_rect.x1 if hasattr(page_rect, "x1") else page_rect[2]
-
-        left_margin = avg_x0 - page_x0
-        right_margin = page_x1 - avg_x1
-
-        if (
-            abs(left_margin - right_margin) < page_width * 0.05
-            and left_margin > page_width * 0.05
-        ):
-            return "center"
-
-        if right_margin > left_margin * 1.5 and left_margin > page_width * 0.15:
-            return "right"
-
-        return "left"
-
-    def _detect_alignment(self, blocks: list, page_rect) -> str:
-        """基于PDFTextBlock列表检测对齐方式（向后兼容）"""
-        return self._detect_alignment_from_bboxes(
-            [b.bbox for b in blocks], page_rect
-        )
-
+    
     def __enter__(self):
         return self
-
+    
     def __exit__(self, exc_type, exc_val, exc_tb):
         self.close()
         return False
+
+
+class PDFToDocxConverter:
+    """PDF转DOCX转换器 - 基于opendataloader_pdf JSON"""
+    
+    def __init__(self):
+        pass
+    
+    def convert(self, pdf_path: str, output_path: str = None, **kwargs) -> str:
+        """将PDF转换为DOCX"""
+        pdf_path = Path(pdf_path)
+        if not output_path:
+            output_path = str(pdf_path.with_suffix('.docx'))
+        
+        # 首先调用opendataloader_pdf生成JSON（如果还没有）
+        json_path = pdf_path.with_suffix('.json')
+        if not json_path.exists():
+            import opendataloader_pdf
+            opendataloader_pdf.convert(
+                input_path=[str(pdf_path)],
+                output_dir=str(pdf_path.parent),
+                format="json"
+            )
+        
+        # 使用JSON生成DOCX
+        parser = PDFParser(str(pdf_path))
+        elements = parser.convert_to_content_elements()
+        
+        # 使用DocxGenerator生成文档
+        from ..docx.generator import DocxGenerator
+        generator = DocxGenerator()
+        
+        # 构建样式映射（保留原格式）
+        style_mapping = {}
+        style_keys = {}
+        
+        for i, elem in enumerate(elements):
+            if elem.element_type.name == 'PARAGRAPH' and elem.paragraph:
+                style_keys[i] = 'body'
+        
+        generator.generate_from_elements(
+            elements, 
+            style_mapping, 
+            style_keys, 
+            preserve_format=True
+        )
+        generator.save(output_path)
+        
+        return output_path
+
+
+def convert_pdf_to_docx(pdf_path: str, output_path: str = None) -> str:
+    """便捷函数：将PDF转换为DOCX"""
+    converter = PDFToDocxConverter()
+    return converter.convert(pdf_path, output_path)
