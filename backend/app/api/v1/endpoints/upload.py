@@ -165,24 +165,36 @@ async def upload_file(
     pdf_detection = None
     if file_ext == ".pdf":
         try:
-            from app.services.pdf import PDFParser, detect_pdf_type
-
-            with PDFParser(str(file_path)) as pdf_p:
-                detection_result = detect_pdf_type(pdf_p)
-            pdf_detection = {
-                "type": detection_result.pdf_type.value,
-                "type_name": detection_result.summary.get("type_name", ""),
-                "confidence": detection_result.confidence,
-                "processing_hint": detection_result.summary.get("processing_hint", ""),
-                "total_pages": detection_result.summary.get("total_pages", 0),
-                "native_pages": detection_result.summary.get("native_pages", 0),
-                "scanned_pages": detection_result.summary.get("scanned_pages", 0),
-            }
-            pdf_info_json = json.dumps({
-                "is_pdf": True,
-                **pdf_detection,
-            })
-        except Exception:
+            # 使用 opendataloader_pdf 解析 PDF
+            import opendataloader_pdf
+            opendataloader_pdf.convert(
+                input_path=[str(file_path)],
+                output_dir=str(file_path.parent),
+                format="json"
+            )
+            
+            # 读取生成的 JSON 获取页面信息
+            json_path = file_path.with_suffix('.json')
+            if json_path.exists():
+                with open(json_path, 'r', encoding='utf-8') as f:
+                    pdf_data = json.load(f)
+                
+                total_pages = pdf_data.get('number of pages', 0)
+                pdf_detection = {
+                    "type": "native",
+                    "type_name": "原生可复制PDF",
+                    "confidence": 1.0,
+                    "processing_hint": "将直接提取文本内容并进行智能排版",
+                    "total_pages": total_pages,
+                    "native_pages": total_pages,
+                    "scanned_pages": 0,
+                }
+                pdf_info_json = json.dumps({
+                    "is_pdf": True,
+                    **pdf_detection,
+                })
+        except Exception as e:
+            print(f"PDF解析失败: {e}")
             pass
 
     # 创建任务记录
@@ -278,40 +290,20 @@ async def process_task_background(
             pre_extracted_elements = None
 
             if file_ext == ".pdf":
-                from app.services.pdf import PDFParser, detect_pdf_type
-
+                # 使用 opendataloader_pdf 解析 PDF
+                json_path = Path(input_file_path).with_suffix('.json')
+                if not json_path.exists():
+                    import opendataloader_pdf
+                    opendataloader_pdf.convert(
+                        input_path=[input_file_path],
+                        output_dir=str(Path(input_file_path).parent),
+                        format="json"
+                    )
+                
+                from app.services.pdf import PDFParser
                 pdf_parser = PDFParser(input_file_path)
-                detection_result = detect_pdf_type(pdf_parser)
-
-                if detection_result.pdf_type.value == "scanned":
-                    pdf_parser.close()
-                    from app.services.ocr.pipeline import process_scanned_pdf
-
-                    pre_extracted_elements = await process_scanned_pdf(
-                        input_file_path, detection_result
-                    )
-                elif detection_result.pdf_type.value == "mixed":
-                    from app.services.ocr.pipeline import process_scanned_pdf
-
-                    ocr_elements = await process_scanned_pdf(
-                        input_file_path, detection_result
-                    )
-                    native_elements = pdf_parser.convert_to_content_elements()
-                    pdf_parser.close()
-
-                    native_set = set()
-                    for e in native_elements:
-                        if hasattr(e, "paragraph") and e.paragraph:
-                            native_set.add(e.paragraph.text[:50])
-
-                    pre_extracted_elements = native_elements[:]
-                    for e in ocr_elements:
-                        if hasattr(e, "paragraph") and e.paragraph:
-                            if e.paragraph.text[:50] not in native_set:
-                                pre_extracted_elements.append(e)
-                else:
-                    pre_extracted_elements = pdf_parser.convert_to_content_elements()
-                    pdf_parser.close()
+                pre_extracted_elements = pdf_parser.convert_to_content_elements()
+                pdf_parser.close()
 
                 paragraphs_info = [
                     {
