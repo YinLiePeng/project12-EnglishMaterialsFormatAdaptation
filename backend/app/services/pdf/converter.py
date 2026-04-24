@@ -78,6 +78,8 @@ class PDFToDocxConverter:
         
         # 确保JSON已生成
         json_path = pdf_path.with_suffix('.json')
+        images_dir = Path(str(pdf_path.with_suffix('')) + '_images')
+        
         if not json_path.exists():
             import opendataloader_pdf
             opendataloader_pdf.convert(
@@ -100,13 +102,17 @@ class PDFToDocxConverter:
         style.font.size = Pt(12)
         style._element.rPr.rFonts.set(qn('w:eastAsia'), '宋体')
         
+        # 获取页面尺寸信息
+        page_width = 595.0  # 默认A4宽度（points）
+        page_height = 842.0  # 默认A4高度（points）
+        
         # 获取所有元素并按页面和Y坐标排序
         all_elements = json_data.get('kids', [])
         
         # 过滤掉header/footer中的元素，避免重复
         filtered_elements = self._filter_elements(all_elements)
         
-        # 按页面和Y坐标排序
+        # 按页面和Y坐标排序（PDF坐标系Y从底部开始）
         filtered_elements.sort(key=lambda e: (
             e.get('page number', 0),
             -(e.get('bounding box', [0, 0, 0, 0])[1] if len(e.get('bounding box', [])) >= 2 else 0)
@@ -114,26 +120,36 @@ class PDFToDocxConverter:
         
         # 处理元素
         current_page = 0
-        for element in filtered_elements:
+        prev_element = None
+        
+        for i, element in enumerate(filtered_elements):
             page_num = element.get('page number', 0)
             
             # 分页控制
             if page_num > current_page:
                 doc.add_page_break()
                 current_page = page_num
+                prev_element = None
+            
+            # 计算段落间距
+            space_before = None
+            if prev_element and preserve_format:
+                space_before = self._calculate_space_before(prev_element, element, page_height)
             
             elem_type = element.get('type')
             
             if elem_type == 'heading':
-                self._add_heading(doc, element, preserve_format)
+                self._add_heading(doc, element, preserve_format, space_before)
             elif elem_type == 'paragraph':
-                self._add_paragraph(doc, element, preserve_format)
+                self._add_paragraph(doc, element, preserve_format, space_before, page_width)
             elif elem_type == 'table' and include_tables:
-                self._add_table(doc, element, preserve_format)
+                self._add_table(doc, element, preserve_format, space_before)
             elif elem_type == 'image' and include_images:
-                self._add_image(doc, element, pdf_path)
+                self._add_image(doc, element, pdf_path, space_before)
             elif elem_type == 'list':
-                self._add_list(doc, element, preserve_format)
+                self._add_list(doc, element, preserve_format, space_before)
+            
+            prev_element = element
         
         # 保存文档
         doc.save(output_path)
@@ -159,7 +175,42 @@ class PDFToDocxConverter:
         
         return filtered
     
-    def _add_heading(self, doc: Document, element: Dict, preserve_format: bool):
+    def _calculate_space_before(self, prev_element: Dict, current_element: Dict, page_height: float) -> Optional[Pt]:
+        """计算段前间距"""
+        try:
+            prev_bbox = prev_element.get('bounding box', [0, 0, 0, 0])
+            curr_bbox = current_element.get('bounding box', [0, 0, 0, 0])
+            
+            if len(prev_bbox) >= 4 and len(curr_bbox) >= 4:
+                # PDF坐标系Y从底部开始
+                prev_top = prev_bbox[3]
+                curr_bottom = curr_bbox[1]
+                
+                # 计算垂直间距（points）
+                gap = prev_top - curr_bottom
+                
+                # 如果间距大于一定阈值，添加段前间距
+                if gap > 5:  # 大于5 points
+                    return Pt(gap)
+        except Exception:
+            pass
+        
+        return None
+    
+    def _calculate_indent(self, bbox: List[float], page_width: float) -> Optional[Pt]:
+        """计算首行缩进或左缩进"""
+        if not bbox or len(bbox) < 4:
+            return None
+        
+        left_pos = bbox[0]
+        
+        # 如果左边距大于页面宽度的10%，认为是缩进
+        if left_pos > page_width * 0.1:
+            return Pt(left_pos)
+        
+        return None
+    
+    def _add_heading(self, doc: Document, element: Dict, preserve_format: bool, space_before: Optional[Pt] = None):
         """添加标题"""
         content = element.get('content', '')
         if not content:
@@ -184,8 +235,13 @@ class PDFToDocxConverter:
             bbox = element.get('bounding box', [0, 0, 0, 0])
             alignment = AlignmentDetector.detect_from_bbox(bbox)
             heading.alignment = AlignmentDetector.get_wd_align(alignment)
+            
+            # 应用段前间距
+            if space_before:
+                heading.paragraph_format.space_before = space_before
     
-    def _add_paragraph(self, doc: Document, element: Dict, preserve_format: bool):
+    def _add_paragraph(self, doc: Document, element: Dict, preserve_format: bool, 
+                       space_before: Optional[Pt] = None, page_width: float = 595.0):
         """添加段落"""
         content = element.get('content', '')
         if not content:
@@ -208,10 +264,17 @@ class PDFToDocxConverter:
             alignment = AlignmentDetector.detect_from_bbox(bbox)
             para.alignment = AlignmentDetector.get_wd_align(alignment)
             
-            # 应用段落间距（从bounding box推断）
-            # TODO: 可以根据前后元素的Y坐标差计算段前段后间距
+            # 应用缩进
+            indent = self._calculate_indent(bbox, page_width)
+            if indent:
+                para.paragraph_format.left_indent = indent
+            
+            # 应用段前间距
+            if space_before:
+                para.paragraph_format.space_before = space_before
     
-    def _add_table(self, doc: Document, element: Dict, preserve_format: bool):
+    def _add_table(self, doc: Document, element: Dict, preserve_format: bool, 
+                   space_before: Optional[Pt] = None):
         """添加表格"""
         rows = element.get('rows', [])
         if not rows:
@@ -225,6 +288,10 @@ class PDFToDocxConverter:
         
         table = doc.add_table(rows=num_rows, cols=num_cols)
         table.style = 'Table Grid'
+        
+        # 应用段前间距
+        if space_before:
+            table.rows[0].cells[0].paragraphs[0].paragraph_format.space_before = space_before
         
         # 填充单元格内容
         for row_idx, row in enumerate(rows):
@@ -261,8 +328,30 @@ class PDFToDocxConverter:
         
         # 应用表格格式
         if preserve_format:
-            # TODO: 应用单元格内字体样式
-            pass
+            # 应用单元格内字体样式
+            for row_idx, row in enumerate(rows):
+                cells = row.get('cells', [])
+                for col_idx, cell in enumerate(cells):
+                    if col_idx >= num_cols:
+                        break
+                    
+                    # 获取单元格内第一个段落的字体信息
+                    cell_kids = cell.get('kids', [])
+                    if cell_kids:
+                        first_kid = cell_kids[0]
+                        if first_kid.get('type') in ['paragraph', 'heading']:
+                            try:
+                                cell_obj = table.cell(row_idx, col_idx)
+                                for para in cell_obj.paragraphs:
+                                    for run in para.runs:
+                                        run.font.name = FontMapper.map_font(first_kid.get('font', ''))
+                                        run.font.size = Pt(first_kid.get('font size', 12))
+                                        run.font.bold = FontMapper.is_bold(first_kid.get('font', ''))
+                                        run.font.italic = FontMapper.is_italic(first_kid.get('font', ''))
+                                        run.font.color.rgb = ColorConverter.parse_rgb(first_kid.get('text color', ''))
+                                        run._element.rPr.rFonts.set(qn('w:eastAsia'), FontMapper.map_font(first_kid.get('font', '')))
+                            except Exception:
+                                pass
     
     def _extract_cell_text(self, cell: Dict) -> str:
         """提取单元格文本"""
@@ -275,7 +364,8 @@ class PDFToDocxConverter:
                     texts.append(item.get('content', ''))
         return '\n'.join(texts)
     
-    def _add_image(self, doc: Document, element: Dict, pdf_path: Path):
+    def _add_image(self, doc: Document, element: Dict, pdf_path: Path, 
+                   space_before: Optional[Pt] = None):
         """添加图片"""
         source = element.get('source', '')
         if not source:
@@ -306,14 +396,22 @@ class PDFToDocxConverter:
             
             # 添加图片
             if width_inches and width_inches > 0.5:  # 至少0.5英寸才添加
-                doc.add_picture(str(img_path), width=Inches(width_inches))
+                pic = doc.add_picture(str(img_path), width=Inches(width_inches))
             else:
-                doc.add_picture(str(img_path))
+                pic = doc.add_picture(str(img_path))
+            
+            # 应用段前间距
+            if space_before:
+                # 图片段落的段前间距
+                pic_para = doc.paragraphs[-1]
+                pic_para.paragraph_format.space_before = space_before
+                
         except Exception:
             # 图片添加失败则跳过
             pass
     
-    def _add_list(self, doc: Document, element: Dict, preserve_format: bool):
+    def _add_list(self, doc: Document, element: Dict, preserve_format: bool, 
+                  space_before: Optional[Pt] = None):
         """添加列表"""
         list_items = element.get('list items', [])
         numbering_style = element.get('numbering style', 'unordered')
@@ -340,6 +438,10 @@ class PDFToDocxConverter:
                     run.font.italic = FontMapper.is_italic(item.get('font', ''))
                     run.font.color.rgb = ColorConverter.parse_rgb(item.get('text color', ''))
                     run._element.rPr.rFonts.set(qn('w:eastAsia'), FontMapper.map_font(item.get('font', '')))
+            
+            # 应用段前间距（仅第一个列表项）
+            if i == 0 and space_before:
+                para.paragraph_format.space_before = space_before
             
             # 处理嵌套元素
             for kid in item.get('kids', []):
