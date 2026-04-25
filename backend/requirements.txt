@@ -11,7 +11,6 @@ alembic==1.12.1
 # 文档处理
 python-docx==1.1.0
 PyMuPDF==1.23.7
-pdfplumber==0.10.3
 docx-editor==0.2.1
 
 # HTTP客户端
@@ -23,6 +22,7 @@ pydantic==2.5.2
 pydantic-settings==2.1.0
 python-dotenv==1.0.0
 python-magic==0.4.27
+PyYAML==6.0.1
 
 # PDF解析
 opendataloader_pdf
