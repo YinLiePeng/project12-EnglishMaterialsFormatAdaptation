@@ -626,102 +626,235 @@ class PDFParser:
                             original_index += 1
             
             elif elem_type == 'list':
-                # 处理列表 - 将列表项转换为段落
-                list_items = element.get('list items', [])
-                numbering_style = element.get('numbering style', 'unordered')
-                
-                for i, item in enumerate(list_items):
-                    bbox = item.get('bounding box', [0, 0, 0, 0])
-                    alignment = AlignmentDetector.detect_from_bbox(bbox)
-                    
-                    # 构建列表项文本
-                    content = item.get('content', '')
-                    if numbering_style == 'arabic numbers':
-                        # 检查是否已有编号（支持 "1.", "1)", "1、" 等格式）
-                        if not content or not re.match(r'^\d+[\.\)\\、\s]', content):
-                            content = f"{i + 1}. {content}"
-                    elif numbering_style == 'unordered':
-                        # 检查是否已有项目符号
-                        if not content or not content.startswith(('•', '-', '*', '○', '·')):
-                            content = f"• {content}"
-                    
-                    font_info = FontInfo(
-                        name=FontMapper.map_font(item.get('font', '')),
-                        size=round(item.get('font size', 12), 1),
-                        bold=FontMapper.is_bold(item.get('font', '')),
-                        italic=FontMapper.is_italic(item.get('font', '')),
-                        color=item.get('text color', ''),
-                    )
-                    
-                    format_info = ParagraphFormat(alignment=alignment)
-                    
-                    # 创建RunInfo，将列表项文本和字体信息包装成run
-                    list_run_info = RunInfo(
-                        text=content,
-                        font_name=font_info.name,
-                        font_size=font_info.size,
-                        bold=font_info.bold,
-                        italic=font_info.italic,
-                        color=font_info.color,
-                    )
-                    
-                    para_info = ParagraphInfo(
-                        index=original_index,
-                        text=content,
-                        style_name='List Paragraph',
-                        font=font_info,
-                        format=format_info,
-                        runs=[list_run_info],
-                    )
-                    
-                    elements.append(ContentElement(
-                        element_type=ElementType.PARAGRAPH,
-                        original_index=original_index,
-                        paragraph=para_info,
-                    ))
-                    original_index += 1
-                    
-                    # 处理列表项中的嵌套元素
-                    for kid in item.get('kids', []):
-                        if kid.get('type') == 'paragraph':
-                            kid_bbox = kid.get('bounding box', [0, 0, 0, 0])
-                            kid_alignment = AlignmentDetector.detect_from_bbox(kid_bbox)
-                            
-                            kid_font_info = FontInfo(
-                                name=FontMapper.map_font(kid.get('font', '')),
-                                size=round(kid.get('font size', 12), 1),
-                                bold=FontMapper.is_bold(kid.get('font', '')),
-                                italic=FontMapper.is_italic(kid.get('font', '')),
-                                color=kid.get('text color', ''),
-                            )
-                            
-                            # 创建RunInfo，将嵌套段落文本和字体信息包装成run
-                            kid_run_info = RunInfo(
-                                text=kid.get('content', ''),
-                                font_name=kid_font_info.name,
-                                font_size=kid_font_info.size,
-                                bold=kid_font_info.bold,
-                                italic=kid_font_info.italic,
-                                color=kid_font_info.color,
-                            )
-                            
-                            kid_para_info = ParagraphInfo(
-                                index=original_index,
-                                text=kid.get('content', ''),
-                                style_name='Normal',
-                                font=kid_font_info,
-                                format=ParagraphFormat(alignment=kid_alignment),
-                                runs=[kid_run_info],
-                            )
-                            
-                            elements.append(ContentElement(
-                                element_type=ElementType.PARAGRAPH,
-                                original_index=original_index,
-                                paragraph=kid_para_info,
-                            ))
-                            original_index += 1
+                # 递归处理列表及其嵌套元素
+                original_index = self._process_list_element(
+                    element, elements, original_index, level=0
+                )
         
         return elements
+    
+    def _process_list_element(self, list_element: Dict, elements: list, 
+                              original_index: int, level: int = 0) -> int:
+        """递归处理列表元素，包括嵌套列表
+        
+        Args:
+            list_element: 列表元素
+            elements: 目标元素列表
+            original_index: 当前索引
+            level: 嵌套层级（用于缩进）
+            
+        Returns:
+            更新后的索引
+        """
+        from ..docx.parser import (
+            ContentElement, ElementType, ParagraphInfo, 
+            FontInfo, ParagraphFormat, RunInfo
+        )
+        list_items = list_element.get('list items', [])
+        numbering_style = list_element.get('numbering style', 'unordered')
+        
+        for i, item in enumerate(list_items):
+            bbox = item.get('bounding box', [0, 0, 0, 0])
+            alignment = AlignmentDetector.detect_from_bbox(bbox)
+            
+            # 构建列表项文本
+            content = item.get('content', '')
+            if numbering_style == 'arabic numbers':
+                if not content or not re.match(r'^\d+[\.\)\\、\s]', content):
+                    content = f"{i + 1}. {content}"
+            elif numbering_style == 'unordered':
+                if not content or not content.startswith(('•', '-', '*', '○', '·')):
+                    content = f"• {content}"
+            
+            # 添加缩进（根据层级）
+            indent = "    " * level
+            if indent:
+                content = indent + content
+            
+            font_info = FontInfo(
+                name=FontMapper.map_font(item.get('font', '')),
+                size=round(item.get('font size', 12), 1),
+                bold=FontMapper.is_bold(item.get('font', '')),
+                italic=FontMapper.is_italic(item.get('font', '')),
+                color=item.get('text color', ''),
+            )
+            
+            format_info = ParagraphFormat(alignment=alignment)
+            
+            # 创建RunInfo
+            list_run_info = RunInfo(
+                text=content,
+                font_name=font_info.name,
+                font_size=font_info.size,
+                bold=font_info.bold,
+                italic=font_info.italic,
+                color=font_info.color,
+            )
+            
+            para_info = ParagraphInfo(
+                index=original_index,
+                text=content,
+                style_name='List Paragraph',
+                font=font_info,
+                format=format_info,
+                runs=[list_run_info],
+            )
+            
+            elements.append(ContentElement(
+                element_type=ElementType.PARAGRAPH,
+                original_index=original_index,
+                paragraph=para_info,
+            ))
+            original_index += 1
+            
+            # 递归处理列表项中的嵌套元素（仅处理有独立内容的元素）
+            for kid in item.get('kids', []):
+                kid_type = kid.get('type')
+                kid_content = kid.get('content', '').strip()
+                
+                # 如果kid有自己的内容（不在父item.content中），则单独处理
+                if kid_content and kid_content not in content:
+                    if kid_type == 'paragraph':
+                        original_index = self._process_paragraph_element(
+                            kid, elements, original_index, level=level + 1
+                        )
+                    elif kid_type == 'list':
+                        # 递归处理嵌套列表
+                        original_index = self._process_list_element(
+                            kid, elements, original_index, level=level + 1
+                        )
+                    elif kid_type == 'heading':
+                        original_index = self._process_heading_element(
+                            kid, elements, original_index, level=level + 1
+                        )
+        
+        return original_index
+    
+    def _process_paragraph_element(self, element: Dict, elements: list,
+                                   original_index: int, level: int = 0) -> int:
+        """处理段落元素
+        
+        Args:
+            element: 段落元素
+            elements: 目标元素列表
+            original_index: 当前索引
+            level: 嵌套层级
+            
+        Returns:
+            更新后的索引
+        """
+        from ..docx.parser import (
+            ContentElement, ElementType, ParagraphInfo, 
+            FontInfo, ParagraphFormat, RunInfo
+        )
+        bbox = element.get('bounding box', [0, 0, 0, 0])
+        alignment = AlignmentDetector.detect_from_bbox(bbox)
+        
+        content = element.get('content', '')
+        # 添加缩进
+        indent = "    " * level
+        if indent and content:
+            content = indent + content
+        
+        font_info = FontInfo(
+            name=FontMapper.map_font(element.get('font', '')),
+            size=round(element.get('font size', 12), 1),
+            bold=FontMapper.is_bold(element.get('font', '')),
+            italic=FontMapper.is_italic(element.get('font', '')),
+            color=element.get('text color', ''),
+        )
+        
+        run_info = RunInfo(
+            text=content,
+            font_name=font_info.name,
+            font_size=font_info.size,
+            bold=font_info.bold,
+            italic=font_info.italic,
+            color=font_info.color,
+        )
+        
+        para_info = ParagraphInfo(
+            index=original_index,
+            text=content,
+            style_name='Normal',
+            font=font_info,
+            format=ParagraphFormat(alignment=alignment),
+            runs=[run_info],
+        )
+        
+        elements.append(ContentElement(
+            element_type=ElementType.PARAGRAPH,
+            original_index=original_index,
+            paragraph=para_info,
+        ))
+        return original_index + 1
+    
+    def _process_heading_element(self, element: Dict, elements: list,
+                                 original_index: int, level: int = 0) -> int:
+        """处理标题元素
+        
+        Args:
+            element: 标题元素
+            elements: 目标元素列表
+            original_index: 当前索引
+            level: 嵌套层级
+            
+        Returns:
+            更新后的索引
+        """
+        from ..docx.parser import (
+            ContentElement, ElementType, ParagraphInfo, 
+            FontInfo, ParagraphFormat, RunInfo
+        )
+        bbox = element.get('bounding box', [0, 0, 0, 0])
+        alignment = AlignmentDetector.detect_from_bbox(bbox)
+        
+        content = element.get('content', '')
+        indent = "    " * level
+        if indent and content:
+            content = indent + content
+        
+        heading_level = element.get('heading level', 1)
+        style_name = 'Heading 1'
+        if heading_level == 2:
+            style_name = 'Heading 2'
+        elif heading_level == 3:
+            style_name = 'Heading 3'
+        elif heading_level == 4:
+            style_name = 'Heading 4'
+        
+        font_info = FontInfo(
+            name=FontMapper.map_font(element.get('font', '')),
+            size=round(element.get('font size', 12), 1),
+            bold=FontMapper.is_bold(element.get('font', '')),
+            italic=FontMapper.is_italic(element.get('font', '')),
+            color=element.get('text color', ''),
+        )
+        
+        run_info = RunInfo(
+            text=content,
+            font_name=font_info.name,
+            font_size=font_info.size,
+            bold=font_info.bold,
+            italic=font_info.italic,
+            color=font_info.color,
+        )
+        
+        para_info = ParagraphInfo(
+            index=original_index,
+            text=content,
+            style_name=style_name,
+            font=font_info,
+            format=ParagraphFormat(alignment=alignment),
+            runs=[run_info],
+        )
+        
+        elements.append(ContentElement(
+            element_type=ElementType.PARAGRAPH,
+            original_index=original_index,
+            paragraph=para_info,
+        ))
+        return original_index + 1
     
     def __enter__(self):
         return self

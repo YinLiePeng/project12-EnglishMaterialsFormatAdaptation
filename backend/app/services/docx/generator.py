@@ -56,7 +56,14 @@ class DocxGenerator:
                 style_def = style_mapping.get(style_key, style_mapping.get("body", {}))
 
                 if preserve_format:
-                    para = self.doc.add_paragraph()
+                    # 使用原始样式名称创建段落
+                    style_name = element.paragraph.style_name
+                    try:
+                        para = self.doc.add_paragraph(style=style_name)
+                    except KeyError:
+                        # 如果样式不存在，使用默认样式
+                        para = self.doc.add_paragraph()
+                    
                     self._apply_paragraph_format_obj(para, element.paragraph.format)
                     self._add_runs_preserve(
                         para, 
