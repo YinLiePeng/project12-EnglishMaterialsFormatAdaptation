@@ -306,6 +306,42 @@ class DocxGenerator:
     # Run 级别格式处理
     # ================================================================
 
+    def _apply_run_format(
+        self,
+        run,
+        font_name: Optional[str] = None,
+        font_size: Optional[float] = None,
+        bold: Optional[bool] = None,
+        italic: Optional[bool] = None,
+        underline: Optional[bool] = None,
+        color: Optional[str] = None,
+    ):
+        """统一应用run格式
+        
+        Args:
+            run: 目标run
+            font_name: 字体名称
+            font_size: 字体大小（磅）
+            bold: 是否加粗
+            italic: 是否斜体
+            underline: 是否下划线
+            color: 颜色（十六进制）
+        """
+        if font_name:
+            run.font.name = font_name
+            # 设置中文字体（eastAsia）
+            run._element.rPr.rFonts.set(qn('w:eastAsia'), font_name)
+        if font_size is not None:
+            run.font.size = Pt(font_size)
+        if bold is not None:
+            run.font.bold = bold
+        if italic is not None:
+            run.font.italic = italic
+        if underline is not None:
+            run.font.underline = underline
+        if color:
+            self._apply_color(run, color)
+
     def _add_runs_to_paragraph(
         self,
         para,
@@ -338,14 +374,15 @@ class DocxGenerator:
             # 插入文本 run（如果有文本）
             if run_info.text:
                 run = para.add_run(run_info.text)
-                if "name" in font_def:
-                    run.font.name = font_def["name"]
-                if "size" in font_def:
-                    run.font.size = Pt(font_def["size"])
-                run.font.bold = preset_bold or run_info.bold
-                run.font.italic = preset_italic or run_info.italic
-                run.font.underline = run_info.underline
-                self._apply_color(run, run_info.color)
+                self._apply_run_format(
+                    run,
+                    font_name=font_def.get("name"),
+                    font_size=font_def.get("size"),
+                    bold=preset_bold or run_info.bold,
+                    italic=preset_italic or run_info.italic,
+                    underline=run_info.underline,
+                    color=run_info.color,
+                )
 
         # 如果有提取的图片，在段落后添加为独立的图片元素
         if extracted_images:
@@ -498,19 +535,33 @@ class DocxGenerator:
                         if "size" in font_def:
                             run.font.size = Pt(font_def["size"])
 
-    def _create_table_at(self, table_cells, ref_element):
+    def _create_base_table(self, table_cells):
+        """创建基础表格（公共逻辑）
+        
+        Args:
+            table_cells: 表格单元格数据
+            
+        Returns:
+            创建的表格对象，或None（如果数据无效）
+        """
         if not table_cells:
             return None
         rows = len(table_cells)
         cols = max((len(r) for r in table_cells), default=0)
         if rows == 0 or cols == 0:
             return None
+        
         table = self.doc.add_table(rows=rows, cols=cols)
         try:
             table.style = "Table Grid"
         except KeyError:
             pass
-        ref_element.addnext(table._tbl)
+        return table
+
+    def _create_table_at(self, table_cells, ref_element):
+        table = self._create_base_table(table_cells)
+        if table is not None:
+            ref_element.addnext(table._tbl)
         return table
 
     # ================================================================
@@ -606,11 +657,14 @@ class DocxGenerator:
         if not runs and fallback_text:
             run = para.add_run(fallback_text)
             if fallback_font:
-                run.font.name = fallback_font.name
-                run.font.size = Pt(fallback_font.size)
-                run.font.bold = fallback_font.bold
-                run.font.italic = fallback_font.italic
-                self._apply_color(run, fallback_font.color)
+                self._apply_run_format(
+                    run,
+                    font_name=fallback_font.name,
+                    font_size=fallback_font.size,
+                    bold=fallback_font.bold,
+                    italic=fallback_font.italic,
+                    color=fallback_font.color,
+                )
             return
         
         extracted_images = []
@@ -619,14 +673,15 @@ class DocxGenerator:
                 extracted_images.append(run_info.image)
             if run_info.text:
                 run = para.add_run(run_info.text)
-                run.font.name = run_info.font_name
-                # 设置中文字体（eastAsia）
-                run._element.rPr.rFonts.set(qn('w:eastAsia'), run_info.font_name)
-                run.font.size = Pt(run_info.font_size)
-                run.font.bold = run_info.bold
-                run.font.italic = run_info.italic
-                run.font.underline = run_info.underline
-                self._apply_color(run, run_info.color)
+                self._apply_run_format(
+                    run,
+                    font_name=run_info.font_name,
+                    font_size=run_info.font_size,
+                    bold=run_info.bold,
+                    italic=run_info.italic,
+                    underline=run_info.underline,
+                    color=run_info.color,
+                )
         for img_data in extracted_images:
             self._add_image_preserve(
                 img_data.get("data"),
@@ -640,6 +695,26 @@ class DocxGenerator:
             return None
         return emu / 360000.0
 
+    def _calculate_image_width(self, image_width_emu: Optional[int]) -> Optional:
+        """计算图片宽度，确保不超过页面可用宽度
+        
+        Args:
+            image_width_emu: 图片宽度（EMU单位）
+            
+        Returns:
+            计算后的图片宽度对象，或None（使用默认宽度）
+        """
+        from docx.shared import Cm as CmShared
+        
+        width_cm = self._emu_to_cm(image_width_emu)
+        if width_cm and width_cm > 0:
+            available = self._get_available_width()
+            img_width = CmShared(width_cm)
+            if img_width > available:
+                return available
+            return img_width
+        return None
+
     def _add_image_preserve(
         self,
         image_data: Optional[bytes],
@@ -652,15 +727,8 @@ class DocxGenerator:
             return
         stream = BytesIO(image_data)
         try:
-            width_cm = self._emu_to_cm(image_width_emu)
-            if width_cm and width_cm > 0:
-                available = self._get_available_width()
-                from docx.shared import Cm as CmShared
-
-                img_width = CmShared(width_cm)
-                if img_width > available:
-                    scale = available / img_width
-                    img_width = available
+            img_width = self._calculate_image_width(image_width_emu)
+            if img_width:
                 self.doc.add_picture(stream, width=img_width)
             else:
                 available = self._get_available_width()
@@ -674,18 +742,9 @@ class DocxGenerator:
         table_format: Optional[TableFormatInfo],
     ):
         """添加表格，保留原始列宽、行高、单元格格式、合并单元格"""
-        if not table_cells:
+        table = self._create_base_table(table_cells)
+        if table is None:
             return
-        rows = len(table_cells)
-        cols = max((len(r) for r in table_cells), default=0)
-        if rows == 0 or cols == 0:
-            return
-
-        table = self.doc.add_table(rows=rows, cols=cols)
-        try:
-            table.style = "Table Grid"
-        except KeyError:
-            pass
 
         if table_format:
             if table_format.column_widths:
@@ -934,14 +993,8 @@ class DocxGenerator:
             return None
         stream = BytesIO(image_data)
         try:
-            width_cm = self._emu_to_cm(image_width_emu)
-            if width_cm and width_cm > 0:
-                available = self._get_available_width()
-                from docx.shared import Cm as CmShared
-
-                img_width = CmShared(width_cm)
-                if img_width > available:
-                    img_width = available
+            img_width = self._calculate_image_width(image_width_emu)
+            if img_width:
                 self.doc.add_picture(stream, width=img_width)
             else:
                 available = self._get_available_width()
