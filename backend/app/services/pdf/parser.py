@@ -429,7 +429,7 @@ class PDFParser:
         """
         from ..docx.parser import (
             ContentElement, ElementType, ParagraphInfo, 
-            FontInfo, ParagraphFormat, TableCellInfo, TableFormatInfo
+            FontInfo, ParagraphFormat, TableCellInfo, TableFormatInfo, RunInfo
         )
         
         elements = []
@@ -494,12 +494,23 @@ class PDFParser:
                     elif heading_level == 4:
                         style_name = 'Heading 4'
                 
+                # 创建RunInfo，将段落文本和字体信息包装成run
+                run_info = RunInfo(
+                    text=element.get('content', ''),
+                    font_name=font_info.name,
+                    font_size=font_info.size,
+                    bold=font_info.bold,
+                    italic=font_info.italic,
+                    color=font_info.color,
+                )
+                
                 para_info = ParagraphInfo(
                     index=original_index,
                     text=element.get('content', ''),
                     style_name=style_name,
                     font=font_info,
                     format=format_info,
+                    runs=[run_info],
                 )
                 
                 elements.append(ContentElement(
@@ -572,12 +583,23 @@ class PDFParser:
                     
                     format_info = ParagraphFormat(alignment=alignment)
                     
+                    # 创建RunInfo，将列表项文本和字体信息包装成run
+                    list_run_info = RunInfo(
+                        text=content,
+                        font_name=font_info.name,
+                        font_size=font_info.size,
+                        bold=font_info.bold,
+                        italic=font_info.italic,
+                        color=font_info.color,
+                    )
+                    
                     para_info = ParagraphInfo(
                         index=original_index,
                         text=content,
                         style_name='List Paragraph',
                         font=font_info,
                         format=format_info,
+                        runs=[list_run_info],
                     )
                     
                     elements.append(ContentElement(
@@ -601,12 +623,23 @@ class PDFParser:
                                 color=kid.get('text color', ''),
                             )
                             
+                            # 创建RunInfo，将嵌套段落文本和字体信息包装成run
+                            kid_run_info = RunInfo(
+                                text=kid.get('content', ''),
+                                font_name=kid_font_info.name,
+                                font_size=kid_font_info.size,
+                                bold=kid_font_info.bold,
+                                italic=kid_font_info.italic,
+                                color=kid_font_info.color,
+                            )
+                            
                             kid_para_info = ParagraphInfo(
                                 index=original_index,
                                 text=kid.get('content', ''),
                                 style_name='Normal',
                                 font=kid_font_info,
                                 format=ParagraphFormat(alignment=kid_alignment),
+                                runs=[kid_run_info],
                             )
                             
                             elements.append(ContentElement(

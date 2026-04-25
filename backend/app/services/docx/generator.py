@@ -58,7 +58,11 @@ class DocxGenerator:
                 if preserve_format:
                     para = self.doc.add_paragraph()
                     self._apply_paragraph_format_obj(para, element.paragraph.format)
-                    self._add_runs_preserve(para, element.paragraph.runs)
+                    self._add_runs_preserve(
+                        para, 
+                        element.paragraph.runs, 
+                        fallback_text=element.paragraph.text
+                    )
                 else:
                     if element.paragraph.runs:
                         self.add_paragraph_with_runs(
@@ -570,8 +574,19 @@ class DocxGenerator:
         if fmt.widow_control is not None:
             pf.widow_control = fmt.widow_control
 
-    def _add_runs_preserve(self, para, runs: List[RunInfo]):
-        """以保留原格式方式添加 runs（字体/字号/粗斜体全部用原始值）"""
+    def _add_runs_preserve(self, para, runs: List[RunInfo], fallback_text: str = ""):
+        """以保留原格式方式添加 runs（字体/字号/粗斜体全部用原始值）
+        
+        Args:
+            para: 目标段落
+            runs: RunInfo列表
+            fallback_text: 当runs为空时的回退文本
+        """
+        # 防御性处理：如果runs为空但有回退文本，创建一个基本run
+        if not runs and fallback_text:
+            run = para.add_run(fallback_text)
+            return
+        
         extracted_images = []
         for run_info in runs:
             if run_info.image:
