@@ -355,7 +355,37 @@ class PDFParser:
             elif kid.get('type') == 'list':
                 for item in kid.get('list items', []):
                     texts.append(item.get('content', ''))
+            elif kid.get('type') == 'image':
+                texts.append('[图片]')
         return '\n'.join(texts)
+    
+    def _extract_cell_runs(self, cell: Dict) -> list:
+        """提取单元格中的runs信息（保留字体格式）"""
+        from ..docx.parser import RunInfo
+        runs = []
+        for kid in cell.get('kids', []):
+            if kid.get('type') in ['paragraph', 'heading']:
+                run_info = RunInfo(
+                    text=kid.get('content', ''),
+                    font_name=FontMapper.map_font(kid.get('font', '')),
+                    font_size=round(kid.get('font size', 12), 1),
+                    bold=FontMapper.is_bold(kid.get('font', '')),
+                    italic=FontMapper.is_italic(kid.get('font', '')),
+                    color=kid.get('text color', ''),
+                )
+                runs.append(run_info)
+            elif kid.get('type') == 'list':
+                for item in kid.get('list items', []):
+                    run_info = RunInfo(
+                        text=item.get('content', ''),
+                        font_name=FontMapper.map_font(item.get('font', '')),
+                        font_size=round(item.get('font size', 12), 1),
+                        bold=FontMapper.is_bold(item.get('font', '')),
+                        italic=FontMapper.is_italic(item.get('font', '')),
+                        color=item.get('text color', ''),
+                    )
+                    runs.append(run_info)
+        return runs
     
     def extract_images(self, page_num: int) -> List[PDFImage]:
         """提取图片 - 保持向后兼容"""
@@ -527,14 +557,43 @@ class PDFParser:
                     cell_row = []
                     for cell in row.get('cells', []):
                         cell_text = self._extract_cell_text(cell)
-                        cell_row.append(TableCellInfo(text=cell_text))
+                        cell_runs = self._extract_cell_runs(cell)
+                        cell_row.append(TableCellInfo(
+                            text=cell_text,
+                            runs=cell_runs,
+                            paragraph_runs=[cell_runs] if cell_runs else [],
+                        ))
                     table_cells.append(cell_row)
+                
+                # 提取表格格式信息
+                column_widths = []
+                row_heights = []
+                
+                # 尝试从JSON中提取列宽
+                if 'columns' in element:
+                    for col in element.get('columns', []):
+                        width = col.get('width', 0)
+                        if width:
+                            # 转换为厘米（假设PDF单位是点，1点=0.0352778厘米）
+                            column_widths.append(round(width * 0.0352778, 2))
+                
+                # 尝试从JSON中提取行高
+                for row in element.get('rows', []):
+                    height = row.get('height', 0)
+                    if height:
+                        row_heights.append(round(height * 0.0352778, 2))
+                
+                table_format = TableFormatInfo(
+                    column_widths=column_widths,
+                    row_heights=row_heights,
+                    alignment='left',
+                )
                 
                 elements.append(ContentElement(
                     element_type=ElementType.TABLE,
                     original_index=original_index,
                     table_cells=table_cells,
-                    table_format=TableFormatInfo(),
+                    table_format=table_format,
                 ))
                 original_index += 1
             
@@ -549,11 +608,20 @@ class PDFParser:
                         
                         # 跳过1x1像素的装饰性图片
                         if len(img_data) > 100:  # 简单启发式：小于100字节的可能是装饰
+                            # 从bounding box提取图片尺寸（转换为EMU单位，1点=12700 EMU）
+                            bbox = element.get('bounding box', [0, 0, 0, 0])
+                            width_pt = bbox[2] - bbox[0] if len(bbox) >= 4 else 0
+                            height_pt = bbox[3] - bbox[1] if len(bbox) >= 4 else 0
+                            width_emu = int(width_pt * 12700) if width_pt > 0 else None
+                            height_emu = int(height_pt * 12700) if height_pt > 0 else None
+                            
                             elements.append(ContentElement(
                                 element_type=ElementType.IMAGE,
                                 original_index=original_index,
                                 image_data=img_data,
                                 image_ext=img_path.suffix.lstrip('.') or 'png',
+                                image_width=width_emu,
+                                image_height=height_emu,
                             ))
                             original_index += 1
             
@@ -568,10 +636,14 @@ class PDFParser:
                     
                     # 构建列表项文本
                     content = item.get('content', '')
-                    if numbering_style == 'arabic numbers' and not content[0].isdigit():
-                        content = f"{i + 1}. {content}"
-                    elif numbering_style == 'unordered' and not content.startswith('-'):
-                        content = f"• {content}"
+                    if numbering_style == 'arabic numbers':
+                        # 检查是否已有编号（支持 "1.", "1)", "1、" 等格式）
+                        if not content or not re.match(r'^\d+[\.\)\\、\s]', content):
+                            content = f"{i + 1}. {content}"
+                    elif numbering_style == 'unordered':
+                        # 检查是否已有项目符号
+                        if not content or not content.startswith(('•', '-', '*', '○', '·')):
+                            content = f"• {content}"
                     
                     font_info = FontInfo(
                         name=FontMapper.map_font(item.get('font', '')),

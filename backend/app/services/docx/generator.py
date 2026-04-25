@@ -61,7 +61,8 @@ class DocxGenerator:
                     self._add_runs_preserve(
                         para, 
                         element.paragraph.runs, 
-                        fallback_text=element.paragraph.text
+                        fallback_text=element.paragraph.text,
+                        fallback_font=element.paragraph.font
                     )
                 else:
                     if element.paragraph.runs:
@@ -365,14 +366,32 @@ class DocxGenerator:
             para.add_run("[图片]")
 
     def _apply_color(self, run, color_hex: str):
-        if color_hex and color_hex != "000000" and len(color_hex) == 6:
-            try:
+        """应用颜色到run，支持多种颜色格式
+        
+        支持格式：
+        - 6位十六进制："FF0000"
+        - 带#前缀："#FF0000"
+        - 3位简写："#F00"
+        """
+        if not color_hex or color_hex == "000000":
+            return
+        
+        try:
+            # 移除#前缀
+            color_hex = color_hex.lstrip('#')
+            
+            # 处理3位简写
+            if len(color_hex) == 3:
+                color_hex = ''.join(c * 2 for c in color_hex)
+            
+            # 处理6位标准格式
+            if len(color_hex) == 6:
                 r = int(color_hex[0:2], 16)
                 g = int(color_hex[2:4], 16)
                 b = int(color_hex[4:6], 16)
                 run.font.color.rgb = RGBColor(r, g, b)
-            except (ValueError, IndexError):
-                pass
+        except (ValueError, IndexError, AttributeError):
+            pass
 
     # ================================================================
     # 表格辅助方法
@@ -574,17 +593,24 @@ class DocxGenerator:
         if fmt.widow_control is not None:
             pf.widow_control = fmt.widow_control
 
-    def _add_runs_preserve(self, para, runs: List[RunInfo], fallback_text: str = ""):
+    def _add_runs_preserve(self, para, runs: List[RunInfo], fallback_text: str = "", fallback_font: FontInfo = None):
         """以保留原格式方式添加 runs（字体/字号/粗斜体全部用原始值）
         
         Args:
             para: 目标段落
             runs: RunInfo列表
             fallback_text: 当runs为空时的回退文本
+            fallback_font: 当runs为空时的回退字体信息
         """
-        # 防御性处理：如果runs为空但有回退文本，创建一个基本run
+        # 防御性处理：如果runs为空但有回退文本，创建一个有格式的run
         if not runs and fallback_text:
             run = para.add_run(fallback_text)
+            if fallback_font:
+                run.font.name = fallback_font.name
+                run.font.size = Pt(fallback_font.size)
+                run.font.bold = fallback_font.bold
+                run.font.italic = fallback_font.italic
+                self._apply_color(run, fallback_font.color)
             return
         
         extracted_images = []
@@ -594,6 +620,8 @@ class DocxGenerator:
             if run_info.text:
                 run = para.add_run(run_info.text)
                 run.font.name = run_info.font_name
+                # 设置中文字体（eastAsia）
+                run._element.rPr.rFonts.set(qn('w:eastAsia'), run_info.font_name)
                 run.font.size = Pt(run_info.font_size)
                 run.font.bold = run_info.bold
                 run.font.italic = run_info.italic
