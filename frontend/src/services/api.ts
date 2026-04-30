@@ -52,6 +52,7 @@ export async function uploadFile(params: {
   enable_cleaning?: boolean;
   enable_correction?: boolean;
   use_llm?: boolean;
+  use_hybrid?: boolean;
   marker_position?: string;
 }): Promise<{ task_id: string }> {
   const formData = new FormData();
@@ -66,6 +67,7 @@ export async function uploadFile(params: {
   formData.append('enable_cleaning', params.enable_cleaning ? 'true' : 'false');
   formData.append('enable_correction', params.enable_correction ? 'true' : 'false');
   formData.append('use_llm', params.use_llm ? 'true' : 'false');
+  formData.append('use_hybrid', params.use_hybrid ? 'true' : 'false');
   if (params.marker_position) {
     formData.append('marker_position', params.marker_position);
   }

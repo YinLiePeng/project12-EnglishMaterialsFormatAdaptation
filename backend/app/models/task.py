@@ -38,11 +38,16 @@ class Task(Base):
     enable_cleaning = Column(Integer, default=0)
     enable_correction = Column(Integer, default=0)
     enable_llm = Column(Integer, default=0)  # 是否启用大模型语义识别
+    use_hybrid = Column(Integer, default=0)  # 是否使用hybrid PDF解析模式
     marker_position = Column(Text, nullable=True)  # 标记位位置(JSON)
 
     # 结构分析结果(JSON格式存储)
     structure_analysis = Column(Text, nullable=True)
     pdf_info = Column(Text, nullable=True)  # PDF检测结果: {is_pdf, type, type_name, confidence, processing_method, total_pages, ...}
+
+    # 处理进度
+    processing_stage = Column(String(50))  # 当前处理阶段: parsing/cleaning/correcting/recognizing/formatting/generating
+    progress = Column(Integer, default=0)  # 处理进度 0-100
 
     # 处理结果(临时存储)
     output_filename = Column(String(255))

@@ -154,9 +154,14 @@ export interface TaskStatus {
   layout_mode: string;
   preset_style: string;
   enable_llm?: number;
+  enable_cleaning?: number;
+  enable_correction?: number;
+  use_hybrid?: number;
   input_filename: string;
   output_filename: string | null;
   processing_time: number | null;
+  processing_stage: string | null;
+  progress: number;
   error_message: string | null;
   error_code: string | null;
   created_at: string | null;
@@ -413,5 +418,4 @@ export interface TemplatePreviewResponse {
   total_elements: number;
   auto_detected_area: AutoDetectedArea | null;
   filename: string;
-}
 }

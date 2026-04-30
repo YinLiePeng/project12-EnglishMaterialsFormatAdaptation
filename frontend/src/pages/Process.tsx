@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect, useRef } from 'react';
+import { useState, useCallback, useEffect, useRef, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useUploadStore } from '../store/uploadStore';
 import { useTaskPolling } from '../hooks/useTaskPolling';
@@ -7,29 +7,38 @@ import { Button } from '../components/common/Button';
 import { EmptyState } from '../components/common/EmptyState';
 import type { TaskStatus, SSEProgressEvent, SSEAnalysisEvent, SSEDoneEvent, SSEErrorEvent, PdfInfo } from '../types';
 
-const STAGES = [
-  { key: 'pending', label: '等待处理' },
-  { key: 'processing', label: '解析文件' },
-  { key: 'formatting', label: '格式化中' },
-  { key: 'generating', label: '生成文档' },
-  { key: 'completed', label: '处理完成' },
-];
-
-const STAGE_MESSAGES: Record<string, string> = {
-  parsing: '解析文件中...',
-  cleaning: '清洗内容中...',
-  correcting: '纠错内容中...',
-  recognizing: 'AI 结构识别中...',
-  formatting: '排版生成中...',
+// 阶段配置
+const STAGE_CONFIG: Record<string, { label: string; description: string; defaultProgress: number }> = {
+  parsing: { label: '解析文件', description: '提取PDF/DOCX中的文本、图片和表格', defaultProgress: 10 },
+  cleaning: { label: '内容清洗', description: '过滤广告、水印、URL等垃圾内容', defaultProgress: 28 },
+  correcting: { label: '内容纠错', description: '修正标点、拼写、格式问题', defaultProgress: 43 },
+  recognizing: { label: '结构识别', description: '识别标题、题号、选项、正文等结构', defaultProgress: 60 },
+  formatting: { label: '格式排版', description: '应用预设样式进行智能排版', defaultProgress: 80 },
+  generating: { label: '生成文档', description: '生成最终DOCX文件并应用修订', defaultProgress: 95 },
+  completed: { label: '处理完成', description: '文档已生成，可以下载', defaultProgress: 100 },
+  failed: { label: '处理失败', description: '处理过程中出现错误', defaultProgress: 0 },
 };
+
+function getStages(taskStatus: TaskStatus | null) {
+  const stages = ['parsing'];
+  
+  if (taskStatus?.enable_cleaning) {
+    stages.push('cleaning');
+  }
+  if (taskStatus?.enable_correction) {
+    stages.push('correcting');
+  }
+  
+  stages.push('recognizing', 'formatting', 'generating');
+  
+  return stages;
+}
 
 export function Process() {
   const navigate = useNavigate();
   const { currentTaskId, taskStatus, setTaskStatus, reset } = useUploadStore();
-  const [progress, setProgress] = useState(0);
   const [isLLM, setIsLLM] = useState(false);
-  const [llmChecked, setLlmChecked] = useState(false);
-
+  const [, setLlmChecked] = useState(false);
   const [terminalLines, setTerminalLines] = useState<string[]>([]);
   const [currentStage, setCurrentStage] = useState<string>('');
   const [analysisResult, setAnalysisResult] = useState<string | null>(null);
@@ -61,21 +70,12 @@ export function Process() {
   useEffect(() => {
     if (!isLLM || !currentTaskId) return;
 
-    setProgress(10);
     setCurrentStage('connecting');
 
     const es = connectLLMStream(currentTaskId, {
       onProgress: (data: SSEProgressEvent) => {
         setCurrentStage(data.stage);
         setTerminalLines(prev => [...prev, `\x1b[36m▸ ${data.message}\x1b[0m`]);
-        const stageProgress: Record<string, number> = {
-          parsing: 15,
-          cleaning: 25,
-          correcting: 35,
-          recognizing: 50,
-          formatting: 85,
-        };
-        setProgress(stageProgress[data.stage] || 50);
       },
       onChunk: (data) => {
         setTerminalLines(prev => {
@@ -97,7 +97,6 @@ export function Process() {
         ]);
       },
       onDone: (data: SSEDoneEvent) => {
-        setProgress(100);
         setLlmChecked(true);
         setTerminalLines(prev => [
           ...prev,
@@ -129,20 +128,14 @@ export function Process() {
     };
   }, [isLLM, currentTaskId, setTaskStatus]);
 
-  const handleStatusUpdate = useCallback((status: TaskStatus) => {
-    setTaskStatus(status);
-    if (!isLLM && !llmChecked) {
-      if (status.status === 'pending') setProgress(10);
-      else if (status.status === 'processing') setProgress(50);
+  const handleStatusUpdate = useCallback((newStatus: TaskStatus) => {
+    setTaskStatus(newStatus);
+    if (newStatus.status === 'completed' || newStatus.status === 'failed') {
+      setLlmChecked(true);
     }
-  }, [setTaskStatus, isLLM, llmChecked]);
+  }, [setTaskStatus]);
 
-  const handleComplete = useCallback((status: TaskStatus) => {
-    if (status.status === 'completed') {
-      setProgress(100);
-    } else {
-      setProgress(0);
-    }
+  const handleComplete = useCallback((_status: TaskStatus) => {
     setLlmChecked(true);
   }, []);
 
@@ -152,6 +145,33 @@ export function Process() {
     onSuccess: handleStatusUpdate,
     onComplete: handleComplete,
   });
+
+  // 计算真实进度
+  const progress = useMemo(() => {
+    if (!taskStatus) return 0;
+    if (taskStatus.status === 'completed') return 100;
+    if (taskStatus.status === 'failed') return 0;
+    // 如果有真实的 progress 字段，使用它
+    if (taskStatus.progress > 0) return taskStatus.progress;
+    // 否则使用阶段的默认进度
+    const stage = taskStatus.processing_stage || 'parsing';
+    return STAGE_CONFIG[stage]?.defaultProgress || 10;
+  }, [taskStatus]);
+
+  // 动态阶段列表
+  const stages = useMemo(() => getStages(taskStatus), [taskStatus]);
+
+  // 当前活跃的阶段索引
+  const currentStageIndex = useMemo(() => {
+    if (!taskStatus) return -1;
+    if (taskStatus.status === 'completed') return stages.length;
+    if (taskStatus.status === 'failed') return -1;
+    const stage = taskStatus.processing_stage || 'parsing';
+    return stages.indexOf(stage);
+  }, [taskStatus, stages]);
+
+  // 检查是否是临时任务ID（正在上传中）
+  const isUploading = currentTaskId?.startsWith('temp-');
 
   if (!currentTaskId) {
     return (
@@ -166,7 +186,7 @@ export function Process() {
 
   const isCompleted = taskStatus?.status === 'completed';
   const isFailed = taskStatus?.status === 'failed';
-  const isProcessing = taskStatus?.status === 'processing' || taskStatus?.status === 'pending';
+  const isProcessing = isUploading || taskStatus?.status === 'processing' || taskStatus?.status === 'pending';
 
   return (
     <div className="min-h-screen bg-gray-50 py-8">
@@ -208,17 +228,25 @@ export function Process() {
           <div className="mb-6">
             <div className="h-2 bg-gray-200 rounded-full overflow-hidden">
               <div
-                className={`h-full transition-all duration-500 ${
+                className={`h-full transition-all duration-1000 ${
                   isFailed ? 'bg-red-500' : isCompleted ? 'bg-green-500' : 'bg-blue-600'
                 }`}
                 style={{ width: `${progress}%` }}
               />
             </div>
-            <p className="text-sm text-gray-500 text-center mt-2">
-              {isLLM && currentStage && STAGE_MESSAGES[currentStage]
-                ? STAGE_MESSAGES[currentStage]
-                : `${progress}%`}
-            </p>
+            <div className="flex justify-between items-center mt-2">
+              <p className="text-sm text-gray-500">
+                {taskStatus?.processing_stage && STAGE_CONFIG[taskStatus.processing_stage]
+                  ? `${STAGE_CONFIG[taskStatus.processing_stage].label} (${progress}%)`
+                  : `${progress}%`
+                }
+              </p>
+              {taskStatus?.processing_time && (
+                <p className="text-sm text-gray-400">
+                  用时 {taskStatus.processing_time.toFixed(1)} 秒
+                </p>
+              )}
+            </div>
           </div>
 
           {/* LLM 终端面板 */}
@@ -260,28 +288,66 @@ export function Process() {
             </div>
           )}
 
-          {/* 非LLM模式的处理阶段 */}
-          {!isLLM && isProcessing && (
-            <div className="space-y-3 mb-8">
-              {STAGES.map((stage, index) => {
-                const stageProgress = (index + 1) * 20;
-                const isActive = progress >= stageProgress - 10 && progress < stageProgress;
-                const isDone = progress >= stageProgress;
+          {/* 处理阶段详细列表 */}
+          {isProcessing && (
+            <div className="space-y-2 mb-8">
+              {/* 上传阶段（仅在正在上传时显示） */}
+              {isUploading && (
+                <div className="flex items-start gap-3 p-3 rounded-lg bg-blue-50 border border-blue-200">
+                  <div className="flex-shrink-0 mt-0.5">
+                    <div className="w-5 h-5 border-2 border-blue-500 border-t-transparent rounded-full animate-spin" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="text-sm font-medium text-blue-700">
+                      上传文件
+                      <span className="ml-2 text-xs text-blue-500 animate-pulse">进行中...</span>
+                    </div>
+                    <div className="text-xs mt-0.5 text-blue-500">
+                      正在将文件上传到服务器...
+                    </div>
+                  </div>
+                </div>
+              )}
+              {stages.map((stageKey, index) => {
+                const stage = STAGE_CONFIG[stageKey];
+                const isActive = index === currentStageIndex;
+                const isDone = index < currentStageIndex || isCompleted;
 
                 return (
-                  <div key={stage.key} className="flex items-center">
-                    {isDone ? (
-                      <svg className="w-5 h-5 text-green-500 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                      </svg>
-                    ) : isActive ? (
-                      <div className="w-5 h-5 border-2 border-blue-500 border-t-transparent rounded-full animate-spin mr-3" />
-                    ) : (
-                      <div className="w-5 h-5 border-2 border-gray-300 rounded-full mr-3" />
+                  <div 
+                    key={stageKey} 
+                    className={`flex items-start gap-3 p-3 rounded-lg transition-all ${
+                      isActive ? 'bg-blue-50 border border-blue-200' : 
+                      isDone ? 'bg-green-50' : 'bg-gray-50'
+                    }`}
+                  >
+                    <div className="flex-shrink-0 mt-0.5">
+                      {isDone ? (
+                        <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                        </svg>
+                      ) : isActive ? (
+                        <div className="w-5 h-5 border-2 border-blue-500 border-t-transparent rounded-full animate-spin" />
+                      ) : (
+                        <div className="w-5 h-5 border-2 border-gray-300 rounded-full" />
+                      )}
+                    </div>
+                    <div className="flex-1">
+                      <div className={`text-sm font-medium ${
+                        isDone ? 'text-green-700' : isActive ? 'text-blue-700' : 'text-gray-400'
+                      }`}>
+                        {stage.label}
+                        {isActive && <span className="ml-2 text-xs text-blue-500 animate-pulse">进行中...</span>}
+                      </div>
+                      <div className={`text-xs mt-0.5 ${
+                        isDone ? 'text-green-600' : isActive ? 'text-blue-500' : 'text-gray-400'
+                      }`}>
+                        {stage.description}
+                      </div>
+                    </div>
+                    {isDone && (
+                      <span className="text-xs text-green-600 font-medium">完成</span>
                     )}
-                    <span className={isDone ? 'text-green-600' : isActive ? 'text-blue-600' : 'text-gray-400'}>
-                      {stage.label}
-                    </span>
                   </div>
                 );
               })}
@@ -296,7 +362,7 @@ export function Process() {
                 <p>文件名：{taskStatus.input_filename}</p>
                 <p>任务ID：{taskStatus.task_id}</p>
                 {taskStatus.processing_time && (
-                  <p>处理用时：{taskStatus.processing_time}秒</p>
+                  <p>总用时：{taskStatus.processing_time.toFixed(1)} 秒</p>
                 )}
               </div>
             </div>

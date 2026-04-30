@@ -4,6 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from .core.config import settings
 from .core.database import init_db, close_db
 from .api import router as api_router
+from .services.pdf.hybrid_server import hybrid_server_manager
 
 
 @asynccontextmanager
@@ -12,11 +13,21 @@ async def lifespan(app: FastAPI):
     # 启动时
     settings.ensure_directories()
     await init_db()
+
+    # 启动 hybrid server
+    if settings.HYBRID_SERVER_ENABLED:
+        hybrid_server_manager.start()
+
     print(f"✅ {settings.APP_NAME} 启动成功")
     print(f"📚 API文档: http://localhost:8000/docs")
     yield
     # 关闭时
     await close_db()
+
+    # 停止 hybrid server
+    if settings.HYBRID_SERVER_ENABLED:
+        hybrid_server_manager.stop()
+
     print("👋 应用已关闭")
 
 

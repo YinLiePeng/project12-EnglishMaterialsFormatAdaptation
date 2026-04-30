@@ -60,6 +60,7 @@ async def upload_file(
     enable_correction: bool = Form(False),
     use_llm: bool = Form(False),
     marker_position: Optional[str] = Form(None),
+    use_hybrid: bool = Form(False),
     db: AsyncSession = Depends(get_db),
 ):
     """上传文件并创建处理任务
@@ -213,6 +214,7 @@ async def upload_file(
         enable_cleaning=1 if enable_cleaning else 0,
         enable_correction=1 if enable_correction else 0,
         enable_llm=1 if use_llm else 0,
+        use_hybrid=1 if use_hybrid else 0,
         marker_position=marker_position,
         pdf_info=pdf_info_json,
     )
@@ -232,6 +234,7 @@ async def upload_file(
             enable_cleaning=enable_cleaning,
             enable_correction=enable_correction,
             use_llm=use_llm,
+            use_hybrid=use_hybrid,
             marker_position=marker_position,
         )
 
@@ -243,6 +246,7 @@ async def upload_file(
         "layout_mode": layout_mode,
         "preset_style": preset_style,
         "use_llm": use_llm,
+        "use_hybrid": use_hybrid,
         "is_pdf": file_ext == ".pdf",
     }
     if pdf_detection:
@@ -255,6 +259,23 @@ async def upload_file(
     }
 
 
+async def _update_task_progress(db, task_id: str, stage: str, progress: int):
+    """更新任务进度
+    
+    Args:
+        db: 数据库会话
+        task_id: 任务ID
+        stage: 当前阶段
+        progress: 进度 0-100
+    """
+    result = await db.execute(select(Task).where(Task.task_id == task_id))
+    task = result.scalar_one_or_none()
+    if task:
+        task.processing_stage = stage
+        task.progress = progress
+        await db.commit()
+
+
 async def process_task_background(
     task_id: str,
     input_file_path: str,
@@ -264,6 +285,7 @@ async def process_task_background(
     enable_cleaning: bool = False,
     enable_correction: bool = False,
     use_llm: bool = False,
+    use_hybrid: bool = False,
     marker_position: Optional[str] = None,
 ):
     """后台处理任务"""
@@ -283,6 +305,8 @@ async def process_task_background(
         # 更新状态为处理中
         task.status = "processing"
         task.started_at = datetime.now()
+        task.processing_stage = "parsing"
+        task.progress = 0
         await db.commit()
 
         try:
@@ -290,18 +314,33 @@ async def process_task_background(
             pre_extracted_elements = None
 
             if file_ext == ".pdf":
-                # 使用 opendataloader_pdf 解析 PDF
-                json_path = Path(input_file_path).with_suffix('.json')
-                if not json_path.exists():
-                    import opendataloader_pdf
-                    opendataloader_pdf.convert(
-                        input_path=[input_file_path],
-                        output_dir=str(Path(input_file_path).parent),
-                        format="json"
-                    )
-                
+                # 使用增强版PDF解析器（支持hybrid模式）
+                from app.services.pdf import EnhancedPDFParser
+
+                pdf_parser = EnhancedPDFParser(input_file_path, use_hybrid=use_hybrid)
+                parse_result = pdf_parser.parse()
+
+                if not parse_result.success:
+                    raise Exception(f"PDF解析失败: {parse_result.error_message}")
+
+                # 如果发生了回退，记录到任务中
+                if parse_result.fallback_reason:
+                    task.pdf_info = json.dumps({
+                        **(json.loads(task.pdf_info) if task.pdf_info else {}),
+                        "hybrid_fallback": True,
+                        "fallback_reason": parse_result.fallback_reason,
+                    })
+                    await db.commit()
+
+                # 使用标准PDFParser处理JSON数据
                 from app.services.pdf import PDFParser
                 pdf_parser = PDFParser(input_file_path)
+                # 手动设置json_data（因为EnhancedPDFParser已经生成了JSON）
+                if parse_result.json_data:
+                    pdf_parser.json_data = parse_result.json_data
+                    pdf_parser.json_path = parse_result.json_path
+                    pdf_parser.images_dir = parse_result.images_dir
+
                 pre_extracted_elements = pdf_parser.convert_to_content_elements()
                 pdf_parser.close()
 
@@ -344,6 +383,9 @@ async def process_task_background(
                     for p in paragraphs
                 ]
 
+            # 解析完成，更新进度到20%
+            await _update_task_progress(db, task_id, "cleaning" if enable_cleaning else "correcting", 20)
+
             # 2. 内容清洗（可选）
             if enable_cleaning:
                 from app.services.llm import deepseek_client
@@ -359,6 +401,9 @@ async def process_task_background(
                     pre_extracted_elements = _sync_cleaning_to_elements(
                         pre_extracted_elements, paragraphs_info
                     )
+                
+                # 清洗完成，更新进度到35%
+                await _update_task_progress(db, task_id, "correcting" if enable_correction else "recognizing", 35)
 
             # 3. 内容纠错（可选）
             correction_result = None
@@ -369,8 +414,12 @@ async def process_task_background(
                 correction_result = await content_corrector.correct_with_llm(
                     paragraphs_info, llm_client
                 )
+                
+                # 纠错完成，更新进度到50%
+                await _update_task_progress(db, task_id, "recognizing", 50)
 
             # 4. 格式适配与排版
+            await _update_task_progress(db, task_id, "formatting", 70)
             result = await document_processor.process_document(
                 input_file_path=input_file_path,
                 layout_mode=layout_mode,
@@ -384,6 +433,7 @@ async def process_task_background(
             )
 
             # 5. 应用纠错结果（添加修订和批注）
+            await _update_task_progress(db, task_id, "generating", 90)
             if (
                 correction_result
                 and correction_result.corrections
@@ -409,7 +459,14 @@ async def process_task_background(
                 task.status = "completed"
                 task.output_file_path = result["output_path"]
                 task.output_filename = Path(result["output_path"]).name
-                task.processing_time = round(result.get("processing_time", 0), 1)
+                # 使用 started_at 和 completed_at 计算总处理时间
+                if task.started_at:
+                    total_time = (datetime.now() - task.started_at).total_seconds()
+                    task.processing_time = round(total_time, 1)
+                else:
+                    task.processing_time = round(result.get("processing_time", 0), 1)
+                task.processing_stage = "completed"
+                task.progress = 100
                 task.output_expire_at = datetime.now() + timedelta(
                     hours=settings.TEMP_EXPIRE_HOURS
                 )
@@ -418,11 +475,13 @@ async def process_task_background(
                 task.status = "failed"
                 task.error_message = result.get("message", "处理失败")
                 task.error_code = result.get("error_code", "UNKNOWN_ERROR")
+                task.processing_stage = "failed"
 
         except Exception as e:
             task.status = "failed"
             task.error_message = str(e)
             task.error_code = "UNKNOWN_ERROR"
+            task.processing_stage = "failed"
 
         task.completed_at = datetime.now()
         await db.commit()

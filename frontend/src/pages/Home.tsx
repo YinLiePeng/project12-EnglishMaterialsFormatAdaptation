@@ -30,6 +30,12 @@ const FEATURE_OPTIONS = [
     description: '调用DeepSeek进行语义分析，提高识别准确率',
     detail: '启用后，系统将调用大语言模型对原始资料进行语义层面的结构识别与内容理解，显著提升对复杂排版、非标准格式的识别准确率。大模型仅输出标准化结构化指令，不直接控制格式参数。启用后处理时间会有所增加。',
   },
+  {
+    id: 'hybrid',
+    title: '增强PDF解析',
+    description: '使用Docling后端解析复杂/嵌套表格PDF',
+    detail: '启用后，系统将使用opendataloader-pdf[hybrid]的Docling后端进行PDF解析，显著提升对复杂表格、嵌套表格、混合排版PDF的识别准确率。适用于包含复杂表格结构的英语试卷、练习册等资料。处理时间会比标准模式增加3-5倍。',
+  },
 ];
 
 function InfoPopover({ content }: { content: string }) {
@@ -90,6 +96,7 @@ export function Home() {
   const [presets, setPresets] = useState<PresetStyle[]>([]);
   const [uploading, setUploading] = useState(false);
   const [useLLM, setUseLLM] = useState(false);
+  const [useHybrid, setUseHybrid] = useState(false);
   const [enableCleaning, setEnableCleaning] = useState(false);
   const [enableCorrection, setEnableCorrection] = useState(false);
   const [previewStyleId, setPreviewStyleId] = useState<string | null>(null);
@@ -151,7 +158,10 @@ export function Home() {
       return;
     }
 
-    setUploading(true);
+    // 立即跳转到处理页面，后台异步上传
+    const tempTaskId = `temp-${Date.now()}`;
+    setCurrentTaskId(tempTaskId);
+    navigate('/process');
 
     try {
       const result = await uploadFile({
@@ -162,14 +172,16 @@ export function Home() {
         enable_cleaning: enableCleaning,
         enable_correction: enableCorrection,
         use_llm: useLLM,
+        use_hybrid: useHybrid,
         marker_position: markerPosition ? JSON.stringify(markerPosition) : undefined,
       });
 
       setCurrentTaskId(result.task_id);
-      navigate('/process');
     } catch (err: unknown) {
       const apiError = err as { response?: { data?: { message?: string } } };
       showToast(apiError.response?.data?.message || '上传失败，请重试', 'error');
+      // 上传失败时跳转回首页
+      navigate('/');
     } finally {
       setUploading(false);
     }
@@ -179,6 +191,7 @@ export function Home() {
     cleaning: { checked: enableCleaning, onChange: setEnableCleaning },
     correction: { checked: enableCorrection, onChange: setEnableCorrection },
     llm: { checked: useLLM, onChange: setUseLLM, disabled: isPreserve },
+    hybrid: { checked: useHybrid, onChange: setUseHybrid, disabled: !isPdf },
   };
 
   const handleMarkerSelect = (pos: MarkerPosition | null) => {
@@ -319,6 +332,12 @@ export function Home() {
                       )}
                       {feature.id === 'llm' && state.disabled && (
                         <p className="text-xs text-gray-400 mt-1">保留原格式下不需要</p>
+                      )}
+                      {feature.id === 'hybrid' && !state.disabled && (
+                        <p className="text-xs text-orange-500 mt-1">处理时间增加3-5倍，适合复杂表格PDF</p>
+                      )}
+                      {feature.id === 'hybrid' && state.disabled && (
+                        <p className="text-xs text-gray-400 mt-1">仅PDF文件可用</p>
                       )}
                     </div>
                   </label>

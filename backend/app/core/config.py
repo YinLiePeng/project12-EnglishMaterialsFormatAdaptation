@@ -39,6 +39,15 @@ class Settings(BaseSettings):
     MAX_REVISIONS: int = 500
     LLM_MAX_TOKENS: int = 20000
 
+    # Hybrid PDF解析配置
+    HYBRID_SERVER_ENABLED: bool = True  # 是否启用hybrid server
+    HYBRID_SERVER_PORT: int = 5002  # hybrid server端口
+    HYBRID_SERVER_HOST: str = "127.0.0.1"  # hybrid server主机
+    HYBRID_SERVER_TIMEOUT: int = 300  # hybrid server启动超时(秒)
+    HYBRID_SERVER_LOG_LEVEL: str = "error"  # hybrid server日志级别
+    HYBRID_PARSE_TIMEOUT: int = 600  # PDF解析超时(秒)
+    HYBRID_FALLBACK_ON_FAILURE: bool = True  # 失败时是否回退到标准模式
+
     class Config:
         # 从项目根目录加载 .env
         env_file = Path(__file__).parent.parent.parent / ".env"
