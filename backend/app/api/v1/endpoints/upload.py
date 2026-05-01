@@ -289,6 +289,7 @@ async def process_task_background(
     marker_position: Optional[str] = None,
 ):
     """后台处理任务"""
+    import asyncio
     from app.core.database import AsyncSessionLocal
     from app.services.cleaner import content_cleaner
     from app.services.correction import content_corrector
@@ -317,8 +318,8 @@ async def process_task_background(
                 # 使用增强版PDF解析器（支持hybrid模式）
                 from app.services.pdf import EnhancedPDFParser
 
-                pdf_parser = EnhancedPDFParser(input_file_path, use_hybrid=use_hybrid)
-                parse_result = pdf_parser.parse()
+                pdf_parser = await asyncio.to_thread(EnhancedPDFParser, input_file_path, use_hybrid=use_hybrid)
+                parse_result = await asyncio.to_thread(pdf_parser.parse)
 
                 if not parse_result.success:
                     raise Exception(f"PDF解析失败: {parse_result.error_message}")
@@ -334,15 +335,15 @@ async def process_task_background(
 
                 # 使用标准PDFParser处理JSON数据
                 from app.services.pdf import PDFParser
-                pdf_parser = PDFParser(input_file_path)
+                pdf_parser = await asyncio.to_thread(PDFParser, input_file_path)
                 # 手动设置json_data（因为EnhancedPDFParser已经生成了JSON）
                 if parse_result.json_data:
                     pdf_parser.json_data = parse_result.json_data
                     pdf_parser.json_path = parse_result.json_path
                     pdf_parser.images_dir = parse_result.images_dir
 
-                pre_extracted_elements = pdf_parser.convert_to_content_elements()
-                pdf_parser.close()
+                pre_extracted_elements = await asyncio.to_thread(pdf_parser.convert_to_content_elements)
+                await asyncio.to_thread(pdf_parser.close)
 
                 paragraphs_info = [
                     {
@@ -363,8 +364,8 @@ async def process_task_background(
             else:
                 from app.services.docx import DocxParser
 
-                docx_parser = DocxParser(input_file_path)
-                paragraphs = docx_parser.extract_paragraphs()
+                docx_parser = await asyncio.to_thread(DocxParser, input_file_path)
+                paragraphs = await asyncio.to_thread(docx_parser.extract_paragraphs)
                 paragraphs_info = [
                     {
                         "index": p.index,
@@ -394,11 +395,13 @@ async def process_task_background(
                 clean_results = await content_cleaner.clean_with_llm(
                     paragraphs_info, llm_client
                 )
-                paragraphs_info = content_cleaner.apply_cleaning(
+                paragraphs_info = await asyncio.to_thread(
+                    content_cleaner.apply_cleaning,
                     paragraphs_info, clean_results
                 )
                 if pre_extracted_elements is not None:
-                    pre_extracted_elements = _sync_cleaning_to_elements(
+                    pre_extracted_elements = await asyncio.to_thread(
+                        _sync_cleaning_to_elements,
                         pre_extracted_elements, paragraphs_info
                     )
                 
@@ -439,7 +442,7 @@ async def process_task_background(
                 and correction_result.corrections
                 and result.get("success")
             ):
-                tracked_doc = TrackedDocument(result["output_path"])
+                tracked_doc = await asyncio.to_thread(TrackedDocument, result["output_path"])
                 corrections_dict = [
                     {
                         "paragraph_index": c.paragraph_index,
@@ -451,8 +454,8 @@ async def process_task_background(
                     }
                     for c in correction_result.corrections
                 ]
-                tracked_doc.apply_corrections(corrections_dict)
-                tracked_doc.save(result["output_path"])
+                await asyncio.to_thread(tracked_doc.apply_corrections, corrections_dict)
+                await asyncio.to_thread(tracked_doc.save, result["output_path"])
 
             if result.get("success"):
                 # 处理成功

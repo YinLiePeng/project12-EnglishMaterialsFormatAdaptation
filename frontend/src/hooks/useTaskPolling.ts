@@ -30,6 +30,7 @@ export function useTaskPolling({
 
   const poll = useCallback(async () => {
     if (!taskId || !isPollingRef.current) return;
+    if (taskId.startsWith('temp-')) return; // 还在上传中，不要轮询
 
     try {
       const status = await getTaskStatus(taskId);

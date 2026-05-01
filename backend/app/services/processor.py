@@ -50,8 +50,8 @@ class DocumentProcessor:
 
         try:
             if elements is None:
-                parser = DocxParser(input_file_path)
-                elements = parser.extract_content()
+                parser = await asyncio.to_thread(DocxParser, input_file_path)
+                elements = await asyncio.to_thread(parser.extract_content)
 
             para_elements = [
                 e for e in elements if e.element_type == ElementType.PARAGRAPH
@@ -153,14 +153,15 @@ class DocumentProcessor:
             style_keys = self._build_style_keys(structures)
 
         output_path = self._get_output_path(input_file_path, original_filename)
-        generator = DocxGenerator()
-        generator.generate_from_elements(
+        generator = await asyncio.to_thread(DocxGenerator)
+        await asyncio.to_thread(
+            generator.generate_from_elements,
             elements, style_mapping, style_keys, preserve_format=preserve
         )
-        generator.save(output_path)
+        await asyncio.to_thread(generator.save, output_path)
 
         if preserve:
-            format_auditor.audit_and_correct(output_path, elements)
+            await asyncio.to_thread(format_auditor.audit_and_correct, output_path, elements)
 
         method = "llm" if use_llm else "rule_engine"
         await self._save_structure_analysis(
@@ -198,7 +199,8 @@ class DocumentProcessor:
 
         output_path = self._get_output_path(template_file_path, original_filename)
 
-        fill_template_zip(
+        await asyncio.to_thread(
+            fill_template_zip,
             template_path=template_file_path,
             output_path=output_path,
             elements=elements,
@@ -229,8 +231,8 @@ class DocumentProcessor:
     ) -> str:
         """完整模板模式：使用模板样式体系排版"""
 
-        template_parser = TemplateParser(template_file_path)
-        template_styles = template_parser.extract_style_system()
+        template_parser = await asyncio.to_thread(TemplateParser, template_file_path)
+        template_styles = await asyncio.to_thread(template_parser.extract_style_system)
 
         content_type_keys = [
             "title",
@@ -241,7 +243,7 @@ class DocumentProcessor:
         ]
         style_mapping = {}
         for ct in content_type_keys:
-            matched = template_parser.get_style_for_content_type(ct)
+            matched = await asyncio.to_thread(template_parser.get_style_for_content_type, ct)
             if matched:
                 style_key = self._content_type_to_style_key(ct)
                 style_mapping[style_key] = {
@@ -259,15 +261,16 @@ class DocumentProcessor:
         )
         style_keys = self._build_style_keys(structures)
 
-        marker_info = template_parser.get_marker_info()
+        marker_info = await asyncio.to_thread(template_parser.get_marker_info)
         marker = "{{CONTENT}}"
 
         output_path = self._get_output_path(template_file_path, original_filename)
-        generator = DocxGenerator(template_file_path)
-        generator.fill_template_from_elements(
+        generator = await asyncio.to_thread(DocxGenerator, template_file_path)
+        await asyncio.to_thread(
+            generator.fill_template_from_elements,
             elements, marker, style_mapping, style_keys
         )
-        generator.save(output_path)
+        await asyncio.to_thread(generator.save, output_path)
 
         await self._save_structure_analysis(
             structures,

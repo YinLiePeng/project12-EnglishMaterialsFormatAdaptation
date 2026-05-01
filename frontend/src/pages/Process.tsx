@@ -54,6 +54,7 @@ export function Process() {
 
   useEffect(() => {
     if (!currentTaskId) return;
+    if (currentTaskId.startsWith('temp-')) return; // 还在上传中，不要轮询
 
     getTaskStatus(currentTaskId).then((status) => {
       setTaskStatus(status);
