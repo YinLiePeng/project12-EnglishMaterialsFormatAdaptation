@@ -50,7 +50,7 @@ class EnhancedPDFParser:
         """执行PDF解析
 
         解析策略：
-        1. 如果用户选择hybrid且server可用，先尝试hybrid模式
+        1. 如果用户选择hybrid，尝试懒加载启动server，然后使用hybrid模式
         2. 如果hybrid失败且允许回退，自动切换到标准模式
         3. 如果用户未选择hybrid，直接使用标准模式
 
@@ -58,38 +58,41 @@ class EnhancedPDFParser:
             PDFParseResult: 解析结果
         """
         if self.use_hybrid:
-            # 用户选择了hybrid模式
-            if hybrid_server_manager.is_available():
-                # 尝试hybrid模式
-                result = self._parse_hybrid()
-                if result.success:
-                    return result
-
-                # Hybrid失败，检查是否允许回退
+            # 用户选择了hybrid模式，尝试懒加载启动
+            print("🔧 用户选择 hybrid 模式，尝试启动 Hybrid server...")
+            if not hybrid_server_manager.lazy_start():
+                # 懒加载启动失败
+                print("⚠️ Hybrid server 启动失败，无法使用 hybrid 模式")
                 if settings.HYBRID_FALLBACK_ON_FAILURE:
-                    print(f"⚠️ Hybrid解析失败，回退到标准模式: {result.error_message}")
+                    print("⚠️ 回退到标准模式")
                     standard_result = self._parse_standard()
                     if standard_result.success:
-                        standard_result.fallback_reason = result.error_message
+                        standard_result.fallback_reason = "Hybrid server启动失败"
                         standard_result.mode_used = "standard"
                     return standard_result
                 else:
-                    return result
-            else:
-                # Hybrid server不可用
-                if settings.HYBRID_FALLBACK_ON_FAILURE:
-                    print("⚠️ Hybrid server 不可用，回退到标准模式")
-                    standard_result = self._parse_standard()
-                    if standard_result.success:
-                        standard_result.fallback_reason = "Hybrid server未启动"
-                        standard_result.mode_used = "standard"
-                    return standard_result
-                else:
+                    status = hybrid_server_manager.get_status()
                     return PDFParseResult(
                         success=False,
                         mode_used="hybrid",
-                        error_message="Hybrid server不可用，且未启用自动回退"
+                        error_message=f"Hybrid server不可用: {status.get('error', '未知错误')}"
                     )
+
+            # Hybrid server 已就绪，尝试 hybrid 模式
+            result = self._parse_hybrid()
+            if result.success:
+                return result
+
+            # Hybrid失败，检查是否允许回退
+            if settings.HYBRID_FALLBACK_ON_FAILURE:
+                print(f"⚠️ Hybrid解析失败，回退到标准模式: {result.error_message}")
+                standard_result = self._parse_standard()
+                if standard_result.success:
+                    standard_result.fallback_reason = result.error_message
+                    standard_result.mode_used = "standard"
+                return standard_result
+            else:
+                return result
         else:
             # 用户未选择hybrid，直接使用标准模式
             return self._parse_standard()

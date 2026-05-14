@@ -40,7 +40,7 @@ class Settings(BaseSettings):
     LLM_MAX_TOKENS: int = 20000
 
     # Hybrid PDF解析配置
-    HYBRID_SERVER_ENABLED: bool = True  # 是否启用hybrid server
+    HYBRID_SERVER_ENABLED: bool = False  # 是否预启动hybrid server（默认False，按需懒加载）
     HYBRID_SERVER_PORT: int = 5002  # hybrid server端口
     HYBRID_SERVER_HOST: str = "127.0.0.1"  # hybrid server主机
     HYBRID_SERVER_TIMEOUT: int = 300  # hybrid server启动超时(秒)

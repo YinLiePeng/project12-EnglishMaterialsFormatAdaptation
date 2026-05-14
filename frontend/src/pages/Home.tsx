@@ -7,7 +7,7 @@ import { StylePreviewDrawer } from '../components/template/StylePreviewDrawer';
 import TemplatePreview from '../components/template/TemplatePreview';
 import { Button } from '../components/common/Button';
 import { useUploadStore } from '../store/uploadStore';
-import { getPresetStyles, uploadFile, getTemplatePreview } from '../services/api';
+import { getPresetStyles, uploadFile, getTemplatePreview, getHybridStatus, startHybridServer, stopHybridServer } from '../services/api';
 import { useToast } from '../contexts/ToastContext';
 import type { PresetStyle, MarkerPosition } from '../types';
 
@@ -101,6 +101,16 @@ export function Home() {
   const [enableCorrection, setEnableCorrection] = useState(false);
   const [previewStyleId, setPreviewStyleId] = useState<string | null>(null);
 
+  // Hybrid Server 状态
+  const [hybridStatus, setHybridStatus] = useState<{
+    status: string;
+    available: boolean;
+    server_url: string;
+    error: string | null;
+    pre_start_enabled: boolean;
+  } | null>(null);
+  const [hybridLoading, setHybridLoading] = useState(false);
+
   const isPreserve = presetStyle === 'preserve';
   const isPdf = file?.name.toLowerCase().endsWith('.pdf') ?? false;
 
@@ -112,6 +122,25 @@ export function Home() {
     getPresetStyles()
       .then(setPresets)
       .catch(() => setPresets([]));
+  }, []);
+
+  // 轮询 Hybrid Server 状态
+  useEffect(() => {
+    let interval: ReturnType<typeof setInterval>;
+
+    const fetchStatus = async () => {
+      try {
+        const status = await getHybridStatus();
+        setHybridStatus(status);
+      } catch {
+        setHybridStatus(null);
+      }
+    };
+
+    fetchStatus();
+    interval = setInterval(fetchStatus, 5000);
+
+    return () => clearInterval(interval);
   }, []);
 
   useEffect(() => {
@@ -194,6 +223,37 @@ export function Home() {
     hybrid: { checked: useHybrid, onChange: setUseHybrid, disabled: !isPdf },
   };
 
+  const handleHybridStart = async () => {
+    setHybridLoading(true);
+    try {
+      await startHybridServer();
+      const status = await getHybridStatus();
+      setHybridStatus(status);
+      showToast('Hybrid server 启动成功', 'success');
+    } catch (err: unknown) {
+      const apiError = err as { response?: { data?: { message?: string } } };
+      showToast(apiError.response?.data?.message || '启动失败', 'error');
+      const status = await getHybridStatus().catch(() => null);
+      if (status) setHybridStatus(status);
+    } finally {
+      setHybridLoading(false);
+    }
+  };
+
+  const handleHybridStop = async () => {
+    setHybridLoading(true);
+    try {
+      await stopHybridServer();
+      const status = await getHybridStatus();
+      setHybridStatus(status);
+      showToast('Hybrid server 已停止', 'success');
+    } catch {
+      showToast('停止失败', 'error');
+    } finally {
+      setHybridLoading(false);
+    }
+  };
+
   const handleMarkerSelect = (pos: MarkerPosition | null) => {
     if (pos === null) {
       setMarkerPosition(null);
@@ -214,14 +274,62 @@ export function Home() {
             </h2>
             <FileDropzone file={file} onClear={() => setFile(null)} onFileSelect={setFile} />
             {isPdf && (
-              <div className="mt-2 flex items-center gap-2 px-3 py-2 bg-amber-50 border border-amber-200 rounded-lg">
-                <svg className="w-4 h-4 text-amber-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <span className="text-xs text-amber-700">
-                  已选择PDF文件，系统将自动检测类型（原生/扫描/混合）并选择最佳处理方式
-                </span>
-              </div>
+              <>
+                <div className="mt-2 flex items-center gap-2 px-3 py-2 bg-amber-50 border border-amber-200 rounded-lg">
+                  <svg className="w-4 h-4 text-amber-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  <span className="text-xs text-amber-700">
+                    已选择PDF文件，系统将自动检测类型（原生/扫描/混合）并选择最佳处理方式
+                  </span>
+                </div>
+                {/* Hybrid Server 状态控制 */}
+                <div className="mt-2 flex items-center justify-between px-3 py-2 bg-gray-50 border border-gray-200 rounded-lg">
+                  <div className="flex items-center gap-2">
+                    <div className={`w-2 h-2 rounded-full ${hybridStatus?.available ? 'bg-green-500' : 'bg-gray-300'}`} />
+                    <span className="text-xs text-gray-600">
+                      Hybrid 解析引擎:
+                      {hybridStatus === null && (
+                        <span className="text-gray-400 ml-1">查询中...</span>
+                      )}
+                      {hybridStatus && (
+                        <>
+                          {hybridStatus.available ? (
+                            <span className="text-green-600 font-medium ml-1">运行中</span>
+                          ) : hybridStatus.status === 'not_installed' ? (
+                            <span className="text-red-500 font-medium ml-1">未安装</span>
+                          ) : hybridStatus.status === 'error' ? (
+                            <span className="text-red-500 font-medium ml-1">错误</span>
+                          ) : (
+                            <span className="text-gray-500 ml-1">未启动</span>
+                          )}
+                        </>
+                      )}
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-1.5">
+                    {hybridStatus?.available ? (
+                      <button
+                        onClick={handleHybridStop}
+                        disabled={hybridLoading}
+                        className="px-2.5 py-1 text-xs bg-red-50 text-red-600 border border-red-200 rounded hover:bg-red-100 disabled:opacity-50 transition-colors"
+                      >
+                        {hybridLoading ? '停止中...' : '停止'}
+                      </button>
+                    ) : hybridStatus?.status === 'not_installed' ? (
+                      <span className="text-[10px] text-gray-400">pip install 'opendataloader-pdf[hybrid]'</span>
+                    ) : (
+                      <button
+                        onClick={handleHybridStart}
+                        disabled={hybridLoading || hybridStatus?.status === 'starting'}
+                        className="px-2.5 py-1 text-xs bg-blue-50 text-blue-600 border border-blue-200 rounded hover:bg-blue-100 disabled:opacity-50 transition-colors"
+                      >
+                        {hybridLoading || hybridStatus?.status === 'starting' ? '启动中...' : '启动'}
+                      </button>
+                    )}
+                  </div>
+                </div>
+              </>
             )}
           </div>
 

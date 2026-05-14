@@ -104,6 +104,55 @@ export function getDownloadUrl(taskId: string): string {
   return `/api/v1/tasks/${taskId}/download`;
 }
 
+/** 获取 Hybrid Server 状态 */
+export async function getHybridStatus(): Promise<{
+  status: string;
+  available: boolean;
+  server_url: string;
+  error: string | null;
+  pre_start_enabled: boolean;
+}> {
+  const response = await api.get<ApiResponse<{
+    status: string;
+    available: boolean;
+    server_url: string;
+    error: string | null;
+    pre_start_enabled: boolean;
+  }>>('/hybrid/status');
+  if (!response.data?.data) {
+    throw new Error('Invalid hybrid status response');
+  }
+  return response.data.data;
+}
+
+/** 启动 Hybrid Server */
+export async function startHybridServer(): Promise<{
+  success: boolean;
+  message: string;
+  status: Record<string, unknown>;
+}> {
+  const response = await api.post<ApiResponse<{
+    success: boolean;
+    message: string;
+    status: Record<string, unknown>;
+  }>>('/hybrid/start');
+  return response.data.data;
+}
+
+/** 停止 Hybrid Server */
+export async function stopHybridServer(): Promise<{
+  success: boolean;
+  message: string;
+  status: Record<string, unknown>;
+}> {
+  const response = await api.post<ApiResponse<{
+    success: boolean;
+    message: string;
+    status: Record<string, unknown>;
+  }>>('/hybrid/stop');
+  return response.data.data;
+}
+
 /** 提交测试用例 */
 export async function submitTestCase(params: TestCaseSubmitParams): Promise<{ testcase_id: string }> {
   const formData = new FormData();
