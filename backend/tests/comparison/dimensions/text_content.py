@@ -52,16 +52,31 @@ class TextContentDimension(ComparisonDimension):
                         para_scores.append(1.0)
                         continue
 
-                    matcher = RunMatcher(gen_runs, ref_runs)
-                    run_output = matcher.match()
-                    run_sim = self._calc_run_text_similarity(run_output.pairs)
-                    para_scores.append(run_sim)
+                    # 段落级文本相似度（始终计算）
+                    para_text_sim = SequenceMatcher(
+                        None, pair.gen_para.text, pair.ref_para.text
+                    ).ratio()
 
-                    if run_sim < 0.8:
+                    # Run级比较（当run结构相似时使用）
+                    if len(gen_runs) > 0 and len(ref_runs) > 0:
+                        run_ratio = min(len(gen_runs), len(ref_runs)) / max(len(gen_runs), len(ref_runs))
+                        if run_ratio > 0.3:  # run结构相似时才用run级比较
+                            matcher = RunMatcher(gen_runs, ref_runs)
+                            run_output = matcher.match()
+                            run_sim = self._calc_run_text_similarity(run_output.pairs)
+                            # 取run级和段落级的较高者
+                            para_scores.append(max(run_sim, para_text_sim))
+                        else:
+                            # run结构差异大，直接用段落级比较
+                            para_scores.append(para_text_sim)
+                    else:
+                        para_scores.append(para_text_sim)
+
+                    if para_scores[-1] < 0.8:
                         worst_paragraphs.append({
                             "gen_text": pair.gen_para.text[:80],
                             "ref_text": pair.ref_para.text[:80],
-                            "similarity": round(run_sim, 4),
+                            "similarity": round(para_scores[-1], 4),
                         })
 
                 unmatched_gen = len(match_result.unmatched_gen) if hasattr(match_result, "unmatched_gen") else 0

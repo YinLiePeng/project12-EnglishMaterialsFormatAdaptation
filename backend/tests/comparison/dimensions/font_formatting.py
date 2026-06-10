@@ -53,51 +53,75 @@ class FontFormattingDimension(ComparisonDimension):
                         property_scores[key].append(1.0)
                     continue
 
-                matcher = RunMatcher(gen_runs, ref_runs)
-                run_output = matcher.match()
+                # 检查run结构相似度
+                run_ratio = min(len(gen_runs), len(ref_runs)) / max(len(gen_runs), len(ref_runs)) if max(len(gen_runs), len(ref_runs)) > 0 else 1.0
 
-                pair_scores = {k: [] for k in property_scores}
+                if run_ratio > 0.3:
+                    # run结构相似，使用run级比较
+                    matcher = RunMatcher(gen_runs, ref_runs)
+                    run_output = matcher.match()
 
-                for rp in run_output.pairs:
-                    if rp.gen_run is None or rp.ref_run is None:
-                        continue
+                    pair_scores = {k: [] for k in property_scores}
 
-                    pair_scores["font_name"].append(
-                        fuzzy_font_match(rp.gen_run.font_name, rp.ref_run.font_name)
-                    )
-                    pair_scores["font_size"].append(
-                        numeric_match(rp.gen_run.font_size, rp.ref_run.font_size, tolerance=0.5)
-                    )
-                    pair_scores["bold"].append(
-                        1.0 if rp.gen_run.bold == rp.ref_run.bold else 0.0
-                    )
-                    pair_scores["italic"].append(
-                        1.0 if rp.gen_run.italic == rp.ref_run.italic else 0.0
-                    )
-                    pair_scores["underline"].append(
-                        1.0 if rp.gen_run.underline == rp.ref_run.underline else 0.0
-                    )
-                    pair_scores["color"].append(
-                        color_similarity(rp.gen_run.color, rp.ref_run.color)
-                    )
+                    for rp in run_output.pairs:
+                        if rp.gen_run is None or rp.ref_run is None:
+                            continue
 
-                for key in property_scores:
-                    if pair_scores[key]:
-                        avg = sum(pair_scores[key]) / len(pair_scores[key])
-                        property_scores[key].append(avg)
+                        pair_scores["font_name"].append(
+                            fuzzy_font_match(rp.gen_run.font_name, rp.ref_run.font_name)
+                        )
+                        pair_scores["font_size"].append(
+                            numeric_match(rp.gen_run.font_size, rp.ref_run.font_size, tolerance=0.5)
+                        )
+                        pair_scores["bold"].append(
+                            1.0 if rp.gen_run.bold == rp.ref_run.bold else 0.0
+                        )
+                        pair_scores["italic"].append(
+                            1.0 if rp.gen_run.italic == rp.ref_run.italic else 0.0
+                        )
+                        pair_scores["underline"].append(
+                            1.0 if rp.gen_run.underline == rp.ref_run.underline else 0.0
+                        )
+                        pair_scores["color"].append(
+                            color_similarity(rp.gen_run.color, rp.ref_run.color)
+                        )
+
+                    for key in property_scores:
+                        if pair_scores[key]:
+                            avg = sum(pair_scores[key]) / len(pair_scores[key])
+                            property_scores[key].append(avg)
+                else:
+                    # run结构差异大，使用段落级字体比较
+                    gen_font = pair.gen_para.font
+                    ref_font = pair.ref_para.font
+                    if gen_font and ref_font:
+                        property_scores["font_name"].append(
+                            fuzzy_font_match(gen_font.name, ref_font.name)
+                        )
+                        property_scores["font_size"].append(
+                            numeric_match(gen_font.size, ref_font.size, tolerance=0.5)
+                        )
+                        property_scores["bold"].append(
+                            1.0 if gen_font.bold == ref_font.bold else 0.0
+                        )
+                        property_scores["italic"].append(
+                            1.0 if gen_font.italic == ref_font.italic else 0.0
+                        )
+                        property_scores["underline"].append(
+                            1.0 if gen_font.underline == ref_font.underline else 0.0
+                        )
+                        property_scores["color"].append(
+                            color_similarity(gen_font.color, ref_font.color)
+                        )
 
                 pair_avg = self._mean([
-                    self._mean(pair_scores[k]) for k in pair_scores if pair_scores[k]
+                    self._mean(property_scores[k][-1:]) for k in property_scores if property_scores[k]
                 ])
                 if pair_avg < 0.8:
                     worst_paragraphs.append({
                         "gen_text": pair.gen_para.text[:60],
                         "ref_text": pair.ref_para.text[:60],
                         "score": round(pair_avg, 4),
-                        "details": {
-                            k: round(self._mean(pair_scores[k]), 4)
-                            for k in pair_scores if pair_scores[k]
-                        },
                     })
 
             property_rates = {}
