@@ -1,0 +1,1981 @@
+{
+  "file name" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463].pdf",
+  "number of pages" : 9,
+  "author" : "高三015",
+  "title" : "",
+  "creation date" : "D:20260413235420+08'00'",
+  "modification date" : "D:20260413235420+08'00'",
+  "kids" : [ {
+    "type" : "header",
+    "id" : 74,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 774.1, 541.2, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 28,
+      "page number" : 1,
+      "bounding box" : [ 53.88, 784.3, 541.2, 799.3 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 29,
+      "page number" : 1,
+      "bounding box" : [ 404.88, 775.18, 405.6, 775.9 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 30,
+      "page number" : 1,
+      "bounding box" : [ 404.88, 774.1, 405.6, 774.82 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 76,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 184.2, 742.543, 410.868, 766.851 ],
+    "heading level" : 1,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 21.95,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "M2U1 Food and drinks!"
+  }, {
+    "type" : "image",
+    "id" : 77,
+    "page number" : 1,
+    "bounding box" : [ 183.72, 698.26, 255.36, 742.3 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCABYAI8DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigAooooAKoazq1toelzahdBzFFjKoAWJJAAGSPWsXxF460/QJp7UoZ7uNFZYw2AxJwVJAO0gc8j+deSeIfFWpeI7hDfOm1CTDDGmFXIGfc9B1P5dKiU0jWFJy9D3Oy17TNRvXs7S7WS4SJZim0g7GAIbkc8Mv51o14Ho7634XkGtQ20kUAXEu4D5kzkgg5IBx14r1PwV4oufFFnczzwW0axSBVMMuSeOhXkj698+1KFRS0HUpOGvQ6mimSyLDE0jnAFZdpJfXMhKz4TIJYqD2pymk0iIwbTZr0UUVZAUVWub+0syBcTojHkKTyfw60ttfWt4CbedJMdQp5H1Hap5435b6j5Xa9ixRRRVCCiiigAooooAKKKKAPnRYbnXPEUlukcUV1NIWZAuxY+5464H4n613Gj6bpegzW63cMMeoMg/eh2cDIwTk8DPsBwa6efRJWv5bsWqvetz5zRjOcY+99OOornpJ5tSt0juNPRbiNCyxToyTKP8AaXIz0GOPpXBK+tz04apWZqamjXMRjgnjilRd4DSlN2O3BGeD34ql4Ws4tP1qe/t7JUvJ4tkqqSV+9k7QDgZIB79O3e5NLJcRLKlikROA5uH5C9+MD+dTK626yRwEorAgmM4LfU+laUaM5vQivUhTj73Xobd5cG9mWGEAgHg+prVhhWCJY06D9awtDUpdOZBLIWA2Pncq8c8569O3866GuiNOUW3Pc45zi0lHYwfEHiNdHAihjEtyRnaegH5iuSh1PVL21VtRnd23EqPl4BHHCgDPPX3ra8V6XuvYb2WQC3Z1V+eQOAfw4/X84fIsY7Sd7cpNLDEJIlRy278gfY8e3Tt42JWIrzlTvZL8juo+yhSUrXZQYMjLlChPIJHrTUkaGZTG+2UZxtPQ/hg10tk0OpWUDzxx7ig3qQPlOPfpWNpE5ubl4r+wjibICBVYcnOep+lcryySacZGirpuzRlW9zeGSWO6upJQpJjLsSQCc/5/Sux8O6jPck20pLhY96sRyOnB/Os/UtBY2MssNpidBlREMsefpzUfhO8NvcSW9zEVldvLBPG0jjBFbUo1aGKj7SWj9bE13CpTbitjtKKKK+gPLCiiigAorH1fxBHpN7bWxtZpjLy7pgLGM4BOeuT2HYE+mZNI1gaobhWiWF45CEUSbi6cYboMdeRzj15qPaQ5uW+oFu9vorGLfLkk/dUDrXMX17Nfk+YcIDlFXHy/49K0dWkEl2yxHbKmFJzkHgHkVQVUgTLkbu+0Yz+FVHEQjdJXkW8POSUm7IxvNmOsvA8pCiAP5fUEFiO/0/X2q/B5c91Hbb8OzBfpyB/WsjULhl8R2bLBhXRkLbuWBOcfhgH8a3bFc6lbHv5gwTz3Fegm/ZqTVnY42o87Sd0dXaWkVnFsjAyeWb+8fWpXdIo2kkYKigszMcAAdzVPVXlisWeJymCMkdcVzSw3N9I6wwGZgMyfMBgH69ehr53GZk6FZUYwcpPX+tz0aWH548zdkaes2Wn69FYldTjjM/zW5DhhLxu+UZGeBnjtVDRNAvLSaX7elslmuScqpZ8dDuHKjjPX8KrNpVzbzK97FFsRgbcHafLwMHFX0uZWsvJkdvKDYHf8OK5KWJp1MYoVIOM99/z2On2c407RldEMmrWsUzw2llI8e4qWXjOOP85p1hq1mL6PzLAxu3zCTdnHBOQKhOiB4ppSX8x8lW67c+wPNc7oLGfVCs0z7kB2qqcHjBJ9PxroUsQqqvax1qnRlTdnt6nqDOZbZmt2BYqdh7Z7Vl6Jof8AZwaa4YTXTncXJJIJ69e9S6Mx2zIHDICCPbOc1ozTRW8ZkmkSNB1ZzgV6TpRnJSe62PIblBuC6j6Kxz4q0QXa2pv0EzAkDa2MDrzjHf1rTtrmC8gE1tMk0RJAdGBBIJBGfYgj8K2cZR3Rm01uUte1ObR9ImvoLJrxosFo1fbhc/MxODwBk8A1ou6xozsQFUZJPYUEBgQQCDwQaxdTt59O0m5+zXR8k5zHOpkKhjjajZBA5OM5xwBgDFZzlyxcuwjk76Zr6/AwGe6nEaBicAseM/TipGil0i72xZSWCTK4yA2PXuQf61Dbu1vqlveBVZYQcI3TdggGrV9fy39x50qoGwB8gIFfOe0iocyfvXuZ8zta5vq9rqTw63P/AKHYxKSDK6p5xPGX9AOMZPU9BgZ5ga9plw5db62G4khTIFx+BxiuM8ReIryeL+xY2eOwtnYbBlfMJYN83PIBHH+cc0eTmvrcLH3FUa1Y5NySVz1Z9T0p3Rm1C03Icj9+voR6+9a+gXVnqOqqsF3byvGvmMscgY4HGcD3I/OvEdXiuNFuIILmMJNLEJWjbIeMFiAGBxgkDP0Irrfhwt/L4oB057dD5JMzTAnEWVyVA6tyMZ4rab9x2IjCzPVvEN7FG0NoZAZH+cxrycdiQOg68njisq1uJbM3BibBn257bcZ6fnVjUrOOylWMSSTSsu6SeZt0j/MTyewHOFGAMnAFSabpsF9pqXk1xJErlvulQBhiO4PpXwmLhXxGYTVB2aW97WVv+CezScIUE57MoMs91Js+0Rxu3WaUFsdunfr6irEV/aaOtva6pL9nuHTzPtKtuguGJ6IT0J7KQPYnGay/E+mtc2LW+k6lcQ3CHcJWYKCewyoBA5OfoK8a1ODULe7aPUfOMpyQ0hJ3jJ+YE9RnPNdGUwhSlNSs5LqtTWVL2qTTsux78Lxy29NoBGdoPB/x+tPN65AO1ce1fP8AbaxqVmgjtr+4hjBzsjlYL+QNa8PjvXYAQ1yk2enmIOv4Yr2+ePUv6uj3CfUY9H0E3W1PPfIRSMbjn+Qzn/8AXXAl9R1vVFgjD3N1JglmPyouepx0UZ/zxWhq2uQ6zo2iywphjAzSqMkRv8gxn16nHXBBPUVc8F6ibSyvmi0i8u5Dctult/KJxgYU7nDcc9scnnOa9mi1Rw/tIrVnBfki5dSKTwLrJhz9psmcc7AXXn2OKd4PW/i1cIIpo413JOhBCqQDjP4/1rrrXVb27vI4f7EvLWMqXeW6eMADsBsZstnsccZ56A6uKyeKnKLjLW5i60mmmFYHiqUrZwwgZ3vuP4f/AK636xvFMaDw3qN1j97a2ss0TejKhI+vSvPxEJVKbjHdmD2MDwtbJqOoXjXEYeCAKqA9N2Tn+VdPq9iLjSZIYYxuQbo1Udx6fhmpNL0+20+zCWykCQ+Y5JyWYjrVLWPFGjaRL9ku79Vu34WCJWllGRwdiAn9OailhowpcjQJWRylz4ZstSWI3MQaYDGRnPP0NaGn/DPRbW8t7yQ3EksbBzCzgxkj8MkZx35x6cVsgG901r3R0lhuF+aEXULx78EEqVcAgMARnHG7OOKu6VeXt9btNeacbHLfuo3lDuV7FgBhT7ZNaYeEqUeW5rOcWkktjzHxx8PZNX8WXOoLqTKbhFfZ9nB2gKFxncP7v6/ien8DeBj4Zc3st6Z5pIPKCiPYFBIJ7nP3R+tal/qlkl/Ms8OqM0bBR5Om3EikcchljIPU9DWvp97Be22+2juI40OzbPbSQtwB0WRQSOeuMVqp1NU3oKThypJanP6vLm9mabComRljgBR3/nVSAS3MQhso3mWIYVUbCr/wI8Dp+Na3jK1e58N3q21m1xeyQtFEETcw3dfp9a31IZQwzgjPIxXgSyNTrSqVJuzfQ6li+WKilscxaaTJFcpJqMfmwMm+PymyiuOqv3ORyD06g9ss8RaDH4jWKKSCOZAcAMdoQc85GDx7etXbHw0ula5c3dhcGGwu1Z57LGUE2V+dP7uQGyOh49K0dNtLqzW4W5vftQednhHkiPyoz91OPvY/vHk5r1qWEpUY8lNWRksRPm53ueaax8H4EAl0/UXTJ5ieMMM8ng7hx+Z96xIfhFr0zEC5skQEfM7sCefQA16lf+KtDg1ddMuNRjius7VRgQGcnG3cRt/X+Vb0aCOMKDnFW6Kb8jRYyoo2vqcY3w7th4at7FJ4xqUAwuoJEY2dd2dpAbn5flyScdQO1cuovNF1KY20j2l3G3lyYAOeAcEHgjoa9ermr2fWBfX8Vr4fM1vJsIlnli2s3KswXdlvl2EKxTO1uVOM91DEezXK1dGMKzV+ZXucr/wlOuOoD3+ARtJSJVz75x/Kuw8KX99qGnvJd5aMELFKcfPjIP16dfrUmkeGLPTA8kgS5uZG3vI0Kqob/YUDCj8z6k1t1VatTnG0I2CdSLVoqwVBd2VpqEHkXtrDcw5B8uaMOufoaKK5TEkhhjt4Y4YY0jijUIiIoCqoGAAB0ApRGgkMgRQ5GC2OT+NFFADqKKKACiiigAooooAKKKKAEIB6gHHNLRRQAUUUUAFFFFAH/9k=",
+    "format" : "jpeg"
+  }, {
+    "type" : "image",
+    "id" : 79,
+    "page number" : 1,
+    "bounding box" : [ 261.751, 706.465, 286.043, 724.822 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAlADEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD0nmpIYJrh9kS7m64FNAJIABJPQCtmxSDS4xcX08UBl+RfMcKPpz3rwKFJ1ZW6HkUqbqSt0MV1aORo24dDhh6Gk59q020Qxzz3N3qUZaZ85KbAMDAA+bsMVXisJLkytask8SHCyKww/APHPvV1MLUi9EVOhOL0RU59qOau/wBlXuM+Qf8Avof41VkjeKQxyKVcdQawlTnFXkrGbhJbobRRRUEE1sYVnV55jDGvJYdfpSCfRbvUIzBp93dyyEKJpnfaAf8AfOcD6U60tDeSmNXRTjPzd/pWmUstAgN1dSkn7q8ck+ijuf8APTNd+FU+XZW7s7KCly7adxviEwoLZp9MN5GN3zBsCM8fz/p70mnXIi0G8ltrX7P5IcxxF94yFz/PtVGx1y9aWWW7iU28rcQADMa4x+J9f09DMdattNea3sYGudwEq7WAVSeNrE8jpnp3HFdSrQcudSVvxN/aRcuZPQh0K6v5by386/kmRwS6Mq4PB54HHOKi1B5JPEF9vb5YgkaD0G0H+ZNXIfEkwIM+l7Ex1ilDN9MED+dZayPPdXVy6FDNKWCt1A6DP4AVy1qkfY8qld3MKs17Pl5r6klFFFcBxjXRZF2sMioxaQLO03lgyt1diWJ/E0UUrvYd3sTUmBnOBRRTAWiiigQUUUUAf//Z",
+    "format" : "jpeg"
+  }, {
+    "type" : "image",
+    "id" : 81,
+    "page number" : 1,
+    "bounding box" : [ 301.661, 705.519, 327.535, 723.867 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAlADQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD0nvVmOwuJbU3CJuUdh1P0FR21tJdTeVHjOM89AK1re11e1xHDJamPOSJATgd8YxXwmX4H28r1Ivl2uu57NetyK0WrmNFG87qkQ3M3AAqWSyuom2tbyE/7K5H5ipoJ5f8AhJCJLeOFlYI6xvuDEjO7oOzDirWt6teWmoQWlosahkMjySKW4zgAcj8fqK6KeW4dUqk6s2uV20X6GbxFRyiordGf9juRE0hgkCr1JXH6dagBzXSW1850V7262BkR3fYOMLnt9BXKWQZbKEOcsEGTXPmGCpYeEJ0pN8y6mlCtKo2pLYnoooryzpFV5YyxhlaJyu3cvXmtHw+s4uX33NxKqx4/eyswzkdievWs3vWlYatZadaMJvMEhbOFjLFvToK9bKqjWJipztFXe+hy4mP7ttK7ZUWG4sbm61K5B+a9bYrnDSDdtUKPoBj2FX9VvLuIRyyaZaOhO1Hkl3Fc9iNvB47E9Kqf2nayyx6pfpIZFyLWzQbmQZ+8w6Bj78AY5J5qhPcXmq3CXF5+7jQ5itkOQp9WPc/5FerXxFHC0punO7lqtnr3/wCAc0Kc6klzLY2b+5uX8OyxppwP2iJkAgcMqBhjLcA9z0B6dax4l2xKuQcDHFaGm35s5dkmTA55/wBk+v8Aj/nMuqtph2vFcR/aJD8qRsDv65OB06Hn1+tcmLSx2HVeEtYLVO34GtL9zU5Gt+pm0UUV8+dwd6KKKb3EthMc5paKKQwpgijEhcIoY9SBzRRT6APooopAf//Z",
+    "format" : "jpeg"
+  }, {
+    "type" : "image",
+    "id" : 83,
+    "page number" : 1,
+    "bounding box" : [ 344.454, 704.932, 368.803, 723.396 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAlADEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1EcdOnoaXPsKTtVu7aOLw08/lgujDaQOdxcAfzrJK56kpKKTsRTW81vEkkke1Gxg8HBPrUWfYVq3ctvHoUDXgcxfuuE6kggj9R+VUjqunzKD/AGXdgeyIv8mqnExhVb3iV8+woz7Cr9lPp810kSWM6s2cNLgrwM/3jVbVjFDqyW8KkExeY4xhRyQMfkf0pW0NI1U5crViCiiikbB2qxqRC+E2GRl5UCgnqfMH/wBeooljZ1WWURKf4yOBWrDo1tHKtxOVlaPJQsOF96qKOatKKSTK2rLFDZ6Ut5kQrOvmbQTyI3I6c9QKi/tvTi7CPS7iRR0dYUAYe2SD+lRXGp2N/qyyTSZsLJSQ4yVkkOBkAfeAGcH3PbrO2oaExyElOe4ikA/lTZhFd0yex1K0nvY4otOnhds4d0UAcE9mJqnrA/4qEn/p1T/0J6tW+paGlwDHIY3HRpEdQPxYYrNvLuG+1t5bZg8SQrGXHQsGYnB79eopPYumv3uifzFoooqTtDGRzVVtOs2YsbdCTz0oooJLCoqKFVQFHYCnUUUFCEAjBAIoACjAAH0oooAWiiigD//Z",
+    "format" : "jpeg"
+  }, {
+    "type" : "image",
+    "id" : 85,
+    "page number" : 1,
+    "bounding box" : [ 384.314, 704.266, 409.09, 722.6 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAlADIDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDvADjk96XHv+lHatPTNKa7PnTZS2Xkk8bvp7e9dzaSuzyIxcpWRmsjqAzBgrfdJXAP0pYonmkWOMFnY4AFal39r15ohaRpDpcEoCS5GZj93cuONgz681oQ6LFZX0My3e0bvlRwMscHIB47dsVn7VW13Nvq8r6bHOz28trMYplKPjODjpUePeul1PR01DVkm+2JGywBfJ2ZONxOevTt07Vj6vZLplzbxCTcJ1YrkYI24z/MU4VE9HuTVoyjdrYpUUUVqc4dq6nRpdQuIUeUWyWqrtVVUlmxxnOcAe2DXP2UME9ysdxMIUIPzZA59MnpV2R/D1mp3atPKjZHlW9yxGfcR/1rCq01Y68Omm5dCPXpJpLkQTanEpMqrDYWwJY/Nwznr74xjgYyea1ZtNe58VxXskeYLe2AjJPG8s2cD6Y/Sq+iM1wwaw02LT9OHOSoEsxHHQdOc8knP41lazqd3qF3eWcdyg08P5eYwdz4A3KT6Z3dPp61mk2+VHRKUYrmkWtZs7bU8a5ZTrcLEgjO052hSTuB9iSfpyPd3ixc6hpp9Em/9krP05pbaeOG2kMSSERsOoIJx/k1peK/+QhpwB6JNkfilWouMkmYuanTlJGPRRRXQcQEZFIFA6AD6UUUkNkc1uk6lX3FT1G44P1HenoixoEQAKOgFFFOwXHYBGD0qNYlErSks0r43OxyTjpRRRYVySiiigD/2Q==",
+    "format" : "jpeg"
+  }, {
+    "type" : "table",
+    "id" : 75,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 48.21, 84.47, 546.79, 683.6 ],
+    "number of rows" : 5,
+    "number of columns" : 3,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 48.45, 587.46, 91.35, 683.12 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 1,
+          "page number" : 1,
+          "bounding box" : [ 58.8, 617.937, 80.89, 652.866 ],
+          "font" : "KaiTi",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "语音 语调"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 91.35, 587.46, 546.55, 683.12 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 2,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 2,
+          "page number" : 1,
+          "bounding box" : [ 96.72, 592.774, 541.116, 677.584 ],
+          "font" : "KaiTi",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "/uː/：food, cool, school, juice, moon /e/：egg, bread, pen, desk, fresh 注意：询问食物饮品相关的特殊疑问句用降调，如 “What's your favourite food?（降调）”；选择疑问句前升后降，如 “Do you like milk or juice?（升调 + 降调）”"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 48.45, 443.6, 91.35, 587.46 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 2,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 3,
+          "page number" : 1,
+          "bounding box" : [ 58.8, 497.937, 80.89, 532.866 ],
+          "font" : "KaiTi",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "必记 单词"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 91.35, 515.41, 127.8, 587.46 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 4,
+          "page number" : 1,
+          "bounding box" : [ 97.559, 545.443, 121.559, 557.443 ],
+          "font" : "KaiTi",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "四会"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 127.8, 515.41, 546.55, 587.46 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 5,
+          "page number" : 1,
+          "bounding box" : [ 133.2, 520.654, 547.2, 581.703 ],
+          "font" : "KaiTi",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "food（食物）、drink（饮料）、rice（米饭）、noodle（面条）、egg（鸡蛋）、 milk（牛奶）、juice（果汁）、cake（蛋糕）、bread（面包）、fish（鱼）、 meat（肉）、apple（苹果）、banana（香蕉）、water（水）、tea（茶）"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 91.35, 443.6, 127.8, 515.41 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 6,
+          "page number" : 1,
+          "bounding box" : [ 97.559, 473.323, 121.559, 485.323 ],
+          "font" : "KaiTi",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "三会"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 127.8, 443.6, 546.55, 515.41 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 7,
+          "page number" : 1,
+          "bounding box" : [ 133.2, 448.654, 541.2, 509.703 ],
+          "font" : "KaiTi",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "delicious（美味的）、fresh（新鲜的）、sweet（甜的）、sour（酸的）、healthy （健康的）、hungry（饿的）、thirsty（渴的）、snack（零食）、breakfast（早 餐）、lunch（午餐）、dinner（晚餐）"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 48.45, 371.31, 91.35, 443.6 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 8,
+          "page number" : 1,
+          "bounding box" : [ 58.8, 389.937, 80.89, 424.746 ],
+          "font" : "KaiTi",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "常考 短语"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 91.35, 371.31, 546.55, 443.6 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 2,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 9,
+          "page number" : 1,
+          "bounding box" : [ 96.72, 376.654, 549.6, 437.584 ],
+          "font" : "KaiTi",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "have breakfast（吃早餐）、have lunch（吃午餐）、have dinner（吃晚餐）drink milk（喝 牛奶）、eat rice（吃米饭）、a glass of juice（一杯果汁）a piece of bread（一片面包）、 favourite food（最喜欢的食物）、healthy food（健康的食物）"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 48.45, 84.95, 91.35, 371.31 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 10,
+          "page number" : 1,
+          "bounding box" : [ 58.8, 210.537, 80.89, 245.346 ],
+          "font" : "KaiTi",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "必会 句型"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 91.35, 84.95, 546.55, 371.31 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 2,
+        "kids" : [ {
+          "type" : "list",
+          "id" : 30,
+          "level" : "1",
+          "page number" : 1,
+          "bounding box" : [ 96.72, 137.614, 247.08, 365.584 ],
+          "numbering style" : "arabic numbers",
+          "number of list items" : 4,
+          "list items" : [ {
+            "type" : "list item",
+            "page number" : 1,
+            "bounding box" : [ 96.72, 352.295, 247.08, 365.584 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 12.0,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "1. 询问喜好的食物 / 饮品：",
+            "kids" : [ {
+              "type" : "list",
+              "id" : 11,
+              "level" : "2",
+              "page number" : 1,
+              "bounding box" : [ 96.72, 304.535, 515.4, 341.703 ],
+              "numbering style" : "unordered",
+              "number of list items" : 2,
+              "list items" : [ {
+                "type" : "list item",
+                "page number" : 1,
+                "bounding box" : [ 96.72, 328.414, 462.0, 341.703 ],
+                "font" : "TimesNewRomanPSMT",
+                "font size" : 12.0,
+                "text color" : "[0.0, 0.0, 0.0]",
+                "content" : "- What's your favourite food/drink?（你最喜欢的食物 / 饮品是什么？）",
+                "kids" : [ ]
+              }, {
+                "type" : "list item",
+                "page number" : 1,
+                "bounding box" : [ 96.72, 304.535, 515.4, 317.824 ],
+                "font" : "TimesNewRomanPSMT",
+                "font size" : 12.0,
+                "text color" : "[0.0, 0.0, 0.0]",
+                "content" : "- My favourite food/drink is rice/milk.（我最喜欢的食物 / 饮品是米饭 / 牛奶。）",
+                "kids" : [ ]
+              } ]
+            } ]
+          }, {
+            "type" : "list item",
+            "page number" : 1,
+            "bounding box" : [ 96.72, 280.654, 223.08, 293.943 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 12.0,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "2. 表达想吃 / 喝某物：",
+            "kids" : [ {
+              "type" : "paragraph",
+              "id" : 12,
+              "level" : "3",
+              "page number" : 1,
+              "bounding box" : [ 96.72, 233.014, 541.08, 270.184 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 12.0,
+              "text color" : "[0.0, 0.0, 0.0]",
+              "content" : "- I'm hungry/thirsty. I want to eat/drink some bread/water.（我饿了 / 渴了，我想吃 / 喝 点面包 / 水。）"
+            } ]
+          }, {
+            "type" : "list item",
+            "page number" : 1,
+            "bounding box" : [ 96.72, 209.135, 243.72, 222.424 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 12.0,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "3. 询问对方是否喜欢某物：",
+            "kids" : [ {
+              "type" : "list",
+              "id" : 13,
+              "level" : "2",
+              "page number" : 1,
+              "bounding box" : [ 96.72, 161.495, 407.52, 198.543 ],
+              "numbering style" : "unordered",
+              "number of list items" : 2,
+              "list items" : [ {
+                "type" : "list item",
+                "page number" : 1,
+                "bounding box" : [ 96.72, 185.254, 282.72, 198.543 ],
+                "font" : "TimesNewRomanPSMT",
+                "font size" : 12.0,
+                "text color" : "[0.0, 0.0, 0.0]",
+                "content" : "- Do you like fish?（你喜欢鱼吗？）",
+                "kids" : [ ]
+              }, {
+                "type" : "list item",
+                "page number" : 1,
+                "bounding box" : [ 96.72, 161.495, 407.52, 174.784 ],
+                "font" : "TimesNewRomanPSMT",
+                "font size" : 12.0,
+                "text color" : "[0.0, 0.0, 0.0]",
+                "content" : "- Yes, I do./No, I don't.（是的，我喜欢。/ 不，我不喜欢。）",
+                "kids" : [ ]
+              } ]
+            } ]
+          }, {
+            "type" : "list item",
+            "page number" : 1,
+            "bounding box" : [ 96.72, 137.614, 207.72, 150.903 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 12.0,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "4. 描述食物的特征：",
+            "kids" : [ ]
+          } ]
+        }, {
+          "type" : "list",
+          "id" : 31,
+          "level" : "2",
+          "page number" : 1,
+          "bounding box" : [ 96.72, 89.854, 315.48, 127.024 ],
+          "numbering style" : "unordered",
+          "number of list items" : 2,
+          "list items" : [ {
+            "type" : "list item",
+            "page number" : 1,
+            "bounding box" : [ 96.72, 113.735, 315.48, 127.024 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 12.0,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "- The apple is sweet.（这个苹果是甜的。）",
+            "kids" : [ ]
+          }, {
+            "type" : "list item",
+            "page number" : 1,
+            "bounding box" : [ 96.72, 89.854, 314.759, 103.143 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 12.0,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "- The orange is sour.（这个橙子是酸的。）",
+            "kids" : [ ]
+          } ]
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 86,
+    "page number" : 1,
+    "bounding box" : [ 263.88, 53.784, 331.44, 63.751 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 19,
+      "page number" : 1,
+      "bounding box" : [ 263.88, 53.784, 331.44, 63.751 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "第 1 页 共 9 页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 87,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 774.1, 541.2, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 31,
+      "page number" : 2,
+      "bounding box" : [ 53.88, 784.3, 541.2, 799.3 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 32,
+      "page number" : 2,
+      "bounding box" : [ 404.88, 775.18, 405.6, 775.9 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 33,
+      "page number" : 2,
+      "bounding box" : [ 404.88, 774.1, 405.6, 774.82 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "table",
+    "id" : 104,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 48.21, 650.82, 546.79, 771.05 ],
+    "number of rows" : 1,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 48.45, 651.3, 91.35, 770.81 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 1,
+          "page number" : 2,
+          "bounding box" : [ 58.8, 693.537, 80.89, 728.346 ],
+          "font" : "KaiTi",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "核心 语法"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 91.35, 651.3, 546.55, 770.81 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "list",
+          "id" : 2,
+          "level" : "1",
+          "page number" : 2,
+          "bounding box" : [ 96.72, 656.374, 541.2, 765.063 ],
+          "numbering style" : "arabic numbers",
+          "number of list items" : 2,
+          "list items" : [ {
+            "type" : "list item",
+            "page number" : 2,
+            "bounding box" : [ 96.72, 704.014, 541.116, 765.063 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 12.0,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "1. 名 词的 单复 数 （食 物 饮品 类） ： 可数 名 词有 单复 数 变化 ， 如 egg→eggs, noodle→noodles；不可数名词无单复数，如 rice, milk, water，表数量需加量词，如 a bowl of rice（一碗米饭）。",
+            "kids" : [ ]
+          }, {
+            "type" : "list item",
+            "page number" : 2,
+            "bounding box" : [ 96.72, 656.374, 541.2, 693.543 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 12.0,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "2. 一般现在时（表达喜好和日常饮食）：表示习惯性的喜好、日常的饮食行为，主语 为第三人称单数时，动词用三单形式，如 He likes bread. She drinks milk every morning.",
+            "kids" : [ ]
+          } ]
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 112,
+    "page number" : 2,
+    "bounding box" : [ 183.0, 592.3, 245.28, 645.7 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCABrAH0DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigAooooAKKKCQASTgCgAoqrLqVlDEksl3Cscn3GLjDfT1qw7pGhd2VUUZLMcACldMSaY6iq1ldrewvIiFVWRkBP8AFtJGR7cVW1xLw6eJbFyJoHEu0EjzAAcrx1z6UpStG4pStHmWppEgdTRXKJb3Or6pY3Go3dvBHtWWOzWQh2I5BKn8eR6fjXV1NObnd2sTTm53drIKKKK0NAooooAKKKKACobW7gvbZLi2lWSF87WHscEfXIIxVTTtXj1BbtFXFxaTNDNCpyQQTg5OOCMH8cdq4bwV4kig1HV4rlpVsrm7aW1GzOwsWYggc8jB7gYNRKcYtJ9TJ1UpRXc9KrDn8Rrsn+yWU9w0BfzsrsRAjFW+Y8E8ZwM8Ve1JkudHuAipcJLCcR7sCVSOVByMZHAPbOa5/S7SDTtGuHs7qK1vZTuDyptYhRgKwdmPXPPHXOPWaknsmKpJrRMl0yyge7iuV0sG1BaSO6kmACKcsAE9icfma5jxR8QdTl1KbSfDkO14mKtcbN7NgfMArDAwQwOc/hUPji7hHhu5kiMklzdyxJOwlDqgJL7VA4xlF5/+vU9j4dtILS3udHuxGJkAlklh8wuhByRnlTgkcEZrl9tCnDVpHCva1P3VDfd237Gl4Zln0TwzahFieaco7HJd5Sykndg9eML9PfNX7x47z7FdxX6W+rwxKG80FFkxnIwcdyf84ot7exg0pbMl2IUjeqlcsBhDweMLxjp1rJbRY2B3SKSeclDmsamNopJcyZ7OFy7njy1nZKxueH7jSZdSdrS3kNy0W6WckkbjjI59/wCtdRXlcunwxSFWjU9x7j1pgsYWYKsZJPYE81rRxSSskehDKIxjpPT0/wCCer0V5qmj30RHlvLGOwE2P61L5usWU0aNf3SCRgoLPvHPp1rp9vbVxZl9SpybUKsWz0Wisnw9qDahpzs7FpIZ5IXJ65Vjj9MVrVsndXOGUeVtFO61XTrGYQ3eoWtvKV3BJZlQkeuCelH9rad5Qk/tC18skgN5y4JHXnPauL+KWnRPptpqQjJlilELMB/AQSMn0BGP+BGuHtNTutPuY2sreOaSVkPlPEJWJGQByOM5J454BrmqYhwny2OWdWUZ8qRv+H9dvLXx1q1wI4xFqEgBikbbyAxU7sHoMgjvmuck1Hz/ABdPcQTNaTSXOYjCqEKGOGyenAJ6DnvVjVnSTXJ1lg1BSzxy+VdKu7hRkkg/NyW6dselRaPol3b6ol5NH+5WMtudTgllHy8j7wDZ/DNcs6kmmpdDyJzqwbpveL/M3p5EjOI1YZAwM5PoBTJLe5CeZJBMqerRkCot08t+v2ZN0qEsq9QcAnH6Vp6l4kLXEfhxF/0e1i8iWWRfmeWMEE5z0JUds5rhjSU4ubZlCiqsZTb2Of1RTJpF1EqFyVDAAZwVOc/lu/Ouy0I58NacR3t0/lXMqUWQeZny2yr4/ung/pmus0xEj0PT44m3ILeMZ752jI/PIrnrS/2e3n+jPWyBXrSfl+o37XEpZZXAYHkYNTwyw3CEo4cdPpWe9hPNM7jZgnoWxVmxtjaCQNtyzDhTnpn/ABrJ0qSpc19T7CShy3T1GXNkbgoig7vMxnsAeefYY/WrsFvDZRbU5OPmc9WqxF8sTNjBY/pWbfSg7txO1eCAcEk9MV9Rk2FUaCq1OuvofN5njqs5fVqb0/Nlh7oBsIrN9BT4Z2kkURqp4LOGUH5R/XPT6H0rC+1zmQsJCmeyMQB9K2NFWQWs9xJIzvMjEZbPA4H65ronj4VLwivmOOTVKEY1pyt5F3wvOsOoahYnhn2XQ98jYf1QfnXT1wulyi28bwNI3FxbSW4yf4g28f1ruqzpu8ToxCtJPujJ8RxW93os9hcMqm8UwQllJHmH7nQHHODn2rx/StMv21GXT44xb3NpIRJPnPlMDknrgnjAx1BPvXsOvxtJpvBjCq4Yl4WkxjuNvI+tcVJpttq64eAsYZXeS6Fz5K4dsdCDjO0Dv06c1hWgpTWmx59V++h3ie1iOlXd5MqqLiJEaeRQxXGAuB6c/TnNZllOy+EtPtluYbhYjIRJEW2sGb/aAORyOldRdQK9gbZlDxlAmD3FclPHHawJDDxGi4Ge+O5/nSzVKnBWVrnJmS5WpLroMhbynd8yKxGA8T7WU5ByDg+mPxrO1N7OzB1Gdr+aRW3FjL5hcgZ+b5emBySa6bSPDh1ezac33k4baV8ndgkAjndzwQabrvhS60nQ765tdRaVzEU8v7Oo3huCuWJAznrXl0qNWyvsRgcJXnOMWvdb8jn7W9i1OwS7gDKj5wGGCCCQQfxFdjpM8UmnbIuiSHIH8O75sfhux+FcD4csJtP0KOGdSkzMzOufu5Jx+ldb4cdESQKcM4wV9SpJJ/JlH4Vx4iKUZJdDqy/loZjOlDa7X3G4rSvu2RlgOuO1CF2coV2kDOMjNXfD/H2vtmQfyrYk2GJycHANbUsupzpKd9T6GeIcZctjJk4iTHTaP5Vh35AaJ1UFizckDk8D/P1rbL74lHZRj8qoz23mvw5QjoR/I/p+VfUUv3mCSh2PAjKNHHqVTZMxbt1EzeWi9dqhRgZ4FdXFBHbwPBH8yxxBc+/f9QTWNZafJFqUE02xo4zuIAPLDOMfjg1rM24dAi5BxnPOOtcuGwc3dzVj18zzKlaMKb5rHP61IlndaZdvkCHUY2kcDohzn+VejVx8emaLrF0Ib62aY5IQ+a4AIxxhTjHfJ6ZrrkRY0VFGFUADnPFbeylTbTOZ4iFanFx3Q48j0rnLK0lXXbiaW4meOJiyRy4yWIwW46jHT69u/R1yF/DNoExlO7+zs/LcA5MAxk+aT29G5/2vU51b2TXQlQjJ6mjqV8kNhfNDvWRWCEtEyZJwMjIw3BzkcV5xO5luAMFs/Myg84HJ/QGvTILuLUIhG7bXIz8pxnPpUcuhwykk3FyFPVQ/H8q4K9J1mpJ7HPicE6805Ssl5GLoesG0sDDLBDbBHbaiEvvzhi2e3JPHbHWvPfGPirxXffEK20DTLuOPS5Y4pnj8qMEpu+cktz2PAIzivTb7Sobd7d4yioziPY6k72JwOhFPfwvb3F0txNs89RhHWJRsX0BxnufzrWHPHR6no03Tha3Q4y9tfIVXBG1yQB6YxTNEUDVUdW+ZThh/sEHP/j2yu8Hh9Y+Y7qVM9cHGaemkxKcG5uZB0xv4/GuKphJTb6XOCWEvjHiVLrexn+aVH3iFHU5pkF4JlY7ujEYJ9DjNP1aztLG3z9pnMkp2Im/JJPHbnH5/Q9Kj0jTLXaY5mlSX73lkkZH97BVT19vTmuVZdNac2p6csYvaKNvUmtlkubragyCOeegzjP4UO/lSSICHMZwQOD+VaJvbCxPleaoYDJUNnvjn3zxXO694v8J6fJIl/fWEc8f34nkXzBn/AGR836V7GBlLCw5Iu/8AXQ5MVRp4mXM9GjXtJ4ZbqMTRtsORnnA+teO+JLubQPjnLd3pni09mjtxPIreXsaJM8jqATnA9KvXvxk8IxSMsFnf3I/hKIFRvruYH9K6Kx+P3hW8dIpLHVoZW2rgwo4JJxgYfJ6+ld/t5T1tYzo0FSTT9652s0EdhoSahYyeZLtWRZ8EblxkDH93nofXOcitzT5nn0+CSRlaUoBIVII3Dg9OOua87u/HtzqVrLBb+D/FM0Ew/duLFkDZxg7t3Su/0aIRaPagQzw5iVjFcHLoSOhwSAR6Dis1OU5NslU+SVlsXqQgMCCAQeCDS0VZZw2s6NfeHJG1HQ7d7rTsl59NjBMkXAA+zKABjOSVJ/3cdK0ND8S2WrWqSwXKTRHgOrcg9w3oa6muH8S+CZRdza94Zf7NqgBeWzB2wXxA6OMgB/RvXr61hOk/igaRn0ZPdO2o66gSQ+VC6j5SCoIP3ip7j5uQOmK6QOCNxJ/GvOfDmtXF5NPGkF8mpRuyT2Swu6RyAAFfMxsGDkckdPSuhhHiq/nMZ0uOwhxgy3V0rH6qke7I+rL07VjFT7EUo8t3Pqb097FGMbgxPYVyevePtJ0JXF5fRLMuMW0JDTHPT5c8fjirl14EvNTBW/8AE19FHnIXTEFt+bMXY/mKn0X4aeFdDYyxaat1cNy096fOcn154H4AVfspvc154rY4PXfGTz38UNlpN5fzKQXtYVzKikAglQDn39OBWh/wkF9LJBPLpmr2U0sLBLWW2cSsF6hQODyBge445r1K1srWyQpaW0MCHqsUYUfpU9V9XXc5pQ5lqeS2uieIPGVtI8K3Og27Flmm1CCRLsyHDExKCoCjOQxPUEY4qOP9nfwwzma91XWbmdiWkbzY1Dk9SfkJ/WvXqK2jBRWhSio7HmuofBfwZH4duLGz04w3EuxVu95klU7h0LZAz0OB0JrA8N/A9PDHi7T9Wn1wzwW84aJI4djF/wCEEkkYOCD36V7TSFQ2MgHByM02WpNKwtFFFMkKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//2Q==",
+    "format" : "jpeg"
+  }, {
+    "type" : "image",
+    "id" : 107,
+    "page number" : 2,
+    "bounding box" : [ 304.542, 608.085, 330.367, 626.917 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAmADQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD0miirNpYy3pcRlRtxksa/NKVKdWShBXbPoJSUVdjLW1ku5THGQCBnJptxC9rcGGUYcDdweo9f51r6XYXFpfM0qjZsI3AgjqP8Km1GW9jugLXR47tCg3StMqHqflwQT7/jXu0MmVTDc07xnfs/yOKeLcallqjnqKs6pNerbIJNIt7Qu4AlE4Yg9cYCjqAarV5OMwv1apyXv8mvzOqlU9orhRRRXIahWposyQyTtIwSMJuZ2OAoHqaowR277mubqO3Re7nr9KS41aGSzmsdKgcpKpR7mVcAggZIB5J5I5wPrXq5bT9lNYqpJKK+9/I5cRLmTppaliT+yDM7nxFdHzHLgR3pKrk9AB0A7CgRaSwGfEF6oYZG+9K5Htmql3dQJa2+j2KpKseGnnAyoI7D1J/QceuLV1eWtxopimbyprYBowej4HQfUcY/GvYliqXtJQdr2vu9+qvexyqnLlT1tfyI9fuIri4020guEmjjBmchwx4GEJPvlvyqvWvY3ltfwx2l5GnmKAI2bjd9D2NVtRsoLJ1CXAZm5ETfex6/T8K8/MqEsSvrlNpxsvVG+Hmqb9lJalGiiivCO0QgEYIB+tLgDtRRQAgAHQAfQUEA9QDRRQAMqsMMAR6Go47eKKRpFX52GC3fFFFNN2sK2pLRRRSGf//Z",
+    "format" : "jpeg"
+  }, {
+    "type" : "image",
+    "id" : 109,
+    "page number" : 2,
+    "bounding box" : [ 344.816, 607.916, 370.763, 626.904 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAmADQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1Glwdu7B25xnHFCqWYKoJJ4AFaSHU4IPIGnRXEeOjShfz4OazSuepUqchmE4qe3tJblJGjAOwdD3+lWNNnuBdPa/YIoWwWYvOWI9B93n86vWFzuju2kubZ1hcqxgjK7CvUHJOSKaiYTxDWiRgI6yIHU5U8g+tOq7bu9xp8l1FPpUyxg5K2rKvAyerHHHtWbA7yx+a+0GQl8KMAA8gCk1Y2p1efoS0UUUjUckskLiSIgSDOCRkCn6YJTqUcl3fXcrN0HmEIW/3Rxj8KILi3tmaS4heUAcKgB5/E0n9t6tKxaK3tYI/4UkDO34kEfypo56qcm0o/MlsUvW1e+uVCTuJmjGZMIqjoueccYzx1zWoLyM2l60RgkmhVjIiDKhsH5Se5yDnp+FZS6tMI3SbTLeUSDEux8Bh9COfxNT2uo6THHJbi1NmknylWQKrZB7rkD8cVSaOacJ9ULeyXDaXI2mLaTW0yEboxgqCME4HDd/THHWsyJQkKKDkKoGa24NH014g9oWRWXaJIJmGQP8AaB5qlqEVjYyR26zubmQZWMnccc8n0HB5PpRJGtCcYvl7lSiiioOwKKKKACkIB60UUARfZow++PdFJ/fjYq35iiG1ihZnUEyMcs7HLMfcnrRRQJJbk1FFFAz/2Q==",
+    "format" : "jpeg"
+  }, {
+    "type" : "image",
+    "id" : 105,
+    "page number" : 2,
+    "bounding box" : [ 263.747, 607.665, 289.873, 626.724 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAmADQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD0qiitO1026TZceRFJxkRyOV/E8GvnadKVR2R48IObsihDC88qxoAWbpRPC9vOYZAA4APBzkev6Vt20F6LtZJLPT4o+5jYlx+O0U+7tLqa+R44rDydoDvNGWk6ngdOPx7mu1YH3d9TpWF93fU52itjUNKuJZUSzjtY4c75HYneT0wABgD/AD7mpcaXcW0JlcoVHXaa56mFqQ6XRjOhOJSooormMCW3t5LmTZEATjJyegq++j6jcyGS71edFX7qQtsAH/AcZ/HNZYZ1OUdkbsykgiopYnuc/arie4U/wSSEp7fL0rqoVacIu97+p0UqkILW9zVsbbQrq/aCPdqE0almlnJlUdOMngnnt6GrGq2iXd1+/wBFlvFQfI5nULyOcKW4/LtWda6fLPCRZ3HlEcMkchRgO3Sp4NG1IjD3t0gzyWunJ/Q12wqylHSG/ax1QqNxtykdzJqNp5cltay2FumAxknEoPou3JAGe45qtcXV/ezI1zOoiTkRRKVUnGMnJJP8q0PEFwllpKaakrSXUwVF3nc20Hlj+vPrWaOABXPi5yi+VPfoY4mUouyYtFFFcBxhRRRQA0rlgwLK6/dZGKkfQikP2s8HUr3b6CYg/n1ooqozlHRMqM5LZjIrZInaTLPI33pJGLMfqTzU1FFJu+rFdvVhRRRSEf/Z",
+    "format" : "jpeg"
+  }, {
+    "type" : "image",
+    "id" : 111,
+    "page number" : 2,
+    "bounding box" : [ 385.434, 608.137, 411.086, 626.284 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAkADMDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDvatRadeTW/nxQM0fPIIyceg6mmWlrLeTiGIDcRnJ6AVtWtlrdpG0cEtsEH3VmBZc+2MEf54rsnPl2PKpU+d6p2MGCKS5kWOFC7HoBVptJv1ODbP8Ahg1Emp6ouoTSKliLv5oDsibaWDYyfm5ORitCWy8TqVDag83GcxCNAPboDSc5IqNKLT3ZUXSL9gSLZhj1IFUQc+v411eiw6nD5/8AaM0kgO3YH2nHXPT8OtcbZPJNarNK26WXLufUk5NEJuTaYVaShFNdSxRRRWpzih5EDeVLJExGN0bFT+YrofDTytHOJZ5pSNvMshb19a52trT9d0zTLARzNIsxJLKsTMWPbBAx0xWVVe7sdOGfv6vQz/DNm7LZXVwdqu+QZG+aV8FuPXpn8DT9YN7Hrt0XuLpIG2eSokZUxtGcYOOuaq3Wp3mq3iXMm63hiOYIQeQf7zdi36Dp6k68HiQFTHqVsskZ/jjXIx7qf6flUtSvzNFp02nBO3mYskl1Jj/T70D0Fw4z+tOhtHW1LxxEQRADPYdgK6SNvD1yysklpvIyF3hT+K8fqKp61rNkYItPsJoJS7fvBEQwjQAntwDu2jH1oVTWyQpUWouUpGLRRRW5yBSHtxRRQAtFFFADHijf7yKfqKVI0j+4ir9BRRQMdRRRQI//2Q==",
+    "format" : "jpeg"
+  }, {
+    "type" : "image",
+    "id" : 113,
+    "page number" : 2,
+    "bounding box" : [ 51.225, 542.1, 180.65, 585.125 ],
+    "data" : "data:image/jpeg;base64,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",
+    "format" : "jpeg"
+  }, {
+    "type" : "heading",
+    "id" : 114,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 53.88, 521.563, 126.119, 533.563 ],
+    "heading level" : 3,
+    "font" : "KaiTi",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "名词的单复数"
+  }, {
+    "type" : "list",
+    "id" : 115,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 53.88, 156.934, 547.44, 510.184 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "next list id" : 142,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 450.044, 547.44, 510.184 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. 核心定义 名词的单数表示一个人或事物，复数表示两个或两个以上的人或事物，小学阶段重点掌握食物、 文具、动物、生活用品等常见名词的单复数变化，也是上海五下的基础考点。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 425.254, 140.88, 438.543 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. 两类核心名词",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 73,
+        "level" : "4",
+        "page number" : 2,
+        "bounding box" : [ 53.88, 282.214, 547.44, 414.784 ],
+        "numbering style" : "arabic numbers",
+        "number of list items" : 2,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 2,
+          "bounding box" : [ 53.88, 377.614, 538.44, 414.784 ],
+          "font" : "KaiTi",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "（1）可数名词 能数清数量的名词，有单数和复数两种形式，如 pen（钢笔）、egg（鸡蛋）、book（书）。",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 2,
+          "bounding box" : [ 53.88, 282.214, 547.44, 367.024 ],
+          "font" : "KaiTi",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "（2）不可数名词 数不清具体数量、无单复数变化的名词，表数量时需搭配量词，如 rice（米饭）、milk（牛奶）、 water（水）、bread（面包），常见量词：a bowl of（一碗）、a glass of（一杯）、a piece of （一片 / 一块）。",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 156.934, 436.307, 271.624 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. 可数名词复数规则变化（五下重点，占 80%） 变化规则 例子 直接在词尾加 s pen→pens, book→books, car→cars 以 s, x, sh, ch 结尾，加 es box→boxes, brush→brushes, watch→watches 以辅音字母 + y 结尾，变 y 为",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 117,
+    "page number" : 2,
+    "bounding box" : [ 211.8, 145.054, 448.186, 158.343 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "baby→babies, family→families, candy→candies"
+  }, {
+    "type" : "paragraph",
+    "id" : 116,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 133.054, 91.068, 146.343 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "i 加 es"
+  }, {
+    "type" : "paragraph",
+    "id" : 118,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 83.854, 210.24, 121.024 ],
+    "font" : "KaiTi",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "以元音字母 + y 结尾，直接加 s"
+  }, {
+    "type" : "paragraph",
+    "id" : 119,
+    "page number" : 2,
+    "bounding box" : [ 211.8, 95.854, 374.867, 109.143 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "boy→boys, toy→toys, key→keys"
+  }, {
+    "type" : "footer",
+    "id" : 120,
+    "page number" : 2,
+    "bounding box" : [ 263.88, 53.784, 331.44, 63.751 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 20,
+      "page number" : 2,
+      "bounding box" : [ 263.88, 53.784, 331.44, 63.751 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "第 2 页 共 9 页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 121,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 774.1, 541.2, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 34,
+      "page number" : 3,
+      "bounding box" : [ 53.88, 784.3, 541.2, 799.3 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 35,
+      "page number" : 3,
+      "bounding box" : [ 404.88, 775.18, 405.6, 775.9 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 36,
+      "page number" : 3,
+      "bounding box" : [ 404.88, 774.1, 405.6, 774.82 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 138,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 702.334, 235.8, 764.323 ],
+    "font" : "KaiTi",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "变化规则 例子 以 o 结尾，有生命加 es，无生 命加 s"
+  }, {
+    "type" : "paragraph",
+    "id" : 139,
+    "page number" : 3,
+    "bounding box" : [ 211.8, 702.334, 541.44, 739.503 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "有 生 命 ： tomato→tomatoes, potato→potatoes 无 生 命 ： photo→photos, radio→radios"
+  }, {
+    "type" : "paragraph",
+    "id" : 140,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 653.134, 210.24, 690.303 ],
+    "font" : "KaiTi",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "以 f/fe 结尾，变 f/fe 为 v 加 es"
+  }, {
+    "type" : "paragraph",
+    "id" : 141,
+    "page number" : 3,
+    "bounding box" : [ 211.8, 665.014, 547.44, 678.303 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "knife→knives, leaf→leaves, wolf→wolves（五下高频：knife/leaf）"
+  }, {
+    "type" : "list",
+    "id" : 142,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 53.88, 293.854, 547.44, 641.103 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 115,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 437.014, 341.88, 641.103 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4. 可数名词复数不规则变化（五下必考，需熟记） 无固定规则，直接记原形和复数，以下是五下高频词： man→men, woman→women child→children foot→feet, tooth→teeth mouse→mice fish→fish（单复数同形，表 “鱼的数量”） sheep→sheep（单复数同形） egg→eggs, noodle→noodles（食物类高频）",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 293.854, 547.44, 426.424 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5. 五下易错点提醒 不可数名词永远不能直接加 s/es，也不能用数词（one/two/three）直接修饰，如：不能说 two rice， 要说 two bowls of rice。 “a/an + 单数名词”，“some/any/many + 复数名词 / 不可数名词”，如：a pen, some pens, some milk。 集体名词：people（人们）、police（警察），本身表 “复数”，不能说 a people，要说 a person。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 144,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 246.58, 95.28, 286.78 ],
+    "data" : "data:image/jpeg;base64,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",
+    "format" : "jpeg"
+  }, {
+    "type" : "image",
+    "id" : 145,
+    "page number" : 3,
+    "bounding box" : [ 101.345, 250.216, 150.679, 269.514 ],
+    "data" : "data:image/jpeg;base64,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",
+    "format" : "jpeg"
+  }, {
+    "type" : "heading",
+    "id" : 146,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 53.88, 223.122, 222.478, 235.122 ],
+    "heading level" : 3,
+    "font" : "KaiTi",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "一、用所给单词的适当形式填空"
+  }, {
+    "type" : "list",
+    "id" : 147,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 53.88, 80.082, 330.958, 211.743 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 198.454, 330.958, 211.743 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1.I have two ______（egg）for breakfast every morning.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 174.574, 268.079, 187.863 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2.There is some ______（rice）in the bowl.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 150.814, 265.078, 164.103 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3.She wants three ______（glass）of juice.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 126.934, 269.759, 140.223 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4.I like eating ______（noodle）very much.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 80.082, 299.998, 116.343 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5.There is a piece of ______（bread）on the table. 二、单项选择",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 148,
+    "page number" : 3,
+    "bounding box" : [ 263.88, 53.784, 331.44, 63.751 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 21,
+      "page number" : 3,
+      "bounding box" : [ 263.88, 53.784, 331.44, 63.751 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "第 3 页 共 9 页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 149,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 774.1, 541.2, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 37,
+      "page number" : 4,
+      "bounding box" : [ 53.88, 784.3, 541.2, 799.3 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 38,
+      "page number" : 4,
+      "bounding box" : [ 404.88, 775.18, 405.6, 775.9 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 39,
+      "page number" : 4,
+      "bounding box" : [ 404.88, 774.1, 405.6, 774.82 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 166,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 53.88, 489.934, 449.027, 765.543 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 752.254, 256.956, 765.543 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "( )1. - Would you like some ______?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 71,
+        "level" : "5",
+        "page number" : 4,
+        "bounding box" : [ 53.88, 704.614, 407.76, 741.663 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "-Yes, please. It's healthy. A. apple B. milk C. egg"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 656.854, 427.427, 694.023 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "( )2. I can see many ______ in the basket. A. banana B. a banana C. bananas",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 609.214, 449.027, 646.263 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "( )3. There is a ______ of bread and two ______ of water on the desk. A. piece; glass B. piece; glasses C. pieces; glass",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 585.334, 211.716, 598.623 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "( )4. - Do you like ______?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 72,
+        "level" : "5",
+        "page number" : 4,
+        "bounding box" : [ 53.88, 537.574, 412.426, 574.743 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "-No, I don't. I like chicken. A. fish B. a fish C. fishs"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 489.934, 421.355, 527.103 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "( )5. She has some ______ for lunch. It's delicious. A. cake B. cakes C. a cake",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 167,
+    "page number" : 4,
+    "bounding box" : [ 52.325, 439.5, 181.75, 482.525 ],
+    "data" : "data:image/jpeg;base64,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",
+    "format" : "jpeg"
+  }, {
+    "type" : "heading",
+    "id" : 168,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 53.88, 419.203, 114.119, 431.203 ],
+    "heading level" : 3,
+    "font" : "KaiTi",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "一般现在时"
+  }, {
+    "type" : "list",
+    "id" : 169,
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 53.88, 100.774, 540.48, 407.823 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "next list id" : 189,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 299.135, 540.48, 407.823 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. 核心定义 表示经常性、习惯性的动作，客观事实 / 真理，或现阶段的状态 / 喜好，是五下语法核心考 点，常和频度副词连用（always/usually/often/sometimes/never）。时间标志词：every day（每 天）、every morning/afternoon/evening（每天早 / 中 / 晚）、on Sundays（每周日）、usually （通常）、often（经常）。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 100.774, 537.12, 288.543 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. 一般现在时主语分类（核心考点：人称变化） 根据主语不同，动词形式分两种：动词原形 / 动词三单形式（第三人称单数），先明确三类 人称： 人称分类 包含内容 动词形式 第一人称 I（我）、we（我们） 动词原形 第二人称 you（你 / 你们） 动词原形 第三人称复数 they（他们 / 她们 / 它们）、the boys、my parents 动词原形 第三人称单数（三单）he（他）、she（她）、it（它）、Tom、my mother、the cat动词三单形",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 170,
+    "page number" : 4,
+    "bounding box" : [ 263.88, 53.784, 331.44, 63.751 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 22,
+      "page number" : 4,
+      "bounding box" : [ 263.88, 53.784, 331.44, 63.751 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "第 4 页 共 9 页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 171,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 774.1, 541.2, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 40,
+      "page number" : 5,
+      "bounding box" : [ 53.88, 784.3, 541.2, 799.3 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 41,
+      "page number" : 5,
+      "bounding box" : [ 404.88, 775.18, 405.6, 775.9 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 42,
+      "page number" : 5,
+      "bounding box" : [ 404.88, 774.1, 405.6, 774.82 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 189,
+    "level" : "3",
+    "page number" : 5,
+    "bounding box" : [ 53.88, 501.883, 541.2, 764.323 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "previous list id" : 169,
+    "next list id" : 213,
+    "list items" : [ {
+      "type" : "list item",
+      "id" : 188,
+      "page number" : 5,
+      "bounding box" : [ 53.88, 727.004, 519.6, 764.323 ],
+      "font" : "KaiTi",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "人称分类 包含内容 动词形式 式",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 574.054, 513.948, 714.063 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. 动词三单形式变化规则（五下必考，和名词复数规则相似，易混淆需区分） 变化规则 例子 直接在词尾加 s like→likes, play→plays, eat→eats 以 s, x, sh, ch, o 结尾，加 es pass→passes, watch→watches, go→goes, do→does 以辅音字母 + y 结尾，变 y 为 i 加 esstudy→studies, fly→flies, cry→cries 以元音字母 + y 结尾，直接加 s play→plays, stay→stays, enjoy→enjoys",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 501.883, 541.2, 562.024 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4. 一般现在时四大基本句型（五下重点，会写会变） 以动词 like（喜欢） 为例，分实义动词句型（核心），be 动词（am/is/are）句型为基础，一 并梳理：",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 190,
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 53.88, 129.163, 547.32, 490.503 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 451.774, 547.32, 490.503 ],
+      "font" : "KaiTi",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "（1）实义动词句型（五下高频：like/eat/drink/play/have） 句型 结构 例句（三单主语：she） 例句（非三单主语：I）",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 58,
+        "page number" : 5,
+        "bounding box" : [ 53.88, 414.574, 287.04, 427.863 ],
+        "font" : "KaiTi",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "肯定句 主语 + 动词（三单 / 原形）+ 其他"
+      }, {
+        "type" : "paragraph",
+        "id" : 59,
+        "page number" : 5,
+        "bounding box" : [ 288.6, 403.482, 420.24, 439.743 ],
+        "font" : "KaiTi",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "She likes milk.（她喜欢牛 奶。）"
+      }, {
+        "type" : "paragraph",
+        "id" : 60,
+        "page number" : 5,
+        "bounding box" : [ 423.359, 403.482, 537.72, 439.743 ],
+        "font" : "KaiTi",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "I like juice.（我喜欢果 汁。）"
+      }, {
+        "type" : "paragraph",
+        "id" : 61,
+        "page number" : 5,
+        "bounding box" : [ 53.88, 366.162, 89.88, 378.162 ],
+        "font" : "KaiTi",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "否定句"
+      }, {
+        "type" : "paragraph",
+        "id" : 62,
+        "page number" : 5,
+        "bounding box" : [ 101.759, 354.282, 278.436, 390.543 ],
+        "font" : "KaiTi",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "主语 + don't/doesn't + 动词原形 + 其他"
+      }, {
+        "type" : "paragraph",
+        "id" : 63,
+        "page number" : 5,
+        "bounding box" : [ 288.6, 365.374, 504.118, 378.663 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "She doesn't like milk. I don't like juice."
+      }, {
+        "type" : "paragraph",
+        "id" : 64,
+        "page number" : 5,
+        "bounding box" : [ 53.88, 305.083, 89.88, 340.963 ],
+        "font" : "KaiTi",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "一般疑 问句"
+      }, {
+        "type" : "paragraph",
+        "id" : 65,
+        "page number" : 5,
+        "bounding box" : [ 101.759, 305.083, 281.759, 341.343 ],
+        "font" : "KaiTi",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "Do/Does + 主语 + 动词原形 + 其 他？"
+      }, {
+        "type" : "paragraph",
+        "id" : 66,
+        "page number" : 5,
+        "bounding box" : [ 288.6, 316.174, 511.594, 329.463 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "Does she like milk? Do you like juice?"
+      }, {
+        "type" : "paragraph",
+        "id" : 67,
+        "page number" : 5,
+        "bounding box" : [ 53.88, 267.762, 77.88, 279.762 ],
+        "font" : "KaiTi",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "回答"
+      }, {
+        "type" : "paragraph",
+        "id" : 68,
+        "page number" : 5,
+        "bounding box" : [ 101.759, 254.974, 268.715, 292.143 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "Yes, 主语 + do/does.No, 主语 + don't/doesn't."
+      }, {
+        "type" : "paragraph",
+        "id" : 69,
+        "page number" : 5,
+        "bounding box" : [ 288.6, 254.974, 396.036, 292.143 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "Yes, she does./No, she doesn't."
+      }, {
+        "type" : "paragraph",
+        "id" : 70,
+        "page number" : 5,
+        "bounding box" : [ 423.359, 266.974, 526.319, 280.263 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "Yes, I do./No, I don't."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 129.163, 540.0, 242.943 ],
+      "font" : "KaiTi",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "（2）be 动词（am/is/are）句型 句型 结构 例句（三单：he）例句（非三单：we） 肯定句 主语 + am/is/are + 其他 He is a student. We are students. 否定句 主语 + am not/isn't/aren't + 其他 He isn't a student. We aren't students. 一般疑问",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 192,
+    "page number" : 5,
+    "bounding box" : [ 105.6, 116.374, 516.633, 129.663 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Am/Is/Are + 主语 + 其他？ Is he a student? Are you students?"
+  }, {
+    "type" : "paragraph",
+    "id" : 191,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 105.283, 65.88, 117.283 ],
+    "font" : "KaiTi",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "句"
+  }, {
+    "type" : "paragraph",
+    "id" : 193,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 79.054, 525.996, 92.343 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "回答 Yes, 主语 + am/is/are.No, 主语 + am Yes, he is./No, he Yes, we are./No, we"
+  }, {
+    "type" : "footer",
+    "id" : 194,
+    "page number" : 5,
+    "bounding box" : [ 263.88, 53.784, 331.44, 63.751 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 23,
+      "page number" : 5,
+      "bounding box" : [ 263.88, 53.784, 331.44, 63.751 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "第 5 页 共 9 页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 195,
+    "page number" : 6,
+    "bounding box" : [ 53.88, 774.1, 541.2, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 43,
+      "page number" : 6,
+      "bounding box" : [ 53.88, 784.3, 541.2, 799.3 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 44,
+      "page number" : 6,
+      "bounding box" : [ 404.88, 775.18, 405.6, 775.9 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 45,
+      "page number" : 6,
+      "bounding box" : [ 404.88, 774.1, 405.6, 774.82 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 212,
+    "page number" : 6,
+    "bounding box" : [ 53.88, 726.214, 540.0, 764.823 ],
+    "font" : "KaiTi",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "句型 结构 例句（三单：he）例句（非三单：we） not/isn't/aren't. isn't. aren't."
+  }, {
+    "type" : "list",
+    "id" : 213,
+    "level" : "3",
+    "page number" : 6,
+    "bounding box" : [ 53.88, 700.774, 198.12, 714.063 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 189,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 700.774, 198.12, 714.063 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5. 五下高频考点 & 易错点",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 214,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 53.88, 366.935, 541.437, 690.303 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 557.735, 536.483, 690.303 ],
+      "font" : "KaiTi",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "（1）高频考点 结合食物 / 饮品 / 日常活动考动词三单，如：My father drinks tea every morning. 特殊疑问句：What+do/does + 主语 + 动词原形 + 其他？ ，如：What do you eat for lunch? / What does she drink for breakfast? 喜好表达：Do/Does + 主语 + like + 名词 /doing？ ，如：Do you like apples? / Does he like playing football?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 366.935, 541.437, 547.143 ],
+      "font" : "KaiTi",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "（2）必避易错点 三单主语漏变动词：错误→He like bread. 正确→He likes bread. 否定句 / 疑问句误用动词三单：错误→Does she likes milk? 正确→Does she like milk?（do/does 后必须用动词原形） 混淆名词复数和动词三单：名词复数是名词 + s/es（表数量），动词三单是动词 + s/es（表三 单主语），如：The girl likes red apples.（likes 是动词三单，apples 是名词复数） 频度副词（usually/often）位置：放在 be 动词后，实义动词前，如：She is always late. / She usually gets up early.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 216,
+    "page number" : 6,
+    "bounding box" : [ 53.88, 319.54, 95.28, 359.74 ],
+    "data" : "data:image/jpeg;base64,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",
+    "format" : "jpeg"
+  }, {
+    "type" : "image",
+    "id" : 217,
+    "page number" : 6,
+    "bounding box" : [ 101.345, 323.266, 150.679, 342.564 ],
+    "data" : "data:image/jpeg;base64,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",
+    "format" : "jpeg"
+  }, {
+    "type" : "heading",
+    "id" : 218,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 53.88, 296.203, 246.597, 308.203 ],
+    "heading level" : 3,
+    "font" : "KaiTi",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "一、用括号内单词的正确形式填空。"
+  }, {
+    "type" : "list",
+    "id" : 219,
+    "level" : "3",
+    "page number" : 6,
+    "bounding box" : [ 53.88, 104.614, 336.717, 284.824 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 6,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 271.535, 336.717, 284.824 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1.My mother ______（like）drinking tea every afternoon.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 247.654, 230.038, 260.943 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2.I ______（not like）sour oranges.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 223.774, 335.673, 237.063 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3.What ______ your father ______（have）for breakfast?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 200.014, 237.478, 213.303 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4.He ______（have）bread and milk.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 176.135, 285.48, 189.424 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5.They ______（eat）rice for dinner every day.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 104.614, 312.48, 165.543 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6.My sister ______（want）to drink some juice now. 二、单项选择。 ( ) 1. - What ______ you like for lunch?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 220,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 101.88, 80.735, 196.079, 94.024 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "-I like rice and fish."
+  }, {
+    "type" : "footer",
+    "id" : 221,
+    "page number" : 6,
+    "bounding box" : [ 263.88, 53.784, 331.44, 63.751 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 24,
+      "page number" : 6,
+      "bounding box" : [ 263.88, 53.784, 331.44, 63.751 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "第 6 页 共 9 页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 222,
+    "page number" : 7,
+    "bounding box" : [ 53.88, 774.1, 541.2, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 46,
+      "page number" : 7,
+      "bounding box" : [ 53.88, 784.3, 541.2, 799.3 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 47,
+      "page number" : 7,
+      "bounding box" : [ 404.88, 775.18, 405.6, 775.9 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 48,
+      "page number" : 7,
+      "bounding box" : [ 404.88, 774.1, 405.6, 774.82 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 239,
+    "page number" : 7,
+    "bounding box" : [ 101.88, 752.254, 426.995, 765.543 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "A. do B. does C. are"
+  }, {
+    "type" : "list",
+    "id" : 240,
+    "level" : "5",
+    "page number" : 7,
+    "bounding box" : [ 53.88, 537.574, 440.398, 741.663 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 53.88, 704.614, 430.883, 741.663 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "( )2. Tom ______ like milk. He likes juice. A. don't B. doesn't C. isn't",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 53.88, 656.854, 440.398, 694.023 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "( )3. My brother ______ bread every morning. A. eat B. eats C. eating",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 53.88, 632.974, 274.955, 646.263 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "( )4. - Does your sister like sweet cakes?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 57,
+        "level" : "6",
+        "page number" : 7,
+        "bounding box" : [ 89.88, 585.334, 482.723, 622.503 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 12.0,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "-______. She likes sour oranges. A. Yes, she does B. No, she don't C. No, she doesn't"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 53.88, 537.574, 437.148, 574.743 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "( )5. We ______ have breakfast at seven o'clock every morning. A. usually B. is C. does",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 241,
+    "page number" : 7,
+    "bounding box" : [ 263.88, 53.784, 331.44, 63.751 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 25,
+      "page number" : 7,
+      "bounding box" : [ 263.88, 53.784, 331.44, 63.751 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "第 7 页 共 9 页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 242,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 774.1, 541.2, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 49,
+      "page number" : 8,
+      "bounding box" : [ 53.88, 784.3, 541.2, 799.3 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 50,
+      "page number" : 8,
+      "bounding box" : [ 404.88, 775.18, 405.6, 775.9 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 51,
+      "page number" : 8,
+      "bounding box" : [ 404.88, 774.1, 405.6, 774.82 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 259,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 265.44, 747.087, 329.629, 763.037 ],
+    "heading level" : 2,
+    "font" : "SimSun",
+    "font size" : 15.95,
+    "text color" : "[1.0, 0.0, 0.0]",
+    "content" : "参考答案"
+  }, {
+    "type" : "list",
+    "id" : 260,
+    "level" : "7",
+    "page number" : 8,
+    "bounding box" : [ 53.88, 101.203, 233.88, 733.363 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 53.88, 697.483, 221.88, 733.363 ],
+      "font" : "KaiTi",
+      "font size" : 12.0,
+      "text color" : "[1.0, 0.0, 0.0]",
+      "content" : "(1) 名词的单复数 一、用所给单词的适当形式填空",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 55,
+        "level" : "3",
+        "page number" : 8,
+        "bounding box" : [ 53.88, 435.162, 375.705, 686.103 ],
+        "numbering style" : "arabic numbers",
+        "number of list items" : 5,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 8,
+          "bounding box" : [ 53.88, 648.934, 351.107, 686.103 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "1.eggs 解析：数词 two 后接可数名词复数，egg 的复数是 eggs",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 8,
+          "bounding box" : [ 53.88, 601.174, 337.2, 638.343 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "2.rice 解析：rice 是不可数名词，some 后接不可数名词原形",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 8,
+          "bounding box" : [ 53.88, 553.534, 375.705, 590.703 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "3.glasses 解析：数词 three 后接可数名词复数，glass 的复数是 glasses",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 8,
+          "bounding box" : [ 53.88, 505.774, 315.827, 542.943 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "4.noodles 解析：noodle 为可数名词，常用复数形式 noodles",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 8,
+          "bounding box" : [ 53.88, 435.162, 367.08, 495.303 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "5.bread 解析：bread 是不可数名词，a piece of 后接不可数名词原形 二、单项选择",
+          "kids" : [ ]
+        } ]
+      }, {
+        "type" : "list",
+        "id" : 56,
+        "level" : "3",
+        "page number" : 8,
+        "bounding box" : [ 53.88, 148.054, 545.159, 423.663 ],
+        "numbering style" : "arabic numbers",
+        "number of list items" : 5,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 8,
+          "bounding box" : [ 53.88, 363.523, 541.44, 423.663 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "1.B 解析：some 后接不可数名词或可数名词复数，milk 为不可数名词，apple 和 egg 是可数名词 单数",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 8,
+          "bounding box" : [ 53.88, 314.974, 362.987, 352.143 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "2.C 解析：many 后接可数名词复数，banana 的复数是 bananas",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 8,
+          "bounding box" : [ 53.88, 267.335, 469.786, 304.503 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "3.B 解析：a piece of（一片 / 块），two glasses of（两杯），glass 的复数是 glasses",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 8,
+          "bounding box" : [ 53.88, 219.574, 353.88, 256.743 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "4.A 解析：fish 表示 “鱼肉” 时是不可数名词，无复数形式",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 8,
+          "bounding box" : [ 53.88, 148.054, 545.159, 209.103 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "5.B 解析：some 后接可数名词复数或不可数名词，cake 表示 “一块块的蛋糕” 时是可数名词， 用复数 cakes",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 53.88, 101.203, 233.88, 137.463 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[1.0, 0.0, 0.0]",
+      "content" : "(2)一般现在时 一、用括号内单词的正确形式填空",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 261,
+    "level" : "3",
+    "page number" : 8,
+    "bounding box" : [ 53.88, 76.535, 85.547, 89.824 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 281,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 53.88, 76.535, 85.547, 89.824 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1.likes",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 262,
+    "page number" : 8,
+    "bounding box" : [ 263.88, 53.784, 331.44, 63.751 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 26,
+      "page number" : 8,
+      "bounding box" : [ 263.88, 53.784, 331.44, 63.751 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "第 8 页 共 9 页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 263,
+    "page number" : 9,
+    "bounding box" : [ 53.88, 774.1, 541.2, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 52,
+      "page number" : 9,
+      "bounding box" : [ 53.88, 784.3, 541.2, 799.3 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAeA88DASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDtvHPxF1bQ9UfSNJ0RxKNg+33ikQksCQEA++eCBzkspAUnivPYPFHxQsr99QlfUXiALP59g3kuqjP3AgKggdQFPPUV6rqd9dNdX91aXtnZWUUhWS4vA0odl+VsfvF8tVYMuM4JyQBklqk+vqhNoZrK0vEWQzm4l3RwIu35jgjO7zIyASvDcnKkV5NfMpQqONOKaW5vGgmrtmh4I8Y6n4kD2+qeHbzTp4kJa52E20pBCnax75zwN3APzV1zyxxsiySKpkbagY43HBOB6nAJ/A1g6Jfagl9/Z+oNHcB4mmiuYIyigAgFGUsxz8wIOTn5uBgbuN1rRtRl8QXV5r8PiG5h+0M2m/2TtkESg9SP4DgJjGM4JOTXoUK0a9NVI9TKUXF2Z6TNqVhbrcNNe20S220Tl5VURbsY3ZPy5yMZ9atV4nqNp4ZgmDapb+Mo5bli266SNTIw7/N1Iz+tbV9a6xb+BrOz8R2qahdSaoqQJdzuSQyHblkYHO4sPmPQ+mK2JPSo7+zlvHs47uB7pBueFZAXUdMlc5HUfnQ9/Zx3sdk93At3Iu5IDIBIw55C9SOD+RrxrwNPbQx30FysFk32OWYaiqkzwjAX5TzjqenzH8q09Ge7k+Ifhh7vUodRZrB/LuIgfmTEwAYnksO+QCDwckEkA9Nu9Y0zT5RFe6jZ20hXcEmnVCR64J6cGq//AAk2gf8AQc03/wAC4/8AGvLbjV4tO8a65c6nptpqFibzypXuYfNePAfYEJ6ZC4+iilbXfslqWvvDPhyOe4skurONbHl90oQAjPOV3NxjoKAPYbe5gvIFntp454X+7JE4ZTzjgjipa4n4ZII9E1ONfupqcqqPQBUrtqACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooqB7uGO9htHfE0yO8an+IKVDf+hCgCeisqLxFps1hcXsUzPBBMIHKxsSXJUAAY5zuXBHHNXnu4Y72G0d8TTI7xqf4gpUN/6EKAJ6KzLXxBpt7pkOowT7reaVYUJUgl2YKBg89SPw5q413Et+lkdwmeJpV44KqVB59iy/nQBPRWXb+IdNu9ON/bzNJAJlgyI2zvZlVRjGedykexBrUoAKKzNU1210gt9phvCix+Y0kNrJIirznLKCB0NTz6pbW2lf2nL5q2ojWRj5TFlU45KgZGAcnjjnPSgC5RVaO/t5r+ayikDzwIryhedm7O0H3OCcen1FV21ywRJGeRlaO5FoUZCrGU4woBHOQwORxjnpQBo0Vn6hcTQX2kxxPtSe6aOUYB3L5MrY9vmVTx6VNYajbanA09o5kgDsgkAIVyDglT3Ge44PagC1RTZZY4YnlldY40Us7ucBQOpJ7Cs7TNcttWYfZYbzymj8yOaW2dI5F4wVZgOuQR6jmgDTorLutfs7a/eyVLm4uI1VpltoGl8oHpu2jgkDOOuO1WDqlp/Y51USFrMQG43hTkpt3Zx16dutAFyisIeLtLYqFW8Jkj8y3AtJD9pGMnyuPnxkHjtz05rR03VLXVrU3Fo7MquY5EdSjxuOqsp5Uj0NAFyiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKhu7qCytZLi5mWGFB80jHAXtmgCaiuXutRu08GS3jXsU7LIoiu7Qk+bH5qgMQAMMRkELkZzjrgb1nfw3wcwpcLsxnz7aSH8t6jP4UAWqK4rW9e1O215YrJ5XUwzIkP9mXHDbo13k8hwuS25VxgEc7gas6Lr+o3t4nlxW1zZ308z28puGVkgiZY2Yr5eMk/MBkZL44oA6yisbxVdXNn4enmtJVhn8yFFkZtoXdKikk9hgnms/wD4SLUMZ8/w1j1/tRv/AI3QB1NFU7y6uLPSJboWpuLmKEv9nhJO9gPuqcZ6+34Vyg13ULa5txPrHh5nt/NjnWXVQpkBPy5AiADLgDOOfm4GeADt6KyfDtxfT6YE1DZJNEVT7TG+9LkFFbzFO1Rg7iOB2PJrmPEPiCbT7jVoINZu47m2UlEkls1XcUDqFVl3soyB3Jx1JoA72iuR0DWhqGui0XVby4KwNOVMtpJGQCFwTEuQcsD1HSr/AIl1a70ZLe4jubaOCaQQhZYAx34Zsl2mjUDC/XPrnFAG/RXB6P4i1Ce8g0yLU7SSW4kkKO8Mc2370mD5d2xAAyBx2ArrdYv5NM0yW8jjgcRDcwmlMYx7EKxJzgAY5JoAv0VxY1rWIWsdCkksZNXNwqMyzyDeiL5jFiYvlyoRcgHO5sYxx0Wh6jPqumi8nto7fe7BFjmMgZQcBslV64JHHTHrgAGBq+k3KXV5GltZ31jdyCQ214SqRk/eI+VgwJAOCBzuOeeMuTQ7mZIhPFY3To7tLJcDcLlWKkoUIO1cquDlivloPm5FehSRJKu11DD3qD+z7fdnafpnivEr5dWdRypNWfc6YVopWZh6DZXs+pDU74RxlIDDHBEzMqEt8zbiF3EgJ/Dxt4+8ao6j4V1t7q7vR40ubS2Z3lCGMhYUyTjPmAYA78dK7NVVBhQAPQUtenhaHsKahcxnLmlc8Z8M+HdR8S61qV/F4guEezl8qHUDE0hmB3DKksNvAHGTgMB9ej17Sr7TNJ0WzvNWl1O4k12B0klG1gu0jbyx4B5696722tbeygWC0t4oIVztjiQKoycnAHHWpsV0EHhfgi01O7vpBpZjSZrJ0SWdMxf60bgeCOVzxjvU0ega9ovjrTNPtZ9Oh1JoHkhkjU+XgiTO7K5JwGHQ8YHQcez2lla2EPk2dtDbxZ3bIYwi59cCkews5L2O9e0ga7jXak7Rguo54DdQOT+ZoA8judE1DxFq/ifT9PihYnVInkeR9vlgecM/TnnHPsc8bGq6Prs7aFqNzpunWMWjLEZA9wqhsSAH5uQECqpx1G4gbjxXosFjaWs001vawRSzndM8cYVpDzyxHXqevrUksUc8LwzRrJFIpV0cZDA8EEHqKAOM+GLeboOoThWEc2pSyIWHVSqc/wCfSu2qOCCG2gSG3iSKJBhUjUKqj0AHSpKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigArnvFiXcNvaanp9o9zeWcrFEjXLEPGycDuNzIT7LntXQ0UAca+i3FlremadbxTNpzi3kmmXO3dbq3LehYiDHrs74rQ8X2F1d2dtLYxF7qN3iVlyGQSxvFnI7BnRj6Bc9q6KigDko9Kkt/FkNjDZsNMR0v0fy/3cbLCYPLB/vcRsPoas+LYLwRWl7p0NxJeRGWFDByVEkbKCR6BxGT6Yz2rpKKAOQ/sV7XxJaWEFtOdLBguix5jVoonjAJ9ci3IHfaT2rppbsxX9va/Zrh/OVm85EzGm3HDHPBOePXn0qzRQBzHiK487VrSxurO8l0yMC4nEVpLMs7gnYmVGMAjcc9cKMda172/ddFa6t7Ge5kkUCO2MZVmLYADBvujnknoM1oUUAcz4T0258PifRrgvOgVJorracONqoyk4wCpUYBJ+UjHQ4pXVvenxF/wkyWU6wW0q2xtvLJkmjG9DOFAJyDIcDGSin+9iuzooAwfFGltrENhZgzIr3Dh5YtwMYNvMAxwRxkgYJwc4PWrehS3DaalveWotrm2xDIqJiJto4aPgAqRgj06dq06KAMed5PEHhO7ENtcWst3bTRJFdp5bqxDKNw5xzz9DS6Nqou0itWsL21mjh+cTW7KikYBUORtb2x1HNa9FAHOfaH0TW9YnuLK7mivCk8D2sDzFtsaoUO0fKcrkZwDnr1qtaaNd6b8L5tKkRpLsafMpjT5jvZWO0Y68tjiusooA5eW0uT4h8KSi3lKQW1wsz7DiMmNAAx7EkHr6Ve8Pwyw3GtmWKSMSak7oXUjcvlx8jPUZB59jW1RQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB57/AGqIvCsmnT288TiRZIiYnJlBnLEgAcKBjBJ554xgntLHWLHUnZLWV3ZRk7onTj/gQFXqKAOB1OCRfE8QNrYNJHJLdvLdagxfy15QsQh8qMEghRwcYJ5O63oTxQa/cajJBLb6bet5emFwVVM7d/y/wCVlVlz1x2LAHsiAQQRkHqDS0AZWrQaxcOEsG0z7OV+dLyF5CWz7MBjpXJ6/FdQ2T6dfS+HxPdGOOO3toCk7b5FXKhmOR97t26ivQaKAK97HczWjx2dytvOcbZWj8wLzz8uRnjI61xOrw6tea5p2iyeIrW5MkjtPBHaAbFWMsPNQP8yk4GDgHI69K76igDP0u0v7SN0vr+K6HAjEVsIQgHbG457flXHeI2gubvUYNKu7m8lv42W4ispDIsLhQm6QKjfLtXkZ3ZGADnj0GkAAGAAO/FAHMaQdG/t8SprF1cakYWhWC9bZIFyGOEZVb+H8gak8SLdS39vFa/aHcWdxIsMVxJEHcPCBkoyk4DN3710lFAHByGawvIEnnuoHe4tRbmW9mVpiZ1WRRG8zhgEIyf8Aarp/EM2nQ6WW1JnCM4WFYs+Y0pyEEYHJfPK46EZ7ZGrRQB50Bfvpn2CaORvGckkcxlZVOFRtyvkfKsYUsnHBYsACTz2egz2kujW0VnvVLdFgMUnEkRUAbHHYjH49RwRWljnNIABnA69aAP/Z",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 53,
+      "page number" : 9,
+      "bounding box" : [ 404.88, 775.18, 405.6, 775.9 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 54,
+      "page number" : 9,
+      "bounding box" : [ 404.88, 774.1, 405.6, 774.82 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 281,
+    "level" : "3",
+    "page number" : 9,
+    "bounding box" : [ 53.88, 514.603, 541.44, 765.543 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "previous list id" : 261,
+    "list items" : [ {
+      "type" : "list item",
+      "id" : 280,
+      "page number" : 9,
+      "bounding box" : [ 53.88, 752.254, 458.867, 765.543 ],
+      "font" : "KaiTi",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "解析：主语 my mother 是第三人称单数，一般现在时中动词用三单形式 likes",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 53.88, 704.614, 349.08, 741.663 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2.don't like 解析：主语 I，一般现在时否定形式用 don't + 动词原形",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 53.88, 632.974, 541.44, 694.023 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3.does; have; has 解析：主语 your father 是第三人称单数，特殊疑问句用助动词 does，后接动词原形 have；答 句主语 he 是第三人称单数，动词用 has",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 53.88, 585.334, 326.52, 622.503 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4.eat 解析：主语 they 是复数，一般现在时中动词用原形",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 53.88, 514.603, 455.387, 574.743 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5.wants 解析：主语 my sister 是第三人称单数，一般现在时中动词用三单形式 wants 二、单项选择",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 282,
+    "level" : "3",
+    "page number" : 9,
+    "bounding box" : [ 53.88, 275.254, 505.8, 503.223 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 53.88, 466.054, 347.88, 503.223 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1.A 解析：主语 you，一般现在时的特殊疑问句用助动词 do",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 53.88, 418.414, 402.923, 455.463 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2.B 解析：主语 Tom 是第三人称单数，一般现在时否定形式用 doesn't",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 53.88, 370.654, 455.387, 407.823 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3.B 解析：主语 my brother 是第三人称单数，一般现在时中动词用三单形式 eats",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 53.88, 323.014, 495.202, 360.063 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4.C 解析：一般疑问句的否定回答，主语 your sister 是第三人称单数，用 No, she doesn't",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 53.88, 275.254, 505.8, 312.424 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5.A 解析：usually 是频度副词，可修饰动词 have；is 和 does 不能与实义动词 have 连用",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 283,
+    "page number" : 9,
+    "bounding box" : [ 263.88, 53.784, 331.44, 63.751 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 27,
+      "page number" : 9,
+      "bounding box" : [ 263.88, 53.784, 331.44, 63.751 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "第 9 页 共 9 页"
+    } ]
+  } ]
+}

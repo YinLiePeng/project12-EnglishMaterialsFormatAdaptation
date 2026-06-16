@@ -1,0 +1,1716 @@
+{
+  "file name" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）.pdf",
+  "number of pages" : 8,
+  "author" : "追梦团队：17085053077",
+  "title" : "",
+  "creation date" : "D:20260413235423+08'00'",
+  "modification date" : "D:20260413235423+08'00'",
+  "kids" : [ {
+    "type" : "header",
+    "id" : 42,
+    "page number" : 1,
+    "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 25,
+      "page number" : 1,
+      "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+      "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile1.png"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 52,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 139.44, 745.966, 455.88, 765.9 ],
+    "heading level" : 1,
+    "font" : "SimHei",
+    "font size" : 18.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "2025-2026 学年八年级下册英语单元测试"
+  }, {
+    "type" : "image",
+    "id" : 51,
+    "page number" : 1,
+    "bounding box" : [ 405.12, 764.91, 405.84, 765.63 ],
+    "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile2.png"
+  }, {
+    "type" : "heading",
+    "id" : 53,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 254.64, 716.496, 340.56, 733.108 ],
+    "heading level" : 2,
+    "font" : "SimSun",
+    "font size" : 15.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Unit1·提升卷"
+  }, {
+    "type" : "heading",
+    "id" : 54,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 97.559, 690.864, 496.919, 704.153 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "学校:___________班级：___________姓名：___________分数：___________"
+  }, {
+    "type" : "image",
+    "id" : 55,
+    "page number" : 1,
+    "bounding box" : [ 496.92, 693.51, 497.64, 694.23 ],
+    "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile3.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 56,
+    "page number" : 1,
+    "bounding box" : [ 197.88, 668.4, 397.33, 679.972 ],
+    "font" : "KaiTi",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "（考试时间：90 分钟 试卷满分：100 分）"
+  }, {
+    "type" : "heading",
+    "id" : 57,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 54.12, 629.387, 495.844, 658.916 ],
+    "heading level" : 5,
+    "font" : "SimSun",
+    "font size" : 11.05,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "注意： 本卷试题均采用连续编号，所有答案务必按照规定在答题纸上完成，做在练习卷上不给分。"
+  }, {
+    "type" : "paragraph",
+    "id" : 58,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 573.84, 546.369, 605.753 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "一、语法选择(共 10 分) 根据短文内容，从 A、B、C 三个选项中选出一个语法正确的答案，并把答题卡上对应题目的答案标号涂黑。"
+  }, {
+    "type" : "paragraph",
+    "id" : 59,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 480.24, 541.171, 562.012 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "On the streets of France, people can often see a pretty Chinese girl. She is playing the guzheng 1 , wearing traditional Chinese hanfu. Her music sounds beautiful. And her performances are very popular 2 the people there. In their eyes, she is famous as a Transcultural Music Ambassador (跨文化音乐使者) there. The 3 name is Peng Jingxuan."
+  }, {
+    "type" : "paragraph",
+    "id" : 63,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 54.12, 410.04, 541.2, 468.412 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Peng was born in Huaihua, Hunan Province in 1995. She started to learn the guzheng at 4 age of seven. In 2017, Peng graduated ( 毕 业 ) from Wuhan Conservatory of Music. In 2018, she went to France to continue studying music by 5 ."
+  }, {
+    "type" : "paragraph",
+    "id" : 66,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 339.84, 541.148, 398.212 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "“ 6 I first came to study in France, I found street performances were very common, but few people were playing Chinese musical instruments (乐器). That’s why I took my guzheng to the streets,” said Peng. Many people watched her performance. 7 popular she was!"
+  }, {
+    "type" : "paragraph",
+    "id" : 69,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 269.64, 541.172, 328.012 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Since 2018, Peng 8 many countries around Europe to play the guzheng. She expects 9 the traditional Chinese music to more foreigners. “To get more people to know about it, understand it and love it ... is one of 10 wishes of Chinese artists,” she said."
+  }, {
+    "type" : "list",
+    "id" : 73,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 54.12, 82.44, 393.183, 257.812 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 8,
+    "next list id" : 76,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.12, 246.24, 390.102, 257.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．A．happy B．happily C．happiness",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.12, 222.84, 372.013, 234.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．A．with B．for C．about",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.12, 199.44, 370.305, 211.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．A．girl B．girls C．girl’s",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.12, 176.04, 361.509, 187.612 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4．A．a B．an C．the",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.12, 152.64, 366.224, 164.212 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5．A．her B．herself C．hers",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.12, 129.24, 383.707, 140.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6．A．When B．Though C．Because",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.12, 105.84, 369.104, 117.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7．A．What B．What a C．How",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.12, 82.44, 393.183, 94.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8．A．visits B．visited C．has visited",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 74,
+    "page number" : 1,
+    "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 17,
+      "page number" : 1,
+      "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+      "heading level" : 7,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 75,
+    "page number" : 2,
+    "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 26,
+      "page number" : 2,
+      "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+      "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile4.png"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 76,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 54.12, 732.84, 394.453, 767.812 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 73,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 756.24, 384.303, 767.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9．A．show B．to show C．showing",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 732.84, 394.453, 744.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10．A．big B．bigger C．the biggest",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 77,
+    "page number" : 2,
+    "bounding box" : [ 54.12, 640.15, 368.999, 671.153 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "二、选词填空(共 5 分) 阅读下面短文，从方框内的选项中选出可以填入空白处的最佳选项。"
+  }, {
+    "type" : "text block",
+    "id" : 78,
+    "page number" : 2,
+    "bounding box" : [ 47.79, 601.28, 377.36, 633.65 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 1,
+      "page number" : 2,
+      "bounding box" : [ 54.12, 611.4, 370.902, 622.972 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A．by hand B．sounds easy C． ask for help D．such as E. is famous"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 79,
+    "page number" : 2,
+    "bounding box" : [ 54.12, 560.04, 541.318, 595.012 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Different parts of China have their own special forms of traditional art, 11 sky lanterns, paper cutting, and Chinese clay art."
+  }, {
+    "type" : "paragraph",
+    "id" : 81,
+    "page number" : 2,
+    "bounding box" : [ 54.12, 489.84, 541.148, 548.212 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "According to Chinese history, Zhuge Kongming first used sky lanterns to 12 . But today they are used at festivals and other celebrations and are seen as symbols of happiness and good wishes. They are usually made of bamboo and covered with paper."
+  }, {
+    "type" : "paragraph",
+    "id" : 83,
+    "page number" : 2,
+    "bounding box" : [ 54.12, 396.24, 543.81, 478.012 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Paper cutting 13 , but it can be quite difficult. Chinese clay art 14 for its tiny figures that look very real. The figures usually show cute children or beloved characters from Chinese folk tales or history. They are carefully shaped 15 before drying. Then they are fired at a very high heat, polished and painted. It takes several weeks to complete everything."
+  }, {
+    "type" : "heading",
+    "id" : 87,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 54.12, 322.99, 233.289, 333.44 ],
+    "heading level" : 6,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "三、用单词的适当形式填空（共 8 分）"
+  }, {
+    "type" : "list",
+    "id" : 88,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 54.12, 138.84, 387.691, 314.212 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 8,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 302.64, 290.131, 314.212 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "16．By next year, he ________ (learn) art for ten years.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 279.24, 387.691, 290.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "17．The ________ (value) of art lies not only in its beauty but also in its spirit.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 255.84, 359.971, 267.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "18．The ________ (artist) works are on display in the national museum.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 232.44, 312.45, 244.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "19．The ________ (modern) of this art style is very obvious.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 209.04, 370.407, 220.612 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "20．The ________ (meaning) of this artwork is deeply thought-provoking.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 185.64, 338.13, 197.212 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "21．The ________ (skill) of the craftsman is admired by everyone.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 162.24, 334.05, 173.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "22．The art exhibition ________ (last) for two weeks next month.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 138.84, 369.81, 150.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "23．The ________ (culture) background of the art work is worth studying.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 89,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 54.12, 68.64, 327.959, 100.553 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "四、按要求填写句子，补全对话（每题 2 分，共 10 分） (Amy and Bob are talking about Zootopia 2 after school.)"
+  }, {
+    "type" : "footer",
+    "id" : 90,
+    "page number" : 2,
+    "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 18,
+      "page number" : 2,
+      "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+      "heading level" : 7,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 91,
+    "page number" : 3,
+    "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 27,
+      "page number" : 3,
+      "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+      "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile5.png"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 101,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 707.4, 344.851, 765.772 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 754.2, 337.318, 765.772 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A: Hi Bob! I watched Zootopia 2 last weekend. It’s really amazing!",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 707.4, 344.851, 742.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B: Hi Amy! I’ve been wanting to watch it, but I haven’t had the time. 24 ?（变特殊疑问句）",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 100,
+    "page number" : 3,
+    "bounding box" : [ 405.12, 764.91, 405.84, 765.63 ],
+    "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile6.png"
+  }, {
+    "type" : "list",
+    "id" : 103,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 637.2, 522.904, 695.572 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 660.6, 522.904, 695.572 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A: It’s about Judy and Nick—they help a snake named Gary who was tricked by bad animals, and together they save Zootopia.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 637.2, 450.847, 648.772 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B: That sounds interesting! 25 ?（对划线部分提问）",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 105,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 567.0, 536.944, 625.372 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 590.4, 536.944, 625.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A: It’s amazing because Judy and Nick had some conflicts at first, but they learned to listen to each other and work together.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 567.0, 346.927, 578.572 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B: 26 ?（对划线部分提问）",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 107,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 520.2, 528.237, 555.172 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 543.6, 528.237, 555.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A: My favorite part is when they sneak into the old factory to get evidence of the bad guys’ plan. It’s so thrilling!",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 520.2, 336.368, 531.772 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B: 27 ?（变一般疑问句）",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 109,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 473.4, 454.052, 508.372 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 496.8, 454.052, 508.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A: Yes, he does. Gary becomes a hero in the end—he helps fix the traffic system he messed up.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 473.4, 450.728, 484.972 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B: That’s so cool about Gary! 28 ?（变特殊疑问句）",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 111,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 403.2, 453.488, 461.572 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 450.0, 352.411, 461.572 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A: It’s about two hours long—just the right length for a cartoon movie.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 403.2, 453.488, 438.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B: Wow! I can’t wait to watch it. 29 ?（表提出建议） A: Sure! Let’s go to the cinema this Saturday afternoon.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 113,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 328.104, 173.436, 341.393 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "五、阅读理解 (共 20 分)"
+  }, {
+    "type" : "list",
+    "id" : 114,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 263.59, 541.084, 321.953 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "next list id" : 119,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 263.59, 541.084, 321.953 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A. (每题 2 分，共 10 分) A-F 分别是六位名人的简介。有五位想借阅名人传记书籍的同学，请为每位同学选择符合他们兴趣的名人简 介，以此帮助他们进一步了解相关信息。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "table",
+    "id" : 115,
+    "level" : "4",
+    "page number" : 3,
+    "bounding box" : [ 47.79, 83.68, 547.56, 257.1 ],
+    "number of rows" : 1,
+    "number of columns" : 2,
+    "next table id" : 118,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 48.15, 84.4, 282.85, 256.74 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "list",
+          "id" : 5,
+          "level" : "1",
+          "page number" : 3,
+          "bounding box" : [ 75.12, 94.44, 273.344, 246.412 ],
+          "numbering style" : "arabic numbers",
+          "number of list items" : 3,
+          "list items" : [ {
+            "type" : "list item",
+            "page number" : 3,
+            "bounding box" : [ 75.12, 234.84, 273.344, 246.412 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 10.45,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "30 Tom is curious about the universe. His",
+            "kids" : [ {
+              "type" : "paragraph",
+              "id" : 2,
+              "page number" : 3,
+              "bounding box" : [ 54.12, 188.04, 264.662, 223.012 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.45,
+              "text color" : "[0.0, 0.0, 0.0]",
+              "content" : "dream is to be a physicist. He wants to understand how the world works from now on."
+            } ]
+          }, {
+            "type" : "list item",
+            "page number" : 3,
+            "bounding box" : [ 75.12, 164.64, 266.948, 176.212 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 10.45,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "31 Linda loves reading and writing. She",
+            "kids" : [ {
+              "type" : "paragraph",
+              "id" : 4,
+              "page number" : 3,
+              "bounding box" : [ 54.12, 117.84, 264.669, 152.812 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.45,
+              "text color" : "[0.0, 0.0, 0.0]",
+              "content" : "dreams of creating her own stories and poems one day and wants to learn from the best."
+            } ]
+          }, {
+            "type" : "list item",
+            "page number" : 3,
+            "bounding box" : [ 75.12, 94.44, 254.224, 106.012 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 10.45,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "32 David believes good qualities and",
+            "kids" : [ ]
+          } ]
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 282.85, 84.4, 547.2, 256.74 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "list",
+          "id" : 9,
+          "level" : "1",
+          "page number" : 3,
+          "bounding box" : [ 316.8, 94.44, 541.2, 246.412 ],
+          "numbering style" : "english letters",
+          "number of list items" : 3,
+          "list items" : [ {
+            "type" : "list item",
+            "page number" : 3,
+            "bounding box" : [ 316.8, 234.84, 541.093, 246.412 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 10.45,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "A．Charlie Chaplin-A great comic actor who brought",
+            "kids" : [ {
+              "type" : "paragraph",
+              "id" : 7,
+              "page number" : 3,
+              "bounding box" : [ 288.84, 188.04, 541.063, 223.012 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.45,
+              "text color" : "[0.0, 0.0, 0.0]",
+              "content" : "people laughter without saying a word in the film. His humor helped people go through hard times."
+            } ]
+          }, {
+            "type" : "list item",
+            "page number" : 3,
+            "bounding box" : [ 316.8, 164.64, 541.2, 176.212 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 10.45,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "B．Albert Einstein-One of the greatest scientists of",
+            "kids" : [ {
+              "type" : "paragraph",
+              "id" : 8,
+              "page number" : 3,
+              "bounding box" : [ 288.84, 117.84, 541.148, 152.812 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.45,
+              "text color" : "[0.0, 0.0, 0.0]",
+              "content" : "the 20th century. His theories help us understand how the universe works."
+            } ]
+          }, {
+            "type" : "list item",
+            "page number" : 3,
+            "bounding box" : [ 316.8, 94.44, 541.143, 106.012 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 10.45,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "C ． Confucius-An ancient Chinese teacher and",
+            "kids" : [ ]
+          } ]
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 116,
+    "page number" : 3,
+    "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 19,
+      "page number" : 3,
+      "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+      "heading level" : 7,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 117,
+    "page number" : 4,
+    "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 28,
+      "page number" : 4,
+      "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+      "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile7.png"
+    } ]
+  }, {
+    "type" : "table",
+    "id" : 118,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 47.79, 507.68, 547.56, 774.05 ],
+    "number of rows" : 1,
+    "number of columns" : 2,
+    "previous table id" : 115,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 48.15, 508.4, 282.85, 773.69 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 3,
+          "page number" : 4,
+          "bounding box" : [ 54.12, 728.4, 272.229, 763.372 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "moral values are very important. He is looking for a role model who taught about life and wisdom."
+        }, {
+          "type" : "list",
+          "id" : 4,
+          "page number" : 4,
+          "bounding box" : [ 75.12, 634.8, 274.384, 716.572 ],
+          "numbering style" : "arabic numbers",
+          "number of list items" : 2,
+          "list items" : [ {
+            "type" : "list item",
+            "page number" : 4,
+            "bounding box" : [ 75.12, 705.0, 274.384, 716.572 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 10.45,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "33 Sarah enjoys making people laugh and",
+            "kids" : [ {
+              "type" : "paragraph",
+              "id" : 2,
+              "page number" : 4,
+              "bounding box" : [ 54.12, 658.2, 253.919, 693.172 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.45,
+              "text color" : "[0.0, 0.0, 0.0]",
+              "content" : "is a fan of silent movies. She hopes to share her humor by expressing herself."
+            } ]
+          }, {
+            "type" : "list item",
+            "page number" : 4,
+            "bounding box" : [ 75.12, 634.8, 266.37, 646.372 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 10.45,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "34 Kevin is very interested in medicine.",
+            "kids" : [ ]
+          } ]
+        }, {
+          "type" : "paragraph",
+          "id" : 6,
+          "page number" : 4,
+          "bounding box" : [ 54.12, 588.0, 258.341, 622.972 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "He wants to learn how ancient medical scientists helped sick people."
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 282.85, 508.4, 547.2, 773.69 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 8,
+          "page number" : 4,
+          "bounding box" : [ 288.84, 728.4, 541.148, 763.372 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "philosopher. He spent his life teaching and sharing wise ideas about life and learning."
+        }, {
+          "type" : "paragraph",
+          "id" : 9,
+          "page number" : 4,
+          "bounding box" : [ 288.84, 658.2, 541.213, 716.572 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "D．Li Shizhen-A great medical scientist from ancient China. After years of medical research, he wrote Ben Cao Gang Mu to help and save people."
+        }, {
+          "type" : "list",
+          "id" : 10,
+          "page number" : 4,
+          "bounding box" : [ 316.8, 564.6, 541.214, 646.372 ],
+          "numbering style" : "english letters",
+          "number of list items" : 2,
+          "list items" : [ {
+            "type" : "list item",
+            "page number" : 4,
+            "bounding box" : [ 316.8, 634.8, 541.027, 646.372 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 10.45,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "E. Jane Goodall-A famous expert on animals. She",
+            "kids" : [ {
+              "type" : "paragraph",
+              "id" : 7,
+              "page number" : 4,
+              "bounding box" : [ 288.84, 588.0, 541.048, 622.972 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.45,
+              "text color" : "[0.0, 0.0, 0.0]",
+              "content" : "lived in the forest to study and protect chimpanzees, showing us how to respect animals and nature."
+            } ]
+          }, {
+            "type" : "list item",
+            "page number" : 4,
+            "bounding box" : [ 316.8, 564.6, 541.214, 576.172 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 10.45,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "F. William Shakespeare-A great playwright and poet",
+            "kids" : [ ]
+          } ]
+        }, {
+          "type" : "paragraph",
+          "id" : 11,
+          "page number" : 4,
+          "bounding box" : [ 288.84, 517.8, 541.063, 552.772 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "who wrote over 30 plays and hundreds of poems. His stories teach us about human nature."
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 119,
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 54.12, 419.64, 541.148, 455.513 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "previous list id" : 114,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 54.12, 419.64, 541.148, 455.513 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B.根据短文内容选择最恰当的答案。 (每题 2 分，共 10 分) When we think of art, we probably think of painting a picture on strong cloth or special paper, even on the",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 120,
+    "page number" : 4,
+    "bounding box" : [ 54.12, 396.24, 382.17, 407.812 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "walls of a city. However, in many cultures, people paint on their faces instead."
+  }, {
+    "type" : "paragraph",
+    "id" : 121,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 82.2, 349.44, 541.064, 384.412 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "①______ In fact, face painting may be the very first form of art. Painted faces are in different colors and patterns. This"
+  }, {
+    "type" : "paragraph",
+    "id" : 122,
+    "page number" : 4,
+    "bounding box" : [ 54.12, 302.64, 541.062, 337.612 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "has been part of people’s traditions for thousands of years. The way that people painted their faces can tell stories and lessons from the past."
+  }, {
+    "type" : "paragraph",
+    "id" : 123,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 82.2, 255.84, 541.144, 290.812 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "②______ People still paint their faces for lots of reasons. Patterns on faces connect people to a tribal (部落的) family"
+  }, {
+    "type" : "paragraph",
+    "id" : 124,
+    "page number" : 4,
+    "bounding box" : [ 54.12, 209.04, 541.148, 244.012 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "and can show who is the most important in the family. For fighters, it is a way to make their enemies afraid. Face painting is also used in many ceremonies and special celebrations."
+  }, {
+    "type" : "paragraph",
+    "id" : 125,
+    "page number" : 4,
+    "bounding box" : [ 82.2, 162.24, 541.092, 197.212 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "How is face painting important in theater? Face painting was important in ancient Japanese and Chinese ceremonies. It was also used in traditional"
+  }, {
+    "type" : "paragraph",
+    "id" : 126,
+    "page number" : 4,
+    "bounding box" : [ 54.12, 115.44, 541.145, 150.412 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "theaters to change the actors’ roles. Actors in those countries still wear white, black, and red face paint today to show feelings and make the bad people look dramatic (戏剧性的) and awful."
+  }, {
+    "type" : "paragraph",
+    "id" : 127,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 82.2, 68.64, 541.028, 103.612 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "③______ Tribal people make face paint from the natural colors in plants and earth. Plant parts are used to make"
+  }, {
+    "type" : "footer",
+    "id" : 128,
+    "page number" : 4,
+    "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 20,
+      "page number" : 4,
+      "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+      "heading level" : 7,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 129,
+    "page number" : 5,
+    "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 29,
+      "page number" : 5,
+      "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+      "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile8.png"
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 139,
+    "page number" : 5,
+    "bounding box" : [ 54.12, 708.19, 541.023, 765.772 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "different colorings. The ingredients are dried over a fire and then made into a powder (粉末). This is then mixed with animal fat. 阅读以上材料，根据其内容回答其后各个小题。"
+  }, {
+    "type" : "image",
+    "id" : 138,
+    "page number" : 5,
+    "bounding box" : [ 405.12, 764.91, 405.84, 765.63 ],
+    "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile9.png"
+  }, {
+    "type" : "list",
+    "id" : 140,
+    "level" : "2",
+    "page number" : 5,
+    "bounding box" : [ 54.12, 239.4, 377.85, 695.572 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "next list id" : 158,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.12, 684.0, 201.09, 695.572 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "35．Match the title with each part.",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 33,
+        "level" : "3",
+        "page number" : 5,
+        "bounding box" : [ 54.12, 567.0, 346.989, 672.172 ],
+        "numbering style" : "english letters",
+        "number of list items" : 3,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 5,
+          "bounding box" : [ 54.12, 660.6, 147.068, 672.172 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "a. Is face painting art?",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 5,
+          "bounding box" : [ 54.12, 637.2, 193.028, 648.772 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "b. Why do they paint their faces?",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 5,
+          "bounding box" : [ 54.12, 567.0, 346.989, 625.372 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "c. Where does the paint come from? A．①-a, ②-b, ③-c B．①-b, ②-a, ③-c C．①-a, ②-c, ③-b D．①-b, ②-c, ③-a",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.12, 496.8, 377.85, 555.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "36．How long has face painting been part of people’s traditions? A．For a few years. B．For three centuries. C．For about 100 years. D．For thousands of years.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.12, 426.6, 347.25, 484.972 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "37．Why did fighters paint their faces when they fought? A．To look friendly. B．To look scary. C．To look proud. D．To look painful.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.12, 403.2, 243.547, 414.772 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "38．What can we know about face painting?",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 34,
+        "level" : "4",
+        "page number" : 5,
+        "bounding box" : [ 73.2, 309.6, 323.131, 391.372 ],
+        "numbering style" : "english letters",
+        "number of list items" : 4,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 5,
+          "bounding box" : [ 73.2, 379.8, 274.892, 391.372 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "A．Painting on the walls is the first form of art.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 5,
+          "bounding box" : [ 73.2, 356.4, 286.29, 367.972 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "B．Animal fat is used to make different colorings.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 5,
+          "bounding box" : [ 73.2, 333.0, 312.811, 344.572 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "C．Patterns on faces can show people’s ages in a family.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 5,
+          "bounding box" : [ 73.2, 309.6, 323.131, 321.172 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "D．Face paint in colors can show actors’ feelings in China.",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.12, 239.4, 362.023, 297.772 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "39．Which of the following can be the best title? A．Face Art B．Traditional Painters C．Wall Paintings D．Tribal Celebrations",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 141,
+    "page number" : 5,
+    "bounding box" : [ 54.12, 177.0, 469.08, 208.793 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "六、完形填空(共 12 分) Choose the words or expressions and complete the passage (选择最恰当的单词或短语完成短文)"
+  }, {
+    "type" : "paragraph",
+    "id" : 142,
+    "page number" : 5,
+    "bounding box" : [ 213.959, 153.6, 381.223, 165.172 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The History and Future of Comic Strips"
+  }, {
+    "type" : "paragraph",
+    "id" : 143,
+    "page number" : 5,
+    "bounding box" : [ 54.12, 83.4, 541.182, 141.772 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Have you ever read a comic strip in a newspaper or online? You know, those funny little stories with pictures and speech bubbles? They might seem simple, but comic strips have a rich history and a bright future. Let’s dive into their story and see how they have 40 over time!"
+  }, {
+    "type" : "footer",
+    "id" : 145,
+    "page number" : 5,
+    "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 21,
+      "page number" : 5,
+      "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+      "heading level" : 7,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 146,
+    "page number" : 6,
+    "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 30,
+      "page number" : 6,
+      "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+      "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile10.png"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 147,
+    "page number" : 6,
+    "bounding box" : [ 54.12, 709.44, 541.144, 767.812 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Comic strips started over a century ago. At first, they were short, funny stories in newspapers. People loved them because they were easy to read and made them laugh. Early comic strips often had regular 41 who often got into silly situations. These strips became so popular that they helped sell more newspapers."
+  }, {
+    "type" : "paragraph",
+    "id" : 149,
+    "page number" : 6,
+    "bounding box" : [ 54.12, 639.24, 541.148, 697.612 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "As time went on, comic strips changed gradually. They weren’t just funny anymore. Some told 42 stories or explored deep themes. Artists experimented with different styles, and new characters were created. Comic strips became a way to entertain people, share ideas and even express opinions on society."
+  }, {
+    "type" : "paragraph",
+    "id" : 151,
+    "page number" : 6,
+    "bounding box" : [ 54.12, 545.64, 541.214, 627.412 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "However, in recent years, the comic strip market has become weaker. Fewer people read newspapers, which used to be the main home for comic strips. Many newspapers have reduced the 43 for comics or stopped printing them at all. This has made it harder for artists to earn money from their work. Some people worry that traditional comic strips might disappear, replaced by faster, shorter forms of entertainment like videos."
+  }, {
+    "type" : "paragraph",
+    "id" : 153,
+    "page number" : 6,
+    "bounding box" : [ 54.12, 475.44, 541.093, 533.812 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "But don’t worry! Comic strips are still alive! Today, they’ve found a new home. Many artists create digital comic strips and share them 44 . This has made comic strips easier to find than ever. People from all over the world can enjoy them with just a click."
+  }, {
+    "type" : "paragraph",
+    "id" : 155,
+    "page number" : 6,
+    "bounding box" : [ 54.12, 405.24, 541.148, 463.612 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "What about the future? Comic strips will likely keep changing. With new technology, we might see more interactive comic strips. Readers can click or swipe to create the story. Some artists use AI to bring their strips to life. The 45 are endless!"
+  }, {
+    "type" : "paragraph",
+    "id" : 157,
+    "page number" : 6,
+    "bounding box" : [ 54.12, 358.44, 541.199, 393.412 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "So, whether you’re a longtime fan or new to comic strips, there’s something for everyone. What’s your favorite comic strip? Let me know. I’d love to hear about it!"
+  }, {
+    "type" : "list",
+    "id" : 158,
+    "level" : "2",
+    "page number" : 6,
+    "bounding box" : [ 54.12, 218.04, 434.022, 346.612 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 6,
+    "previous list id" : 140,
+    "next list id" : 176,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.12, 335.04, 410.104, 346.612 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "40．A．developed B．appeared C．succeeded D．linked",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.12, 311.64, 420.583, 323.212 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "41．A．enemies B．readers C．characters D．directors",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.12, 288.24, 420.012, 299.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "42．A．amusing B．serious C．creative D．essential",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.12, 264.84, 407.144, 276.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "43．A．cost B．waste C．space D．stress",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.12, 241.44, 425.533, 253.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "44．A．on the internet B．through magazines C．on TV D．by E-mail",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.12, 218.04, 434.022, 229.612 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "45．A．responsibilitiesB．celebrations C．discussions D．possibilities",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 159,
+    "page number" : 6,
+    "bounding box" : [ 54.12, 125.35, 295.562, 156.353 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "七、任务型阅读(共 10 分) 请认真阅读下面的短文，并根据短文内容回答问题。"
+  }, {
+    "type" : "footer",
+    "id" : 160,
+    "page number" : 6,
+    "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 22,
+      "page number" : 6,
+      "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+      "heading level" : 7,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 161,
+    "page number" : 7,
+    "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 31,
+      "page number" : 7,
+      "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+      "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile11.png"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 171,
+    "page number" : 7,
+    "bounding box" : [ 54.12, 682.35, 123.84, 768.63 ],
+    "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile12.png"
+  }, {
+    "type" : "image",
+    "id" : 170,
+    "page number" : 7,
+    "bounding box" : [ 405.12, 764.91, 405.84, 765.63 ],
+    "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile13.png"
+  }, {
+    "type" : "caption",
+    "id" : 172,
+    "page number" : 7,
+    "bounding box" : [ 54.12, 590.4, 541.289, 672.172 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Fengxiang clay figurines are a well-known form of traditional Chinese folk art from Fengxiang County, Shaanxi Province. With a history of thousands of years—dating back to the Neolithic Age, these vivid and colorful sculptures are not only works of art but also an important symbol of Shaanxi’s rich culture, deeply loved by people both at home and abroad."
+  }, {
+    "type" : "paragraph",
+    "id" : 173,
+    "page number" : 7,
+    "bounding box" : [ 54.12, 496.8, 541.145, 578.572 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "In the early days, local people used clay to make simple daily tools and objects for worship. As pottery-making skills continued to develop, the art of clay figurine-making slowly took shape. It finally reached its golden age during the Ming and Qing dynasties, becoming popular among common people and widely used in festivals, weddings and other important events to bring joy and good wishes."
+  }, {
+    "type" : "paragraph",
+    "id" : 174,
+    "page number" : 7,
+    "bounding box" : [ 54.12, 379.8, 541.29, 484.972 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Their production process is complex and needs great patience. First, artisans choose high-quality local clay. Next, they knead, pound and filter it to take out impurities (杂质). Then, they shape the clay into lively forms like tigers and historical characters by hand or simple tools. After that, the shaped clay goes through natural drying and high-temperature firing. Finally, the most important step—painting—is carried out, with bold, bright colors to create strong visual contrast."
+  }, {
+    "type" : "paragraph",
+    "id" : 175,
+    "page number" : 7,
+    "bounding box" : [ 54.12, 286.2, 541.094, 367.972 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "These clay figurines carry deep cultural meanings. For example, tiger-shaped figurines are believed to drive off evil spirits and bring good luck to families. To protect this valuable traditional art, the local government has set up training centres to teach young people the making skills, while some young artisans are trying new things through mixing traditional styles with modern designs to attract more young people."
+  }, {
+    "type" : "list",
+    "id" : 176,
+    "level" : "2",
+    "page number" : 7,
+    "bounding box" : [ 54.12, 75.6, 469.927, 274.372 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "previous list id" : 158,
+    "next list id" : 181,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.12, 262.8, 253.148, 274.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "46．Where are Fengxiang clay figurines from?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.12, 216.0, 321.668, 227.572 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "47．When did Fengxiang clay figurines enter their golden age?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.12, 169.2, 345.906, 180.772 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "48．How many steps are required to make Fengxiang clay figurines?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.12, 122.4, 378.306, 133.972 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "49．What does the local government do to protect Fengxiang clay figurines?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.12, 75.6, 469.927, 87.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "50．How can you keep traditional arts like Fengxiang clay figurines alive? （自拟一句话回答）",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 177,
+    "page number" : 7,
+    "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 23,
+      "page number" : 7,
+      "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+      "heading level" : 7,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 178,
+    "page number" : 8,
+    "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 32,
+      "page number" : 8,
+      "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+      "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile14.png"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 181,
+    "level" : "2",
+    "page number" : 8,
+    "bounding box" : [ 54.12, 640.15, 536.163, 694.553 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 176,
+    "list items" : [ {
+      "type" : "list item",
+      "id" : 180,
+      "page number" : 8,
+      "bounding box" : [ 54.12, 681.264, 167.436, 694.553 ],
+      "font" : "SimSun",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "八、书面表达(共 25 分)",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 640.15, 536.163, 674.212 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "51．你们学校的英语俱乐部正在举办题为“Art Helps Me Grow”的征文活动。假如你是王林，根据以下内容 提示，写一篇短文投稿。要点如下：",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 182,
+    "level" : "2",
+    "page number" : 8,
+    "bounding box" : [ 54.12, 546.55, 329.371, 627.412 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 615.84, 204.692, 627.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. A teenage problem you once had.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 592.44, 329.371, 604.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. An art form you tried, and how it helped you with the problem.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 546.55, 253.048, 580.612 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. What you have learned from this experience. 注意事项：",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 183,
+    "level" : "2",
+    "page number" : 8,
+    "bounding box" : [ 54.12, 452.04, 371.639, 533.812 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 522.24, 371.639, 533.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. 短文内容须根据以上要点自拟，语句通顺、意义连贯、符合题意；",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 498.84, 279.725, 510.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. 词数不少于 90，开头已给出，不计入总词数；",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 452.04, 339.704, 487.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. 短文中不得出现真实人名、校名等个人信息。 Art Helps Me Grow",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 184,
+    "page number" : 8,
+    "bounding box" : [ 54.12, 428.64, 355.29, 440.212 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Hey, there! I’m Wang Lin. I’d like to share my story about art with you."
+  }, {
+    "type" : "paragraph",
+    "id" : 185,
+    "page number" : 8,
+    "bounding box" : [ 54.12, 311.64, 537.151, 416.812 ],
+    "font" : "TimesNewRomanPS-ItalicMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "____________________________________________________________________________________________ ____________________________________________________________________________________________ ____________________________________________________________________________________________ ____________________________________________________________________________________________ ____________________________________________________________________________________________"
+  }, {
+    "type" : "footer",
+    "id" : 186,
+    "page number" : 8,
+    "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 24,
+      "page number" : 8,
+      "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+      "heading level" : 7,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8 / 8"
+    } ]
+  } ]
+}

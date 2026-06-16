@@ -1,0 +1,1833 @@
+{
+  "file name" : "Unit 1 Everyone is different 重点语法：一般将来时（will）和指示代词精讲精练（原卷版）.pdf",
+  "number of pages" : 6,
+  "author" : "追梦团队：17085053077",
+  "title" : "",
+  "creation date" : "D:20260413235420+08'00'",
+  "modification date" : "D:20260413235420+08'00'",
+  "kids" : [ {
+    "type" : "header",
+    "id" : 51,
+    "page number" : 1,
+    "bounding box" : [ 130.2, 787.39, 464.996, 797.84 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 19,
+      "page number" : 1,
+      "bounding box" : [ 130.2, 787.39, 464.996, 797.84 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[1.0, 0.0, 0.0]",
+      "content" : "2025-2026 学年一线教师制作新教材英语同步精品系列资料，名师遴选！"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 62,
+    "page number" : 1,
+    "bounding box" : [ 56.64, 767.888, 405.52, 779.36 ],
+    "font" : "Calibri-Bold",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 1.0]",
+    "content" : "学校:___________姓名：___________班级：___________考号：___________"
+  }, {
+    "type" : "image",
+    "id" : 61,
+    "page number" : 1,
+    "bounding box" : [ 407.76, 774.87, 408.48, 775.59 ],
+    "source" : "Unit 1 Everyone is different 重点语法：一般将来时（will）和指示代词精讲精练（原卷版）_images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "id" : 63,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 203.159, 725.891, 392.189, 743.554 ],
+    "heading level" : 1,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 15.95,
+    "text color" : "[0.0, 0.0, 1.0]",
+    "content" : "Unit 1 Everyone is different"
+  }, {
+    "type" : "heading",
+    "id" : 64,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 127.92, 695.255, 467.278, 711.867 ],
+    "heading level" : 2,
+    "font" : "SimSun",
+    "font size" : 15.0,
+    "text color" : "[0.0, 0.0, 1.0]",
+    "content" : "重点语法：一般将来时（will）和指示代词精讲精练"
+  }, {
+    "type" : "image",
+    "id" : 65,
+    "page number" : 1,
+    "bounding box" : [ 56.76, 661.47, 522.6, 683.91 ],
+    "source" : "Unit 1 Everyone is different 重点语法：一般将来时（will）和指示代词精讲精练（原卷版）_images/imageFile2.png"
+  }, {
+    "type" : "caption",
+    "id" : 67,
+    "page number" : 1,
+    "bounding box" : [ 287.04, 640.15, 308.049, 650.6 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "目录"
+  }, {
+    "type" : "paragraph",
+    "id" : 69,
+    "page number" : 1,
+    "bounding box" : [ 56.64, 569.16, 472.025, 627.532 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "语法知识精讲.................................................................................................................................... 1 一、一般将来时（will）知识精讲..........................................................................................1 二、指示代词知识精讲............................................................................................................2"
+  }, {
+    "type" : "paragraph",
+    "id" : 73,
+    "page number" : 1,
+    "bounding box" : [ 56.64, 452.16, 472.025, 557.332 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "语法知识精练.................................................................................................................................... 2 题型一：一般将来时 will.........................................................................................................2 题型二：一般将来时 will 和 be going to 区别.......................................................................3 题型三：指示代词 this/these...................................................................................................4 题型四：指示代词 that/those..................................................................................................5"
+  }, {
+    "type" : "image",
+    "id" : 78,
+    "page number" : 1,
+    "bounding box" : [ 56.76, 419.67, 522.6, 442.95 ],
+    "source" : "Unit 1 Everyone is different 重点语法：一般将来时（will）和指示代词精讲精练（原卷版）_images/imageFile3.png"
+  }, {
+    "type" : "caption",
+    "id" : 80,
+    "page number" : 1,
+    "bounding box" : [ 255.48, 392.684, 339.849, 406.734 ],
+    "font" : "SimSun",
+    "font size" : 14.05,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "语法知识精讲"
+  }, {
+    "type" : "paragraph",
+    "id" : 81,
+    "page number" : 1,
+    "bounding box" : [ 56.64, 345.201, 261.369, 361.179 ],
+    "font" : "DengXian-Bold",
+    "font size" : 14.05,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "一、一般将来时（will）知识精讲"
+  }, {
+    "type" : "table",
+    "id" : 82,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 84.36, 77.72, 510.99, 330.9 ],
+    "number of rows" : 5,
+    "number of columns" : 2,
+    "next table id" : 86,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 84.6, 299.41, 152.0, 330.66 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 1,
+          "page number" : 1,
+          "bounding box" : [ 107.28, 308.746, 129.37, 319.796 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "项目"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 152.0, 299.41, 510.75, 330.66 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 2,
+          "page number" : 1,
+          "bounding box" : [ 320.28, 308.746, 342.37, 319.796 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "内容"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 84.6, 268.11, 152.0, 299.41 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 3,
+          "page number" : 1,
+          "bounding box" : [ 107.28, 277.546, 129.37, 288.596 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "概念"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 152.0, 268.11, 510.75, 299.41 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 4,
+          "page number" : 1,
+          "bounding box" : [ 158.04, 277.546, 323.168, 288.596 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "表示将来发生的动作、情况或打算"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 84.6, 236.86, 152.0, 268.11 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 5,
+          "page number" : 1,
+          "bounding box" : [ 90.72, 246.227, 145.929, 257.277 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "时间标志词"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 152.0, 236.86, 510.75, 268.11 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 6,
+          "page number" : 1,
+          "bounding box" : [ 158.04, 245.51, 431.889, 257.747 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "tomorrow, next week/year, soon, in the future, in + 一段时间"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 84.6, 144.81, 152.0, 236.86 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 7,
+          "page number" : 1,
+          "bounding box" : [ 96.24, 184.666, 140.41, 195.716 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "基本结构"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 152.0, 144.81, 510.75, 236.86 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 8,
+          "page number" : 1,
+          "bounding box" : [ 158.04, 153.47, 405.97, 226.427 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "肯定句：主语 + will + 动词原形 + 其他 否定句：主语 + will not (won’t) + 动词原形 + 其他 一般疑问句：Will + 主语 + 动词原形 + 其他？ 回答：Yes, 主语 + will. / No, 主语 + won’t."
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 84.6, 78.2, 152.0, 144.81 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 9,
+          "page number" : 1,
+          "bounding box" : [ 107.28, 105.106, 129.37, 116.156 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "例句"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 152.0, 78.2, 510.75, 144.81 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "list",
+          "id" : 10,
+          "level" : "1",
+          "page number" : 1,
+          "bounding box" : [ 158.04, 85.67, 319.2, 135.107 ],
+          "numbering style" : "arabic numbers",
+          "number of list items" : 3,
+          "list items" : [ {
+            "type" : "list item",
+            "page number" : 1,
+            "bounding box" : [ 158.04, 122.87, 288.72, 135.107 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 11.05,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "1. I will go to park tomorrow.",
+            "kids" : [ ]
+          }, {
+            "type" : "list item",
+            "page number" : 1,
+            "bounding box" : [ 158.04, 104.27, 319.2, 116.507 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 11.05,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "2. She won’t watch TV this evening.",
+            "kids" : [ ]
+          }, {
+            "type" : "list item",
+            "page number" : 1,
+            "bounding box" : [ 158.04, 85.67, 306.694, 97.907 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 11.05,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "3. Will you come to school early?",
+            "kids" : [ ]
+          } ]
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 83,
+    "page number" : 1,
+    "bounding box" : [ 193.8, 52.511, 538.62, 64.161 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 13,
+      "page number" : 1,
+      "bounding box" : [ 193.8, 52.511, 538.62, 64.161 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[1.0, 0.0, 0.0]",
+      "content" : "同步新教材，周周有练习，月月有重点！ 1"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 84,
+    "page number" : 2,
+    "bounding box" : [ 130.2, 787.39, 464.996, 797.84 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 20,
+      "page number" : 2,
+      "bounding box" : [ 130.2, 787.39, 464.996, 797.84 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[1.0, 0.0, 0.0]",
+      "content" : "2025-2026 学年一线教师制作新教材英语同步精品系列资料，名师遴选！"
+    } ]
+  }, {
+    "type" : "table",
+    "id" : 86,
+    "level" : "1",
+    "page number" : 2,
+    "bounding box" : [ 84.36, 680.52, 510.99, 784.05 ],
+    "number of rows" : 2,
+    "number of columns" : 2,
+    "previous table id" : 82,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 84.6, 752.56, 152.0, 783.81 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 1,
+          "page number" : 2,
+          "bounding box" : [ 107.28, 761.866, 129.37, 772.916 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "项目"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 152.0, 752.56, 510.75, 783.81 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 2,
+          "page number" : 2,
+          "bounding box" : [ 320.28, 761.866, 342.37, 772.916 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "内容"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 84.6, 681.0, 152.0, 752.56 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 3,
+          "page number" : 2,
+          "bounding box" : [ 107.28, 710.506, 129.37, 721.556 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "用法"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 152.0, 681.0, 510.75, 752.56 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "list",
+          "id" : 4,
+          "page number" : 2,
+          "bounding box" : [ 158.04, 689.39, 281.768, 742.067 ],
+          "numbering style" : "arabic numbers",
+          "number of list items" : 3,
+          "list items" : [ {
+            "type" : "list item",
+            "page number" : 2,
+            "bounding box" : [ 158.04, 729.83, 281.768, 742.067 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 11.05,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "1. 表示将来要发生的动作",
+            "kids" : [ ]
+          }, {
+            "type" : "list item",
+            "page number" : 2,
+            "bounding box" : [ 158.04, 709.67, 270.728, 721.907 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 11.05,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "2. 表示临时做出的决定",
+            "kids" : [ ]
+          }, {
+            "type" : "list item",
+            "page number" : 2,
+            "bounding box" : [ 158.04, 689.39, 248.769, 701.627 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 11.05,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "3. 表示预测、猜想",
+            "kids" : [ ]
+          } ]
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 87,
+    "level" : "Doctitle",
+    "page number" : 2,
+    "bounding box" : [ 56.64, 640.817, 217.187, 656.767 ],
+    "heading level" : 1,
+    "font" : "SimSun",
+    "font size" : 15.95,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "二、指示代词知识精讲"
+  }, {
+    "type" : "table",
+    "id" : 88,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 84.36, 385.32, 510.99, 627.3 ],
+    "number of rows" : 4,
+    "number of columns" : 5,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 84.6, 595.76, 129.75, 627.06 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 5,
+          "page number" : 2,
+          "bounding box" : [ 96.12, 605.146, 118.21, 616.196 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "分类"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 129.75, 595.76, 260.9, 627.06 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 6,
+          "page number" : 2,
+          "bounding box" : [ 184.2, 605.146, 206.29, 616.196 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "单数"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 260.9, 595.76, 341.0, 627.06 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 7,
+          "page number" : 2,
+          "bounding box" : [ 289.92, 605.146, 312.01, 616.196 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "复数"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 341.0, 595.76, 418.2, 627.06 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 8,
+          "page number" : 2,
+          "bounding box" : [ 368.52, 605.146, 390.61, 616.196 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "用法"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 418.2, 595.76, 510.75, 627.06 ],
+        "row number" : 1,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 9,
+          "page number" : 2,
+          "bounding box" : [ 453.359, 605.146, 475.449, 616.196 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "例句"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 84.6, 540.86, 129.75, 595.76 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 10,
+          "page number" : 2,
+          "bounding box" : [ 90.6, 562.066, 112.69, 573.116 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "近指"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 129.75, 540.86, 260.9, 595.76 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 11,
+          "page number" : 2,
+          "bounding box" : [ 135.72, 561.351, 195.608, 573.588 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "this（这个）"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 260.9, 540.86, 341.0, 595.76 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 12,
+          "page number" : 2,
+          "bounding box" : [ 266.88, 561.351, 333.489, 573.588 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "these（这些）"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 341.0, 540.86, 418.2, 595.76 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 13,
+          "page number" : 2,
+          "bounding box" : [ 347.04, 554.987, 402.13, 580.316 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "指代近处的 人或物"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 418.2, 540.86, 510.75, 595.76 ],
+        "row number" : 2,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 14,
+          "page number" : 2,
+          "bounding box" : [ 424.2, 548.63, 491.493, 586.188 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "This is a book.These are pens."
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 84.6, 485.91, 129.75, 540.86 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 15,
+          "page number" : 2,
+          "bounding box" : [ 90.6, 507.106, 112.69, 518.156 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "远指"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 129.75, 485.91, 260.9, 540.86 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 16,
+          "page number" : 2,
+          "bounding box" : [ 135.72, 506.391, 196.208, 518.628 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "that（那个）"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 260.9, 485.91, 341.0, 540.86 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 17,
+          "page number" : 2,
+          "bounding box" : [ 266.88, 506.391, 334.089, 518.628 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "those（那些）"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 341.0, 485.91, 418.2, 540.86 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 18,
+          "page number" : 2,
+          "bounding box" : [ 347.04, 500.026, 402.13, 525.356 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "指代远处的 人或物"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 418.2, 485.91, 510.75, 540.86 ],
+        "row number" : 3,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 19,
+          "page number" : 2,
+          "bounding box" : [ 424.2, 493.67, 486.574, 531.228 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "That is a tree.Those are birds."
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 84.6, 385.8, 129.75, 485.91 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 20,
+          "page number" : 2,
+          "bounding box" : [ 90.6, 429.466, 123.73, 440.516 ],
+          "font" : "SimSun",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "注意点"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 129.75, 385.8, 260.9, 485.91 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "list",
+          "id" : 21,
+          "level" : "1",
+          "page number" : 2,
+          "bounding box" : [ 135.72, 394.19, 254.89, 475.427 ],
+          "numbering style" : "arabic numbers",
+          "number of list items" : 3,
+          "list items" : [ {
+            "type" : "list item",
+            "page number" : 2,
+            "bounding box" : [ 135.72, 463.19, 254.89, 475.427 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 11.05,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "1. 介绍某人用：This is…",
+            "kids" : [ ]
+          }, {
+            "type" : "list item",
+            "page number" : 2,
+            "bounding box" : [ 135.72, 414.47, 254.89, 455.147 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 11.05,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "2. 电话用语：This is… （我是…）；Is that…?（你 是… 吗？）",
+            "kids" : [ ]
+          }, {
+            "type" : "list item",
+            "page number" : 2,
+            "bounding box" : [ 135.72, 394.19, 254.649, 406.427 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 11.05,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "3. 回答时用 it/they 代替",
+            "kids" : [ ]
+          } ]
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 260.9, 385.8, 341.0, 485.91 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 22,
+          "level" : "1",
+          "page number" : 2,
+          "bounding box" : [ 266.88, 428.751, 288.97, 440.988 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "——"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 341.0, 385.8, 418.2, 485.91 ],
+        "row number" : 4,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 23,
+          "level" : "1",
+          "page number" : 2,
+          "bounding box" : [ 347.04, 428.751, 369.13, 440.988 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "——"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 418.2, 385.8, 510.75, 485.91 ],
+        "row number" : 4,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 24,
+          "level" : "1",
+          "page number" : 2,
+          "bounding box" : [ 424.2, 428.751, 446.29, 440.988 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.05,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "——"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 89,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 255.48, 321.284, 339.849, 335.334 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 14.05,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "语法知识精练"
+  }, {
+    "type" : "heading",
+    "id" : 90,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 56.64, 299.711, 175.264, 310.161 ],
+    "heading level" : 4,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "题型一：一般将来时 will"
+  }, {
+    "type" : "list",
+    "id" : 91,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 56.64, 115.56, 442.652, 290.932 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "next list id" : 105,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 255.96, 440.942, 290.932 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．Michael ________ in a school in Yunnan from February to June next year. A．teaches B．taught C．will teach D．was teaching",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 185.76, 356.971, 244.132 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．There ________ a lecture on Henry Norman Bethune next Monday. A．will have B．will be C．is gong to have D．is having",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 138.96, 442.652, 173.932 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．Our school ________ a sports meeting next month. Now we’re all looking forward to it. A．holds B．will hold C．held D．is holding",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 115.56, 255.426, 127.132 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4．—What will the weather be like tomorrow?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 92,
+    "level" : "4",
+    "page number" : 2,
+    "bounding box" : [ 56.64, 68.76, 393.345, 103.732 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "—The radio says there ______ a strong wind in the afternoon. A．will have B．is going to have C．will be D．is"
+  }, {
+    "type" : "footer",
+    "id" : 93,
+    "page number" : 2,
+    "bounding box" : [ 193.8, 51.19, 538.62, 62.84 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 14,
+      "page number" : 2,
+      "bounding box" : [ 193.8, 51.19, 538.62, 62.84 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[1.0, 0.0, 0.0]",
+      "content" : "同步新教材，周周有练习，月月有重点！ 2"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 94,
+    "page number" : 3,
+    "bounding box" : [ 130.2, 787.39, 464.996, 797.84 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 21,
+      "page number" : 3,
+      "bounding box" : [ 130.2, 787.39, 464.996, 797.84 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[1.0, 0.0, 0.0]",
+      "content" : "2025-2026 学年一线教师制作新教材英语同步精品系列资料，名师遴选！"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 105,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 56.64, 85.56, 458.01, 775.732 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 11,
+    "previous list id" : 91,
+    "next list id" : 110,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 56.64, 764.16, 299.731, 775.732 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5．—I think there ________ more AI teachers in our life.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 27,
+        "level" : "4",
+        "page number" : 3,
+        "bounding box" : [ 56.64, 717.36, 425.107, 752.332 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—I agree. The technology (科技) is changing the way we live. A．were B．are C．will be D．will have"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 56.64, 693.96, 317.61, 705.532 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6．—Why did you put the wood near the fire? It’s dangerous.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 28,
+        "level" : "4",
+        "page number" : 3,
+        "bounding box" : [ 56.64, 647.16, 405.664, 682.132 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—Don’t worry. Wet wood won’t ________. A．burnt B．be burnt C．be burning D．burn"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 56.64, 623.76, 224.708, 635.332 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7．—Will you go to Shanghai by train?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 29,
+        "level" : "4",
+        "page number" : 3,
+        "bounding box" : [ 56.64, 576.96, 414.495, 611.932 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—No, _________. A．I will B．you won’t C．I won’t D．I don’t"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 56.64, 553.56, 292.507, 565.132 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8．—Where ________ you go for the summer holiday?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 30,
+        "level" : "4",
+        "page number" : 3,
+        "bounding box" : [ 56.64, 506.76, 424.572, 541.732 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—I ________ Shanghai. A．do; am B．did; am C．will; am going to D．will; will"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 56.64, 483.36, 425.708, 494.932 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9．—Do you know the community library ________ free books to children next week?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 31,
+        "level" : "4",
+        "page number" : 3,
+        "bounding box" : [ 56.64, 436.56, 426.304, 471.532 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—Yes! I’m going to get some storybooks for my little brother. A．gives B．gave C．will give D．has given"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 56.64, 413.16, 339.427, 424.732 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10．—Linda, do you want to watch a movie with me this evening?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 32,
+        "level" : "4",
+        "page number" : 3,
+        "bounding box" : [ 56.64, 366.36, 433.813, 401.332 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—Yes. But I need to finish my homework first and then I ________ you at the cinema. A．meet B．don’t meet C．will meet D．won’t meet"
+      }, {
+        "type" : "paragraph",
+        "id" : 33,
+        "page number" : 3,
+        "bounding box" : [ 56.64, 316.511, 272.889, 326.961 ],
+        "font" : "SimSun",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "题型二：一般将来时 will 和 be going to 区别"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 56.64, 272.76, 458.01, 307.732 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "11．Attention, please. There ________ a football game between China and Korea this evening. A．is going to be B．has been C．has D．will have",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 56.64, 225.96, 425.107, 260.932 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "12．My sister ________ her bicycle repaired this weekend because it’s broken. A．is going to haveB．has C．had D．will have",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 56.64, 179.16, 406.784, 214.132 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "13．There are many dark clouds. It ________ soon. A．will rain B．is going to rain C．rained D．rains",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 56.64, 155.76, 305.347, 167.332 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "14．—What ________ you ________ tomorrow morning?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 34,
+        "level" : "4",
+        "page number" : 3,
+        "bounding box" : [ 56.64, 108.96, 415.864, 143.932 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—I’m going to read English books. A．will; do B．are; going to do C．do; do D．did; do"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 56.64, 85.56, 303.089, 97.132 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "15．There ________ a football match on TV this evening.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 104,
+    "page number" : 3,
+    "bounding box" : [ 407.76, 774.87, 408.48, 775.59 ],
+    "source" : "Unit 1 Everyone is different 重点语法：一般将来时（will）和指示代词精讲精练（原卷版）_images/imageFile4.png"
+  }, {
+    "type" : "footer",
+    "id" : 106,
+    "page number" : 3,
+    "bounding box" : [ 193.8, 52.511, 538.62, 64.161 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 15,
+      "page number" : 3,
+      "bounding box" : [ 193.8, 52.511, 538.62, 64.161 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[1.0, 0.0, 0.0]",
+      "content" : "同步新教材，周周有练习，月月有重点！ 3"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 107,
+    "page number" : 4,
+    "bounding box" : [ 130.2, 787.39, 464.996, 797.84 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 22,
+      "page number" : 4,
+      "bounding box" : [ 130.2, 787.39, 464.996, 797.84 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[1.0, 0.0, 0.0]",
+      "content" : "2025-2026 学年一线教师制作新教材英语同步精品系列资料，名师遴选！"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 110,
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 56.64, 64.321, 491.49, 777.892 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 12,
+    "previous list id" : 105,
+    "next list id" : 124,
+    "list items" : [ {
+      "type" : "list item",
+      "id" : 109,
+      "page number" : 4,
+      "bounding box" : [ 75.72, 766.32, 449.109, 777.892 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A．is going to be B．was C．will have D．are going to be",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 56.64, 742.92, 211.869, 754.492 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "16．—What is the man going to do?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 35,
+        "level" : "4",
+        "page number" : 4,
+        "bounding box" : [ 56.64, 696.12, 415.453, 731.092 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—He ________ a new computer. A．buys B．is buying C．is going to buy D．bought"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 56.64, 672.72, 336.787, 684.292 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "17．—________ you ________ to the cinema tomorrow evening?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 36,
+        "level" : "4",
+        "page number" : 4,
+        "bounding box" : [ 56.64, 625.92, 418.143, 660.892 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—Yes, I am. A．Will; go B．Are; going C．Do; go D．Did; go"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 56.64, 579.121, 399.189, 614.092 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "18．It ________ sunny tomorrow. A．is B．be C．will be D．are",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 56.64, 555.72, 296.587, 567.292 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "19．—What are you going to do in the summer holiday?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 37,
+        "level" : "4",
+        "page number" : 4,
+        "bounding box" : [ 56.64, 508.92, 406.748, 543.892 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—I ________ a volunteer in the hospital. A．was B．am C．will be D．were"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 56.64, 485.521, 209.947, 497.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "20．—What will you do tomorrow?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 38,
+        "level" : "4",
+        "page number" : 4,
+        "bounding box" : [ 56.64, 438.721, 433.383, 473.693 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—I ________ the museum to learn about the local history. A．visit B．visited C．will visit D．are visiting"
+      }, {
+        "type" : "paragraph",
+        "id" : 39,
+        "page number" : 4,
+        "bounding box" : [ 56.64, 388.871, 196.503, 399.321 ],
+        "font" : "SimSun",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "题型三：指示代词 this/these"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 56.64, 345.121, 491.49, 380.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "21．Peter: Mum and Dad, ________ is my new classmate, Yaming. Yaming, ________ are my parents. Peter’s parents: Nice to meet you.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 40,
+        "page number" : 4,
+        "bounding box" : [ 75.72, 321.721, 424.028, 333.293 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．that; they B．this; these C．he; they D．he; those"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 56.64, 298.32, 342.091, 309.892 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "22．—Tom, ________ are my parents and ________ is my brother.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 41,
+        "level" : "5",
+        "page number" : 4,
+        "bounding box" : [ 61.92, 251.521, 435.668, 286.493 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—Hello! Nice to meet you all. A．this; those B．these; those C．these; this D．those; these"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 56.64, 204.721, 407.948, 239.693 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "23．Look over there! Where are ________ men coming from? A．that B．those C．this D．these",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 56.64, 157.921, 438.907, 192.892 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "24．________ is his brother and ________ are his parents. A．This, those B．That, this C．These, that D．Those, these",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 56.64, 134.521, 191.948, 146.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "25．—What’s this on the table?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 42,
+        "level" : "4",
+        "page number" : 4,
+        "bounding box" : [ 56.64, 87.721, 399.824, 122.693 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—________ a quilt (被子). A．That’s B．This is C．It D．It’s"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 56.64, 64.321, 451.649, 75.893 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "26．—Come to meet my family. ________ is my brother and ________ are my grandparents.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 111,
+    "page number" : 4,
+    "bounding box" : [ 193.8, 51.19, 538.62, 62.84 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 16,
+      "page number" : 4,
+      "bounding box" : [ 193.8, 51.19, 538.62, 62.84 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[1.0, 0.0, 0.0]",
+      "content" : "同步新教材，周周有练习，月月有重点！ 4"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 112,
+    "page number" : 5,
+    "bounding box" : [ 130.2, 787.39, 464.996, 797.84 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 23,
+      "page number" : 5,
+      "bounding box" : [ 130.2, 787.39, 464.996, 797.84 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[1.0, 0.0, 0.0]",
+      "content" : "2025-2026 学年一线教师制作新教材英语同步精品系列资料，名师遴选！"
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 123,
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 56.64, 740.76, 433.388, 775.732 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "—Hi. Nice to meet you all. I’m Bob. A．This; this B．This; these C．That; that D．That; those"
+  }, {
+    "type" : "image",
+    "id" : 122,
+    "page number" : 5,
+    "bounding box" : [ 407.76, 774.87, 408.48, 775.59 ],
+    "source" : "Unit 1 Everyone is different 重点语法：一般将来时（will）和指示代词精讲精练（原卷版）_images/imageFile5.png"
+  }, {
+    "type" : "list",
+    "id" : 124,
+    "level" : "3",
+    "page number" : 5,
+    "bounding box" : [ 56.64, 132.36, 485.491, 728.932 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 10,
+    "previous list id" : 110,
+    "next list id" : 132,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 56.64, 693.96, 447.931, 728.932 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "27．________ boys and girls study in the same classroom. They are ________ to each other. A．These; family B．This; families C．Those; families D．That; family",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 56.64, 670.56, 185.826, 682.132 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "28．—What’s this in English?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 43,
+        "level" : "4",
+        "page number" : 5,
+        "bounding box" : [ 56.64, 623.76, 412.665, 658.732 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—________ a map. A．This is B．It’s C．I’m D．That’s"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 56.64, 576.96, 485.491, 611.932 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "29．Peter, welcome to my house. ______ is my grandpa, and _______ are our cute rabbits over there. A．That; these B．These; that C．Those; this D．This; those",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 56.64, 530.16, 402.719, 565.132 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "30．The scissors are broken. I’d like to buy a new ______ this afternoon. A．it B．one C．this D．pair",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 44,
+        "page number" : 5,
+        "bounding box" : [ 56.64, 480.311, 196.503, 490.761 ],
+        "font" : "SimSun",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "题型四：指示代词 that/those"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 56.64, 459.96, 220.508, 471.532 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "31．—What are ________ over there?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 45,
+        "level" : "4",
+        "page number" : 5,
+        "bounding box" : [ 56.64, 413.16, 402.134, 448.132 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—They are her computers. A．these B．those C．this D．that"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 56.64, 366.36, 439.148, 401.332 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "32．________ is my brother. And ________ are my parents. A．These; this B．This; that C．That; those D．Those; these",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 56.64, 342.96, 260.228, 354.532 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "33．—Bob, can you see the animals over there?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 46,
+        "level" : "4",
+        "page number" : 5,
+        "bounding box" : [ 56.64, 296.16, 408.548, 331.132 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—Yes, ______ are cows. A．this B．these C．that D．those"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 56.64, 272.76, 177.908, 284.332 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "34．—Eric, are ____ yours?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 47,
+        "level" : "4",
+        "page number" : 5,
+        "bounding box" : [ 56.64, 225.96, 442.184, 260.932 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—No. They are my sister’s _____. A．that; photo B．that; photos C．those; photo D．those; photos"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 56.64, 202.56, 257.228, 214.132 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "35．—What’s ________ over there on the hill?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 48,
+        "level" : "4",
+        "page number" : 5,
+        "bounding box" : [ 56.64, 155.76, 429.224, 190.732 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—Oh, ________ are some chickens. A．this; these B．that; those C．these; that D．those; this"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 56.64, 132.36, 295.987, 143.932 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "36．Which of the underlined pronouns (代词) is wrong?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 125,
+    "level" : "5",
+    "page number" : 5,
+    "bounding box" : [ 75.72, 85.56, 440.01, 120.532 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "next list id" : 130,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 75.72, 108.96, 433.771, 120.532 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A．—I need something to cut the beef. —Oh, you want a knife. I’ll buy that for you.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 75.72, 85.56, 440.01, 97.132 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B．The number of the women teachers in our school is larger than that in their school.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 127,
+    "page number" : 5,
+    "bounding box" : [ 193.8, 52.511, 538.62, 64.161 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 17,
+      "page number" : 5,
+      "bounding box" : [ 193.8, 52.511, 538.62, 64.161 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[1.0, 0.0, 0.0]",
+      "content" : "同步新教材，周周有练习，月月有重点！ 5"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 128,
+    "page number" : 6,
+    "bounding box" : [ 130.2, 787.39, 464.996, 797.84 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 24,
+      "page number" : 6,
+      "bounding box" : [ 130.2, 787.39, 464.996, 797.84 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[1.0, 0.0, 0.0]",
+      "content" : "2025-2026 学年一线教师制作新教材英语同步精品系列资料，名师遴选！"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 130,
+    "level" : "5",
+    "page number" : 6,
+    "bounding box" : [ 75.72, 742.92, 511.17, 777.892 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "previous list id" : 125,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 75.72, 766.32, 464.131, 777.892 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "C．—How smoothly your pen writes! —Well, you can find one in the shop near our school.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 75.72, 742.92, 511.17, 754.492 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "D．The house prices in Changzhou are much lower than those in one of the first-tier cities like Beijing.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 132,
+    "level" : "3",
+    "page number" : 6,
+    "bounding box" : [ 56.64, 579.121, 438.907, 731.092 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "previous list id" : 124,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 56.64, 696.12, 432.734, 731.092 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "37．________ is a potato and ________ are tomatoes. A．This; those B．These; those C．That; this D．These; that",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 56.64, 649.32, 438.907, 684.292 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "38．Hello, Amy! is my cousin Sally and are her mom and dad. A．This, that B．These, that C．This, those D．These, those",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 56.64, 602.52, 426.374, 637.492 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "39．________ is my aunt and ________ boys over there are my cousins. A．This; these B．This; those C．It; those D．This; that",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 56.64, 579.121, 234.668, 590.693 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "40．—What’s ________ over there, Lily?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 133,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 56.64, 532.32, 407.948, 567.292 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "—It’s a bus. A．this B．that C．those D．these"
+  }, {
+    "type" : "footer",
+    "id" : 134,
+    "page number" : 6,
+    "bounding box" : [ 193.8, 51.19, 538.62, 62.84 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 18,
+      "page number" : 6,
+      "bounding box" : [ 193.8, 51.19, 538.62, 62.84 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[1.0, 0.0, 0.0]",
+      "content" : "同步新教材，周周有练习，月月有重点！ 6"
+    } ]
+  } ]
+}

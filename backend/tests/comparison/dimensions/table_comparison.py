@@ -33,7 +33,7 @@ class TableComparisonDimension(ComparisonDimension):
             ref_tables = [e for e in ref_elements if e.element_type == ElementType.TABLE]
 
             if not gen_tables and not ref_tables:
-                return 1.0, {"table_count": 0, "reason": "no_tables"}
+                return 0.5, {"table_count": 0, "reason": "no_tables_in_both"}
 
             count_score = self._count_match(len(gen_tables), len(ref_tables))
 

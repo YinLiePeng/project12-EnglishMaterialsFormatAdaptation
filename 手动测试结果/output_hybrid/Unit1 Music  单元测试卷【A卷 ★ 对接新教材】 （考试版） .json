@@ -1,0 +1,2209 @@
+{
+  "file name" : "Unit1 Music  单元测试卷【A卷 ★ 对接新教材】 （考试版） .pdf",
+  "number of pages" : 6,
+  "author" : "追梦团队工作室出品17085053077",
+  "title" : "追梦团队工作室出品17085053077",
+  "creation date" : "D:20260413235421+08'00'",
+  "modification date" : "D:20260413235421+08'00'",
+  "kids" : [ {
+    "type" : "image",
+    "id" : 232,
+    "page number" : 1,
+    "bounding box" : [ 52.618, 786.305, 131.499, 801.264 ],
+    "source" : "Unit1 Music  单元测试卷【A卷 ★ 对接新教材】 （考试版） _images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "id" : 233,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 217.32, 746.372, 378.839, 759.575 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Unit1 Music 单元测试卷"
+  }, {
+    "type" : "heading",
+    "id" : 234,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 224.04, 714.287, 378.13, 726.646 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "【 A 卷 ◆ 对接新教材】"
+  }, {
+    "type" : "paragraph",
+    "id" : 235,
+    "page number" : 1,
+    "bounding box" : [ 222.6, 688.11, 372.589, 696.846 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "（时间： 60 分钟，满分： 100 分）"
+  }, {
+    "type" : "heading",
+    "id" : 236,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 53.88, 634.747, 375.129, 644.028 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "一、把下列单词或词组译成英文（共 1 小题，每小题 1 分，共 20 分）"
+  }, {
+    "type" : "paragraph",
+    "id" : 237,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 614.573, 229.74, 623.747 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "一位著名的音乐家 ______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 238,
+    "page number" : 1,
+    "bounding box" : [ 266.4, 614.573, 342.488, 623.747 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "音乐播放清单"
+  }, {
+    "type" : "paragraph",
+    "id" : 239,
+    "page number" : 1,
+    "bounding box" : [ 347.88, 614.573, 421.38, 623.528 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 240,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 590.093, 108.848, 599.267 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "民间音乐"
+  }, {
+    "type" : "paragraph",
+    "id" : 241,
+    "page number" : 1,
+    "bounding box" : [ 114.24, 590.093, 187.74, 599.048 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 244,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 565.613, 129.847, 574.787 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "歌曲的主旋律"
+  }, {
+    "type" : "paragraph",
+    "id" : 245,
+    "page number" : 1,
+    "bounding box" : [ 135.24, 565.613, 208.74, 574.568 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 248,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 541.133, 108.848, 550.307 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "慈善活动"
+  }, {
+    "type" : "paragraph",
+    "id" : 249,
+    "page number" : 1,
+    "bounding box" : [ 114.24, 541.133, 187.74, 550.088 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 252,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 516.773, 135.13, 525.947 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "不仅 …… 而且"
+  }, {
+    "type" : "paragraph",
+    "id" : 253,
+    "page number" : 1,
+    "bounding box" : [ 135.24, 516.773, 232.38, 525.728 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "……______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 255,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 492.294, 134.647, 501.468 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "无家可归的人"
+  }, {
+    "type" : "paragraph",
+    "id" : 256,
+    "page number" : 1,
+    "bounding box" : [ 140.04, 492.294, 213.54, 501.249 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 242,
+    "page number" : 1,
+    "bounding box" : [ 263.88, 590.093, 339.849, 599.267 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "从 …… 中选择"
+  }, {
+    "type" : "paragraph",
+    "id" : 243,
+    "page number" : 1,
+    "bounding box" : [ 345.24, 590.093, 418.74, 599.048 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 246,
+    "page number" : 1,
+    "bounding box" : [ 263.88, 565.613, 329.407, 574.787 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "优美的歌词"
+  }, {
+    "type" : "paragraph",
+    "id" : 247,
+    "page number" : 1,
+    "bounding box" : [ 334.68, 565.613, 408.18, 574.568 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 250,
+    "page number" : 1,
+    "bounding box" : [ 263.88, 541.133, 318.848, 550.307 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "筹集资金"
+  }, {
+    "type" : "paragraph",
+    "id" : 251,
+    "page number" : 1,
+    "bounding box" : [ 324.24, 541.133, 397.74, 550.088 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 254,
+    "page number" : 1,
+    "bounding box" : [ 263.88, 516.773, 426.54, 525.947 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "既 …… 又 ……______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 257,
+    "page number" : 1,
+    "bounding box" : [ 263.88, 492.294, 324.129, 501.468 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "独唱表演"
+  }, {
+    "type" : "paragraph",
+    "id" : 258,
+    "page number" : 1,
+    "bounding box" : [ 329.4, 492.294, 402.9, 501.249 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 259,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 467.813, 135.128, 476.987 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "对音乐的偏爱"
+  }, {
+    "type" : "paragraph",
+    "id" : 260,
+    "page number" : 1,
+    "bounding box" : [ 140.4, 467.813, 213.9, 476.768 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 263,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 443.333, 156.128, 452.507 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "众所周知的作曲家"
+  }, {
+    "type" : "paragraph",
+    "id" : 264,
+    "page number" : 1,
+    "bounding box" : [ 161.4, 443.333, 234.9, 452.288 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 267,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 418.973, 114.129, 428.147 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "鼓起勇气"
+  }, {
+    "type" : "paragraph",
+    "id" : 268,
+    "page number" : 1,
+    "bounding box" : [ 119.4, 418.973, 192.9, 427.928 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 271,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 394.493, 135.128, 403.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "主动提供帮助"
+  }, {
+    "type" : "paragraph",
+    "id" : 272,
+    "page number" : 1,
+    "bounding box" : [ 140.4, 394.493, 213.9, 403.448 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 261,
+    "page number" : 1,
+    "bounding box" : [ 263.88, 467.813, 334.688, 476.987 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "流畅地歌唱"
+  }, {
+    "type" : "paragraph",
+    "id" : 262,
+    "page number" : 1,
+    "bounding box" : [ 339.959, 467.813, 413.459, 476.768 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 265,
+    "page number" : 1,
+    "bounding box" : [ 263.88, 443.333, 324.129, 452.507 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "获得信心"
+  }, {
+    "type" : "paragraph",
+    "id" : 266,
+    "page number" : 1,
+    "bounding box" : [ 329.4, 443.333, 402.9, 452.288 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 269,
+    "page number" : 1,
+    "bounding box" : [ 263.88, 418.973, 355.688, 428.147 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "令人放松的旋律"
+  }, {
+    "type" : "paragraph",
+    "id" : 270,
+    "page number" : 1,
+    "bounding box" : [ 360.959, 418.973, 434.459, 427.928 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 273,
+    "page number" : 1,
+    "bounding box" : [ 263.88, 394.493, 334.688, 403.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "加入合唱团"
+  }, {
+    "type" : "paragraph",
+    "id" : 274,
+    "page number" : 1,
+    "bounding box" : [ 339.959, 394.493, 413.459, 403.448 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "______________"
+  }, {
+    "type" : "heading",
+    "id" : 275,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 53.88, 349.506, 348.729, 358.787 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "二、写出单词的适当形式（共 10 小题，每小题 1 分，共 10 分）"
+  }, {
+    "type" : "paragraph",
+    "id" : 276,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 329.213, 283.567, 338.387 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "friend （名词，朋友） → 形容词（友好的）："
+  }, {
+    "type" : "paragraph",
+    "id" : 277,
+    "page number" : 1,
+    "bounding box" : [ 283.68, 329.213, 330.902, 338.168 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "_________"
+  }, {
+    "type" : "paragraph",
+    "id" : 278,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 304.854, 266.047, 314.028 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "love （名词，爱） → 形容词（可爱的）："
+  }, {
+    "type" : "paragraph",
+    "id" : 279,
+    "page number" : 1,
+    "bounding box" : [ 266.159, 304.854, 313.381, 313.809 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "_________"
+  }, {
+    "type" : "paragraph",
+    "id" : 280,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 280.373, 276.006, 289.547 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "beauty （名词，美） → 形容词（美丽的）："
+  }, {
+    "type" : "paragraph",
+    "id" : 281,
+    "page number" : 1,
+    "bounding box" : [ 276.0, 280.373, 323.222, 289.328 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "_________"
+  }, {
+    "type" : "paragraph",
+    "id" : 282,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 255.894, 312.127, 265.068 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "popularity （名词，流行） → 形容词（受欢迎的）："
+  }, {
+    "type" : "paragraph",
+    "id" : 283,
+    "page number" : 1,
+    "bounding box" : [ 312.24, 255.894, 359.462, 264.849 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "_________"
+  }, {
+    "type" : "paragraph",
+    "id" : 284,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 231.413, 304.567, 240.587 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "confidence （名词，信心） → 形容词（自信的）："
+  }, {
+    "type" : "paragraph",
+    "id" : 285,
+    "page number" : 1,
+    "bounding box" : [ 304.68, 231.413, 351.902, 240.368 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "_________"
+  }, {
+    "type" : "paragraph",
+    "id" : 286,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 207.054, 289.328, 216.228 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "calm （形容词，平静的） → 副词（沉着地）："
+  }, {
+    "type" : "paragraph",
+    "id" : 287,
+    "page number" : 1,
+    "bounding box" : [ 289.44, 207.054, 336.662, 216.009 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "_________"
+  }, {
+    "type" : "paragraph",
+    "id" : 288,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 182.573, 331.446, 191.747 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "smooth （形容词，流畅的） → 副词（连续而流畅地）："
+  }, {
+    "type" : "paragraph",
+    "id" : 289,
+    "page number" : 1,
+    "bounding box" : [ 331.44, 182.573, 378.662, 191.528 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "_________"
+  }, {
+    "type" : "paragraph",
+    "id" : 290,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 158.094, 289.328, 167.268 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "wide （形容词，广泛的） → 副词（普遍地）："
+  }, {
+    "type" : "paragraph",
+    "id" : 291,
+    "page number" : 1,
+    "bounding box" : [ 289.44, 158.094, 336.662, 167.049 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "_________"
+  }, {
+    "type" : "paragraph",
+    "id" : 292,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 133.613, 318.487, 142.787 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "known （形容词，知名的） → 反义词（不出名的）："
+  }, {
+    "type" : "paragraph",
+    "id" : 293,
+    "page number" : 1,
+    "bounding box" : [ 318.6, 133.613, 365.822, 142.568 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "_________"
+  }, {
+    "type" : "paragraph",
+    "id" : 294,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 109.254, 285.247, 118.428 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "true （形容词，真实的） → 副词（真正地）："
+  }, {
+    "type" : "paragraph",
+    "id" : 295,
+    "page number" : 1,
+    "bounding box" : [ 285.359, 109.254, 332.581, 118.209 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "_________"
+  }, {
+    "type" : "footer",
+    "id" : 438,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 49.864, 66.824, 53.259 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 444,
+      "page number" : 1,
+      "bounding box" : [ 53.88, 52.504, 66.824, 53.259 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 445,
+      "page number" : 1,
+      "bounding box" : [ 53.88, 51.185, 66.824, 51.94 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 446,
+      "page number" : 1,
+      "bounding box" : [ 53.88, 49.864, 66.824, 50.619 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 299,
+    "page number" : 2,
+    "bounding box" : [ 52.646, 786.681, 131.434, 801.129 ],
+    "source" : "Unit1 Music  单元测试卷【A卷 ★ 对接新教材】 （考试版） _images/imageFile2.png"
+  }, {
+    "type" : "heading",
+    "id" : 300,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 53.88, 756.906, 338.168, 766.307 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "三、根据汉语提示填空（共 10 小题，每小题 2 分，共 10 分）"
+  }, {
+    "type" : "paragraph",
+    "id" : 301,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 736.733, 392.131, 745.907 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "My cousin dreams of becoming a _________ ( 音乐家 ) when she grows up."
+  }, {
+    "type" : "paragraph",
+    "id" : 302,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 712.373, 391.771, 721.547 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "I spent an hour making a _________ ( 播放清单 ) of my favorite folk songs."
+  }, {
+    "type" : "paragraph",
+    "id" : 303,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 687.893, 389.011, 697.067 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "You can _________ ( 下载 ) this classical music from the legal app for free."
+  }, {
+    "type" : "paragraph",
+    "id" : 304,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 663.413, 384.449, 672.587 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Beethoven is one of the world's greatest _________ ( 古典的 ) composers."
+  }, {
+    "type" : "paragraph",
+    "id" : 305,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 638.933, 447.569, 648.107 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The _________ ( 歌词 ) of this song are so touching that many people cry when listening."
+  }, {
+    "type" : "paragraph",
+    "id" : 306,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 614.573, 381.93, 623.747 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The _________ ( 旋律 ) of this jazz piece is catchy and easy to remember."
+  }, {
+    "type" : "paragraph",
+    "id" : 307,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 590.093, 393.809, 599.267 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Many stars take part in _________ ( 慈善 ) events to help homeless children."
+  }, {
+    "type" : "paragraph",
+    "id" : 308,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 565.613, 425.968, 574.787 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "It's hard to _________ ( 选择 ) between the two music albums-both are wonderful."
+  }, {
+    "type" : "paragraph",
+    "id" : 309,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 541.133, 403.29, 550.307 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "We should show kindness to _________ ( 无家的 ) people and offer them help."
+  }, {
+    "type" : "paragraph",
+    "id" : 310,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 516.773, 410.73, 525.947 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "With the support of her teachers, she gained more _________ ( 信心 ) in singing."
+  }, {
+    "type" : "heading",
+    "id" : 311,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 53.88, 471.666, 296.049, 481.068 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "四、单项选择（共 10 小题，每小题 1 分，共 10 分）"
+  }, {
+    "type" : "list",
+    "level" : "1",
+    "page number" : 2,
+    "bounding box" : [ 53.88, 427.013, 383.489, 460.448 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 451.493, 212.348, 460.448 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "-What kind of music do you like?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 427.013, 383.489, 435.968 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "-I like ________ folk music ________ rock music. They are both wonderful.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 314,
+    "page number" : 2,
+    "bounding box" : [ 74.88, 402.654, 125.88, 411.609 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "either; or"
+  }, {
+    "type" : "paragraph",
+    "id" : 315,
+    "page number" : 2,
+    "bounding box" : [ 158.88, 402.654, 219.839, 411.609 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "neither; nor"
+  }, {
+    "type" : "paragraph",
+    "id" : 316,
+    "page number" : 2,
+    "bounding box" : [ 242.88, 402.654, 294.424, 411.609 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "both; and"
+  }, {
+    "type" : "paragraph",
+    "id" : 317,
+    "page number" : 2,
+    "bounding box" : [ 326.88, 402.654, 412.864, 411.609 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "not only; but also"
+  }, {
+    "type" : "paragraph",
+    "id" : 318,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 53.88, 378.173, 412.89, 387.128 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2. The melody of this song ________ very beautiful, so it's popular among teenagers."
+  }, {
+    "type" : "paragraph",
+    "id" : 319,
+    "page number" : 2,
+    "bounding box" : [ 74.88, 353.694, 116.864, 362.649 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "sounds"
+  }, {
+    "type" : "paragraph",
+    "id" : 320,
+    "page number" : 2,
+    "bounding box" : [ 158.88, 353.694, 193.784, 362.649 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "looks"
+  }, {
+    "type" : "paragraph",
+    "id" : 321,
+    "page number" : 2,
+    "bounding box" : [ 242.88, 353.694, 274.904, 362.649 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "feels"
+  }, {
+    "type" : "paragraph",
+    "id" : 322,
+    "page number" : 2,
+    "bounding box" : [ 326.88, 353.694, 362.864, 362.649 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "tastes"
+  }, {
+    "type" : "paragraph",
+    "id" : 323,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 53.88, 329.213, 211.266, 338.168 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "3. -Who is your favorite ________?"
+  }, {
+    "type" : "paragraph",
+    "id" : 324,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 53.88, 304.854, 304.651, 313.809 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-Mozart. His classical works are still widely played today."
+  }, {
+    "type" : "paragraph",
+    "id" : 325,
+    "page number" : 2,
+    "bounding box" : [ 74.88, 280.373, 115.508, 289.328 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "athlete"
+  }, {
+    "type" : "paragraph",
+    "id" : 326,
+    "page number" : 2,
+    "bounding box" : [ 158.88, 280.373, 208.983, 289.328 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "musician"
+  }, {
+    "type" : "paragraph",
+    "id" : 327,
+    "page number" : 2,
+    "bounding box" : [ 242.88, 280.373, 272.654, 289.328 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "host"
+  }, {
+    "type" : "paragraph",
+    "id" : 328,
+    "page number" : 2,
+    "bounding box" : [ 332.04, 280.373, 374.638, 289.328 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "partner"
+  }, {
+    "type" : "paragraph",
+    "id" : 329,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 53.88, 255.894, 401.491, 264.849 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4. She is ________ a shy girl ________ she dare not sing in front of a large crowd."
+  }, {
+    "type" : "paragraph",
+    "id" : 330,
+    "page number" : 2,
+    "bounding box" : [ 74.88, 231.413, 114.664, 240.368 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "too; to"
+  }, {
+    "type" : "paragraph",
+    "id" : 331,
+    "page number" : 2,
+    "bounding box" : [ 158.88, 231.413, 201.734, 240.368 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "so; that"
+  }, {
+    "type" : "paragraph",
+    "id" : 332,
+    "page number" : 2,
+    "bounding box" : [ 242.88, 231.413, 295.574, 240.368 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "such; that"
+  }, {
+    "type" : "paragraph",
+    "id" : 333,
+    "page number" : 2,
+    "bounding box" : [ 332.04, 231.413, 383.16, 240.368 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "either; or"
+  }, {
+    "type" : "paragraph",
+    "id" : 334,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 53.88, 207.054, 463.77, 216.009 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "5. Not only my parents but also I ________ interested in pop music. We often listen to it together."
+  }, {
+    "type" : "paragraph",
+    "id" : 335,
+    "page number" : 2,
+    "bounding box" : [ 74.88, 182.573, 100.399, 191.528 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "am"
+  }, {
+    "type" : "paragraph",
+    "id" : 336,
+    "page number" : 2,
+    "bounding box" : [ 158.88, 182.573, 178.065, 191.528 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "is"
+  }, {
+    "type" : "paragraph",
+    "id" : 337,
+    "page number" : 2,
+    "bounding box" : [ 242.88, 182.573, 267.909, 191.528 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "are"
+  }, {
+    "type" : "paragraph",
+    "id" : 338,
+    "page number" : 2,
+    "bounding box" : [ 326.88, 182.573, 349.509, 191.528 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "be"
+  }, {
+    "type" : "paragraph",
+    "id" : 339,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 53.88, 158.094, 439.652, 167.049 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "6. This charity concert ________ to raise money for homeless people. Let's go to support it."
+  }, {
+    "type" : "paragraph",
+    "id" : 340,
+    "page number" : 2,
+    "bounding box" : [ 74.88, 133.613, 109.784, 142.568 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Aims"
+  }, {
+    "type" : "paragraph",
+    "id" : 341,
+    "page number" : 2,
+    "bounding box" : [ 164.04, 133.613, 205.543, 142.568 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "sounds"
+  }, {
+    "type" : "paragraph",
+    "id" : 344,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 109.254, 187.268, 118.209 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "7.-Why do you like this song?"
+  }, {
+    "type" : "paragraph",
+    "id" : 342,
+    "page number" : 2,
+    "bounding box" : [ 242.88, 133.613, 274.904, 142.568 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "feels"
+  }, {
+    "type" : "paragraph",
+    "id" : 343,
+    "page number" : 2,
+    "bounding box" : [ 326.88, 133.613, 376.303, 142.568 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "becomes"
+  }, {
+    "type" : "paragraph",
+    "id" : 345,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 53.88, 84.773, 375.09, 93.728 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-Because its lyrics ________ meaningful and the rhythm ________ strong."
+  }, {
+    "type" : "footer",
+    "id" : 439,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 49.864, 66.824, 53.259 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 447,
+      "page number" : 2,
+      "bounding box" : [ 53.88, 52.504, 66.824, 53.259 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 448,
+      "page number" : 2,
+      "bounding box" : [ 53.88, 51.185, 66.824, 51.94 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 449,
+      "page number" : 2,
+      "bounding box" : [ 53.88, 49.864, 66.824, 50.619 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 349,
+    "page number" : 3,
+    "bounding box" : [ 52.608, 785.677, 131.48, 801.209 ],
+    "source" : "Unit1 Music  单元测试卷【A卷 ★ 对接新教材】 （考试版） _images/imageFile3.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 350,
+    "page number" : 3,
+    "bounding box" : [ 74.88, 753.054, 112.904, 762.009 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "are; is"
+  }, {
+    "type" : "paragraph",
+    "id" : 351,
+    "page number" : 3,
+    "bounding box" : [ 179.88, 753.054, 217.389, 762.009 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "is; are"
+  }, {
+    "type" : "paragraph",
+    "id" : 352,
+    "page number" : 3,
+    "bounding box" : [ 284.88, 753.054, 328.269, 762.009 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "are; are"
+  }, {
+    "type" : "paragraph",
+    "id" : 353,
+    "page number" : 3,
+    "bounding box" : [ 389.88, 753.054, 422.145, 762.009 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "is; is"
+  }, {
+    "type" : "paragraph",
+    "id" : 354,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 53.88, 728.573, 482.489, 737.528 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "8. You can ________ download music from this app ________ listen to it online. It's very convenient."
+  }, {
+    "type" : "paragraph",
+    "id" : 355,
+    "page number" : 3,
+    "bounding box" : [ 74.88, 704.213, 125.88, 713.168 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "either; or"
+  }, {
+    "type" : "paragraph",
+    "id" : 356,
+    "page number" : 3,
+    "bounding box" : [ 158.88, 704.213, 210.424, 713.168 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "both; and"
+  }, {
+    "type" : "paragraph",
+    "id" : 357,
+    "page number" : 3,
+    "bounding box" : [ 248.04, 704.213, 333.423, 713.168 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C. not only; but also"
+  }, {
+    "type" : "paragraph",
+    "id" : 358,
+    "page number" : 3,
+    "bounding box" : [ 368.88, 704.213, 430.439, 713.168 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "neither; nor"
+  }, {
+    "type" : "paragraph",
+    "id" : 359,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 53.88, 679.733, 383.85, 688.688 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "9. The young singer ________ used to stutter, but now she can sing ________."
+  }, {
+    "type" : "paragraph",
+    "id" : 360,
+    "page number" : 3,
+    "bounding box" : [ 74.88, 655.254, 163.143, 664.209 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A. smooth; smoothly"
+  }, {
+    "type" : "paragraph",
+    "id" : 361,
+    "page number" : 3,
+    "bounding box" : [ 206.04, 655.254, 406.384, 664.209 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B. smoothly; smooth C. smooth; smooth"
+  }, {
+    "type" : "paragraph",
+    "id" : 362,
+    "page number" : 3,
+    "bounding box" : [ 452.88, 655.254, 541.212, 664.209 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "smoothly;"
+  }, {
+    "type" : "paragraph",
+    "id" : 363,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 630.773, 92.823, 639.728 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "smoothly"
+  }, {
+    "type" : "paragraph",
+    "id" : 364,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 53.88, 606.413, 261.669, 615.368 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "10. -Is the ________ of this song 'My Dream'?"
+  }, {
+    "type" : "paragraph",
+    "id" : 365,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 53.88, 581.933, 246.571, 590.888 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-Yes, and its theme is about chasing dreams."
+  }, {
+    "type" : "paragraph",
+    "id" : 366,
+    "page number" : 3,
+    "bounding box" : [ 74.88, 557.454, 103.868, 566.409 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "title"
+  }, {
+    "type" : "paragraph",
+    "id" : 367,
+    "page number" : 3,
+    "bounding box" : [ 158.88, 557.454, 196.628, 566.409 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "theme"
+  }, {
+    "type" : "paragraph",
+    "id" : 368,
+    "page number" : 3,
+    "bounding box" : [ 263.88, 557.454, 307.624, 566.409 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C. melody"
+  }, {
+    "type" : "paragraph",
+    "id" : 369,
+    "page number" : 3,
+    "bounding box" : [ 347.88, 557.454, 383.864, 566.409 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "lyrics"
+  }, {
+    "type" : "heading",
+    "id" : 370,
+    "level" : "Doctitle",
+    "page number" : 3,
+    "bounding box" : [ 53.88, 512.466, 296.049, 521.747 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "五、完成句子（共 10 题，每小题 2 分，满分 20 分）"
+  }, {
+    "type" : "paragraph",
+    "id" : 371,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 492.294, 315.96, 501.468 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "He likes both classical music and folk music. ( 改为否定句 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 372,
+    "page number" : 3,
+    "bounding box" : [ 64.32, 467.813, 304.05, 476.768 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "He likes ________ classical music ________ folk music."
+  }, {
+    "type" : "paragraph",
+    "id" : 373,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 443.333, 290.4, 452.507 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The melody sounds very relaxing. ( 改为一般疑问句 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 374,
+    "page number" : 3,
+    "bounding box" : [ 64.32, 418.973, 263.347, 427.928 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "________ the melody ________ very relaxing?"
+  }, {
+    "type" : "paragraph",
+    "id" : 375,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 394.493, 396.72, 403.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Not only Tom but also his sister is interested in rock music. ( 对划线部分提问 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 376,
+    "page number" : 3,
+    "bounding box" : [ 64.32, 370.013, 258.788, 378.968 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "________ ________ interested in rock music?"
+  }, {
+    "type" : "paragraph",
+    "id" : 377,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 345.533, 337.32, 354.707 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "She chose this song because of its beautiful lyrics. ( 改为同义句 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 378,
+    "page number" : 3,
+    "bounding box" : [ 64.32, 321.173, 329.97, 330.128 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "She chose this song because ________ ________ are beautiful."
+  }, {
+    "type" : "paragraph",
+    "id" : 379,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 296.694, 407.039, 305.868 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "We will hold a charity concert to raise money for homeless people. ( 改为同义句 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 380,
+    "page number" : 3,
+    "bounding box" : [ 64.32, 272.213, 426.21, 281.168 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "We ________ ________ to hold a charity concert to raise money for homeless people."
+  }, {
+    "type" : "paragraph",
+    "id" : 381,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 247.733, 302.4, 256.907 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The song's title is 'Jasmine Flower'. ( 对划线部分提问 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 382,
+    "page number" : 3,
+    "bounding box" : [ 64.32, 223.373, 219.428, 232.328 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "________ ________ the song's title?"
+  }, {
+    "type" : "paragraph",
+    "id" : 383,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 198.894, 361.439, 208.068 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "She is confident because she has practiced singing a lot. ( 改为同义句 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 384,
+    "page number" : 3,
+    "bounding box" : [ 64.32, 174.413, 325.65, 183.368 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "She is confident ________ ________ a lot of singing practice."
+  }, {
+    "type" : "paragraph",
+    "id" : 385,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 149.933, 343.92, 159.107 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Both my brother and I enjoy listening to pop music. ( 改为同义句 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 386,
+    "page number" : 3,
+    "bounding box" : [ 64.32, 125.573, 369.931, 134.528 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Not only my brother ________ ________ I enjoy listening to pop music."
+  }, {
+    "type" : "paragraph",
+    "id" : 387,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 101.094, 262.32, 110.268 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The chorus sings very smoothly. ( 改为感叹句 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 388,
+    "page number" : 3,
+    "bounding box" : [ 64.32, 76.613, 224.638, 85.568 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "________ ________ the chorus sings!"
+  }, {
+    "type" : "footer",
+    "id" : 440,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 49.864, 66.824, 53.259 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 450,
+      "page number" : 3,
+      "bounding box" : [ 53.88, 52.504, 66.824, 53.259 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 451,
+      "page number" : 3,
+      "bounding box" : [ 53.88, 51.185, 66.824, 51.94 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 452,
+      "page number" : 3,
+      "bounding box" : [ 53.88, 49.864, 66.824, 50.619 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 392,
+    "page number" : 4,
+    "bounding box" : [ 52.712, 786.361, 131.379, 801.014 ],
+    "source" : "Unit1 Music  单元测试卷【A卷 ★ 对接新教材】 （考试版） _images/imageFile4.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 393,
+    "level" : "2",
+    "page number" : 4,
+    "bounding box" : [ 53.88, 753.054, 307.08, 762.228 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "10. music, we, to, relax, listen, usually, classical ( 连词成句 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 394,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 728.573, 308.474, 737.528 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "________________________________________________."
+  }, {
+    "type" : "heading",
+    "id" : 395,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 53.88, 679.626, 301.209, 688.907 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "六、完形填空（共 5 小题，每小题 5 分，共 5 分）"
+  }, {
+    "type" : "paragraph",
+    "id" : 396,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 655.254, 347.765, 664.428 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "根据短文内容，从 A 、 B 、 C 三个选项中选出一个正确的答案。"
+  }, {
+    "type" : "paragraph",
+    "id" : 397,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 606.413, 541.383, 639.728 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Xian Xinghai was a very famous musician in China. He wrote one of the greatest pieces of music of the 20th century. In his short life he wrote nearly 300 ___1___ and an opera."
+  }, {
+    "type" : "paragraph",
+    "id" : 398,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 484.133, 541.504, 590.888 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Xian was born in Macao, China in 1905. Because his father died before he was born, Xian moved from place to place with his mother. He began learning to play the violin when he was 20 years old. In the___ 2___ , his violin was so cheap and badly made that he could not play it well. His friends laughed at him. Xian did not stop practising and soon showed his talent. In 1934, he was one of the first Chinese students who studied in a special___ 3___ school in Paris. Before he left, Xian became the school's best student and won some prizes."
+  }, {
+    "type" : "paragraph",
+    "id" : 399,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 410.813, 541.384, 468.609 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "In 1935, he returned to China and helped fight against the Japanese army. Later, he came to Yan'an to teach music at a college. There were no pianos in Yan'an at that time, ___4___ Xian still wrote some of his most important music there, including The Yellow River, his most famous work."
+  }, {
+    "type" : "paragraph",
+    "id" : 400,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 337.373, 541.389, 395.288 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "In May 1940, Xian went abroad to write music for movies. When he was abroad, life was very ___5___ . Xian got sick and later died of a lung illness on October 30, 1945, aged only 40. Xian's music, however, lives on in the people's hearts."
+  }, {
+    "type" : "table",
+    "id" : 401,
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 53.024, 214.577, 410.76, 323.177 ],
+    "number of rows" : 5,
+    "number of columns" : 5,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 53.024, 301.457, 124.572, 323.177 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 201,
+          "page number" : 4,
+          "bounding box" : [ 53.024, 301.457, 124.572, 323.177 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "("
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 124.572, 301.457, 196.119, 323.177 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 202,
+          "page number" : 4,
+          "bounding box" : [ 124.572, 301.457, 196.119, 323.177 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : ") 1. A. words"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 196.119, 301.457, 267.666, 323.177 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 203,
+          "page number" : 4,
+          "bounding box" : [ 196.119, 301.457, 267.666, 323.177 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "B. songs"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 267.666, 301.457, 339.213, 323.177 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 204,
+          "page number" : 4,
+          "bounding box" : [ 267.666, 301.457, 339.213, 323.177 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "C. plays"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 339.213, 301.457, 410.76, 323.177 ],
+        "row number" : 1,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 205,
+          "page number" : 4,
+          "bounding box" : [ 339.213, 301.457, 410.76, 323.177 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "D. films"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 53.024, 279.737, 124.572, 301.457 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 206,
+          "page number" : 4,
+          "bounding box" : [ 53.024, 279.737, 124.572, 301.457 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "("
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 124.572, 279.737, 196.119, 301.457 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 207,
+          "page number" : 4,
+          "bounding box" : [ 124.572, 279.737, 196.119, 301.457 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : ") 2. A. beginning"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 196.119, 279.737, 267.666, 301.457 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 208,
+          "page number" : 4,
+          "bounding box" : [ 196.119, 279.737, 267.666, 301.457 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "B. end"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 267.666, 279.737, 339.213, 301.457 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 209,
+          "page number" : 4,
+          "bounding box" : [ 267.666, 279.737, 339.213, 301.457 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "C. middle"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 339.213, 279.737, 410.76, 301.457 ],
+        "row number" : 2,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 210,
+          "page number" : 4,
+          "bounding box" : [ 339.213, 279.737, 410.76, 301.457 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "D. moment"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 53.024, 258.017, 124.572, 279.737 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 211,
+          "page number" : 4,
+          "bounding box" : [ 53.024, 258.017, 124.572, 279.737 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "("
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 124.572, 258.017, 196.119, 279.737 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 212,
+          "page number" : 4,
+          "bounding box" : [ 124.572, 258.017, 196.119, 279.737 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : ") 3. A. sports"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 196.119, 258.017, 267.666, 279.737 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 213,
+          "page number" : 4,
+          "bounding box" : [ 196.119, 258.017, 267.666, 279.737 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "B. language"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 267.666, 258.017, 339.213, 279.737 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 214,
+          "page number" : 4,
+          "bounding box" : [ 267.666, 258.017, 339.213, 279.737 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "C. music"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 339.213, 258.017, 410.76, 279.737 ],
+        "row number" : 3,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 215,
+          "page number" : 4,
+          "bounding box" : [ 339.213, 258.017, 410.76, 279.737 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "D. engineering"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 53.024, 236.297, 124.572, 258.017 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 216,
+          "page number" : 4,
+          "bounding box" : [ 53.024, 236.297, 124.572, 258.017 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "("
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 124.572, 236.297, 196.119, 258.017 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 217,
+          "page number" : 4,
+          "bounding box" : [ 124.572, 236.297, 196.119, 258.017 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : ") 4. A. because"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 196.119, 236.297, 267.666, 258.017 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 218,
+          "page number" : 4,
+          "bounding box" : [ 196.119, 236.297, 267.666, 258.017 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "B. and"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 267.666, 236.297, 339.213, 258.017 ],
+        "row number" : 4,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 219,
+          "page number" : 4,
+          "bounding box" : [ 267.666, 236.297, 339.213, 258.017 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "C. so"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 339.213, 236.297, 410.76, 258.017 ],
+        "row number" : 4,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 220,
+          "page number" : 4,
+          "bounding box" : [ 339.213, 236.297, 410.76, 258.017 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "D. but"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 53.024, 214.577, 124.572, 236.297 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 221,
+          "page number" : 4,
+          "bounding box" : [ 53.024, 214.577, 124.572, 236.297 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "("
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 124.572, 214.577, 196.119, 236.297 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 222,
+          "page number" : 4,
+          "bounding box" : [ 124.572, 214.577, 196.119, 236.297 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : ") 5. A. happy"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 196.119, 214.577, 267.666, 236.297 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 223,
+          "page number" : 4,
+          "bounding box" : [ 196.119, 214.577, 267.666, 236.297 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "B. hard"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 267.666, 214.577, 339.213, 236.297 ],
+        "row number" : 5,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 224,
+          "page number" : 4,
+          "bounding box" : [ 267.666, 214.577, 339.213, 236.297 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "C. comfortable"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 339.213, 214.577, 410.76, 236.297 ],
+        "row number" : 5,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 225,
+          "page number" : 4,
+          "bounding box" : [ 339.213, 214.577, 410.76, 236.297 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "D. easy"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 402,
+    "level" : "Doctitle",
+    "page number" : 4,
+    "bounding box" : [ 53.88, 166.147, 311.768, 175.428 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "七、短文填空（共 10 小题，每小题 1 分，共 10 分）"
+  }, {
+    "type" : "paragraph",
+    "id" : 403,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 142.647, 431.757, 150.947 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "阅读下面短文，在空白处填入一个适当的词，或填入括号中所给单词的正确形式。"
+  }, {
+    "type" : "paragraph",
+    "id" : 404,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 92.933, 541.425, 126.368 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Music is a universal language that connects people all over the world. There are many kinds of music, such as pop, rock, folk and classical. Each kind has its own 1________ (character). Pop music is 2________ (wide) loved"
+  }, {
+    "type" : "footer",
+    "id" : 441,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 49.864, 66.824, 53.259 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 453,
+      "page number" : 4,
+      "bounding box" : [ 53.88, 52.504, 66.824, 53.259 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 454,
+      "page number" : 4,
+      "bounding box" : [ 53.88, 51.185, 66.824, 51.94 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 455,
+      "page number" : 4,
+      "bounding box" : [ 53.88, 49.864, 66.824, 50.619 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 408,
+    "page number" : 5,
+    "bounding box" : [ 52.59, 786.013, 131.384, 801.196 ],
+    "source" : "Unit1 Music  单元测试卷【A卷 ★ 对接新教材】 （考试版） _images/imageFile5.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 409,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 704.213, 541.422, 762.009 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "by young people because of its lively rhythm and simple lyrics. Rock music is full of energy and often expresses strong feelings. Folk music tells stories of ordinary people and has a close connection with daily life. Classical music, on the other hand, is 3________ (know) for its deep beauty and elegant melody."
+  }, {
+    "type" : "paragraph",
+    "id" : 410,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 606.413, 541.451, 688.688 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Many 4________ (music) devote their lives to creating music. Some are well-known, while others are 5________ (know) to most people. But no matter how famous they are, their music can touch people's hearts. For example, 6________ eight-minute folk song may make people think of their hometown, 7________ a classical piece may bring peace to a worried mind."
+  }, {
+    "type" : "paragraph",
+    "id" : 411,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 557.454, 541.317, 590.888 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Music also plays an important role in charity. Many singers and musicians hold concerts to 8________ (raise) money for homeless people or sick children. Their music not only brings joy to people but also helps those in need."
+  }, {
+    "type" : "paragraph",
+    "id" : 412,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 484.133, 541.385, 541.928 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "In our daily life, music can help us 9________ (relax) after a long day's work. It can also give us confidence and courage when we face difficulties. 10________ (actual), music is more than just sound-it is a kind of spirit that enriches our life."
+  }, {
+    "type" : "heading",
+    "id" : 413,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 53.88, 435.066, 362.049, 444.347 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "八、句子还原 / 补全对话（共 5 小题，每小题 2 分，共 10 分）"
+  }, {
+    "type" : "paragraph",
+    "id" : 414,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 411.687, 473.756, 419.987 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "根据对话内容，从下面的选项中选出能填入空白处的最佳选项。选项中有两项为多余选项。"
+  }, {
+    "type" : "list",
+    "level" : "1",
+    "page number" : 5,
+    "bounding box" : [ 53.88, 361.854, 351.542, 395.288 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 386.333, 215.228, 395.288 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "A: Hi, Lisa! What are you doing now?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 361.854, 351.542, 370.809 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "B: I'm making a music playlist for my road trip next week. 1________",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "level" : "1",
+    "page number" : 5,
+    "bounding box" : [ 53.88, 313.013, 356.85, 346.328 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 337.373, 342.422, 346.328 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "A: I like pop music best. It's lively and makes me happy. 2________",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 313.013, 356.85, 321.968 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "B: I prefer folk music. I think it's full of stories and has a simple beauty.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "level" : "1",
+    "page number" : 5,
+    "bounding box" : [ 53.88, 264.054, 475.745, 297.488 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 288.533, 475.745, 297.488 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "A: 3________ Folk music can really touch people's hearts. Do you like any folk songs in particular?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 264.054, 286.262, 273.009 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "B: Yes, I like 'Jasmine Flower' very much. 4________",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "level" : "1",
+    "page number" : 5,
+    "bounding box" : [ 53.88, 215.213, 442.291, 248.528 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 239.573, 442.291, 248.528 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "A: I know that song! It's not only popular in China but also widely known around the world.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 215.213, 150.181, 224.168 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "B: Exactly. 5________",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 423,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 190.733, 266.852, 199.688 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A: Sure! I'd love to. Let's listen to it together now."
+  }, {
+    "type" : "paragraph",
+    "id" : 424,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 166.254, 138.188, 175.209 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "What about you?"
+  }, {
+    "type" : "paragraph",
+    "id" : 425,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 141.773, 242.851, 150.728 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "It has beautiful lyrics and a sweet melody."
+  }, {
+    "type" : "paragraph",
+    "id" : 426,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 117.413, 217.029, 126.368 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Do you want to listen to it with me?"
+  }, {
+    "type" : "paragraph",
+    "id" : 427,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 92.933, 204.932, 101.888 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "I don't like classical music at all."
+  }, {
+    "type" : "footer",
+    "id" : 442,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 49.864, 66.824, 53.259 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 456,
+      "page number" : 5,
+      "bounding box" : [ 53.88, 52.504, 66.824, 53.259 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 457,
+      "page number" : 5,
+      "bounding box" : [ 53.88, 51.185, 66.824, 51.94 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 458,
+      "page number" : 5,
+      "bounding box" : [ 53.88, 49.864, 66.824, 50.619 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 431,
+    "page number" : 6,
+    "bounding box" : [ 52.646, 786.321, 131.4, 801.202 ],
+    "source" : "Unit1 Music  单元测试卷【A卷 ★ 对接新教材】 （考试版） _images/imageFile6.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 432,
+    "page number" : 6,
+    "bounding box" : [ 53.88, 753.054, 222.428, 762.009 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "What kind of music do you like best?"
+  }, {
+    "type" : "paragraph",
+    "id" : 433,
+    "page number" : 6,
+    "bounding box" : [ 53.88, 728.573, 135.211, 737.528 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "I agree with you."
+  }, {
+    "type" : "paragraph",
+    "id" : 434,
+    "page number" : 6,
+    "bounding box" : [ 53.88, 704.213, 256.289, 713.168 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Classical music is too difficult to understand."
+  }, {
+    "type" : "footer",
+    "id" : 443,
+    "page number" : 6,
+    "bounding box" : [ 53.88, 49.864, 66.824, 53.259 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 459,
+      "page number" : 6,
+      "bounding box" : [ 53.88, 52.504, 66.824, 53.259 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 460,
+      "page number" : 6,
+      "bounding box" : [ 53.88, 51.185, 66.824, 51.94 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 461,
+      "page number" : 6,
+      "bounding box" : [ 53.88, 49.864, 66.824, 50.619 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  } ]
+}

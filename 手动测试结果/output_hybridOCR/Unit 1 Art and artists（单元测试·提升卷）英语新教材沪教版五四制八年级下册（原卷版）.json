@@ -1,0 +1,114 @@
+{
+  "file name" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）.pdf",
+  "number of pages" : 8,
+  "author" : "追梦团队：17085053077",
+  "title" : "",
+  "creation date" : "D:20260413235423+08'00'",
+  "modification date" : "D:20260413235423+08'00'",
+  "kids" : [ {
+    "type" : "image",
+    "id" : 1,
+    "page number" : 8,
+    "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+    "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile1.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 4,
+    "page number" : 8,
+    "bounding box" : [ 54.12, 640.15, 536.163, 694.553 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "八、书面表达(共 25 分) 51．你们学校的英语俱乐部正在举办题为“Art Helps Me Grow”的征文活动。假如你是王林，根据以下内容 提示，写一篇短文投稿。要点如下："
+  }, {
+    "type" : "list",
+    "id" : 5,
+    "level" : "1",
+    "page number" : 8,
+    "bounding box" : [ 54.12, 546.55, 329.371, 627.412 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 615.84, 204.692, 627.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. A teenage problem you once had.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 592.44, 329.371, 604.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. An art form you tried, and how it helped you with the problem.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 546.55, 253.048, 580.612 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. What you have learned from this experience. 注意事项：",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 6,
+    "level" : "1",
+    "page number" : 8,
+    "bounding box" : [ 54.12, 428.64, 371.639, 533.812 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 522.24, 371.639, 533.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. 短文内容须根据以上要点自拟，语句通顺、意义连贯、符合题意；",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 498.84, 279.725, 510.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. 词数不少于 90，开头已给出，不计入总词数；",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 428.64, 355.29, 487.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. 短文中不得出现真实人名、校名等个人信息。 Art Helps Me Grow Hey, there! I’m Wang Lin. I’d like to share my story about art with you.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 7,
+    "page number" : 8,
+    "bounding box" : [ 54.12, 311.64, 537.151, 416.812 ],
+    "font" : "TimesNewRomanPS-ItalicMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "____________________________________________________________________________________________ ____________________________________________________________________________________________ ____________________________________________________________________________________________ ____________________________________________________________________________________________ ____________________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 2,
+    "page number" : 8,
+    "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "8 / 8"
+  } ]
+}

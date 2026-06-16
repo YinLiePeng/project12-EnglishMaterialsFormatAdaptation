@@ -1,0 +1,2015 @@
+{
+  "file name" : "Unit1 Music 单元语法请讲巧练 （原题版） .pdf",
+  "number of pages" : 8,
+  "author" : "Great",
+  "title" : "",
+  "creation date" : "D:20260413235422+08'00'",
+  "modification date" : "D:20260413235422+08'00'",
+  "kids" : [ {
+    "type" : "header",
+    "id" : 91,
+    "page number" : 1,
+    "bounding box" : [ 72.0, 772.18, 537.48, 798.34 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 25,
+      "page number" : 1,
+      "bounding box" : [ 72.0, 784.42, 537.48, 798.34 ],
+      "source" : "Unit1 Music 单元语法请讲巧练 （原题版） _images/imageFile1.png"
+    }, {
+      "type" : "image",
+      "id" : 26,
+      "page number" : 1,
+      "bounding box" : [ 405.0, 772.18, 405.72, 772.9 ],
+      "source" : "Unit1 Music 单元语法请讲巧练 （原题版） _images/imageFile2.png"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 100,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 198.0, 745.041, 398.389, 762.704 ],
+    "heading level" : 1,
+    "font" : "SimSun",
+    "font size" : 15.95,
+    "text color" : "[0.0, 0.0, 1.0]",
+    "content" : "Unit1 Music 单元语法讲与练"
+  }, {
+    "type" : "image",
+    "id" : 101,
+    "page number" : 1,
+    "bounding box" : [ 75.0, 526.42, 493.56, 716.98 ],
+    "source" : "Unit1 Music 单元语法请讲巧练 （原题版） _images/imageFile3.png"
+  }, {
+    "type" : "image",
+    "id" : 102,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 439.78, 230.64, 479.98 ],
+    "source" : "Unit1 Music 单元语法请讲巧练 （原题版） _images/imageFile4.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 103,
+    "page number" : 1,
+    "bounding box" : [ 111.982, 449.443, 184.221, 461.443 ],
+    "font" : "SimSun",
+    "font size" : 12.0,
+    "text color" : "[0.753, 0.0, 0.0]",
+    "content" : "单元语法精讲"
+  }, {
+    "type" : "paragraph",
+    "id" : 104,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 402.095, 128.04, 415.384 ],
+    "font" : "SimSun",
+    "font size" : 12.0,
+    "text color" : "[0.753, 0.0, 0.0]",
+    "content" : "(一) 并列连词"
+  }, {
+    "type" : "list",
+    "id" : 106,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 54.0, 356.203, 498.0, 391.984 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 120,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.0, 356.203, 498.0, 391.984 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 1.0]",
+      "content" : "1.both… and… 是一个常用的并列连词短语，用于连接两个并列的成分，强调两个事物之间的联系。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 107,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 54.0, 74.495, 486.24, 345.184 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.0, 285.095, 486.24, 345.184 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(1)连接两个并列主语 连接两个主语时，谓语动词通常用复数形式，遵循“复数主语 + 复数谓语”的原则。 Both Tom and Jerry are going to join the art club. 汤姆和杰瑞都打算加入艺术俱乐部。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.0, 214.895, 348.959, 274.984 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(2)连接两个并列宾语 连接两个名词、代词等作宾语。 I like both apples and bananas. 我既喜欢苹果又喜欢香蕉。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.0, 144.695, 437.28, 204.784 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(3)连接两个并列表语 连接两个描述主语特征或状态的成分作表语。 The film is both interesting and educational. 这部电影既有趣又有教育意义。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.0, 97.895, 354.0, 134.584 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(4)连接两个并列的谓语动词或动词短语 She both sings and dances very well. 她唱歌和跳舞都很棒。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.0, 74.495, 176.279, 87.784 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(5)连接两个并列的状语",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 108,
+    "page number" : 1,
+    "bounding box" : [ 263.88, 50.36, 331.44, 60.344 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 17,
+      "page number" : 1,
+      "bounding box" : [ 263.88, 50.36, 331.44, 60.344 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "第 1 页 共 8 页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 109,
+    "page number" : 2,
+    "bounding box" : [ 72.0, 772.18, 537.48, 798.34 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 27,
+      "page number" : 2,
+      "bounding box" : [ 72.0, 784.42, 537.48, 798.34 ],
+      "source" : "Unit1 Music 单元语法请讲巧练 （原题版） _images/imageFile5.png"
+    }, {
+      "type" : "image",
+      "id" : 28,
+      "page number" : 2,
+      "bounding box" : [ 405.0, 772.18, 405.72, 772.9 ],
+      "source" : "Unit1 Music 单元语法请讲巧练 （原题版） _images/imageFile6.png"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 118,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 634.295, 541.317, 764.204 ],
+    "font" : "SimSun",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "连接两个表示时间、地点、方式等的状语。 He works hard both at school and at home. 他在学校和家里都学习很努力。 注意：both... and...的否定形式部分否定，通常用“not both... and...”；完全否定，常用“neither... nor...”。 Not both the students are right. 并非两个学生都对。 Neither the students nor the teachers are in the classroom. 学生和老师都不在教室里。"
+  }, {
+    "type" : "list",
+    "id" : 120,
+    "level" : "1",
+    "page number" : 2,
+    "bounding box" : [ 54.0, 565.004, 414.0, 600.784 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 106,
+    "next list id" : 134,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.0, 565.004, 414.0, 600.784 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 1.0]",
+      "content" : "2.not only… but also… 是一个常用的并列连词短语，用于连接两个并列的成分，强调后者。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 121,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 54.0, 96.095, 541.32, 553.984 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 6,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.0, 447.095, 541.32, 553.984 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(1)连接两个并列主语 谓语动词的单复数遵循就近原则：即谓语动词要与靠近它的主语在人称和数上保持一致。 Not only the students but also the teacher is enjoying the movie. 不仅学生们，而且老师也在欣赏这 部电影。 Not only Tom but also his parents have been to Beijing. 不仅汤姆，而且他的父母也去过北京。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.0, 376.895, 426.0, 436.984 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(2)连接两个并列的宾语 连接两个名词、代词等作宾语，表明这两个对象都与前面的动作相关。 She likes not only music but also art. 她不仅喜欢音乐，而且喜欢艺术。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.0, 306.695, 439.559, 366.784 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(3)连接两个并列的表语 连接两个描述主语特征或状态的成分作表语。 He is not only handsome but also kind-hearted. 他不仅英俊，而且心地善良。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.0, 259.895, 431.28, 296.584 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(4)连接两个并列的谓语动词或动词短语 He not only reads books but also writes articles. 他不仅读书，而且写文章。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.0, 190.603, 541.32, 249.784 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(5)连接两个并列的状语 You should do exercise not only in the morning but also in the evening. 你不仅应该在早上锻炼，还 应该在晚上锻炼。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.0, 96.095, 541.32, 179.584 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(6)连接两个并列的句子 当连接两个句子时，not only 后面的句子要用部分倒装结构(即把助动词、情态动词或系动词提 到主语前面)，但 but also 后面的句子不用倒装。 Not only did he finish his homework on time, but also he helped his mother do some housework. 他",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 122,
+    "page number" : 2,
+    "bounding box" : [ 263.88, 50.36, 331.44, 60.344 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 18,
+      "page number" : 2,
+      "bounding box" : [ 263.88, 50.36, 331.44, 60.344 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "第 2 页 共 8 页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 123,
+    "page number" : 3,
+    "bounding box" : [ 72.0, 772.18, 537.48, 798.34 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 29,
+      "page number" : 3,
+      "bounding box" : [ 72.0, 784.42, 537.48, 798.34 ],
+      "source" : "Unit1 Music 单元语法请讲巧练 （原题版） _images/imageFile7.png"
+    }, {
+      "type" : "image",
+      "id" : 30,
+      "page number" : 3,
+      "bounding box" : [ 405.0, 772.18, 405.72, 772.9 ],
+      "source" : "Unit1 Music 单元语法请讲巧练 （原题版） _images/imageFile8.png"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 132,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 728.804, 330.0, 764.204 ],
+    "font" : "SimSun",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "不仅按时完成了作业，而且还帮他妈妈做了些家务。 注意："
+  }, {
+    "type" : "list",
+    "id" : 133,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 54.0, 657.695, 536.915, 717.784 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.0, 704.495, 474.24, 717.784 ],
+      "font" : "SimSun",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "①省略情况：but also 中的 also 有时可以省略，变成 not only... but...，意思不变。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.0, 657.695, 536.915, 694.384 ],
+      "font" : "SimSun",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "②强调作用：not only… but also…着重强调 but also 后面的内容。 He is not only smart but also hard-working. 他不仅聪明，而且勤奋。(更强调“勤奋”这一特点。)",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 134,
+    "level" : "1",
+    "page number" : 3,
+    "bounding box" : [ 54.0, 423.695, 478.2, 624.184 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 120,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.0, 423.695, 478.2, 624.184 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 1.0]",
+      "content" : "3.其他常见并列连词 and, or, so, either… or…, neither… nor…, as well as 等。 He is tall and he can play basketball well. 他个子高，而且篮球打得好。 Do you want tea or coffee? 你想要茶还是咖啡？ Hurry up, or you’ll be late. 快点，否则你会迟到的。 It was raining heavily, so we stayed at home. 雨下得很大，所以我们待在家里。 Either you or he has to clean the classroom. 要么你要么他得打扫教室。 Neither Tom nor Jack likes playing football. 汤姆和杰克都不喜欢踢足球。 The teacher as well as the students likes the game. 老师和学生们一样喜欢这个游戏。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 136,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 236.495, 541.319, 390.184 ],
+    "font" : "SimSun",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "(二)系动词 也称连系动词，本身有词义，但不能单独用作谓语，其后必须跟表语，构成系表结构，说明主 语的状况、性质、特征等情况。 系动词有时态和人称变化。 系动词无被动语态。 She will be happy tomorrow. 她明天会很开心的。 The flower looks beautiful. 这花看起来很漂亮。"
+  }, {
+    "type" : "heading",
+    "id" : 137,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 54.0, 213.095, 102.0, 226.384 ],
+    "heading level" : 2,
+    "font" : "SimSun",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 1.0]",
+    "content" : "1.be 动词"
+  }, {
+    "type" : "list",
+    "id" : 138,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 54.0, 96.095, 312.24, 202.984 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.0, 119.495, 312.24, 202.984 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(1)am, is, are 三种形式，说明主语的状态或特征。 I am a student. 我是一名学生。 He is tall and strong. 他又高又壮。 They are happy. 他们很开心。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.0, 96.095, 309.24, 109.384 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(2)am, is 的过去式是 was，are 的过去式是 were。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 139,
+    "page number" : 3,
+    "bounding box" : [ 263.88, 50.36, 331.44, 60.344 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 19,
+      "page number" : 3,
+      "bounding box" : [ 263.88, 50.36, 331.44, 60.344 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "第 3 页 共 8 页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 140,
+    "page number" : 4,
+    "bounding box" : [ 72.0, 772.18, 537.48, 798.34 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 31,
+      "page number" : 4,
+      "bounding box" : [ 72.0, 784.42, 537.48, 798.34 ],
+      "source" : "Unit1 Music 单元语法请讲巧练 （原题版） _images/imageFile9.png"
+    }, {
+      "type" : "image",
+      "id" : 32,
+      "page number" : 4,
+      "bounding box" : [ 405.0, 772.18, 405.72, 772.9 ],
+      "source" : "Unit1 Music 单元语法请讲巧练 （原题版） _images/imageFile10.png"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 149,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 727.895, 331.2, 764.584 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "I was at home yesterday. 我昨天在家。 They were in the park last Sunday. 他们上周日在公园。"
+  }, {
+    "type" : "list",
+    "id" : 150,
+    "level" : "1",
+    "page number" : 4,
+    "bounding box" : [ 54.0, 540.695, 541.236, 717.784 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 54.0, 564.095, 541.236, 717.784 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 1.0]",
+      "content" : "2.感官动词 和我们的五官感觉相关，用来表示主语给人的感觉或者状态。如：look, appear, feel, smell, taster 和 sound。 The cake smells delicious. 这个蛋糕闻起来很香。 This silk feels soft. 这种丝绸摸起来很柔软。 I feel tired today. 我今天感觉很累。 Your idea sounds great. 你的主意听起来很棒。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 54.0, 540.695, 123.239, 553.984 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 1.0]",
+      "content" : "3.变化系动词",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 151,
+    "level" : "2",
+    "page number" : 4,
+    "bounding box" : [ 54.0, 353.495, 354.359, 530.584 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 54.0, 447.095, 330.12, 530.584 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(1)表示主语的状态、性质等发生了变化。 It's becoming colder and colder. 天气变得越来越冷了。 Leaves turn yellow in autumn. 秋天树叶变黄了。 It's growing dark. 天渐渐黑了。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 54.0, 353.495, 354.359, 436.984 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(2)表示主语保持某种状态。 Keep quiet, please. 请保持安静。 We should keep healthy. 我们应该保持健康。 You should stay calm in danger. 在危险中你应该保持冷静。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 153,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 300.14, 164.53, 310.59 ],
+    "linked content id" : 0,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "【单元核心语法小结】："
+  }, {
+    "type" : "table",
+    "id" : 154,
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 48.36, 81.52, 546.94, 297.5 ],
+    "number of rows" : 3,
+    "number of columns" : 5,
+    "next table id" : 165,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 48.6, 261.96, 119.9, 297.26 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 1,
+          "page number" : 4,
+          "bounding box" : [ 54.0, 282.14, 96.128, 292.59 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "并列连词"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 119.9, 261.96, 200.45, 297.26 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 2,
+          "page number" : 4,
+          "bounding box" : [ 125.28, 282.14, 146.17, 292.59 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "功能"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 200.45, 261.96, 299.0, 297.26 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 3,
+          "page number" : 4,
+          "bounding box" : [ 205.8, 282.14, 247.689, 292.59 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "结构示例"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 299.0, 261.96, 358.85, 297.26 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 4,
+          "page number" : 4,
+          "bounding box" : [ 304.44, 266.54, 346.329, 292.59 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "主谓一致 规则"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 358.85, 261.96, 546.7, 297.26 ],
+        "row number" : 1,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 5,
+          "page number" : 4,
+          "bounding box" : [ 364.2, 282.14, 406.089, 292.59 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "单元例句"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 48.6, 164.26, 119.9, 261.96 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 6,
+          "page number" : 4,
+          "bounding box" : [ 54.0, 246.071, 107.009, 257.643 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "both...and..."
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 119.9, 164.26, 200.45, 261.96 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 7,
+          "page number" : 4,
+          "bounding box" : [ 125.28, 214.871, 192.849, 257.311 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "连接两个并列 成分，表“两者 都”"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 200.45, 164.26, 299.0, 261.96 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 8,
+          "level" : "1",
+          "page number" : 4,
+          "bounding box" : [ 205.8, 214.871, 290.104, 257.643 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "1. 连接名词：both A and B2. 连接形 容词：both + adj."
+        }, {
+          "type" : "paragraph",
+          "id" : 9,
+          "page number" : 4,
+          "bounding box" : [ 205.8, 168.071, 292.208, 210.842 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "and + adj.3. 连接动 词：both + v. and + v."
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 299.0, 164.26, 358.85, 261.96 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 10,
+          "page number" : 4,
+          "bounding box" : [ 304.44, 215.661, 346.329, 257.311 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "谓语动词 用复数形 式"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 358.85, 164.26, 546.7, 261.96 ],
+        "row number" : 2,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 11,
+          "level" : "1",
+          "page number" : 4,
+          "bounding box" : [ 364.2, 184.461, 541.264, 257.643 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "- Both Beethoven and Mozart are famous musicians.（连接名词）- This song is both moving and inspiring.（连接形容词）She both sings and plays the piano well. （连接动词）"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 48.6, 82.0, 119.9, 164.26 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 12,
+          "page number" : 4,
+          "bounding box" : [ 54.0, 132.79, 112.795, 159.962 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "not only...but also..."
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 119.9, 82.0, 200.45, 164.26 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 13,
+          "page number" : 4,
+          "bounding box" : [ 125.28, 86.78, 192.849, 159.63 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "连接两个并列 成分，表“不 仅……而 且……”，强调 后者"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 200.45, 82.0, 299.0, 164.26 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 14,
+          "level" : "1",
+          "page number" : 4,
+          "bounding box" : [ 205.8, 117.19, 286.652, 159.962 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "1. 连接名词：not only A but also B2. 连接形容词：not"
+        }, {
+          "type" : "paragraph",
+          "id" : 15,
+          "page number" : 4,
+          "bounding box" : [ 205.8, 101.59, 286.623, 113.162 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "only + adj. but also"
+        }, {
+          "type" : "paragraph",
+          "id" : 16,
+          "level" : "2",
+          "page number" : 4,
+          "bounding box" : [ 205.8, 85.99, 295.45, 97.562 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "+ adj.3. 连接动词："
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 299.0, 82.0, 358.85, 164.26 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 17,
+          "page number" : 4,
+          "bounding box" : [ 304.44, 86.78, 350.89, 159.63 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "谓语动词 遵循“就近 原则”（与 靠近的主 语保持一"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 358.85, 82.0, 546.7, 164.26 ],
+        "row number" : 3,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 18,
+          "level" : "1",
+          "page number" : 4,
+          "bounding box" : [ 364.2, 85.99, 541.264, 159.962 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "- Not only my parents but also my sister likes this song.（靠近主语 my sister 为单 数，谓语用 likes）- The concert is not only wonderful but also meaningful.（连接形 容词）- He not only writes songs but also"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 155,
+    "page number" : 4,
+    "bounding box" : [ 263.88, 50.36, 331.44, 60.344 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 20,
+      "page number" : 4,
+      "bounding box" : [ 263.88, 50.36, 331.44, 60.344 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "第 4 页 共 8 页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 156,
+    "page number" : 5,
+    "bounding box" : [ 72.0, 772.18, 537.48, 798.34 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 33,
+      "page number" : 5,
+      "bounding box" : [ 72.0, 784.42, 537.48, 798.34 ],
+      "source" : "Unit1 Music 单元语法请讲巧练 （原题版） _images/imageFile11.png"
+    }, {
+      "type" : "image",
+      "id" : 34,
+      "page number" : 5,
+      "bounding box" : [ 405.0, 772.18, 405.72, 772.9 ],
+      "source" : "Unit1 Music 单元语法请讲巧练 （原题版） _images/imageFile12.png"
+    } ]
+  }, {
+    "type" : "table",
+    "id" : 165,
+    "level" : "3",
+    "page number" : 5,
+    "bounding box" : [ 48.36, 700.62, 546.94, 769.9 ],
+    "number of rows" : 2,
+    "number of columns" : 5,
+    "previous table id" : 154,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 48.6, 734.36, 119.9, 769.66 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 1,
+          "page number" : 5,
+          "bounding box" : [ 54.0, 754.58, 96.128, 765.03 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "并列连词"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 119.9, 734.36, 200.45, 769.66 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 2,
+          "page number" : 5,
+          "bounding box" : [ 125.28, 754.58, 146.17, 765.03 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "功能"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 200.45, 734.36, 299.0, 769.66 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 3,
+          "page number" : 5,
+          "bounding box" : [ 205.8, 754.58, 247.689, 765.03 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "结构示例"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 299.0, 734.36, 358.85, 769.66 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 4,
+          "page number" : 5,
+          "bounding box" : [ 304.44, 738.98, 346.329, 765.03 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "主谓一致 规则"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 358.85, 734.36, 546.7, 769.66 ],
+        "row number" : 1,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 5,
+          "page number" : 5,
+          "bounding box" : [ 364.2, 754.58, 406.089, 765.03 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "单元例句"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 48.6, 701.1, 119.9, 734.36 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 119.9, 701.1, 200.45, 734.36 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 200.45, 701.1, 299.0, 734.36 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 6,
+          "page number" : 5,
+          "bounding box" : [ 205.8, 704.71, 274.934, 731.882 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "not only + v. but also + v."
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 299.0, 701.1, 358.85, 734.36 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 7,
+          "page number" : 5,
+          "bounding box" : [ 304.44, 721.1, 325.33, 731.55 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "致）"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 358.85, 701.1, 546.7, 734.36 ],
+        "row number" : 2,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 8,
+          "page number" : 5,
+          "bounding box" : [ 364.2, 720.31, 509.047, 731.882 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "sings them himself.（连接动词）"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "table",
+    "id" : 166,
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 46.91, 534.27, 542.69, 679.0 ],
+    "number of rows" : 5,
+    "number of columns" : 4,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 47.15, 534.75, 97.55, 678.52 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 5,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 9,
+          "page number" : 5,
+          "bounding box" : [ 56.52, 600.833, 89.5, 612.333 ],
+          "font" : "SimSun",
+          "font size" : 11.5,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "系动词"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 97.55, 534.75, 210.25, 678.52 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 5,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "list",
+          "id" : 10,
+          "level" : "1",
+          "page number" : 5,
+          "bounding box" : [ 103.08, 571.074, 210.58, 642.213 ],
+          "numbering style" : "unknown style",
+          "number of list items" : 4,
+          "list items" : [ {
+            "type" : "list item",
+            "page number" : 5,
+            "bounding box" : [ 103.08, 630.713, 171.219, 642.213 ],
+            "font" : "SimSun",
+            "font size" : 11.5,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "①本身有词义",
+            "kids" : [ ]
+          }, {
+            "type" : "list item",
+            "page number" : 5,
+            "bounding box" : [ 103.08, 615.833, 194.38, 627.333 ],
+            "font" : "SimSun",
+            "font size" : 11.5,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "②不能单独做谓语",
+            "kids" : [ ]
+          }, {
+            "type" : "list item",
+            "page number" : 5,
+            "bounding box" : [ 103.08, 600.953, 159.819, 612.453 ],
+            "font" : "SimSun",
+            "font size" : 11.5,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "③后加表语",
+            "kids" : [ ]
+          }, {
+            "type" : "list item",
+            "page number" : 5,
+            "bounding box" : [ 103.08, 571.074, 210.58, 597.574 ],
+            "font" : "SimSun",
+            "font size" : 11.5,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "④说明主语的状态、性 质、特征或身份。",
+            "kids" : [ ]
+          } ]
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 210.25, 649.91, 402.5, 678.52 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 11,
+          "page number" : 5,
+          "bounding box" : [ 215.759, 657.803, 294.293, 670.539 ],
+          "font" : "SimSun",
+          "font size" : 11.5,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "状态系动词：be"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 402.5, 649.91, 542.45, 678.52 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 12,
+          "page number" : 5,
+          "bounding box" : [ 408.0, 657.454, 464.039, 670.743 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "I am happy."
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 210.25, 621.06, 402.5, 649.91 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 13,
+          "page number" : 5,
+          "bounding box" : [ 215.759, 628.882, 402.417, 641.618 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.5,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "感官系动词：look,sound,taste,smell,feel"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 402.5, 621.06, 542.45, 649.91 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 14,
+          "page number" : 5,
+          "bounding box" : [ 408.0, 628.654, 472.198, 641.943 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Sounds good."
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 210.25, 592.21, 402.5, 621.06 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 15,
+          "page number" : 5,
+          "bounding box" : [ 215.759, 600.082, 357.53, 612.818 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 11.5,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "变化系动词：turn,get,become"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 402.5, 592.21, 542.45, 621.06 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 16,
+          "page number" : 5,
+          "bounding box" : [ 408.0, 599.734, 479.399, 613.023 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "It’s getting hot."
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 210.25, 563.36, 402.5, 592.21 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 17,
+          "page number" : 5,
+          "bounding box" : [ 215.759, 571.162, 305.029, 583.898 ],
+          "font" : "SimSun",
+          "font size" : 11.5,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "持续系动词：keep"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 402.5, 563.36, 542.45, 592.21 ],
+        "row number" : 4,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 18,
+          "page number" : 5,
+          "bounding box" : [ 408.0, 570.934, 465.238, 584.223 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Keep silent."
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 210.25, 534.75, 402.5, 563.36 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 19,
+          "page number" : 5,
+          "bounding box" : [ 215.759, 542.362, 307.734, 555.098 ],
+          "font" : "SimSun",
+          "font size" : 11.5,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "表像系动词：seem"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 5,
+        "bounding box" : [ 402.5, 534.75, 542.45, 563.36 ],
+        "row number" : 5,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 20,
+          "page number" : 5,
+          "bounding box" : [ 408.0, 542.014, 476.158, 555.303 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "He seems sad."
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 167,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 453.7, 230.64, 493.9 ],
+    "source" : "Unit1 Music 单元语法请讲巧练 （原题版） _images/imageFile13.png"
+  }, {
+    "type" : "heading",
+    "id" : 168,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 111.982, 463.362, 184.221, 475.362 ],
+    "heading level" : 2,
+    "font" : "SimSun",
+    "font size" : 12.0,
+    "text color" : "[0.753, 0.0, 0.0]",
+    "content" : "语法巩固训练"
+  }, {
+    "type" : "heading",
+    "id" : 169,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 54.0, 415.58, 117.127, 426.03 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "一、单项选择"
+  }, {
+    "type" : "list",
+    "id" : 170,
+    "level" : "1",
+    "page number" : 5,
+    "bounding box" : [ 54.0, 91.15, 478.529, 406.922 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 7,
+    "next list id" : 182,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.0, 371.95, 392.519, 406.922 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．We all like Mrs. Wang _________ she is very knowledgeable and patient. A．because B．but C．so D．or",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.0, 348.55, 295.506, 360.122 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．—Do you want to go shopping ________ swimming?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 81,
+        "level" : "3",
+        "page number" : 5,
+        "bounding box" : [ 54.0, 301.75, 393.064, 336.722 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—Swimming. It’s great to be in the water on such a hot day. A．or B．and C．but D．so"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.0, 254.95, 476.729, 289.922 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．You can choose to take the bus ________ ride a bike to school. Both are green ways of traveling. A．and B．or C．but D．so",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.0, 208.15, 478.529, 243.122 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4．She likes both singing ______ dancing. She often takes part in singing and dancing competitions. A．or B．but C．and D．so",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.0, 161.35, 393.064, 196.322 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5．Wednesday is my favorite day ______ I have art and biology. A．or B．but C．because D．so",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.0, 114.55, 414.211, 149.522 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6．The weather in spring is pleasant, ________ sometimes it can be windy and rainy. A．and B．so C．or D．but",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.0, 91.15, 396.69, 102.722 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7．________ my father ________ my mother is a doctor. They are both teachers.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 171,
+    "page number" : 5,
+    "bounding box" : [ 263.88, 50.36, 331.44, 60.344 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 21,
+      "page number" : 5,
+      "bounding box" : [ 263.88, 50.36, 331.44, 60.344 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "第 5 页 共 8 页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 172,
+    "page number" : 6,
+    "bounding box" : [ 72.0, 772.18, 537.48, 798.34 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 35,
+      "page number" : 6,
+      "bounding box" : [ 72.0, 784.42, 537.48, 798.34 ],
+      "source" : "Unit1 Music 单元语法请讲巧练 （原题版） _images/imageFile14.png"
+    }, {
+      "type" : "image",
+      "id" : 36,
+      "page number" : 6,
+      "bounding box" : [ 405.0, 772.18, 405.72, 772.9 ],
+      "source" : "Unit1 Music 单元语法请讲巧练 （原题版） _images/imageFile15.png"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 182,
+    "level" : "1",
+    "page number" : 6,
+    "bounding box" : [ 54.0, 73.51, 541.269, 763.682 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 14,
+    "previous list id" : 170,
+    "list items" : [ {
+      "type" : "list item",
+      "id" : 181,
+      "page number" : 6,
+      "bounding box" : [ 69.0, 752.11, 434.879, 763.682 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A．Both; and B．Not only; but also C．Either; or D．Neither; nor",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.0, 705.31, 457.048, 740.282 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8．You can ________ take the bus ________ ride a bike to the park. Both ways are convenient. A．either; or B．neither; nor C．both; and D．not only; but",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.0, 658.51, 460.772, 693.482 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9．Both George’s school ________ Mark’s school begin at 8:00 a.m. ________ end at 4:00 p.m. A．and, and B．or, but C．and, but D．or, and",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.0, 611.71, 541.269, 646.682 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10．My mum is very busy with her work, ________ she still reads me a story every night. This special time means a lot to me.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 82,
+        "page number" : 6,
+        "bounding box" : [ 72.959, 588.31, 393.064, 599.882 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．and B．but C．because D．so"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.0, 541.51, 393.064, 576.482 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "11．The job is challenging, ________ he will never regret choosing it. A．and B．but C．or D．so",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.0, 494.71, 448.531, 529.682 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "12．________ Lucy ________ Mary will go with you, because one of them must be at home. A．Neither; nor B．Both; and C．Either; or D．As well; as",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.0, 471.31, 262.868, 482.882 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "13．—Tim, how do your parents like pop music?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 83,
+        "level" : "3",
+        "page number" : 6,
+        "bounding box" : [ 54.0, 424.51, 459.304, 459.482 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—________ my dad ________ my mom likes it. They both prefer classical music. A．Either; or B．Both; and C．Neither; nor D．Not only; but also"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.0, 401.11, 364.268, 412.682 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "14．—Would you like to join the music club or the drama club this term?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 84,
+        "level" : "3",
+        "page number" : 6,
+        "bounding box" : [ 54.0, 354.31, 464.37, 389.282 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—To be honest, ______ music ______ drama interests me. I prefer playing ball games after class. A．both; and B．either; or C．neither; nor"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.0, 307.51, 486.092, 342.482 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "15．________ my dad ________ my mum cooks breakfast for me. I always buy some bread and milk. A．Either…or… B．Neither…nor… C．Both…and… D．Not only…but also…",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.0, 260.71, 455.972, 295.682 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "16．Making short videos is popular. ________ the young, ________ the old are interested in it. A．Between; and B．Not only; but also C．Neither; nor D．Either; or",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.0, 213.91, 470.731, 248.882 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "17．Moyan is really a great writer. ________ his readers ________ his child loves him very much. A．Either; or B．Neither; nor C．Both; and D．Not only; but also",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.0, 190.51, 256.628, 202.082 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "18．—Jim, do your parents like country music?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 85,
+        "level" : "3",
+        "page number" : 6,
+        "bounding box" : [ 54.0, 143.71, 459.304, 178.682 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—Yes. ________ my dad ________ my mom likes it very much. A．Both; and B．Either; or C．Neither; nor D．Not only; but also"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.0, 96.91, 509.97, 131.882 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "19．Beijing has made history in winning the bids to host both the summer ________winter Olympic games. A．but B．or C．so D．and",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.0, 73.51, 271.385, 85.082 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "20．—Can I go to Tom’s birthday party tomorrow?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 183,
+    "page number" : 6,
+    "bounding box" : [ 263.88, 50.36, 331.44, 60.344 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 22,
+      "page number" : 6,
+      "bounding box" : [ 263.88, 50.36, 331.44, 60.344 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "第 6 页 共 8 页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 184,
+    "page number" : 7,
+    "bounding box" : [ 72.0, 772.18, 537.48, 798.34 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 37,
+      "page number" : 7,
+      "bounding box" : [ 72.0, 784.42, 537.48, 798.34 ],
+      "source" : "Unit1 Music 单元语法请讲巧练 （原题版） _images/imageFile16.png"
+    }, {
+      "type" : "image",
+      "id" : 38,
+      "page number" : 7,
+      "bounding box" : [ 405.0, 772.18, 405.72, 772.9 ],
+      "source" : "Unit1 Music 单元语法请讲巧练 （原题版） _images/imageFile17.png"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 193,
+    "level" : "3",
+    "page number" : 7,
+    "bounding box" : [ 54.0, 728.71, 423.719, 763.682 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "—Of course. ________ you ________ your brother is invited. Have a nice time then. A．Neither; nor B．Both; and C．Not only; but also D．Either; or"
+  }, {
+    "type" : "heading",
+    "id" : 194,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 54.0, 678.86, 117.127, 689.31 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "二、完成句子"
+  }, {
+    "type" : "list",
+    "id" : 195,
+    "level" : "1",
+    "page number" : 7,
+    "bounding box" : [ 54.0, 73.51, 508.65, 670.082 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 13,
+    "next list id" : 208,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.0, 635.11, 274.8, 670.082 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．Maths is difficult. It is useful. (用 but 连接句子) Maths difficult useful.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.0, 611.71, 185.166, 623.282 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．我和妹妹都擅长踢足球。",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 44,
+        "level" : "3",
+        "page number" : 7,
+        "bounding box" : [ 101.28, 588.31, 316.65, 599.882 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "my sister I are good at playing football."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.0, 564.91, 269.163, 576.482 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．不仅个人，企业也应该为社会发展做贡献。",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 47,
+        "level" : "4",
+        "page number" : 7,
+        "bounding box" : [ 106.44, 541.51, 429.569, 553.082 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "individuals enterprises should contribute to social development."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.0, 518.11, 352.68, 529.682 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4．Tom is in the music club. I am in the music club too. (合并为一句)",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 50,
+        "level" : "3",
+        "page number" : 7,
+        "bounding box" : [ 101.04, 494.71, 268.89, 506.282 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "Tom I are in the music club."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.0, 447.91, 372.091, 482.882 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5．李明不仅跑得快，而且跳得高。 Li Ming runs fast, jump high.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.0, 401.11, 508.65, 436.082 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6．我最好的朋友不仅和我一起玩，而且帮助我学习。 My best friend plays with me, me with my studies.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.0, 354.31, 503.971, 389.282 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7．我们在打球时不仅感到开心，而且彼此之间变得更亲近。 We feel happy during the game, become closer to each other.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.0, 307.51, 250.411, 342.482 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8．他会游泳，但他不会滑冰。 He can swim, he skate.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.0, 284.11, 258.723, 295.682 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9．不仅学生，老师也喜欢在空闲时间阅读。",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 61,
+        "level" : "3",
+        "page number" : 7,
+        "bounding box" : [ 101.28, 260.71, 350.491, 272.282 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "students teachers like reading in their free time."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.0, 213.91, 347.52, 248.882 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10．You can stay at home. You can go with us instead. (合并成一句) You can stay at home go with us.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.0, 167.11, 338.528, 202.082 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "11．You and your friend are both ready and calm.（改为否定句） You and your friend are ready calm.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.0, 120.31, 331.651, 155.282 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "12．我们所有人在场内外都是好朋友。 All of us are good friends, on off the field.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.0, 73.51, 413.491, 108.482 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "13．约翰不仅钢琴弹得好，而且还会作曲。 John plays the piano well writes music.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 198,
+    "page number" : 7,
+    "bounding box" : [ 263.88, 50.36, 331.44, 60.344 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 23,
+      "page number" : 7,
+      "bounding box" : [ 263.88, 50.36, 331.44, 60.344 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "第 7 页 共 8 页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 199,
+    "page number" : 8,
+    "bounding box" : [ 72.0, 772.18, 537.48, 798.34 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 39,
+      "page number" : 8,
+      "bounding box" : [ 72.0, 784.42, 537.48, 798.34 ],
+      "source" : "Unit1 Music 单元语法请讲巧练 （原题版） _images/imageFile18.png"
+    }, {
+      "type" : "image",
+      "id" : 40,
+      "page number" : 8,
+      "bounding box" : [ 405.0, 772.18, 405.72, 772.9 ],
+      "source" : "Unit1 Music 单元语法请讲巧练 （原题版） _images/imageFile19.png"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 208,
+    "level" : "1",
+    "page number" : 8,
+    "bounding box" : [ 54.0, 401.11, 541.214, 763.682 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 7,
+    "previous list id" : 195,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.0, 728.71, 528.209, 763.682 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "14．她爸爸不仅支持她，而且帮她练习踢足球。 Her father supported her, helped her practise playing football.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.0, 681.91, 277.65, 716.882 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "15．这件连衣裙很漂亮，而且它还不贵。 This dress is beautiful, it’s not expensive.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.0, 658.51, 211.325, 670.082 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "16．不仅你，他也需要注意健康。",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 73,
+        "level" : "3",
+        "page number" : 8,
+        "bounding box" : [ 111.72, 635.11, 343.891, 646.682 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "you he need to pay attention to your health."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.0, 611.71, 274.323, 623.282 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "17．不仅科学家，游客也对这片湿地充满好奇。",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 76,
+        "level" : "4",
+        "page number" : 8,
+        "bounding box" : [ 101.28, 588.31, 354.33, 599.882 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "scientists tourists are curious about this wetland."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.0, 541.51, 430.92, 576.482 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "18．They speak English not only in class but also in the dormitory. (保持句意基本不变) They speak English in class in the dormitory.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.0, 471.31, 541.214, 529.682 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "19．我认为这部电影值得一看，因为它不仅情节吸引人，而且传递了积极的价值观。 I think the film is worth watching because it has an attractive plot spreads positive values.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.0, 401.11, 541.183, 459.482 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "20．她不仅通过学习语法来提升学习，而且还看电影和唱英文歌。 She improves her learning by studying grammar, by watching movies and singing English songs.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 211,
+    "page number" : 8,
+    "bounding box" : [ 263.88, 50.36, 331.44, 60.344 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 24,
+      "page number" : 8,
+      "bounding box" : [ 263.88, 50.36, 331.44, 60.344 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "第 8 页 共 8 页"
+    } ]
+  } ]
+}

@@ -1,0 +1,1442 @@
+{
+  "file name" : "专题13 词汇辨析、短语及固定搭配（93题）（原卷版）.pdf",
+  "number of pages" : 8,
+  "author" : "追梦团队：17085053077",
+  "title" : "",
+  "creation date" : "D:20260413235424+08'00'",
+  "modification date" : "D:20260413235424+08'00'",
+  "kids" : [ {
+    "type" : "header",
+    "id" : 51,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 784.35, 542.64, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 25,
+      "page number" : 1,
+      "bounding box" : [ 53.88, 784.35, 542.64, 799.35 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 61,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 757.929, 402.64, 769.28 ],
+    "font" : "Calibri-Bold",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 1.0]",
+    "content" : "学校:___________姓名：___________班级：___________考号：___________"
+  }, {
+    "type" : "image",
+    "id" : 60,
+    "page number" : 1,
+    "bounding box" : [ 404.88, 764.91, 405.6, 765.63 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+    "format" : "jpeg"
+  }, {
+    "type" : "heading",
+    "id" : 62,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 147.0, 717.511, 448.2, 732.511 ],
+    "heading level" : 1,
+    "font" : "SimSun",
+    "font size" : 15.0,
+    "text color" : "[0.0, 0.0, 1.0]",
+    "content" : "专题 13 词汇辨析、短语及固定搭配（93 题）"
+  }, {
+    "type" : "paragraph",
+    "id" : 64,
+    "page number" : 1,
+    "bounding box" : [ 55.2, 680.83, 540.006, 706.88 ],
+    "font" : "SimHei",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "说明：本资料由两部分构成，第一部分是 26 年 16 区一模真题，第二部分是 25 年 16 区一二三模真题，真 题质量较高，对于学生刷题效果更佳！"
+  }, {
+    "type" : "paragraph",
+    "id" : 66,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 634.03, 277.807, 644.48 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "一、26 年 16 区一模真题汇编 57 题（词汇辨析）"
+  }, {
+    "type" : "list",
+    "id" : 67,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 53.88, 75.6, 536.132, 625.372 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 12,
+    "next list id" : 70,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 53.88, 590.4, 520.41, 625.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．（2026·上海长宁·一模）I ________ take a taxi to work, but this morning I took one because it was snowy. A．seldom B．sometimes C．usually D．always",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 53.88, 543.6, 520.051, 578.572 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．（2026·上海闵行·一模）When speaking to the baby girl, her father always looked ________ into her eyes. A．friendly B．likely C．gently D．lonely",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 53.88, 496.8, 536.132, 531.772 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．（2026·上海普陀·一模）I don’t drive, so I depend ________ buses and the underground to get around the city. A．of B．on C．for D．at",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 53.88, 450.0, 498.33, 484.972 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4．（2026·上海长宁·一模）Raise your hand if you know the answers ________ the following questions. A．with B．to C．of D．at",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 53.88, 403.2, 473.252, 438.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5．（2026·上海青浦·一模）The public can get much ________ about the election online or on TV. A．news B．clues C．suggestions D．instructions",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 53.88, 356.4, 530.131, 391.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6．（2026·上海青浦·一模）Sam set off early this morning, ________ he was still late because of the traffic jam. A．but B．so C．and D．or",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 53.88, 309.6, 535.052, 344.572 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7．（2026·上海青浦·一模）All the players held the rope tightly to the last moment ________ they were tired out. A．since B．unless C．although D．because",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 53.88, 262.8, 491.609, 297.772 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8．（2026·上海奉贤·一模）The children often visit the old man next door, so he never feels ________. A．lonely B．alone C．friendly D．nicely",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 53.88, 216.0, 511.889, 250.972 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9．（2026·上海嘉定·一模）My brother and I like playing Ping-Pong. ________ play together on Saturdays. A．He B．They C．We D．I",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 53.88, 169.2, 509.73, 204.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10．（2026·上海黄浦·一模）Follow the instructions strictly, ________ you will damage the engine system. A．so B．or C．and D．but",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 53.88, 122.4, 473.01, 157.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "11．（2026·上海黄浦·一模）My father walked around his car to see if there was ________ wrong. A．anything B．nothing C．something D．everything",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 53.88, 75.6, 522.21, 110.572 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "12．（2026·上海黄浦·一模）The Green Great Wall along the desert protects people ________ the sandstorms. A．for B．from C．between D．through",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 68,
+    "page number" : 1,
+    "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 17,
+      "page number" : 1,
+      "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+      "heading level" : 3,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 69,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 784.35, 542.64, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 26,
+      "page number" : 2,
+      "bounding box" : [ 53.88, 784.35, 542.64, 799.35 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 70,
+    "level" : "1",
+    "page number" : 2,
+    "bounding box" : [ 53.88, 77.64, 541.65, 767.812 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 14,
+    "previous list id" : 67,
+    "next list id" : 83,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 732.84, 451.89, 767.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "13．（2026·上海黄浦·一模）The poor old lady praised John for ________ help and kindness. A．he B．him C．his D．himself",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 686.04, 462.09, 721.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "14．（2026·上海金山·一模）The firefighters helped all the people leave the building ________. A．save B．safe C．safely D．safety",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 639.24, 541.65, 674.212 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "15．（2026·上海金山·一模）The new high-speed railway makes ________ possible to travel between cities quickly. A．it B．this C．that D．one",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 615.84, 327.187, 627.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "16．（2026·上海金山·一模）—Is this your sister’s smartwatch?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 33,
+        "level" : "2",
+        "page number" : 2,
+        "bounding box" : [ 53.88, 569.04, 387.12, 604.012 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—No, it’s ________. She bought it for my birthday. A．my B．mine C．me D．I"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 522.24, 418.291, 557.212 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "17．（2026·上海金山·一模）After helping others, I always feel ________ and useful. A．happy B．happily C．gently D．heavy",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 475.44, 526.529, 510.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "18．（2026·上海金山·一模）We can find real happiness ________ helping others and sharing kindness around. A．at B．for C．in D．on",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 428.64, 521.608, 463.612 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "19．（2026·上海普陀·一模）Don’t let your dog run right after a big meal, ________ it can get a stomachache. A．so B．and C．or D．but",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 381.84, 497.968, 416.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "20．（2026·上海普陀·一模）The plan to spend the weekend on the beach with family sounds ________. A．perfectly B．sweetly C．lovely D．wonderfully",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 335.04, 536.948, 370.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "21．（2026·上海闵行·一模）Sam has a big dream of being a dancer. ________ can stop him from standing on the stage.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 34,
+        "page number" : 2,
+        "bounding box" : [ 72.84, 311.64, 418.023, 323.212 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．Something B．Anything C．Everything D．Nothing"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 264.84, 505.864, 299.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "22．（2026·上海宝山·一模）You must conduct the experiment as ________ as possible and never jump to conclusions.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 35,
+        "page number" : 2,
+        "bounding box" : [ 72.84, 241.44, 412.813, 253.012 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．carelessly B．careless C．carefully D．careful"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 194.64, 512.01, 229.612 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "23．（2026·上海闵行·一模）Mr. Wang is a kind-hearted boss. He seldom gets angry ________ his workers. A．with B．from C．for D．about",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 147.84, 528.21, 182.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "24．（2026·上海浦东新·一模）It rained heavily outside, ________ the Wangs had to put off the outdoor picnic. A．for B．or C．so D．but",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 101.04, 511.891, 136.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "25．（2026·上海浦东新·一模）The result depends mainly ________ how well all members work as a team. A．on B．with C．for D．from",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 77.64, 532.411, 89.212 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "26．（2026·上海浦东新·一模）________ John has something unknown, he often does some research after class.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 71,
+    "page number" : 2,
+    "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 18,
+      "page number" : 2,
+      "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+      "heading level" : 3,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 72,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 784.35, 542.64, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 27,
+      "page number" : 3,
+      "bounding box" : [ 53.88, 784.35, 542.64, 799.35 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAeA9IDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDtvHPxF1bQ9UfSNJ0RxKNg+33ikQksCQEA++eCBzkspAUnivPYPFHxQsr99QlfUXiALP59g3kuqjP3AgKggdQFPPUV6rqd9dNdX91aXtnZWUUhWS4vA0odl+VsfvF8tVYMuM4JyQBklqk+vqhNoZrK0vEWQzm4l3RwIu35jgjO7zIyASvDcnKkV5NfMpQqONOKaW5vGgmrtmh4I8Y6n4kD2+qeHbzTp4kJa52E20pBCnax75zwN3APzV1zyxxsiySKpkbagY43HBOB6nAJ/A1g6Jfagl9/Z+oNHcB4mmiuYIyigAgFGUsxz8wIOTn5uBgbuN1rRtRl8QXV5r8PiG5h+0M2m/2TtkESg9SP4DgJjGM4JOTXoUK0a9NVI9TKUXF2Z6TNqVhbrcNNe20S220Tl5VURbsY3ZPy5yMZ9atV4nqNp4ZgmDapb+Mo5bli266SNTIw7/N1Iz+tbV9a6xb+BrOz8R2qahdSaoqQJdzuSQyHblkYHO4sPmPQ+mK2JPSo7+zlvHs47uB7pBueFZAXUdMlc5HUfnQ9/Zx3sdk93At3Iu5IDIBIw55C9SOD+RrxrwNPbQx30FysFk32OWYaiqkzwjAX5TzjqenzH8q09Ge7k+Ifhh7vUodRZrB/LuIgfmTEwAYnksO+QCDwckEkA9Nu9Y0zT5RFe6jZ20hXcEmnVCR64J6cGq//AAk2gf8AQc03/wAC4/8AGvLbjV4tO8a65c6nptpqFibzypXuYfNePAfYEJ6ZC4+iilbXfslqWvvDPhyOe4skurONbHl90oQAjPOV3NxjoKAPYbe5gvIFntp454X+7JE4ZTzjgjipa4n4ZII9E1ONfupqcqqPQBUrtqACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooqCe7htpLeOZ9rXEnlR57ttLY/JTQBPRWauu6cz6ionP8AxLl33J2HCjBPBxz91hx3BFWG1C3RbMyMU+1sEiDjBLFS2D6HCmgC1RWauu6cz6ionP8AxLl33J2HCjBPBxz91hx3BFTy6lawR2jzOYxduscW5SCWYEgH0PHfvxQBborPTWtPkutQtxcASaeqtc5GAgKls578A59Kt208d1axXERJjlQOhIIOCMjg9KAJaKqX+ox6ciPJBdShzgC3t3lI+oUHFM0zVrbWLD7bZiVodzKN8ZQkjg4Bx34+oNAF6is+21uxvFsjbSmX7arNFsUnhfvFv7uCQDnHJx1p82rWVtc3EE8wikgg+0uG/wCefILD1AI59Mj1FAF2isDxRqtxZeDbzU7FngnWJXjLxjcuWHVWHXB6EVrQ30Fxd3FvCWd7chZWC/KrEZ257nGCQOmRnqKALNFFZcWvWs+ofZIYL2TDtG062r+UrqSCC+McFSM9PegDUoqjqGq2+nNHHJHcSzSgskVvA0jEAgE8DgDcOTjrT9O1K11W1M9q7EKxR0dSjxuOqsp5BHoaALdFYEnjHSYtzP8AbBAshiM/2OUx7wxXaG28nIxxmr+m6xb6o80ccV1DLCFZ4rmBom2tnacMOQdrflQBoUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUVk2V99q1y8S21CG6tol2SwjbutpQcY45Ib5uvQr6HAh0PV1uPNtZftbzi8ukDm2k8vCzPgeZt2cKAOvbHXigDcornPF+p3Gm2EMsF0bdVljaV/scswCCRMkshAUAZyDywyBisaPxPqhmkuGCu9lbSXN1Zy5tCqnaEXaQxLfIzYPAMijcRjIB3lFMiMhiQyqqyFRvVG3AHuAcDI98D6VyNn4kv5I5itxopUXM6p9qvjHIFErBQVCHGBgDnpg0AdjRVHSrq5vLPzrn7GSWIRrOcyoVH+0VHOcjHtXM6lrmp/ar2E3elaWrI0Vut5feVKGR2CzBTHyrYHHIIHXrQB2lFcxpOs397rTZbT7qzmwgNheGdbbarHL/IOWPGcjoBjjm14mvjp0FtMb+5tVkl8n900CKSVLZZpVIH3SOo5NAG7RXnGl+Jbm5uHhudcu8vfC3gEMtkSVZlVTt2Et1ySoxge1eg3CXLW5W1mjjm4w80ZdffKhl/nQBNRXnC+MruaWG+XUrUL5LDySsChgxUgshvMhht+o3EEencaLcXF5pUF3cTRS/aEWaMxwGLCMoIBBd+eeuaAL9Fck/iC+tdTnurs6fHpsbfZZVFzI+2RAZGZSIsE7SRtzyVAznrL4e1rVbuSxt7u1tmF1bNfNMlySY0dsou3yxz8wUfN0U8nHIB1FFFFAHH6vokxubuMPayWV0TIYLu186MOccgbhxkEkHqSTkZxWZLoU9wzx3EdnLt3MLm4HnecWKllkiIA2gqu3D5GxOcAg9zLcQsSkiFsHuB1qACyXGIW49//AK9eNXy6s6jlSkrPudEaySs0Z+kadOdWe/uZ1lEaGKBY4zGqK20nIydzHA+bOAAAAPmJrX3he+kuLm6HinVYY2dpBFGchASTtAHYdK6BbuFVCqjADoABxS/bY/7r/kK9HDUPYU1C9zGcuZ3PKPCfh+48TazqmpjWb4C1m8q1vsEvIp3d25U7dvHYNXReINJurKy0PT2vrzUp5dailWSZSxVQpyMjgAdeff0Ndol1BGgRIyqqMBVAAFL9tj/uv+QroJPGvAmm6rd3cklgPJDWbxC5lgLxK3mAlTkYJK5496mTw7q2ieP9L060vbOK+eB5IpkgwgBEmdwPU4DDJ6DHYCvXIp7aBNkMPlrnO1FAGfwoM1q0yzNADKowrlBuA9j+JoA8tPh+78Tar4rsLR4I2XU4pGebPCjzhxgHnn+daeu6DryW+kapdLpESaKqlhAkh+VZByRgnYqKD6/e46V36TW0Tu8cIRnOXZVALH39ac13C6lWRmUjBBAIIoA5T4YlpPD9/cGN0juNRllj3rjcpCjI9eQRx3BHau1qqt3CqhVRgoGAABxS/bY/7r/kKALNFVvtsf8Adf8AIUfbY/7r/kKALNFVvtsf91/yFH22P+6/5CgCzRVb7bH/AHX/ACFH22P+6/5CgCzRVb7bH/df8hR9tj/uv+QoAs0VW+2x/wB1/wAhR9tj/uv+QoAs0VW+2x/3X/IUfbY/7r/kKALNFVvtsf8Adf8AIUfbY/7r/kKALNFVvtsf91/yFH22P+6/5CgCzRVb7bH/AHX/ACFH22P+6/5CgCzRVb7bH/df8hR9tj/uv+QoAs0VW+2x/wB1/wAhR9tj/uv+QoAs0VW+2x/3X/IUfbY/7r/kKALNFVvtsf8Adf8AIUfbY/7r/kKALNFVvtsf91/yFH22P+6/5CgCzRVb7bH/AHX/ACFH22P+6/5CgCzRVb7bH/df8hR9tj/uv+QoAs0VW+2x/wB1/wAhR9tj/uv+QoAs0VW+2x/3X/IUfbY/7r/kKALNFVvtsf8Adf8AIUfbY/7r/kKALNZev2Ut5pqm3iWW5t54rmFSQMsjhsAnpkAr+NW/tsf91/yFH22P+6/5CgDk7jQNSexsVW3cyX0Rh1UJMqlBJMsjnrggBp1GMn5+9dDr9lLeaapt4llubeeK5hUkDLI4bAJ6ZAK/jVv7bH/df8hR9tj/ALr/AJCgDk7jQNSexsVW3cyX0Rh1UJMqlBJMsjnrggBp1GMn5+9dFr9pPeaPKtoqtdRMk8CtjmSNg6jnpkrjPvVr7bH/AHX/ACFH22P+6/5CgDk7vQNVfT7TybdBPfLNBqShlBiS4cO7Ak4bZ8yjrnPFdZdzXFuLcW1mbgPMqSYkCeUh6vz1x6Dnmj7bH/df8hR9tj/uv+QoAz/EZ1KS0itdPguWWd9txNbNGJI4+4Xeyjc3QHtyeoGbmnuRp4VdNns1hHlx27mPO0AYxtYjHbkjpUn22P8Auv8AkKPtsf8Adf8AIUAc9oej6hp+tHVJraINqaMbuJWU/Y2yWUKeMg7iGx1bDdCad4k0W9127QRxRxx2KCaB5SGW5m3AiNl6+X8g3cjJK/3ed/7bH/df8hR9tj/uv+QoAyvFFle6x4Nu7W3tv9MniXEBdeGyCV3ZxxzzmpdCs73S/tOnzgS2qOZLe6yN8gcklZB1Lgn738QIPXNaH22P+6/5Cj7bH/df8hQAtvcTS3N1HJaPFHEwEcrMCJQQCSAORg8c/wD6sTQReaNAmkS6Zdyqk8pW7Qx+WUaRmDHL7hw3Ixn61tfbY/7r/kKPtsf91/yFAGVqUN1aeIrfV4bOe8iFpJbSRQFNykujBsMwBHBH5VY0OK7B1C7vLb7K13dmVIS4ZlQRpGN2OATszgE4z1q79tj/ALr/AJCj7bH/AHX/ACFAGLb6XeJ4citGgxOupCcpuX7n2zzM5zj7nPr268VqQ20qeILy7K4hktYI1bI5ZXmJGPo6/nU322P+6/5Cj7bH/df8hQBZoqt9tj/uv+Qo+2x/3X/IUAWaKrfbY/7r/kKPtsf91/yFAFmiq322P+6/5Cj7bH/df8hQBZoqt9tj/uv+Qo+2x/3X/IUAWaKrfbY/7r/kKPtsf91/yFAFmiq322P+6/5Cj7bH/df8hQBZoqt9tj/uv+Qo+2x/3X/IUAWaKrfbY/7r/kKPtsf91/yFAFmiq322P+6/5Cj7bH/df8hQBZoqt9tj/uv+Qo+2x/3X/IUAWaKrfbY/7r/kKPtsf91/yFAFmiq322P+6/5Cj7bH/df8hQBZoqt9tj/uv+Qo+2x/3X/IUAWaKrfbY/7r/kKPtsf91/yFAFmiq322P+6/5Cj7bH/df8hQBZoqt9tj/uv+Qo+2x/3X/IUAWaKrfbY/7r/kKPtsf91/yFAFmiq322P+6/5Cj7bH/df8hQBkXV7Lp3iieZrG5ktpra3jaeKF5ApVpyQAisSeR2wM8kHAZuhanDFbG3kttQjkkvLhl36fOBh53ZSTswAQwPJ474rZ+2x/3X/IUfbY/wC6/wCQoA57xwgTSzO0cEzBHSCOeUgCYqdpSMKRI55xu6Y4xk1lNpFxB9msra1NymluJLqSKMxiZS0bmEbyxkclFYnIGFC8buO2+2x/3X/IUfbY/wC6/wCQoADLJd2Cy2MqRtIoaN5oWYAHnlMqenuKwNQt59NtxPd3OjqhbaCujSOScE9FlJ7Gt/7bH/df8hR9tj/uv+QoApeG0KaNnyXhV7m4kSN4yhCtM7L8p6cEVj+ITrun2NzKNfQeaHS3hi04l2YglUDBuG98e9dL9tj/ALr/AJCj7bH/AHX/ACFAGTouh6lpMyhtUtpLYszyxpZbHlYjG5nLkls4yTknFQ+Lbi2aKC2S8mj1SFvtVvDbKzyvhWU8KrFQQzDcRgH1xitz7bH/AHX/ACFH22P+6/5CgDidMsEs45P7YbXYZvtn2x4FhaeJiHDoS8aMCflXPI5B4FdJ4jviPBmoX1pNJGTaNLFIMoy/LkHnBBrS+2x/3X/IUfbY/wC6/wCQoA4y/sdYtryeRYLz7DFKDvOoTY8kY3OW+1AggbjjYeg9eOm8NyGXRVfzZZUM8/lPK7Mxj859nLcn5duM9sVd+2x/3X/IUfbY/wC6/wCQoA5TyVXVVvBFK/hmI7xGx+XzxyJkXGXXIHrudtwB+8ZfDhl0zVHivbOe2TUc/YN5DbEUySCFwB8jAM7AEkYO3Py10322P+6/5Cj7bH/df8hQBZooooA//9k=",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 83,
+    "level" : "1",
+    "page number" : 3,
+    "bounding box" : [ 53.88, 75.6, 541.53, 765.772 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 13,
+    "previous list id" : 70,
+    "next list id" : 86,
+    "list items" : [ {
+      "type" : "list item",
+      "id" : 82,
+      "page number" : 3,
+      "bounding box" : [ 72.84, 754.2, 408.664, 765.772 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A．Until B．Before C．Although D．When",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 730.8, 474.185, 742.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "27．（2026·上海宝山·一模）— Henry, where are we going to have our science project discussion?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 36,
+        "level" : "2",
+        "page number" : 3,
+        "bounding box" : [ 53.88, 684.0, 425.278, 718.972 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "— I have no idea. Ask our monitor. He ________ know. A．may B．can C．need D．had better"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 637.2, 498.331, 672.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "28．（2026·上海普陀·一模）Susan tried on several dresses, but ________ of them seemed to satisfy her. A．both B．all C．neither D．none",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 590.4, 508.89, 625.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "29．（2026·上海闵行·一模）You can find much fine ________ in the modern house in the downtown area. A．painting B．decoration C．furniture D．photograph",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 543.6, 528.21, 578.572 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "30．（2026·上海闵行·一模）All of the guests showed up at the party,and the host welcomed ________ warmly. A．they B．them C．their D．theirs",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 496.8, 524.037, 531.772 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "31．（2026·上海宝山·一模）The magic show is often regarded as one of ________ experiences in the summer camp.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 37,
+        "page number" : 3,
+        "bounding box" : [ 72.84, 450.0, 356.703, 484.972 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．more surprising B．more surprised C．the most surprising D．the most surprised"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 403.2, 532.385, 438.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "32．（2026·上海闵行·一模）Our country held the grand military parade (大阅兵) ________ September 2025 in Beijing.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 38,
+        "page number" : 3,
+        "bounding box" : [ 72.84, 379.8, 392.4, 391.372 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．on B．in C．at D．of"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 333.0, 504.569, 367.972 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "33．（2026·上海宝山·一模）Don’t worry. There is nothing wrong ________ your answer to this question. A．of B．with C．for D．beyond",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 286.2, 541.291, 321.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "34．（2026·上海宝山·一模）There are two coffee shops on this street, but ________ of them stays open late at night. A．all B．both C．none D．neither",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 239.4, 507.783, 274.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "35．（2026·上海虹口·一模）We can keep Chinese traditions _______ by celebrating festivals and learning traditional skills.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 39,
+        "page number" : 3,
+        "bounding box" : [ 72.84, 216.0, 408.064, 227.572 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．alive B．live C．lively D．living"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 169.2, 541.53, 204.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "36．（2026·上海奉贤·一模）The famous writer will give a speech ________ reading habits to Grade Nine students. A．for B．on C．between D．among",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 122.4, 497.131, 157.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "37．（2026·上海长宁·一模）The glass is broken. Please be careful with it, ________ it’ll cut your hand. A．and B．but C．so D．or",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 75.6, 509.011, 110.572 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "38．（2026·上海奉贤·一模）John is keen on space exploration and always checks the ______ news online. A．late B．later C．latest D．lately",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 81,
+    "page number" : 3,
+    "bounding box" : [ 404.88, 764.91, 405.6, 765.63 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+    "format" : "jpeg"
+  }, {
+    "type" : "footer",
+    "id" : 84,
+    "page number" : 3,
+    "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 19,
+      "page number" : 3,
+      "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+      "heading level" : 3,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 85,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 784.35, 542.64, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 28,
+      "page number" : 4,
+      "bounding box" : [ 53.88, 784.35, 542.64, 799.35 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 86,
+    "level" : "1",
+    "page number" : 4,
+    "bounding box" : [ 53.88, 77.64, 541.409, 767.812 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 15,
+    "previous list id" : 83,
+    "next list id" : 99,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 732.84, 532.862, 767.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "39．（2026·上海奉贤·一模）My grandfather has a good ______ of Chinese history and often tells me interesting stories.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 40,
+        "page number" : 4,
+        "bounding box" : [ 72.84, 709.44, 429.066, 721.012 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．knowledge B．information C．advice D．experience"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 662.64, 524.611, 697.612 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "40．（2026·上海虹口·一模）It’s a pity that there isn’t much _______ in the house, just a bed and a small table. A．children B．furniture C．sheep D．people",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 615.84, 492.691, 650.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "41．（2026·上海虹口·一模）The young woman moved _______ the crowd to look for her close friend. A．on B．across C．through D．over",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 569.04, 512.251, 604.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "42．（2026·上海虹口·一模）Last year, I saw the wild lions and elephants in Africa with _______ own eyes. A．I B．me C．mine D．my",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 522.24, 479.97, 557.212 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "43．（2026·上海静安·一模）We need ________ two volunteers to help clean the park this Saturday. A．another B．other C．the other D．others",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 475.44, 491.73, 510.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "44．（2026·上海静安·一模）________ it was raining heavily, the football match continued as planned. A．Since B．If C．Because D．Although",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 428.64, 465.809, 463.612 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "45．（2026·上海静安·一模）Keeping a lovely garden needs a certain amount of daily ________. A．care B．plant C．tool D．space",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 381.84, 423.211, 416.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "46．（2026·上海静安·一模）Don’t feel ________, Jim. We are all here to support you. A．sadly B．lonely C．angrily D．unluckily",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 335.04, 520.647, 370.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "47．（2026·上海静安·一模）The movie was quite interesting, ________ the ending was a little disappointing. A．for B．but C．or D．so",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 288.24, 422.582, 323.212 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "48．（2026·上海松江·一模）The old man felt ________ after his wife died last year. A．sadly B．lonely C．angrily D．faithfully",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 241.44, 521.731, 276.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "49．（2026·上海松江·一模）Tourists can enjoy different night views on ________ side of the Huangpu River. A．either B．neither C．both D．all",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 194.64, 534.691, 229.612 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "50．（2026·上海松江·一模）We ________ perform a fire safety check every month according to the safety rules. A．can B．must C．may D．ought to",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 147.84, 541.409, 182.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "51．（2026·上海松江·一模）With limited equipment, the scientists tried ________ best to complete the experiment. A．them B．their C．theirs D．themselves",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 101.04, 530.609, 136.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "52．（2026·上海松江·一模）Save money every month, ________ you’ll be able to afford a ticket to the concert. A．or B．and C．but D．so",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 77.64, 482.25, 89.212 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "53．（2026·上海嘉定·一模）We should think of a better plan, ________ the situation will get worse.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 87,
+    "page number" : 4,
+    "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 20,
+      "page number" : 4,
+      "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+      "heading level" : 3,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 88,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 784.35, 542.64, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 29,
+      "page number" : 5,
+      "bounding box" : [ 53.88, 784.35, 542.64, 799.35 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 98,
+    "page number" : 5,
+    "bounding box" : [ 72.84, 754.2, 392.945, 765.772 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "A．and B．but C．or D．so"
+  }, {
+    "type" : "image",
+    "id" : 97,
+    "page number" : 5,
+    "bounding box" : [ 404.88, 764.91, 405.6, 765.63 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+    "format" : "jpeg"
+  }, {
+    "type" : "list",
+    "id" : 99,
+    "level" : "1",
+    "page number" : 5,
+    "bounding box" : [ 53.88, 75.6, 541.65, 742.372 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 12,
+    "previous list id" : 86,
+    "next list id" : 103,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 707.4, 531.784, 742.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "54．（2026·上海嘉定·一模）In Chinese culture, horses are important symbols, which stand ________ speed and success.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 41,
+        "page number" : 5,
+        "bounding box" : [ 72.84, 684.0, 395.879, 695.572 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．of B．on C．in D．for"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 637.2, 509.229, 672.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "55．（2026·上海徐汇·一模）________ the time being, let’s not make any big decisions until we have more information.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 42,
+        "page number" : 5,
+        "bounding box" : [ 72.84, 613.8, 396.424, 625.372 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．At B．For C．From D．On"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 567.0, 524.222, 601.972 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "56．（2026·上海徐汇·一模）The most beautiful exhibit in this exhibition was provided ________ an unknown citizen.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 43,
+        "page number" : 5,
+        "bounding box" : [ 72.84, 543.6, 391.745, 555.172 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．with B．by C．for D．to"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 496.8, 541.65, 531.772 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "57．（2026·上海杨浦·一模）The story is mainly told ________ pictures, so young readers can understand it clearly. A．in B．at C．on D．by",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 44,
+        "page number" : 5,
+        "bounding box" : [ 53.88, 446.83, 304.205, 457.28 ],
+        "font" : "SimSun",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "二、26 年 16 区一模真题汇编 8 题（短语及固定搭配）"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 403.2, 521.61, 438.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "58．（2026·上海青浦·一模）Three masked men broke ________ the Louvre Museum and stole some jewelry. A．out B．into C．through D．down",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 356.4, 490.17, 391.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "59．（2026·上海黄浦·一模）Although the traffic was heavy, I arrived home ________ time for dinner. A．in B．with C．at D．by",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 309.6, 503.85, 344.572 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "60．（2026·上海黄浦·一模）He refused ________ the paper because the terms were unfair to his country. A．sign B．signing C．to sign D．to signing",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 262.8, 485.251, 297.772 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "61．（2026·上海宝山·一模）We managed ________ a table at the popular restaurant by calling early. A．book B．booked C．to book D．booking",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 216.0, 512.97, 250.972 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "62．（2026·上海静安·一模）If you have a problem, don’t just complain ________ it—try to find a solution. A．about B．to C．in D．for",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 169.2, 428.85, 204.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "63．（2026·上海静安·一模）The team was made ________ scientists in different fields. A．of B．from C．for D．up of",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 122.4, 422.944, 157.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "64．（2026·上海静安·一模）You had better ________ late for the exam tomorrow. A．don’t be B．not be C．not to be D．not being",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 75.6, 477.571, 110.572 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "65．（2026·上海杨浦·一模）A group of students are busy ________ the posters for the school play. A．design B．designed C．to design D．designing",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 100,
+    "page number" : 5,
+    "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 21,
+      "page number" : 5,
+      "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+      "heading level" : 3,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 101,
+    "page number" : 6,
+    "bounding box" : [ 53.88, 784.35, 542.64, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 30,
+      "page number" : 6,
+      "bounding box" : [ 53.88, 784.35, 542.64, 799.35 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 102,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 53.88, 729.79, 330.605, 740.24 ],
+    "heading level" : 2,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "三、25 年 16 区一二三模真题汇编 28 题（短语及固定搭配）"
+  }, {
+    "type" : "list",
+    "id" : 103,
+    "level" : "1",
+    "page number" : 6,
+    "bounding box" : [ 53.88, 77.64, 541.41, 721.012 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 13,
+    "previous list id" : 99,
+    "next list id" : 116,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 686.04, 500.611, 721.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "66．（2025·上海虹口·三模）Since my teammates all fell ill, I had no choice but ______ the report alone. A．finish B．to finish C．finishing D．finished",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 639.24, 479.489, 674.212 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "67．（2025·上海虹口·三模）The success of the project depends ______ the effort of every member. A．on B．for C．with D．of",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 592.44, 515.25, 627.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "68．（2025·上海闵行·三模）We’ll have to work on our own ________ the time being until we find partners. A．at B．for C．with D．from",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 545.64, 513.329, 580.612 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "69．（2025·上海杨浦·三模）The politician denied ________ about his educational and working experience. A．lie B．lying C．to lying D．lied",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 498.84, 540.09, 533.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "70．（2025·上海崇明·二模）Mr. More encouraged his students ________ creatively in order to solve the problem. A．think B．thought C．to think D．thinking",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 452.04, 511.544, 487.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "71．（2025·上海崇明·二模）The folk art lovers went on ________ paper cuttings, hoping to pass down this traditional skill.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 45,
+        "page number" : 6,
+        "bounding box" : [ 72.84, 428.64, 407.584, 440.212 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．do B．did C．to do D．doing"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 381.84, 541.41, 416.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "72．（2025·上海浦东新·二模）Engineers plan ________ a more powerful battery technology in the next two years. A．develop B．developing C．to develop D．developed",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 335.04, 537.21, 370.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "73．（2025·上海浦东新·二模）The old couple had pity ________ the homeless cat and gave her food and shelter. A．on B．with C．in D．to",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 288.24, 541.41, 323.212 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "74．（2025·上海青浦·二模）Taya is very worried because she hasn’t heard ________ her daughter for two months. A．about B．from C．in D．at",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 241.44, 526.772, 276.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "75．（2025·上海闵行·二模）We should always be thankful ________ our parents for their love and care for us. A．with B．from C．to D．on",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 194.64, 518.228, 229.612 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "76．（2025·上海长宁·二模）Christine refuses ________ her children to the weekend training centre for extra classes.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 46,
+        "page number" : 6,
+        "bounding box" : [ 72.84, 171.24, 402.904, 182.812 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．sending B．to send C．sent D．send"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 124.44, 532.182, 159.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "77．（2025·上海徐汇·二模）________ his surprise, Peter opened the box and found the pet kitten he had always wanted.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 47,
+        "page number" : 6,
+        "bounding box" : [ 72.84, 101.04, 394.679, 112.612 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．In B．To C．At D．Of"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 77.64, 532.029, 89.212 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "78．（2025·上海徐汇·二模）The farmers in this area had ________ especially hard time this year because of the",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 104,
+    "page number" : 6,
+    "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 22,
+      "page number" : 6,
+      "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+      "heading level" : 3,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 105,
+    "page number" : 7,
+    "bounding box" : [ 53.88, 784.35, 542.64, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 31,
+      "page number" : 7,
+      "bounding box" : [ 53.88, 784.35, 542.64, 799.35 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 115,
+    "page number" : 7,
+    "bounding box" : [ 53.88, 730.8, 386.535, 765.772 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "flood. A．an B．a C．the D．/"
+  }, {
+    "type" : "image",
+    "id" : 114,
+    "page number" : 7,
+    "bounding box" : [ 404.88, 764.91, 405.6, 765.63 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+    "format" : "jpeg"
+  }, {
+    "type" : "list",
+    "id" : 116,
+    "level" : "1",
+    "page number" : 7,
+    "bounding box" : [ 53.88, 75.6, 540.908, 718.972 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 12,
+    "previous list id" : 103,
+    "next list id" : 119,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 53.88, 684.0, 540.089, 718.972 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "79．（2025·上海虹口·二模）More and more senior citizens consider ________ to the countryside after retirement. A．move B．to move C．moving D．moved",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 53.88, 637.2, 479.372, 672.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "80．（2025·上海普陀·二模）Julian is so helpful and he never minds ______ his notes with all of us. A．share B．sharing C．to share D．shared",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 53.88, 590.4, 473.971, 625.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "81．（2025·上海黄浦·二模）Ellen is positive. He keeps ________ no matter how tough things get. A．smiling B．smile C．to smile D．smiles",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 53.88, 543.6, 452.731, 578.572 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "82．（2025·上海黄浦·二模）It’s rude to make fun ________ someone’s appearance in public. A．of B．at C．for D．about",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 53.88, 496.8, 540.908, 531.772 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "83．（2025·上海金山·一模）Carl decided to ________ early in the morning to beat the traffic and enjoy the scenic journey.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 48,
+        "page number" : 7,
+        "bounding box" : [ 72.84, 473.4, 425.759, 484.972 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．set off B．take off C．turn off D．switch off"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 53.88, 426.6, 536.131, 461.572 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "84．（2025·上海崇明·一模）A recent survey showed 75% of those questioned were ________ favour of the plan. A．on B．by C．with D．in",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 53.88, 379.8, 521.773, 414.772 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "85．（2025·上海长宁·一模）A thief broke ________ the shop in our neighborhood last night and stole several expensive items.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 49,
+        "page number" : 7,
+        "bounding box" : [ 72.84, 356.4, 402.184, 367.972 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．into B．by C．for D．with"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 53.88, 309.6, 527.229, 344.572 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "86．（2025·上海虹口·一模）I had no idea what was wrong, but my sister seemed angry ________ me for some reason.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 50,
+        "page number" : 7,
+        "bounding box" : [ 72.84, 262.8, 302.533, 297.772 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．with B．about C．by D．for"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 53.88, 216.0, 513.21, 250.972 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "87．（2025·上海徐汇·一模）The team has no choice ________ to stay late at the office to finish the project. A．and B．for C．but D．or",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 53.88, 169.2, 486.93, 204.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "88．（2025·上海徐汇·一模）The staff are asked to smile ________ every customer entering the store. A．at B．to C．for D．with",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 53.88, 122.4, 497.37, 157.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "89．（2025·上海普陀·一模）Our English teacher always encourages us ________ questions in his class. A．ask B．asking C．to ask D．asked",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 53.88, 75.6, 451.771, 110.572 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "90．（2025·上海普陀·一模）Professor Wang seemed ________ with the report of our survey. A．please B．pleased C．pleasure D．pleasantly",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 117,
+    "page number" : 7,
+    "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 23,
+      "page number" : 7,
+      "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+      "heading level" : 3,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 118,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 784.35, 542.64, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 32,
+      "page number" : 8,
+      "bounding box" : [ 53.88, 784.35, 542.64, 799.35 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 119,
+    "level" : "1",
+    "page number" : 8,
+    "bounding box" : [ 53.88, 639.24, 527.504, 767.812 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "previous list id" : 116,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 53.88, 732.84, 504.452, 767.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "91．（2025·上海普陀·一模）Many people are unaware ________ how much sugar they take in every day. A．of B．on C．for D．at",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 53.88, 686.04, 503.61, 721.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "92．（2025·上海嘉定·一模）To her ________, the lost wallet was returned with all the money still inside. A．amazement B．amazed C．amazing D．amazingly",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 53.88, 639.24, 527.504, 674.212 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "93．（2025·上海嘉定·二模）With the increasing number of tourists, the hotel prices are likely to ________ this summer.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 120,
+    "page number" : 8,
+    "bounding box" : [ 72.84, 615.84, 401.108, 627.412 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "A．rises B．rise C．rising D．rose"
+  }, {
+    "type" : "footer",
+    "id" : 121,
+    "page number" : 8,
+    "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 24,
+      "page number" : 8,
+      "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+      "heading level" : 3,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8 / 8"
+    } ]
+  } ]
+}

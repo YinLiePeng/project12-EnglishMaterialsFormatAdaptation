@@ -1,0 +1,3007 @@
+{
+  "file name" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）.pdf",
+  "number of pages" : 17,
+  "author" : "WSJ",
+  "title" : "",
+  "creation date" : "D:20260413235424+08'00'",
+  "modification date" : "D:20260413235424+08'00'",
+  "kids" : [ {
+    "type" : "header",
+    "id" : 73,
+    "page number" : 1,
+    "bounding box" : [ 407.76, 790.23, 408.48, 790.95 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 44,
+      "page number" : 1,
+      "bounding box" : [ 407.76, 790.23, 408.48, 790.95 ],
+      "source" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）_images/imageFile1.png"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 82,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 182.64, 760.45, 412.549, 778.113 ],
+    "heading level" : 1,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 15.95,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Unit 1 Art and artists 单元话题练"
+  }, {
+    "type" : "heading",
+    "id" : 83,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 169.2, 730.381, 426.01, 745.94 ],
+    "heading level" : 2,
+    "font" : "SimSun",
+    "font size" : 14.05,
+    "text color" : "[0.0, 0.0, 1.0]",
+    "content" : "（语法填空+语法选择+阅读+完形+写作）"
+  }, {
+    "type" : "heading",
+    "id" : 84,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 56.64, 709.871, 119.767, 720.321 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "一、语法选择"
+  }, {
+    "type" : "paragraph",
+    "id" : 85,
+    "page number" : 1,
+    "bounding box" : [ 56.64, 666.12, 538.625, 701.092 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "1 is wonderful that art can make our world more colourful. Whoever loves creating 2 can be an artist—you don’t have to be a famous painter! Our school art teacher, Mr Zhang, always encourages us"
+  }, {
+    "type" : "list",
+    "id" : 88,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 56.64, 619.32, 538.507, 654.292 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 232,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 56.64, 619.32, 538.507, 654.292 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3 what we truly like. He is 4 patient that he often helps us fix our works after class. I 5 drawing since I was 10 years old. 6 practising every weekend, my skills have",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 93,
+    "page number" : 1,
+    "bounding box" : [ 56.64, 572.521, 538.625, 607.492 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "gotten much better. Last month, I drew a picture of Shanghai’s Bund and showed it to my mum, 7 happy smile she had when she saw it! She cooked my favourite noodles for me in return."
+  }, {
+    "type" : "paragraph",
+    "id" : 95,
+    "page number" : 1,
+    "bounding box" : [ 56.64, 502.32, 538.749, 560.693 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Shanghai has many great art spots, and the Shanghai Art Museum is one of 8 for students. We often go there for school trips. How lucky we are to live in a city 9 so much beautiful art around us! Let’s keep 10 art and trying to be great little artists."
+  }, {
+    "type" : "list",
+    "id" : 99,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 56.64, 268.32, 443.744, 490.492 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 10,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 56.64, 478.92, 369.824, 490.492 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．A．It B．That C．This",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 56.64, 455.521, 408.104, 467.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．A．something new B．new something C．anything new",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 56.64, 432.121, 385.623, 443.693 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．A．paint B．to paint C．painting",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 56.64, 408.721, 359.985, 420.293 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4．A．so B．such C．as",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 56.64, 385.32, 406.863, 396.892 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5．A．enjoy B．enjoyed C．have enjoyed",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 56.64, 361.92, 359.945, 373.492 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6．A．Through B．On C．In",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 56.64, 338.521, 381.188, 350.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7．A．How B．What C．What a",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 56.64, 315.121, 443.744, 326.693 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8．A．more popular ones B．most popular one C．the most popular ones",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 56.64, 291.721, 359.345, 303.293 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9．A．with B．for C．in",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 56.64, 268.32, 379.988, 279.892 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10．A．love B．loving C．to love",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 100,
+    "page number" : 1,
+    "bounding box" : [ 56.64, 174.721, 538.625, 233.093 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Did you join any fun clubs at school this year? There is a bamboo weaving (竹编) club in our school. The teachers in the club 1 local (当地的) artists. They always have great 2 . Students can 3 to use bamboo to make many beautiful things."
+  }, {
+    "type" : "paragraph",
+    "id" : 104,
+    "page number" : 1,
+    "bounding box" : [ 84.72, 151.32, 538.629, 162.892 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Cheng Yangyi is a 14-year-old student. He joins the club 4 his classmates. He wants to make a"
+  }, {
+    "type" : "paragraph",
+    "id" : 106,
+    "page number" : 1,
+    "bounding box" : [ 56.64, 81.121, 538.624, 139.493 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "bamboo fan. “I need to be very careful when I am making 5 fan,” he says. It’s not easy 6 the thin bamboo strips (竹条) together. Sometimes they are too close, and"
+  }, {
+    "type" : "footer",
+    "id" : 109,
+    "page number" : 1,
+    "bounding box" : [ 250.44, 51.721, 344.89, 63.293 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 27,
+      "page number" : 1,
+      "bounding box" : [ 250.44, 51.721, 344.89, 63.293 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "试卷第 1页，共 17页"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 110,
+    "page number" : 2,
+    "bounding box" : [ 56.64, 720.72, 538.664, 779.092 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "sometimes they are too far. He often 7 mistakes. But he tries again and again with the help of his teachers. “I sometimes feel unhappy, 8 I don’t stop. When I finish my work, I jump 9 . My classmates all come to see 10 and feel so surprised.” Cheng says."
+  }, {
+    "type" : "paragraph",
+    "id" : 115,
+    "page number" : 2,
+    "bounding box" : [ 84.72, 697.32, 405.69, 708.892 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "“I love our club! It’s cool to turn bamboo into beautiful things.” says Cheng."
+  }, {
+    "type" : "list",
+    "id" : 116,
+    "level" : "1",
+    "page number" : 2,
+    "bounding box" : [ 56.64, 463.32, 392.622, 685.492 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 10,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 673.92, 364.029, 685.492 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．A．am B．is C．are",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 650.52, 375.705, 662.092 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．A．idea B．ideas C．idea’s",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 627.12, 385.623, 638.692 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．A．learn B．learns C．learning",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 603.72, 369.784, 615.292 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4．A．to B．for C．with",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 580.32, 364.029, 591.892 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5．A．a B．an C．the",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 556.92, 375.494, 568.492 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6．A．put B．puts C．to put",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 533.521, 382.623, 545.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7．A．make B．makes C．making",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 510.121, 384.548, 521.693 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8．A．but B．and C．because",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 486.72, 392.622, 498.292 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9．A．happy B．happily C．happiness",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 463.32, 364.065, 474.892 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10．A．it B．its C．it’s",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 117,
+    "page number" : 2,
+    "bounding box" : [ 56.76, 346.11, 178.32, 429.39 ],
+    "source" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）_images/imageFile2.png"
+  }, {
+    "type" : "caption",
+    "id" : 118,
+    "page number" : 2,
+    "bounding box" : [ 56.64, 252.721, 538.679, 334.493 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The Chinese seal is used in China to sign 1 important or valuable, such as artworks, business agreements and so on. Signing names along with seals is 2 safe way to identification (证明身份). The Chinese seals are most commonly 3 stone, they can also be plastic or metal. Seals have been a part of Chinese culture for thousands of years. The 4 known seals date from the Shang Dynasty."
+  }, {
+    "type" : "paragraph",
+    "id" : 123,
+    "page number" : 2,
+    "bounding box" : [ 56.64, 205.921, 538.623, 240.892 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Seals became widely used during the Warring States Period to sign official documents. By the time of Han Dynasty, the seals 5 a necessary part of Chinese culture."
+  }, {
+    "type" : "paragraph",
+    "id" : 125,
+    "page number" : 2,
+    "bounding box" : [ 56.64, 112.321, 538.627, 194.093 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "During the history of the Chinese seals, Chinese characters have developed. Some of the changes have something to do 6 the practice of carving (雕刻) seals. For example, during the Qin Dynasty, Chinese characters are in a round shape. People were not sure 7 make the characters match the square seals perfectly. They continued to try. That led to the characters changing into a square shape."
+  }, {
+    "type" : "paragraph",
+    "id" : 128,
+    "page number" : 2,
+    "bounding box" : [ 56.64, 65.521, 538.629, 100.493 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Today, seals are still used for many purposes in China. For example, people can’t buy houses or pass the check in banks 8 they can put their own seals on. Since one seal is really difficult to copy and should"
+  }, {
+    "type" : "footer",
+    "id" : 130,
+    "page number" : 2,
+    "bounding box" : [ 250.44, 50.4, 344.89, 61.972 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 28,
+      "page number" : 2,
+      "bounding box" : [ 250.44, 50.4, 344.89, 61.972 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "试卷第 2页，共 17页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 131,
+    "page number" : 3,
+    "bounding box" : [ 407.76, 790.23, 408.48, 790.95 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 45,
+      "page number" : 3,
+      "bounding box" : [ 407.76, 790.23, 408.48, 790.95 ],
+      "source" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）_images/imageFile3.png"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 140,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 744.12, 538.629, 779.092 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "only 9 by its owner, seals are quite necessary to adults. So Chinese seal 10 disappear in a short time. We can still see them in many certain situations."
+  }, {
+    "type" : "list",
+    "id" : 143,
+    "level" : "1",
+    "page number" : 3,
+    "bounding box" : [ 56.64, 510.121, 442.384, 732.292 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 10,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 56.64, 720.72, 423.063, 732.292 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．A．everything B．nothing C．something D．anything",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 56.64, 697.32, 391.029, 708.892 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．A．/ B．an C．the D．a",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 56.64, 673.92, 433.679, 685.492 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．A．made of B．made from C．made in D．made up of",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 56.64, 650.52, 408.493, 662.092 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4．A．earlier B．earliest C．later D．latest",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 56.64, 627.12, 436.748, 638.692 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5．A．becomes B．were becoming C．are becoming D．had become",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 56.64, 603.72, 418.983, 615.292 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6．A．on B．with C．in D．through",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 56.64, 580.32, 442.384, 591.892 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7．A．how could they B．how they could C．how can they D．how they can",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 56.64, 556.92, 423.063, 568.492 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8．A．unless B．if C．however D．although",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 56.64, 533.521, 431.704, 545.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9．A．used B．be used C．been used D．being used",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 56.64, 510.121, 425.895, 521.693 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10．A．mustn’t B．may not C．can’t D．shouldn’t",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 144,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 417.311, 424.077, 447.321 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "二、短文填空 阅读下面短文，在空格处填入一个适当的词或使用括号中词语的正确形式填空。"
+  }, {
+    "type" : "image",
+    "id" : 145,
+    "page number" : 3,
+    "bounding box" : [ 56.76, 323.31, 192.48, 405.03 ],
+    "source" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）_images/imageFile4.png"
+  }, {
+    "type" : "caption",
+    "id" : 146,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 276.121, 538.545, 311.093 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "“No print, no year” is 1 old saying well-known to people in Suzhou, Jiangsu. The “print” here is Taohuawu Woodblock New Year Prints (桃花坞木刻年画)."
+  }, {
+    "type" : "paragraph",
+    "id" : 148,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 205.921, 538.65, 264.293 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Taohuawu Woodblock New Year Prints get 2 (they) name from the Taohuawu area in Suzhou. They 3 (know) for their bright colors, clear patterns and many different themes. In 2006, they became part of China’s national intangible cultural heritage (非物质文化遗产)."
+  }, {
+    "type" : "paragraph",
+    "id" : 151,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 135.721, 538.629, 194.093 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Sun Yibo, 44 years old, 4 (work) on Taohuawu prints for over 20years. “Taohuawu prints are nianhua 5 not only shows menshen (door gods), flowers and birds,” said Sun. “Now, 6 (art) also choose themes from popular culture, 7 games and films.”"
+  }, {
+    "type" : "paragraph",
+    "id" : 156,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 65.521, 538.544, 123.893 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Sun once made a woodblock print showing a scene in the game Paper Bride (《纸嫁衣》). He spent months 8 (work) on it-drawing the draft, carving (雕刻) it on different blocks (纸板) and then printing the blocks one by one on paper."
+  }, {
+    "type" : "footer",
+    "id" : 158,
+    "page number" : 3,
+    "bounding box" : [ 250.44, 51.721, 344.89, 63.293 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 29,
+      "page number" : 3,
+      "bounding box" : [ 250.44, 51.721, 344.89, 63.293 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "试卷第 3页，共 17页"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 159,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 720.72, 538.542, 779.092 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "It takes a long time 9 (make) a woodblock print, so few people want to learn this skill. But Sun and other inheritors (传承人) in Suzhou are trying to let more young people know about it. “We have exhibitions and classes at school. I am 10 (real) happy to see some students starting to learn it in class,” said Sun."
+  }, {
+    "type" : "paragraph",
+    "id" : 162,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 673.92, 455.522, 685.492 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "阅读短文，在文中空白处填入 1 个适当的单词，或用括号内所给单词的正确形式填空。"
+  }, {
+    "type" : "paragraph",
+    "id" : 163,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 627.12, 538.545, 662.092 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The Grand Song of the Dong ethnic group (侗族大歌) is the folk song of the Dong people in China. It is performed widely in Guizhou and Guangxi now."
+  }, {
+    "type" : "paragraph",
+    "id" : 164,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 533.521, 538.625, 615.292 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Hu Guanmei is one of the masters of the Grand Song. Her parents encouraged her 1 (learn) it when she was three years old. At that time, she would rather stay at home and practise the Grand Song 2 go out to play. “My parents told me that when you were happy, you could sing; when you 3 sad, you could sing too,” Hu recalled. “Singing the Grand Song could keep sadness and worries away from us,” she added."
+  }, {
+    "type" : "paragraph",
+    "id" : 168,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 463.32, 538.53, 521.693 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "In her 4 (twenty), Hu became famous in her village because she could sing the Grand Song well. Then she began helping spread the Grand Song. Every night, the kids 5 lived nearby met at Hu’s home to sing together. Later, Hu 6 (invite) to teach students at school."
+  }, {
+    "type" : "paragraph",
+    "id" : 172,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 369.721, 541.292, 451.492 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Up to now, she has trained over 1,000 students of all 7 (age). Her students speak 8 (high) of her. “She is a totally committed (尽心尽力的) teacher. She has not only passed on the singing skills to us, but also succeeded in 9 (help) us have a much deeper understanding of Dong culture,” one of her students said."
+  }, {
+    "type" : "paragraph",
+    "id" : 176,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 322.921, 538.624, 357.893 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "So far, many of her students 10 (win) music competitions and given performances home and abroad. Hu hopes they can continue to pass on the traditional culture and bring joy to more people."
+  }, {
+    "type" : "paragraph",
+    "id" : 178,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 253.511, 539.65, 287.361 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "阅读下面短文，根据语境或所给单词的提示，在每个空格内填入一个恰当的词，要求所填的词意义准确、 形式正确，使短文意思完整、行文连贯。"
+  }, {
+    "type" : "paragraph",
+    "id" : 179,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 205.921, 538.574, 240.892 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "There is a special club at Yangzhou Foreign Language School. It is called the Tongcao Flowers Paper Art Workshop. It just won 1 first prize at a school exhibition (展览)."
+  }, {
+    "type" : "paragraph",
+    "id" : 181,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 159.121, 538.624, 194.093 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The students and teachers made 2 (thousand) of beautiful tongcao flowers and the flowers filled up a 24-square-meter exhibition area."
+  }, {
+    "type" : "paragraph",
+    "id" : 183,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 88.921, 538.628, 147.293 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Tongcao flowers are made from tongcao paper. This paper comes 3 a traditional Chinese medicine called tongtuo wood. Tongcao flowers are known as “the flower that never dies”. 4 , people still feel surprised that they can stay beautiful for many years."
+  }, {
+    "type" : "paragraph",
+    "id" : 186,
+    "page number" : 4,
+    "bounding box" : [ 84.72, 65.521, 538.531, 77.093 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Making tongcao flowers takes many steps. First, cut the pieces of paper into different 5 (size)."
+  }, {
+    "type" : "footer",
+    "id" : 188,
+    "page number" : 4,
+    "bounding box" : [ 250.44, 50.4, 344.89, 61.972 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 30,
+      "page number" : 4,
+      "bounding box" : [ 250.44, 50.4, 344.89, 61.972 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "试卷第 4页，共 17页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 189,
+    "page number" : 5,
+    "bounding box" : [ 407.76, 790.23, 408.48, 790.95 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 46,
+      "page number" : 5,
+      "bounding box" : [ 407.76, 790.23, 408.48, 790.95 ],
+      "source" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）_images/imageFile5.png"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 198,
+    "page number" : 5,
+    "bounding box" : [ 56.64, 744.12, 538.664, 779.092 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Then, shape the wet paper into paper petals (花瓣) by pinching (捏) and rubbing (揉) it. Next, put the petals together like a real flower. 6 the end, color the paper."
+  }, {
+    "type" : "paragraph",
+    "id" : 200,
+    "page number" : 5,
+    "bounding box" : [ 56.64, 697.32, 538.545, 732.292 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Ren Daiyang 7 (become) a member of the workshop in 2023. For him, shaping the petals is 8 (hard) than other steps."
+  }, {
+    "type" : "paragraph",
+    "id" : 203,
+    "level" : "2",
+    "page number" : 5,
+    "bounding box" : [ 56.64, 650.52, 538.625, 685.492 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "“I spent over two hours 9 (make) a tongcao flower in the beginning. But it teaches 10 (I) to be patient.” said 13-year-old Zhang Shiyu. “I love this paper art and want to help keep it going.”"
+  }, {
+    "type" : "heading",
+    "id" : 206,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 56.64, 577.271, 119.767, 587.721 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "三、完形填空"
+  }, {
+    "type" : "paragraph",
+    "id" : 207,
+    "page number" : 5,
+    "bounding box" : [ 168.48, 556.92, 426.839, 568.492 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The Dong people (侗族人) and their indigo cloth (靛蓝色布)"
+  }, {
+    "type" : "paragraph",
+    "id" : 208,
+    "page number" : 5,
+    "bounding box" : [ 56.64, 510.121, 538.503, 545.093 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Yang Xiuying, 74, sits at a wooden loom (织布机). As her fingers pass the shuttle (梭子) back and forth through the cotton threads, the old machine comes to life."
+  }, {
+    "type" : "paragraph",
+    "id" : 209,
+    "page number" : 5,
+    "bounding box" : [ 56.64, 463.32, 538.545, 498.292 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Ever since she was a young girl, Yang has been making indigo cloth. “This type of handmade cloth is extremely rare. You can 1 buy it at the market,” she said."
+  }, {
+    "type" : "paragraph",
+    "id" : 211,
+    "page number" : 5,
+    "bounding box" : [ 56.64, 416.521, 538.623, 451.492 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "For the Dong people in Guizhou, making indigo cloth has a long tradition. The 2 has been passed down from mother to daughter over generations. Nearly every family makes its own cloth."
+  }, {
+    "type" : "paragraph",
+    "id" : 213,
+    "page number" : 5,
+    "bounding box" : [ 56.64, 346.321, 538.629, 404.693 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "This traditional way of making indigo cloth, unfortunately, is now in danger. It will disappear slowly in the modern industrial society. Young people show little interest in it. Some of them have 3 to big cities to find better jobs."
+  }, {
+    "type" : "paragraph",
+    "id" : 215,
+    "page number" : 5,
+    "bounding box" : [ 56.64, 276.121, 538.651, 334.493 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Local officials want to save the tradition. They are trying to change young people’s 4 towards it. One program has set up several cloth-making factories in Guizhou. After learning how to make indigo cloth, young Dong people can find jobs easily. They can also work closer to home."
+  }, {
+    "type" : "paragraph",
+    "id" : 217,
+    "page number" : 5,
+    "bounding box" : [ 56.64, 205.921, 538.664, 264.293 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The Dong people consider indigo cloth as 5 as rice. Many Dong women spend countless hours making the cloth. They rise and start working very early in the morning. To make the cloth shiny, it must be rubbed (搓) and beaten hard. The noise of cloth being beaten often 6 the whole village up."
+  }, {
+    "type" : "paragraph",
+    "id" : 220,
+    "page number" : 5,
+    "bounding box" : [ 56.64, 159.121, 538.559, 194.093 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Almost every Dong woman over 40 has a tub for indigo dye (染料). The cloth has to be put in the dye for many rounds to gain the rich colour. The process of colouring usually takes two weeks."
+  }, {
+    "type" : "paragraph",
+    "id" : 221,
+    "page number" : 5,
+    "bounding box" : [ 56.64, 112.321, 538.543, 147.293 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Yang holds out her purple and wrinkled (有皱纹的) hands. “They say she who has the darkest hands makes the best cloth,” she says proudly."
+  }, {
+    "type" : "list",
+    "id" : 222,
+    "level" : "1",
+    "page number" : 5,
+    "bounding box" : [ 56.64, 65.521, 407.944, 100.493 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "next list id" : 224,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 56.64, 88.921, 407.944, 100.493 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．A．hardly B．usually C．easily D．often",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 56.64, 65.521, 402.734, 77.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．A．story B．skill C．food D．tool",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 223,
+    "page number" : 5,
+    "bounding box" : [ 250.44, 51.721, 344.89, 63.293 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 31,
+      "page number" : 5,
+      "bounding box" : [ 250.44, 51.721, 344.89, 63.293 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "试卷第 5页，共 17页"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 224,
+    "level" : "1",
+    "page number" : 6,
+    "bounding box" : [ 56.64, 697.32, 423.063, 779.092 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "previous list id" : 222,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 56.64, 767.52, 416.703, 779.092 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．A．moved B．returned C．travelled D．walked",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 56.64, 744.12, 412.624, 755.692 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4．A．habit B．attitude C．interest D．hobby",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 56.64, 720.72, 423.063, 732.292 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5．A．interesting B．expensive C．important D．common",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 56.64, 697.32, 407.864, 708.892 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6．A．wakes B．keeps C．turns D．takes",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 225,
+    "page number" : 6,
+    "bounding box" : [ 56.64, 651.31, 487.075, 661.76 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "阅读下面短文，理解大意，然后从各小题的四个选项中选出一个最佳答案，使短文连贯完整。"
+  }, {
+    "type" : "image",
+    "id" : 226,
+    "page number" : 6,
+    "bounding box" : [ 56.76, 583.47, 144.48, 644.19 ],
+    "source" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）_images/imageFile6.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 227,
+    "page number" : 6,
+    "bounding box" : [ 56.64, 541.32, 538.559, 576.292 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "During the Ming Dynasty, there was a skilled man named Wang Shuyuan. He was good at turning a(n) 1 piece of wood into different things, like buildings, animals, trees, and even people."
+  }, {
+    "type" : "paragraph",
+    "id" : 229,
+    "level" : "2",
+    "page number" : 6,
+    "bounding box" : [ 56.64, 494.521, 538.629, 529.492 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "One of his greatest works was a small boat made 2 just from a peach pit. This small boat had a lovely shape like a(n) 3 one. The middle part of the boat was the cabin (船舱). It had eight small"
+  }, {
+    "type" : "list",
+    "id" : 232,
+    "level" : "1",
+    "page number" : 6,
+    "bounding box" : [ 56.64, 471.121, 494.131, 482.693 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 88,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 56.64, 471.121, 494.131, 482.693 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4 , four on each side. People could see beautiful patterns on the sides when the windows were open.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 234,
+    "level" : "2",
+    "page number" : 6,
+    "bounding box" : [ 56.64, 400.92, 538.744, 459.293 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Three people sat at the front of the boat. The man in the 5 was Su Dongpo. On his right was his friend, Foyin, and on his left was Luzhi. Su Dongpo and Luzhi were 6 a long scroll Su Dongpo held one end of the scroll while resting his other hand on Luzhi’s back. Luzhi pointed at the scroll with his right hand"
+  }, {
+    "type" : "list",
+    "id" : 237,
+    "level" : "3",
+    "page number" : 6,
+    "bounding box" : [ 56.64, 354.121, 538.624, 389.093 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "next list id" : 265,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 56.64, 354.121, 538.624, 389.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "as if he was 7 something interesting. Foyin looked happy and 8 , lying down on one knee and supporting himself with one arm.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 240,
+    "page number" : 6,
+    "bounding box" : [ 56.64, 283.921, 538.545, 342.293 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The boat had many other details (细微之处). On the back of it, Wang Shuyuan even 9 his name. It is hard to believe that he could 10 so many things on such a small peach pit. Wang Shuyuan’s skill is truly amazing!"
+  }, {
+    "type" : "list",
+    "id" : 243,
+    "level" : "1",
+    "page number" : 6,
+    "bounding box" : [ 56.64, 73.321, 438.544, 272.093 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 9,
+    "next list id" : 254,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 56.64, 260.521, 415.508, 272.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．A．small B．alive C．silver D．private",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 56.64, 237.121, 418.383, 248.693 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．A．carefully B．widely C．badly D．politely",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 56.64, 213.721, 417.303, 225.293 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．A．empty B．real C．silent D．smooth",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 56.64, 190.32, 424.303, 201.892 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4．A．rabbits B．corners C．fields D．windows",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 56.64, 166.921, 416.118, 178.493 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5．A．end B．back C．middle D．bottom",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 56.64, 143.521, 438.544, 155.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6．A．looking at B．passing by C．setting off D．dealing with",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 56.64, 120.121, 418.383, 131.693 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7．A．failing B．scoring C．sharing D．mailing",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 56.64, 96.721, 421.932, 108.293 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8．A．helpful B．awful C．painful D．peaceful",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 56.64, 73.321, 427.142, 84.893 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9．A．traded B．wrote C．dared D．examined",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 244,
+    "page number" : 6,
+    "bounding box" : [ 250.44, 50.4, 344.89, 61.972 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 32,
+      "page number" : 6,
+      "bounding box" : [ 250.44, 50.4, 344.89, 61.972 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "试卷第 6页，共 17页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 245,
+    "page number" : 7,
+    "bounding box" : [ 407.76, 790.23, 408.48, 790.95 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 47,
+      "page number" : 7,
+      "bounding box" : [ 407.76, 790.23, 408.48, 790.95 ],
+      "source" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）_images/imageFile7.png"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 254,
+    "level" : "1",
+    "page number" : 7,
+    "bounding box" : [ 56.64, 767.52, 402.184, 779.092 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 243,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 56.64, 767.52, 402.184, 779.092 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10．A．cancel B．create C．announce D．nod",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 255,
+    "page number" : 7,
+    "bounding box" : [ 56.64, 673.92, 538.693, 732.292 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Art is an important part of our life. It has many different forms and can 1 our hearts in special ways. Chinese paper cutting is one of the most famous traditional folk arts. It has a long history of more than 1,500 years and is 2 in many parts of China."
+  }, {
+    "type" : "paragraph",
+    "id" : 258,
+    "page number" : 7,
+    "bounding box" : [ 56.64, 580.32, 538.771, 662.092 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "To make paper cutting works, artists only need simple 3 : a pair of scissors and some red paper. Red is a lucky color in Chinese culture, so it’s the most 4 color for paper cutting. Artists cut the paper into different shapes, like flowers, animals and Chinese characters. Every shape has a special 5 , such as happiness and good luck."
+  }, {
+    "type" : "paragraph",
+    "id" : 262,
+    "page number" : 7,
+    "bounding box" : [ 56.64, 533.521, 538.623, 568.492 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The making of paper cutting is not easy. It needs great 6 and patience. Artists must practice a lot to cut the paper into perfect shapes. A good paper cutting work is always 7 and lively. When you look"
+  }, {
+    "type" : "list",
+    "id" : 265,
+    "level" : "3",
+    "page number" : 7,
+    "bounding box" : [ 56.64, 486.72, 538.531, 521.693 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "previous list id" : 237,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 56.64, 486.72, 538.531, 521.693 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "at it, you can feel the beauty of art and the warmth of Chinese culture. Now paper cutting is not only loved by Chinese people, but also becomes 8 all over the world.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 267,
+    "page number" : 7,
+    "bounding box" : [ 56.64, 439.92, 538.693, 474.892 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Many foreign people learn to make paper cutting works and they 9 it as a great way to know about China. Art connects the world. It makes our life more colorful and 10 us to love the world around us."
+  }, {
+    "type" : "list",
+    "id" : 270,
+    "level" : "1",
+    "page number" : 7,
+    "bounding box" : [ 56.64, 205.921, 416.587, 428.093 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 10,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 56.64, 416.521, 407.944, 428.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．A．touch B．hit C．break D．carry",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 56.64, 393.121, 409.093, 404.693 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．A．forgotten B．popular C．expensive D．silent",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 56.64, 369.721, 413.743, 381.293 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．A．tools B．pictures C．skills D．stories",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 56.64, 346.321, 416.587, 357.893 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4．A．boring B．difficult C．common D．strange",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 56.64, 322.921, 410.348, 334.493 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5．A．name B．meaning C．use D．shape",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 56.64, 299.521, 409.748, 311.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6．A．talent B．time C．money D．space",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 56.64, 276.121, 407.413, 287.693 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7．A．dark B．vivid C．cold D．quiet",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 56.64, 252.721, 408.544, 264.293 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8．A．fresh B．famous C．cheap D．clean",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 56.64, 229.32, 403.748, 240.892 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9．A．regard B．change C．turn D．take",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 56.64, 205.921, 404.384, 217.493 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10．A．teaches B．warns C．stops D．asks",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 271,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 56.64, 132.671, 130.327, 143.121 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "四、任务型阅读"
+  }, {
+    "type" : "paragraph",
+    "id" : 272,
+    "page number" : 7,
+    "bounding box" : [ 56.64, 65.521, 538.652, 123.893 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Chinese paper-cutting is one of the oldest handicrafts in China. It appeared during the Northern Dynasties. So it has a history of about 1,500 years. At first, paper-cuttings were only popular in the countryside, and the masters were farmers’ wives."
+  }, {
+    "type" : "footer",
+    "id" : 273,
+    "page number" : 7,
+    "bounding box" : [ 250.44, 51.721, 344.89, 63.293 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 33,
+      "page number" : 7,
+      "bounding box" : [ 250.44, 51.721, 344.89, 63.293 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "试卷第 7页，共 17页"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 274,
+    "page number" : 8,
+    "bounding box" : [ 56.64, 720.72, 538.65, 779.092 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Traditional paper-cuttings were first put on windows for decoration. This is why they’re also called “window flowers”. Most paper-cuttings are made of red paper, because red means good luck in Chinese culture. Today, people use paper-cuttings to decorate not only windows, but also mirrors, lamps and other furniture."
+  }, {
+    "type" : "paragraph",
+    "id" : 275,
+    "page number" : 8,
+    "bounding box" : [ 56.64, 556.92, 541.17, 708.892 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Paper-cuttings are popular because of their expressions of good wishes and hopes. During the Spring Festival, for example, many people put up paper-cuttings of the Chinese character “Fu” upside down. They hope that this will bring them good luck. At wedding ceremonies, you can always see paper-cuttings of the character “Xi”. It means that the couple can enjoy double happiness together. Paper-cuttings have developed different styles in different parts of China. Paper-cuttings from the northern parts usually have interesting shapes and rich patterns. In southern China, people prefer elegant paper-cuttings. They focus more on the themes of flowers, fruit, birds and fish."
+  }, {
+    "type" : "paragraph",
+    "id" : 276,
+    "page number" : 8,
+    "bounding box" : [ 56.64, 463.32, 538.65, 545.093 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "It is quite easy to learn how to make paper-cuttings. With a piece of paper and a knife or a pair of scissors, you can try to make your own paper art. You can only make one piece at a time by using a knife. But if you use scissors to cut several pieces of paper together, you can make several identical paper-cuttings at once. 根据短文内容，回答下列问题。每题答案不超过 7 个词。"
+  }, {
+    "type" : "list",
+    "id" : 277,
+    "level" : "1",
+    "page number" : 8,
+    "bounding box" : [ 56.64, 252.721, 392.824, 451.492 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 56.64, 439.92, 281.705, 451.492 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．How long is the history of Chinese paper-cutting?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 56.64, 393.121, 240.064, 404.693 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．What’s another name of paper-cuttings?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 56.64, 346.321, 342.428, 357.893 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．Why do people put up the Chinese character “Fu” upside down?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 56.64, 299.521, 356.704, 311.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4．What do people in southern China focus more on in paper-cuttings?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 56.64, 252.721, 392.824, 264.293 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5．What tool do you need if you want to make several identical paper-cuttings?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 279,
+    "page number" : 8,
+    "bounding box" : [ 56.64, 183.311, 151.087, 193.761 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "阅读短文，回答问题"
+  }, {
+    "type" : "image",
+    "id" : 280,
+    "page number" : 8,
+    "bounding box" : [ 56.76, 118.47, 110.04, 173.19 ],
+    "source" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）_images/imageFile8.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 281,
+    "page number" : 8,
+    "bounding box" : [ 56.64, 73.321, 538.679, 108.293 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Chinese paper-cutting, or jianzhi, is a kind of folk (民间的) art. People usually use scissors (剪刀) or knives to cut paper. It has a long history (历史) of about 1500 years. Let’s learn something about paper-cutting."
+  }, {
+    "type" : "footer",
+    "id" : 282,
+    "page number" : 8,
+    "bounding box" : [ 250.44, 50.4, 344.89, 61.972 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 34,
+      "page number" : 8,
+      "bounding box" : [ 250.44, 50.4, 344.89, 61.972 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "试卷第 8页，共 17页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 283,
+    "page number" : 9,
+    "bounding box" : [ 407.76, 790.23, 408.48, 790.95 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 48,
+      "page number" : 9,
+      "bounding box" : [ 407.76, 790.23, 408.48, 790.95 ],
+      "source" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）_images/imageFile9.png"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 292,
+    "page number" : 9,
+    "bounding box" : [ 84.72, 744.12, 538.624, 779.092 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Wonderful meanings (意义) Paper-cutting has wonderful meanings— happiness and good luck. At the Spring Festival, people put up fu"
+  }, {
+    "type" : "paragraph",
+    "id" : 293,
+    "page number" : 9,
+    "bounding box" : [ 56.64, 673.92, 538.624, 732.292 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "on doors or windows. At a wedding (婚礼), people put up xi. Why is it red? In China, people always love red. In our ideas, red is hope and life, so red is our favourite.We can see red"
+  }, {
+    "type" : "paragraph",
+    "id" : 294,
+    "page number" : 9,
+    "bounding box" : [ 56.64, 627.12, 541.172, 662.092 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "everywhere in China. The walls of old palaces are red. Lanterns are red.Weddings are always full of red things too. So most of the paper-cutting is red."
+  }, {
+    "type" : "paragraph",
+    "id" : 295,
+    "page number" : 9,
+    "bounding box" : [ 84.72, 580.32, 538.57, 615.292 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Black paper-cutting in Shanzhou Paper-cutting in Shanzhou, Henan Province is black. Black is the best colour there.Shanzhou is a dry (干旱"
+  }, {
+    "type" : "paragraph",
+    "id" : 296,
+    "page number" : 9,
+    "bounding box" : [ 56.64, 556.92, 308.131, 568.492 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "的) place. People make black paper-cutting to wish for rain."
+  }, {
+    "type" : "paragraph",
+    "id" : 297,
+    "page number" : 9,
+    "bounding box" : [ 56.64, 486.72, 538.652, 545.093 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Now, paper-cutting gets into many schools. Students can learn how to make paper-cutting at school. Li Jie, a middle school student, says,“It’s really wonderful to change paper into different kinds of pictures, such as flowers and animals. We enjoy it.”"
+  }, {
+    "type" : "list",
+    "id" : 298,
+    "level" : "1",
+    "page number" : 9,
+    "bounding box" : [ 56.64, 276.121, 322.629, 474.892 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 56.64, 463.32, 281.705, 474.892 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．How long is the history of Chinese paper-cutting?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 56.64, 416.521, 214.388, 428.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．Why do Chinese people love red?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 56.64, 369.721, 322.629, 381.293 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．What do people in Shanzhou use black paper-cutting to do?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 56.64, 322.921, 248.225, 334.493 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4．How does Li Jie feel about paper-cutting?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 56.64, 276.121, 299.708, 287.693 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5．Do you want to learn paper-cutting? Why or why not?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 300,
+    "level" : "Subtitle",
+    "page number" : 9,
+    "bounding box" : [ 56.64, 179.471, 119.767, 189.921 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "五、阅读理解"
+  }, {
+    "type" : "paragraph",
+    "id" : 301,
+    "page number" : 9,
+    "bounding box" : [ 56.64, 88.921, 538.65, 170.693 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Ye Kaiyuan, an artist from Zhangpu, Fujian, masters Chinese art of paper-cutting. With great love for traditional literature, Eastern symbols, and Shanshui paintings, Ye creates paper artworks that bridge the past and present. Using simple tools like scissors and a knife, he turns paper into famous scenes in Chinese culture. “Paper-cutting allows me to express my understanding of life and the world,” Ye says."
+  }, {
+    "type" : "paragraph",
+    "id" : 302,
+    "page number" : 9,
+    "bounding box" : [ 84.72, 65.521, 538.651, 77.093 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Born in a place known as the “hometown of paper-cutting”, Ye developed his interest in the craft as a child."
+  }, {
+    "type" : "footer",
+    "id" : 303,
+    "page number" : 9,
+    "bounding box" : [ 250.44, 51.721, 344.89, 63.293 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 35,
+      "page number" : 9,
+      "bounding box" : [ 250.44, 51.721, 344.89, 63.293 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "试卷第 9页，共 17页"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 304,
+    "page number" : 10,
+    "bounding box" : [ 56.64, 697.32, 538.625, 779.092 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Although he was born into a poor family, he managed to keep his hobby by using materials from paper boxes. However, when he grew up, he faced pressure to choose a career (事业) that provides enough money for living. After working different jobs—from waiter to tea seller—he gave up his job in 2011 to focus exclusively on paper-cutting. “Life is only meaningful if you do what you love,” he explains."
+  }, {
+    "type" : "paragraph",
+    "id" : 306,
+    "page number" : 10,
+    "bounding box" : [ 56.64, 627.12, 538.629, 685.492 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Ye’s journey was not easy. In 2012, his first exhibition, which he had spent tens of thousands of yuan to hold, sold only one piece for 328 yuan.“There was a moment when I thought about giving up, but I believed in the value of my craft,” he says."
+  }, {
+    "type" : "paragraph",
+    "id" : 307,
+    "page number" : 10,
+    "bounding box" : [ 56.64, 510.121, 538.624, 615.292 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "His workshop, Yile Paper-Cutting Art, now creates pieces mixing tradition with modern art. Different from the traditional way of the craft, in which the drawing is done first and then the cutting, he splashes (洒) black, red or yellow ink on rice paper, then draws detailed designs and finally cuts out the paper creation. “The unexpected pattern is the most interesting part, and I think being natural is beautiful,” he says. The creative way is usually slow. It usually takes Ye at least two weeks to complete a paper-cutting work."
+  }, {
+    "type" : "paragraph",
+    "id" : 308,
+    "page number" : 10,
+    "bounding box" : [ 56.64, 439.92, 538.545, 498.292 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "His hard work made him well-known around the world and UNESCO listed Zhangpu paper-cutting as intangible cultural heritage in 2010. “I want to bring paper-cutting to daily life, letting more people get to know the craft,” Ye says, showing that ancient crafts can keep alive in the modern world."
+  }, {
+    "type" : "list",
+    "id" : 309,
+    "level" : "1",
+    "page number" : 10,
+    "bounding box" : [ 56.64, 112.321, 538.143, 428.093 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "next list id" : 323,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 56.64, 393.121, 437.489, 428.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．What does the underlined word “exclusively” mean in paragraph 2? A．Usually. B．Slowly. C．Carefully. D．Completely.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 56.64, 369.721, 299.225, 381.293 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．Why did Ye give up his job to focus on paper-cutting?",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 63,
+        "level" : "2",
+        "page number" : 10,
+        "bounding box" : [ 75.72, 276.121, 329.011, 357.893 ],
+        "numbering style" : "english letters",
+        "number of list items" : 4,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 10,
+          "bounding box" : [ 75.72, 346.321, 329.011, 357.893 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "A．Because his job didn’t provide him with enough money.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 10,
+          "bounding box" : [ 75.72, 322.921, 311.969, 334.493 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "B．Because his value in paper-cutting was well-known.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 10,
+          "bounding box" : [ 75.72, 299.521, 311.97, 311.093 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "C．Because he wanted to turn his hobby into his career.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 10,
+          "bounding box" : [ 75.72, 276.121, 326.731, 287.693 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "D．Because he was offered a job in Yile Paper-Cutting Art.",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 56.64, 252.721, 385.986, 264.293 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．What did Ye do when he was faced with career problems at the beginning?",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 64,
+        "level" : "2",
+        "page number" : 10,
+        "bounding box" : [ 75.72, 159.121, 302.611, 240.892 ],
+        "numbering style" : "english letters",
+        "number of list items" : 4,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 10,
+          "bounding box" : [ 75.72, 229.32, 302.611, 240.892 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "A．He used the money he made to support his career.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 10,
+          "bounding box" : [ 75.72, 205.921, 299.01, 217.493 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "B．He reminded himself that his work was valuable.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 10,
+          "bounding box" : [ 75.72, 182.521, 295.77, 194.093 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "C．He asked for help from his friends and relatives.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 10,
+          "bounding box" : [ 75.72, 159.121, 300.931, 170.693 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "D．He held exhibitions to tell people about his work.",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 56.64, 112.321, 538.143, 147.293 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4．Which of the following is the correct order of Ye’s way of creating paper-cutting works according to paragraph 4?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 310,
+    "level" : "3",
+    "page number" : 10,
+    "bounding box" : [ 56.64, 88.921, 344.251, 100.493 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "①Design the shape of the paper. ②Draw out the lines on the paper."
+  }, {
+    "type" : "paragraph",
+    "id" : 311,
+    "level" : "3",
+    "page number" : 10,
+    "bounding box" : [ 56.64, 65.521, 278.491, 77.093 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "③Splash ink on the rice paper. ④Cut out the shape."
+  }, {
+    "type" : "footer",
+    "id" : 312,
+    "page number" : 10,
+    "bounding box" : [ 247.8, 50.4, 347.53, 61.972 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 36,
+      "page number" : 10,
+      "bounding box" : [ 247.8, 50.4, 347.53, 61.972 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "试卷第 10页，共 17页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 313,
+    "page number" : 11,
+    "bounding box" : [ 407.76, 790.23, 408.48, 790.95 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 49,
+      "page number" : 11,
+      "bounding box" : [ 407.76, 790.23, 408.48, 790.95 ],
+      "source" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）_images/imageFile10.png"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 322,
+    "page number" : 11,
+    "bounding box" : [ 79.68, 767.52, 428.289, 779.092 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "A．②①③④ B．②④③① C．③②①④ D．③①②④"
+  }, {
+    "type" : "list",
+    "id" : 323,
+    "level" : "1",
+    "page number" : 11,
+    "bounding box" : [ 56.64, 744.12, 255.787, 755.692 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 309,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 56.64, 744.12, 255.787, 755.692 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5．What is the writing purpose of the passage?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 324,
+    "level" : "3",
+    "page number" : 11,
+    "bounding box" : [ 79.68, 650.52, 308.368, 732.292 ],
+    "numbering style" : "english letters",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 79.68, 720.72, 242.971, 732.292 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A．To introduce a paper-cutting lover.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 79.68, 697.32, 277.407, 708.892 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B．To teach us the way to make paper-cutting.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 79.68, 673.92, 308.368, 685.492 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "C．To encourage us to pass on the art—paper-cutting.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 79.68, 650.52, 271.047, 662.092 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "D．To show the importance of paper-cutting.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 325,
+    "page number" : 11,
+    "bounding box" : [ 56.64, 580.32, 538.542, 615.292 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Paper cutting is a traditional Chinese art with a history of over 1,500 years. It uses simple tools like scissors and paper to create beautiful patterns. But in modern times, fewer young people are interested in it."
+  }, {
+    "type" : "paragraph",
+    "id" : 326,
+    "page number" : 11,
+    "bounding box" : [ 56.64, 533.521, 538.679, 568.492 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Zhang Min, a 16-year-old student from Nanjing, wants to change this. She learned paper cutting from her grandma when she was 8. She thinks paper cutting is a treasure of Chinese culture and should be passed down."
+  }, {
+    "type" : "paragraph",
+    "id" : 327,
+    "page number" : 11,
+    "bounding box" : [ 56.64, 439.92, 538.663, 521.693 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "To promote paper cutting, Zhang Min started an online club. She posts videos of her paper cutting process on social media. In the videos, she explains the meaning of each pattern. For example, the fish pattern stands for good luck, and the peony pattern represents wealth. She also holds offline workshops in her school and community. Many students and neighbors come to learn from her."
+  }, {
+    "type" : "paragraph",
+    "id" : 328,
+    "page number" : 11,
+    "bounding box" : [ 56.64, 346.321, 541.171, 428.093 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "“Paper cutting is not old-fashioned. It can be combined with modern life,” Zhang Min said. She has designed paper cutting patterns for phone cases and bags. These creative works have attracted many young people. Now, more and more people are interested in this traditional art. Zhang Min hopes that one day, paper cutting will be known by people all over the world."
+  }, {
+    "type" : "list",
+    "id" : 329,
+    "level" : "1",
+    "page number" : 11,
+    "bounding box" : [ 56.64, 65.521, 538.624, 334.493 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 56.64, 276.121, 538.624, 334.493 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．How long is the history of paper cutting? A．Over 1,000 years. B．Over 1,500 years. C．About 800 years. D．About 500 years.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 56.64, 205.921, 398.61, 264.293 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．Why did Zhang Min start an online club? A．To learn paper cutting. B．To sell paper cutting works. C．To promote paper cutting. D．To make friends.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 56.64, 159.121, 416.97, 194.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．What does the fish pattern stand for in paper cutting? A．Good luck. B．Wealth. C．Happiness. D．Health.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 56.64, 88.921, 499.05, 147.293 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4．How does Zhang Min make paper cutting popular among young people? A．She sells paper cutting tools. B．She designs creative paper cutting works. C．She writes books about paper cutting. D．She travels around the world to teach paper cutting.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 56.64, 65.521, 186.428, 77.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5．What’s Zhang Min’s hope?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 330,
+    "page number" : 11,
+    "bounding box" : [ 248.04, 51.721, 347.29, 63.293 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 37,
+      "page number" : 11,
+      "bounding box" : [ 248.04, 51.721, 347.29, 63.293 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "试卷第 11页，共 17页"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 331,
+    "level" : "3",
+    "page number" : 12,
+    "bounding box" : [ 79.68, 697.32, 332.37, 779.092 ],
+    "numbering style" : "english letters",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 79.68, 767.52, 332.37, 779.092 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A．More people will learn paper cutting from her grandma.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 79.68, 744.12, 279.45, 755.692 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B．Paper cutting will become a school subject.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 79.68, 720.72, 265.648, 732.292 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "C．Paper cutting will be known worldwide.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 79.68, 697.32, 234.691, 708.892 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "D．She will become a famous artist.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 332,
+    "level" : "Subtitle",
+    "page number" : 12,
+    "bounding box" : [ 185.4, 650.52, 409.987, 662.092 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Chinese Paper Cutting: Art, Material and Culture"
+  }, {
+    "type" : "list",
+    "id" : 333,
+    "level" : "4",
+    "page number" : 12,
+    "bounding box" : [ 56.64, 299.521, 538.694, 638.692 ],
+    "numbering style" : "circled arabic numbers",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 84.72, 627.12, 538.624, 638.692 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "①Paper cutting is one of the most famous traditional arts in China. It has a history of over 1,500 years and",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 61,
+        "page number" : 12,
+        "bounding box" : [ 56.64, 603.72, 185.01, 615.292 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "is popular all over the country."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 84.72, 580.32, 538.507, 591.892 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "②Paper cutting is mainly made of red paper. Red is a symbol of good luck and happiness in Chinese",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 62,
+        "page number" : 12,
+        "bounding box" : [ 56.64, 510.121, 538.624, 568.492 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "culture. The production process is interesting: first, fold the red paper into different shapes; then, use sharp scissors to cut out beautiful patterns. The patterns usually include flowers, animals, and scenes from traditional stories."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 56.64, 439.92, 538.694, 498.292 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "③Paper cutting is not only a kind of art but also a carrier of culture. During the Spring Festival, people put paper cuttings on windows, doors, and walls to celebrate the festival. It’s a way to express people’s wishes for a better life.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 56.64, 369.721, 538.65, 428.093 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "④What’s interesting is that paper cutting has spread to foreign countries. In some Western countries, people are interested in this ancient Chinese art. They learn to make paper cuttings and use them to decorate their homes. It has become a bridge for cultural exchange.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 56.64, 299.521, 538.628, 357.893 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "⑤Now, paper cutting is listed as an intangible (非物质的) cultural heritage. More and more young people are learning this art. They use modern materials and methods to create new styles of paper cuttings, making this traditional art alive.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 336,
+    "level" : "1",
+    "page number" : 12,
+    "bounding box" : [ 56.64, 65.521, 534.903, 287.693 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "next list id" : 348,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 56.64, 229.32, 518.637, 287.693 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．What does the underlined word “It” in Paragraph 4 refer to? A．Chinese culture. B．A foreign country. C．A traditional story. D．Paper cutting.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 56.64, 159.121, 534.903, 217.493 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．What is the first step in making paper cuttings? A．Cut out patterns. B．Draw patterns. C．Choose sharp scissors. D．Fold the paper.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 56.64, 88.921, 454.65, 147.293 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．How do young people keep paper cutting alive? A．By giving up this art. B．By selling paper cuttings abroad. C．By only making traditional patterns. D．By using modern materials and methods.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 56.64, 65.521, 353.467, 77.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4．Which of the following best describes the structure of the passage?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 337,
+    "page number" : 12,
+    "bounding box" : [ 247.8, 50.4, 347.53, 61.972 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 38,
+      "page number" : 12,
+      "bounding box" : [ 247.8, 50.4, 347.53, 61.972 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "试卷第 12页，共 17页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 338,
+    "page number" : 13,
+    "bounding box" : [ 407.76, 790.23, 408.48, 790.95 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 50,
+      "page number" : 13,
+      "bounding box" : [ 407.76, 790.23, 408.48, 790.95 ],
+      "source" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）_images/imageFile11.png"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 348,
+    "level" : "1",
+    "page number" : 13,
+    "bounding box" : [ 56.64, 650.52, 444.73, 779.092 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 336,
+    "list items" : [ {
+      "type" : "list item",
+      "id" : 347,
+      "page number" : 13,
+      "bounding box" : [ 79.68, 767.52, 444.73, 779.092 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A．①/②③/④⑤ B．①②/③④/⑤ C．①/②/③④⑤ D．①②③/④/⑤",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 56.64, 650.52, 309.811, 755.692 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5．What can we infer from the passage? A．Paper cutting is only popular in China. B．Red paper is the only material for paper cutting. C．Paper cutting helps spread Chinese culture abroad. D．Young people are not interested in paper cutting.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 349,
+    "page number" : 13,
+    "bounding box" : [ 56.64, 580.32, 538.623, 615.292 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Tea is no stranger to us Chinese people at all. But how much do you know about tea sets? Do you know they have changed a lot over time?"
+  }, {
+    "type" : "paragraph",
+    "id" : 350,
+    "page number" : 13,
+    "bounding box" : [ 56.64, 510.121, 538.663, 568.492 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "In general, tea sets become smaller and simpler after many changes throughout history. There are few records of tea sets before the Tang Dynasty. In Cha Jing (The Classic of Tea), a great book written by Lu Yu in the Tang Dynasty, 28 kinds of tools used for making and drinking tea are included."
+  }, {
+    "type" : "paragraph",
+    "id" : 351,
+    "page number" : 13,
+    "bounding box" : [ 56.64, 393.121, 538.679, 498.292 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The tea sets in the Song Dynasty were more gorgeous (华丽的). At that time, a competitive game based on tea drinking enjoyed great popularity. The tea bottle used in the game often had a big belly, a long neck and a mouth that was not straight. The mouth could help the players control water better when filling a cup. Cups made of black glaze (黑釉) were especially loved by people since the color matched the tea better and the thickness of the cup helped keep the tea warm."
+  }, {
+    "type" : "paragraph",
+    "id" : 352,
+    "page number" : 13,
+    "bounding box" : [ 56.64, 299.521, 538.649, 381.293 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "In the Ming and Qing dynasties, tea sets became simple, and those made of gold and silver slowly disappeared. To test the color of the tea, white tea sets were more popular. In the Qing Dynasty, purple clay tea sets made in Yixing, Jiangsu, began to flourish and were loved widely. It's said that tea made with Yixing purple clay tea sets still tastes good after being kept in the teapot for one night, even in a hot summer."
+  }, {
+    "type" : "list",
+    "id" : 354,
+    "level" : "1",
+    "page number" : 13,
+    "bounding box" : [ 56.64, 135.721, 536.464, 287.693 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "next list id" : 362,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 56.64, 229.32, 536.464, 287.693 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．How does the writer start the passage? A．By showing facts. B．By asking questions. C．By giving examples.D．By giving reasons.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 56.64, 159.121, 534.663, 217.493 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．Which dynasty saw the coming out of Cha Jing? A．The Tang Dynasty. B．The Song Dynasty. C．The Ming Dynasty. D．The Qing Dynasty.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 56.64, 135.721, 375.066, 147.293 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．Which tea bottle may be used in the tea game during the Song Dynasty?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 355,
+    "page number" : 13,
+    "bounding box" : [ 247.8, 51.721, 347.53, 63.293 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 39,
+      "page number" : 13,
+      "bounding box" : [ 247.8, 51.721, 347.53, 63.293 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "试卷第 13页，共 17页"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 357,
+    "page number" : 14,
+    "bounding box" : [ 97.8, 713.91, 178.08, 779.19 ],
+    "source" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）_images/imageFile12.png"
+  }, {
+    "type" : "image",
+    "id" : 358,
+    "page number" : 14,
+    "bounding box" : [ 282.0, 715.47, 387.0, 777.75 ],
+    "source" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）_images/imageFile13.png"
+  }, {
+    "type" : "image",
+    "id" : 359,
+    "page number" : 14,
+    "bounding box" : [ 410.16, 715.47, 505.44, 777.75 ],
+    "source" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）_images/imageFile14.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 356,
+    "page number" : 14,
+    "bounding box" : [ 79.68, 740.16, 410.17, 751.732 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "A． B． C．"
+  }, {
+    "type" : "image",
+    "id" : 361,
+    "page number" : 14,
+    "bounding box" : [ 178.68, 636.15, 260.4, 700.71 ],
+    "source" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）_images/imageFile15.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 360,
+    "page number" : 14,
+    "bounding box" : [ 160.559, 662.16, 178.57, 673.732 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "D．"
+  }, {
+    "type" : "list",
+    "id" : 362,
+    "level" : "1",
+    "page number" : 14,
+    "bounding box" : [ 56.64, 447.721, 434.827, 623.092 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 354,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 56.64, 611.52, 434.827, 623.092 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4．Which of the following in the dictionary best explains the underlined word \"flourish\"?",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 60,
+        "level" : "2",
+        "page number" : 14,
+        "bounding box" : [ 79.68, 517.92, 367.094, 599.692 ],
+        "numbering style" : "english letters",
+        "number of list items" : 4,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 14,
+          "bounding box" : [ 79.68, 588.12, 230.158, 599.692 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "A．to grow well (especially plants)",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 14,
+          "bounding box" : [ 79.68, 564.72, 197.463, 576.292 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "B．to be healthy and happy",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 14,
+          "bounding box" : [ 79.68, 541.32, 304.743, 552.892 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "C．to develop quickly and be successful, or common",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 14,
+          "bounding box" : [ 79.68, 517.92, 367.094, 529.492 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "D．to wave (摇晃) sth. around in a way that makes people look at it",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 56.64, 447.721, 422.023, 506.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5．What's the best title for this passage? A．Tea Sets of Different Shapes B．The Development of Tea Sets C．Good Tea Sets Make Good Tea D．Tea Sets with Different Materials",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 363,
+    "level" : "3",
+    "page number" : 14,
+    "bounding box" : [ 56.64, 73.321, 538.772, 412.492 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 56.64, 377.521, 538.558, 412.492 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "①On my way back home, I was drawn by a familiar sweet aroma (香味) to an old man making sugar paintings on a little stool (凳子). I walked straight towards him without a second thought.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 56.64, 330.721, 538.508, 365.693 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "②Nothing is better than the sugar painting to me. Watching the process of making a sugar painting is a true feast (盛宴) for my eyes.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 56.64, 190.32, 538.664, 318.892 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "③The old man, with his great skills, created delicate sugar paintings with simple tools, including a small pot, a spoon, a table and some malt sugar (麦芽糖). The sweet smell flew into my nose slowly as the sugar was melted in the pot. After knowing what to paint, the old man scooped (挖，舀) a spoonful of sugar and put the spoon above the table. He moved the spoon a little, and then quickly moved his hands before malt sugar got hard. The golden liquid was scattered (分散) accordingly, thick or thin. It was shortly after the old man moved his hands up or down, fast or slowly that a wonderful painting appeared in front of me. Amazing!",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 56.64, 143.521, 538.544, 178.493 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "④Can you imagine such a lively painting being finished in such a short time? Before malt sugar was completely cold, a thin stick was pressed on the sugar, making it easy to hold.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 56.64, 73.321, 538.772, 131.693 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "⑤I bought two sugar paintings—a monkey (for my son) and a heart (for me). Taking a bite, I was reminded of my childhood. In those days, I held Mom’s hand, squeezed through (挤过) crowds in the park, and watched the amazing sugar painting process. Mom always bought me a dragon one, the biggest and sweetest. Filled with joy,",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 364,
+    "page number" : 14,
+    "bounding box" : [ 247.8, 50.4, 347.53, 61.972 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 40,
+      "page number" : 14,
+      "bounding box" : [ 247.8, 50.4, 347.53, 61.972 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "试卷第 14页，共 17页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 365,
+    "page number" : 15,
+    "bounding box" : [ 407.76, 790.23, 408.48, 790.95 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 51,
+      "page number" : 15,
+      "bounding box" : [ 407.76, 790.23, 408.48, 790.95 ],
+      "source" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）_images/imageFile16.png"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 374,
+    "page number" : 15,
+    "bounding box" : [ 56.64, 744.12, 538.508, 779.092 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "we went back home. Sugar paintings have always been sweet, my mother’s hand has always been warm, and I’ve always felt her love."
+  }, {
+    "type" : "list",
+    "id" : 375,
+    "level" : "1",
+    "page number" : 15,
+    "bounding box" : [ 56.64, 315.121, 382.771, 732.292 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 56.64, 673.92, 382.771, 732.292 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．What caught her attention? A．An old man. B．A familiar sweet aroma. C．A little stool. D．A dragon.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 56.64, 650.52, 224.849, 662.092 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．In Paragraph 3, we know ________.",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 53,
+        "level" : "2",
+        "page number" : 15,
+        "bounding box" : [ 79.68, 556.92, 538.507, 638.692 ],
+        "numbering style" : "english letters",
+        "number of list items" : 4,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 15,
+          "bounding box" : [ 79.68, 627.12, 524.518, 638.692 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "A．the maker used simple tools to create sugar paintings, including a spoon, a table, and some malt sugar",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 15,
+          "bounding box" : [ 79.68, 603.72, 538.507, 615.292 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "B．the last action the maker took was to scoop a spoonful of sugar and place it above the marble-topped table",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 15,
+          "bounding box" : [ 79.68, 580.32, 468.702, 591.892 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "C．the final appearance of the sugar painting was not influenced by the maker’s movements",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 15,
+          "bounding box" : [ 79.68, 556.92, 357.183, 568.492 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "D．the writer expressed amazement at the finished sugar painting",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 56.64, 533.521, 338.85, 545.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．We can infer (推断) from the passage that the writer ________.",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 54,
+        "level" : "2",
+        "page number" : 15,
+        "bounding box" : [ 79.68, 439.92, 318.184, 521.693 ],
+        "numbering style" : "english letters",
+        "number of list items" : 4,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 15,
+          "bounding box" : [ 79.68, 510.121, 212.862, 521.693 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "A．could make sugar paintings",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 15,
+          "bounding box" : [ 79.68, 486.72, 250.334, 498.292 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "B．just liked eating sugar paintings best",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 15,
+          "bounding box" : [ 79.68, 463.32, 318.184, 474.892 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "C．could give the sugar painting of a monkey to her son",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 15,
+          "bounding box" : [ 79.68, 439.92, 150.133, 451.492 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "D．was an artist",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 56.64, 416.521, 371.226, 428.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4．Which of the following best shows the structure (结构) of the passage?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 55,
+        "page number" : 15,
+        "bounding box" : [ 79.68, 365.76, 386.409, 377.332 ],
+        "font" : "SimSun",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A． B． C． D．"
+      }, {
+        "type" : "image",
+        "id" : 56,
+        "page number" : 15,
+        "bounding box" : [ 97.8, 337.11, 138.36, 406.83 ],
+        "source" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）_images/imageFile17.png"
+      }, {
+        "type" : "image",
+        "id" : 57,
+        "page number" : 15,
+        "bounding box" : [ 178.08, 336.75, 230.64, 407.31 ],
+        "source" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）_images/imageFile18.png"
+      }, {
+        "type" : "image",
+        "id" : 58,
+        "page number" : 15,
+        "bounding box" : [ 282.0, 337.35, 340.56, 406.35 ],
+        "source" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）_images/imageFile19.png"
+      }, {
+        "type" : "image",
+        "id" : 59,
+        "page number" : 15,
+        "bounding box" : [ 386.4, 338.07, 432.96, 406.35 ],
+        "source" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）_images/imageFile20.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 56.64, 315.121, 238.649, 326.693 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5．The passage is mainly about ________.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 376,
+    "level" : "2",
+    "page number" : 15,
+    "bounding box" : [ 79.68, 221.521, 286.213, 303.293 ],
+    "numbering style" : "english letters",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 79.68, 291.721, 216.422, 303.293 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A．the importance of childhood",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 79.68, 268.32, 210.822, 279.892 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B．all kinds of sugar paintings",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 79.68, 244.921, 286.213, 256.493 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "C．a unique place of sugar paintings in my heart",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 79.68, 221.521, 163.267, 233.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "D．Chinese culture",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 377,
+    "level" : "Subtitle",
+    "page number" : 15,
+    "bounding box" : [ 56.64, 148.271, 119.767, 158.721 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "六、书面表达"
+  }, {
+    "type" : "paragraph",
+    "id" : 378,
+    "page number" : 15,
+    "bounding box" : [ 56.64, 81.911, 543.85, 139.493 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "1．假如你是李明，本周美术课上老师让大家介绍自己最喜欢的一种艺术形式（如剪纸、皮影戏、绘 画、音乐等），请你写一篇不少于 80 词左右的英语短文，介绍你最喜欢的艺术形式，说明你喜欢它的原因， 并谈谈它的特点。"
+  }, {
+    "type" : "footer",
+    "id" : 379,
+    "page number" : 15,
+    "bounding box" : [ 247.8, 51.721, 347.53, 63.293 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 41,
+      "page number" : 15,
+      "bounding box" : [ 247.8, 51.721, 347.53, 63.293 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "试卷第 15页，共 17页"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 380,
+    "page number" : 16,
+    "bounding box" : [ 56.64, 768.31, 88.089, 778.76 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "要求："
+  }, {
+    "type" : "list",
+    "id" : 381,
+    "level" : "1",
+    "page number" : 16,
+    "bounding box" : [ 56.64, 533.521, 534.391, 755.692 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 56.64, 744.12, 237.725, 755.692 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. 语句通顺，语意连贯，可适当发挥；",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 56.64, 533.521, 534.391, 732.292 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. 至少使用一次 so...that/such...that 句型。 ___________________________________________________________________________________________ ___________________________________________________________________________________________ ___________________________________________________________________________________________ ___________________________________________________________________________________________ ___________________________________________________________________________________________ ___________________________________________________________________________________________ ___________________________________________________________________________________________ ___________________________________________",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 382,
+    "page number" : 16,
+    "bounding box" : [ 56.64, 440.71, 538.69, 521.693 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "1．近月，“国潮”文化席卷重庆，无论是磁器口古镇国庆期间的“庙会”，还是校园里的汉服，吟诵古 典诗词，写毛笔字等活动，处处彰显中国传统文化的魅力。学校英语社团正在组织题为“Spreading Traditional Chinese Culture”的征文活动，请你选择一种传统文化的形式，写一篇短文投稿。 要求："
+  }, {
+    "type" : "list",
+    "id" : 383,
+    "level" : "1",
+    "page number" : 16,
+    "bounding box" : [ 56.64, 369.721, 279.723, 428.093 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 56.64, 416.521, 153.728, 428.093 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. 注意文字整体性；",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 56.64, 393.121, 264.004, 404.693 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. 80—120 词，开头已给出，不计入总词数；",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 56.64, 369.721, 279.723, 381.293 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. 文中不能出现自己的姓名和所在学校的名称。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 384,
+    "page number" : 16,
+    "bounding box" : [ 56.76, 246.87, 401.76, 357.15 ],
+    "source" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）_images/imageFile21.png"
+  }, {
+    "type" : "caption",
+    "id" : 385,
+    "page number" : 16,
+    "bounding box" : [ 56.64, 221.521, 453.37, 233.093 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "参考信息：calligraphy n.书法，paper-cutting n.剪纸，sugar-painting n.糖画，opera n.京剧"
+  }, {
+    "type" : "heading",
+    "id" : 386,
+    "level" : "Subtitle",
+    "page number" : 16,
+    "bounding box" : [ 210.359, 198.121, 384.907, 209.693 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Spreading Traditional Chinese Culture"
+  }, {
+    "type" : "paragraph",
+    "id" : 387,
+    "page number" : 16,
+    "bounding box" : [ 56.64, 81.121, 538.627, 186.293 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Nowadays, with the popularity of Chinese style, more people show great interest in traditional Chinese culture. ___________________________________________________________________________________________ ___________________________________________________________________________________________ ___________________________________________________________________________________________"
+  }, {
+    "type" : "footer",
+    "id" : 388,
+    "page number" : 16,
+    "bounding box" : [ 247.8, 50.4, 347.53, 61.972 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 42,
+      "page number" : 16,
+      "bounding box" : [ 247.8, 50.4, 347.53, 61.972 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "试卷第 16页，共 17页"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 389,
+    "page number" : 17,
+    "bounding box" : [ 407.76, 790.23, 408.48, 790.95 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 52,
+      "page number" : 17,
+      "bounding box" : [ 407.76, 790.23, 408.48, 790.95 ],
+      "source" : "Unit 1 Art and artists单元话题练（语法填空+语法选择+阅读+完形+写作）（原卷版）_images/imageFile22.png"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 398,
+    "page number" : 17,
+    "bounding box" : [ 56.64, 697.32, 534.391, 779.092 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "___________________________________________________________________________________________ ___________________________________________________________________________________________ ___________________________________________________________________________________________ __________________________________________________________________"
+  }, {
+    "type" : "footer",
+    "id" : 399,
+    "page number" : 17,
+    "bounding box" : [ 247.8, 51.721, 347.53, 63.293 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 43,
+      "page number" : 17,
+      "bounding box" : [ 247.8, 51.721, 347.53, 63.293 ],
+      "heading level" : 4,
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "试卷第 17页，共 17页"
+    } ]
+  } ]
+}

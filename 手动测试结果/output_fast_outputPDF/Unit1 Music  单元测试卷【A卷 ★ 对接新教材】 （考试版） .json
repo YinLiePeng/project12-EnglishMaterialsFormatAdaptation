@@ -1,0 +1,1331 @@
+{
+  "file name" : "Unit1 Music  单元测试卷【A卷 ★ 对接新教材】 （考试版） .pdf",
+  "number of pages" : 6,
+  "author" : "追梦团队工作室出品17085053077",
+  "title" : "追梦团队工作室出品17085053077",
+  "creation date" : "D:20260413235421+08'00'",
+  "modification date" : "D:20260413235421+08'00'",
+  "kids" : [ {
+    "type" : "header",
+    "id" : 46,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 770.98, 539.4, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 19,
+      "page number" : 1,
+      "bounding box" : [ 53.88, 784.42, 539.4, 799.3 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 20,
+      "page number" : 1,
+      "bounding box" : [ 404.88, 773.14, 405.6, 773.86 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 21,
+      "page number" : 1,
+      "bounding box" : [ 404.88, 772.06, 405.6, 772.78 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 22,
+      "page number" : 1,
+      "bounding box" : [ 404.88, 770.98, 405.6, 771.7 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 65,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 217.32, 746.205, 378.839, 762.817 ],
+    "heading level" : 1,
+    "font" : "SimSun",
+    "font size" : 15.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Unit1 Music 单元测试卷"
+  }, {
+    "type" : "image",
+    "id" : 64,
+    "page number" : 1,
+    "bounding box" : [ 216.36, 749.38, 217.32, 750.34 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAACAAIDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+    "format" : "jpeg"
+  }, {
+    "type" : "heading",
+    "id" : 66,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 224.04, 714.131, 378.13, 729.69 ],
+    "heading level" : 2,
+    "font" : "SimSun",
+    "font size" : 14.05,
+    "text color" : "[0.0, 0.69, 0.314]",
+    "content" : "【A 卷 ◆ 对接新教材】"
+  }, {
+    "type" : "paragraph",
+    "id" : 67,
+    "page number" : 1,
+    "bounding box" : [ 222.6, 687.898, 372.589, 698.917 ],
+    "font" : "SimSun",
+    "font size" : 9.95,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "（时间：60 分钟，满分：100 分）"
+  }, {
+    "type" : "heading",
+    "id" : 68,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 53.88, 634.631, 375.129, 646.203 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "一、把下列单词或词组译成英文（共 1 小题，每小题 1 分，共 20 分）"
+  }, {
+    "type" : "paragraph",
+    "id" : 69,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 53.88, 614.35, 421.38, 625.922 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "1. 一位著名的音乐家 ______________ 2. 音乐播放清单 ______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 70,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 53.88, 589.87, 418.74, 601.442 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "3. 民间音乐 ______________ 4. 从……中选择 ______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 71,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 53.88, 565.39, 408.18, 576.962 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "5. 歌曲的主旋律 ______________ 6. 优美的歌词 ______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 72,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 53.88, 540.91, 397.74, 552.482 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "7. 慈善活动 ______________ 8. 筹集资金 ______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 73,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 53.88, 516.55, 426.54, 528.122 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "9. 不仅…… 而且…… ______________ 10. 既…… 又…… ______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 74,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 53.88, 492.071, 402.9, 503.643 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "11. 无家可归的人 ______________ 12. 独唱表演 ______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 75,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 53.88, 467.59, 413.459, 479.162 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "13. 对音乐的偏爱 ______________ 14. 流畅地歌唱 ______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 76,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 53.88, 443.11, 402.9, 454.682 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "15. 众所周知的作曲家 ______________ 16. 获得信心 ______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 77,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 53.88, 418.75, 434.459, 430.322 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "17. 鼓起勇气 ______________ 18. 令人放松的旋律 ______________"
+  }, {
+    "type" : "paragraph",
+    "id" : 78,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 53.88, 394.27, 413.459, 405.842 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "19. 主动提供帮助 ______________ 20. 加入合唱团 ______________"
+  }, {
+    "type" : "heading",
+    "id" : 79,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 53.88, 349.39, 348.729, 360.962 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "二、写出单词的适当形式（共 10 小题，每小题 1 分，共 10 分）"
+  }, {
+    "type" : "list",
+    "id" : 80,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 53.88, 109.031, 378.662, 340.562 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 10,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 53.88, 328.99, 330.902, 340.562 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. friend（名词，朋友）→ 形容词（友好的）：_________",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 53.88, 304.631, 313.381, 316.203 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. love（名词，爱）→ 形容词（可爱的）：_________",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 53.88, 280.15, 323.222, 291.722 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. beauty（名词，美）→ 形容词（美丽的）：_________",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 53.88, 255.671, 359.462, 267.243 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4. popularity（名词，流行）→ 形容词（受欢迎的）：_________",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 53.88, 231.19, 351.902, 242.762 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5. confidence（名词，信心）→ 形容词（自信的）：_________",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 53.88, 206.831, 336.662, 218.403 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6. calm（形容词，平静的）→ 副词（沉着地）：_________",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 53.88, 182.35, 378.662, 193.922 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7. smooth（形容词，流畅的）→ 副词（连续而流畅地）：_________",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 53.88, 157.871, 336.662, 169.443 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8. wide（形容词，广泛的）→ 副词（普遍地）：_________",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 53.88, 133.39, 365.822, 144.962 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9. known（形容词，知名的）→ 反义词（不出名的）：_________",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 53.88, 109.031, 332.581, 120.603 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10. true（形容词，真实的）→ 副词（真正地）：_________",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 81,
+    "page number" : 1,
+    "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 13,
+      "page number" : 1,
+      "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+      "heading level" : 4,
+      "font" : "DengXian",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1 / 6"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 82,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 770.98, 539.4, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 23,
+      "page number" : 2,
+      "bounding box" : [ 53.88, 784.42, 539.4, 799.3 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 24,
+      "page number" : 2,
+      "bounding box" : [ 404.88, 773.14, 405.6, 773.86 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 25,
+      "page number" : 2,
+      "bounding box" : [ 404.88, 772.06, 405.6, 772.78 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 26,
+      "page number" : 2,
+      "bounding box" : [ 404.88, 770.98, 405.6, 771.7 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 100,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 53.88, 756.79, 338.168, 768.362 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "三、根据汉语提示填空（共 10 小题，每小题 2 分，共 10 分）"
+  }, {
+    "type" : "list",
+    "id" : 101,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 53.88, 516.55, 447.569, 748.082 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 10,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 736.51, 392.131, 748.082 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. My cousin dreams of becoming a _________ (音乐家) when she grows up.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 712.15, 391.771, 723.722 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. I spent an hour making a _________ (播放清单) of my favorite folk songs.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 687.67, 389.011, 699.242 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. You can _________ (下载) this classical music from the legal app for free.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 663.19, 384.449, 674.762 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4. Beethoven is one of the world’s greatest _________ (古典的) composers.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 638.71, 447.569, 650.282 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5. The _________ (歌词) of this song are so touching that many people cry when listening.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 614.35, 381.93, 625.922 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6. The _________ (旋律) of this jazz piece is catchy and easy to remember.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 589.87, 393.809, 601.442 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7. Many stars take part in _________ (慈善) events to help homeless children.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 565.39, 425.968, 576.962 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8. It’s hard to _________ (选择) between the two music albums—both are wonderful.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 540.91, 403.29, 552.482 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9. We should show kindness to _________ (无家的) people and offer them help.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 516.55, 410.73, 528.122 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10. With the support of her teachers, she gained more _________ (信心) in singing.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 102,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 53.88, 471.55, 296.049, 483.122 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "四、单项选择（共 10 小题，每小题 1 分，共 10 分）"
+  }, {
+    "type" : "list",
+    "id" : 103,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 53.88, 109.031, 463.77, 462.842 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 7,
+    "next list id" : 125,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 451.27, 212.348, 462.842 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. —What kind of music do you like?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 43,
+        "level" : "3",
+        "page number" : 2,
+        "bounding box" : [ 53.88, 402.431, 412.864, 438.362 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—I like ________ folk music ________ rock music. They are both wonderful. A. either; or B. neither; nor C. both; and D. not only; but also"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 353.471, 412.89, 389.522 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. The melody of this song ________ very beautiful, so it’s popular among teenagers. A. sounds B. looks C. feels D. tastes",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 328.99, 211.266, 340.562 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. —Who is your favorite ________?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 44,
+        "level" : "3",
+        "page number" : 2,
+        "bounding box" : [ 53.88, 280.15, 374.638, 316.203 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—Mozart. His classical works are still widely played today. A. athlete B. musician C. host D. partner"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 231.19, 401.491, 267.243 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4. She is ________ a shy girl ________ she dare not sing in front of a large crowd. A. too; to B. so; that C. such; that D. either; or",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 182.35, 463.77, 218.403 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5. Not only my parents but also I ________ interested in pop music. We often listen to it together. A. am B. is C. are D. be",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 133.39, 439.652, 169.443 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6. This charity concert ________ to raise money for homeless people. Let’s go to support it. A. Aims B. sounds C. feels D. becomes",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 53.88, 109.031, 187.268, 120.603 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7.—Why do you like this song?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 104,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 53.88, 84.55, 375.09, 96.122 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "—Because its lyrics ________ meaningful and the rhythm ________ strong."
+  }, {
+    "type" : "footer",
+    "id" : 105,
+    "page number" : 2,
+    "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 14,
+      "page number" : 2,
+      "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+      "heading level" : 4,
+      "font" : "DengXian",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2 / 6"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 106,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 770.98, 539.4, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 27,
+      "page number" : 3,
+      "bounding box" : [ 53.88, 784.42, 539.4, 799.3 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 28,
+      "page number" : 3,
+      "bounding box" : [ 404.88, 773.14, 405.6, 773.86 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 29,
+      "page number" : 3,
+      "bounding box" : [ 404.88, 772.06, 405.6, 772.78 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 30,
+      "page number" : 3,
+      "bounding box" : [ 404.88, 770.98, 405.6, 771.7 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 124,
+    "page number" : 3,
+    "bounding box" : [ 74.88, 752.831, 422.145, 764.403 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "A. are; is B. is; are C. are; are D. is; is"
+  }, {
+    "type" : "list",
+    "id" : 125,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 53.88, 606.19, 541.212, 739.922 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "previous list id" : 103,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 703.99, 482.489, 739.922 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8. You can ________ download music from this app ________ listen to it online. It’s very convenient. A. either; or B. both; and C. not only; but also D. neither; nor",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 655.031, 541.212, 691.082 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9. The young singer ________ used to stutter, but now she can sing ________. A. smooth; smoothly B. smoothly; smooth C. smooth; smooth D. smoothly;",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 45,
+        "page number" : 3,
+        "bounding box" : [ 53.88, 630.55, 92.823, 642.122 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "smoothly"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 606.19, 261.669, 617.762 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10. —Is the ________ of this song “My Dream”?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 126,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 53.88, 557.231, 383.864, 593.282 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "—Yes, and its theme is about chasing dreams. A. title B. theme C. melody D. lyrics"
+  }, {
+    "type" : "heading",
+    "id" : 127,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 53.88, 512.35, 296.049, 523.922 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "五、完成句子（共 10 题，每小题 2 分，满分 20 分）"
+  }, {
+    "type" : "list",
+    "id" : 128,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 53.88, 76.39, 426.21, 503.643 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 9,
+    "next list id" : 148,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 467.59, 315.96, 503.643 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. He likes both classical music and folk music. (改为否定句) He likes ________ classical music ________ folk music.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 418.75, 290.4, 454.682 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. The melody sounds very relaxing. (改为一般疑问句) ________ the melody ________ very relaxing?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 369.79, 396.72, 405.842 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. Not only Tom but also his sister is interested in rock music. (对划线部分提问) ________ ________ interested in rock music?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 320.95, 337.32, 356.882 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4. She chose this song because of its beautiful lyrics. (改为同义句) She chose this song because ________ ________ are beautiful.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 271.99, 426.21, 308.043 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5. We will hold a charity concert to raise money for homeless people. (改为同义句) We ________ ________ to hold a charity concert to raise money for homeless people.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 223.15, 302.4, 259.082 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6. The song’s title is “Jasmine Flower”. (对划线部分提问) ________ ________ the song’s title?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 174.19, 361.439, 210.243 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7. She is confident because she has practiced singing a lot. (改为同义句) She is confident ________ ________ a lot of singing practice.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 125.35, 369.931, 161.282 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8. Both my brother and I enjoy listening to pop music. (改为同义句) Not only my brother ________ ________ I enjoy listening to pop music.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 76.39, 262.32, 112.443 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9. The chorus sings very smoothly. (改为感叹句) ________ ________ the chorus sings!",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 129,
+    "page number" : 3,
+    "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 15,
+      "page number" : 3,
+      "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+      "heading level" : 4,
+      "font" : "DengXian",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3 / 6"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 130,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 770.98, 539.4, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 31,
+      "page number" : 4,
+      "bounding box" : [ 53.88, 784.42, 539.4, 799.3 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 32,
+      "page number" : 4,
+      "bounding box" : [ 404.88, 773.14, 405.6, 773.86 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 33,
+      "page number" : 4,
+      "bounding box" : [ 404.88, 772.06, 405.6, 772.78 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 34,
+      "page number" : 4,
+      "bounding box" : [ 404.88, 770.98, 405.6, 771.7 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 148,
+    "level" : "2",
+    "page number" : 4,
+    "bounding box" : [ 53.88, 728.35, 308.474, 764.403 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 128,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 728.35, 308.474, 764.403 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10. music, we, to, relax, listen, usually, classical (连词成句) ________________________________________________.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 149,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 655.031, 347.765, 691.082 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "六、完形填空（共 5 小题，每小题 5 分，共 5 分） 根据短文内容，从 A、B、C 三个选项中选出一个正确的答案。"
+  }, {
+    "type" : "paragraph",
+    "id" : 150,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 606.19, 541.383, 642.122 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Xian Xinghai was a very famous musician in China. He wrote one of the greatest pieces of music of the 20th century. In his short life he wrote nearly 300 ___1___ and an opera."
+  }, {
+    "type" : "paragraph",
+    "id" : 151,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 483.91, 541.504, 593.282 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Xian was born in Macao, China in 1905. Because his father died before he was born, Xian moved from place to place with his mother. He began learning to play the violin when he was 20 years old. In the___ 2___ , his violin was so cheap and badly made that he could not play it well. His friends laughed at him. Xian did not stop practising and soon showed his talent. In 1934, he was one of the first Chinese students who studied in a special___ 3___ school in Paris. Before he left, Xian became the school's best student and won some prizes."
+  }, {
+    "type" : "paragraph",
+    "id" : 152,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 410.59, 541.384, 471.003 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "In 1935, he returned to China and helped fight against the Japanese army. Later, he came to Yan'an to teach music at a college. There were no pianos in Yan'an at that time, ___4___ Xian still wrote some of his most important music there, including The Yellow River, his most famous work."
+  }, {
+    "type" : "paragraph",
+    "id" : 153,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 337.15, 541.389, 397.682 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "In May 1940, Xian went abroad to write music for movies. When he was abroad, life was very ___5___ . Xian got sick and later died of a lung illness on October 30, 1945, aged only 40. Xian's music, however, lives on in the people’s hearts."
+  }, {
+    "type" : "list",
+    "id" : 154,
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 53.88, 214.99, 410.102, 324.362 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 312.79, 382.064, 324.362 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "( ) 1. A. words B. songs C. plays D. films",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 288.31, 394.933, 299.882 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "( ) 2. A. beginning B. end C. middle D. moment",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 263.831, 410.102, 275.403 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "( ) 3. A. sports B. language C. music D. engineering",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 239.35, 374.054, 250.922 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "( ) 4. A. because B. and C. so D. but",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 53.88, 214.99, 379.264, 226.562 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "( ) 5. A. happy B. hard C. comfortable D. easy",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 155,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 142.34, 431.757, 177.603 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "七、短文填空（共 10 小题，每小题 1 分，共 10 分） 阅读下面短文，在空白处填入一个适当的词，或填入括号中所给单词的正确形式。"
+  }, {
+    "type" : "paragraph",
+    "id" : 156,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 92.71, 541.425, 128.762 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Music is a universal language that connects people all over the world. There are many kinds of music, such as pop, rock, folk and classical. Each kind has its own 1________ (character). Pop music is 2________ (wide) loved"
+  }, {
+    "type" : "footer",
+    "id" : 157,
+    "page number" : 4,
+    "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 16,
+      "page number" : 4,
+      "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+      "heading level" : 4,
+      "font" : "DengXian",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4 / 6"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 158,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 770.98, 539.4, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 35,
+      "page number" : 5,
+      "bounding box" : [ 53.88, 784.42, 539.4, 799.3 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 36,
+      "page number" : 5,
+      "bounding box" : [ 404.88, 773.14, 405.6, 773.86 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 37,
+      "page number" : 5,
+      "bounding box" : [ 404.88, 772.06, 405.6, 772.78 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 38,
+      "page number" : 5,
+      "bounding box" : [ 404.88, 770.98, 405.6, 771.7 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 176,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 703.99, 541.422, 764.403 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "by young people because of its lively rhythm and simple lyrics. Rock music is full of energy and often expresses strong feelings. Folk music tells stories of ordinary people and has a close connection with daily life. Classical music, on the other hand, is 3________ (know) for its deep beauty and elegant melody."
+  }, {
+    "type" : "paragraph",
+    "id" : 177,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 606.19, 541.451, 691.082 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Many 4________ (music) devote their lives to creating music. Some are well-known, while others are 5________ (know) to most people. But no matter how famous they are, their music can touch people’s hearts. For example, 6________ eight-minute folk song may make people think of their hometown, 7________ a classical piece may bring peace to a worried mind."
+  }, {
+    "type" : "paragraph",
+    "id" : 178,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 557.231, 541.317, 593.282 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Music also plays an important role in charity. Many singers and musicians hold concerts to 8________ (raise) money for homeless people or sick children. Their music not only brings joy to people but also helps those in need."
+  }, {
+    "type" : "paragraph",
+    "id" : 179,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 483.91, 541.385, 544.322 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "In our daily life, music can help us 9________ (relax) after a long day’s work. It can also give us confidence and courage when we face difficulties. 10________ (actual), music is more than just sound—it is a kind of spirit that enriches our life."
+  }, {
+    "type" : "paragraph",
+    "id" : 180,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 411.38, 473.756, 446.522 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "八、句子还原 / 补全对话（共 5 小题，每小题 2 分，共 10 分） 根据对话内容，从下面的选项中选出能填入空白处的最佳选项。选项中有两项为多余选项。"
+  }, {
+    "type" : "list",
+    "id" : 181,
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 53.88, 361.631, 351.542, 397.682 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 386.11, 215.228, 397.682 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A: Hi, Lisa! What are you doing now?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 361.631, 351.542, 373.203 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B: I’m making a music playlist for my road trip next week. 1________",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 182,
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 53.88, 312.79, 356.85, 348.722 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 337.15, 342.422, 348.722 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A: I like pop music best. It’s lively and makes me happy. 2________",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 312.79, 356.85, 324.362 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B: I prefer folk music. I think it’s full of stories and has a simple beauty.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 183,
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 53.88, 263.831, 475.745, 299.882 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 288.31, 475.745, 299.882 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A: 3________ Folk music can really touch people’s hearts. Do you like any folk songs in particular?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 263.831, 286.262, 275.403 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B: Yes, I like “Jasmine Flower” very much. 4________",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 184,
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 53.88, 190.51, 442.291, 250.922 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 239.35, 442.291, 250.922 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A: I know that song! It’s not only popular in China but also widely known around the world.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 190.51, 266.852, 226.562 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B: Exactly. 5________ A: Sure! I’d love to. Let’s listen to it together now.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 185,
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 53.88, 92.71, 242.851, 177.603 ],
+    "numbering style" : "english letters",
+    "number of list items" : 4,
+    "next list id" : 205,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 166.031, 138.188, 177.603 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A. What about you?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 141.55, 242.851, 153.122 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B. It has beautiful lyrics and a sweet melody.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 117.19, 217.029, 128.762 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "C. Do you want to listen to it with me?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 53.88, 92.71, 204.932, 104.282 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "D. I don’t like classical music at all.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 186,
+    "page number" : 5,
+    "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 17,
+      "page number" : 5,
+      "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+      "heading level" : 4,
+      "font" : "DengXian",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5 / 6"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 187,
+    "page number" : 6,
+    "bounding box" : [ 53.88, 770.98, 539.4, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 39,
+      "page number" : 6,
+      "bounding box" : [ 53.88, 784.42, 539.4, 799.3 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 40,
+      "page number" : 6,
+      "bounding box" : [ 404.88, 773.14, 405.6, 773.86 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 41,
+      "page number" : 6,
+      "bounding box" : [ 404.88, 772.06, 405.6, 772.78 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    }, {
+      "type" : "image",
+      "id" : 42,
+      "page number" : 6,
+      "bounding box" : [ 404.88, 770.98, 405.6, 771.7 ],
+      "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 205,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 53.88, 703.99, 256.289, 764.403 ],
+    "numbering style" : "english letters",
+    "number of list items" : 3,
+    "previous list id" : 185,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 752.831, 222.428, 764.403 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "E. What kind of music do you like best?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 728.35, 135.211, 739.922 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "F. I agree with you.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 703.99, 256.289, 715.562 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "G. Classical music is too difficult to understand.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 206,
+    "page number" : 6,
+    "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 18,
+      "page number" : 6,
+      "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+      "heading level" : 4,
+      "font" : "DengXian",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6 / 6"
+    } ]
+  } ]
+}

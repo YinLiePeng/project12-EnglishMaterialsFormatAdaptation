@@ -28,9 +28,9 @@ class HeadersFootersDimension(ComparisonDimension):
         ref_sections = self._get_sections(ref_path, DocxDocument)
 
         if gen_sections is None and ref_sections is None:
-            return 1.0, {
-                "header_text_similarity": 1.0,
-                "footer_text_similarity": 1.0,
+            return 0.5, {
+                "header_text_similarity": 0.5,
+                "footer_text_similarity": 0.5,
                 "presence_match": 1.0,
                 "gen_section_count": 0,
                 "ref_section_count": 0,

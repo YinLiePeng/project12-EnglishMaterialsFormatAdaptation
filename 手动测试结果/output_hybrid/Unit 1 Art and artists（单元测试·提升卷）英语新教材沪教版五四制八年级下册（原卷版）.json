@@ -1,0 +1,2541 @@
+{
+  "file name" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）.pdf",
+  "number of pages" : 8,
+  "author" : "追梦团队：17085053077",
+  "title" : "",
+  "creation date" : "D:20260413235423+08'00'",
+  "modification date" : "D:20260413235423+08'00'",
+  "kids" : [ {
+    "type" : "image",
+    "id" : 230,
+    "page number" : 1,
+    "bounding box" : [ 53.199, 786.289, 132.13, 801.148 ],
+    "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "id" : 231,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 139.44, 716.663, 455.88, 762.226 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2025-2026 学年八年级下册英语单元测试 Unit1· 提升卷"
+  }, {
+    "type" : "paragraph",
+    "id" : 232,
+    "page number" : 1,
+    "bounding box" : [ 97.559, 668.623, 496.919, 701.656 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "学校 :___________ 班级： ___________ 姓名： ___________ 分数： ___________ （考试时间： 90 分钟 试卷满分： 100 分）"
+  }, {
+    "type" : "heading",
+    "id" : 233,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 54.12, 648.19, 87.25, 656.967 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "注意："
+  }, {
+    "type" : "paragraph",
+    "id" : 234,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 629.711, 495.844, 638.488 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "本卷试题均采用连续编号，所有答案务必按照规定在答题纸上完成，做在练习卷上不给分。"
+  }, {
+    "type" : "heading",
+    "id" : 235,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 54.12, 592.598, 167.436, 603.256 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "一、语法选择 ( 共 10 分 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 236,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 574.063, 546.369, 583.237 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "根据短文内容，从 A 、 B 、 C 三个选项中选出一个语法正确的答案，并把答题卡上对应题目的答案标号涂黑。"
+  }, {
+    "type" : "paragraph",
+    "id" : 237,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 480.463, 541.171, 559.618 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "On the streets of France, people can often see a pretty Chinese girl. She is playing the guzheng 1 , wearing traditional Chinese hanfu . Her music sounds beautiful. And her performances are very popular 2 the people there. In their eyes, she is famous as a Transcultural Music Ambassador ( 跨文化音乐使者 ) there. The 3 name is Peng Jingxuan."
+  }, {
+    "type" : "paragraph",
+    "id" : 238,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 410.263, 541.2, 466.018 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Peng was born in Huaihua, Hunan Province in 1995. She started to learn the guzheng at 4 age of seven. In 2017, Peng graduated ( 毕业 ) from Wuhan Conservatory of Music. In 2018, she went to France to continue studying music by 5 ."
+  }, {
+    "type" : "paragraph",
+    "id" : 239,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 340.063, 541.148, 395.818 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "' 6 I first came to study in France, I found street performances were very common, but few people were playing Chinese musical instruments ( 乐器 ). That's why I took my guzheng to the streets,' said Peng. Many people watched her performance. 7 popular she was!"
+  }, {
+    "type" : "paragraph",
+    "id" : 240,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 269.863, 541.172, 325.618 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Since 2018, Peng 8 many countries around Europe to play the guzheng . She expects 9 the traditional Chinese music to more foreigners. 'To get more people to know about it, understand it and love it ... is one of 10 wishes of Chinese artists,' she said."
+  }, {
+    "type" : "paragraph",
+    "id" : 241,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 246.463, 113.703, 255.637 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1 ． A ． happy"
+  }, {
+    "type" : "paragraph",
+    "id" : 244,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 223.063, 106.503, 232.237 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2 ． A ． with"
+  }, {
+    "type" : "paragraph",
+    "id" : 247,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 199.663, 102.493, 208.837 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "3 ． A ． girl"
+  }, {
+    "type" : "paragraph",
+    "id" : 250,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 176.263, 92.588, 185.437 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4 ． A ． a"
+  }, {
+    "type" : "paragraph",
+    "id" : 253,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 152.863, 101.398, 162.037 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "5 ． A ． her"
+  }, {
+    "type" : "paragraph",
+    "id" : 256,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 129.463, 112.983, 138.637 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "6 ． A ． When"
+  }, {
+    "type" : "paragraph",
+    "id" : 259,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 106.063, 110.653, 115.237 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "7 ． A ． What"
+  }, {
+    "type" : "paragraph",
+    "id" : 262,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 82.663, 110.023, 91.837 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "8 ． A ． visits"
+  }, {
+    "type" : "paragraph",
+    "id" : 242,
+    "page number" : 1,
+    "bounding box" : [ 192.72, 246.463, 241.623, 255.637 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． happily"
+  }, {
+    "type" : "paragraph",
+    "id" : 245,
+    "page number" : 1,
+    "bounding box" : [ 192.72, 223.063, 222.479, 232.237 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． for"
+  }, {
+    "type" : "paragraph",
+    "id" : 248,
+    "page number" : 1,
+    "bounding box" : [ 192.72, 199.663, 228.824, 208.837 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． girls"
+  }, {
+    "type" : "paragraph",
+    "id" : 251,
+    "page number" : 1,
+    "bounding box" : [ 192.72, 176.263, 220.145, 185.437 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． an"
+  }, {
+    "type" : "paragraph",
+    "id" : 254,
+    "page number" : 1,
+    "bounding box" : [ 192.72, 152.863, 238.798, 162.037 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． herself"
+  }, {
+    "type" : "paragraph",
+    "id" : 257,
+    "page number" : 1,
+    "bounding box" : [ 192.72, 129.463, 242.823, 138.637 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． Though"
+  }, {
+    "type" : "paragraph",
+    "id" : 260,
+    "page number" : 1,
+    "bounding box" : [ 192.72, 106.063, 240.188, 115.237 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． What a"
+  }, {
+    "type" : "paragraph",
+    "id" : 263,
+    "page number" : 1,
+    "bounding box" : [ 192.72, 82.663, 238.143, 91.837 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． visited"
+  }, {
+    "type" : "paragraph",
+    "id" : 243,
+    "page number" : 1,
+    "bounding box" : [ 331.2, 246.463, 390.102, 255.637 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． happiness"
+  }, {
+    "type" : "paragraph",
+    "id" : 246,
+    "page number" : 1,
+    "bounding box" : [ 331.2, 223.063, 372.013, 232.237 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． about"
+  }, {
+    "type" : "paragraph",
+    "id" : 249,
+    "page number" : 1,
+    "bounding box" : [ 331.2, 199.663, 370.305, 208.837 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． girl's"
+  }, {
+    "type" : "paragraph",
+    "id" : 252,
+    "page number" : 1,
+    "bounding box" : [ 331.2, 176.263, 361.509, 185.437 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． the"
+  }, {
+    "type" : "paragraph",
+    "id" : 255,
+    "page number" : 1,
+    "bounding box" : [ 331.2, 152.863, 366.224, 162.037 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． hers"
+  }, {
+    "type" : "paragraph",
+    "id" : 258,
+    "page number" : 1,
+    "bounding box" : [ 331.2, 129.463, 383.707, 138.637 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． Because"
+  }, {
+    "type" : "paragraph",
+    "id" : 261,
+    "page number" : 1,
+    "bounding box" : [ 331.2, 106.063, 369.104, 115.237 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． How"
+  }, {
+    "type" : "paragraph",
+    "id" : 264,
+    "page number" : 1,
+    "bounding box" : [ 331.2, 82.663, 393.183, 91.837 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． has visited"
+  }, {
+    "type" : "footer",
+    "id" : 398,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 49.794, 67.064, 50.549 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 402,
+      "page number" : 1,
+      "bounding box" : [ 54.12, 49.794, 67.064, 50.549 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 266,
+    "page number" : 2,
+    "bounding box" : [ 53.155, 786.296, 132.126, 801.141 ],
+    "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile2.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 267,
+    "page number" : 2,
+    "bounding box" : [ 54.12, 756.463, 110.143, 765.757 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "9 ． A ． show"
+  }, {
+    "type" : "paragraph",
+    "id" : 270,
+    "page number" : 2,
+    "bounding box" : [ 54.12, 733.063, 106.624, 742.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "10 ． A ． big"
+  }, {
+    "type" : "paragraph",
+    "id" : 268,
+    "page number" : 2,
+    "bounding box" : [ 192.72, 756.463, 243.104, 765.757 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． to show"
+  }, {
+    "type" : "paragraph",
+    "id" : 271,
+    "page number" : 2,
+    "bounding box" : [ 192.72, 733.063, 236.998, 742.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． bigger"
+  }, {
+    "type" : "paragraph",
+    "id" : 269,
+    "page number" : 2,
+    "bounding box" : [ 331.2, 756.463, 384.303, 765.757 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． showing"
+  }, {
+    "type" : "paragraph",
+    "id" : 272,
+    "page number" : 2,
+    "bounding box" : [ 331.2, 733.063, 394.453, 742.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． the biggest"
+  }, {
+    "type" : "heading",
+    "id" : 273,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 54.12, 657.998, 161.436, 668.656 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "二、选词填空 ( 共 5 分 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 274,
+    "page number" : 2,
+    "bounding box" : [ 54.12, 640.457, 368.999, 648.757 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "阅读下面短文，从方框内的选项中选出可以填入空白处的最佳选项。"
+  }, {
+    "type" : "heading",
+    "id" : 275,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 54.12, 611.623, 370.902, 620.797 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． by hand B ． sounds easy C ． ask for help D ． such as E. is famous"
+  }, {
+    "type" : "paragraph",
+    "id" : 276,
+    "page number" : 2,
+    "bounding box" : [ 54.12, 560.263, 541.318, 592.618 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Different parts of China have their own special forms of traditional art, 11 sky lanterns, paper cutting, and Chinese clay art."
+  }, {
+    "type" : "paragraph",
+    "id" : 277,
+    "page number" : 2,
+    "bounding box" : [ 54.12, 490.063, 541.148, 545.818 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "According to Chinese history, Zhuge Kongming first used sky lanterns to 12 . But today they are used at festivals and other celebrations and are seen as symbols of happiness and good wishes. They are usually made of bamboo and covered with paper."
+  }, {
+    "type" : "paragraph",
+    "id" : 278,
+    "page number" : 2,
+    "bounding box" : [ 54.12, 396.463, 543.81, 475.618 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Paper cutting 13 , but it can be quite difficult. Chinese clay art 14 for its tiny figures that look very real. The figures usually show cute children or beloved characters from Chinese folk tales or history. They are carefully shaped 15 before drying. Then they are fired at a very high heat, polished and painted. It takes several weeks to complete everything."
+  }, {
+    "type" : "heading",
+    "id" : 279,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 54.12, 323.297, 233.289, 331.597 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "三、用单词的适当形式填空（共8分）"
+  }, {
+    "type" : "list",
+    "level" : "1",
+    "page number" : 2,
+    "bounding box" : [ 54.12, 139.063, 387.691, 312.157 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 8,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 302.863, 290.131, 312.157 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "16 ． By next year, he ________ (learn) art for ten years.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 279.463, 387.691, 288.757 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "17 ． The ________ (value) of art lies not only in its beauty but also in its spirit.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 256.063, 359.971, 265.357 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "18 ． The ________ (artist) works are on display in the national museum.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 232.663, 312.45, 241.957 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "19 ． The ________ (modern) of this art style is very obvious.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 209.263, 370.407, 218.557 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "20 ． The ________ (meaning) of this artwork is deeply thought-provoking.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 185.863, 338.13, 195.157 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "21 ． The ________ (skill) of the craftsman is admired by everyone.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 162.463, 334.05, 171.757 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "22 ． The art exhibition ________ (last) for two weeks next month.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 139.063, 369.81, 148.357 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "23 ． The ________ (culture) background of the art work is worth studying.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 288,
+    "level" : "Doctitle",
+    "page number" : 2,
+    "bounding box" : [ 54.12, 87.398, 327.959, 98.056 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "四、按要求填写句子，补全对话（每题 2 分，共 10 分）"
+  }, {
+    "type" : "paragraph",
+    "id" : 289,
+    "page number" : 2,
+    "bounding box" : [ 54.12, 68.756, 310.318, 77.818 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "(Amy and Bob are talking about Zootopia 2 after school.)"
+  }, {
+    "type" : "image",
+    "id" : 290,
+    "page number" : 3,
+    "bounding box" : [ 53.22, 786.303, 131.99, 801.022 ],
+    "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile3.png"
+  }, {
+    "type" : "list",
+    "level" : "1",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 731.023, 344.851, 763.378 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 754.391, 337.318, 763.378 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "A: Hi Bob! I watched Zootopia 2 last weekend. It's really amazing!",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 731.023, 344.851, 739.978 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "B: Hi Amy! I've been wanting to watch it, but I haven't had the time.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 293,
+    "page number" : 3,
+    "bounding box" : [ 138.12, 707.623, 148.625, 716.578 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "24"
+  }, {
+    "type" : "paragraph",
+    "id" : 295,
+    "page number" : 3,
+    "bounding box" : [ 237.24, 708.497, 321.128, 716.797 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "（变特殊疑问句）"
+  }, {
+    "type" : "paragraph",
+    "id" : 294,
+    "page number" : 3,
+    "bounding box" : [ 232.68, 707.623, 237.309, 716.578 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "?"
+  }, {
+    "type" : "list",
+    "level" : "1",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 637.423, 522.904, 693.178 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 660.823, 522.904, 693.178 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "A: It's about Judy and Nick-they help a snake named Gary who was tricked by bad animals, and together they save Zootopia.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 637.423, 450.847, 646.597 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "B: That sounds interesting! 25 ? （对划线部分提问）",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "level" : "1",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 567.223, 536.944, 622.978 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 590.623, 536.944, 622.978 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "A: It's amazing because Judy and Nick had some conflicts at first, but they learned to listen to each other and work together.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 567.223, 346.927, 576.397 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "B: 26 ? （对划线部分提问）",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "level" : "1",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 520.423, 528.237, 552.778 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 543.823, 528.237, 552.778 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "A: My favorite part is when they sneak into the old factory to get evidence of the bad guys' plan. It's so thrilling!",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 520.423, 336.368, 529.597 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "B: 27 ? （变一般疑问句）",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "level" : "1",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 473.623, 454.052, 505.978 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 497.023, 454.052, 505.978 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "A: Yes, he does. Gary becomes a hero in the end-he helps fix the traffic system he messed up.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 473.623, 178.317, 482.578 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "B: That's so cool about Gary!",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 304,
+    "page number" : 3,
+    "bounding box" : [ 267.72, 473.623, 450.728, 482.797 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "28 ? （变特殊疑问句）"
+  }, {
+    "type" : "list",
+    "level" : "1",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 426.823, 453.488, 459.178 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 450.223, 352.411, 459.178 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "A: It's about two hours long-just the right length for a cartoon movie.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 426.823, 453.488, 435.997 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "B: Wow! I can't wait to watch it. 29 ? （表提出建议）",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 307,
+    "page number" : 3,
+    "bounding box" : [ 54.12, 403.423, 289.17, 412.378 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A: Sure! Let's go to the cinema this Saturday afternoon."
+  }, {
+    "type" : "heading",
+    "id" : 308,
+    "level" : "Doctitle",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 328.238, 173.436, 338.896 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "五、阅读理解 ( 共 20 分 )"
+  }, {
+    "type" : "heading",
+    "id" : 309,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 308.798, 188.076, 319.456 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A. ( 每题 2 分，共 10 分 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 310,
+    "page number" : 3,
+    "bounding box" : [ 54.12, 286.423, 541.084, 295.597 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A-F 分别是六位名人的简介。有五位想借阅名人传记书籍的同学，请为每位同学选择符合他们兴趣的名人简"
+  }, {
+    "type" : "paragraph",
+    "id" : 311,
+    "page number" : 3,
+    "bounding box" : [ 54.12, 263.897, 243.004, 272.197 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "介，以此帮助他们进一步了解相关信息。"
+  }, {
+    "type" : "paragraph",
+    "id" : 312,
+    "page number" : 3,
+    "bounding box" : [ 54.12, 188.263, 273.344, 244.018 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "30 Tom is curious about the universe. His dream is to be a physicist. He wants to understand how the world works from now on."
+  }, {
+    "type" : "paragraph",
+    "id" : 314,
+    "page number" : 3,
+    "bounding box" : [ 54.12, 118.063, 266.948, 173.818 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "31 Linda loves reading and writing. She dreams of creating her own stories and poems one day and wants to learn from the best."
+  }, {
+    "type" : "paragraph",
+    "id" : 316,
+    "page number" : 3,
+    "bounding box" : [ 75.12, 94.663, 254.224, 103.618 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "32 David believes good qualities and"
+  }, {
+    "type" : "paragraph",
+    "id" : 313,
+    "page number" : 3,
+    "bounding box" : [ 288.84, 188.263, 541.093, 244.237 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． Charlie Chaplin-A great comic actor who brought people laughter without saying a word in the film. His humor helped people go through hard times."
+  }, {
+    "type" : "paragraph",
+    "id" : 315,
+    "page number" : 3,
+    "bounding box" : [ 288.84, 118.063, 541.2, 174.037 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． Albert Einstein-One of the greatest scientists of the 20th century. His theories help us understand how the universe works."
+  }, {
+    "type" : "paragraph",
+    "id" : 317,
+    "page number" : 3,
+    "bounding box" : [ 316.8, 94.663, 541.143, 103.837 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． Confucius-An ancient Chinese teacher and"
+  }, {
+    "type" : "footer",
+    "id" : 399,
+    "page number" : 3,
+    "bounding box" : [ 54.12, 49.794, 67.064, 50.549 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 403,
+      "page number" : 3,
+      "bounding box" : [ 54.12, 49.794, 67.064, 50.549 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 319,
+    "page number" : 4,
+    "bounding box" : [ 52.989, 786.381, 131.93, 801.183 ],
+    "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile4.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 320,
+    "page number" : 4,
+    "bounding box" : [ 54.12, 728.623, 272.229, 760.978 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "moral values are very important. He is looking for a role model who taught about life and wisdom."
+  }, {
+    "type" : "paragraph",
+    "id" : 322,
+    "page number" : 4,
+    "bounding box" : [ 54.12, 658.423, 274.384, 714.178 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "33 Sarah enjoys making people laugh and is a fan of silent movies. She hopes to share her humor by expressing herself."
+  }, {
+    "type" : "paragraph",
+    "id" : 324,
+    "page number" : 4,
+    "bounding box" : [ 54.12, 588.223, 266.37, 643.978 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "34 Kevin is very interested in medicine. He wants to learn how ancient medical scientists helped sick people."
+  }, {
+    "type" : "paragraph",
+    "id" : 321,
+    "page number" : 4,
+    "bounding box" : [ 288.84, 728.623, 541.148, 760.978 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "philosopher. He spent his life teaching and sharing wise ideas about life and learning."
+  }, {
+    "type" : "paragraph",
+    "id" : 323,
+    "page number" : 4,
+    "bounding box" : [ 288.84, 658.391, 541.213, 714.397 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． Li Shizhen-A great medical scientist from ancient China. After years of medical research, he wrote Ben Cao Gang Mu to help and save people."
+  }, {
+    "type" : "paragraph",
+    "id" : 325,
+    "page number" : 4,
+    "bounding box" : [ 288.84, 588.223, 541.048, 643.978 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Jane Goodall-A famous expert on animals. She lived in the forest to study and protect chimpanzees, showing us how to respect animals and nature."
+  }, {
+    "type" : "paragraph",
+    "id" : 326,
+    "page number" : 4,
+    "bounding box" : [ 288.84, 518.023, 541.214, 573.778 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "William Shakespeare-A great playwright and poet who wrote over 30 plays and hundreds of poems. His stories teach us about human nature."
+  }, {
+    "type" : "heading",
+    "id" : 327,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 54.12, 442.358, 362.076, 453.016 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B. 根据短文内容选择最恰当的答案。 ( 每题 2 分，共 10 分 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 328,
+    "page number" : 4,
+    "bounding box" : [ 54.12, 396.463, 541.148, 428.818 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "When we think of art, we probably think of painting a picture on strong cloth or special paper, even on the walls of a city. However, in many cultures, people paint on their faces instead."
+  }, {
+    "type" : "paragraph",
+    "id" : 329,
+    "level" : "2",
+    "page number" : 4,
+    "bounding box" : [ 82.2, 374.057, 92.65, 382.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "①"
+  }, {
+    "type" : "paragraph",
+    "id" : 330,
+    "page number" : 4,
+    "bounding box" : [ 92.64, 373.063, 124.143, 382.018 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "______"
+  }, {
+    "type" : "paragraph",
+    "id" : 331,
+    "page number" : 4,
+    "bounding box" : [ 54.12, 302.863, 541.064, 358.618 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "In fact, face painting may be the very first form of art. Painted faces are in different colors and patterns. This has been part of people's traditions for thousands of years. The way that people painted their faces can tell stories and lessons from the past."
+  }, {
+    "type" : "paragraph",
+    "id" : 332,
+    "level" : "2",
+    "page number" : 4,
+    "bounding box" : [ 82.2, 280.457, 92.65, 288.757 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "②"
+  }, {
+    "type" : "paragraph",
+    "id" : 333,
+    "page number" : 4,
+    "bounding box" : [ 92.64, 279.463, 124.143, 288.418 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "______"
+  }, {
+    "type" : "paragraph",
+    "id" : 334,
+    "page number" : 4,
+    "bounding box" : [ 54.12, 209.263, 541.148, 265.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "People still paint their faces for lots of reasons. Patterns on faces connect people to a tribal ( 部落的 ) family and can show who is the most important in the family. For fighters, it is a way to make their enemies afraid. Face painting is also used in many ceremonies and special celebrations."
+  }, {
+    "type" : "paragraph",
+    "id" : 335,
+    "page number" : 4,
+    "bounding box" : [ 82.2, 185.863, 259.387, 194.818 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "How is face painting important in theater?"
+  }, {
+    "type" : "paragraph",
+    "id" : 336,
+    "page number" : 4,
+    "bounding box" : [ 54.12, 115.663, 541.145, 171.418 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Face painting was important in ancient Japanese and Chinese ceremonies. It was also used in traditional theaters to change the actors' roles. Actors in those countries still wear white, black, and red face paint today to show feelings and make the bad people look dramatic ( 戏剧性的 ) and awful."
+  }, {
+    "type" : "paragraph",
+    "id" : 337,
+    "level" : "2",
+    "page number" : 4,
+    "bounding box" : [ 82.2, 93.257, 92.65, 101.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "③"
+  }, {
+    "type" : "paragraph",
+    "id" : 338,
+    "page number" : 4,
+    "bounding box" : [ 92.64, 92.263, 124.143, 101.218 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "______"
+  }, {
+    "type" : "paragraph",
+    "id" : 339,
+    "page number" : 4,
+    "bounding box" : [ 82.2, 68.863, 541.028, 77.818 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Tribal people make face paint from the natural colors in plants and earth. Plant parts are used to make"
+  }, {
+    "type" : "image",
+    "id" : 340,
+    "page number" : 5,
+    "bounding box" : [ 53.182, 786.036, 132.081, 801.08 ],
+    "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile5.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 341,
+    "page number" : 5,
+    "bounding box" : [ 54.12, 731.023, 541.023, 763.597 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "different colorings. The ingredients are dried over a fire and then made into a powder ( 粉末 ). This is then mixed with animal fat."
+  }, {
+    "type" : "paragraph",
+    "id" : 342,
+    "page number" : 5,
+    "bounding box" : [ 54.12, 708.497, 274.563, 716.797 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "阅读以上材料，根据其内容回答其后各个小题。"
+  }, {
+    "type" : "paragraph",
+    "id" : 343,
+    "page number" : 5,
+    "bounding box" : [ 54.12, 684.223, 201.09, 693.397 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "35 ． Match the title with each part."
+  }, {
+    "type" : "paragraph",
+    "id" : 344,
+    "page number" : 5,
+    "bounding box" : [ 54.12, 660.823, 147.068, 669.778 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Is face painting art?"
+  }, {
+    "type" : "paragraph",
+    "id" : 345,
+    "page number" : 5,
+    "bounding box" : [ 54.12, 637.423, 193.028, 646.378 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Why do they paint their faces?"
+  }, {
+    "type" : "paragraph",
+    "id" : 346,
+    "page number" : 5,
+    "bounding box" : [ 54.12, 614.023, 205.748, 622.978 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Where does the paint come from?"
+  }, {
+    "type" : "paragraph",
+    "id" : 347,
+    "page number" : 5,
+    "bounding box" : [ 73.2, 590.623, 158.109, 599.797 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ．① -a, ② -b, ③ -c"
+  }, {
+    "type" : "paragraph",
+    "id" : 348,
+    "page number" : 5,
+    "bounding box" : [ 261.959, 590.623, 346.389, 599.797 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ．① -b, ② -a, ③ -c"
+  }, {
+    "type" : "paragraph",
+    "id" : 349,
+    "page number" : 5,
+    "bounding box" : [ 73.2, 567.223, 157.625, 576.397 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ．① -a, ② -c, ③ -b"
+  }, {
+    "type" : "paragraph",
+    "id" : 350,
+    "page number" : 5,
+    "bounding box" : [ 261.959, 567.223, 346.989, 576.397 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ．① -b, ② -c, ③ -a"
+  }, {
+    "type" : "paragraph",
+    "id" : 351,
+    "page number" : 5,
+    "bounding box" : [ 54.12, 543.823, 327.785, 552.997 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "36 ． How long has face painting been part of people's traditions?"
+  }, {
+    "type" : "paragraph",
+    "id" : 352,
+    "page number" : 5,
+    "bounding box" : [ 73.2, 520.423, 158.731, 529.597 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． For a few years."
+  }, {
+    "type" : "paragraph",
+    "id" : 354,
+    "page number" : 5,
+    "bounding box" : [ 73.2, 497.023, 176.85, 506.197 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． For about 100 years."
+  }, {
+    "type" : "paragraph",
+    "id" : 353,
+    "page number" : 5,
+    "bounding box" : [ 261.959, 520.423, 360.81, 529.597 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． For three centuries."
+  }, {
+    "type" : "paragraph",
+    "id" : 355,
+    "page number" : 5,
+    "bounding box" : [ 261.959, 497.023, 377.85, 506.197 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． For thousands of years."
+  }, {
+    "type" : "paragraph",
+    "id" : 356,
+    "page number" : 5,
+    "bounding box" : [ 54.12, 473.623, 296.587, 482.797 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "37 ． Why did fighters paint their faces when they fought?"
+  }, {
+    "type" : "paragraph",
+    "id" : 357,
+    "page number" : 5,
+    "bounding box" : [ 73.2, 450.223, 161.37, 459.397 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． To look friendly."
+  }, {
+    "type" : "paragraph",
+    "id" : 359,
+    "page number" : 5,
+    "bounding box" : [ 73.2, 426.823, 152.611, 435.997 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． To look proud."
+  }, {
+    "type" : "paragraph",
+    "id" : 358,
+    "page number" : 5,
+    "bounding box" : [ 261.959, 450.223, 338.491, 459.397 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． To look scary."
+  }, {
+    "type" : "paragraph",
+    "id" : 360,
+    "page number" : 5,
+    "bounding box" : [ 261.959, 426.823, 347.25, 435.997 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． To look painful."
+  }, {
+    "type" : "paragraph",
+    "id" : 361,
+    "page number" : 5,
+    "bounding box" : [ 54.12, 403.423, 243.547, 412.597 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "38 ． What can we know about face painting?"
+  }, {
+    "type" : "list",
+    "level" : "3",
+    "page number" : 5,
+    "bounding box" : [ 73.2, 309.823, 323.131, 389.197 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 73.2, 380.023, 274.892, 389.197 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "A ． Painting on the walls is the first form of art.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 73.2, 356.623, 286.29, 365.797 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "B ． Animal fat is used to make different colorings.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 73.2, 333.223, 312.811, 342.397 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "C ． Patterns on faces can show people's ages in a family.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 73.2, 309.823, 323.131, 318.997 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "D ． Face paint in colors can show actors' feelings in China.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 366,
+    "page number" : 5,
+    "bounding box" : [ 54.12, 286.423, 261.668, 295.597 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "39 ． Which of the following can be the best title?"
+  }, {
+    "type" : "paragraph",
+    "id" : 367,
+    "page number" : 5,
+    "bounding box" : [ 73.2, 263.023, 126.974, 272.197 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． Face Art"
+  }, {
+    "type" : "paragraph",
+    "id" : 369,
+    "page number" : 5,
+    "bounding box" : [ 73.2, 239.623, 151.782, 248.797 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． Wall Paintings"
+  }, {
+    "type" : "paragraph",
+    "id" : 368,
+    "page number" : 5,
+    "bounding box" : [ 261.959, 263.023, 362.023, 272.197 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． Traditional Painters"
+  }, {
+    "type" : "paragraph",
+    "id" : 370,
+    "page number" : 5,
+    "bounding box" : [ 261.959, 239.623, 360.941, 248.797 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． Tribal Celebrations"
+  }, {
+    "type" : "heading",
+    "id" : 371,
+    "level" : "Doctitle",
+    "page number" : 5,
+    "bounding box" : [ 54.12, 195.638, 167.436, 206.296 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "六、完形填空 ( 共 12 分 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 372,
+    "page number" : 5,
+    "bounding box" : [ 54.12, 177.223, 469.08, 186.397 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Choose the words or expressions and complete the passage ( 选择最恰当的单词或短语完成短文 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 373,
+    "page number" : 5,
+    "bounding box" : [ 213.959, 153.823, 381.223, 162.778 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The History and Future of Comic Strips"
+  }, {
+    "type" : "paragraph",
+    "id" : 374,
+    "page number" : 5,
+    "bounding box" : [ 54.12, 83.623, 541.182, 139.378 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Have you ever read a comic strip in a newspaper or online? You know, those funny little stories with pictures and speech bubbles? They might seem simple, but comic strips have a rich history and a bright future. Let's dive into their story and see how they have 40 over time!"
+  }, {
+    "type" : "footer",
+    "id" : 400,
+    "page number" : 5,
+    "bounding box" : [ 54.12, 49.794, 67.064, 50.549 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 404,
+      "page number" : 5,
+      "bounding box" : [ 54.12, 49.794, 67.064, 50.549 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 376,
+    "page number" : 6,
+    "bounding box" : [ 53.202, 785.974, 132.065, 801.118 ],
+    "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile6.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 377,
+    "page number" : 6,
+    "bounding box" : [ 54.12, 709.663, 541.144, 765.418 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Comic strips started over a century ago. At first, they were short, funny stories in newspapers. People loved them because they were easy to read and made them laugh. Early comic strips often had regular 41 who often got into silly situations. These strips became so popular that they helped sell more newspapers."
+  }, {
+    "type" : "paragraph",
+    "id" : 378,
+    "page number" : 6,
+    "bounding box" : [ 54.12, 639.463, 541.148, 695.218 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "As time went on, comic strips changed gradually. They weren't just funny anymore. Some told 42 stories or explored deep themes. Artists experimented with different styles, and new characters were created. Comic strips became a way to entertain people, share ideas and even express opinions on society."
+  }, {
+    "type" : "paragraph",
+    "id" : 379,
+    "page number" : 6,
+    "bounding box" : [ 54.12, 545.863, 541.214, 625.018 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "However, in recent years, the comic strip market has become weaker. Fewer people read newspapers, which used to be the main home for comic strips. Many newspapers have reduced the 43 for comics or stopped printing them at all. This has made it harder for artists to earn money from their work. Some people worry that traditional comic strips might disappear, replaced by faster, shorter forms of entertainment like videos."
+  }, {
+    "type" : "paragraph",
+    "id" : 380,
+    "page number" : 6,
+    "bounding box" : [ 54.12, 475.663, 541.093, 531.418 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "But don't worry! Comic strips are still alive! Today, they've found a new home. Many artists create digital comic strips and share them 44 . This has made comic strips easier to find than ever. People from all over the world can enjoy them with just a click."
+  }, {
+    "type" : "paragraph",
+    "id" : 381,
+    "page number" : 6,
+    "bounding box" : [ 54.12, 405.463, 541.148, 461.218 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "What about the future? Comic strips will likely keep changing. With new technology, we might see more interactive comic strips. Readers can click or swipe to create the story. Some artists use AI to bring their strips to life. The 45 are endless!"
+  }, {
+    "type" : "paragraph",
+    "id" : 382,
+    "page number" : 6,
+    "bounding box" : [ 54.12, 358.663, 541.199, 391.018 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "So, whether you're a longtime fan or new to comic strips, there's something for everyone. What's your favorite comic strip? Let me know. I'd love to hear about it!"
+  }, {
+    "type" : "table",
+    "id" : 383,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 52.611, 217.252, 433.056, 345.648 ],
+    "number of rows" : 6,
+    "number of columns" : 9,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 52.611, 324.249, 94.882, 345.648 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 168,
+          "page number" : 6,
+          "bounding box" : [ 52.611, 324.249, 94.882, 345.648 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "40 ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 94.882, 324.249, 137.154, 345.648 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 169,
+          "page number" : 6,
+          "bounding box" : [ 94.882, 324.249, 137.154, 345.648 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "A ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 137.154, 324.249, 179.426, 345.648 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 170,
+          "page number" : 6,
+          "bounding box" : [ 137.154, 324.249, 179.426, 345.648 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "developed"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 179.426, 324.249, 221.697, 345.648 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 171,
+          "page number" : 6,
+          "bounding box" : [ 179.426, 324.249, 221.697, 345.648 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "B ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 221.697, 324.249, 263.969, 345.648 ],
+        "row number" : 1,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 172,
+          "page number" : 6,
+          "bounding box" : [ 221.697, 324.249, 263.969, 345.648 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "appeared"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 263.969, 324.249, 306.241, 345.648 ],
+        "row number" : 1,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 173,
+          "page number" : 6,
+          "bounding box" : [ 263.969, 324.249, 306.241, 345.648 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "C ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 306.241, 324.249, 348.512, 345.648 ],
+        "row number" : 1,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 174,
+          "page number" : 6,
+          "bounding box" : [ 306.241, 324.249, 348.512, 345.648 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "succeeded"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 348.512, 324.249, 390.784, 345.648 ],
+        "row number" : 1,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 175,
+          "page number" : 6,
+          "bounding box" : [ 348.512, 324.249, 390.784, 345.648 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "D ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 390.784, 324.249, 433.056, 345.648 ],
+        "row number" : 1,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 176,
+          "page number" : 6,
+          "bounding box" : [ 390.784, 324.249, 433.056, 345.648 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "linked"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 52.611, 302.849, 94.882, 324.249 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 177,
+          "page number" : 6,
+          "bounding box" : [ 52.611, 302.849, 94.882, 324.249 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "41 ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 94.882, 302.849, 137.154, 324.249 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 178,
+          "page number" : 6,
+          "bounding box" : [ 94.882, 302.849, 137.154, 324.249 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "A"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 137.154, 302.849, 179.426, 324.249 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 179,
+          "page number" : 6,
+          "bounding box" : [ 137.154, 302.849, 179.426, 324.249 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "． enemies"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 179.426, 302.849, 221.697, 324.249 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 180,
+          "page number" : 6,
+          "bounding box" : [ 179.426, 302.849, 221.697, 324.249 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "B ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 221.697, 302.849, 263.969, 324.249 ],
+        "row number" : 2,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 181,
+          "page number" : 6,
+          "bounding box" : [ 221.697, 302.849, 263.969, 324.249 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "readers"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 263.969, 302.849, 306.241, 324.249 ],
+        "row number" : 2,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 182,
+          "page number" : 6,
+          "bounding box" : [ 263.969, 302.849, 306.241, 324.249 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "C ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 306.241, 302.849, 348.512, 324.249 ],
+        "row number" : 2,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 183,
+          "page number" : 6,
+          "bounding box" : [ 306.241, 302.849, 348.512, 324.249 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "characters"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 348.512, 302.849, 390.784, 324.249 ],
+        "row number" : 2,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 184,
+          "page number" : 6,
+          "bounding box" : [ 348.512, 302.849, 390.784, 324.249 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "D"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 390.784, 302.849, 433.056, 324.249 ],
+        "row number" : 2,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 185,
+          "page number" : 6,
+          "bounding box" : [ 390.784, 302.849, 433.056, 324.249 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "． directors"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 52.611, 281.45, 94.882, 302.849 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 186,
+          "page number" : 6,
+          "bounding box" : [ 52.611, 281.45, 94.882, 302.849 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "42 ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 94.882, 281.45, 137.154, 302.849 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 187,
+          "page number" : 6,
+          "bounding box" : [ 94.882, 281.45, 137.154, 302.849 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "A"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 137.154, 281.45, 179.426, 302.849 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 188,
+          "page number" : 6,
+          "bounding box" : [ 137.154, 281.45, 179.426, 302.849 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "． amusing"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 179.426, 281.45, 221.697, 302.849 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 189,
+          "page number" : 6,
+          "bounding box" : [ 179.426, 281.45, 221.697, 302.849 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "B ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 221.697, 281.45, 263.969, 302.849 ],
+        "row number" : 3,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 190,
+          "page number" : 6,
+          "bounding box" : [ 221.697, 281.45, 263.969, 302.849 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "serious"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 263.969, 281.45, 306.241, 302.849 ],
+        "row number" : 3,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 191,
+          "page number" : 6,
+          "bounding box" : [ 263.969, 281.45, 306.241, 302.849 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "C ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 306.241, 281.45, 348.512, 302.849 ],
+        "row number" : 3,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 192,
+          "page number" : 6,
+          "bounding box" : [ 306.241, 281.45, 348.512, 302.849 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "creative"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 348.512, 281.45, 390.784, 302.849 ],
+        "row number" : 3,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 193,
+          "page number" : 6,
+          "bounding box" : [ 348.512, 281.45, 390.784, 302.849 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "D"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 390.784, 281.45, 433.056, 302.849 ],
+        "row number" : 3,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 194,
+          "page number" : 6,
+          "bounding box" : [ 390.784, 281.45, 433.056, 302.849 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "． essential"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 52.611, 260.05, 94.882, 281.45 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 195,
+          "page number" : 6,
+          "bounding box" : [ 52.611, 260.05, 94.882, 281.45 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "43 ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 94.882, 260.05, 137.154, 281.45 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 196,
+          "page number" : 6,
+          "bounding box" : [ 94.882, 260.05, 137.154, 281.45 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "A ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 137.154, 260.05, 179.426, 281.45 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 197,
+          "page number" : 6,
+          "bounding box" : [ 137.154, 260.05, 179.426, 281.45 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "cost"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 179.426, 260.05, 221.697, 281.45 ],
+        "row number" : 4,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 198,
+          "page number" : 6,
+          "bounding box" : [ 179.426, 260.05, 221.697, 281.45 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "B ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 221.697, 260.05, 263.969, 281.45 ],
+        "row number" : 4,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 199,
+          "page number" : 6,
+          "bounding box" : [ 221.697, 260.05, 263.969, 281.45 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "waste"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 263.969, 260.05, 306.241, 281.45 ],
+        "row number" : 4,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 200,
+          "page number" : 6,
+          "bounding box" : [ 263.969, 260.05, 306.241, 281.45 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "C ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 306.241, 260.05, 348.512, 281.45 ],
+        "row number" : 4,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 201,
+          "page number" : 6,
+          "bounding box" : [ 306.241, 260.05, 348.512, 281.45 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "space"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 348.512, 260.05, 390.784, 281.45 ],
+        "row number" : 4,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 202,
+          "page number" : 6,
+          "bounding box" : [ 348.512, 260.05, 390.784, 281.45 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "D ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 390.784, 260.05, 433.056, 281.45 ],
+        "row number" : 4,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 203,
+          "page number" : 6,
+          "bounding box" : [ 390.784, 260.05, 433.056, 281.45 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "stress"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 52.611, 238.651, 94.882, 260.05 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 204,
+          "page number" : 6,
+          "bounding box" : [ 52.611, 238.651, 94.882, 260.05 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "44 ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 94.882, 238.651, 137.154, 260.05 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 205,
+          "page number" : 6,
+          "bounding box" : [ 94.882, 238.651, 137.154, 260.05 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "A ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 137.154, 238.651, 179.426, 260.05 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 206,
+          "page number" : 6,
+          "bounding box" : [ 137.154, 238.651, 179.426, 260.05 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "on the internet"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 179.426, 238.651, 221.697, 260.05 ],
+        "row number" : 5,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 207,
+          "page number" : 6,
+          "bounding box" : [ 179.426, 238.651, 221.697, 260.05 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "B ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 221.697, 238.651, 263.969, 260.05 ],
+        "row number" : 5,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 208,
+          "page number" : 6,
+          "bounding box" : [ 221.697, 238.651, 263.969, 260.05 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "through magazines"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 263.969, 238.651, 306.241, 260.05 ],
+        "row number" : 5,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 209,
+          "page number" : 6,
+          "bounding box" : [ 263.969, 238.651, 306.241, 260.05 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "C ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 306.241, 238.651, 348.512, 260.05 ],
+        "row number" : 5,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 210,
+          "page number" : 6,
+          "bounding box" : [ 306.241, 238.651, 348.512, 260.05 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "on TV"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 348.512, 238.651, 390.784, 260.05 ],
+        "row number" : 5,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 211,
+          "page number" : 6,
+          "bounding box" : [ 348.512, 238.651, 390.784, 260.05 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "D"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 390.784, 238.651, 433.056, 260.05 ],
+        "row number" : 5,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 212,
+          "page number" : 6,
+          "bounding box" : [ 390.784, 238.651, 433.056, 260.05 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "． by E-mail"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 52.611, 217.252, 94.882, 238.651 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 213,
+          "page number" : 6,
+          "bounding box" : [ 52.611, 217.252, 94.882, 238.651 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "45 ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 94.882, 217.252, 137.154, 238.651 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 214,
+          "page number" : 6,
+          "bounding box" : [ 94.882, 217.252, 137.154, 238.651 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "A"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 137.154, 217.252, 179.426, 238.651 ],
+        "row number" : 6,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 215,
+          "page number" : 6,
+          "bounding box" : [ 137.154, 217.252, 179.426, 238.651 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "． responsibilitiesB"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 179.426, 217.252, 221.697, 238.651 ],
+        "row number" : 6,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 216,
+          "page number" : 6,
+          "bounding box" : [ 179.426, 217.252, 221.697, 238.651 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 221.697, 217.252, 263.969, 238.651 ],
+        "row number" : 6,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 217,
+          "page number" : 6,
+          "bounding box" : [ 221.697, 217.252, 263.969, 238.651 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "celebrations"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 263.969, 217.252, 306.241, 238.651 ],
+        "row number" : 6,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 218,
+          "page number" : 6,
+          "bounding box" : [ 263.969, 217.252, 306.241, 238.651 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "C ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 306.241, 217.252, 348.512, 238.651 ],
+        "row number" : 6,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 219,
+          "page number" : 6,
+          "bounding box" : [ 306.241, 217.252, 348.512, 238.651 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "discussions"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 348.512, 217.252, 390.784, 238.651 ],
+        "row number" : 6,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 220,
+          "page number" : 6,
+          "bounding box" : [ 348.512, 217.252, 390.784, 238.651 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "D ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 390.784, 217.252, 433.056, 238.651 ],
+        "row number" : 6,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 221,
+          "page number" : 6,
+          "bounding box" : [ 390.784, 217.252, 433.056, 238.651 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "possibilities"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 384,
+    "level" : "Doctitle",
+    "page number" : 6,
+    "bounding box" : [ 54.12, 143.198, 177.996, 153.856 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "七、任务型阅读 ( 共 10 分 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 385,
+    "page number" : 6,
+    "bounding box" : [ 54.12, 125.657, 295.562, 133.957 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "请认真阅读下面的短文，并根据短文内容回答问题。"
+  }, {
+    "type" : "image",
+    "id" : 386,
+    "page number" : 7,
+    "bounding box" : [ 53.188, 786.504, 131.926, 801.097 ],
+    "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile7.png"
+  }, {
+    "type" : "image",
+    "id" : 387,
+    "page number" : 7,
+    "bounding box" : [ 54.378, 682.478, 123.293, 769.038 ],
+    "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile8.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 388,
+    "page number" : 7,
+    "bounding box" : [ 54.12, 590.623, 541.289, 669.778 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Fengxiang clay figurines are a well-known form of traditional Chinese folk art from Fengxiang County, Shaanxi Province. With a history of thousands of years-dating back to the Neolithic Age, these vivid and colorful sculptures are not only works of art but also an important symbol of Shaanxi's rich culture, deeply loved by people both at home and abroad."
+  }, {
+    "type" : "paragraph",
+    "id" : 389,
+    "page number" : 7,
+    "bounding box" : [ 54.12, 497.023, 541.145, 576.178 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "In the early days, local people used clay to make simple daily tools and objects for worship. As pottery-making skills continued to develop, the art of clay figurine-making slowly took shape. It finally reached its golden age during the Ming and Qing dynasties, becoming popular among common people and widely used in festivals, weddings and other important events to bring joy and good wishes."
+  }, {
+    "type" : "paragraph",
+    "id" : 390,
+    "page number" : 7,
+    "bounding box" : [ 54.12, 380.023, 541.29, 482.578 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Their production process is complex and needs great patience. First, artisans choose high-quality local clay. Next, they knead, pound and filter it to take out impurities ( 杂质 ). Then, they shape the clay into lively forms like tigers and historical characters by hand or simple tools. After that, the shaped clay goes through natural drying and high-temperature firing. Finally, the most important step-painting-is carried out, with bold, bright colors to create strong visual contrast."
+  }, {
+    "type" : "paragraph",
+    "id" : 391,
+    "page number" : 7,
+    "bounding box" : [ 54.12, 286.423, 541.094, 365.578 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "These clay figurines carry deep cultural meanings. For example, tiger-shaped figurines are believed to drive off evil spirits and bring good luck to families. To protect this valuable traditional art, the local government has set up training centres to teach young people the making skills, while some young artisans are trying new things through mixing traditional styles with modern designs to attract more young people."
+  }, {
+    "type" : "list",
+    "level" : "1",
+    "page number" : 7,
+    "bounding box" : [ 54.12, 75.823, 469.927, 272.197 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.12, 263.023, 253.148, 272.197 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "46 ． Where are Fengxiang clay figurines from?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.12, 216.223, 321.668, 225.397 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "47 ． When did Fengxiang clay figurines enter their golden age?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.12, 169.423, 345.906, 178.597 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "48 ． How many steps are required to make Fengxiang clay figurines?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.12, 122.623, 378.306, 131.797 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "49 ． What does the local government do to protect Fengxiang clay figurines?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.12, 75.823, 469.927, 84.997 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "50 ． How can you keep traditional arts like Fengxiang clay figurines alive? （自拟一句话回答）",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 401,
+    "page number" : 7,
+    "bounding box" : [ 54.12, 49.794, 67.064, 50.549 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 405,
+      "page number" : 7,
+      "bounding box" : [ 54.12, 49.794, 67.064, 50.549 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 1,
+    "page number" : 8,
+    "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+    "source" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）_images/imageFile1.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 4,
+    "page number" : 8,
+    "bounding box" : [ 54.12, 640.15, 536.163, 694.553 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "八、书面表达(共 25 分) 51．你们学校的英语俱乐部正在举办题为“Art Helps Me Grow”的征文活动。假如你是王林，根据以下内容 提示，写一篇短文投稿。要点如下："
+  }, {
+    "type" : "list",
+    "id" : 5,
+    "level" : "1",
+    "page number" : 8,
+    "bounding box" : [ 54.12, 546.55, 329.371, 627.412 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 615.84, 204.692, 627.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. A teenage problem you once had.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 592.44, 329.371, 604.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. An art form you tried, and how it helped you with the problem.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 546.55, 253.048, 580.612 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. What you have learned from this experience. 注意事项：",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 6,
+    "level" : "1",
+    "page number" : 8,
+    "bounding box" : [ 54.12, 428.64, 371.639, 533.812 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 522.24, 371.639, 533.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. 短文内容须根据以上要点自拟，语句通顺、意义连贯、符合题意；",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 498.84, 279.725, 510.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. 词数不少于 90，开头已给出，不计入总词数；",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 428.64, 355.29, 487.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. 短文中不得出现真实人名、校名等个人信息。 Art Helps Me Grow Hey, there! I’m Wang Lin. I’d like to share my story about art with you.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 7,
+    "page number" : 8,
+    "bounding box" : [ 54.12, 311.64, 537.151, 416.812 ],
+    "font" : "TimesNewRomanPS-ItalicMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "____________________________________________________________________________________________ ____________________________________________________________________________________________ ____________________________________________________________________________________________ ____________________________________________________________________________________________ ____________________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 2,
+    "page number" : 8,
+    "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "8 / 8"
+  } ]
+}

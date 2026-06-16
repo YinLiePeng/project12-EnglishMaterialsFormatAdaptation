@@ -1,0 +1,2919 @@
+{
+  "file name" : "Unit 1 Everyone is different 重点语法：一般将来时（will）和指示代词精讲精练（原卷版）.pdf",
+  "number of pages" : 6,
+  "author" : "追梦团队：17085053077",
+  "title" : "",
+  "creation date" : "D:20260413235420+08'00'",
+  "modification date" : "D:20260413235420+08'00'",
+  "kids" : [ {
+    "type" : "paragraph",
+    "id" : 292,
+    "page number" : 1,
+    "bounding box" : [ 56.64, 769.217, 77.649, 777.517 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "学校"
+  }, {
+    "type" : "paragraph",
+    "id" : 293,
+    "page number" : 1,
+    "bounding box" : [ 77.759, 768.285, 138.038, 777.094 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ":___________"
+  }, {
+    "type" : "paragraph",
+    "id" : 294,
+    "page number" : 1,
+    "bounding box" : [ 138.24, 769.217, 169.809, 777.517 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "姓名："
+  }, {
+    "type" : "paragraph",
+    "id" : 296,
+    "page number" : 1,
+    "bounding box" : [ 227.4, 769.217, 258.969, 777.517 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "班级："
+  }, {
+    "type" : "paragraph",
+    "id" : 298,
+    "page number" : 1,
+    "bounding box" : [ 316.44, 769.217, 348.009, 777.517 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "考号："
+  }, {
+    "type" : "paragraph",
+    "id" : 295,
+    "page number" : 1,
+    "bounding box" : [ 169.8, 768.285, 227.2, 777.094 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "___________"
+  }, {
+    "type" : "paragraph",
+    "id" : 297,
+    "page number" : 1,
+    "bounding box" : [ 258.959, 768.285, 316.359, 777.094 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "___________"
+  }, {
+    "type" : "paragraph",
+    "id" : 299,
+    "page number" : 1,
+    "bounding box" : [ 348.12, 768.285, 405.52, 777.094 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "___________"
+  }, {
+    "type" : "heading",
+    "id" : 300,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 203.159, 726.068, 392.189, 739.9 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Unit 1 Everyone is different"
+  }, {
+    "type" : "paragraph",
+    "id" : 301,
+    "page number" : 1,
+    "bounding box" : [ 127.92, 695.422, 467.278, 708.745 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "重点语法：一般将来时（ will ）和指示代词精讲精练"
+  }, {
+    "type" : "heading",
+    "id" : 302,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 287.04, 640.457, 308.049, 648.757 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "目录"
+  }, {
+    "type" : "table",
+    "id" : 303,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 56.706, 451.724, 471.942, 630.848 ],
+    "number of rows" : 8,
+    "number of columns" : 1,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 56.706, 608.458, 471.942, 630.848 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 248,
+          "page number" : 1,
+          "bounding box" : [ 56.706, 608.458, 471.942, 630.848 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "语法知识精讲 .................................................................................................................................... 1"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 56.706, 586.067, 471.942, 608.458 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 249,
+          "page number" : 1,
+          "bounding box" : [ 56.706, 586.067, 471.942, 608.458 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "一、一般将来时（ will ）知识精讲 ..........................................................................................1"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 56.706, 563.677, 471.942, 586.067 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 250,
+          "page number" : 1,
+          "bounding box" : [ 56.706, 563.677, 471.942, 586.067 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "二、指示代词知识精讲 ............................................................................................................2"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 56.706, 541.286, 471.942, 563.677 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 251,
+          "page number" : 1,
+          "bounding box" : [ 56.706, 541.286, 471.942, 563.677 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "语法知识精练 .................................................................................................................................... 2"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 56.706, 518.895, 471.942, 541.286 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 252,
+          "page number" : 1,
+          "bounding box" : [ 56.706, 518.895, 471.942, 541.286 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "题型一：一般将来时 will .........................................................................................................2"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 56.706, 496.505, 471.942, 518.895 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 253,
+          "page number" : 1,
+          "bounding box" : [ 56.706, 496.505, 471.942, 518.895 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "题型二：一般将来时 will 和 be going to 区别 .......................................................................3"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 7,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 56.706, 474.114, 471.942, 496.505 ],
+        "row number" : 7,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 254,
+          "page number" : 1,
+          "bounding box" : [ 56.706, 474.114, 471.942, 496.505 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "题型三：指示代词 this/these...................................................................................................4"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 8,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 56.706, 451.724, 471.942, 474.114 ],
+        "row number" : 8,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 255,
+          "page number" : 1,
+          "bounding box" : [ 56.706, 451.724, 471.942, 474.114 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "题型四：指示代词 that/those.................................................................................................. 5"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 304,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 255.48, 393.096, 339.849, 404.256 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "语法知识精讲"
+  }, {
+    "type" : "heading",
+    "id" : 305,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 56.64, 344.88, 261.369, 358.506 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "一、一般将来时（ will ）知识精讲"
+  }, {
+    "type" : "table",
+    "id" : 306,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 84.662, 78.369, 511.227, 332.212 ],
+    "number of rows" : 5,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 84.662, 281.444, 297.945, 332.212 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 257,
+          "page number" : 1,
+          "bounding box" : [ 84.662, 281.444, 297.945, 332.212 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "项目"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 297.945, 281.444, 511.227, 332.212 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 258,
+          "page number" : 1,
+          "bounding box" : [ 297.945, 281.444, 511.227, 332.212 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "内容"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 84.662, 230.675, 297.945, 281.444 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 259,
+          "page number" : 1,
+          "bounding box" : [ 84.662, 230.675, 297.945, 281.444 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "概念"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 297.945, 230.675, 511.227, 281.444 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 260,
+          "page number" : 1,
+          "bounding box" : [ 297.945, 230.675, 511.227, 281.444 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "表示将来发生的动作、情况或打算"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 84.662, 179.906, 297.945, 230.675 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 261,
+          "page number" : 1,
+          "bounding box" : [ 84.662, 179.906, 297.945, 230.675 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "时间标志词"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 297.945, 179.906, 511.227, 230.675 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 262,
+          "page number" : 1,
+          "bounding box" : [ 297.945, 179.906, 511.227, 230.675 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "tomorrow, next week/year, soon, in the future, in +"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 84.662, 129.137, 297.945, 179.906 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 263,
+          "page number" : 1,
+          "bounding box" : [ 84.662, 129.137, 297.945, 179.906 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "基本结构"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 297.945, 129.137, 511.227, 179.906 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 84.662, 78.369, 297.945, 129.137 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 264,
+          "page number" : 1,
+          "bounding box" : [ 84.662, 78.369, 297.945, 129.137 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "例句"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 297.945, 78.369, 511.227, 129.137 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 265,
+          "level" : "1",
+          "page number" : 1,
+          "bounding box" : [ 297.945, 78.369, 511.227, 129.137 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "2. She won't watch TV this evening."
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 542,
+    "page number" : 1,
+    "bounding box" : [ 56.64, 49.794, 69.584, 50.549 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 550,
+      "page number" : 1,
+      "bounding box" : [ 56.64, 49.794, 69.584, 50.549 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 545,
+    "page number" : 2,
+    "bounding box" : [ 130.2, 787.697, 464.996, 795.997 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 553,
+      "page number" : 2,
+      "bounding box" : [ 130.2, 787.697, 464.996, 795.997 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "2025-2026 学年一线教师制作新教材英语同步精品系列资料，名师遴选！"
+    } ]
+  }, {
+    "type" : "table",
+    "id" : 309,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 83.27, 680.561, 511.021, 784.367 ],
+    "number of rows" : 2,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 83.27, 732.464, 297.145, 784.367 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 267,
+          "page number" : 2,
+          "bounding box" : [ 83.27, 732.464, 297.145, 784.367 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "项目"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 297.145, 732.464, 511.021, 784.367 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 268,
+          "page number" : 2,
+          "bounding box" : [ 297.145, 732.464, 511.021, 784.367 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "内容"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 83.27, 680.561, 297.145, 732.464 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 269,
+          "page number" : 2,
+          "bounding box" : [ 83.27, 680.561, 297.145, 732.464 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "用法"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 297.145, 680.561, 511.021, 732.464 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 270,
+          "level" : "1",
+          "page number" : 2,
+          "bounding box" : [ 297.145, 680.561, 511.021, 732.464 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1. 表示将来要发生的动作 2. 表示临时做出的决定 3. 表示预测、猜想"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 310,
+    "level" : "Doctitle",
+    "page number" : 2,
+    "bounding box" : [ 56.64, 641.285, 217.187, 653.954 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "二、指示代词知识精讲"
+  }, {
+    "type" : "table",
+    "id" : 311,
+    "level" : "4",
+    "page number" : 2,
+    "bounding box" : [ 83.214, 385.497, 511.114, 628.546 ],
+    "number of rows" : 4,
+    "number of columns" : 5,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 83.214, 567.784, 168.794, 628.546 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 272,
+          "page number" : 2,
+          "bounding box" : [ 83.214, 567.784, 168.794, 628.546 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "分类"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 168.794, 567.784, 254.374, 628.546 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 273,
+          "page number" : 2,
+          "bounding box" : [ 168.794, 567.784, 254.374, 628.546 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "单数"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 254.374, 567.784, 339.954, 628.546 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 274,
+          "page number" : 2,
+          "bounding box" : [ 254.374, 567.784, 339.954, 628.546 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "复数"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 339.954, 567.784, 425.534, 628.546 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 275,
+          "page number" : 2,
+          "bounding box" : [ 339.954, 567.784, 425.534, 628.546 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "用法"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 425.534, 567.784, 511.114, 628.546 ],
+        "row number" : 1,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 276,
+          "page number" : 2,
+          "bounding box" : [ 425.534, 567.784, 511.114, 628.546 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "例句"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 83.214, 507.022, 168.794, 567.784 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 277,
+          "page number" : 2,
+          "bounding box" : [ 83.214, 507.022, 168.794, 567.784 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "近指"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 168.794, 507.022, 254.374, 567.784 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 278,
+          "page number" : 2,
+          "bounding box" : [ 168.794, 507.022, 254.374, 567.784 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "this （这个）"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 254.374, 507.022, 339.954, 567.784 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 279,
+          "page number" : 2,
+          "bounding box" : [ 254.374, 507.022, 339.954, 567.784 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "these （这些）"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 339.954, 507.022, 425.534, 567.784 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 280,
+          "page number" : 2,
+          "bounding box" : [ 339.954, 507.022, 425.534, 567.784 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "指代近处的 人或物"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 425.534, 507.022, 511.114, 567.784 ],
+        "row number" : 2,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 281,
+          "page number" : 2,
+          "bounding box" : [ 425.534, 507.022, 511.114, 567.784 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "This is a book.These are pens."
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 83.214, 446.259, 168.794, 507.022 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 282,
+          "page number" : 2,
+          "bounding box" : [ 83.214, 446.259, 168.794, 507.022 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "远指"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 168.794, 446.259, 254.374, 507.022 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 283,
+          "page number" : 2,
+          "bounding box" : [ 168.794, 446.259, 254.374, 507.022 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "that （那个）"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 254.374, 446.259, 339.954, 507.022 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 284,
+          "page number" : 2,
+          "bounding box" : [ 254.374, 446.259, 339.954, 507.022 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "those （那些）"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 339.954, 446.259, 425.534, 507.022 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 285,
+          "page number" : 2,
+          "bounding box" : [ 339.954, 446.259, 425.534, 507.022 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "指代远处的 人或物"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 425.534, 446.259, 511.114, 507.022 ],
+        "row number" : 3,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 286,
+          "page number" : 2,
+          "bounding box" : [ 425.534, 446.259, 511.114, 507.022 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "That is a tree.Those are birds."
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 83.214, 385.497, 168.794, 446.259 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 287,
+          "page number" : 2,
+          "bounding box" : [ 83.214, 385.497, 168.794, 446.259 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "注意点"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 168.794, 385.497, 254.374, 446.259 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 288,
+          "level" : "1",
+          "page number" : 2,
+          "bounding box" : [ 168.794, 385.497, 254.374, 446.259 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "1. 介绍某人用： This is… 2. 电话用语： This is… （我是 … ） ； Is that…? （你 是 … 吗？） 3. 回答时用 it/they 代替"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 254.374, 385.497, 339.954, 446.259 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 289,
+          "level" : "1",
+          "page number" : 2,
+          "bounding box" : [ 254.374, 385.497, 339.954, 446.259 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "--"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 339.954, 385.497, 425.534, 446.259 ],
+        "row number" : 4,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 290,
+          "level" : "1",
+          "page number" : 2,
+          "bounding box" : [ 339.954, 385.497, 425.534, 446.259 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "--"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 2,
+        "bounding box" : [ 425.534, 385.497, 511.114, 446.259 ],
+        "row number" : 4,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 291,
+          "level" : "1",
+          "page number" : 2,
+          "bounding box" : [ 425.534, 385.497, 511.114, 446.259 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "--"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 312,
+    "level" : "Doctitle",
+    "page number" : 2,
+    "bounding box" : [ 255.48, 321.696, 339.849, 332.856 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "语法知识精练"
+  }, {
+    "type" : "heading",
+    "id" : 313,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 56.64, 300.018, 175.264, 308.318 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "题型一：一般将来时will"
+  }, {
+    "type" : "paragraph",
+    "id" : 314,
+    "page number" : 2,
+    "bounding box" : [ 56.64, 279.583, 384.451, 288.878 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1 ． Michael ________ in a school in Yunnan from February to June next year."
+  }, {
+    "type" : "paragraph",
+    "id" : 315,
+    "page number" : 2,
+    "bounding box" : [ 71.64, 256.183, 120.702, 265.478 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． teaches"
+  }, {
+    "type" : "paragraph",
+    "id" : 316,
+    "page number" : 2,
+    "bounding box" : [ 160.559, 256.183, 204.253, 265.478 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． taught"
+  }, {
+    "type" : "paragraph",
+    "id" : 317,
+    "page number" : 2,
+    "bounding box" : [ 264.48, 256.183, 323.103, 265.478 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． will teach"
+  }, {
+    "type" : "paragraph",
+    "id" : 318,
+    "page number" : 2,
+    "bounding box" : [ 368.4, 256.183, 440.942, 265.478 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． was teaching"
+  }, {
+    "type" : "paragraph",
+    "id" : 319,
+    "page number" : 2,
+    "bounding box" : [ 56.64, 232.783, 356.971, 242.078 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2 ． There ________ a lecture on Henry Norman Bethune next Monday."
+  }, {
+    "type" : "paragraph",
+    "id" : 320,
+    "page number" : 2,
+    "bounding box" : [ 71.64, 209.383, 128.468, 218.678 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． will have"
+  }, {
+    "type" : "paragraph",
+    "id" : 321,
+    "page number" : 2,
+    "bounding box" : [ 264.48, 209.383, 310.868, 218.678 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． will be"
+  }, {
+    "type" : "paragraph",
+    "id" : 322,
+    "page number" : 2,
+    "bounding box" : [ 71.64, 185.983, 152.948, 195.278 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． is gong to have"
+  }, {
+    "type" : "paragraph",
+    "id" : 323,
+    "page number" : 2,
+    "bounding box" : [ 264.48, 185.983, 320.703, 195.278 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． is having"
+  }, {
+    "type" : "paragraph",
+    "id" : 324,
+    "page number" : 2,
+    "bounding box" : [ 56.64, 162.583, 442.652, 171.878 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "3 ． Our school ________ a sports meeting next month. Now we're all looking forward to it."
+  }, {
+    "type" : "paragraph",
+    "id" : 325,
+    "page number" : 2,
+    "bounding box" : [ 71.64, 139.183, 112.543, 148.478 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． holds"
+  }, {
+    "type" : "paragraph",
+    "id" : 326,
+    "page number" : 2,
+    "bounding box" : [ 160.559, 139.183, 215.704, 148.478 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． will hold"
+  }, {
+    "type" : "paragraph",
+    "id" : 327,
+    "page number" : 2,
+    "bounding box" : [ 264.48, 139.183, 300.064, 148.478 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． held"
+  }, {
+    "type" : "paragraph",
+    "id" : 329,
+    "page number" : 2,
+    "bounding box" : [ 56.64, 115.783, 255.426, 125.078 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4 ． -What will the weather be like tomorrow?"
+  }, {
+    "type" : "paragraph",
+    "id" : 328,
+    "page number" : 2,
+    "bounding box" : [ 368.4, 139.183, 428.223, 148.478 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． is holding"
+  }, {
+    "type" : "paragraph",
+    "id" : 330,
+    "level" : "5",
+    "page number" : 2,
+    "bounding box" : [ 56.64, 92.383, 317.73, 101.338 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-The radio says there ______ a strong wind in the afternoon."
+  }, {
+    "type" : "paragraph",
+    "id" : 331,
+    "page number" : 2,
+    "bounding box" : [ 71.64, 68.983, 128.468, 78.278 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． will have"
+  }, {
+    "type" : "paragraph",
+    "id" : 332,
+    "page number" : 2,
+    "bounding box" : [ 160.559, 68.983, 244.748, 78.278 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． is going to have"
+  }, {
+    "type" : "paragraph",
+    "id" : 333,
+    "page number" : 2,
+    "bounding box" : [ 264.48, 68.983, 310.868, 78.278 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． will be"
+  }, {
+    "type" : "paragraph",
+    "id" : 334,
+    "page number" : 2,
+    "bounding box" : [ 368.4, 68.983, 393.345, 78.278 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． is"
+  }, {
+    "type" : "header",
+    "id" : 546,
+    "page number" : 3,
+    "bounding box" : [ 130.2, 787.697, 464.996, 795.997 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 554,
+      "page number" : 3,
+      "bounding box" : [ 130.2, 787.697, 464.996, 795.997 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "2025-2026 学年一线教师制作新教材英语同步精品系列资料，名师遴选！"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 336,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 764.383, 299.731, 773.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "5 ． -I think there ________ more AI teachers in our life."
+  }, {
+    "type" : "paragraph",
+    "id" : 337,
+    "level" : "5",
+    "page number" : 3,
+    "bounding box" : [ 56.64, 740.983, 319.411, 750.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-I agree. The technology ( 科技 ) is changing the way we live."
+  }, {
+    "type" : "paragraph",
+    "id" : 338,
+    "page number" : 3,
+    "bounding box" : [ 71.64, 717.583, 110.107, 726.757 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． were"
+  }, {
+    "type" : "paragraph",
+    "id" : 339,
+    "page number" : 3,
+    "bounding box" : [ 160.559, 717.583, 190.869, 726.757 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． are"
+  }, {
+    "type" : "paragraph",
+    "id" : 340,
+    "page number" : 3,
+    "bounding box" : [ 264.48, 717.583, 310.868, 726.757 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． will be"
+  }, {
+    "type" : "paragraph",
+    "id" : 341,
+    "page number" : 3,
+    "bounding box" : [ 368.4, 717.583, 425.107, 726.757 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． will have"
+  }, {
+    "type" : "paragraph",
+    "id" : 342,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 694.183, 317.61, 703.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "6 ． -Why did you put the wood near the fire? It's dangerous."
+  }, {
+    "type" : "paragraph",
+    "id" : 343,
+    "level" : "5",
+    "page number" : 3,
+    "bounding box" : [ 56.64, 670.783, 240.329, 679.738 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-Don't worry. Wet wood won't ________."
+  }, {
+    "type" : "paragraph",
+    "id" : 344,
+    "page number" : 3,
+    "bounding box" : [ 71.64, 647.383, 111.972, 656.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． burnt"
+  }, {
+    "type" : "paragraph",
+    "id" : 345,
+    "page number" : 3,
+    "bounding box" : [ 160.559, 647.383, 212.772, 656.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． be burnt"
+  }, {
+    "type" : "paragraph",
+    "id" : 348,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 623.983, 224.708, 633.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "7 ． -Will you go to Shanghai by train?"
+  }, {
+    "type" : "paragraph",
+    "id" : 346,
+    "page number" : 3,
+    "bounding box" : [ 264.48, 647.383, 327.183, 656.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． be burning"
+  }, {
+    "type" : "paragraph",
+    "id" : 349,
+    "level" : "5",
+    "page number" : 3,
+    "bounding box" : [ 56.64, 600.583, 135.089, 609.538 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-No, _________."
+  }, {
+    "type" : "paragraph",
+    "id" : 350,
+    "page number" : 3,
+    "bounding box" : [ 71.64, 577.183, 112.093, 586.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． I will"
+  }, {
+    "type" : "paragraph",
+    "id" : 351,
+    "page number" : 3,
+    "bounding box" : [ 160.559, 577.183, 220.695, 586.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． you won't"
+  }, {
+    "type" : "paragraph",
+    "id" : 352,
+    "page number" : 3,
+    "bounding box" : [ 264.48, 577.183, 312.375, 586.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． I won't"
+  }, {
+    "type" : "paragraph",
+    "id" : 354,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 553.783, 292.507, 562.957 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "8 ． -Where ________ you go for the summer holiday?"
+  }, {
+    "type" : "paragraph",
+    "id" : 347,
+    "page number" : 3,
+    "bounding box" : [ 368.4, 647.383, 405.664, 656.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． burn"
+  }, {
+    "type" : "paragraph",
+    "id" : 353,
+    "page number" : 3,
+    "bounding box" : [ 368.4, 577.183, 414.495, 586.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． I don't"
+  }, {
+    "type" : "paragraph",
+    "id" : 355,
+    "level" : "5",
+    "page number" : 3,
+    "bounding box" : [ 56.64, 530.383, 159.45, 539.338 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-I ________ Shanghai."
+  }, {
+    "type" : "paragraph",
+    "id" : 356,
+    "page number" : 3,
+    "bounding box" : [ 71.64, 506.983, 118.639, 516.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． do; am"
+  }, {
+    "type" : "paragraph",
+    "id" : 357,
+    "page number" : 3,
+    "bounding box" : [ 160.559, 506.983, 209.839, 516.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． did; am"
+  }, {
+    "type" : "paragraph",
+    "id" : 358,
+    "page number" : 3,
+    "bounding box" : [ 264.48, 506.983, 353.945, 516.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． will; am going to"
+  }, {
+    "type" : "paragraph",
+    "id" : 359,
+    "page number" : 3,
+    "bounding box" : [ 368.4, 506.983, 424.572, 516.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． will; will"
+  }, {
+    "type" : "paragraph",
+    "id" : 360,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 483.583, 425.708, 492.757 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "9 ． -Do you know the community library ________ free books to children next week?"
+  }, {
+    "type" : "paragraph",
+    "id" : 361,
+    "level" : "5",
+    "page number" : 3,
+    "bounding box" : [ 56.64, 460.183, 317.971, 469.138 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-Yes! I'm going to get some storybooks for my little brother."
+  }, {
+    "type" : "paragraph",
+    "id" : 362,
+    "page number" : 3,
+    "bounding box" : [ 71.64, 436.783, 111.823, 445.957 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． gives"
+  }, {
+    "type" : "paragraph",
+    "id" : 363,
+    "page number" : 3,
+    "bounding box" : [ 160.559, 436.783, 197.828, 445.957 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． gave"
+  }, {
+    "type" : "paragraph",
+    "id" : 364,
+    "page number" : 3,
+    "bounding box" : [ 264.48, 436.783, 318.907, 445.957 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． will give"
+  }, {
+    "type" : "paragraph",
+    "id" : 366,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 413.383, 339.427, 422.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "10 ． -Linda, do you want to watch a movie with me this evening?"
+  }, {
+    "type" : "paragraph",
+    "id" : 365,
+    "page number" : 3,
+    "bounding box" : [ 368.4, 436.783, 426.304, 445.957 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． has given"
+  }, {
+    "type" : "paragraph",
+    "id" : 367,
+    "level" : "5",
+    "page number" : 3,
+    "bounding box" : [ 56.64, 389.983, 420.691, 398.938 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-Yes. But I need to finish my homework first and then I ________ you at the cinema."
+  }, {
+    "type" : "paragraph",
+    "id" : 368,
+    "page number" : 3,
+    "bounding box" : [ 75.72, 366.583, 114.133, 375.757 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． meet"
+  }, {
+    "type" : "paragraph",
+    "id" : 369,
+    "page number" : 3,
+    "bounding box" : [ 160.559, 366.583, 223.093, 375.757 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． don't meet"
+  }, {
+    "type" : "paragraph",
+    "id" : 370,
+    "page number" : 3,
+    "bounding box" : [ 264.48, 366.583, 321.253, 375.757 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． will meet"
+  }, {
+    "type" : "paragraph",
+    "id" : 371,
+    "page number" : 3,
+    "bounding box" : [ 368.4, 366.583, 433.813, 375.757 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． won't meet"
+  }, {
+    "type" : "heading",
+    "id" : 372,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 56.64, 316.818, 272.889, 325.118 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "题型二：一般将来时will和be going to 区别"
+  }, {
+    "type" : "paragraph",
+    "id" : 373,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 296.383, 458.01, 305.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "11 ． Attention, please. There ________ a football game between China and Korea this evening."
+  }, {
+    "type" : "paragraph",
+    "id" : 374,
+    "page number" : 3,
+    "bounding box" : [ 75.72, 272.983, 214.504, 282.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． is going to be B ． has been"
+  }, {
+    "type" : "paragraph",
+    "id" : 375,
+    "page number" : 3,
+    "bounding box" : [ 264.48, 272.983, 296.024, 282.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． has"
+  }, {
+    "type" : "paragraph",
+    "id" : 376,
+    "page number" : 3,
+    "bounding box" : [ 368.4, 272.983, 425.107, 282.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． will have"
+  }, {
+    "type" : "paragraph",
+    "id" : 378,
+    "page number" : 3,
+    "bounding box" : [ 67.2, 249.583, 391.17, 258.757 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "． My sister ________ her bicycle repaired this weekend because it's broken."
+  }, {
+    "type" : "paragraph",
+    "id" : 377,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 249.583, 67.145, 258.538 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "12"
+  }, {
+    "type" : "paragraph",
+    "id" : 379,
+    "page number" : 3,
+    "bounding box" : [ 75.72, 226.183, 192.104, 235.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． is going to haveB ． has"
+  }, {
+    "type" : "paragraph",
+    "id" : 380,
+    "page number" : 3,
+    "bounding box" : [ 264.48, 226.183, 297.184, 235.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． had"
+  }, {
+    "type" : "paragraph",
+    "id" : 382,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 202.783, 276.331, 211.957 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "13 ． There are many dark clouds. It ________ soon."
+  }, {
+    "type" : "paragraph",
+    "id" : 383,
+    "page number" : 3,
+    "bounding box" : [ 75.72, 179.383, 128.944, 188.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． will rain"
+  }, {
+    "type" : "paragraph",
+    "id" : 384,
+    "page number" : 3,
+    "bounding box" : [ 160.559, 179.383, 241.264, 188.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． is going to rain"
+  }, {
+    "type" : "paragraph",
+    "id" : 385,
+    "page number" : 3,
+    "bounding box" : [ 264.48, 179.383, 308.224, 188.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． rained"
+  }, {
+    "type" : "paragraph",
+    "id" : 387,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 155.983, 305.347, 165.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "14 ． -What ________ you ________ tomorrow morning?"
+  }, {
+    "type" : "paragraph",
+    "id" : 381,
+    "page number" : 3,
+    "bounding box" : [ 368.4, 226.183, 425.107, 235.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． will have"
+  }, {
+    "type" : "paragraph",
+    "id" : 386,
+    "page number" : 3,
+    "bounding box" : [ 368.4, 179.383, 406.784, 188.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． rains"
+  }, {
+    "type" : "paragraph",
+    "id" : 388,
+    "level" : "5",
+    "page number" : 3,
+    "bounding box" : [ 56.64, 132.583, 205.411, 141.538 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-I'm going to read English books."
+  }, {
+    "type" : "paragraph",
+    "id" : 389,
+    "page number" : 3,
+    "bounding box" : [ 75.72, 109.183, 126.185, 118.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． will; do"
+  }, {
+    "type" : "paragraph",
+    "id" : 390,
+    "page number" : 3,
+    "bounding box" : [ 160.559, 109.183, 244.264, 118.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． are; going to do"
+  }, {
+    "type" : "paragraph",
+    "id" : 391,
+    "page number" : 3,
+    "bounding box" : [ 264.48, 109.183, 308.464, 118.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． do; do"
+  }, {
+    "type" : "paragraph",
+    "id" : 393,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 85.783, 303.089, 94.957 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "15 ． There ________ a football match on TV this evening."
+  }, {
+    "type" : "paragraph",
+    "id" : 392,
+    "page number" : 3,
+    "bounding box" : [ 368.4, 109.183, 415.864, 118.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． did; do"
+  }, {
+    "type" : "footer",
+    "id" : 543,
+    "page number" : 3,
+    "bounding box" : [ 56.64, 49.794, 69.584, 50.549 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 551,
+      "page number" : 3,
+      "bounding box" : [ 56.64, 49.794, 69.584, 50.549 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 547,
+    "page number" : 4,
+    "bounding box" : [ 130.2, 787.697, 464.996, 795.997 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 555,
+      "page number" : 4,
+      "bounding box" : [ 130.2, 787.697, 464.996, 795.997 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "2025-2026 学年一线教师制作新教材英语同步精品系列资料，名师遴选！"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 396,
+    "page number" : 4,
+    "bounding box" : [ 75.72, 766.543, 194.384, 775.717 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． is going to be B ． was"
+  }, {
+    "type" : "paragraph",
+    "id" : 397,
+    "page number" : 4,
+    "bounding box" : [ 264.48, 766.543, 320.707, 775.717 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． will have"
+  }, {
+    "type" : "paragraph",
+    "id" : 398,
+    "page number" : 4,
+    "bounding box" : [ 368.4, 766.543, 449.109, 775.717 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． are going to be"
+  }, {
+    "type" : "paragraph",
+    "id" : 399,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 743.143, 211.869, 752.317 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "16 ． -What is the man going to do?"
+  }, {
+    "type" : "paragraph",
+    "id" : 400,
+    "level" : "5",
+    "page number" : 4,
+    "bounding box" : [ 56.64, 719.743, 195.93, 728.698 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-He ________ a new computer."
+  }, {
+    "type" : "paragraph",
+    "id" : 401,
+    "page number" : 4,
+    "bounding box" : [ 75.72, 696.343, 113.504, 705.517 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． buys"
+  }, {
+    "type" : "paragraph",
+    "id" : 402,
+    "page number" : 4,
+    "bounding box" : [ 160.559, 696.343, 216.783, 705.517 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． is buying"
+  }, {
+    "type" : "paragraph",
+    "id" : 403,
+    "page number" : 4,
+    "bounding box" : [ 264.48, 696.343, 344.704, 705.517 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． is going to buy"
+  }, {
+    "type" : "paragraph",
+    "id" : 405,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 672.943, 336.787, 682.117 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "17 ． -________ you ________ to the cinema tomorrow evening?"
+  }, {
+    "type" : "paragraph",
+    "id" : 406,
+    "level" : "5",
+    "page number" : 4,
+    "bounding box" : [ 56.64, 649.543, 109.172, 658.498 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-Yes, I am."
+  }, {
+    "type" : "paragraph",
+    "id" : 407,
+    "page number" : 4,
+    "bounding box" : [ 75.72, 626.143, 127.984, 635.317 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． Will; go"
+  }, {
+    "type" : "paragraph",
+    "id" : 408,
+    "page number" : 4,
+    "bounding box" : [ 160.559, 626.143, 223.144, 635.317 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． Are; going"
+  }, {
+    "type" : "paragraph",
+    "id" : 411,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 602.743, 202.53, 611.917 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "18 ． It ________ sunny tomorrow."
+  }, {
+    "type" : "paragraph",
+    "id" : 412,
+    "page number" : 4,
+    "bounding box" : [ 75.72, 579.344, 100.665, 588.518 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． is"
+  }, {
+    "type" : "paragraph",
+    "id" : 413,
+    "page number" : 4,
+    "bounding box" : [ 160.559, 579.344, 187.989, 588.518 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． be"
+  }, {
+    "type" : "paragraph",
+    "id" : 409,
+    "page number" : 4,
+    "bounding box" : [ 264.48, 626.143, 310.743, 635.317 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． Do; go"
+  }, {
+    "type" : "paragraph",
+    "id" : 414,
+    "page number" : 4,
+    "bounding box" : [ 264.48, 579.344, 310.868, 588.518 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． will be"
+  }, {
+    "type" : "paragraph",
+    "id" : 416,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 555.943, 296.587, 565.117 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "19 ． -What are you going to do in the summer holiday?"
+  }, {
+    "type" : "paragraph",
+    "id" : 417,
+    "level" : "5",
+    "page number" : 4,
+    "bounding box" : [ 56.64, 532.543, 229.53, 541.498 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-I ________ a volunteer in the hospital."
+  }, {
+    "type" : "paragraph",
+    "id" : 418,
+    "page number" : 4,
+    "bounding box" : [ 75.72, 509.143, 110.024, 518.317 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． was"
+  }, {
+    "type" : "paragraph",
+    "id" : 419,
+    "page number" : 4,
+    "bounding box" : [ 160.559, 509.143, 190.879, 518.317 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． am"
+  }, {
+    "type" : "paragraph",
+    "id" : 422,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 485.744, 209.947, 494.918 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "20 ． -What will you do tomorrow?"
+  }, {
+    "type" : "paragraph",
+    "id" : 420,
+    "page number" : 4,
+    "bounding box" : [ 264.48, 509.143, 310.868, 518.317 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． will be"
+  }, {
+    "type" : "paragraph",
+    "id" : 404,
+    "page number" : 4,
+    "bounding box" : [ 368.4, 696.343, 415.453, 705.517 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． bought"
+  }, {
+    "type" : "paragraph",
+    "id" : 410,
+    "page number" : 4,
+    "bounding box" : [ 368.4, 626.143, 418.143, 635.317 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． Did; go"
+  }, {
+    "type" : "paragraph",
+    "id" : 415,
+    "page number" : 4,
+    "bounding box" : [ 368.4, 579.344, 399.189, 588.518 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． are"
+  }, {
+    "type" : "paragraph",
+    "id" : 421,
+    "page number" : 4,
+    "bounding box" : [ 368.4, 509.143, 406.748, 518.317 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． were"
+  }, {
+    "type" : "paragraph",
+    "id" : 423,
+    "level" : "5",
+    "page number" : 4,
+    "bounding box" : [ 56.64, 462.344, 301.65, 471.299 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-I ________ the museum to learn about the local history."
+  }, {
+    "type" : "paragraph",
+    "id" : 424,
+    "page number" : 4,
+    "bounding box" : [ 75.72, 438.944, 111.733, 448.118 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． visit"
+  }, {
+    "type" : "paragraph",
+    "id" : 425,
+    "page number" : 4,
+    "bounding box" : [ 160.559, 438.944, 205.983, 448.118 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． visited"
+  }, {
+    "type" : "paragraph",
+    "id" : 426,
+    "page number" : 4,
+    "bounding box" : [ 264.48, 438.944, 318.972, 448.118 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． will visit"
+  }, {
+    "type" : "paragraph",
+    "id" : 427,
+    "page number" : 4,
+    "bounding box" : [ 368.4, 438.944, 433.383, 448.118 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． are visiting"
+  }, {
+    "type" : "heading",
+    "id" : 428,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 56.64, 389.178, 196.503, 397.478 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "题型三：指示代词this/these"
+  }, {
+    "type" : "paragraph",
+    "id" : 429,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 345.344, 491.49, 377.918 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "21 ． Peter: Mum and Dad, ________ is my new classmate, Yaming. Yaming, ________ are my parents. Peter's parents: Nice to meet you."
+  }, {
+    "type" : "paragraph",
+    "id" : 430,
+    "page number" : 4,
+    "bounding box" : [ 75.72, 321.944, 133.144, 331.118 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． that; they"
+  }, {
+    "type" : "paragraph",
+    "id" : 431,
+    "page number" : 4,
+    "bounding box" : [ 160.559, 321.944, 220.388, 331.118 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． this; these"
+  }, {
+    "type" : "paragraph",
+    "id" : 432,
+    "page number" : 4,
+    "bounding box" : [ 264.48, 321.944, 315.544, 331.118 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． he; they"
+  }, {
+    "type" : "paragraph",
+    "id" : 433,
+    "page number" : 4,
+    "bounding box" : [ 368.4, 321.944, 424.028, 331.118 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． he; those"
+  }, {
+    "type" : "paragraph",
+    "id" : 434,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 298.543, 342.091, 307.717 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "22 ． -Tom, ________ are my parents and ________ is my brother."
+  }, {
+    "type" : "paragraph",
+    "id" : 435,
+    "level" : "6",
+    "page number" : 4,
+    "bounding box" : [ 61.92, 275.144, 189.572, 284.099 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-Hello! Nice to meet you all."
+  }, {
+    "type" : "paragraph",
+    "id" : 436,
+    "page number" : 4,
+    "bounding box" : [ 75.72, 251.744, 136.628, 260.918 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． this; those"
+  }, {
+    "type" : "paragraph",
+    "id" : 437,
+    "page number" : 4,
+    "bounding box" : [ 160.559, 251.744, 227.348, 260.918 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． these; those"
+  }, {
+    "type" : "paragraph",
+    "id" : 438,
+    "page number" : 4,
+    "bounding box" : [ 264.48, 251.744, 324.224, 260.918 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． these; this"
+  }, {
+    "type" : "paragraph",
+    "id" : 440,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 228.344, 321.187, 237.518 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "23 ． Look over there! Where are ________ men coming from?"
+  }, {
+    "type" : "paragraph",
+    "id" : 441,
+    "page number" : 4,
+    "bounding box" : [ 75.72, 204.944, 109.454, 214.118 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． that"
+  }, {
+    "type" : "paragraph",
+    "id" : 442,
+    "page number" : 4,
+    "bounding box" : [ 160.559, 204.944, 200.228, 214.118 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． those"
+  }, {
+    "type" : "paragraph",
+    "id" : 443,
+    "page number" : 4,
+    "bounding box" : [ 264.48, 204.944, 297.104, 214.118 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． this"
+  }, {
+    "type" : "paragraph",
+    "id" : 439,
+    "page number" : 4,
+    "bounding box" : [ 368.4, 251.744, 435.668, 260.918 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． those; these"
+  }, {
+    "type" : "paragraph",
+    "id" : 444,
+    "page number" : 4,
+    "bounding box" : [ 368.4, 204.944, 407.948, 214.118 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． these"
+  }, {
+    "type" : "paragraph",
+    "id" : 445,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 181.543, 305.49, 190.717 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "24 ． ________ is his brother and ________ are his parents."
+  }, {
+    "type" : "paragraph",
+    "id" : 446,
+    "page number" : 4,
+    "bounding box" : [ 75.72, 158.144, 139.868, 167.318 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． This, those"
+  }, {
+    "type" : "paragraph",
+    "id" : 447,
+    "page number" : 4,
+    "bounding box" : [ 160.559, 158.144, 217.663, 167.318 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． That, this"
+  }, {
+    "type" : "paragraph",
+    "id" : 448,
+    "page number" : 4,
+    "bounding box" : [ 264.48, 158.144, 327.974, 167.318 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． These, that"
+  }, {
+    "type" : "paragraph",
+    "id" : 450,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 134.744, 191.948, 143.918 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "25 ． -What's this on the table?"
+  }, {
+    "type" : "paragraph",
+    "id" : 451,
+    "level" : "5",
+    "page number" : 4,
+    "bounding box" : [ 56.64, 111.344, 171.572, 120.518 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-________ a quilt ( 被子 )."
+  }, {
+    "type" : "paragraph",
+    "id" : 449,
+    "page number" : 4,
+    "bounding box" : [ 368.4, 158.144, 438.907, 167.318 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． Those, these"
+  }, {
+    "type" : "paragraph",
+    "id" : 452,
+    "page number" : 4,
+    "bounding box" : [ 75.72, 87.944, 119.985, 97.118 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． That's"
+  }, {
+    "type" : "paragraph",
+    "id" : 453,
+    "page number" : 4,
+    "bounding box" : [ 160.559, 87.944, 206.265, 97.118 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． This is"
+  }, {
+    "type" : "paragraph",
+    "id" : 454,
+    "page number" : 4,
+    "bounding box" : [ 264.48, 87.944, 288.374, 97.118 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． It"
+  }, {
+    "type" : "paragraph",
+    "id" : 455,
+    "page number" : 4,
+    "bounding box" : [ 368.4, 87.944, 399.824, 97.118 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． It's"
+  }, {
+    "type" : "paragraph",
+    "id" : 456,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 64.544, 77.65, 73.718 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "26 ．"
+  }, {
+    "type" : "paragraph",
+    "id" : 457,
+    "level" : "6",
+    "page number" : 4,
+    "bounding box" : [ 77.64, 64.544, 451.649, 73.499 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-Come to meet my family. ________ is my brother and ________ are my grandparents."
+  }, {
+    "type" : "header",
+    "id" : 548,
+    "page number" : 5,
+    "bounding box" : [ 130.2, 787.697, 464.996, 795.997 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 556,
+      "page number" : 5,
+      "bounding box" : [ 130.2, 787.697, 464.996, 795.997 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "2025-2026 学年一线教师制作新教材英语同步精品系列资料，名师遴选！"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 459,
+    "level" : "5",
+    "page number" : 5,
+    "bounding box" : [ 56.64, 764.383, 211.171, 773.338 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-Hi. Nice to meet you all. I'm Bob."
+  }, {
+    "type" : "paragraph",
+    "id" : 460,
+    "page number" : 5,
+    "bounding box" : [ 75.72, 740.983, 133.063, 750.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． This; this"
+  }, {
+    "type" : "paragraph",
+    "id" : 461,
+    "page number" : 5,
+    "bounding box" : [ 160.559, 740.983, 223.868, 750.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． This; these"
+  }, {
+    "type" : "paragraph",
+    "id" : 462,
+    "page number" : 5,
+    "bounding box" : [ 264.48, 740.983, 322.454, 750.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． That; that"
+  }, {
+    "type" : "paragraph",
+    "id" : 463,
+    "page number" : 5,
+    "bounding box" : [ 368.4, 740.983, 433.388, 750.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． That; those"
+  }, {
+    "type" : "paragraph",
+    "id" : 464,
+    "page number" : 5,
+    "bounding box" : [ 56.64, 717.583, 447.931, 726.757 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "27 ． ________ boys and girls study in the same classroom. They are ________ to each other."
+  }, {
+    "type" : "paragraph",
+    "id" : 465,
+    "page number" : 5,
+    "bounding box" : [ 75.72, 694.183, 236.023, 703.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． These; family B ． This; families"
+  }, {
+    "type" : "paragraph",
+    "id" : 468,
+    "page number" : 5,
+    "bounding box" : [ 56.64, 670.783, 185.826, 679.957 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "28 ． -What's this in English?"
+  }, {
+    "type" : "paragraph",
+    "id" : 466,
+    "page number" : 5,
+    "bounding box" : [ 264.48, 694.183, 346.903, 703.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． Those; families"
+  }, {
+    "type" : "paragraph",
+    "id" : 467,
+    "page number" : 5,
+    "bounding box" : [ 368.4, 694.183, 438.543, 703.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． That; family"
+  }, {
+    "type" : "paragraph",
+    "id" : 469,
+    "level" : "5",
+    "page number" : 5,
+    "bounding box" : [ 56.64, 647.383, 139.771, 656.338 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-________ a map."
+  }, {
+    "type" : "paragraph",
+    "id" : 470,
+    "page number" : 5,
+    "bounding box" : [ 75.72, 623.983, 122.025, 633.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． This is"
+  }, {
+    "type" : "paragraph",
+    "id" : 471,
+    "page number" : 5,
+    "bounding box" : [ 160.559, 623.983, 191.505, 633.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． It's"
+  }, {
+    "type" : "paragraph",
+    "id" : 472,
+    "page number" : 5,
+    "bounding box" : [ 264.48, 623.983, 297.079, 633.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． I'm"
+  }, {
+    "type" : "paragraph",
+    "id" : 473,
+    "page number" : 5,
+    "bounding box" : [ 368.4, 623.983, 412.665, 633.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． That's"
+  }, {
+    "type" : "paragraph",
+    "id" : 474,
+    "page number" : 5,
+    "bounding box" : [ 56.64, 600.583, 485.491, 609.757 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "29 ． Peter, welcome to my house. ______ is my grandpa, and _______ are our cute rabbits over there."
+  }, {
+    "type" : "paragraph",
+    "id" : 475,
+    "page number" : 5,
+    "bounding box" : [ 75.72, 577.183, 140.107, 586.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． That; these"
+  }, {
+    "type" : "paragraph",
+    "id" : 476,
+    "page number" : 5,
+    "bounding box" : [ 160.559, 577.183, 224.414, 586.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． These; that"
+  }, {
+    "type" : "paragraph",
+    "id" : 477,
+    "page number" : 5,
+    "bounding box" : [ 264.48, 577.183, 328.304, 586.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． Those; this"
+  }, {
+    "type" : "paragraph",
+    "id" : 478,
+    "page number" : 5,
+    "bounding box" : [ 368.4, 577.183, 432.788, 586.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． This; those"
+  }, {
+    "type" : "paragraph",
+    "id" : 479,
+    "page number" : 5,
+    "bounding box" : [ 56.64, 553.783, 366.45, 562.957 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "30 ． The scissors are broken. I'd like to buy a new ______ this afternoon."
+  }, {
+    "type" : "paragraph",
+    "id" : 480,
+    "page number" : 5,
+    "bounding box" : [ 75.72, 530.383, 99.494, 539.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． it"
+  }, {
+    "type" : "paragraph",
+    "id" : 481,
+    "page number" : 5,
+    "bounding box" : [ 160.559, 530.383, 193.269, 539.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． one"
+  }, {
+    "type" : "paragraph",
+    "id" : 482,
+    "page number" : 5,
+    "bounding box" : [ 264.48, 530.383, 297.104, 539.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． this"
+  }, {
+    "type" : "paragraph",
+    "id" : 483,
+    "page number" : 5,
+    "bounding box" : [ 368.4, 530.383, 402.719, 539.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． pair"
+  }, {
+    "type" : "heading",
+    "id" : 484,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 56.64, 480.618, 196.503, 488.918 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "题型四：指示代词that/those"
+  }, {
+    "type" : "paragraph",
+    "id" : 485,
+    "page number" : 5,
+    "bounding box" : [ 56.64, 460.183, 220.508, 469.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "31 ． -What are ________ over there?"
+  }, {
+    "type" : "paragraph",
+    "id" : 486,
+    "level" : "5",
+    "page number" : 5,
+    "bounding box" : [ 56.64, 436.783, 169.17, 445.738 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-They are her computers."
+  }, {
+    "type" : "paragraph",
+    "id" : 487,
+    "page number" : 5,
+    "bounding box" : [ 75.72, 413.383, 115.268, 422.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． these"
+  }, {
+    "type" : "paragraph",
+    "id" : 488,
+    "page number" : 5,
+    "bounding box" : [ 160.559, 413.383, 200.228, 422.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． those"
+  }, {
+    "type" : "paragraph",
+    "id" : 489,
+    "page number" : 5,
+    "bounding box" : [ 264.48, 413.383, 297.104, 422.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． this"
+  }, {
+    "type" : "paragraph",
+    "id" : 491,
+    "page number" : 5,
+    "bounding box" : [ 56.64, 389.983, 312.09, 399.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "32 ． ________ is my brother. And ________ are my parents."
+  }, {
+    "type" : "paragraph",
+    "id" : 492,
+    "page number" : 5,
+    "bounding box" : [ 75.72, 366.583, 139.424, 375.757 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． These; this"
+  }, {
+    "type" : "paragraph",
+    "id" : 493,
+    "page number" : 5,
+    "bounding box" : [ 160.559, 366.583, 218.054, 375.757 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． This; that"
+  }, {
+    "type" : "paragraph",
+    "id" : 494,
+    "page number" : 5,
+    "bounding box" : [ 264.48, 366.583, 328.868, 375.757 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． That; those"
+  }, {
+    "type" : "paragraph",
+    "id" : 496,
+    "page number" : 5,
+    "bounding box" : [ 56.64, 343.183, 260.228, 352.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "33 ． -Bob, can you see the animals over there?"
+  }, {
+    "type" : "paragraph",
+    "id" : 497,
+    "level" : "5",
+    "page number" : 5,
+    "bounding box" : [ 56.64, 319.783, 161.491, 328.738 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-Yes, ______ are cows."
+  }, {
+    "type" : "paragraph",
+    "id" : 498,
+    "page number" : 5,
+    "bounding box" : [ 75.72, 296.383, 108.824, 305.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． this"
+  }, {
+    "type" : "paragraph",
+    "id" : 499,
+    "page number" : 5,
+    "bounding box" : [ 160.559, 296.383, 199.628, 305.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． these"
+  }, {
+    "type" : "paragraph",
+    "id" : 502,
+    "page number" : 5,
+    "bounding box" : [ 56.64, 272.983, 177.908, 282.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "34 ． -Eric, are ____ yours?"
+  }, {
+    "type" : "paragraph",
+    "id" : 500,
+    "page number" : 5,
+    "bounding box" : [ 264.48, 296.383, 297.734, 305.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． that"
+  }, {
+    "type" : "paragraph",
+    "id" : 490,
+    "page number" : 5,
+    "bounding box" : [ 368.4, 413.383, 402.134, 422.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． that"
+  }, {
+    "type" : "paragraph",
+    "id" : 495,
+    "page number" : 5,
+    "bounding box" : [ 368.4, 366.583, 439.148, 375.757 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． Those; these"
+  }, {
+    "type" : "paragraph",
+    "id" : 501,
+    "page number" : 5,
+    "bounding box" : [ 368.4, 296.383, 408.548, 305.557 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． those"
+  }, {
+    "type" : "paragraph",
+    "id" : 503,
+    "level" : "5",
+    "page number" : 5,
+    "bounding box" : [ 56.64, 249.583, 201.811, 258.538 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-No. They are my sister's _____."
+  }, {
+    "type" : "paragraph",
+    "id" : 504,
+    "page number" : 5,
+    "bounding box" : [ 75.72, 226.183, 138.904, 235.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． that; photo"
+  }, {
+    "type" : "paragraph",
+    "id" : 505,
+    "page number" : 5,
+    "bounding box" : [ 160.559, 226.183, 227.384, 235.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． that; photos"
+  }, {
+    "type" : "paragraph",
+    "id" : 506,
+    "page number" : 5,
+    "bounding box" : [ 264.48, 226.183, 333.664, 235.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． those; photo"
+  }, {
+    "type" : "paragraph",
+    "id" : 508,
+    "page number" : 5,
+    "bounding box" : [ 56.64, 202.783, 257.228, 211.957 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "35 ． -What's ________ over there on the hill?"
+  }, {
+    "type" : "paragraph",
+    "id" : 507,
+    "page number" : 5,
+    "bounding box" : [ 368.4, 226.183, 442.184, 235.357 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． those; photos"
+  }, {
+    "type" : "paragraph",
+    "id" : 509,
+    "level" : "5",
+    "page number" : 5,
+    "bounding box" : [ 56.64, 179.383, 209.37, 188.338 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-Oh, ________ are some chickens."
+  }, {
+    "type" : "paragraph",
+    "id" : 510,
+    "page number" : 5,
+    "bounding box" : [ 75.72, 155.983, 136.028, 165.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． this; these"
+  }, {
+    "type" : "paragraph",
+    "id" : 511,
+    "page number" : 5,
+    "bounding box" : [ 160.559, 155.983, 221.468, 165.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． that; those"
+  }, {
+    "type" : "paragraph",
+    "id" : 512,
+    "page number" : 5,
+    "bounding box" : [ 264.48, 155.983, 324.854, 165.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． these; that"
+  }, {
+    "type" : "paragraph",
+    "id" : 513,
+    "page number" : 5,
+    "bounding box" : [ 368.4, 155.983, 429.224, 165.157 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． those; this"
+  }, {
+    "type" : "paragraph",
+    "id" : 514,
+    "page number" : 5,
+    "bounding box" : [ 56.64, 132.583, 295.987, 141.757 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "36 ． Which of the underlined pronouns ( 代词 ) is wrong?"
+  }, {
+    "type" : "list",
+    "level" : "6",
+    "page number" : 5,
+    "bounding box" : [ 75.72, 85.783, 440.01, 118.357 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 75.72, 109.183, 433.771, 118.357 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "A ． -I need something to cut the beef. -Oh, you want a knife. I'll buy that for you.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 75.72, 85.783, 440.01, 94.957 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "B ． The number of the women teachers in our school is larger than that in their school.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 544,
+    "page number" : 5,
+    "bounding box" : [ 56.64, 49.794, 69.584, 50.549 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 552,
+      "page number" : 5,
+      "bounding box" : [ 56.64, 49.794, 69.584, 50.549 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 549,
+    "page number" : 6,
+    "bounding box" : [ 130.2, 787.697, 464.996, 795.997 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 557,
+      "page number" : 6,
+      "bounding box" : [ 130.2, 787.697, 464.996, 795.997 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "2025-2026 学年一线教师制作新教材英语同步精品系列资料，名师遴选！"
+    } ]
+  }, {
+    "type" : "list",
+    "level" : "6",
+    "page number" : 6,
+    "bounding box" : [ 75.72, 743.143, 511.17, 775.717 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 75.72, 766.543, 464.131, 775.717 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "C ． -How smoothly your pen writes! -Well, you can find one in the shop near our school.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 75.72, 743.143, 511.17, 752.317 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "D ． The house prices in Changzhou are much lower than those in one of the first-tier cities like Beijing.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 521,
+    "page number" : 6,
+    "bounding box" : [ 56.64, 719.743, 286.41, 728.917 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "37 ． ________ is a potato and ________ are tomatoes."
+  }, {
+    "type" : "paragraph",
+    "id" : 522,
+    "page number" : 6,
+    "bounding box" : [ 75.72, 696.343, 140.107, 705.517 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． This; those"
+  }, {
+    "type" : "paragraph",
+    "id" : 523,
+    "page number" : 6,
+    "bounding box" : [ 160.559, 696.343, 230.828, 705.517 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． These; those"
+  }, {
+    "type" : "paragraph",
+    "id" : 524,
+    "page number" : 6,
+    "bounding box" : [ 264.48, 696.343, 321.824, 705.517 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． That; this"
+  }, {
+    "type" : "paragraph",
+    "id" : 525,
+    "page number" : 6,
+    "bounding box" : [ 368.4, 696.343, 432.734, 705.517 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． These; that"
+  }, {
+    "type" : "paragraph",
+    "id" : 526,
+    "page number" : 6,
+    "bounding box" : [ 56.64, 672.943, 342.811, 682.117 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "38 ． Hello, Amy! is my cousin Sally and are her mom and dad."
+  }, {
+    "type" : "paragraph",
+    "id" : 527,
+    "page number" : 6,
+    "bounding box" : [ 75.72, 649.543, 133.454, 658.717 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． This, that"
+  }, {
+    "type" : "paragraph",
+    "id" : 528,
+    "page number" : 6,
+    "bounding box" : [ 160.559, 649.543, 224.174, 658.717 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． These, that"
+  }, {
+    "type" : "paragraph",
+    "id" : 529,
+    "page number" : 6,
+    "bounding box" : [ 264.48, 649.543, 328.028, 658.717 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． This, those"
+  }, {
+    "type" : "paragraph",
+    "id" : 530,
+    "page number" : 6,
+    "bounding box" : [ 368.4, 649.543, 438.907, 658.717 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． These, those"
+  }, {
+    "type" : "paragraph",
+    "id" : 531,
+    "page number" : 6,
+    "bounding box" : [ 56.64, 626.143, 364.05, 635.317 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "39 ． ________ is my aunt and ________ boys over there are my cousins."
+  }, {
+    "type" : "paragraph",
+    "id" : 532,
+    "page number" : 6,
+    "bounding box" : [ 75.72, 602.743, 139.507, 611.917 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． This; these"
+  }, {
+    "type" : "paragraph",
+    "id" : 533,
+    "page number" : 6,
+    "bounding box" : [ 160.559, 602.743, 224.468, 611.917 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． This; those"
+  }, {
+    "type" : "paragraph",
+    "id" : 536,
+    "page number" : 6,
+    "bounding box" : [ 56.64, 579.344, 234.668, 588.518 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "40 ． -What's ________ over there, Lily?"
+  }, {
+    "type" : "paragraph",
+    "id" : 534,
+    "page number" : 6,
+    "bounding box" : [ 264.48, 602.743, 316.148, 611.917 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． It; those"
+  }, {
+    "type" : "paragraph",
+    "id" : 535,
+    "page number" : 6,
+    "bounding box" : [ 368.4, 602.743, 426.374, 611.917 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． This; that"
+  }, {
+    "type" : "paragraph",
+    "id" : 537,
+    "level" : "5",
+    "page number" : 6,
+    "bounding box" : [ 56.64, 555.943, 107.732, 564.898 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-It's a bus."
+  }, {
+    "type" : "paragraph",
+    "id" : 538,
+    "page number" : 6,
+    "bounding box" : [ 75.72, 532.543, 108.824, 541.717 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． this"
+  }, {
+    "type" : "paragraph",
+    "id" : 539,
+    "page number" : 6,
+    "bounding box" : [ 160.559, 532.543, 193.814, 541.717 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． that"
+  }, {
+    "type" : "paragraph",
+    "id" : 540,
+    "page number" : 6,
+    "bounding box" : [ 264.48, 532.543, 304.148, 541.717 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． those"
+  }, {
+    "type" : "paragraph",
+    "id" : 541,
+    "page number" : 6,
+    "bounding box" : [ 368.4, 532.543, 407.948, 541.717 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． these"
+  } ]
+}

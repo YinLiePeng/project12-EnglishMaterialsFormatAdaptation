@@ -171,22 +171,62 @@ class StyleSystemDimension(ComparisonDimension):
     def _compare_format_diversity(
         self, gen_paras: List[ParagraphInfo], ref_paras: List[ParagraphInfo]
     ) -> float:
-        """比较格式多样性（不同格式签名的数量比例）"""
-        gen_sigs = set(self._format_signature(p) for p in gen_paras)
-        ref_sigs = set(self._format_signature(p) for p in ref_paras)
+        """比较格式多样性（不同格式签名的数量和相似度）"""
+        gen_sigs = list(set(self._format_signature(p) for p in gen_paras))
+        ref_sigs = list(set(self._format_signature(p) for p in ref_paras))
 
         if not gen_sigs and not ref_sigs:
             return 1.0
+        if not gen_sigs or not ref_sigs:
+            return 0.0
 
-        # 使用Jaccard相似度
-        intersection = len(gen_sigs & ref_sigs)
-        union = len(gen_sigs | ref_sigs)
+        # 每个gen签名找最佳匹配的ref签名
+        match_scores = []
+        for gs in gen_sigs:
+            best = max(self._sig_similarity(gs, rs) for rs in ref_sigs)
+            match_scores.append(best)
 
-        return intersection / union if union > 0 else 0.0
+        return self._mean(match_scores)
+
+    @staticmethod
+    def _sig_similarity(sig_a: str, sig_b: str) -> float:
+        """两个格式签名的相似度（模糊匹配）"""
+        if sig_a == sig_b:
+            return 1.0
+
+        parts_a = sig_a.split("_")
+        parts_b = sig_b.split("_")
+
+        if len(parts_a) != len(parts_b) or len(parts_a) < 3:
+            return 1.0 if sig_a == sig_b else 0.0
+
+        scores = []
+
+        # 对齐方式（精确匹配）
+        scores.append(1.0 if parts_a[0] == parts_b[0] else 0.0)
+
+        # 字体名（模糊匹配）
+        from font_utils import fuzzy_font_match
+        scores.append(fuzzy_font_match(parts_a[1], parts_b[1]))
+
+        # 字号（容差2pt）
+        try:
+            size_a = float(parts_a[2])
+            size_b = float(parts_b[2])
+            diff = abs(size_a - size_b)
+            scores.append(max(0.0, 1.0 - diff / 4.0))  # 4pt内视为相似
+        except (ValueError, IndexError):
+            scores.append(1.0 if parts_a[2] == parts_b[2] else 0.0)
+
+        # 加粗（精确匹配）
+        if len(parts_a) >= 4:
+            scores.append(1.0 if parts_a[3] == parts_b[3] else 0.0)
+
+        return sum(scores) / len(scores) if scores else 0.0
 
     @staticmethod
     def _format_signature(para: ParagraphInfo) -> str:
-        """生成格式签名"""
+        """生成格式签名（字号取整到2pt减少碎片化）"""
         align = "left"
         if para.format and para.format.alignment:
             align = para.format.alignment
@@ -199,9 +239,12 @@ class StyleSystemDimension(ComparisonDimension):
         if para.font and para.font.size:
             font_size = para.font.size
 
+        # 取整到2pt，减少签名碎片化
+        size_bucket = round(font_size / 2) * 2
+
         bold = "B" if para.font and para.font.bold else "n"
 
-        return f"{align}_{font_name}_{font_size:.0f}_{bold}"
+        return f"{align}_{font_name}_{size_bucket}_{bold}"
 
     @staticmethod
     def _count_fonts(paras: List[ParagraphInfo]) -> Dict[str, int]:

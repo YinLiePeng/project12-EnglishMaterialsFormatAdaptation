@@ -48,24 +48,9 @@ htmlcov/
 *.bak
 *.swp
 
-# Test outputs and reports
-output_fast/
-output_fast_outputPDF/
-output_hybrid/
-output_hybridOCR/
-output_pdf2docx/
-backend/data/pdf_comparison/
-backend/data/pdf_test_output/
-table_comparison_report*.json
-
-# Root-level test scripts (temporary testing)
-test_fast.py
-test_fast_outputPDF.py
-test_hybrid.py
-test_hybrid_OCR.py
+# # Test outputs and reports
+# 手动测试结果/
 
 # Office temp files
 ~$*.docx
 
-# Root tmp directory
-tmp/

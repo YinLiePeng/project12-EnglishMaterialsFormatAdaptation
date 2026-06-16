@@ -24,8 +24,8 @@ class ListNumberingDimension(ComparisonDimension):
         matched_pairs = self._extract_matched_pairs(match_result)
 
         if not matched_pairs:
-            return 1.0, {
-                "numbering_match_rate": 1.0,
+            return 0.5, {
+                "numbering_match_rate": 0.5,
                 "total_pairs": 0,
                 "details": [],
             }
@@ -70,14 +70,25 @@ class ListNumberingDimension(ComparisonDimension):
 
     @staticmethod
     def _extract_matched_pairs(match_result: Any) -> List[tuple]:
-        """从 match_result 提取匹配对列表"""
+        """从 match_result 提取匹配对列表 (gen_index, ref_index)"""
         if match_result is None:
             return []
         try:
-            if hasattr(match_result, "matched_pairs"):
-                return list(match_result.matched_pairs)
-            if isinstance(match_result, dict) and "matched_pairs" in match_result:
-                return list(match_result["matched_pairs"])
+            # MatcherOutput 对象有 pairs 属性
+            if hasattr(match_result, "pairs"):
+                return [
+                    (p.gen_index, p.ref_index)
+                    for p in match_result.pairs
+                    if p.gen_para is not None and p.ref_para is not None
+                    and p.match_type not in ("unmatched_gen", "unmatched_ref")
+                ]
+            # 兼容 dict 格式
+            if isinstance(match_result, dict) and "pairs" in match_result:
+                return [
+                    (p["gen_index"], p["ref_index"])
+                    for p in match_result["pairs"]
+                    if p.get("gen_para") is not None and p.get("ref_para") is not None
+                ]
         except Exception:
             pass
         return []

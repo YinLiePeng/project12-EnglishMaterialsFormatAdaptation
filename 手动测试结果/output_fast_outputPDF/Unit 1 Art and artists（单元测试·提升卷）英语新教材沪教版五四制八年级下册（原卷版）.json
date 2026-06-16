@@ -1,0 +1,1730 @@
+{
+  "file name" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（原卷版）.pdf",
+  "number of pages" : 8,
+  "author" : "追梦团队：17085053077",
+  "title" : "",
+  "creation date" : "D:20260413235423+08'00'",
+  "modification date" : "D:20260413235423+08'00'",
+  "kids" : [ {
+    "type" : "header",
+    "id" : 42,
+    "page number" : 1,
+    "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 25,
+      "page number" : 1,
+      "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 52,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 139.44, 745.966, 455.88, 765.9 ],
+    "heading level" : 1,
+    "font" : "SimHei",
+    "font size" : 18.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "2025-2026 学年八年级下册英语单元测试"
+  }, {
+    "type" : "image",
+    "id" : 51,
+    "page number" : 1,
+    "bounding box" : [ 405.12, 764.91, 405.84, 765.63 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+    "format" : "jpeg"
+  }, {
+    "type" : "heading",
+    "id" : 53,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 254.64, 716.496, 340.56, 733.108 ],
+    "heading level" : 2,
+    "font" : "SimSun",
+    "font size" : 15.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Unit1·提升卷"
+  }, {
+    "type" : "heading",
+    "id" : 54,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 97.559, 690.864, 496.919, 704.153 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "学校:___________班级：___________姓名：___________分数：___________"
+  }, {
+    "type" : "image",
+    "id" : 55,
+    "page number" : 1,
+    "bounding box" : [ 496.92, 693.51, 497.64, 694.23 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+    "format" : "jpeg"
+  }, {
+    "type" : "paragraph",
+    "id" : 56,
+    "page number" : 1,
+    "bounding box" : [ 197.88, 668.4, 397.33, 679.972 ],
+    "font" : "KaiTi",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "（考试时间：90 分钟 试卷满分：100 分）"
+  }, {
+    "type" : "heading",
+    "id" : 57,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 54.12, 629.387, 495.844, 658.916 ],
+    "heading level" : 5,
+    "font" : "SimSun",
+    "font size" : 11.05,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "注意： 本卷试题均采用连续编号，所有答案务必按照规定在答题纸上完成，做在练习卷上不给分。"
+  }, {
+    "type" : "paragraph",
+    "id" : 58,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 573.84, 546.369, 605.753 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "一、语法选择(共 10 分) 根据短文内容，从 A、B、C 三个选项中选出一个语法正确的答案，并把答题卡上对应题目的答案标号涂黑。"
+  }, {
+    "type" : "paragraph",
+    "id" : 59,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 480.24, 541.171, 562.012 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "On the streets of France, people can often see a pretty Chinese girl. She is playing the guzheng 1 , wearing traditional Chinese hanfu. Her music sounds beautiful. And her performances are very popular 2 the people there. In their eyes, she is famous as a Transcultural Music Ambassador (跨文化音乐使者) there. The 3 name is Peng Jingxuan."
+  }, {
+    "type" : "paragraph",
+    "id" : 63,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 54.12, 410.04, 541.2, 468.412 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Peng was born in Huaihua, Hunan Province in 1995. She started to learn the guzheng at 4 age of seven. In 2017, Peng graduated ( 毕 业 ) from Wuhan Conservatory of Music. In 2018, she went to France to continue studying music by 5 ."
+  }, {
+    "type" : "paragraph",
+    "id" : 66,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 339.84, 541.148, 398.212 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "“ 6 I first came to study in France, I found street performances were very common, but few people were playing Chinese musical instruments (乐器). That’s why I took my guzheng to the streets,” said Peng. Many people watched her performance. 7 popular she was!"
+  }, {
+    "type" : "paragraph",
+    "id" : 69,
+    "page number" : 1,
+    "bounding box" : [ 54.12, 269.64, 541.172, 328.012 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Since 2018, Peng 8 many countries around Europe to play the guzheng. She expects 9 the traditional Chinese music to more foreigners. “To get more people to know about it, understand it and love it ... is one of 10 wishes of Chinese artists,” she said."
+  }, {
+    "type" : "list",
+    "id" : 73,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 54.12, 82.44, 393.183, 257.812 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 8,
+    "next list id" : 76,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.12, 246.24, 390.102, 257.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．A．happy B．happily C．happiness",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.12, 222.84, 372.013, 234.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．A．with B．for C．about",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.12, 199.44, 370.305, 211.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．A．girl B．girls C．girl’s",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.12, 176.04, 361.509, 187.612 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4．A．a B．an C．the",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.12, 152.64, 366.224, 164.212 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5．A．her B．herself C．hers",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.12, 129.24, 383.707, 140.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6．A．When B．Though C．Because",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.12, 105.84, 369.104, 117.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7．A．What B．What a C．How",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.12, 82.44, 393.183, 94.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8．A．visits B．visited C．has visited",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 74,
+    "page number" : 1,
+    "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 17,
+      "page number" : 1,
+      "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+      "heading level" : 7,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 75,
+    "page number" : 2,
+    "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 26,
+      "page number" : 2,
+      "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 76,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 54.12, 732.84, 394.453, 767.812 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 73,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 756.24, 384.303, 767.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9．A．show B．to show C．showing",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 732.84, 394.453, 744.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10．A．big B．bigger C．the biggest",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 77,
+    "page number" : 2,
+    "bounding box" : [ 54.12, 640.15, 368.999, 671.153 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "二、选词填空(共 5 分) 阅读下面短文，从方框内的选项中选出可以填入空白处的最佳选项。"
+  }, {
+    "type" : "text block",
+    "id" : 78,
+    "page number" : 2,
+    "bounding box" : [ 47.79, 601.28, 377.36, 633.65 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 1,
+      "page number" : 2,
+      "bounding box" : [ 54.12, 611.4, 370.902, 622.972 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A．by hand B．sounds easy C． ask for help D．such as E. is famous"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 79,
+    "page number" : 2,
+    "bounding box" : [ 54.12, 560.04, 541.318, 595.012 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Different parts of China have their own special forms of traditional art, 11 sky lanterns, paper cutting, and Chinese clay art."
+  }, {
+    "type" : "paragraph",
+    "id" : 81,
+    "page number" : 2,
+    "bounding box" : [ 54.12, 489.84, 541.148, 548.212 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "According to Chinese history, Zhuge Kongming first used sky lanterns to 12 . But today they are used at festivals and other celebrations and are seen as symbols of happiness and good wishes. They are usually made of bamboo and covered with paper."
+  }, {
+    "type" : "paragraph",
+    "id" : 83,
+    "page number" : 2,
+    "bounding box" : [ 54.12, 396.24, 543.81, 478.012 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Paper cutting 13 , but it can be quite difficult. Chinese clay art 14 for its tiny figures that look very real. The figures usually show cute children or beloved characters from Chinese folk tales or history. They are carefully shaped 15 before drying. Then they are fired at a very high heat, polished and painted. It takes several weeks to complete everything."
+  }, {
+    "type" : "heading",
+    "id" : 87,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 54.12, 322.99, 233.289, 333.44 ],
+    "heading level" : 6,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "三、用单词的适当形式填空（共 8 分）"
+  }, {
+    "type" : "list",
+    "id" : 88,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 54.12, 138.84, 387.691, 314.212 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 8,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 302.64, 290.131, 314.212 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "16．By next year, he ________ (learn) art for ten years.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 279.24, 387.691, 290.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "17．The ________ (value) of art lies not only in its beauty but also in its spirit.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 255.84, 359.971, 267.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "18．The ________ (artist) works are on display in the national museum.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 232.44, 312.45, 244.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "19．The ________ (modern) of this art style is very obvious.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 209.04, 370.407, 220.612 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "20．The ________ (meaning) of this artwork is deeply thought-provoking.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 185.64, 338.13, 197.212 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "21．The ________ (skill) of the craftsman is admired by everyone.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 162.24, 334.05, 173.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "22．The art exhibition ________ (last) for two weeks next month.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 54.12, 138.84, 369.81, 150.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "23．The ________ (culture) background of the art work is worth studying.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 89,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 54.12, 68.64, 327.959, 100.553 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "四、按要求填写句子，补全对话（每题 2 分，共 10 分） (Amy and Bob are talking about Zootopia 2 after school.)"
+  }, {
+    "type" : "footer",
+    "id" : 90,
+    "page number" : 2,
+    "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 18,
+      "page number" : 2,
+      "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+      "heading level" : 7,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 91,
+    "page number" : 3,
+    "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 27,
+      "page number" : 3,
+      "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 101,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 707.4, 344.851, 765.772 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 754.2, 337.318, 765.772 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A: Hi Bob! I watched Zootopia 2 last weekend. It’s really amazing!",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 707.4, 344.851, 742.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B: Hi Amy! I’ve been wanting to watch it, but I haven’t had the time. 24 ?（变特殊疑问句）",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 100,
+    "page number" : 3,
+    "bounding box" : [ 405.12, 764.91, 405.84, 765.63 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+    "format" : "jpeg"
+  }, {
+    "type" : "list",
+    "id" : 103,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 637.2, 522.904, 695.572 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 660.6, 522.904, 695.572 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A: It’s about Judy and Nick—they help a snake named Gary who was tricked by bad animals, and together they save Zootopia.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 637.2, 450.847, 648.772 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B: That sounds interesting! 25 ?（对划线部分提问）",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 105,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 567.0, 536.944, 625.372 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 590.4, 536.944, 625.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A: It’s amazing because Judy and Nick had some conflicts at first, but they learned to listen to each other and work together.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 567.0, 346.927, 578.572 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B: 26 ?（对划线部分提问）",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 107,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 520.2, 528.237, 555.172 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 543.6, 528.237, 555.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A: My favorite part is when they sneak into the old factory to get evidence of the bad guys’ plan. It’s so thrilling!",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 520.2, 336.368, 531.772 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B: 27 ?（变一般疑问句）",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 109,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 473.4, 454.052, 508.372 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 496.8, 454.052, 508.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A: Yes, he does. Gary becomes a hero in the end—he helps fix the traffic system he messed up.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 473.4, 450.728, 484.972 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B: That’s so cool about Gary! 28 ?（变特殊疑问句）",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 111,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 403.2, 453.488, 461.572 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 450.0, 352.411, 461.572 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A: It’s about two hours long—just the right length for a cartoon movie.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 403.2, 453.488, 438.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B: Wow! I can’t wait to watch it. 29 ?（表提出建议） A: Sure! Let’s go to the cinema this Saturday afternoon.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 113,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 328.104, 173.436, 341.393 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "五、阅读理解 (共 20 分)"
+  }, {
+    "type" : "list",
+    "id" : 114,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 54.12, 263.59, 541.084, 321.953 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "next list id" : 119,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.12, 263.59, 541.084, 321.953 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A. (每题 2 分，共 10 分) A-F 分别是六位名人的简介。有五位想借阅名人传记书籍的同学，请为每位同学选择符合他们兴趣的名人简 介，以此帮助他们进一步了解相关信息。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "table",
+    "id" : 115,
+    "level" : "4",
+    "page number" : 3,
+    "bounding box" : [ 47.79, 83.68, 547.56, 257.1 ],
+    "number of rows" : 1,
+    "number of columns" : 2,
+    "next table id" : 118,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 48.15, 84.4, 282.85, 256.74 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "list",
+          "id" : 5,
+          "level" : "1",
+          "page number" : 3,
+          "bounding box" : [ 75.12, 94.44, 273.344, 246.412 ],
+          "numbering style" : "arabic numbers",
+          "number of list items" : 3,
+          "list items" : [ {
+            "type" : "list item",
+            "page number" : 3,
+            "bounding box" : [ 75.12, 234.84, 273.344, 246.412 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 10.45,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "30 Tom is curious about the universe. His",
+            "kids" : [ {
+              "type" : "paragraph",
+              "id" : 2,
+              "page number" : 3,
+              "bounding box" : [ 54.12, 188.04, 264.662, 223.012 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.45,
+              "text color" : "[0.0, 0.0, 0.0]",
+              "content" : "dream is to be a physicist. He wants to understand how the world works from now on."
+            } ]
+          }, {
+            "type" : "list item",
+            "page number" : 3,
+            "bounding box" : [ 75.12, 164.64, 266.948, 176.212 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 10.45,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "31 Linda loves reading and writing. She",
+            "kids" : [ {
+              "type" : "paragraph",
+              "id" : 4,
+              "page number" : 3,
+              "bounding box" : [ 54.12, 117.84, 264.669, 152.812 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.45,
+              "text color" : "[0.0, 0.0, 0.0]",
+              "content" : "dreams of creating her own stories and poems one day and wants to learn from the best."
+            } ]
+          }, {
+            "type" : "list item",
+            "page number" : 3,
+            "bounding box" : [ 75.12, 94.44, 254.224, 106.012 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 10.45,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "32 David believes good qualities and",
+            "kids" : [ ]
+          } ]
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 282.85, 84.4, 547.2, 256.74 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "list",
+          "id" : 9,
+          "level" : "1",
+          "page number" : 3,
+          "bounding box" : [ 316.8, 94.44, 541.2, 246.412 ],
+          "numbering style" : "english letters",
+          "number of list items" : 3,
+          "list items" : [ {
+            "type" : "list item",
+            "page number" : 3,
+            "bounding box" : [ 316.8, 234.84, 541.093, 246.412 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 10.45,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "A．Charlie Chaplin-A great comic actor who brought",
+            "kids" : [ {
+              "type" : "paragraph",
+              "id" : 7,
+              "page number" : 3,
+              "bounding box" : [ 288.84, 188.04, 541.063, 223.012 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.45,
+              "text color" : "[0.0, 0.0, 0.0]",
+              "content" : "people laughter without saying a word in the film. His humor helped people go through hard times."
+            } ]
+          }, {
+            "type" : "list item",
+            "page number" : 3,
+            "bounding box" : [ 316.8, 164.64, 541.2, 176.212 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 10.45,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "B．Albert Einstein-One of the greatest scientists of",
+            "kids" : [ {
+              "type" : "paragraph",
+              "id" : 8,
+              "page number" : 3,
+              "bounding box" : [ 288.84, 117.84, 541.148, 152.812 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.45,
+              "text color" : "[0.0, 0.0, 0.0]",
+              "content" : "the 20th century. His theories help us understand how the universe works."
+            } ]
+          }, {
+            "type" : "list item",
+            "page number" : 3,
+            "bounding box" : [ 316.8, 94.44, 541.143, 106.012 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 10.45,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "C ． Confucius-An ancient Chinese teacher and",
+            "kids" : [ ]
+          } ]
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 116,
+    "page number" : 3,
+    "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 19,
+      "page number" : 3,
+      "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+      "heading level" : 7,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 117,
+    "page number" : 4,
+    "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 28,
+      "page number" : 4,
+      "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "table",
+    "id" : 118,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 47.79, 507.68, 547.56, 774.05 ],
+    "number of rows" : 1,
+    "number of columns" : 2,
+    "previous table id" : 115,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 48.15, 508.4, 282.85, 773.69 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 3,
+          "page number" : 4,
+          "bounding box" : [ 54.12, 728.4, 272.229, 763.372 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "moral values are very important. He is looking for a role model who taught about life and wisdom."
+        }, {
+          "type" : "list",
+          "id" : 4,
+          "page number" : 4,
+          "bounding box" : [ 75.12, 634.8, 274.384, 716.572 ],
+          "numbering style" : "arabic numbers",
+          "number of list items" : 2,
+          "list items" : [ {
+            "type" : "list item",
+            "page number" : 4,
+            "bounding box" : [ 75.12, 705.0, 274.384, 716.572 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 10.45,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "33 Sarah enjoys making people laugh and",
+            "kids" : [ {
+              "type" : "paragraph",
+              "id" : 2,
+              "page number" : 4,
+              "bounding box" : [ 54.12, 658.2, 253.919, 693.172 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.45,
+              "text color" : "[0.0, 0.0, 0.0]",
+              "content" : "is a fan of silent movies. She hopes to share her humor by expressing herself."
+            } ]
+          }, {
+            "type" : "list item",
+            "page number" : 4,
+            "bounding box" : [ 75.12, 634.8, 266.37, 646.372 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 10.45,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "34 Kevin is very interested in medicine.",
+            "kids" : [ ]
+          } ]
+        }, {
+          "type" : "paragraph",
+          "id" : 6,
+          "page number" : 4,
+          "bounding box" : [ 54.12, 588.0, 258.341, 622.972 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "He wants to learn how ancient medical scientists helped sick people."
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 282.85, 508.4, 547.2, 773.69 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 8,
+          "page number" : 4,
+          "bounding box" : [ 288.84, 728.4, 541.148, 763.372 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "philosopher. He spent his life teaching and sharing wise ideas about life and learning."
+        }, {
+          "type" : "paragraph",
+          "id" : 9,
+          "page number" : 4,
+          "bounding box" : [ 288.84, 658.2, 541.213, 716.572 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "D．Li Shizhen-A great medical scientist from ancient China. After years of medical research, he wrote Ben Cao Gang Mu to help and save people."
+        }, {
+          "type" : "list",
+          "id" : 10,
+          "page number" : 4,
+          "bounding box" : [ 316.8, 564.6, 541.214, 646.372 ],
+          "numbering style" : "english letters",
+          "number of list items" : 2,
+          "list items" : [ {
+            "type" : "list item",
+            "page number" : 4,
+            "bounding box" : [ 316.8, 634.8, 541.027, 646.372 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 10.45,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "E. Jane Goodall-A famous expert on animals. She",
+            "kids" : [ {
+              "type" : "paragraph",
+              "id" : 7,
+              "page number" : 4,
+              "bounding box" : [ 288.84, 588.0, 541.048, 622.972 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.45,
+              "text color" : "[0.0, 0.0, 0.0]",
+              "content" : "lived in the forest to study and protect chimpanzees, showing us how to respect animals and nature."
+            } ]
+          }, {
+            "type" : "list item",
+            "page number" : 4,
+            "bounding box" : [ 316.8, 564.6, 541.214, 576.172 ],
+            "font" : "TimesNewRomanPSMT",
+            "font size" : 10.45,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "F. William Shakespeare-A great playwright and poet",
+            "kids" : [ ]
+          } ]
+        }, {
+          "type" : "paragraph",
+          "id" : 11,
+          "page number" : 4,
+          "bounding box" : [ 288.84, 517.8, 541.063, 552.772 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "who wrote over 30 plays and hundreds of poems. His stories teach us about human nature."
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 119,
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 54.12, 419.64, 541.148, 455.513 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "previous list id" : 114,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 54.12, 419.64, 541.148, 455.513 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B.根据短文内容选择最恰当的答案。 (每题 2 分，共 10 分) When we think of art, we probably think of painting a picture on strong cloth or special paper, even on the",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 120,
+    "page number" : 4,
+    "bounding box" : [ 54.12, 396.24, 382.17, 407.812 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "walls of a city. However, in many cultures, people paint on their faces instead."
+  }, {
+    "type" : "paragraph",
+    "id" : 121,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 82.2, 349.44, 541.064, 384.412 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "①______ In fact, face painting may be the very first form of art. Painted faces are in different colors and patterns. This"
+  }, {
+    "type" : "paragraph",
+    "id" : 122,
+    "page number" : 4,
+    "bounding box" : [ 54.12, 302.64, 541.062, 337.612 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "has been part of people’s traditions for thousands of years. The way that people painted their faces can tell stories and lessons from the past."
+  }, {
+    "type" : "paragraph",
+    "id" : 123,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 82.2, 255.84, 541.144, 290.812 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "②______ People still paint their faces for lots of reasons. Patterns on faces connect people to a tribal (部落的) family"
+  }, {
+    "type" : "paragraph",
+    "id" : 124,
+    "page number" : 4,
+    "bounding box" : [ 54.12, 209.04, 541.148, 244.012 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "and can show who is the most important in the family. For fighters, it is a way to make their enemies afraid. Face painting is also used in many ceremonies and special celebrations."
+  }, {
+    "type" : "paragraph",
+    "id" : 125,
+    "page number" : 4,
+    "bounding box" : [ 82.2, 162.24, 541.092, 197.212 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "How is face painting important in theater? Face painting was important in ancient Japanese and Chinese ceremonies. It was also used in traditional"
+  }, {
+    "type" : "paragraph",
+    "id" : 126,
+    "page number" : 4,
+    "bounding box" : [ 54.12, 115.44, 541.145, 150.412 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "theaters to change the actors’ roles. Actors in those countries still wear white, black, and red face paint today to show feelings and make the bad people look dramatic (戏剧性的) and awful."
+  }, {
+    "type" : "paragraph",
+    "id" : 127,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 82.2, 68.64, 541.028, 103.612 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "③______ Tribal people make face paint from the natural colors in plants and earth. Plant parts are used to make"
+  }, {
+    "type" : "footer",
+    "id" : 128,
+    "page number" : 4,
+    "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 20,
+      "page number" : 4,
+      "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+      "heading level" : 7,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 129,
+    "page number" : 5,
+    "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 29,
+      "page number" : 5,
+      "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 139,
+    "page number" : 5,
+    "bounding box" : [ 54.12, 708.19, 541.023, 765.772 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "different colorings. The ingredients are dried over a fire and then made into a powder (粉末). This is then mixed with animal fat. 阅读以上材料，根据其内容回答其后各个小题。"
+  }, {
+    "type" : "image",
+    "id" : 138,
+    "page number" : 5,
+    "bounding box" : [ 405.12, 764.91, 405.84, 765.63 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+    "format" : "jpeg"
+  }, {
+    "type" : "list",
+    "id" : 140,
+    "level" : "2",
+    "page number" : 5,
+    "bounding box" : [ 54.12, 239.4, 377.85, 695.572 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "next list id" : 158,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.12, 684.0, 201.09, 695.572 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "35．Match the title with each part.",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 33,
+        "level" : "3",
+        "page number" : 5,
+        "bounding box" : [ 54.12, 567.0, 346.989, 672.172 ],
+        "numbering style" : "english letters",
+        "number of list items" : 3,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 5,
+          "bounding box" : [ 54.12, 660.6, 147.068, 672.172 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "a. Is face painting art?",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 5,
+          "bounding box" : [ 54.12, 637.2, 193.028, 648.772 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "b. Why do they paint their faces?",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 5,
+          "bounding box" : [ 54.12, 567.0, 346.989, 625.372 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "c. Where does the paint come from? A．①-a, ②-b, ③-c B．①-b, ②-a, ③-c C．①-a, ②-c, ③-b D．①-b, ②-c, ③-a",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.12, 496.8, 377.85, 555.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "36．How long has face painting been part of people’s traditions? A．For a few years. B．For three centuries. C．For about 100 years. D．For thousands of years.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.12, 426.6, 347.25, 484.972 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "37．Why did fighters paint their faces when they fought? A．To look friendly. B．To look scary. C．To look proud. D．To look painful.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.12, 403.2, 243.547, 414.772 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "38．What can we know about face painting?",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 34,
+        "level" : "4",
+        "page number" : 5,
+        "bounding box" : [ 73.2, 309.6, 323.131, 391.372 ],
+        "numbering style" : "english letters",
+        "number of list items" : 4,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 5,
+          "bounding box" : [ 73.2, 379.8, 274.892, 391.372 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "A．Painting on the walls is the first form of art.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 5,
+          "bounding box" : [ 73.2, 356.4, 286.29, 367.972 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "B．Animal fat is used to make different colorings.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 5,
+          "bounding box" : [ 73.2, 333.0, 312.811, 344.572 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "C．Patterns on faces can show people’s ages in a family.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 5,
+          "bounding box" : [ 73.2, 309.6, 323.131, 321.172 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "D．Face paint in colors can show actors’ feelings in China.",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.12, 239.4, 362.023, 297.772 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "39．Which of the following can be the best title? A．Face Art B．Traditional Painters C．Wall Paintings D．Tribal Celebrations",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 141,
+    "page number" : 5,
+    "bounding box" : [ 54.12, 177.0, 469.08, 208.793 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "六、完形填空(共 12 分) Choose the words or expressions and complete the passage (选择最恰当的单词或短语完成短文)"
+  }, {
+    "type" : "paragraph",
+    "id" : 142,
+    "page number" : 5,
+    "bounding box" : [ 213.959, 153.6, 381.223, 165.172 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The History and Future of Comic Strips"
+  }, {
+    "type" : "paragraph",
+    "id" : 143,
+    "page number" : 5,
+    "bounding box" : [ 54.12, 83.4, 541.182, 141.772 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Have you ever read a comic strip in a newspaper or online? You know, those funny little stories with pictures and speech bubbles? They might seem simple, but comic strips have a rich history and a bright future. Let’s dive into their story and see how they have 40 over time!"
+  }, {
+    "type" : "footer",
+    "id" : 145,
+    "page number" : 5,
+    "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 21,
+      "page number" : 5,
+      "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+      "heading level" : 7,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 146,
+    "page number" : 6,
+    "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 30,
+      "page number" : 6,
+      "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 147,
+    "page number" : 6,
+    "bounding box" : [ 54.12, 709.44, 541.144, 767.812 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Comic strips started over a century ago. At first, they were short, funny stories in newspapers. People loved them because they were easy to read and made them laugh. Early comic strips often had regular 41 who often got into silly situations. These strips became so popular that they helped sell more newspapers."
+  }, {
+    "type" : "paragraph",
+    "id" : 149,
+    "page number" : 6,
+    "bounding box" : [ 54.12, 639.24, 541.148, 697.612 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "As time went on, comic strips changed gradually. They weren’t just funny anymore. Some told 42 stories or explored deep themes. Artists experimented with different styles, and new characters were created. Comic strips became a way to entertain people, share ideas and even express opinions on society."
+  }, {
+    "type" : "paragraph",
+    "id" : 151,
+    "page number" : 6,
+    "bounding box" : [ 54.12, 545.64, 541.214, 627.412 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "However, in recent years, the comic strip market has become weaker. Fewer people read newspapers, which used to be the main home for comic strips. Many newspapers have reduced the 43 for comics or stopped printing them at all. This has made it harder for artists to earn money from their work. Some people worry that traditional comic strips might disappear, replaced by faster, shorter forms of entertainment like videos."
+  }, {
+    "type" : "paragraph",
+    "id" : 153,
+    "page number" : 6,
+    "bounding box" : [ 54.12, 475.44, 541.093, 533.812 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "But don’t worry! Comic strips are still alive! Today, they’ve found a new home. Many artists create digital comic strips and share them 44 . This has made comic strips easier to find than ever. People from all over the world can enjoy them with just a click."
+  }, {
+    "type" : "paragraph",
+    "id" : 155,
+    "page number" : 6,
+    "bounding box" : [ 54.12, 405.24, 541.148, 463.612 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "What about the future? Comic strips will likely keep changing. With new technology, we might see more interactive comic strips. Readers can click or swipe to create the story. Some artists use AI to bring their strips to life. The 45 are endless!"
+  }, {
+    "type" : "paragraph",
+    "id" : 157,
+    "page number" : 6,
+    "bounding box" : [ 54.12, 358.44, 541.199, 393.412 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "So, whether you’re a longtime fan or new to comic strips, there’s something for everyone. What’s your favorite comic strip? Let me know. I’d love to hear about it!"
+  }, {
+    "type" : "list",
+    "id" : 158,
+    "level" : "2",
+    "page number" : 6,
+    "bounding box" : [ 54.12, 218.04, 434.022, 346.612 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 6,
+    "previous list id" : 140,
+    "next list id" : 176,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.12, 335.04, 410.104, 346.612 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "40．A．developed B．appeared C．succeeded D．linked",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.12, 311.64, 420.583, 323.212 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "41．A．enemies B．readers C．characters D．directors",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.12, 288.24, 420.012, 299.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "42．A．amusing B．serious C．creative D．essential",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.12, 264.84, 407.144, 276.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "43．A．cost B．waste C．space D．stress",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.12, 241.44, 425.533, 253.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "44．A．on the internet B．through magazines C．on TV D．by E-mail",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.12, 218.04, 434.022, 229.612 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "45．A．responsibilitiesB．celebrations C．discussions D．possibilities",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 159,
+    "page number" : 6,
+    "bounding box" : [ 54.12, 125.35, 295.562, 156.353 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "七、任务型阅读(共 10 分) 请认真阅读下面的短文，并根据短文内容回答问题。"
+  }, {
+    "type" : "footer",
+    "id" : 160,
+    "page number" : 6,
+    "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 22,
+      "page number" : 6,
+      "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+      "heading level" : 7,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 161,
+    "page number" : 7,
+    "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 31,
+      "page number" : 7,
+      "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 171,
+    "page number" : 7,
+    "bounding box" : [ 54.12, 682.35, 123.84, 768.63 ],
+    "data" : "data:image/jpeg;base64,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",
+    "format" : "jpeg"
+  }, {
+    "type" : "image",
+    "id" : 170,
+    "page number" : 7,
+    "bounding box" : [ 405.12, 764.91, 405.84, 765.63 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+    "format" : "jpeg"
+  }, {
+    "type" : "caption",
+    "id" : 172,
+    "page number" : 7,
+    "bounding box" : [ 54.12, 590.4, 541.289, 672.172 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Fengxiang clay figurines are a well-known form of traditional Chinese folk art from Fengxiang County, Shaanxi Province. With a history of thousands of years—dating back to the Neolithic Age, these vivid and colorful sculptures are not only works of art but also an important symbol of Shaanxi’s rich culture, deeply loved by people both at home and abroad."
+  }, {
+    "type" : "paragraph",
+    "id" : 173,
+    "page number" : 7,
+    "bounding box" : [ 54.12, 496.8, 541.145, 578.572 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "In the early days, local people used clay to make simple daily tools and objects for worship. As pottery-making skills continued to develop, the art of clay figurine-making slowly took shape. It finally reached its golden age during the Ming and Qing dynasties, becoming popular among common people and widely used in festivals, weddings and other important events to bring joy and good wishes."
+  }, {
+    "type" : "paragraph",
+    "id" : 174,
+    "page number" : 7,
+    "bounding box" : [ 54.12, 379.8, 541.29, 484.972 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Their production process is complex and needs great patience. First, artisans choose high-quality local clay. Next, they knead, pound and filter it to take out impurities (杂质). Then, they shape the clay into lively forms like tigers and historical characters by hand or simple tools. After that, the shaped clay goes through natural drying and high-temperature firing. Finally, the most important step—painting—is carried out, with bold, bright colors to create strong visual contrast."
+  }, {
+    "type" : "paragraph",
+    "id" : 175,
+    "page number" : 7,
+    "bounding box" : [ 54.12, 286.2, 541.094, 367.972 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "These clay figurines carry deep cultural meanings. For example, tiger-shaped figurines are believed to drive off evil spirits and bring good luck to families. To protect this valuable traditional art, the local government has set up training centres to teach young people the making skills, while some young artisans are trying new things through mixing traditional styles with modern designs to attract more young people."
+  }, {
+    "type" : "list",
+    "id" : 176,
+    "level" : "2",
+    "page number" : 7,
+    "bounding box" : [ 54.12, 75.6, 469.927, 274.372 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "previous list id" : 158,
+    "next list id" : 181,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.12, 262.8, 253.148, 274.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "46．Where are Fengxiang clay figurines from?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.12, 216.0, 321.668, 227.572 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "47．When did Fengxiang clay figurines enter their golden age?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.12, 169.2, 345.906, 180.772 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "48．How many steps are required to make Fengxiang clay figurines?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.12, 122.4, 378.306, 133.972 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "49．What does the local government do to protect Fengxiang clay figurines?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.12, 75.6, 469.927, 87.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "50．How can you keep traditional arts like Fengxiang clay figurines alive? （自拟一句话回答）",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 177,
+    "page number" : 7,
+    "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 23,
+      "page number" : 7,
+      "bounding box" : [ 289.68, 52.394, 305.7, 62.361 ],
+      "heading level" : 7,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 178,
+    "page number" : 8,
+    "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 32,
+      "page number" : 8,
+      "bounding box" : [ 54.6, 784.47, 540.12, 799.35 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 181,
+    "level" : "2",
+    "page number" : 8,
+    "bounding box" : [ 54.12, 640.15, 536.163, 694.553 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "previous list id" : 176,
+    "list items" : [ {
+      "type" : "list item",
+      "id" : 180,
+      "page number" : 8,
+      "bounding box" : [ 54.12, 681.264, 167.436, 694.553 ],
+      "font" : "SimSun",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "八、书面表达(共 25 分)",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 640.15, 536.163, 674.212 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "51．你们学校的英语俱乐部正在举办题为“Art Helps Me Grow”的征文活动。假如你是王林，根据以下内容 提示，写一篇短文投稿。要点如下：",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 182,
+    "level" : "2",
+    "page number" : 8,
+    "bounding box" : [ 54.12, 546.55, 329.371, 627.412 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 615.84, 204.692, 627.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. A teenage problem you once had.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 592.44, 329.371, 604.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. An art form you tried, and how it helped you with the problem.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 546.55, 253.048, 580.612 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. What you have learned from this experience. 注意事项：",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 183,
+    "level" : "2",
+    "page number" : 8,
+    "bounding box" : [ 54.12, 452.04, 371.639, 533.812 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 522.24, 371.639, 533.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. 短文内容须根据以上要点自拟，语句通顺、意义连贯、符合题意；",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 498.84, 279.725, 510.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. 词数不少于 90，开头已给出，不计入总词数；",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.12, 452.04, 339.704, 487.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. 短文中不得出现真实人名、校名等个人信息。 Art Helps Me Grow",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 184,
+    "page number" : 8,
+    "bounding box" : [ 54.12, 428.64, 355.29, 440.212 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Hey, there! I’m Wang Lin. I’d like to share my story about art with you."
+  }, {
+    "type" : "paragraph",
+    "id" : 185,
+    "page number" : 8,
+    "bounding box" : [ 54.12, 311.64, 537.151, 416.812 ],
+    "font" : "TimesNewRomanPS-ItalicMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "____________________________________________________________________________________________ ____________________________________________________________________________________________ ____________________________________________________________________________________________ ____________________________________________________________________________________________ ____________________________________________________________________________________________"
+  }, {
+    "type" : "footer",
+    "id" : 186,
+    "page number" : 8,
+    "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 24,
+      "page number" : 8,
+      "bounding box" : [ 289.68, 51.073, 305.7, 61.04 ],
+      "heading level" : 7,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8 / 8"
+    } ]
+  } ]
+}

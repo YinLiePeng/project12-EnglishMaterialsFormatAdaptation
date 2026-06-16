@@ -1,0 +1,2293 @@
+{
+  "file name" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463].pdf",
+  "number of pages" : 9,
+  "author" : "高三015",
+  "title" : "",
+  "creation date" : "D:20260413235420+08'00'",
+  "modification date" : "D:20260413235420+08'00'",
+  "kids" : [ {
+    "type" : "image",
+    "id" : 274,
+    "page number" : 1,
+    "bounding box" : [ 52.481, 786.25, 94.984, 801.407 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "id" : 275,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 184.2, 742.787, 410.868, 761.822 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "M2U1 Food and drinks!"
+  }, {
+    "type" : "image",
+    "id" : 276,
+    "page number" : 1,
+    "bounding box" : [ 184.042, 700.776, 415.863, 740.653 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile2.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 277,
+    "page number" : 1,
+    "bounding box" : [ 303.333, 707.233, 324.667, 723.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "ì9"
+  }, {
+    "type" : "heading",
+    "id" : 279,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 58.8, 617.874, 80.89, 650.961 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "语音 语调"
+  }, {
+    "type" : "heading",
+    "id" : 283,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 58.8, 497.874, 80.89, 530.961 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "必记 单词"
+  }, {
+    "type" : "heading",
+    "id" : 287,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 58.8, 413.633, 80.89, 422.841 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "常考"
+  }, {
+    "type" : "paragraph",
+    "id" : 288,
+    "page number" : 1,
+    "bounding box" : [ 58.8, 389.874, 80.89, 399.082 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "短语"
+  }, {
+    "type" : "heading",
+    "id" : 294,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 58.8, 210.474, 80.89, 243.441 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "必会 句型"
+  }, {
+    "type" : "paragraph",
+    "id" : 278,
+    "page number" : 1,
+    "bounding box" : [ 96.72, 664.551, 273.359, 675.135 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "/uː/ ： food, cool, school, juice, moon"
+  }, {
+    "type" : "paragraph",
+    "id" : 280,
+    "page number" : 1,
+    "bounding box" : [ 96.72, 593.03, 541.116, 651.254 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "/e/ ： egg, bread, pen, desk, fresh 注意：询问食物饮品相关的特殊疑问句用降调，如 'What's your favourite food? （降调） ' ；选择疑问句前升后降，如 'Do you like milk or juice? （升调 + 降调） '"
+  }, {
+    "type" : "paragraph",
+    "id" : 282,
+    "page number" : 1,
+    "bounding box" : [ 97.559, 545.374, 121.559, 555.374 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "四会"
+  }, {
+    "type" : "paragraph",
+    "id" : 281,
+    "page number" : 1,
+    "bounding box" : [ 133.2, 520.91, 547.2, 579.254 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "food （食物）、 drink （饮料）、 rice （米饭）、 noodle （面条）、 egg （鸡蛋）、 milk （牛奶）、 juice （果汁）、 cake （蛋糕）、 bread （面包）、 fish （鱼）、 meat （肉）、 apple （苹果）、 banana （香蕉）、 water （水）、 tea （茶）"
+  }, {
+    "type" : "paragraph",
+    "id" : 285,
+    "page number" : 1,
+    "bounding box" : [ 97.559, 473.254, 121.559, 483.254 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "三会"
+  }, {
+    "type" : "paragraph",
+    "id" : 284,
+    "page number" : 1,
+    "bounding box" : [ 133.2, 448.91, 541.2, 507.135 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "delicious （美味的）、 fresh （新鲜的）、 sweet （甜的）、 sour （酸的）、 healthy （健康的）、 hungry （饿的）、 thirsty （渴的）、 snack （零食）、 breakfast （早 餐）、 lunch （午餐）、 dinner （晚餐）"
+  }, {
+    "type" : "paragraph",
+    "id" : 286,
+    "page number" : 1,
+    "bounding box" : [ 96.72, 376.91, 549.6, 435.135 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "have breakfast （吃早餐）、 have lunch （吃午餐）、 have dinner （吃晚餐） drink milk （喝 牛奶）、 eat rice （吃米饭）、 a glass of juice （一杯果汁） a piece of bread （一片面包）、 favourite food （最喜欢的食物）、 healthy food （健康的食物）"
+  }, {
+    "type" : "paragraph",
+    "id" : 289,
+    "page number" : 1,
+    "bounding box" : [ 96.72, 352.551, 247.08, 363.014 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "询问喜好的食物 / 饮品："
+  }, {
+    "type" : "paragraph",
+    "id" : 290,
+    "page number" : 1,
+    "bounding box" : [ 96.72, 328.67, 462.0, 339.254 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "What's your favourite food/drink? （你最喜欢的食物 / 饮品是什么？）"
+  }, {
+    "type" : "paragraph",
+    "id" : 291,
+    "page number" : 1,
+    "bounding box" : [ 96.72, 304.791, 515.4, 315.375 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "My favourite food/drink is rice/milk. （我最喜欢的食物 / 饮品是米饭 / 牛奶。）"
+  }, {
+    "type" : "paragraph",
+    "id" : 292,
+    "page number" : 1,
+    "bounding box" : [ 96.72, 280.91, 223.08, 291.494 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "表达想吃 / 喝某物："
+  }, {
+    "type" : "paragraph",
+    "id" : 293,
+    "page number" : 1,
+    "bounding box" : [ 96.72, 233.27, 541.08, 267.614 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "I'm hungry/thirsty. I want to eat/drink some bread/water. （我饿了 / 渴了，我想吃 / 喝 点面包 / 水。）"
+  }, {
+    "type" : "paragraph",
+    "id" : 295,
+    "page number" : 1,
+    "bounding box" : [ 96.72, 209.391, 243.72, 219.975 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "询问对方是否喜欢某物："
+  }, {
+    "type" : "paragraph",
+    "id" : 296,
+    "page number" : 1,
+    "bounding box" : [ 96.72, 185.51, 282.72, 196.094 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Do you like fish? （你喜欢鱼吗？）"
+  }, {
+    "type" : "paragraph",
+    "id" : 297,
+    "page number" : 1,
+    "bounding box" : [ 96.72, 161.751, 407.52, 172.214 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Yes, I do./No, I don't. （是的，我喜欢。 / 不，我不喜欢。）"
+  }, {
+    "type" : "paragraph",
+    "id" : 298,
+    "page number" : 1,
+    "bounding box" : [ 96.72, 137.87, 207.72, 148.454 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "描述食物的特征："
+  }, {
+    "type" : "paragraph",
+    "id" : 299,
+    "page number" : 1,
+    "bounding box" : [ 96.72, 113.991, 315.48, 124.575 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The apple is sweet. （这个苹果是甜的。）"
+  }, {
+    "type" : "paragraph",
+    "id" : 300,
+    "page number" : 1,
+    "bounding box" : [ 96.72, 90.11, 314.759, 100.694 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The orange is sour. （这个橙子是酸的。）"
+  }, {
+    "type" : "footer",
+    "id" : 547,
+    "page number" : 1,
+    "bounding box" : [ 53.88, 49.744, 66.824, 51.819 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 556,
+      "page number" : 1,
+      "bounding box" : [ 53.88, 51.064, 66.824, 51.819 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 557,
+      "page number" : 1,
+      "bounding box" : [ 53.88, 49.744, 66.824, 50.499 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 303,
+    "page number" : 2,
+    "bounding box" : [ 52.353, 785.955, 95.014, 801.405 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile3.png"
+  }, {
+    "type" : "heading",
+    "id" : 305,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 58.8, 717.233, 80.89, 726.441 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "核心"
+  }, {
+    "type" : "paragraph",
+    "id" : 306,
+    "page number" : 2,
+    "bounding box" : [ 58.8, 693.474, 80.89, 702.682 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "语法"
+  }, {
+    "type" : "paragraph",
+    "id" : 304,
+    "page number" : 2,
+    "bounding box" : [ 96.72, 704.27, 541.116, 762.494 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "名词的单复数（食物饮品类）：可数名词有单复数变化，如 egg→eggs, noodle→noodles ；不可数名词无单复数，如 rice, milk, water ，表数量需加量词，如 a bowl of rice （一碗米饭）。"
+  }, {
+    "type" : "paragraph",
+    "id" : 307,
+    "page number" : 2,
+    "bounding box" : [ 96.72, 656.63, 541.2, 690.974 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "一般现在时（表达喜好和日常饮食）：表示习惯性的喜好、日常的饮食行为，主语 为第三人称单数时，动词用三单形式，如 He likes bread. She drinks milk every morning."
+  }, {
+    "type" : "image",
+    "id" : 308,
+    "page number" : 2,
+    "bounding box" : [ 182.838, 597.605, 412.934, 643.623 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile4.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 309,
+    "page number" : 2,
+    "bounding box" : [ 186.667, 605.567, 246.333, 636.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "\"EEQ"
+  }, {
+    "type" : "paragraph",
+    "id" : 310,
+    "level" : "1",
+    "page number" : 2,
+    "bounding box" : [ 265.0, 607.9, 290.333, 626.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "=5"
+  }, {
+    "type" : "paragraph",
+    "id" : 311,
+    "page number" : 2,
+    "bounding box" : [ 344.333, 609.233, 368.333, 626.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "à"
+  }, {
+    "type" : "heading",
+    "id" : 312,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 53.88, 521.494, 126.119, 531.494 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "名词的单复数"
+  }, {
+    "type" : "paragraph",
+    "id" : 313,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 497.151, 116.88, 507.614 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "核心定义"
+  }, {
+    "type" : "paragraph",
+    "id" : 314,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 473.854, 547.44, 483.854 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "名词的单数表示一个人或事物， 复数表示两个或两个以上的人或事物， 小学阶段重点掌握食物、"
+  }, {
+    "type" : "paragraph",
+    "id" : 315,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 449.975, 461.88, 459.975 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "文具、动物、生活用品等常见名词的单复数变化，也是上海五下的基础考点。"
+  }, {
+    "type" : "paragraph",
+    "id" : 316,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 425.51, 140.88, 436.094 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "两类核心名词"
+  }, {
+    "type" : "paragraph",
+    "id" : 317,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 401.751, 131.88, 412.214 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "（ 1 ）可数名词"
+  }, {
+    "type" : "paragraph",
+    "id" : 318,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 353.991, 538.44, 388.454 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "能数清数量的名词，有单数和复数两种形式，如 pen （钢笔）、 egg （鸡蛋）、 book （书）。 （ 2 ）不可数名词"
+  }, {
+    "type" : "paragraph",
+    "id" : 319,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 306.351, 547.44, 340.694 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "数不清具体数量、无单复数变化的名词，表数量时需搭配量词，如 rice （米饭）、 milk （牛奶） 、 water （水）、 bread （面包），常见量词： a bowl of （一碗）、 a glass of （一杯）、 a piece of"
+  }, {
+    "type" : "paragraph",
+    "id" : 320,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 282.47, 153.12, 293.054 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "（一片 / 一块）。"
+  }, {
+    "type" : "paragraph",
+    "id" : 321,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 258.591, 312.84, 269.175 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "可数名词复数规则变化（五下重点，占 80% ）"
+  }, {
+    "type" : "paragraph",
+    "id" : 322,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 233.854, 101.88, 243.854 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "变化规则"
+  }, {
+    "type" : "paragraph",
+    "id" : 323,
+    "page number" : 2,
+    "bounding box" : [ 211.8, 233.854, 235.8, 243.854 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "例子"
+  }, {
+    "type" : "paragraph",
+    "id" : 324,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 207.951, 385.546, 218.414 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "直接在词尾加 s pen→pens, book→books, car→cars"
+  }, {
+    "type" : "paragraph",
+    "id" : 325,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 182.51, 436.307, 193.094 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "以 s, x, sh, ch 结尾，加 es box→boxes, brush→brushes, watch→watches"
+  }, {
+    "type" : "paragraph",
+    "id" : 326,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 157.19, 210.24, 167.774 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "以辅音字母 + y 结尾， 变 y 为"
+  }, {
+    "type" : "paragraph",
+    "id" : 327,
+    "page number" : 2,
+    "bounding box" : [ 211.8, 145.31, 448.186, 155.594 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "baby→babies, family→families, candy→candies"
+  }, {
+    "type" : "paragraph",
+    "id" : 328,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 133.31, 91.068, 143.894 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "i 加 es"
+  }, {
+    "type" : "paragraph",
+    "id" : 329,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 96.11, 374.867, 118.575 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "以元音字母 + y 结尾，直接加 boy→boys, toy→toys, key→keys"
+  }, {
+    "type" : "paragraph",
+    "id" : 330,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 84.11, 58.548, 94.394 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "s"
+  }, {
+    "type" : "footer",
+    "id" : 548,
+    "page number" : 2,
+    "bounding box" : [ 53.88, 49.744, 66.824, 51.819 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 558,
+      "page number" : 2,
+      "bounding box" : [ 53.88, 51.064, 66.824, 51.819 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 559,
+      "page number" : 2,
+      "bounding box" : [ 53.88, 49.744, 66.824, 50.499 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 333,
+    "page number" : 3,
+    "bounding box" : [ 52.589, 786.204, 95.032, 801.266 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile5.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 334,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 752.254, 101.88, 762.254 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "变化规则"
+  }, {
+    "type" : "paragraph",
+    "id" : 335,
+    "page number" : 3,
+    "bounding box" : [ 211.8, 752.254, 235.8, 762.254 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "例子"
+  }, {
+    "type" : "paragraph",
+    "id" : 336,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 702.59, 466.305, 736.935 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "以 o 结尾，有生命加 es ，无生 命加 s 有 生 命 ： tomato→tomatoes, potato→potatoes photo→photos, radio→radios"
+  }, {
+    "type" : "paragraph",
+    "id" : 337,
+    "page number" : 3,
+    "bounding box" : [ 475.44, 726.935, 541.44, 736.935 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "无 生 命 ："
+  }, {
+    "type" : "paragraph",
+    "id" : 338,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 653.39, 547.44, 687.735 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "以 f/fe 结尾，变 f/fe 为 v 加 es knife→knives, leaf→leaves, wolf→wolves （五下高频： knife/leaf ）"
+  }, {
+    "type" : "paragraph",
+    "id" : 339,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 604.654, 341.88, 638.535 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "可数名词复数不规则变化（五下必考，需熟记） 无固定规则，直接记原形和复数，以下是五下高频词："
+  }, {
+    "type" : "paragraph",
+    "id" : 340,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 580.31, 195.719, 590.594 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "man→men, woman→women child→children"
+  }, {
+    "type" : "paragraph",
+    "id" : 341,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 532.67, 169.078, 542.954 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "foot→feet, tooth→teeth mouse→mice"
+  }, {
+    "type" : "paragraph",
+    "id" : 342,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 484.91, 274.44, 495.494 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "fish→fish （单复数同形，表 ' 鱼的数量 ' ）"
+  }, {
+    "type" : "paragraph",
+    "id" : 343,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 461.03, 204.48, 471.614 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "sheep→sheep （单复数同形）"
+  }, {
+    "type" : "paragraph",
+    "id" : 344,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 437.27, 277.2, 447.735 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "egg→eggs, noodle→noodles （食物类高频）"
+  }, {
+    "type" : "heading",
+    "id" : 345,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 53.88, 413.391, 152.88, 423.854 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "5. 五下易错点提醒"
+  }, {
+    "type" : "paragraph",
+    "id" : 346,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 365.63, 547.44, 400.094 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "不可数名词永远不能直接加 s/es ， 也不能用数词 （ one/two/three ） 直接修饰， 如： 不能说 two rice ， 要说 two bowls of rice 。"
+  }, {
+    "type" : "paragraph",
+    "id" : 347,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 317.991, 541.475, 352.335 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "'a/an + 单数名词 ' ， 'some/any/many + 复数名词 / 不可数名词 ' ，如： a pen, some pens, some milk 。"
+  }, {
+    "type" : "paragraph",
+    "id" : 348,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 294.11, 547.44, 304.694 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "集体名词： people （人们）、 police （警察），本身表 ' 复数 ' ，不能说 a people ，要说 a person 。"
+  }, {
+    "type" : "image",
+    "id" : 349,
+    "page number" : 3,
+    "bounding box" : [ 52.04, 245.466, 158.194, 288.511 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile6.png"
+  }, {
+    "type" : "heading",
+    "id" : 350,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 53.88, 223.054, 222.478, 233.054 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "一、用所给单词的适当形式填空"
+  }, {
+    "type" : "list",
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 53.88, 103.31, 330.958, 209.294 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 198.71, 330.958, 209.294 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "1.I have two ______ （ egg ） for breakfast every morning.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 174.83, 268.079, 185.414 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "2.There is some ______ （ rice ） in the bowl.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 151.07, 265.078, 161.535 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "3.She wants three ______ （ glass ） of juice.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 127.19, 269.759, 137.654 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "4.I like eating ______ （ noodle ） very much.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.88, 103.31, 299.998, 113.894 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "5.There is a piece of ______ （ bread ） on the table.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 356,
+    "level" : "Doctitle",
+    "page number" : 3,
+    "bounding box" : [ 53.88, 80.014, 126.119, 90.014 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "二、单项选择"
+  }, {
+    "type" : "footer",
+    "id" : 549,
+    "page number" : 3,
+    "bounding box" : [ 53.88, 49.744, 66.824, 51.819 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 560,
+      "page number" : 3,
+      "bounding box" : [ 53.88, 51.064, 66.824, 51.819 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 561,
+      "page number" : 3,
+      "bounding box" : [ 53.88, 49.744, 66.824, 50.499 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 359,
+    "page number" : 4,
+    "bounding box" : [ 52.535, 786.404, 95.03, 801.303 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile7.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 360,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 728.63, 256.956, 762.794 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )1. - Would you like some ______? -Yes, please. It's healthy."
+  }, {
+    "type" : "paragraph",
+    "id" : 361,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 704.87, 94.475, 715.154 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A. apple"
+  }, {
+    "type" : "paragraph",
+    "id" : 362,
+    "page number" : 4,
+    "bounding box" : [ 208.44, 704.87, 244.558, 715.154 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B. milk"
+  }, {
+    "type" : "paragraph",
+    "id" : 364,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 680.99, 281.039, 691.274 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )2. I can see many ______ in the basket."
+  }, {
+    "type" : "paragraph",
+    "id" : 365,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 657.11, 102.395, 667.394 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A. banana"
+  }, {
+    "type" : "paragraph",
+    "id" : 366,
+    "page number" : 4,
+    "bounding box" : [ 210.48, 657.11, 266.675, 667.394 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B. a banana"
+  }, {
+    "type" : "paragraph",
+    "id" : 363,
+    "page number" : 4,
+    "bounding box" : [ 376.44, 704.87, 407.76, 715.154 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C. egg"
+  }, {
+    "type" : "paragraph",
+    "id" : 367,
+    "page number" : 4,
+    "bounding box" : [ 374.759, 657.11, 427.427, 667.394 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C. bananas"
+  }, {
+    "type" : "paragraph",
+    "id" : 368,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 633.23, 416.159, 643.514 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )3. There is a ______ of bread and two ______ of water on the desk."
+  }, {
+    "type" : "paragraph",
+    "id" : 369,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 609.47, 127.067, 619.754 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A. piece; glass"
+  }, {
+    "type" : "paragraph",
+    "id" : 370,
+    "page number" : 4,
+    "bounding box" : [ 211.08, 609.47, 449.027, 619.754 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B. piece; glasses C. pieces; glass"
+  }, {
+    "type" : "paragraph",
+    "id" : 371,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 585.59, 211.716, 595.874 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )4. - Do you like ______?"
+  }, {
+    "type" : "paragraph",
+    "id" : 372,
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 101.88, 561.71, 231.118, 571.994 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-No, I don't. I like chicken."
+  }, {
+    "type" : "paragraph",
+    "id" : 373,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 537.83, 89.518, 548.114 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A. fish"
+  }, {
+    "type" : "paragraph",
+    "id" : 374,
+    "page number" : 4,
+    "bounding box" : [ 215.52, 537.83, 255.838, 548.114 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B. a fish"
+  }, {
+    "type" : "paragraph",
+    "id" : 376,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 514.07, 324.237, 524.354 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )5. She has some ______ for lunch. It's delicious."
+  }, {
+    "type" : "paragraph",
+    "id" : 377,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 490.19, 90.395, 500.474 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A. cake"
+  }, {
+    "type" : "paragraph",
+    "id" : 378,
+    "page number" : 4,
+    "bounding box" : [ 216.48, 490.19, 257.027, 500.474 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B. cakes"
+  }, {
+    "type" : "paragraph",
+    "id" : 375,
+    "page number" : 4,
+    "bounding box" : [ 375.84, 537.83, 412.426, 548.114 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C. fishs"
+  }, {
+    "type" : "paragraph",
+    "id" : 379,
+    "page number" : 4,
+    "bounding box" : [ 377.04, 490.19, 421.355, 500.474 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C. a cake"
+  }, {
+    "type" : "heading",
+    "id" : 380,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 101.0, 449.9, 156.333, 469.9 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "#5 02"
+  }, {
+    "type" : "heading",
+    "id" : 381,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 53.88, 419.135, 114.119, 429.135 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "一般现在时"
+  }, {
+    "type" : "heading",
+    "id" : 382,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 53.88, 394.79, 116.88, 405.254 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1. 核心定义"
+  }, {
+    "type" : "paragraph",
+    "id" : 383,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 347.03, 540.48, 381.494 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "表示经常性、习惯性的动作，客观事实 / 真理，或现阶段的状态 / 喜好，是五下语法核心考 点，常和频度副词连用（ always/usually/often/sometimes/never ）。时间标志词： every day （每"
+  }, {
+    "type" : "paragraph",
+    "id" : 384,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 299.391, 539.758, 333.735 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "天）、 every morning/afternoon/evening （每天早 / 中 / 晚）、 on Sundays （每周日）、 usually （通常）、 often （经常）。"
+  }, {
+    "type" : "paragraph",
+    "id" : 385,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 275.51, 308.88, 286.094 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "一般现在时主语分类（核心考点：人称变化）"
+  }, {
+    "type" : "paragraph",
+    "id" : 386,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 228.335, 537.12, 262.214 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "根据主语不同，动词形式分两种：动词原形 / 动词三单形式（第三人称单数），先明确三类 人称："
+  }, {
+    "type" : "paragraph",
+    "id" : 387,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 203.014, 101.88, 213.014 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "人称分类"
+  }, {
+    "type" : "paragraph",
+    "id" : 388,
+    "page number" : 4,
+    "bounding box" : [ 171.84, 203.014, 219.84, 213.014 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "包含内容"
+  }, {
+    "type" : "paragraph",
+    "id" : 389,
+    "page number" : 4,
+    "bounding box" : [ 471.6, 203.014, 519.6, 213.014 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "动词形式"
+  }, {
+    "type" : "paragraph",
+    "id" : 390,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 177.694, 101.88, 187.694 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "第一人称"
+  }, {
+    "type" : "paragraph",
+    "id" : 391,
+    "page number" : 4,
+    "bounding box" : [ 171.84, 177.11, 285.84, 187.694 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "I （我）、 we （我们）"
+  }, {
+    "type" : "paragraph",
+    "id" : 392,
+    "page number" : 4,
+    "bounding box" : [ 471.6, 177.694, 519.6, 187.694 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "动词原形"
+  }, {
+    "type" : "paragraph",
+    "id" : 393,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 152.254, 101.88, 162.254 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "第二人称"
+  }, {
+    "type" : "paragraph",
+    "id" : 394,
+    "page number" : 4,
+    "bounding box" : [ 171.84, 151.791, 265.2, 162.254 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "you （你 / 你们）"
+  }, {
+    "type" : "paragraph",
+    "id" : 395,
+    "page number" : 4,
+    "bounding box" : [ 471.6, 152.254, 519.6, 162.254 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "动词原形"
+  }, {
+    "type" : "paragraph",
+    "id" : 396,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 126.935, 125.88, 136.935 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "第三人称复数"
+  }, {
+    "type" : "paragraph",
+    "id" : 397,
+    "page number" : 4,
+    "bounding box" : [ 171.84, 126.47, 436.426, 136.935 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "they （他们 / 她们 / 它们）、 the boys 、 my parents"
+  }, {
+    "type" : "paragraph",
+    "id" : 398,
+    "page number" : 4,
+    "bounding box" : [ 471.6, 126.935, 519.6, 136.935 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "动词原形"
+  }, {
+    "type" : "paragraph",
+    "id" : 399,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 101.03, 531.6, 111.614 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "第三人称单数（三单） he （他）、 she （她）、 it （它）、 Tom 、 my mother 、 the cat 动词三单形"
+  }, {
+    "type" : "footer",
+    "id" : 550,
+    "page number" : 4,
+    "bounding box" : [ 53.88, 49.744, 66.824, 51.819 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 562,
+      "page number" : 4,
+      "bounding box" : [ 53.88, 51.064, 66.824, 51.819 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 563,
+      "page number" : 4,
+      "bounding box" : [ 53.88, 49.744, 66.824, 50.499 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 402,
+    "page number" : 5,
+    "bounding box" : [ 52.564, 786.496, 95.021, 801.316 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile8.png"
+  }, {
+    "type" : "heading",
+    "id" : 403,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 53.88, 752.254, 219.84, 762.254 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "人称分类 包含内容"
+  }, {
+    "type" : "paragraph",
+    "id" : 404,
+    "page number" : 5,
+    "bounding box" : [ 471.6, 752.254, 519.6, 762.254 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "动词形式"
+  }, {
+    "type" : "paragraph",
+    "id" : 405,
+    "page number" : 5,
+    "bounding box" : [ 471.6, 726.935, 483.6, 736.935 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "式"
+  }, {
+    "type" : "paragraph",
+    "id" : 406,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 701.03, 464.88, 711.614 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "动词三单形式变化规则（五下必考，和名词复数规则相似，易混淆需区分）"
+  }, {
+    "type" : "paragraph",
+    "id" : 407,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 676.294, 101.88, 686.294 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "变化规则"
+  }, {
+    "type" : "paragraph",
+    "id" : 408,
+    "page number" : 5,
+    "bounding box" : [ 261.48, 676.294, 285.48, 686.294 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "例子"
+  }, {
+    "type" : "paragraph",
+    "id" : 409,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 650.39, 136.548, 660.854 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "直接在词尾加 s"
+  }, {
+    "type" : "paragraph",
+    "id" : 411,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 625.07, 204.468, 635.535 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "以 s, x, sh, ch, o 结尾，加 es"
+  }, {
+    "type" : "paragraph",
+    "id" : 410,
+    "page number" : 5,
+    "bounding box" : [ 261.48, 650.39, 428.627, 660.674 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "like→likes, play→plays, eat→eats pass→passes, watch→watches, go→goes, do→does"
+  }, {
+    "type" : "paragraph",
+    "id" : 412,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 599.63, 440.626, 610.214 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "以辅音字母 + y 结尾，变 y 为 i 加 esstudy→studies, fly→flies, cry→cries"
+  }, {
+    "type" : "paragraph",
+    "id" : 413,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 574.31, 456.587, 584.894 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "以元音字母 + y 结尾，直接加 s play→plays, stay→stays, enjoy→enjoys"
+  }, {
+    "type" : "paragraph",
+    "id" : 414,
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 53.88, 548.991, 332.88, 559.454 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4. 一般现在时四大基本句型（五下重点，会写会变）"
+  }, {
+    "type" : "paragraph",
+    "id" : 415,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 501.814, 541.2, 535.694 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "以动词 like （喜欢） 为例，分实义动词句型（核心）， be 动词（ am/is/are ）句型为基础，一 并梳理："
+  }, {
+    "type" : "paragraph",
+    "id" : 416,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 477.47, 353.759, 487.935 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "（ 1 ）实义动词句型（五下高频： like/eat/drink/play/have ）"
+  }, {
+    "type" : "paragraph",
+    "id" : 417,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 452.03, 547.32, 462.614 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "句型 结构 例句（三单主语： she ） 例句（非三单主语： I ）"
+  }, {
+    "type" : "paragraph",
+    "id" : 418,
+    "page number" : 5,
+    "bounding box" : [ 288.6, 403.414, 537.72, 437.294 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "She likes milk. （她喜欢牛 I like juice. （我喜欢果 汁。）"
+  }, {
+    "type" : "paragraph",
+    "id" : 419,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 403.414, 324.6, 425.294 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "肯定句 主语 + 动词（三单 / 原形） + 其他 奶。）"
+  }, {
+    "type" : "paragraph",
+    "id" : 420,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 354.214, 504.118, 388.094 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "否定句 主语 + don't/doesn't + 动词原形 + 其他 She doesn't like milk. I don't like juice."
+  }, {
+    "type" : "paragraph",
+    "id" : 421,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 328.31, 281.759, 338.894 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "一般疑 Do/Does + 主语 + 动词原形 + 其"
+  }, {
+    "type" : "paragraph",
+    "id" : 424,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 305.014, 125.759, 315.014 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "问句 他？"
+  }, {
+    "type" : "paragraph",
+    "id" : 422,
+    "page number" : 5,
+    "bounding box" : [ 288.6, 316.43, 383.674, 326.714 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Does she like milk?"
+  }, {
+    "type" : "paragraph",
+    "id" : 423,
+    "page number" : 5,
+    "bounding box" : [ 423.359, 316.43, 511.594, 326.714 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Do you like juice?"
+  }, {
+    "type" : "paragraph",
+    "id" : 425,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 255.23, 526.319, 289.694 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "回答 Yes, 主语 + do/does.No, 主语 + don't/doesn't. Yes, she does./No, she doesn't. Yes, I do./No, I don't."
+  }, {
+    "type" : "paragraph",
+    "id" : 426,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 229.91, 217.2, 240.494 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "（ 2 ） be 动词（ am/is/are ）句型"
+  }, {
+    "type" : "paragraph",
+    "id" : 427,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 205.054, 129.6, 215.054 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "句型 结构"
+  }, {
+    "type" : "paragraph",
+    "id" : 429,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 179.27, 229.2, 189.735 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "肯定句 主语 + am/is/are + 其他"
+  }, {
+    "type" : "paragraph",
+    "id" : 431,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 153.83, 270.48, 164.414 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "否定句 主语 + am not/isn't/aren't + 其他"
+  }, {
+    "type" : "paragraph",
+    "id" : 434,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 129.094, 101.88, 139.094 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "一般疑问"
+  }, {
+    "type" : "paragraph",
+    "id" : 435,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 105.214, 251.52, 127.094 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "句 Am/Is/Are + 主语 + 其他？"
+  }, {
+    "type" : "paragraph",
+    "id" : 428,
+    "page number" : 5,
+    "bounding box" : [ 332.88, 204.591, 540.0, 215.054 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "例句（三单： he ）例句（非三单： we ）"
+  }, {
+    "type" : "paragraph",
+    "id" : 430,
+    "page number" : 5,
+    "bounding box" : [ 332.88, 179.27, 508.677, 189.554 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "He is a student. We are students."
+  }, {
+    "type" : "paragraph",
+    "id" : 432,
+    "page number" : 5,
+    "bounding box" : [ 332.88, 153.83, 418.318, 164.114 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "He isn't a student."
+  }, {
+    "type" : "paragraph",
+    "id" : 433,
+    "page number" : 5,
+    "bounding box" : [ 429.959, 153.83, 520.198, 164.114 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "We aren't students."
+  }, {
+    "type" : "paragraph",
+    "id" : 436,
+    "page number" : 5,
+    "bounding box" : [ 332.88, 116.63, 407.194, 126.914 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Is he a student?"
+  }, {
+    "type" : "paragraph",
+    "id" : 437,
+    "page number" : 5,
+    "bounding box" : [ 429.959, 116.63, 516.633, 126.914 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Are you students?"
+  }, {
+    "type" : "paragraph",
+    "id" : 438,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 79.31, 296.844, 89.894 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "回答 Yes, 主语 + am/is/are.No, 主语 + am"
+  }, {
+    "type" : "paragraph",
+    "id" : 439,
+    "page number" : 5,
+    "bounding box" : [ 332.88, 79.31, 525.996, 89.594 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Yes, he is./No, he Yes, we are./No, we"
+  }, {
+    "type" : "footer",
+    "id" : 551,
+    "page number" : 5,
+    "bounding box" : [ 53.88, 49.744, 66.824, 51.819 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 564,
+      "page number" : 5,
+      "bounding box" : [ 53.88, 51.064, 66.824, 51.819 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 565,
+      "page number" : 5,
+      "bounding box" : [ 53.88, 49.744, 66.824, 50.499 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 442,
+    "page number" : 6,
+    "bounding box" : [ 52.551, 786.217, 94.957, 801.273 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile9.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 443,
+    "page number" : 6,
+    "bounding box" : [ 53.88, 752.254, 129.6, 762.254 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "句型 结构"
+  }, {
+    "type" : "paragraph",
+    "id" : 444,
+    "page number" : 6,
+    "bounding box" : [ 332.88, 751.79, 540.0, 762.254 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "例句（三单： he ）例句（非三单： we ）"
+  }, {
+    "type" : "paragraph",
+    "id" : 445,
+    "page number" : 6,
+    "bounding box" : [ 105.6, 726.47, 176.154, 736.754 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "not/isn't/aren't."
+  }, {
+    "type" : "paragraph",
+    "id" : 446,
+    "page number" : 6,
+    "bounding box" : [ 332.88, 726.47, 355.318, 736.754 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "isn't."
+  }, {
+    "type" : "paragraph",
+    "id" : 447,
+    "page number" : 6,
+    "bounding box" : [ 429.959, 726.47, 459.117, 736.754 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "aren't."
+  }, {
+    "type" : "heading",
+    "id" : 448,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 53.88, 701.03, 198.12, 711.614 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "5. 五下高频考点 & 易错点"
+  }, {
+    "type" : "paragraph",
+    "id" : 449,
+    "page number" : 6,
+    "bounding box" : [ 53.88, 677.27, 131.88, 687.735 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "（ 1 ）高频考点"
+  }, {
+    "type" : "paragraph",
+    "id" : 450,
+    "page number" : 6,
+    "bounding box" : [ 53.88, 653.39, 474.358, 663.854 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "结合食物 / 饮品 / 日常活动考动词三单，如： My father drinks tea every morning."
+  }, {
+    "type" : "paragraph",
+    "id" : 451,
+    "page number" : 6,
+    "bounding box" : [ 53.88, 605.63, 536.483, 640.094 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "特殊疑问句： What+do/does + 主语 + 动词原形 + 其他？ ，如： What do you eat for lunch? / What does she drink for breakfast?"
+  }, {
+    "type" : "paragraph",
+    "id" : 452,
+    "page number" : 6,
+    "bounding box" : [ 53.88, 557.991, 525.394, 592.335 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "喜好表达： Do/Does + 主语 + like + 名词 /doing ？ ，如： Do you like apples? / Does he like playing football?"
+  }, {
+    "type" : "paragraph",
+    "id" : 453,
+    "page number" : 6,
+    "bounding box" : [ 53.88, 534.11, 143.88, 544.694 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "（ 2 ）必避易错点"
+  }, {
+    "type" : "paragraph",
+    "id" : 454,
+    "page number" : 6,
+    "bounding box" : [ 53.88, 510.23, 379.679, 520.814 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "三单主语漏变动词：错误 →He like bread. 正确 →He likes bread."
+  }, {
+    "type" : "paragraph",
+    "id" : 455,
+    "page number" : 6,
+    "bounding box" : [ 53.88, 463.054, 541.427, 496.935 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "否定句 / 疑问句误用动词三单：错误 →Does she likes milk? 正确 →Does she like milk? （ do/does 后必须用动词原形）"
+  }, {
+    "type" : "paragraph",
+    "id" : 456,
+    "page number" : 6,
+    "bounding box" : [ 53.88, 414.83, 541.319, 449.294 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "混淆名词复数和动词三单：名词复数是名词 + s/es （表数量），动词三单是动词 + s/es （表三 单主语），如： The girl likes red apples. （ likes 是动词三单， apples 是名词复数）"
+  }, {
+    "type" : "paragraph",
+    "id" : 457,
+    "page number" : 6,
+    "bounding box" : [ 53.88, 367.191, 541.437, 401.535 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "频度副词 （ usually/often ） 位置： 放在 be 动词后， 实义动词前， 如： She is always late. / She usually gets up early."
+  }, {
+    "type" : "image",
+    "id" : 458,
+    "page number" : 6,
+    "bounding box" : [ 52.281, 319.116, 156.48, 360.801 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile10.png"
+  }, {
+    "type" : "heading",
+    "id" : 459,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 53.88, 296.135, 246.597, 306.135 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "一、用括号内单词的正确形式填空。"
+  }, {
+    "type" : "list",
+    "level" : "2",
+    "page number" : 6,
+    "bounding box" : [ 53.88, 152.51, 336.717, 282.254 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 6,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 271.791, 336.717, 282.254 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "1.My mother ______ （ like ） drinking tea every afternoon.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 247.91, 230.038, 258.494 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "2.I ______ （ not like ） sour oranges.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 224.03, 335.673, 234.614 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "3.What ______ your father ______ （ have ） for breakfast?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 200.27, 237.478, 210.735 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "4.He ______ （ have ） bread and milk.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 176.391, 285.48, 186.854 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "5.They ______ （ eat ） rice for dinner every day.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.88, 152.51, 312.48, 163.094 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "6.My sister ______ （ want ） to drink some juice now.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 466,
+    "level" : "Doctitle",
+    "page number" : 6,
+    "bounding box" : [ 53.88, 129.214, 138.119, 139.214 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "二、单项选择。"
+  }, {
+    "type" : "paragraph",
+    "id" : 467,
+    "page number" : 6,
+    "bounding box" : [ 53.88, 104.87, 272.555, 115.154 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( ) 1. - What ______ you like for lunch?"
+  }, {
+    "type" : "paragraph",
+    "id" : 468,
+    "level" : "3",
+    "page number" : 6,
+    "bounding box" : [ 101.88, 80.991, 196.079, 91.275 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-I like rice and fish."
+  }, {
+    "type" : "footer",
+    "id" : 552,
+    "page number" : 6,
+    "bounding box" : [ 53.88, 49.744, 66.824, 51.819 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 566,
+      "page number" : 6,
+      "bounding box" : [ 53.88, 51.064, 66.824, 51.819 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 567,
+      "page number" : 6,
+      "bounding box" : [ 53.88, 49.744, 66.824, 50.499 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 471,
+    "page number" : 7,
+    "bounding box" : [ 52.606, 786.272, 95.021, 801.249 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile11.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 472,
+    "page number" : 7,
+    "bounding box" : [ 101.88, 752.51, 128.52, 762.794 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "do"
+  }, {
+    "type" : "paragraph",
+    "id" : 473,
+    "page number" : 7,
+    "bounding box" : [ 242.52, 752.51, 278.388, 762.794 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "does"
+  }, {
+    "type" : "paragraph",
+    "id" : 475,
+    "page number" : 7,
+    "bounding box" : [ 53.88, 728.63, 285.358, 738.914 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )2. Tom ______ like milk. He likes juice."
+  }, {
+    "type" : "paragraph",
+    "id" : 476,
+    "page number" : 7,
+    "bounding box" : [ 101.88, 704.87, 139.884, 715.154 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "don't"
+  }, {
+    "type" : "paragraph",
+    "id" : 477,
+    "page number" : 7,
+    "bounding box" : [ 242.04, 704.87, 289.402, 715.154 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "doesn't"
+  }, {
+    "type" : "paragraph",
+    "id" : 479,
+    "page number" : 7,
+    "bounding box" : [ 53.88, 680.99, 57.876, 691.274 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "("
+  }, {
+    "type" : "paragraph",
+    "id" : 480,
+    "page number" : 7,
+    "bounding box" : [ 87.84, 680.99, 302.998, 691.274 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ")3. My brother ______ bread every morning."
+  }, {
+    "type" : "paragraph",
+    "id" : 481,
+    "page number" : 7,
+    "bounding box" : [ 101.88, 657.11, 130.403, 667.394 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "eat"
+  }, {
+    "type" : "paragraph",
+    "id" : 482,
+    "page number" : 7,
+    "bounding box" : [ 244.44, 657.11, 277.067, 667.394 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "eats"
+  }, {
+    "type" : "paragraph",
+    "id" : 474,
+    "page number" : 7,
+    "bounding box" : [ 398.52, 752.51, 426.995, 762.794 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "are"
+  }, {
+    "type" : "paragraph",
+    "id" : 478,
+    "page number" : 7,
+    "bounding box" : [ 397.44, 704.87, 430.883, 715.154 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "isn't"
+  }, {
+    "type" : "paragraph",
+    "id" : 483,
+    "page number" : 7,
+    "bounding box" : [ 397.2, 657.11, 440.398, 667.394 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "eating"
+  }, {
+    "type" : "paragraph",
+    "id" : 484,
+    "page number" : 7,
+    "bounding box" : [ 53.88, 633.23, 274.955, 643.514 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )4. - Does your sister like sweet cakes?"
+  }, {
+    "type" : "paragraph",
+    "id" : 485,
+    "level" : "4",
+    "page number" : 7,
+    "bounding box" : [ 89.88, 609.47, 246.357, 619.754 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-______. She likes sour oranges."
+  }, {
+    "type" : "paragraph",
+    "id" : 486,
+    "page number" : 7,
+    "bounding box" : [ 89.88, 585.59, 168.468, 595.874 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Yes, she does"
+  }, {
+    "type" : "paragraph",
+    "id" : 487,
+    "page number" : 7,
+    "bounding box" : [ 246.48, 585.59, 323.603, 595.874 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "No, she don't"
+  }, {
+    "type" : "paragraph",
+    "id" : 488,
+    "page number" : 7,
+    "bounding box" : [ 395.64, 585.59, 482.723, 595.874 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "No, she doesn't"
+  }, {
+    "type" : "paragraph",
+    "id" : 489,
+    "page number" : 7,
+    "bounding box" : [ 53.88, 561.71, 386.278, 571.994 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )5. We ______ have breakfast at seven o'clock every morning."
+  }, {
+    "type" : "paragraph",
+    "id" : 490,
+    "page number" : 7,
+    "bounding box" : [ 89.88, 537.83, 139.198, 548.114 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "usually"
+  }, {
+    "type" : "paragraph",
+    "id" : 491,
+    "page number" : 7,
+    "bounding box" : [ 247.2, 537.83, 269.147, 548.114 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "is"
+  }, {
+    "type" : "paragraph",
+    "id" : 492,
+    "page number" : 7,
+    "bounding box" : [ 401.159, 537.83, 437.148, 548.114 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "does"
+  }, {
+    "type" : "footer",
+    "id" : 553,
+    "page number" : 7,
+    "bounding box" : [ 53.88, 49.744, 66.824, 51.819 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 568,
+      "page number" : 7,
+      "bounding box" : [ 53.88, 51.064, 66.824, 51.819 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 569,
+      "page number" : 7,
+      "bounding box" : [ 53.88, 49.744, 66.824, 50.499 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 495,
+    "page number" : 8,
+    "bounding box" : [ 52.525, 786.316, 94.91, 801.376 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile12.png"
+  }, {
+    "type" : "heading",
+    "id" : 496,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 265.44, 747.555, 329.629, 760.224 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "参考答案"
+  }, {
+    "type" : "heading",
+    "id" : 497,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 53.88, 721.294, 150.239, 731.294 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "(1) 名词的单复数"
+  }, {
+    "type" : "paragraph",
+    "id" : 498,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 697.414, 221.88, 707.414 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "一、用所给单词的适当形式填空"
+  }, {
+    "type" : "paragraph",
+    "id" : 499,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 673.07, 84.828, 683.354 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1.eggs"
+  }, {
+    "type" : "paragraph",
+    "id" : 500,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 649.19, 351.107, 659.654 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析：数词 two 后接可数名词复数， egg 的复数是 eggs"
+  }, {
+    "type" : "paragraph",
+    "id" : 501,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 625.31, 80.795, 635.594 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2.rice"
+  }, {
+    "type" : "paragraph",
+    "id" : 502,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 601.43, 337.2, 612.014 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： rice 是不可数名词， some 后接不可数名词原形"
+  }, {
+    "type" : "paragraph",
+    "id" : 503,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 577.67, 96.826, 587.954 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "3.glasses"
+  }, {
+    "type" : "paragraph",
+    "id" : 504,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 553.79, 375.705, 564.254 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析：数词 three 后接可数名词复数， glass 的复数是 glasses"
+  }, {
+    "type" : "paragraph",
+    "id" : 505,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 529.91, 100.187, 540.194 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4.noodles"
+  }, {
+    "type" : "paragraph",
+    "id" : 506,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 506.03, 315.827, 516.614 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： noodle 为可数名词，常用复数形式 noodles"
+  }, {
+    "type" : "paragraph",
+    "id" : 507,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 482.27, 89.399, 492.554 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "5.bread"
+  }, {
+    "type" : "paragraph",
+    "id" : 508,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 458.391, 367.08, 468.854 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： bread 是不可数名词， a piece of 后接不可数名词原形"
+  }, {
+    "type" : "paragraph",
+    "id" : 509,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 435.094, 125.88, 445.094 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "二、单项选择"
+  }, {
+    "type" : "paragraph",
+    "id" : 510,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 410.63, 70.872, 420.914 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1.B"
+  }, {
+    "type" : "paragraph",
+    "id" : 511,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 363.454, 541.44, 397.335 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： some 后接不可数名词或可数名词复数， milk 为不可数名词， apple 和 egg 是可数名词 单数"
+  }, {
+    "type" : "paragraph",
+    "id" : 512,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 339.11, 70.872, 349.394 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2.C"
+  }, {
+    "type" : "paragraph",
+    "id" : 513,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 315.23, 362.987, 325.814 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： many 后接可数名词复数， banana 的复数是 bananas"
+  }, {
+    "type" : "paragraph",
+    "id" : 514,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 291.47, 70.872, 301.754 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "3.B"
+  }, {
+    "type" : "paragraph",
+    "id" : 515,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 267.591, 469.786, 278.054 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： a piece of （一片 / 块）， two glasses of （两杯）， glass 的复数是 glasses"
+  }, {
+    "type" : "paragraph",
+    "id" : 516,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 243.71, 71.544, 253.994 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4.A"
+  }, {
+    "type" : "paragraph",
+    "id" : 517,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 219.83, 353.88, 230.414 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： fish 表示 '鱼肉' 时是不可数名词，无复数形式"
+  }, {
+    "type" : "paragraph",
+    "id" : 518,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 196.07, 70.872, 206.354 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "5.B"
+  }, {
+    "type" : "paragraph",
+    "id" : 519,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 148.31, 545.159, 182.654 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： some 后接可数名词复数或不可数名词， cake 表示 '一块块的蛋糕' 时是可数名词， 用复数 cakes"
+  }, {
+    "type" : "heading",
+    "id" : 520,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 53.88, 124.308, 128.039, 135.014 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "(2) 一般现在时"
+  }, {
+    "type" : "paragraph",
+    "id" : 521,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 101.135, 233.88, 111.135 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "一、用括号内单词的正确形式填空"
+  }, {
+    "type" : "paragraph",
+    "id" : 522,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 76.791, 85.547, 87.075 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1.likes"
+  }, {
+    "type" : "footer",
+    "id" : 554,
+    "page number" : 8,
+    "bounding box" : [ 53.88, 49.744, 66.824, 51.819 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 570,
+      "page number" : 8,
+      "bounding box" : [ 53.88, 51.064, 66.824, 51.819 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 571,
+      "page number" : 8,
+      "bounding box" : [ 53.88, 49.744, 66.824, 50.499 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 525,
+    "page number" : 9,
+    "bounding box" : [ 52.499, 786.355, 94.984, 801.323 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile13.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 526,
+    "page number" : 9,
+    "bounding box" : [ 53.88, 752.51, 458.867, 763.094 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析：主语 my mother 是第三人称单数，一般现在时中动词用三单形式 likes"
+  }, {
+    "type" : "paragraph",
+    "id" : 527,
+    "page number" : 9,
+    "bounding box" : [ 53.88, 728.63, 107.315, 738.914 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2.don't like"
+  }, {
+    "type" : "paragraph",
+    "id" : 528,
+    "page number" : 9,
+    "bounding box" : [ 53.88, 704.87, 349.08, 715.335 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析：主语 I ，一般现在时否定形式用 don't + 动词原形"
+  }, {
+    "type" : "paragraph",
+    "id" : 529,
+    "page number" : 9,
+    "bounding box" : [ 53.88, 680.99, 136.068, 691.274 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "3.does; have; has"
+  }, {
+    "type" : "paragraph",
+    "id" : 530,
+    "page number" : 9,
+    "bounding box" : [ 53.88, 657.11, 541.44, 667.694 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析：主语 your father 是第三人称单数，特殊疑问句用助动词 does ，后接动词原形 have ；答"
+  }, {
+    "type" : "paragraph",
+    "id" : 531,
+    "page number" : 9,
+    "bounding box" : [ 53.88, 633.23, 267.107, 643.814 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "句主语 he 是第三人称单数，动词用 has"
+  }, {
+    "type" : "paragraph",
+    "id" : 532,
+    "page number" : 9,
+    "bounding box" : [ 53.88, 609.47, 76.763, 619.754 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4.eat"
+  }, {
+    "type" : "paragraph",
+    "id" : 533,
+    "page number" : 9,
+    "bounding box" : [ 53.88, 585.59, 326.52, 596.054 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析：主语 they 是复数，一般现在时中动词用原形"
+  }, {
+    "type" : "paragraph",
+    "id" : 534,
+    "page number" : 9,
+    "bounding box" : [ 53.88, 561.71, 90.827, 571.994 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "5.wants"
+  }, {
+    "type" : "paragraph",
+    "id" : 535,
+    "page number" : 9,
+    "bounding box" : [ 53.88, 537.83, 455.387, 548.414 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析：主语 my sister 是第三人称单数，一般现在时中动词用三单形式 wants"
+  }, {
+    "type" : "paragraph",
+    "id" : 536,
+    "page number" : 9,
+    "bounding box" : [ 53.88, 514.535, 125.88, 524.535 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "二、单项选择"
+  }, {
+    "type" : "paragraph",
+    "id" : 537,
+    "page number" : 9,
+    "bounding box" : [ 53.88, 490.19, 71.544, 500.474 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1.A"
+  }, {
+    "type" : "paragraph",
+    "id" : 538,
+    "page number" : 9,
+    "bounding box" : [ 53.88, 466.31, 347.88, 476.894 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析：主语 you ，一般现在时的特殊疑问句用助动词 do"
+  }, {
+    "type" : "paragraph",
+    "id" : 539,
+    "page number" : 9,
+    "bounding box" : [ 53.88, 442.43, 70.872, 452.714 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2.B"
+  }, {
+    "type" : "paragraph",
+    "id" : 540,
+    "page number" : 9,
+    "bounding box" : [ 53.88, 418.67, 402.923, 429.135 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析：主语 Tom 是第三人称单数，一般现在时否定形式用 doesn't"
+  }, {
+    "type" : "paragraph",
+    "id" : 541,
+    "page number" : 9,
+    "bounding box" : [ 53.88, 394.79, 70.872, 405.074 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "3.B"
+  }, {
+    "type" : "paragraph",
+    "id" : 542,
+    "page number" : 9,
+    "bounding box" : [ 53.88, 347.03, 455.387, 381.494 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析：主语 my brother 是第三人称单数，一般现在时中动词用三单形式 eats 4.C"
+  }, {
+    "type" : "paragraph",
+    "id" : 543,
+    "page number" : 9,
+    "bounding box" : [ 53.88, 299.391, 495.202, 333.735 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析：一般疑问句的否定回答，主语 your sister 是第三人称单数，用 No, she doesn't 5.A"
+  }, {
+    "type" : "paragraph",
+    "id" : 544,
+    "page number" : 9,
+    "bounding box" : [ 53.88, 275.51, 505.8, 286.094 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： usually 是频度副词，可修饰动词 have ； is 和 does 不能与实义动词 have 连用"
+  }, {
+    "type" : "footer",
+    "id" : 555,
+    "page number" : 9,
+    "bounding box" : [ 53.88, 49.744, 66.824, 51.819 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 572,
+      "page number" : 9,
+      "bounding box" : [ 53.88, 51.064, 66.824, 51.819 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 573,
+      "page number" : 9,
+      "bounding box" : [ 53.88, 49.744, 66.824, 50.499 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  } ]
+}

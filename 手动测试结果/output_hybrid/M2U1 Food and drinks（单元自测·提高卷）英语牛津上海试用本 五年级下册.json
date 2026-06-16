@@ -1,0 +1,2379 @@
+{
+  "file name" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册.pdf",
+  "number of pages" : 6,
+  "author" : "Jane",
+  "title" : "",
+  "creation date" : "D:20260413235421+08'00'",
+  "modification date" : "D:20260413235421+08'00'",
+  "kids" : [ {
+    "type" : "heading",
+    "id" : 239,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 54.0, 748.892, 532.319, 762.155 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "M2U1 Food and drinks （单元自测 · 提高卷）牛津上海试用本 五年级下册"
+  }, {
+    "type" : "paragraph",
+    "id" : 240,
+    "page number" : 1,
+    "bounding box" : [ 195.6, 723.47, 399.6, 734.054 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "（建议用时： 60 分钟 满分： 100 分）"
+  }, {
+    "type" : "table",
+    "id" : 241,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 62.466, 616.199, 531.667, 715.306 ],
+    "number of rows" : 3,
+    "number of columns" : 14,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 62.466, 682.271, 95.981, 715.306 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 197,
+          "page number" : 1,
+          "bounding box" : [ 62.466, 682.271, 95.981, 715.306 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "题"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 95.981, 682.271, 196.524, 715.306 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 3,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 198,
+          "page number" : 1,
+          "bounding box" : [ 95.981, 682.271, 196.524, 715.306 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Part 1"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 129.495, 682.271, 163.009, 715.306 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 163.009, 682.271, 196.524, 715.306 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 196.524, 682.271, 498.153, 715.306 ],
+        "row number" : 1,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 9,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 199,
+          "page number" : 1,
+          "bounding box" : [ 196.524, 682.271, 498.153, 715.306 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Part 2"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 230.038, 682.271, 263.552, 715.306 ],
+        "row number" : 1,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 263.552, 682.271, 297.067, 715.306 ],
+        "row number" : 1,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 297.067, 682.271, 330.581, 715.306 ],
+        "row number" : 1,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 330.581, 682.271, 364.095, 715.306 ],
+        "row number" : 1,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 364.095, 682.271, 397.61, 715.306 ],
+        "row number" : 1,
+        "column number" : 10,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 397.61, 682.271, 431.124, 715.306 ],
+        "row number" : 1,
+        "column number" : 11,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 431.124, 682.271, 464.638, 715.306 ],
+        "row number" : 1,
+        "column number" : 12,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 464.638, 682.271, 498.153, 715.306 ],
+        "row number" : 1,
+        "column number" : 13,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 498.153, 682.271, 531.667, 715.306 ],
+        "row number" : 1,
+        "column number" : 14,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 200,
+          "page number" : 1,
+          "bounding box" : [ 498.153, 682.271, 531.667, 715.306 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "总分"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 62.466, 649.235, 95.981, 682.271 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 201,
+          "page number" : 1,
+          "bounding box" : [ 62.466, 649.235, 95.981, 682.271 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "号"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 95.981, 649.235, 129.495, 682.271 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 202,
+          "level" : "1",
+          "page number" : 1,
+          "bounding box" : [ 95.981, 649.235, 129.495, 682.271 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Ⅰ"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 129.495, 649.235, 163.009, 682.271 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 203,
+          "level" : "1",
+          "page number" : 1,
+          "bounding box" : [ 129.495, 649.235, 163.009, 682.271 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Ⅱ"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 163.009, 649.235, 196.524, 682.271 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 204,
+          "level" : "1",
+          "page number" : 1,
+          "bounding box" : [ 163.009, 649.235, 196.524, 682.271 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Ⅲ"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 196.524, 649.235, 230.038, 682.271 ],
+        "row number" : 2,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 205,
+          "level" : "1",
+          "page number" : 1,
+          "bounding box" : [ 196.524, 649.235, 230.038, 682.271 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Ⅰ"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 230.038, 649.235, 263.552, 682.271 ],
+        "row number" : 2,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 206,
+          "level" : "1",
+          "page number" : 1,
+          "bounding box" : [ 230.038, 649.235, 263.552, 682.271 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Ⅱ"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 263.552, 649.235, 297.067, 682.271 ],
+        "row number" : 2,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 207,
+          "level" : "1",
+          "page number" : 1,
+          "bounding box" : [ 263.552, 649.235, 297.067, 682.271 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Ⅲ"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 297.067, 649.235, 330.581, 682.271 ],
+        "row number" : 2,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 208,
+          "level" : "1",
+          "page number" : 1,
+          "bounding box" : [ 297.067, 649.235, 330.581, 682.271 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Ⅳ"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 330.581, 649.235, 364.095, 682.271 ],
+        "row number" : 2,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 209,
+          "level" : "1",
+          "page number" : 1,
+          "bounding box" : [ 330.581, 649.235, 364.095, 682.271 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Ⅴ"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 364.095, 649.235, 397.61, 682.271 ],
+        "row number" : 2,
+        "column number" : 10,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 210,
+          "level" : "1",
+          "page number" : 1,
+          "bounding box" : [ 364.095, 649.235, 397.61, 682.271 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Ⅵ"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 397.61, 649.235, 431.124, 682.271 ],
+        "row number" : 2,
+        "column number" : 11,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 211,
+          "level" : "1",
+          "page number" : 1,
+          "bounding box" : [ 397.61, 649.235, 431.124, 682.271 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Ⅶ"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 431.124, 649.235, 464.638, 682.271 ],
+        "row number" : 2,
+        "column number" : 12,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 212,
+          "level" : "1",
+          "page number" : 1,
+          "bounding box" : [ 431.124, 649.235, 464.638, 682.271 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Ⅷ"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 464.638, 649.235, 498.153, 682.271 ],
+        "row number" : 2,
+        "column number" : 13,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 213,
+          "level" : "1",
+          "page number" : 1,
+          "bounding box" : [ 464.638, 649.235, 498.153, 682.271 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "Ⅸ"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 498.153, 649.235, 531.667, 682.271 ],
+        "row number" : 2,
+        "column number" : 14,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 62.466, 616.199, 95.981, 649.235 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 214,
+          "page number" : 1,
+          "bounding box" : [ 62.466, 616.199, 95.981, 649.235 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "得 分"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 95.981, 616.199, 129.495, 649.235 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 129.495, 616.199, 163.009, 649.235 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 163.009, 616.199, 196.524, 649.235 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 196.524, 616.199, 230.038, 649.235 ],
+        "row number" : 3,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 230.038, 616.199, 263.552, 649.235 ],
+        "row number" : 3,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 263.552, 616.199, 297.067, 649.235 ],
+        "row number" : 3,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 297.067, 616.199, 330.581, 649.235 ],
+        "row number" : 3,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 330.581, 616.199, 364.095, 649.235 ],
+        "row number" : 3,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 364.095, 616.199, 397.61, 649.235 ],
+        "row number" : 3,
+        "column number" : 10,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 397.61, 616.199, 431.124, 649.235 ],
+        "row number" : 3,
+        "column number" : 11,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 431.124, 616.199, 464.638, 649.235 ],
+        "row number" : 3,
+        "column number" : 12,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 464.638, 616.199, 498.153, 649.235 ],
+        "row number" : 3,
+        "column number" : 13,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      }, {
+        "type" : "table cell",
+        "page number" : 1,
+        "bounding box" : [ 498.153, 616.199, 531.667, 649.235 ],
+        "row number" : 3,
+        "column number" : 14,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ ]
+      } ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 242,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 219.6, 599.208, 375.61, 611.687 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Part 1 Listening （ 30 分）"
+  }, {
+    "type" : "heading",
+    "id" : 243,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 54.0, 574.429, 413.878, 585.135 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ⅰ.Listen and choose( 请听录音，选出与你所听内容相符的选项。 )10%"
+  }, {
+    "type" : "paragraph",
+    "id" : 244,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 551.151, 162.825, 561.735 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( ) 1. A ． candies"
+  }, {
+    "type" : "paragraph",
+    "id" : 245,
+    "page number" : 1,
+    "bounding box" : [ 240.959, 551.151, 311.506, 561.735 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． vegetables"
+  }, {
+    "type" : "paragraph",
+    "id" : 246,
+    "page number" : 1,
+    "bounding box" : [ 389.64, 551.151, 434.865, 561.735 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． fruits"
+  }, {
+    "type" : "paragraph",
+    "id" : 247,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 527.87, 149.639, 538.454 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( ) 2. A ． soup"
+  }, {
+    "type" : "paragraph",
+    "id" : 248,
+    "page number" : 1,
+    "bounding box" : [ 239.64, 527.87, 282.994, 538.454 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． juice"
+  }, {
+    "type" : "paragraph",
+    "id" : 249,
+    "page number" : 1,
+    "bounding box" : [ 390.959, 527.87, 437.555, 538.454 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． water"
+  }, {
+    "type" : "paragraph",
+    "id" : 250,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 504.47, 169.199, 515.054 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( ) 3. A ． fast food"
+  }, {
+    "type" : "paragraph",
+    "id" : 251,
+    "page number" : 1,
+    "bounding box" : [ 241.32, 504.47, 307.559, 515.054 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． junk food"
+  }, {
+    "type" : "paragraph",
+    "id" : 252,
+    "page number" : 1,
+    "bounding box" : [ 391.68, 504.47, 471.959, 515.054 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． healthy food"
+  }, {
+    "type" : "paragraph",
+    "id" : 253,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 481.07, 198.827, 491.654 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( ) 4. A ． bread and eggs"
+  }, {
+    "type" : "paragraph",
+    "id" : 256,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 457.79, 153.514, 468.374 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( ) 5. A ． water"
+  }, {
+    "type" : "paragraph",
+    "id" : 254,
+    "page number" : 1,
+    "bounding box" : [ 240.959, 481.07, 325.523, 491.654 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． rice and meat"
+  }, {
+    "type" : "paragraph",
+    "id" : 257,
+    "page number" : 1,
+    "bounding box" : [ 237.6, 457.79, 279.718, 468.374 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． milk"
+  }, {
+    "type" : "paragraph",
+    "id" : 255,
+    "page number" : 1,
+    "bounding box" : [ 391.559, 481.07, 495.514, 491.654 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． noodles and juice"
+  }, {
+    "type" : "paragraph",
+    "id" : 258,
+    "page number" : 1,
+    "bounding box" : [ 387.6, 457.79, 430.954, 468.374 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． juice"
+  }, {
+    "type" : "heading",
+    "id" : 259,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 54.0, 434.388, 421.68, 445.094 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ⅱ.Listen and choose( 听录音，选择与所听食材 / 饮品相符的图片。 )10%"
+  }, {
+    "type" : "paragraph",
+    "id" : 260,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 412.07, 317.075, 422.354 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( ) 1. What kind of drink does Mum want to buy?"
+  }, {
+    "type" : "paragraph",
+    "id" : 264,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 362.63, 74.64, 373.214 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ．"
+  }, {
+    "type" : "image",
+    "id" : 261,
+    "page number" : 1,
+    "bounding box" : [ 83.616, 339.999, 125.77, 397.251 ],
+    "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile4.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 265,
+    "page number" : 1,
+    "bounding box" : [ 218.64, 362.63, 238.68, 373.214 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ．"
+  }, {
+    "type" : "image",
+    "id" : 262,
+    "page number" : 1,
+    "bounding box" : [ 251.694, 337.098, 300.121, 401.615 ],
+    "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile1.png"
+  }, {
+    "type" : "image",
+    "id" : 263,
+    "page number" : 1,
+    "bounding box" : [ 409.078, 337.968, 464.765, 400.202 ],
+    "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile7.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 266,
+    "page number" : 1,
+    "bounding box" : [ 386.64, 362.63, 406.68, 373.214 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ．"
+  }, {
+    "type" : "paragraph",
+    "id" : 267,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 312.47, 331.114, 322.754 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( ) 2. How many tomatoes does Lele need for salad?"
+  }, {
+    "type" : "image",
+    "id" : 268,
+    "page number" : 1,
+    "bounding box" : [ 78.385, 247.312, 146.54, 298.6 ],
+    "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile5.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 271,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 266.151, 74.64, 276.735 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ．"
+  }, {
+    "type" : "paragraph",
+    "id" : 272,
+    "page number" : 1,
+    "bounding box" : [ 214.68, 266.151, 234.6, 276.735 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ．"
+  }, {
+    "type" : "image",
+    "id" : 269,
+    "page number" : 1,
+    "bounding box" : [ 241.051, 241.364, 325.007, 301.656 ],
+    "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile2.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 274,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 219.11, 276.634, 229.394 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( ) 3. What food does Wenbo ask to buy?"
+  }, {
+    "type" : "paragraph",
+    "id" : 278,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 171.71, 74.64, 182.294 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ．"
+  }, {
+    "type" : "image",
+    "id" : 275,
+    "page number" : 1,
+    "bounding box" : [ 80.369, 148.883, 141.891, 208.264 ],
+    "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile6.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 279,
+    "page number" : 1,
+    "bounding box" : [ 212.64, 171.71, 232.68, 182.294 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ．"
+  }, {
+    "type" : "image",
+    "id" : 276,
+    "page number" : 1,
+    "bounding box" : [ 239.006, 145.952, 277.185, 210.318 ],
+    "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile3.png"
+  }, {
+    "type" : "image",
+    "id" : 270,
+    "page number" : 1,
+    "bounding box" : [ 405.132, 242.652, 474.331, 302.853 ],
+    "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile8.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 273,
+    "page number" : 1,
+    "bounding box" : [ 382.68, 266.151, 402.6, 276.735 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ．"
+  }, {
+    "type" : "image",
+    "id" : 277,
+    "page number" : 1,
+    "bounding box" : [ 401.382, 148.577, 448.872, 208.417 ],
+    "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile9.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 280,
+    "page number" : 1,
+    "bounding box" : [ 380.64, 171.71, 400.68, 182.294 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ．"
+  }, {
+    "type" : "paragraph",
+    "id" : 281,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 123.591, 390.395, 133.875 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( ) 4. Which vegetable is not available in the supermarket today?"
+  }, {
+    "type" : "footer",
+    "id" : 459,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 49.864, 66.944, 51.819 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 465,
+      "page number" : 1,
+      "bounding box" : [ 54.0, 51.064, 66.944, 51.819 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 466,
+      "page number" : 1,
+      "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 284,
+    "page number" : 2,
+    "bounding box" : [ 53.993, 775.594, 95.874, 787.953 ],
+    "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile10.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 288,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 712.91, 74.64, 723.494 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ．"
+  }, {
+    "type" : "image",
+    "id" : 286,
+    "page number" : 2,
+    "bounding box" : [ 83.547, 690.352, 128.268, 749.573 ],
+    "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile11.png"
+  }, {
+    "type" : "image",
+    "id" : 287,
+    "page number" : 2,
+    "bounding box" : [ 219.028, 693.739, 289.852, 747.624 ],
+    "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile13.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 289,
+    "page number" : 2,
+    "bounding box" : [ 200.64, 712.91, 220.68, 723.494 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ．"
+  }, {
+    "type" : "image",
+    "id" : 285,
+    "page number" : 2,
+    "bounding box" : [ 403.395, 674.214, 450.198, 764.489 ],
+    "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile15.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 290,
+    "page number" : 2,
+    "bounding box" : [ 379.68, 712.91, 399.6, 723.494 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ．"
+  }, {
+    "type" : "paragraph",
+    "id" : 291,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 650.751, 250.954, 661.035 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( ) 5. What do they buy for dessert?"
+  }, {
+    "type" : "paragraph",
+    "id" : 295,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 603.951, 74.64, 614.535 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ．"
+  }, {
+    "type" : "image",
+    "id" : 293,
+    "page number" : 2,
+    "bounding box" : [ 89.062, 583.769, 154.022, 638.264 ],
+    "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile12.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 296,
+    "page number" : 2,
+    "bounding box" : [ 200.64, 603.951, 220.68, 614.535 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ．"
+  }, {
+    "type" : "image",
+    "id" : 292,
+    "page number" : 2,
+    "bounding box" : [ 228.492, 578.346, 301.177, 644.081 ],
+    "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile14.png"
+  }, {
+    "type" : "image",
+    "id" : 294,
+    "page number" : 2,
+    "bounding box" : [ 407.264, 580.54, 441.511, 641.675 ],
+    "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile16.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 297,
+    "page number" : 2,
+    "bounding box" : [ 386.64, 603.951, 406.68, 614.535 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ．"
+  }, {
+    "type" : "heading",
+    "id" : 298,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 54.0, 555.229, 347.159, 565.935 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ⅲ.Listen and number.( 听录音，给下列句子排序。 )10%"
+  }, {
+    "type" : "paragraph",
+    "id" : 299,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 532.91, 255.119, 543.194 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( ) I'd like a sandwich and some tea."
+  }, {
+    "type" : "paragraph",
+    "id" : 300,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 512.27, 233.675, 522.554 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( ) What's your favourite drink?"
+  }, {
+    "type" : "paragraph",
+    "id" : 301,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 491.51, 241.715, 501.794 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( ) What would you like to drink?"
+  }, {
+    "type" : "paragraph",
+    "id" : 302,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 470.87, 280.079, 481.154 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( ) We have beef noodles and salad today."
+  }, {
+    "type" : "paragraph",
+    "id" : 303,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 450.11, 225.239, 460.394 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( ) Salad is my favourite food."
+  }, {
+    "type" : "heading",
+    "id" : 304,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 184.44, 426.048, 410.77, 438.462 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Part 2 Reading and Writing （ 70 分）"
+  }, {
+    "type" : "heading",
+    "id" : 305,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 54.0, 401.148, 313.8, 411.854 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ⅰ.Choose the best answer （选择最佳的答案） 10%"
+  }, {
+    "type" : "paragraph",
+    "id" : 306,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 377.991, 411.516, 388.575 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )1 ． There ______ any jam in the jar. Shall we go and buy ______?"
+  }, {
+    "type" : "paragraph",
+    "id" : 307,
+    "page number" : 2,
+    "bounding box" : [ 69.0, 354.591, 121.32, 365.175 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． is; any"
+  }, {
+    "type" : "paragraph",
+    "id" : 308,
+    "page number" : 2,
+    "bounding box" : [ 234.6, 354.591, 300.875, 365.175 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． are; some"
+  }, {
+    "type" : "paragraph",
+    "id" : 309,
+    "page number" : 2,
+    "bounding box" : [ 397.08, 354.591, 469.835, 365.175 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． isn't; some"
+  }, {
+    "type" : "paragraph",
+    "id" : 310,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 331.31, 489.237, 341.894 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )2 ． Children can't eat ________ sweets, because they are ________ for their teeth."
+  }, {
+    "type" : "paragraph",
+    "id" : 311,
+    "page number" : 2,
+    "bounding box" : [ 69.0, 307.91, 164.88, 318.494 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． too many; good"
+  }, {
+    "type" : "paragraph",
+    "id" : 312,
+    "page number" : 2,
+    "bounding box" : [ 234.6, 307.91, 323.16, 318.494 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． too many; bad"
+  }, {
+    "type" : "paragraph",
+    "id" : 313,
+    "page number" : 2,
+    "bounding box" : [ 397.08, 307.91, 485.639, 318.494 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． too much; bad"
+  }, {
+    "type" : "paragraph",
+    "id" : 314,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 284.63, 294.274, 295.214 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )3 ． -What did you eat for breakfast, Jill?"
+  }, {
+    "type" : "paragraph",
+    "id" : 315,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 90.0, 262.19, 432.839, 272.474 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-I ______ some bread this morning, but I usually ______ some cakes."
+  }, {
+    "type" : "paragraph",
+    "id" : 316,
+    "page number" : 2,
+    "bounding box" : [ 69.0, 240.591, 123.875, 251.175 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． ate; ate"
+  }, {
+    "type" : "paragraph",
+    "id" : 317,
+    "page number" : 2,
+    "bounding box" : [ 234.6, 240.591, 288.755, 251.175 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． eat; ate"
+  }, {
+    "type" : "paragraph",
+    "id" : 318,
+    "page number" : 2,
+    "bounding box" : [ 397.08, 240.591, 451.283, 251.175 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． ate; eat"
+  }, {
+    "type" : "paragraph",
+    "id" : 319,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 217.19, 373.473, 227.774 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )4 ． -What _______ you have for dinner last night, Peter?"
+  }, {
+    "type" : "paragraph",
+    "id" : 320,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 90.0, 194.751, 216.478, 205.035 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-I ______ some chicken."
+  }, {
+    "type" : "paragraph",
+    "id" : 321,
+    "page number" : 2,
+    "bounding box" : [ 69.0, 173.151, 133.836, 183.735 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． did; have"
+  }, {
+    "type" : "paragraph",
+    "id" : 322,
+    "page number" : 2,
+    "bounding box" : [ 234.6, 173.151, 295.476, 183.735 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． do; have"
+  }, {
+    "type" : "paragraph",
+    "id" : 324,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 149.87, 320.555, 160.454 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )5 ． -Mum, can Ming _______ some cabbage?"
+  }, {
+    "type" : "paragraph",
+    "id" : 325,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 90.0, 127.31, 151.799, 137.594 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-Of course."
+  }, {
+    "type" : "paragraph",
+    "id" : 326,
+    "page number" : 2,
+    "bounding box" : [ 69.0, 105.71, 112.236, 116.294 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． have"
+  }, {
+    "type" : "paragraph",
+    "id" : 327,
+    "page number" : 2,
+    "bounding box" : [ 234.6, 105.71, 270.468, 116.294 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． has"
+  }, {
+    "type" : "paragraph",
+    "id" : 329,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 82.43, 298.56, 93.014 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )6 ． Healthy children eat ______ every day."
+  }, {
+    "type" : "paragraph",
+    "id" : 323,
+    "page number" : 2,
+    "bounding box" : [ 397.08, 173.151, 456.0, 183.735 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． did; had"
+  }, {
+    "type" : "paragraph",
+    "id" : 328,
+    "page number" : 2,
+    "bounding box" : [ 397.08, 105.71, 434.28, 116.294 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． had"
+  }, {
+    "type" : "footer",
+    "id" : 460,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 49.864, 66.944, 51.819 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 467,
+      "page number" : 2,
+      "bounding box" : [ 54.0, 51.064, 66.944, 51.819 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 468,
+      "page number" : 2,
+      "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 332,
+    "page number" : 3,
+    "bounding box" : [ 69.0, 752.63, 158.506, 763.214 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． a lot of sweets"
+  }, {
+    "type" : "paragraph",
+    "id" : 333,
+    "page number" : 3,
+    "bounding box" : [ 234.6, 752.63, 334.785, 763.214 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． many vegetables"
+  }, {
+    "type" : "paragraph",
+    "id" : 335,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 729.351, 305.639, 739.935 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )7 ． It's time ______ dinner. Come on, Mike."
+  }, {
+    "type" : "paragraph",
+    "id" : 334,
+    "page number" : 3,
+    "bounding box" : [ 390.0, 752.63, 470.243, 763.214 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． a lot of meat"
+  }, {
+    "type" : "paragraph",
+    "id" : 336,
+    "page number" : 3,
+    "bounding box" : [ 69.0, 705.951, 103.595, 716.535 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． for"
+  }, {
+    "type" : "paragraph",
+    "id" : 337,
+    "page number" : 3,
+    "bounding box" : [ 234.6, 705.951, 263.879, 716.535 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． to"
+  }, {
+    "type" : "paragraph",
+    "id" : 338,
+    "page number" : 3,
+    "bounding box" : [ 391.08, 705.951, 429.719, 716.535 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． into"
+  }, {
+    "type" : "paragraph",
+    "id" : 339,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 682.67, 400.233, 693.254 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )8 ． When ______Tom ______ his breakfast yesterday morning?"
+  }, {
+    "type" : "paragraph",
+    "id" : 340,
+    "page number" : 3,
+    "bounding box" : [ 69.0, 659.27, 133.836, 669.854 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． did; have"
+  }, {
+    "type" : "paragraph",
+    "id" : 341,
+    "page number" : 3,
+    "bounding box" : [ 234.6, 659.27, 298.788, 669.854 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． does; has"
+  }, {
+    "type" : "paragraph",
+    "id" : 342,
+    "page number" : 3,
+    "bounding box" : [ 391.08, 659.27, 461.916, 669.854 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． does; have"
+  }, {
+    "type" : "paragraph",
+    "id" : 343,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 635.87, 474.118, 646.454 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )9 ． Kitty and Alice _______ happy this morning because they had a good meal."
+  }, {
+    "type" : "paragraph",
+    "id" : 344,
+    "page number" : 3,
+    "bounding box" : [ 69.0, 612.59, 104.195, 623.174 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． are"
+  }, {
+    "type" : "paragraph",
+    "id" : 345,
+    "page number" : 3,
+    "bounding box" : [ 234.6, 612.59, 290.964, 623.174 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． weren't"
+  }, {
+    "type" : "paragraph",
+    "id" : 346,
+    "page number" : 3,
+    "bounding box" : [ 391.08, 612.59, 434.195, 623.174 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． were"
+  }, {
+    "type" : "paragraph",
+    "id" : 347,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 589.19, 243.514, 599.774 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )10 ． -_______ in the kitchen?"
+  }, {
+    "type" : "paragraph",
+    "id" : 348,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 90.0, 566.751, 198.959, 577.035 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-_______ some ham."
+  }, {
+    "type" : "paragraph",
+    "id" : 349,
+    "page number" : 3,
+    "bounding box" : [ 72.959, 545.27, 161.748, 555.854 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． What; There's"
+  }, {
+    "type" : "paragraph",
+    "id" : 350,
+    "page number" : 3,
+    "bounding box" : [ 234.6, 545.27, 330.588, 555.854 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． What's; There's"
+  }, {
+    "type" : "paragraph",
+    "id" : 351,
+    "page number" : 3,
+    "bounding box" : [ 391.08, 545.27, 492.395, 555.854 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． What's; There're"
+  }, {
+    "type" : "heading",
+    "id" : 352,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 54.0, 521.748, 265.2, 532.454 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ⅱ.Read and write （按要求写单词） 10%"
+  }, {
+    "type" : "paragraph",
+    "id" : 353,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 498.47, 142.236, 509.054 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1 ． juice ( 同类词 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 355,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 475.19, 164.316, 485.774 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "3 ． tomato ( 复数形式 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 354,
+    "page number" : 3,
+    "bounding box" : [ 304.32, 498.47, 413.196, 509.054 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2 ． breakfast ( 同类词 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 356,
+    "page number" : 3,
+    "bounding box" : [ 302.28, 475.19, 375.24, 485.774 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4 ． do ( 过去式"
+  }, {
+    "type" : "paragraph",
+    "id" : 357,
+    "page number" : 3,
+    "bounding box" : [ 375.24, 475.19, 379.236, 485.474 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ")"
+  }, {
+    "type" : "paragraph",
+    "id" : 358,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 451.79, 201.636, 462.374 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "5 ． have ( 第三人称单数形式 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 360,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 428.51, 129.0, 439.094 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "7 ． for ( 同音词"
+  }, {
+    "type" : "paragraph",
+    "id" : 361,
+    "page number" : 3,
+    "bounding box" : [ 129.0, 428.51, 132.996, 438.794 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ")"
+  }, {
+    "type" : "paragraph",
+    "id" : 363,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 405.11, 162.276, 415.694 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "9 ． grapes ( 单数形式 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 359,
+    "page number" : 3,
+    "bounding box" : [ 303.6, 451.79, 410.555, 462.374 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "6 ． potato ( 复数形式 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 362,
+    "page number" : 3,
+    "bounding box" : [ 300.959, 428.51, 434.555, 439.094 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "8 ． they ( 名词性物主代词 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 364,
+    "page number" : 3,
+    "bounding box" : [ 300.24, 405.11, 403.955, 415.694 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "10 ． ours ( 单数形式 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 365,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 54.0, 381.588, 517.679, 392.294 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ⅲ.Fill in the blanks with proper forms of the words given.( 用所给词的适当形式填空 )10%"
+  }, {
+    "type" : "list",
+    "level" : "4",
+    "page number" : 3,
+    "bounding box" : [ 54.0, 221.03, 527.758, 369.014 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 6,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.0, 358.43, 474.236, 369.014 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "1 ． What's in the basket? There are some (potato) and (tomato).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.0, 312.71, 389.313, 345.735 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "2 ． - (be) there a bowl of cherries in the fridge yesterday? -Yes, but there (be) only one in the bowl now.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.0, 291.11, 282.874, 301.694 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "3 ． Who (have) got the pineapple?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.0, 267.71, 339.957, 278.294 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "4 ． Let (me) (get) some drinks first.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.0, 244.31, 527.758, 254.894 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "5 ． My father likes (eat) apples very much. He (eat) two apples last night.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.0, 221.03, 308.639, 231.614 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "6 ． Jim can't run (quick) because he is fat.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 373,
+    "level" : "Doctitle",
+    "page number" : 3,
+    "bounding box" : [ 54.0, 197.508, 247.2, 208.214 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ⅳ.Look and write( 看图完成句子 )5%"
+  }, {
+    "type" : "list",
+    "level" : "4",
+    "page number" : 3,
+    "bounding box" : [ 54.0, 109.31, 345.118, 170.175 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.0, 159.591, 345.118, 170.175 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "1 ． Don't have too much for lunch. It's unhealthy.",
+      "kids" : [ {
+        "type" : "image",
+        "id" : 477,
+        "page number" : 3,
+        "bounding box" : [ 308.56, 96.103, 375.915, 137.011 ],
+        "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile18.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.0, 109.31, 302.877, 119.894 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "2 ． We can buy some in the supermarket.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 374,
+    "page number" : 3,
+    "bounding box" : [ 356.938, 144.963, 419.064, 190.576 ],
+    "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile17.png"
+  }, {
+    "type" : "footer",
+    "id" : 461,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 49.864, 66.944, 51.819 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 469,
+      "page number" : 3,
+      "bounding box" : [ 54.0, 51.064, 66.944, 51.819 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 470,
+      "page number" : 3,
+      "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 380,
+    "page number" : 4,
+    "bounding box" : [ 53.796, 775.635, 95.773, 787.942 ],
+    "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile19.png"
+  }, {
+    "type" : "image",
+    "id" : 381,
+    "page number" : 4,
+    "bounding box" : [ 376.532, 726.925, 440.406, 767.466 ],
+    "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile21.png"
+  }, {
+    "type" : "list",
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 54.0, 685.07, 371.998, 750.974 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 54.0, 740.39, 371.998, 750.974 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "3 ． My father likes eating . They are good for our health.",
+      "kids" : [ {
+        "type" : "image",
+        "id" : 478,
+        "page number" : 4,
+        "bounding box" : [ 267.309, 664.185, 298.941, 720.773 ],
+        "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile20.png"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 54.0, 685.07, 212.039, 695.654 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "4 ． We shouldn't drink too much",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 385,
+    "level" : "5",
+    "page number" : 4,
+    "bounding box" : [ 260.04, 685.07, 263.04, 695.354 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "."
+  }, {
+    "type" : "image",
+    "id" : 386,
+    "page number" : 4,
+    "bounding box" : [ 367.961, 611.775, 423.554, 656.885 ],
+    "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile22.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 387,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 627.351, 363.958, 637.935 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "5 ． We should eat every day. They can keep us healthy."
+  }, {
+    "type" : "heading",
+    "id" : 388,
+    "level" : "Doctitle",
+    "page number" : 4,
+    "bounding box" : [ 54.0, 589.188, 292.559, 599.894 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ⅴ.Rewrite the sentences( 按要求改写句子 )10%"
+  }, {
+    "type" : "paragraph",
+    "id" : 389,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 565.91, 389.555, 576.494 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1 ． I had some tea with Sally yesterday afternoon. ( 对划线部分提问 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 390,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 543.47, 346.233, 553.754 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "What you with Sally yesterday afternoon?"
+  }, {
+    "type" : "list",
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 54.0, 389.751, 478.236, 532.454 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 54.0, 521.87, 329.555, 532.454 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "2 ． Kitty eats some fruit every night. ( 用 yesterday 改写 )",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 54.0, 455.391, 372.516, 488.414 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "3 ． My grandma listened to the radio in the afternoon. ( 改否定句 ) My grandma to the radio in the afternoon.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 54.0, 433.79, 296.916, 444.374 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "4 ． There's some pork in the fridge. ( 改成否定句 )",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 54.0, 389.751, 478.236, 400.335 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "5 ． I hear a noise every evening. ( 将 every evening 改为 last evening ，并作相应变化 )",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 396,
+    "level" : "Doctitle",
+    "page number" : 4,
+    "bounding box" : [ 54.0, 345.588, 513.959, 356.294 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ⅵ.Choose the best answer and complete the passage. ( 选择最恰当的单词完成短文。 ) 5%"
+  }, {
+    "type" : "paragraph",
+    "id" : 397,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 302.63, 541.319, 333.554 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Nowadays more and more people in the world are 1 fatter, which troubles them a lot. 2 say that it has a lot to do with our 3 habit."
+  }, {
+    "type" : "paragraph",
+    "id" : 398,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 217.19, 541.319, 292.154 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Our eating habits are very 4 for good health and a strong body. Most of us like 5 sweets and ice cream. But if we eat them before a meal, they may take away our appetite.( 食欲 ) It is important for us to eat our meal at the same time each day. When we feel worried or excited, we may not want to eat."
+  }, {
+    "type" : "paragraph",
+    "id" : 399,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 195.591, 145.284, 206.175 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )1 ． A ． get"
+  }, {
+    "type" : "paragraph",
+    "id" : 400,
+    "page number" : 4,
+    "bounding box" : [ 246.6, 195.591, 299.878, 206.175 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． getting"
+  }, {
+    "type" : "paragraph",
+    "id" : 401,
+    "page number" : 4,
+    "bounding box" : [ 397.08, 195.591, 432.204, 206.175 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． got"
+  }, {
+    "type" : "paragraph",
+    "id" : 402,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 172.19, 168.586, 182.774 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )2 ． A ． Doctors"
+  }, {
+    "type" : "paragraph",
+    "id" : 405,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 148.91, 159.958, 159.494 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )3 ． A ． eating"
+  }, {
+    "type" : "paragraph",
+    "id" : 408,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 125.51, 159.96, 136.094 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )4 ． A ． happy"
+  }, {
+    "type" : "paragraph",
+    "id" : 403,
+    "page number" : 4,
+    "bounding box" : [ 246.6, 172.19, 282.395, 182.774 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． We"
+  }, {
+    "type" : "paragraph",
+    "id" : 406,
+    "page number" : 4,
+    "bounding box" : [ 246.6, 148.91, 295.187, 159.494 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． sports"
+  }, {
+    "type" : "paragraph",
+    "id" : 409,
+    "page number" : 4,
+    "bounding box" : [ 246.6, 125.51, 313.161, 136.094 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． important"
+  }, {
+    "type" : "paragraph",
+    "id" : 411,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 102.11, 144.563, 112.694 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )5 ． A ． eat"
+  }, {
+    "type" : "paragraph",
+    "id" : 412,
+    "page number" : 4,
+    "bounding box" : [ 246.6, 102.11, 295.798, 112.694 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． eating"
+  }, {
+    "type" : "paragraph",
+    "id" : 414,
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 54.0, 78.708, 339.24, 89.414 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ⅶ.Read and judge. ( 阅读短文，判断正 (T) 误 (F) 。 )5%"
+  }, {
+    "type" : "paragraph",
+    "id" : 404,
+    "page number" : 4,
+    "bounding box" : [ 397.08, 172.19, 443.004, 182.774 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． Mum"
+  }, {
+    "type" : "paragraph",
+    "id" : 407,
+    "page number" : 4,
+    "bounding box" : [ 397.08, 148.91, 452.278, 159.494 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． healthy"
+  }, {
+    "type" : "paragraph",
+    "id" : 410,
+    "page number" : 4,
+    "bounding box" : [ 397.08, 125.51, 453.598, 136.094 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． yummy"
+  }, {
+    "type" : "paragraph",
+    "id" : 413,
+    "page number" : 4,
+    "bounding box" : [ 397.08, 102.11, 435.587, 112.694 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． eats"
+  }, {
+    "type" : "footer",
+    "id" : 462,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 49.864, 66.944, 51.819 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 471,
+      "page number" : 4,
+      "bounding box" : [ 54.0, 51.064, 66.944, 51.819 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 472,
+      "page number" : 4,
+      "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 417,
+    "page number" : 5,
+    "bounding box" : [ 53.597, 774.71, 95.902, 788.228 ],
+    "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile23.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 418,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 705.951, 541.307, 763.214 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Today, many children are overweight( 超重 ). In China, one in ten children has this problem. How can we keep fit? Let's look at Susan. Her height( 身高 ) is 1.4 meters( 米 ). Her weight( 体重 ) is 50 kilograms( 千克 )."
+  }, {
+    "type" : "paragraph",
+    "id" : 419,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 679.07, 72.72, 689.354 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "<20"
+  }, {
+    "type" : "paragraph",
+    "id" : 420,
+    "page number" : 5,
+    "bounding box" : [ 93.959, 679.07, 131.039, 689.354 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "too thin"
+  }, {
+    "type" : "paragraph",
+    "id" : 421,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 650.03, 81.959, 660.314 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "20-25"
+  }, {
+    "type" : "paragraph",
+    "id" : 422,
+    "page number" : 5,
+    "bounding box" : [ 93.959, 650.03, 117.839, 660.314 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "good"
+  }, {
+    "type" : "paragraph",
+    "id" : 423,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 621.11, 72.72, 631.394 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ">25"
+  }, {
+    "type" : "paragraph",
+    "id" : 424,
+    "page number" : 5,
+    "bounding box" : [ 93.959, 621.11, 140.879, 631.394 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "too heavy"
+  }, {
+    "type" : "paragraph",
+    "id" : 425,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 572.51, 541.162, 605.81 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "So, 50 ➗ (1.4 ✖ 1.4)=50 ➗ 1.96≈25.5. By counting( 通过计算 ), then Susan must lost weight now!"
+  }, {
+    "type" : "paragraph",
+    "id" : 426,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 488.87, 541.318, 562.154 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A healthy body is very important. There are many ways to keep us fit. In the morning, you must get up early, go outdoors and do morning exercise. Running and swimming can help us keep fit. You should try to make yourself happy too. If you feel happy, you can eat well, sleep well and your body is sure to be in a good condition( 状况 )."
+  }, {
+    "type" : "list",
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 54.0, 372.11, 541.236, 476.054 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.0, 465.47, 195.636, 476.054 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "1 ． Susan is too thin. ( )",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.0, 442.19, 347.436, 452.774 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "2 ． To keep fit, we must get up early in the morning. ( )",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.0, 418.91, 284.916, 429.494 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "3 ． We can run and swim to keep us fit. ( )",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.0, 395.51, 428.316, 406.094 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "4 ． Making yourself happy can't keep your body in a good condition. ( )",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.0, 372.11, 541.236, 382.694 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "5 ． Susan's friend, Amy is 1.5 meters tall and 35 kilograms weight. By counting, she is good. ( )",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 432,
+    "level" : "Doctitle",
+    "page number" : 5,
+    "bounding box" : [ 54.0, 348.708, 262.08, 359.414 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ⅷ.Read and answer.( 任务型阅读 )10%"
+  }, {
+    "type" : "paragraph",
+    "id" : 433,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 212.27, 545.196, 336.014 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The Food Guide Pyramid( 金字塔 ) is a general guide that lets you choose a healthy diet( 健康餐 ) that is right for you. The pyramid calls for eating a variety of foods to get the nutrients( 营养 ) you need and eating the right amount of calories( 卡路里 ) to maintain a healthy weight. Most calories should come from the foods in the three lower sections of the pyramid. Each of these groups provides( 提供 ) some, but not all of the nutrients you need. Foods in one group can not replace those in another. No one food group is more important than another. For good health, you need them all."
+  }, {
+    "type" : "paragraph",
+    "id" : 434,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 190.67, 375.876, 201.254 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1 ． Read and judge. ( 阅读短文，判断正误，用 'T' 或 'F' 表示。 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 435,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 168.23, 396.996, 178.514 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The pyramid is a guide that lets you choose a healthy diet. ( )"
+  }, {
+    "type" : "paragraph",
+    "id" : 436,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 147.591, 407.316, 157.875 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "We should get enough calories to maintain a healthy weight. ( )"
+  }, {
+    "type" : "paragraph",
+    "id" : 437,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 126.83, 403.836, 137.114 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Most calories come from the lowest section of the pyramid. ( )"
+  }, {
+    "type" : "paragraph",
+    "id" : 438,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 106.191, 412.476, 116.475 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Rice, bread and cereal provide all the nutrients that you need. ( )"
+  }, {
+    "type" : "paragraph",
+    "id" : 439,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 85.43, 317.676, 95.714 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Vegetables are more important than meat. ( )"
+  }, {
+    "type" : "footer",
+    "id" : 463,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 49.864, 66.944, 51.819 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 473,
+      "page number" : 5,
+      "bounding box" : [ 54.0, 51.064, 66.944, 51.819 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 474,
+      "page number" : 5,
+      "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 442,
+    "page number" : 6,
+    "bounding box" : [ 53.632, 775.617, 95.691, 788.058 ],
+    "source" : "M2U1 Food and drinks（单元自测·提高卷）英语牛津上海试用本 五年级下册_images/imageFile24.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 443,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 752.63, 311.316, 763.214 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2 ． Read and answer. ( 阅读短文，回答下列问题。 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 444,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 730.19, 200.314, 740.474 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "What's the pyramid about?"
+  }, {
+    "type" : "paragraph",
+    "id" : 445,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 688.79, 378.874, 699.074 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "How much calories should we get to maintain a healthy weight?"
+  }, {
+    "type" : "paragraph",
+    "id" : 446,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 647.39, 247.594, 657.674 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "What does each food group provide?"
+  }, {
+    "type" : "paragraph",
+    "id" : 447,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 605.99, 320.074, 616.274 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Do we need all the food groups to make us healthy?"
+  }, {
+    "type" : "paragraph",
+    "id" : 448,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 564.59, 345.873, 574.874 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "How much do you know about the Food Guide Pyramid?"
+  }, {
+    "type" : "paragraph",
+    "id" : 449,
+    "level" : "3",
+    "page number" : 6,
+    "bounding box" : [ 54.0, 522.229, 526.559, 532.935 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ⅸ.Write( 说说自己的饮食习惯，可以提出一些建议。至少 45 个单词， 3 种及以上句型 )5%"
+  }, {
+    "type" : "paragraph",
+    "id" : 450,
+    "page number" : 6,
+    "bounding box" : [ 217.32, 498.951, 377.915, 509.535 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "My eating habits( 我的饮食习惯 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 451,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 476.51, 540.0, 486.794 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "_________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 452,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 455.87, 540.0, 466.154 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "_________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 453,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 435.11, 540.0, 445.394 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "_________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 454,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 414.47, 540.0, 424.754 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "_________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 455,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 393.71, 540.0, 403.994 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "_________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 456,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 373.07, 540.0, 383.354 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "_________________________________________________________________________________"
+  }, {
+    "type" : "footer",
+    "id" : 464,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 49.864, 66.944, 51.819 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 475,
+      "page number" : 6,
+      "bounding box" : [ 54.0, 51.064, 66.944, 51.819 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 476,
+      "page number" : 6,
+      "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  } ]
+}

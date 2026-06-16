@@ -93,7 +93,15 @@ class TextContentDimension(ComparisonDimension):
                 unmatched_ref = max(0, len(ref_paras) - min_len)
 
             para_sim = self._mean(para_scores) if para_scores else 0.0
-            score = overall_similarity * 0.4 + para_sim * 0.6
+
+            # 计算段落匹配率（惩罚未匹配段落）
+            gen_count = len([e for e in gen_elements if e.element_type == ElementType.PARAGRAPH and e.paragraph])
+            ref_count = len([e for e in ref_elements if e.element_type == ElementType.PARAGRAPH and e.paragraph])
+            total_paras = max(gen_count, ref_count, 1)
+            match_rate = matched_count / total_paras
+
+            # 综合分数：全文相似度 + 段落相似度 + 匹配率惩罚
+            score = overall_similarity * 0.3 + para_sim * 0.4 + match_rate * 0.3
 
             worst_paragraphs.sort(key=lambda x: x["similarity"])
             details = {

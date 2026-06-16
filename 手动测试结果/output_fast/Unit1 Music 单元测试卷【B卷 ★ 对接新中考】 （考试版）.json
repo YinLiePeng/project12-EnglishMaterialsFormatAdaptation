@@ -1,0 +1,1495 @@
+{
+  "file name" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）.pdf",
+  "number of pages" : 8,
+  "author" : "追梦团队工作室出品17085053077",
+  "title" : "追梦团队工作室出品17085053077",
+  "creation date" : "D:20260413235421+08'00'",
+  "modification date" : "D:20260413235421+08'00'",
+  "kids" : [ {
+    "type" : "header",
+    "id" : 88,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 772.9, 519.48, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 25,
+      "page number" : 1,
+      "bounding box" : [ 54.0, 785.38, 519.48, 799.3 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile1.png"
+    }, {
+      "type" : "image",
+      "id" : 26,
+      "page number" : 1,
+      "bounding box" : [ 405.0, 775.18, 405.72, 775.9 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile2.png"
+    }, {
+      "type" : "image",
+      "id" : 27,
+      "page number" : 1,
+      "bounding box" : [ 405.0, 774.1, 405.72, 774.82 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile3.png"
+    }, {
+      "type" : "image",
+      "id" : 28,
+      "page number" : 1,
+      "bounding box" : [ 405.0, 772.9, 405.72, 773.62 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile4.png"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 107,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 222.6, 745.005, 384.119, 761.617 ],
+    "heading level" : 1,
+    "font" : "SimSun",
+    "font size" : 15.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Unit1 Music 单元测试卷"
+  }, {
+    "type" : "image",
+    "id" : 106,
+    "page number" : 1,
+    "bounding box" : [ 221.64, 748.3, 222.6, 749.26 ],
+    "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile5.png"
+  }, {
+    "type" : "heading",
+    "id" : 108,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 224.4, 712.931, 377.769, 728.49 ],
+    "heading level" : 2,
+    "font" : "SimSun",
+    "font size" : 14.05,
+    "text color" : "[0.753, 0.0, 0.0]",
+    "content" : "【B 卷 ◆ 对接新中考】"
+  }, {
+    "type" : "paragraph",
+    "id" : 109,
+    "page number" : 1,
+    "bounding box" : [ 222.6, 686.698, 372.589, 697.717 ],
+    "font" : "SimSun",
+    "font size" : 9.95,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "（时间：90 分钟，满分：100 分）"
+  }, {
+    "type" : "paragraph",
+    "id" : 110,
+    "page number" : 1,
+    "bounding box" : [ 228.359, 631.963, 366.839, 643.963 ],
+    "font" : "SimSun",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "（第二部分 语法和词汇）"
+  }, {
+    "type" : "list",
+    "id" : 111,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 54.0, 592.414, 544.08, 625.023 ],
+    "numbering style" : "roman numbers in upper case",
+    "number of list items" : 1,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.0, 592.414, 544.08, 625.023 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Ⅱ. Choose the best answer（选择最恰当的答案，每题只有一个正确答案）（本大题共 10 题， 每题 1 分，共 10 分）",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 112,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 522.431, 541.263, 582.962 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Do you know how to make music? Do you want to make music by yourself? In fact, there 1 many ways of making music in the world. You can use almost anything that will make a sound, even a piece of fruit! Some people use food and a computer to make music. They can play music with 2 kinds of fruit."
+  }, {
+    "type" : "paragraph",
+    "id" : 115,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 424.631, 541.33, 509.522 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "It is not just people with 3 and food who can make music. The Blue Man Group uses usual (平常 的) things to tell stories with 4 music. The group is famous for their music shows. In their shows, the group uses a really long pipe (管子). They move it around to make music. It is very big, 5 they need two people in their group to take it. 6 group also makes music by moving a long stick (木棍) up and down."
+  }, {
+    "type" : "paragraph",
+    "id" : 120,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 351.31, 541.264, 411.722 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "A lot of people 7 different things to play music, such as food, computers, and water. You can also make music 8 home. You can put dry beans into a cup and shake it. Even a glass of water can help you make music. It’s easy 9 music, right?"
+  }, {
+    "type" : "paragraph",
+    "id" : 124,
+    "page number" : 1,
+    "bounding box" : [ 102.959, 326.831, 287.012, 338.403 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "10 do you use to make music? Tell us."
+  }, {
+    "type" : "list",
+    "id" : 126,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 54.0, 82.39, 395.505, 313.922 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 10,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.0, 302.35, 361.389, 313.922 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．A．am B．is C．are",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.0, 277.99, 390.906, 289.562 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．A．different B．differently C．difference",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.0, 253.51, 395.505, 265.082 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．A．computer B．computers C．computer’s",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.0, 229.031, 366.664, 240.603 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4．A．them B．their C．they",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.0, 204.55, 357.905, 216.122 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5．A．but B．or C．so",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.0, 180.19, 364.868, 191.762 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6．A．A B．An C．The",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.0, 155.71, 381.429, 167.282 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7．A．use B．used C．will use",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.0, 131.231, 359.105, 142.803 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8．A．at B．by C．on",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.0, 106.75, 379.984, 118.322 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9．A．to make B．made C．making",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.0, 82.39, 368.945, 93.962 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10．A．When B．What C．Why",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 127,
+    "page number" : 1,
+    "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 17,
+      "page number" : 1,
+      "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+      "heading level" : 6,
+      "font" : "DengXian",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 128,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 772.9, 519.48, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 29,
+      "page number" : 2,
+      "bounding box" : [ 54.0, 785.38, 519.48, 799.3 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile6.png"
+    }, {
+      "type" : "image",
+      "id" : 30,
+      "page number" : 2,
+      "bounding box" : [ 405.0, 775.18, 405.72, 775.9 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile7.png"
+    }, {
+      "type" : "image",
+      "id" : 31,
+      "page number" : 2,
+      "bounding box" : [ 405.0, 774.1, 405.72, 774.82 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile8.png"
+    }, {
+      "type" : "image",
+      "id" : 32,
+      "page number" : 2,
+      "bounding box" : [ 405.0, 772.9, 405.72, 773.62 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile9.png"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 146,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 54.0, 681.14, 541.272, 733.984 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Ⅲ. Choose the proper words or phrases in the box to complete the following passage. Eachword or phrase can be used only once .（本大题共 5 题，每题 1 分，共 5 分）选择最恰当的选项填入空格，每题只有一个正确选 项，每个选项只能使用一次。"
+  }, {
+    "type" : "text block",
+    "id" : 147,
+    "page number" : 2,
+    "bounding box" : [ 47.64, 616.28, 463.11, 649.7 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 1,
+      "page number" : 2,
+      "bounding box" : [ 54.0, 626.95, 326.054, 638.522 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A．makes B．the C． in D．because E. poor F. but"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 148,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 549.071, 541.263, 609.603 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Music Star is a music show. I enjoy watching the show very much 11 I can learn a lot from many excellent singers. My favorite singer is Laura, who is a true winner in singing 12 my heart. She has a talent for singing and she can sing many songs. There are a lot of people loving her singing."
+  }, {
+    "type" : "paragraph",
+    "id" : 151,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 500.231, 541.213, 536.162 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Laura comes from a 13 family. She couldn’t afford (支付得起) to take singing lessons, so she taught herself, like listening to her favorite singers and artists and practicing every day when she was in college (大学)."
+  }, {
+    "type" : "paragraph",
+    "id" : 153,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 402.431, 541.319, 487.322 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "After college, she taught people how to sing in music clubs and took part in some music shows to show her singing skills (技能). She faced many difficult problems along the way, 14 she never gave up. She worked hard to sing better than before. Her hard work finally paid off, and now she is one of the most popular singers in our town. Everybody likes her."
+  }, {
+    "type" : "paragraph",
+    "id" : 155,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 328.99, 541.305, 389.522 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Her singing always 15 people excited. She thinks that everyone should enjoy good music. Laura’s story shows that anything can come true if you work hard. She also gives me a lot of power (力量) to try to live my life. I am happy to meet her in my life."
+  }, {
+    "type" : "heading",
+    "id" : 157,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 54.0, 81.55, 538.56, 286.984 ],
+    "heading level" : 4,
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Ⅳ. Complete the following dialogue as required.（本大题共 5 小题，每题 1 分，共 5 分）根据所给要求完成对话。(Yiming and his friend Ben are talking about their favourite music after class. They start the conversation withmusic taste.)Yiming: 16_____________________. (用特殊疑问句询问对方喜欢的音乐类型)Ben: I really love classical music. 17_____________________. (承接喜爱古典音乐的话题，描述对其的感受并说明日常聆听的频率)Yiming: What about pop music? Do you like it?Ben: Yes, but not so much as classical music. How about you?"
+  }, {
+    "type" : "footer",
+    "id" : 158,
+    "page number" : 2,
+    "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 18,
+      "page number" : 2,
+      "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+      "heading level" : 6,
+      "font" : "DengXian",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 159,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 772.9, 519.48, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 33,
+      "page number" : 3,
+      "bounding box" : [ 54.0, 785.38, 519.48, 799.3 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile10.png"
+    }, {
+      "type" : "image",
+      "id" : 34,
+      "page number" : 3,
+      "bounding box" : [ 405.0, 775.18, 405.72, 775.9 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile11.png"
+    }, {
+      "type" : "image",
+      "id" : 35,
+      "page number" : 3,
+      "bounding box" : [ 405.0, 774.1, 405.72, 774.82 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile12.png"
+    }, {
+      "type" : "image",
+      "id" : 36,
+      "page number" : 3,
+      "bounding box" : [ 405.0, 772.9, 405.72, 773.62 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile13.png"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 161,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 531.55, 541.205, 763.203 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Yiming: Well, I’m interested in pop music. I like it very much. Ben: 18____________________ (用一般疑问句询问对方是否是韩国流行音乐的粉丝) Yiming: Yes, certainly. Ben: But can you understand it? Yiming: 19_____________________ (回应能否听懂的问题，说明仅能听懂一点但并不影响欣赏) Ben: How about soft music? Do you like it, too? Yiming: Yes, I do. It’s very beautiful. Ben: Really? I don’t like it at all. 20____________________ (结合 “觉得轻音乐无聊”，具体表达对其的负面感 受) Yiming: No worries! Everyone has their own taste of music!"
+  }, {
+    "type" : "paragraph",
+    "id" : 162,
+    "page number" : 3,
+    "bounding box" : [ 226.2, 465.883, 369.118, 497.703 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Part 3 Reading and Writing （第三部分 读写）"
+  }, {
+    "type" : "list",
+    "id" : 163,
+    "level" : "1",
+    "page number" : 3,
+    "bounding box" : [ 54.0, 445.654, 420.72, 458.943 ],
+    "numbering style" : "roman numbers in upper case",
+    "number of list items" : 1,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.0, 445.654, 420.72, 458.943 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "Ⅴ. Reading comprehension（阅读理解）（本大题共 20 题，共 40 分）",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 164,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 54.0, 407.014, 519.359, 439.624 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.0, 407.014, 519.359, 439.624 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A. Choose the best answer（根据以下内容，选择最恰当的答案）（每题 2 分，共 16 分） （A）",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "table",
+    "id" : 160,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 47.64, 134.38, 450.36, 379.7 ],
+    "number of rows" : 2,
+    "number of columns" : 4,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 48.0, 249.2, 148.8, 378.98 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "image",
+          "id" : 1,
+          "page number" : 3,
+          "bounding box" : [ 78.48, 287.5, 118.2, 340.78 ],
+          "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile14.png"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 148.8, 249.2, 347.85, 378.98 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 2,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 19,
+          "page number" : 3,
+          "bounding box" : [ 158.88, 308.11, 337.628, 368.522 ],
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "MUSIC FESTIVALEnjoy days of music and performances! JUNE 23rd, THURSDAY—"
+        }, {
+          "type" : "paragraph",
+          "id" : 20,
+          "page number" : 3,
+          "bounding box" : [ 203.64, 283.631, 298.783, 295.203 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "JUNE 26th, SUNDAY"
+        }, {
+          "type" : "heading",
+          "id" : 22,
+          "level" : "Subtitle",
+          "page number" : 3,
+          "bounding box" : [ 185.88, 259.15, 310.559, 270.722 ],
+          "heading level" : 5,
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "CONCERTS CAN'T MISS!"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 347.85, 249.2, 450.0, 378.98 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "image",
+          "id" : 23,
+          "page number" : 3,
+          "bounding box" : [ 375.6, 291.7, 422.16, 336.7 ],
+          "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile15.png"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 48.0, 135.1, 250.5, 249.2 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 2,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 24,
+          "page number" : 3,
+          "bounding box" : [ 78.959, 149.11, 219.452, 234.003 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "COUNTRY MUSICTime Thursday 7: 00 p.m. —9: 00 p.m. Place the Central Square"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 3,
+        "bounding box" : [ 250.5, 135.1, 450.0, 249.2 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 2,
+        "kids" : [ {
+          "type" : "image",
+          "id" : 25,
+          "page number" : 3,
+          "bounding box" : [ 311.28, 216.46, 334.56, 240.46 ],
+          "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile16.png"
+        }, {
+          "type" : "heading",
+          "id" : 26,
+          "level" : "Subtitle",
+          "page number" : 3,
+          "bounding box" : [ 334.559, 222.431, 389.105, 234.003 ],
+          "heading level" : 5,
+          "font" : "TimesNewRomanPS-BoldMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "ROCKTime"
+        }, {
+          "type" : "paragraph",
+          "id" : 27,
+          "page number" : 3,
+          "bounding box" : [ 286.68, 145.031, 413.731, 205.443 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Sunday 7:00 p.m. —9:00 p.m. Place the Sports Center"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 165,
+    "page number" : 3,
+    "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 19,
+      "page number" : 3,
+      "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+      "heading level" : 6,
+      "font" : "DengXian",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 166,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 772.9, 519.48, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 37,
+      "page number" : 4,
+      "bounding box" : [ 54.0, 785.38, 519.48, 799.3 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile17.png"
+    }, {
+      "type" : "image",
+      "id" : 38,
+      "page number" : 4,
+      "bounding box" : [ 405.0, 775.18, 405.72, 775.9 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile18.png"
+    }, {
+      "type" : "image",
+      "id" : 39,
+      "page number" : 4,
+      "bounding box" : [ 405.0, 774.1, 405.72, 774.82 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile19.png"
+    }, {
+      "type" : "image",
+      "id" : 40,
+      "page number" : 4,
+      "bounding box" : [ 405.0, 772.9, 405.72, 773.62 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile20.png"
+    } ]
+  }, {
+    "type" : "table",
+    "id" : 184,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 47.64, 442.98, 450.36, 769.9 ],
+    "number of rows" : 2,
+    "number of columns" : 2,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 48.0, 696.09, 450.0, 769.18 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 2,
+        "kids" : [ {
+          "type" : "image",
+          "id" : 1,
+          "page number" : 4,
+          "bounding box" : [ 212.64, 703.54, 285.36, 762.1 ],
+          "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile21.png"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 48.0, 443.7, 250.5, 696.09 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 2,
+          "page number" : 4,
+          "bounding box" : [ 77.759, 453.671, 220.622, 685.322 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Price$10/ an adult $5/a child FOLK MUSIC Time Friday 5:00 p.m. —7:00 p.m. Place the Grand Park Free for all For more information, please contact Katie at 5463-7943"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 4,
+        "bounding box" : [ 250.5, 443.7, 450.0, 696.09 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 3,
+          "page number" : 4,
+          "bounding box" : [ 282.48, 453.671, 417.931, 685.322 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "Price$20/ an adult $10/a child JAZZ Time Saturday 6:00 p.m. —8: 00 p.m. Place the Riverside Music Hall Price $25/ an adult $10/a child"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 185,
+    "level" : "2",
+    "page number" : 4,
+    "bounding box" : [ 54.0, 302.471, 410.588, 436.322 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "next list id" : 215,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 54.0, 400.27, 408.45, 436.322 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "21．If Jim is free on Sunday night, what kind of music can he enjoy? A．Country music. B．Folk music. C．Jazz. D．Rock.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 54.0, 351.31, 410.588, 387.362 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "22．How much will Mr. Green pay if he goes to enjoy jazz music with his two kids? A．$ 20. B．$ 45. C．$ 35. D．$ 40.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 54.0, 302.471, 408.852, 338.522 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "23．The information above may come from a ________. A．poster B．letter C．map D．report",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 186,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 281.64, 255.214, 313.68, 268.503 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "（B）"
+  }, {
+    "type" : "paragraph",
+    "id" : 187,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 209.71, 541.262, 245.762 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Do you feel more energetic when listening to your favorite songs? Do you study better with background music? There’s real science behind why music has such a powerful influence on teenage brains."
+  }, {
+    "type" : "paragraph",
+    "id" : 188,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 111.91, 541.304, 196.922 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "During the teenage years, your brain is going through big changes. It’s growing and forming new connections every day. Music can actually help this process (过程). When you listen to music, many different areas of your brain work together—the parts that control hearing, memory, emotions (情绪), and even movement. This “workout” makes your brain stronger and more connected."
+  }, {
+    "type" : "paragraph",
+    "id" : 189,
+    "page number" : 4,
+    "bounding box" : [ 81.959, 87.55, 541.144, 99.122 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Music also helps teenagers deal with stress and strong emotions. The teenage years can be challenging, with"
+  }, {
+    "type" : "footer",
+    "id" : 190,
+    "page number" : 4,
+    "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 20,
+      "page number" : 4,
+      "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+      "heading level" : 6,
+      "font" : "DengXian",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 191,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 772.9, 519.48, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 41,
+      "page number" : 5,
+      "bounding box" : [ 54.0, 785.38, 519.48, 799.3 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile22.png"
+    }, {
+      "type" : "image",
+      "id" : 42,
+      "page number" : 5,
+      "bounding box" : [ 405.0, 775.18, 405.72, 775.9 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile23.png"
+    }, {
+      "type" : "image",
+      "id" : 43,
+      "page number" : 5,
+      "bounding box" : [ 405.0, 774.1, 405.72, 774.82 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile24.png"
+    }, {
+      "type" : "image",
+      "id" : 44,
+      "page number" : 5,
+      "bounding box" : [ 405.0, 772.9, 405.72, 773.62 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile25.png"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 209,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 702.79, 541.292, 763.203 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "school pressure, friendship problems, and family problems. Studies show that listening to music releases dopamine, a chemical that makes you feel good. It can calm you down when you’re angry or lift your spirits when you’re sad. Many teenagers use music as a healthy way to express and manage their feelings."
+  }, {
+    "type" : "paragraph",
+    "id" : 211,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 629.35, 541.264, 689.882 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Learning to play a musical instrument brings even more benefits. It improves your memory, attention, and problem-solving skills. Musicians often do better in subjects like math and languages because music training strengthens the brain’s ability to recognize patterns and deal with information quickly."
+  }, {
+    "type" : "paragraph",
+    "id" : 212,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 580.51, 541.148, 616.562 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "However, it’s important to listen to music wisely. Playing music too loudly through headphones can damage your hearing. Experts suggest keeping the volume (音量) at 60% or lower and taking breaks every hour."
+  }, {
+    "type" : "paragraph",
+    "id" : 213,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 531.55, 541.148, 567.603 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Music can also influence your sleep. While calm music helps you relax before bed, loud or exciting music might make it harder to fall asleep. Choose your music carefully, depending on what you need."
+  }, {
+    "type" : "paragraph",
+    "id" : 214,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 434.66, 541.264, 518.762 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The teenage brain is special—it’s flexible (灵活的) and ready to learn. Music is a powerful tool that can help you grow smarter, happier, and healthier. So next time you press play, remember: you’re not just enjoying a song; you’re training your brain！ 根据材料内容选择最佳答案"
+  }, {
+    "type" : "list",
+    "id" : 215,
+    "level" : "2",
+    "page number" : 5,
+    "bounding box" : [ 54.0, 115.99, 418.026, 420.962 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "previous list id" : 185,
+    "next list id" : 246,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.0, 384.91, 418.026, 420.962 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "24．In the second paragraph, listening to music is like a (n) ________ for your brain. A．rest B．test C．dream D．exercise",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.0, 311.59, 378.091, 372.003 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "25．What does dopamine do when you listen to music? A．It hurts your ears. B．It makes you feel good. C．It makes you feel tired. D．It makes you hungry.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.0, 238.15, 379.626, 298.682 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "26．How does the writer show the benefits of learning a musical instrument? A．By telling a story. B．By asking questions. C．By giving examples. D．By listing numbers.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.0, 164.831, 403.889, 225.362 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "27．According to the text, improper listening habits may be bad for our ________. A．hearing and sleep B．memory and feelings C．eyes and ears D．study and sports",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 54.0, 115.99, 417.329, 151.922 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "28．What is the theme (主题) of the text? A．Culture. B．Science. C．Sports. D．History.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 216,
+    "page number" : 5,
+    "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 21,
+      "page number" : 5,
+      "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+      "heading level" : 6,
+      "font" : "DengXian",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 217,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 772.9, 519.48, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 45,
+      "page number" : 6,
+      "bounding box" : [ 54.0, 785.38, 519.48, 799.3 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile26.png"
+    }, {
+      "type" : "image",
+      "id" : 46,
+      "page number" : 6,
+      "bounding box" : [ 405.0, 775.18, 405.72, 775.9 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile27.png"
+    }, {
+      "type" : "image",
+      "id" : 47,
+      "page number" : 6,
+      "bounding box" : [ 405.0, 774.1, 405.72, 774.82 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile28.png"
+    }, {
+      "type" : "image",
+      "id" : 48,
+      "page number" : 6,
+      "bounding box" : [ 405.0, 772.9, 405.72, 773.62 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile29.png"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 235,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 54.0, 734.014, 533.88, 766.623 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "B. Choose the best answer and complete the passage（选择最恰当的选项完成短文）（每题 2分，共 12 分）"
+  }, {
+    "type" : "paragraph",
+    "id" : 236,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 664.031, 541.264, 724.562 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Music is everywhere in our lives. It makes our days more colorful. Different people like different 29 of music. Some love pop music because it's easy to sing along with. Others prefer classical music for its 30 sound."
+  }, {
+    "type" : "paragraph",
+    "id" : 239,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 590.71, 541.269, 651.122 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Music can also change our feelings. When we are sad, soft music can make us feel 31 . It’s like a warm hug. And when we are happy, energetic music can make us even 32 . We may start dancing to the rhythm."
+  }, {
+    "type" : "paragraph",
+    "id" : 242,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 541.75, 541.214, 577.803 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Music is a great way to communicate, too. People can share their 33 through songs. A song can tell a story or express love. We can understand the singer’s feelings 34 we listen carefully."
+  }, {
+    "type" : "paragraph",
+    "id" : 245,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 492.91, 541.143, 528.962 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "In a word, music is full of magic. It brings us joy and helps us connect with others. Let’s enjoy music every day."
+  }, {
+    "type" : "list",
+    "id" : 246,
+    "level" : "2",
+    "page number" : 6,
+    "bounding box" : [ 54.0, 346.15, 409.437, 480.003 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 6,
+    "previous list id" : 215,
+    "next list id" : 272,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.0, 468.431, 408.823, 480.003 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "29．A．names B．kinds C．colors D．prices",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.0, 443.95, 402.423, 455.522 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "30．A．noisy B．quiet C．strange D．loud",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.0, 419.59, 408.237, 431.162 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "31．A．better B．worse C．colder D．hotter",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.0, 395.11, 409.437, 406.682 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "32．A．sadder B．angrier C．happier D．busier",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.0, 370.631, 401.143, 382.203 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "33．A．money B．food C．feelings D．toys",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 54.0, 346.15, 393.064, 357.722 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "34．A．if B．but C．or D．so",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 247,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 54.0, 269.831, 468.0, 304.143 ],
+    "heading level" : 3,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "C. Read the passage and answer the following questions.（每题 2 分，共 12 分）Answer the questions (根据短文内容，回答下列问题)"
+  }, {
+    "type" : "paragraph",
+    "id" : 248,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 172.031, 541.333, 256.922 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "As we know music can not only bring us wonderful enjoyment, but also happiness when we are tired or sad. And many people have the habit of enjoying music when they are free. But to our surprise, one English school allows children to listen to music or even to have the TV on while they are studying, and they find it is helpful to improve the students’ grades."
+  }, {
+    "type" : "paragraph",
+    "id" : 249,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 98.59, 541.264, 159.122 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "According to a research at Millfield School, about 20% of teenagers work best with background music, 10% excellent when allowed to finish their work with short walks around the room while up to 80% can concentrate better if allowed to play with a small object."
+  }, {
+    "type" : "paragraph",
+    "id" : 250,
+    "page number" : 6,
+    "bounding box" : [ 81.959, 74.231, 541.263, 85.803 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The research has made the school use a very new way, encouraging students to discover which learning"
+  }, {
+    "type" : "footer",
+    "id" : 251,
+    "page number" : 6,
+    "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 22,
+      "page number" : 6,
+      "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+      "heading level" : 6,
+      "font" : "DengXian",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 252,
+    "page number" : 7,
+    "bounding box" : [ 54.0, 772.9, 519.48, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 49,
+      "page number" : 7,
+      "bounding box" : [ 54.0, 785.38, 519.48, 799.3 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile30.png"
+    }, {
+      "type" : "image",
+      "id" : 50,
+      "page number" : 7,
+      "bounding box" : [ 405.0, 775.18, 405.72, 775.9 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile31.png"
+    }, {
+      "type" : "image",
+      "id" : 51,
+      "page number" : 7,
+      "bounding box" : [ 405.0, 774.1, 405.72, 774.82 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile32.png"
+    }, {
+      "type" : "image",
+      "id" : 52,
+      "page number" : 7,
+      "bounding box" : [ 405.0, 772.9, 405.72, 773.62 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile33.png"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 270,
+    "page number" : 7,
+    "bounding box" : [ 54.0, 702.79, 541.302, 763.203 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "styles suit them best, and then let them do their homework listening to music or even lying down. Some parents don’t believe, but many are now accepting it at home where children are allowed to do their work with the television on."
+  }, {
+    "type" : "paragraph",
+    "id" : 271,
+    "page number" : 7,
+    "bounding box" : [ 54.0, 629.35, 541.32, 689.882 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "“I prefer to work on the floor with music on low,” said Sam, a 13-year-old girl. “At first my parents thought I didn’t study hard, but my teacher asked them to look at my homework and when they saw it was okay, they agreed at last.”"
+  }, {
+    "type" : "list",
+    "id" : 272,
+    "level" : "2",
+    "page number" : 7,
+    "bounding box" : [ 54.0, 360.431, 406.269, 616.562 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 6,
+    "previous list id" : 246,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.0, 604.99, 199.509, 616.562 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "35．What can the music bring us?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 58,
+        "level" : "3",
+        "page number" : 7,
+        "bounding box" : [ 258.72, 580.51, 261.333, 592.082 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.0, 556.031, 380.106, 567.603 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "36．Which school allows children to listen to music while they are studying?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 60,
+        "level" : "3",
+        "page number" : 7,
+        "bounding box" : [ 258.72, 531.55, 261.333, 543.122 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.0, 507.19, 235.268, 518.762 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "37．How did 80% of teenagers work best?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 62,
+        "level" : "3",
+        "page number" : 7,
+        "bounding box" : [ 258.72, 482.71, 261.333, 494.282 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.0, 458.231, 406.269, 469.803 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "38．The research has made Millfield School different from other schools, hasn’t it?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 64,
+        "level" : "3",
+        "page number" : 7,
+        "bounding box" : [ 258.72, 433.75, 261.333, 445.322 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.0, 409.39, 146.948, 420.962 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "39．How old is Sam?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 66,
+        "level" : "3",
+        "page number" : 7,
+        "bounding box" : [ 258.72, 384.91, 261.333, 396.482 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.0, 360.431, 343.049, 372.003 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "40．Tell your ideas about listening to music while doing homework.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 274,
+    "level" : "3",
+    "page number" : 7,
+    "bounding box" : [ 258.72, 335.95, 261.333, 347.522 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "."
+  }, {
+    "type" : "heading",
+    "id" : 275,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 54.0, 259.631, 324.12, 293.943 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Ⅵ. Writing（作文）（本大题共 2 大题，共 20 分）A. Translation (第一题 1 分；第二、三题各分，共 5 分)"
+  }, {
+    "type" : "list",
+    "id" : 276,
+    "level" : "2",
+    "page number" : 7,
+    "bounding box" : [ 54.0, 112.99, 412.93, 246.722 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.0, 210.79, 392.588, 246.722 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．音乐节每年夏天在我们城市举行。(hold) ________________________________________________________________.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.0, 161.831, 392.588, 197.762 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．你能推荐城里的一家好餐馆吗? (recommend) ________________________________________________________________.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 54.0, 112.99, 412.93, 148.922 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．这个最知名的旋律不仅鼓励了我而且给了我信心。（not only… but also…） ________________________________________________________________.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 277,
+    "page number" : 7,
+    "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 23,
+      "page number" : 7,
+      "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+      "heading level" : 6,
+      "font" : "DengXian",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7 / 8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 278,
+    "page number" : 8,
+    "bounding box" : [ 54.0, 772.9, 519.48, 799.3 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 53,
+      "page number" : 8,
+      "bounding box" : [ 54.0, 785.38, 519.48, 799.3 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile34.png"
+    }, {
+      "type" : "image",
+      "id" : 54,
+      "page number" : 8,
+      "bounding box" : [ 405.0, 775.18, 405.72, 775.9 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile35.png"
+    }, {
+      "type" : "image",
+      "id" : 55,
+      "page number" : 8,
+      "bounding box" : [ 405.0, 774.1, 405.72, 774.82 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile36.png"
+    }, {
+      "type" : "image",
+      "id" : 56,
+      "page number" : 8,
+      "bounding box" : [ 405.0, 772.9, 405.72, 773.62 ],
+      "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile37.png"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 296,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 54.0, 751.631, 489.729, 763.203 ],
+    "heading level" : 5,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "B．Please write a short passage of at least 60 words (请写一篇不少于 60 词的短文) （共 15 分）"
+  }, {
+    "type" : "paragraph",
+    "id" : 297,
+    "page number" : 8,
+    "bounding box" : [ 54.0, 679.1, 541.207, 738.722 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "某英文论坛以“音乐和我”为主题向大家征帖，作为一个音乐迷的你看到了也跃跃欲试。请你根据以下 要点提示，用英语写一篇短文，分享音乐给你带来了什么，并向大家推荐你最喜欢的歌曲。 要求："
+  }, {
+    "type" : "list",
+    "id" : 298,
+    "level" : "2",
+    "page number" : 8,
+    "bounding box" : [ 54.0, 604.99, 345.24, 665.403 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.0, 653.831, 345.24, 665.403 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1.内容须包含提示中的要点，可适当增加细节，以使行文连贯；",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.0, 629.35, 213.965, 640.922 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. 语言表达要准确，语意要通顺；",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 54.0, 604.99, 303.243, 616.562 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. 词数 60 词左右，短文开头已给出，不计入总词数。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 299,
+    "page number" : 8,
+    "bounding box" : [ 54.0, 518.14, 396.72, 597.7 ],
+    "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile38.png"
+  }, {
+    "type" : "caption",
+    "id" : 300,
+    "page number" : 8,
+    "bounding box" : [ 54.0, 327.79, 541.183, 510.603 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "I have been a music fan since I was a little girl. Over the years, music has brought so many beautiful things into my life. ____________________________________________________________________________________________ ____________________________________________________________________________________________ ____________________________________________________________________________________________ ____________________________________________________________________________________________ ____________________________________________________________________________________________ ____________________________________________________________________________________________"
+  }, {
+    "type" : "footer",
+    "id" : 302,
+    "page number" : 8,
+    "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 24,
+      "page number" : 8,
+      "bounding box" : [ 288.84, 54.723, 306.534, 64.101 ],
+      "heading level" : 6,
+      "font" : "DengXian",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8 / 8"
+    } ]
+  } ]
+}

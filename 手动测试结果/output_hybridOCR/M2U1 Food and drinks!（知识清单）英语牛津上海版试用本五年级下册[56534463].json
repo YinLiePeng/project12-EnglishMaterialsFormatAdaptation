@@ -1,0 +1,1336 @@
+{
+  "file name" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463].pdf",
+  "number of pages" : 9,
+  "author" : "高三015",
+  "title" : "",
+  "creation date" : "D:20260413235420+08'00'",
+  "modification date" : "D:20260413235420+08'00'",
+  "kids" : [ {
+    "type" : "image",
+    "id" : 160,
+    "page number" : 1,
+    "bounding box" : [ 52.481, 786.25, 94.984, 801.407 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "id" : 161,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 183.667, 743.567, 412.333, 764.9 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "M2UI Food and drinks!"
+  }, {
+    "type" : "image",
+    "id" : 162,
+    "page number" : 1,
+    "bounding box" : [ 184.042, 700.776, 415.863, 740.653 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile2.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 163,
+    "page number" : 1,
+    "bounding box" : [ 304.0, 707.233, 324.0, 723.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "ì9"
+  }, {
+    "type" : "paragraph",
+    "id" : 164,
+    "page number" : 1,
+    "bounding box" : [ 95.0, 662.233, 275.0, 676.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Iu:/ : food, cool, school, juice; moon"
+  }, {
+    "type" : "paragraph",
+    "id" : 165,
+    "page number" : 1,
+    "bounding box" : [ 95.0, 640.233, 115.667, 652.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Iel :"
+  }, {
+    "type" : "paragraph",
+    "id" : 168,
+    "page number" : 1,
+    "bounding box" : [ 97.667, 471.567, 122.333, 486.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "24"
+  }, {
+    "type" : "paragraph",
+    "id" : 166,
+    "page number" : 1,
+    "bounding box" : [ 202.0, 518.567, 504.333, 558.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "juice ( %à) cake apple (#R) banana ( 4#) water   ( z ) tea (*)"
+  }, {
+    "type" : "paragraph",
+    "id" : 167,
+    "page number" : 1,
+    "bounding box" : [ 167.667, 448.233, 543.0, 509.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "healthy breakfast ( % lunch ( 4 %)"
+  }, {
+    "type" : "paragraph",
+    "id" : 169,
+    "page number" : 1,
+    "bounding box" : [ 95.667, 397.9, 398.0, 439.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "have lunch (\"44 %) 44, ) a glass ofjuice ( _#%à) a"
+  }, {
+    "type" : "paragraph",
+    "id" : 170,
+    "page number" : 1,
+    "bounding box" : [ 96.667, 353.233, 105.333, 363.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1 ."
+  }, {
+    "type" : "paragraph",
+    "id" : 171,
+    "page number" : 1,
+    "bounding box" : [ 165.0, 282.9, 170.333, 290.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1"
+  }, {
+    "type" : "paragraph",
+    "id" : 172,
+    "page number" : 1,
+    "bounding box" : [ 102.661, 159.611, 124.673, 174.856 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Yes,"
+  }, {
+    "type" : "paragraph",
+    "id" : 173,
+    "page number" : 1,
+    "bounding box" : [ 96.0, 139.233, 104.667, 149.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4"
+  }, {
+    "type" : "image",
+    "id" : 174,
+    "page number" : 2,
+    "bounding box" : [ 52.353, 785.955, 95.014, 801.405 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile3.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 175,
+    "page number" : 2,
+    "bounding box" : [ 95.0, 727.567, 185.0, 740.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "noodle-_noodles ;"
+  }, {
+    "type" : "heading",
+    "id" : 178,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 99.667, 552.233, 154.333, 572.233 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "85 01"
+  }, {
+    "type" : "paragraph",
+    "id" : 176,
+    "page number" : 2,
+    "bounding box" : [ 312.0, 653.567, 543.0, 670.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "He likes bread. She drinks milk every morning:"
+  }, {
+    "type" : "image",
+    "id" : 177,
+    "page number" : 2,
+    "bounding box" : [ 182.838, 597.605, 412.934, 643.623 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile4.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 179,
+    "page number" : 2,
+    "bounding box" : [ 53.0, 496.233, 117.667, 510.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "#èx"
+  }, {
+    "type" : "paragraph",
+    "id" : 182,
+    "page number" : 2,
+    "bounding box" : [ 53.333, 258.567, 63.333, 269.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "3 ."
+  }, {
+    "type" : "paragraph",
+    "id" : 186,
+    "page number" : 2,
+    "bounding box" : [ 51.333, 132.9, 93.0, 146.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "i #u  es"
+  }, {
+    "type" : "paragraph",
+    "id" : 180,
+    "page number" : 2,
+    "bounding box" : [ 465.0, 376.9, 521.667, 391.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "book ( + )"
+  }, {
+    "type" : "paragraph",
+    "id" : 181,
+    "page number" : 2,
+    "bounding box" : [ 385.333, 306.567, 500.333, 344.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "rice ( % kh ) a a piece of"
+  }, {
+    "type" : "paragraph",
+    "id" : 183,
+    "page number" : 2,
+    "bounding box" : [ 209.667, 204.9, 387.333, 220.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "pen~pens, book_books; car_cars"
+  }, {
+    "type" : "paragraph",
+    "id" : 184,
+    "page number" : 2,
+    "bounding box" : [ 181.333, 180.9, 438.333, 195.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "es box_boxes, brush_brushes, watch-watches"
+  }, {
+    "type" : "paragraph",
+    "id" : 185,
+    "page number" : 2,
+    "bounding box" : [ 211.0, 142.9, 450.333, 157.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "baby_babies, family_families, candy_candies"
+  }, {
+    "type" : "paragraph",
+    "id" : 187,
+    "page number" : 2,
+    "bounding box" : [ 211.0, 93.567, 377.0, 107.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "boy_boys; toy_toys, key_keys"
+  }, {
+    "type" : "image",
+    "id" : 188,
+    "page number" : 3,
+    "bounding box" : [ 52.589, 786.204, 95.032, 801.266 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile5.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 190,
+    "page number" : 3,
+    "bounding box" : [ 53.333, 654.567, 64.667, 662.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "es man-men, woman-women"
+  }, {
+    "type" : "paragraph",
+    "id" : 189,
+    "page number" : 3,
+    "bounding box" : [ 164.667, 724.567, 468.0, 738.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "es , tomato_tomatoes, potato_potatoes"
+  }, {
+    "type" : "paragraph",
+    "id" : 191,
+    "page number" : 3,
+    "bounding box" : [ 53.0, 556.233, 130.333, 568.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "child_children foot-feet, tooth-teeth"
+  }, {
+    "type" : "paragraph",
+    "id" : 192,
+    "page number" : 3,
+    "bounding box" : [ 52.667, 508.233, 122.0, 520.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "mouse_mice fish->fish"
+  }, {
+    "type" : "paragraph",
+    "id" : 193,
+    "page number" : 3,
+    "bounding box" : [ 82.333, 364.567, 541.667, 401.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "two rice , two bowls of rice"
+  }, {
+    "type" : "paragraph",
+    "id" : 194,
+    "page number" : 3,
+    "bounding box" : [ 53.0, 317.567, 543.667, 353.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4u : a pen, some pens, some milko a people , #ÿ a persono"
+  }, {
+    "type" : "image",
+    "id" : 195,
+    "page number" : 3,
+    "bounding box" : [ 52.04, 245.466, 158.194, 288.511 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile6.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 196,
+    "page number" : 3,
+    "bounding box" : [ 53.0, 195.567, 333.0, 212.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "LI have two (egg) for breakfast every morning:"
+  }, {
+    "type" : "list",
+    "level" : "1",
+    "page number" : 3,
+    "bounding box" : [ 53.0, 100.9, 299.667, 188.233 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.0, 173.9, 269.0, 188.233 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "2.There is some (rice) in the bowl.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.0, 148.567, 265.333, 164.567 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "3.She wants three (glass) ofjuice.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.0, 124.9, 269.667, 139.567 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "4.I like eating (noodle) very much.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 53.0, 100.9, 299.667, 116.233 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "5.There is a piece of (bread) on the table.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 201,
+    "page number" : 4,
+    "bounding box" : [ 52.535, 786.404, 95.03, 801.303 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile7.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 202,
+    "page number" : 4,
+    "bounding box" : [ 85.667, 726.233, 221.0, 764.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ")1 . Would you like some -Yes; please. It's healthy."
+  }, {
+    "type" : "paragraph",
+    "id" : 203,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 703.344, 96.932, 715.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A apple"
+  }, {
+    "type" : "paragraph",
+    "id" : 204,
+    "page number" : 4,
+    "bounding box" : [ 207.667, 704.9, 246.333, 716.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B. milk"
+  }, {
+    "type" : "paragraph",
+    "id" : 206,
+    "page number" : 4,
+    "bounding box" : [ 85.0, 678.9, 282.333, 693.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ")2. I can see many in the basket."
+  }, {
+    "type" : "paragraph",
+    "id" : 207,
+    "page number" : 4,
+    "bounding box" : [ 54.333, 656.9, 104.333, 668.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A. banana"
+  }, {
+    "type" : "paragraph",
+    "id" : 208,
+    "page number" : 4,
+    "bounding box" : [ 210.0, 656.9, 268.333, 668.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B a banana"
+  }, {
+    "type" : "paragraph",
+    "id" : 205,
+    "page number" : 4,
+    "bounding box" : [ 375.667, 702.233, 410.0, 716.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C. egg"
+  }, {
+    "type" : "paragraph",
+    "id" : 209,
+    "page number" : 4,
+    "bounding box" : [ 373.667, 656.9, 429.667, 668.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C. bananas"
+  }, {
+    "type" : "paragraph",
+    "id" : 210,
+    "page number" : 4,
+    "bounding box" : [ 86.333, 631.567, 416.333, 644.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ")3. There is a of bread and two of water on the desk."
+  }, {
+    "type" : "paragraph",
+    "id" : 211,
+    "page number" : 4,
+    "bounding box" : [ 53.333, 606.567, 451.333, 622.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A. piece; glass B. piece; glasses C. pieces; glass"
+  }, {
+    "type" : "paragraph",
+    "id" : 212,
+    "page number" : 4,
+    "bounding box" : [ 109.667, 583.567, 169.667, 597.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Do you like"
+  }, {
+    "type" : "paragraph",
+    "id" : 213,
+    "page number" : 4,
+    "bounding box" : [ 125.0, 561.567, 230.667, 573.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Idon't. I like chicken."
+  }, {
+    "type" : "paragraph",
+    "id" : 214,
+    "page number" : 4,
+    "bounding box" : [ 54.667, 537.567, 91.0, 549.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A fish"
+  }, {
+    "type" : "paragraph",
+    "id" : 215,
+    "page number" : 4,
+    "bounding box" : [ 215.0, 537.567, 257.667, 549.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B. a fish"
+  }, {
+    "type" : "paragraph",
+    "id" : 217,
+    "page number" : 4,
+    "bounding box" : [ 85.667, 512.233, 324.333, 526.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ")5. She has some for lunch. It's delicious ."
+  }, {
+    "type" : "paragraph",
+    "id" : 218,
+    "page number" : 4,
+    "bounding box" : [ 53.667, 490.233, 92.333, 502.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A. cake"
+  }, {
+    "type" : "paragraph",
+    "id" : 219,
+    "page number" : 4,
+    "bounding box" : [ 215.667, 490.233, 259.0, 502.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B. cakes"
+  }, {
+    "type" : "paragraph",
+    "id" : 216,
+    "page number" : 4,
+    "bounding box" : [ 375.0, 537.567, 414.333, 549.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C. fishs"
+  }, {
+    "type" : "paragraph",
+    "id" : 220,
+    "page number" : 4,
+    "bounding box" : [ 376.333, 490.233, 423.667, 502.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C. a cake"
+  }, {
+    "type" : "paragraph",
+    "id" : 221,
+    "page number" : 4,
+    "bounding box" : [ 178.667, 320.233, 541.667, 360.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "(alwayslusuallyloften/sometimes/never ) every (4 on Sundays (4F] 4 ) usually day"
+  }, {
+    "type" : "paragraph",
+    "id" : 222,
+    "page number" : 4,
+    "bounding box" : [ 285.667, 253.567, 292.333, 262.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1"
+  }, {
+    "type" : "paragraph",
+    "id" : 223,
+    "page number" : 4,
+    "bounding box" : [ 53.667, 150.9, 103.0, 165.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "% =)4"
+  }, {
+    "type" : "paragraph",
+    "id" : 224,
+    "page number" : 4,
+    "bounding box" : [ 171.358, 122.267, 438.667, 139.864 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "the my parents they boys `"
+  }, {
+    "type" : "paragraph",
+    "id" : 225,
+    "page number" : 4,
+    "bounding box" : [ 341.0, 98.9, 433.667, 112.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Tom . my mother ."
+  }, {
+    "type" : "image",
+    "id" : 226,
+    "page number" : 5,
+    "bounding box" : [ 52.564, 786.496, 95.021, 801.316 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile8.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 227,
+    "page number" : 5,
+    "bounding box" : [ 53.333, 701.233, 62.667, 712.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "3 ."
+  }, {
+    "type" : "paragraph",
+    "id" : 228,
+    "page number" : 5,
+    "bounding box" : [ 193.333, 625.233, 206.0, 634.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "es like~likes; play_plays; eat-eats"
+  }, {
+    "type" : "paragraph",
+    "id" : 229,
+    "page number" : 5,
+    "bounding box" : [ 248.667, 596.567, 443.0, 612.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "es study_studies, fly_flies; cry_cries play_plays; stay_stays; enjoy_enjoys"
+  }, {
+    "type" : "paragraph",
+    "id" : 230,
+    "page number" : 5,
+    "bounding box" : [ 53.333, 549.9, 62.667, 559.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4."
+  }, {
+    "type" : "paragraph",
+    "id" : 231,
+    "page number" : 5,
+    "bounding box" : [ 94.333, 524.233, 452.333, 538.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "like ( #x) (amlislare )"
+  }, {
+    "type" : "paragraph",
+    "id" : 232,
+    "page number" : 5,
+    "bounding box" : [ 205.333, 416.567, 213.333, 425.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1"
+  }, {
+    "type" : "paragraph",
+    "id" : 233,
+    "page number" : 5,
+    "bounding box" : [ 287.667, 363.567, 504.333, 378.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "She doesn't like milk. Idon't like juice."
+  }, {
+    "type" : "paragraph",
+    "id" : 234,
+    "page number" : 5,
+    "bounding box" : [ 287.667, 316.233, 385.667, 328.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Does she like milk?"
+  }, {
+    "type" : "paragraph",
+    "id" : 235,
+    "page number" : 5,
+    "bounding box" : [ 422.0, 313.9, 514.333, 330.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Do you like juice?"
+  }, {
+    "type" : "paragraph",
+    "id" : 236,
+    "page number" : 5,
+    "bounding box" : [ 101.0, 254.9, 526.333, 292.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "doldoes No, + Yes, she does./No; she Yes, I do. Idon't. don'tdoesn't. doesn't. JNo,"
+  }, {
+    "type" : "paragraph",
+    "id" : 237,
+    "page number" : 5,
+    "bounding box" : [ 59.0, 229.567, 188.333, 243.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "(amlislare )"
+  }, {
+    "type" : "paragraph",
+    "id" : 239,
+    "level" : "2",
+    "page number" : 5,
+    "bounding box" : [ 134.333, 178.233, 229.667, 192.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "+ amlislare + #/"
+  }, {
+    "type" : "paragraph",
+    "id" : 241,
+    "level" : "2",
+    "page number" : 5,
+    "bounding box" : [ 134.333, 152.9, 271.0, 167.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "+ am notlisn'tlaren't + #/"
+  }, {
+    "type" : "paragraph",
+    "id" : 238,
+    "page number" : 5,
+    "bounding box" : [ 513.0, 204.233, 535.0, 216.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "we)"
+  }, {
+    "type" : "paragraph",
+    "id" : 240,
+    "page number" : 5,
+    "bounding box" : [ 331.667, 178.9, 509.0, 191.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "He is a student. We are students ."
+  }, {
+    "type" : "paragraph",
+    "id" : 242,
+    "page number" : 5,
+    "bounding box" : [ 332.333, 153.567, 521.0, 165.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "He isn't a student. We aren't students ."
+  }, {
+    "type" : "paragraph",
+    "id" : 243,
+    "page number" : 5,
+    "bounding box" : [ 105.667, 116.233, 167.667, 128.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Am/Is/Are +"
+  }, {
+    "type" : "paragraph",
+    "id" : 245,
+    "page number" : 5,
+    "bounding box" : [ 170.0, 77.567, 238.333, 92.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "amlislare No,"
+  }, {
+    "type" : "paragraph",
+    "id" : 244,
+    "page number" : 5,
+    "bounding box" : [ 331.0, 114.233, 518.333, 128.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Is he a student? Are you students?"
+  }, {
+    "type" : "paragraph",
+    "id" : 246,
+    "page number" : 5,
+    "bounding box" : [ 429.0, 76.94, 527.333, 92.86 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Yes; we are . we JNO,"
+  }, {
+    "type" : "image",
+    "id" : 247,
+    "page number" : 6,
+    "bounding box" : [ 52.551, 786.217, 94.957, 801.273 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile9.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 248,
+    "page number" : 6,
+    "bounding box" : [ 53.333, 750.233, 79.0, 766.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "6] #"
+  }, {
+    "type" : "paragraph",
+    "id" : 250,
+    "page number" : 6,
+    "bounding box" : [ 104.333, 726.233, 177.0, 738.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "not/isn't/aren't."
+  }, {
+    "type" : "paragraph",
+    "id" : 251,
+    "page number" : 6,
+    "bounding box" : [ 331.667, 726.233, 356.333, 738.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "isn't."
+  }, {
+    "type" : "paragraph",
+    "id" : 252,
+    "page number" : 6,
+    "bounding box" : [ 429.0, 726.233, 459.667, 738.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "aren't."
+  }, {
+    "type" : "paragraph",
+    "id" : 249,
+    "page number" : 6,
+    "bounding box" : [ 513.0, 751.567, 535.0, 764.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "we)"
+  }, {
+    "type" : "paragraph",
+    "id" : 253,
+    "page number" : 6,
+    "bounding box" : [ 53.667, 605.567, 531.333, 641.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "What do you eat for lunch? What does she drink for breakfast?"
+  }, {
+    "type" : "paragraph",
+    "id" : 254,
+    "page number" : 6,
+    "bounding box" : [ 51.333, 554.567, 527.667, 594.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Do/Does + 4u : Do you like apples? Does he like playing football?"
+  }, {
+    "type" : "paragraph",
+    "id" : 255,
+    "level" : "3",
+    "page number" : 6,
+    "bounding box" : [ 59.0, 533.567, 79.0, 548.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "(2)"
+  }, {
+    "type" : "paragraph",
+    "id" : 256,
+    "page number" : 6,
+    "bounding box" : [ 112.333, 412.9, 257.952, 427.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "42 : The girl likes red apples."
+  }, {
+    "type" : "paragraph",
+    "id" : 257,
+    "page number" : 6,
+    "bounding box" : [ 52.115, 364.9, 544.333, 405.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4u : She is always late. She usually up early. gets"
+  }, {
+    "type" : "image",
+    "id" : 258,
+    "page number" : 6,
+    "bounding box" : [ 52.281, 319.116, 156.48, 360.801 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile10.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 259,
+    "page number" : 6,
+    "bounding box" : [ 54.358, 268.936, 336.667, 285.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "mother (like)   drinking tea every afternoon. 1.My"
+  }, {
+    "type" : "paragraph",
+    "id" : 260,
+    "page number" : 6,
+    "bounding box" : [ 111.667, 245.233, 230.333, 260.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "(not like) sour oranges."
+  }, {
+    "type" : "list",
+    "level" : "1",
+    "page number" : 6,
+    "bounding box" : [ 52.0, 173.273, 337.0, 236.9 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.0, 221.567, 337.0, 236.9 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "3.What your father (have) for breakfast?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 53.333, 199.567, 237.667, 212.9 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "4.He (have) bread and milk.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 6,
+      "bounding box" : [ 52.0, 173.273, 284.323, 190.567 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "5.They (eat) rice for dinner every day.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 264,
+    "page number" : 6,
+    "bounding box" : [ 53.964, 148.941, 313.667, 166.859 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "sister (want) to drink some juice now. 6.My"
+  }, {
+    "type" : "paragraph",
+    "id" : 265,
+    "page number" : 6,
+    "bounding box" : [ 85.0, 103.567, 274.333, 116.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ")1 What like for lunch? you"
+  }, {
+    "type" : "paragraph",
+    "id" : 266,
+    "page number" : 6,
+    "bounding box" : [ 100.333, 80.9, 195.667, 92.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "~Ilike rice and fish."
+  }, {
+    "type" : "image",
+    "id" : 267,
+    "page number" : 7,
+    "bounding box" : [ 52.606, 786.272, 95.021, 801.249 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile11.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 268,
+    "page number" : 7,
+    "bounding box" : [ 101.667, 752.233, 130.333, 764.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "do"
+  }, {
+    "type" : "paragraph",
+    "id" : 269,
+    "page number" : 7,
+    "bounding box" : [ 241.667, 752.233, 280.333, 764.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "does"
+  }, {
+    "type" : "paragraph",
+    "id" : 270,
+    "page number" : 7,
+    "bounding box" : [ 397.667, 752.233, 429.0, 764.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "are"
+  }, {
+    "type" : "paragraph",
+    "id" : 271,
+    "page number" : 7,
+    "bounding box" : [ 85.667, 726.9, 285.0, 741.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ")2. Tom like milk. He likes juice"
+  }, {
+    "type" : "paragraph",
+    "id" : 272,
+    "page number" : 7,
+    "bounding box" : [ 102.0, 704.9, 141.667, 716.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A don't"
+  }, {
+    "type" : "paragraph",
+    "id" : 275,
+    "page number" : 7,
+    "bounding box" : [ 85.0, 678.9, 160.333, 693.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ")3. My brother"
+  }, {
+    "type" : "paragraph",
+    "id" : 277,
+    "page number" : 7,
+    "bounding box" : [ 102.0, 657.233, 132.0, 667.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "eat"
+  }, {
+    "type" : "paragraph",
+    "id" : 273,
+    "page number" : 7,
+    "bounding box" : [ 241.0, 703.9, 291.667, 717.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "doesn't"
+  }, {
+    "type" : "paragraph",
+    "id" : 276,
+    "page number" : 7,
+    "bounding box" : [ 198.667, 678.233, 303.667, 695.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "bread every morning:"
+  }, {
+    "type" : "paragraph",
+    "id" : 278,
+    "page number" : 7,
+    "bounding box" : [ 244.0, 657.233, 278.667, 667.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "eats"
+  }, {
+    "type" : "paragraph",
+    "id" : 274,
+    "page number" : 7,
+    "bounding box" : [ 396.333, 704.9, 433.0, 716.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "isn't"
+  }, {
+    "type" : "paragraph",
+    "id" : 279,
+    "page number" : 7,
+    "bounding box" : [ 396.0, 654.233, 443.333, 670.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "eating"
+  }, {
+    "type" : "paragraph",
+    "id" : 280,
+    "page number" : 7,
+    "bounding box" : [ 85.667, 630.9, 276.333, 644.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ")4 . Does your sister like sweet cakes?"
+  }, {
+    "type" : "paragraph",
+    "id" : 281,
+    "page number" : 7,
+    "bounding box" : [ 134.667, 606.567, 246.667, 622.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "She likes sour oranges."
+  }, {
+    "type" : "paragraph",
+    "id" : 282,
+    "page number" : 7,
+    "bounding box" : [ 90.333, 583.9, 170.333, 598.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Yes;, she does"
+  }, {
+    "type" : "paragraph",
+    "id" : 283,
+    "page number" : 7,
+    "bounding box" : [ 246.0, 583.611, 325.667, 598.856 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "she don't No,"
+  }, {
+    "type" : "paragraph",
+    "id" : 285,
+    "page number" : 7,
+    "bounding box" : [ 85.0, 558.9, 387.0, 575.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ")5. We have breakfast at seven o'clock every morning:"
+  }, {
+    "type" : "paragraph",
+    "id" : 286,
+    "page number" : 7,
+    "bounding box" : [ 90.667, 534.9, 141.667, 551.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A usually"
+  }, {
+    "type" : "paragraph",
+    "id" : 287,
+    "page number" : 7,
+    "bounding box" : [ 246.333, 537.567, 271.0, 549.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "is"
+  }, {
+    "type" : "paragraph",
+    "id" : 284,
+    "page number" : 7,
+    "bounding box" : [ 395.0, 583.611, 485.0, 598.856 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "she doesn't No,"
+  }, {
+    "type" : "paragraph",
+    "id" : 288,
+    "page number" : 7,
+    "bounding box" : [ 400.333, 537.567, 439.0, 549.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "does"
+  }, {
+    "type" : "image",
+    "id" : 289,
+    "page number" : 8,
+    "bounding box" : [ 52.525, 786.316, 94.91, 801.376 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile12.png"
+  }, {
+    "type" : "heading",
+    "id" : 290,
+    "level" : "Doctitle",
+    "page number" : 8,
+    "bounding box" : [ 54.333, 720.233, 71.667, 734.233 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "(1)"
+  }, {
+    "type" : "list",
+    "level" : "1",
+    "page number" : 8,
+    "bounding box" : [ 52.333, 529.567, 224.667, 685.9 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 52.333, 669.567, 87.667, 685.9 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "1.eggs",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 52.333, 624.9, 83.0, 637.567 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "2.rice",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "id" : 293,
+      "page number" : 8,
+      "bounding box" : [ 196.667, 601.233, 224.667, 611.233 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "some",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 53.0, 575.567, 99.0, 589.567 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "3.glasses",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 53.0, 529.567, 101.667, 541.567 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "4.noodles",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 297,
+    "page number" : 8,
+    "bounding box" : [ 53.0, 482.233, 91.0, 494.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "5.bread"
+  }, {
+    "type" : "paragraph",
+    "id" : 298,
+    "page number" : 8,
+    "bounding box" : [ 205.333, 459.233, 213.333, 467.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "a"
+  }, {
+    "type" : "paragraph",
+    "id" : 299,
+    "page number" : 8,
+    "bounding box" : [ 53.333, 411.233, 72.0, 421.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1B"
+  }, {
+    "type" : "paragraph",
+    "id" : 296,
+    "page number" : 8,
+    "bounding box" : [ 277.0, 505.567, 317.667, 518.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "noodles eggs"
+  }, {
+    "type" : "list",
+    "level" : "1",
+    "page number" : 8,
+    "bounding box" : [ 53.0, 196.567, 72.333, 302.567 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 53.333, 291.9, 72.0, 302.567 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "3.B",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 53.0, 243.567, 72.333, 255.567 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "4.A",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 53.333, 196.567, 72.0, 207.233 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "5.B",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 300,
+    "page number" : 8,
+    "bounding box" : [ 323.0, 314.9, 365.0, 326.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "bananas"
+  }, {
+    "type" : "paragraph",
+    "id" : 304,
+    "page number" : 8,
+    "bounding box" : [ 53.333, 76.233, 87.667, 89.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1.ikes some cakes"
+  }, {
+    "type" : "image",
+    "id" : 305,
+    "page number" : 9,
+    "bounding box" : [ 52.499, 786.355, 94.984, 801.323 ],
+    "source" : "M2U1 Food and drinks!（知识清单）英语牛津上海版试用本五年级下册[56534463]_images/imageFile13.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 306,
+    "page number" : 9,
+    "bounding box" : [ 434.333, 752.233, 461.0, 764.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "likes wants"
+  }, {
+    "type" : "list",
+    "level" : "1",
+    "page number" : 9,
+    "bounding box" : [ 52.667, 560.567, 541.0, 740.9 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 53.0, 728.233, 109.0, 740.9 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "2.don't like",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 52.667, 679.567, 137.667, 693.567 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "3.does; have; has",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "id" : 309,
+      "page number" : 9,
+      "bounding box" : [ 495.0, 656.9, 541.0, 670.233 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "have; %",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 53.333, 609.9, 78.667, 620.567 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "4.eat they",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 52.667, 560.567, 93.0, 573.9 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "5.wants",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 312,
+    "page number" : 9,
+    "bounding box" : [ 54.0, 490.567, 72.0, 501.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1.A"
+  }, {
+    "type" : "list",
+    "level" : "1",
+    "page number" : 9,
+    "bounding box" : [ 52.333, 395.233, 72.333, 454.233 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 52.333, 442.233, 72.333, 454.233 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "2.B",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 53.333, 395.233, 72.0, 405.9 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "3.B",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 313,
+    "page number" : 9,
+    "bounding box" : [ 334.333, 466.233, 349.667, 478.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "do doesn't"
+  }, {
+    "type" : "paragraph",
+    "id" : 316,
+    "page number" : 9,
+    "bounding box" : [ 53.0, 346.9, 456.667, 381.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "eats 4.C"
+  }, {
+    "type" : "paragraph",
+    "id" : 317,
+    "page number" : 9,
+    "bounding box" : [ 53.333, 299.9, 497.667, 335.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "No, she doesn't 5.A"
+  }, {
+    "type" : "paragraph",
+    "id" : 318,
+    "page number" : 9,
+    "bounding box" : [ 302.0, 275.9, 312.667, 286.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "is has"
+  } ]
+}

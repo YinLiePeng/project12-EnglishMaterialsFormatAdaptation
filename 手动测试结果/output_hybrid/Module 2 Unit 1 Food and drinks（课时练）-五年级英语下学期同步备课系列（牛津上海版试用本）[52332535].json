@@ -1,0 +1,1522 @@
+{
+  "file name" : "Module 2 Unit 1 Food and drinks（课时练）-五年级英语下学期同步备课系列（牛津上海版试用本）[52332535].pdf",
+  "number of pages" : 6,
+  "author" : "张少鹏",
+  "title" : "",
+  "creation date" : "D:20260413235422+08'00'",
+  "modification date" : "D:20260413235422+08'00'",
+  "kids" : [ {
+    "type" : "image",
+    "id" : 177,
+    "page number" : 1,
+    "bounding box" : [ 53.707, 786.125, 95.9, 799.524 ],
+    "source" : "Module 2 Unit 1 Food and drinks（课时练）-五年级英语下学期同步备课系列（牛津上海版试用本）[52332535]_images/imageFile1.png"
+  }, {
+    "type" : "image",
+    "id" : 179,
+    "page number" : 1,
+    "bounding box" : [ 57.674, 710.187, 144.609, 750.85 ],
+    "source" : "Module 2 Unit 1 Food and drinks（课时练）-五年级英语下学期同步备课系列（牛津上海版试用本）[52332535]_images/imageFile2.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 180,
+    "page number" : 1,
+    "bounding box" : [ 105.861, 723.524, 141.981, 733.056 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "基础练"
+  }, {
+    "type" : "heading",
+    "id" : 178,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 200.159, 745.892, 425.039, 759.095 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "M2U1 Food and drinks （课时练）"
+  }, {
+    "type" : "heading",
+    "id" : 181,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 54.0, 689.029, 437.398, 699.687 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "一、 Read and choose the correct words （选出画线部分发音不同的单词）"
+  }, {
+    "type" : "paragraph",
+    "id" : 182,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 665.751, 144.6, 676.035 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )1. A. down"
+  }, {
+    "type" : "paragraph",
+    "id" : 183,
+    "page number" : 1,
+    "bounding box" : [ 192.6, 665.751, 227.304, 676.035 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "bow"
+  }, {
+    "type" : "paragraph",
+    "id" : 184,
+    "page number" : 1,
+    "bounding box" : [ 281.28, 665.751, 319.344, 676.035 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "blow"
+  }, {
+    "type" : "paragraph",
+    "id" : 185,
+    "page number" : 1,
+    "bounding box" : [ 385.32, 665.751, 427.955, 676.035 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "house"
+  }, {
+    "type" : "paragraph",
+    "id" : 186,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 642.351, 145.344, 652.635 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )2.A.yellow"
+  }, {
+    "type" : "paragraph",
+    "id" : 187,
+    "page number" : 1,
+    "bounding box" : [ 193.32, 642.351, 229.584, 652.635 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B.snow"
+  }, {
+    "type" : "paragraph",
+    "id" : 188,
+    "page number" : 1,
+    "bounding box" : [ 283.68, 642.351, 322.344, 652.635 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "grow"
+  }, {
+    "type" : "paragraph",
+    "id" : 189,
+    "page number" : 1,
+    "bounding box" : [ 388.32, 642.351, 420.623, 652.635 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D.how"
+  }, {
+    "type" : "paragraph",
+    "id" : 190,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 618.951, 135.24, 629.235 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )3.A.bean"
+  }, {
+    "type" : "paragraph",
+    "id" : 191,
+    "page number" : 1,
+    "bounding box" : [ 189.24, 618.951, 229.92, 629.235 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "bread"
+  }, {
+    "type" : "paragraph",
+    "id" : 192,
+    "page number" : 1,
+    "bounding box" : [ 283.92, 618.951, 341.843, 629.235 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "breakfast"
+  }, {
+    "type" : "paragraph",
+    "id" : 193,
+    "page number" : 1,
+    "bounding box" : [ 389.88, 618.951, 439.919, 629.235 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "healthy"
+  }, {
+    "type" : "paragraph",
+    "id" : 194,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 595.551, 139.955, 605.835 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )4.A.either"
+  }, {
+    "type" : "paragraph",
+    "id" : 195,
+    "page number" : 1,
+    "bounding box" : [ 187.92, 595.551, 225.804, 605.835 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "eight"
+  }, {
+    "type" : "paragraph",
+    "id" : 196,
+    "page number" : 1,
+    "bounding box" : [ 285.959, 595.551, 329.844, 605.835 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "height"
+  }, {
+    "type" : "paragraph",
+    "id" : 197,
+    "page number" : 1,
+    "bounding box" : [ 390.0, 595.551, 425.879, 605.835 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "high"
+  }, {
+    "type" : "paragraph",
+    "id" : 198,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 572.029, 445.439, 582.687 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "二、 Write the words according to the phonetic symbols( 根据音标写出单词 )."
+  }, {
+    "type" : "paragraph",
+    "id" : 199,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 548.751, 297.444, 559.035 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "I think we should have more________ /'kæbɪdʒ/"
+  }, {
+    "type" : "list",
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 54.0, 478.551, 423.804, 535.635 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.0, 525.351, 237.563, 535.635 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "2.Can you make icy________ /drɪŋks/",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.0, 501.951, 325.524, 512.235 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "3.I like fast food like________ very much. /'hæmbɜ:gəz/",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 54.0, 478.551, 423.804, 488.835 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "4. Let's go to the McDonald's to have some________ ________./.frentʃ'fraɪz/",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 203,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 455.151, 248.244, 465.435 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "It's________ to have less meat. /'betə/"
+  }, {
+    "type" : "heading",
+    "id" : 204,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 54.0, 431.629, 306.118, 442.287 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "三、 Choose the best answer （选择正确的答案）"
+  }, {
+    "type" : "paragraph",
+    "id" : 205,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 408.351, 347.878, 418.635 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )1. Jim and Matt live in a small hole_______ the wall."
+  }, {
+    "type" : "paragraph",
+    "id" : 206,
+    "page number" : 1,
+    "bounding box" : [ 66.0, 384.951, 86.999, 395.235 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A.in"
+  }, {
+    "type" : "paragraph",
+    "id" : 207,
+    "page number" : 1,
+    "bounding box" : [ 237.0, 384.951, 259.92, 395.235 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B.on"
+  }, {
+    "type" : "paragraph",
+    "id" : 209,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 361.551, 273.359, 371.835 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )2. She doesn't eat breakfast________."
+  }, {
+    "type" : "paragraph",
+    "id" : 210,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 338.151, 84.0, 348.435 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A. too"
+  }, {
+    "type" : "paragraph",
+    "id" : 211,
+    "page number" : 1,
+    "bounding box" : [ 234.0, 338.151, 260.003, 348.435 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "all"
+  }, {
+    "type" : "paragraph",
+    "id" : 208,
+    "page number" : 1,
+    "bounding box" : [ 380.04, 384.951, 430.918, 395.235 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C.between"
+  }, {
+    "type" : "paragraph",
+    "id" : 212,
+    "page number" : 1,
+    "bounding box" : [ 379.919, 338.151, 421.233, 348.435 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "either"
+  }, {
+    "type" : "paragraph",
+    "id" : 213,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 314.751, 321.719, 325.035 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )3.-What's_______your lunch? -Meat and fish."
+  }, {
+    "type" : "paragraph",
+    "id" : 214,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 291.351, 94.883, 301.635 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "from"
+  }, {
+    "type" : "paragraph",
+    "id" : 215,
+    "page number" : 1,
+    "bounding box" : [ 232.92, 291.351, 260.914, 301.635 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "for"
+  }, {
+    "type" : "paragraph",
+    "id" : 216,
+    "page number" : 1,
+    "bounding box" : [ 381.0, 291.351, 404.915, 301.635 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C. of"
+  }, {
+    "type" : "paragraph",
+    "id" : 217,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 267.951, 317.878, 278.235 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )4.My little brother_______eats any vegetables."
+  }, {
+    "type" : "paragraph",
+    "id" : 218,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 244.551, 94.199, 254.835 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A. often"
+  }, {
+    "type" : "paragraph",
+    "id" : 219,
+    "page number" : 1,
+    "bounding box" : [ 232.2, 244.551, 269.795, 254.835 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B.never"
+  }, {
+    "type" : "paragraph",
+    "id" : 221,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 221.151, 367.199, 231.435 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )5.Cats like fish________because it's their favourite food."
+  }, {
+    "type" : "paragraph",
+    "id" : 222,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 197.751, 88.883, 208.035 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "best"
+  }, {
+    "type" : "paragraph",
+    "id" : 223,
+    "page number" : 1,
+    "bounding box" : [ 238.92, 197.751, 277.114, 208.035 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B.better"
+  }, {
+    "type" : "paragraph",
+    "id" : 225,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 174.351, 364.198, 184.635 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "( )6.There________some bread,milk and eggs on the table."
+  }, {
+    "type" : "paragraph",
+    "id" : 226,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 150.951, 80.244, 161.235 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A.am"
+  }, {
+    "type" : "image",
+    "id" : 229,
+    "page number" : 1,
+    "bounding box" : [ 47.134, 105.562, 129.209, 143.129 ],
+    "source" : "Module 2 Unit 1 Food and drinks（课时练）-五年级英语下学期同步备课系列（牛津上海版试用本）[52332535]_images/imageFile3.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 230,
+    "page number" : 1,
+    "bounding box" : [ 93.0, 118.114, 129.12, 127.646 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "能力练"
+  }, {
+    "type" : "paragraph",
+    "id" : 231,
+    "page number" : 1,
+    "bounding box" : [ 93.0, 118.114, 129.12, 127.646 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "能力练"
+  }, {
+    "type" : "paragraph",
+    "id" : 227,
+    "page number" : 1,
+    "bounding box" : [ 242.28, 150.951, 261.227, 161.235 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B.is"
+  }, {
+    "type" : "paragraph",
+    "id" : 220,
+    "page number" : 1,
+    "bounding box" : [ 383.88, 244.551, 446.265, 254.835 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C.sometimes"
+  }, {
+    "type" : "paragraph",
+    "id" : 224,
+    "page number" : 1,
+    "bounding box" : [ 385.2, 197.751, 417.479, 208.035 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C.very"
+  }, {
+    "type" : "paragraph",
+    "id" : 228,
+    "page number" : 1,
+    "bounding box" : [ 387.24, 150.951, 412.835, 161.235 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C.are"
+  }, {
+    "type" : "footer",
+    "id" : 353,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 359,
+      "page number" : 1,
+      "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 233,
+    "page number" : 2,
+    "bounding box" : [ 53.619, 786.372, 95.809, 799.405 ],
+    "source" : "Module 2 Unit 1 Food and drinks（课时练）-五年级英语下学期同步备课系列（牛津上海版试用本）[52332535]_images/imageFile4.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 234,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 751.551, 303.874, 761.835 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1.-What_______ you _______ (have) this morning?"
+  }, {
+    "type" : "paragraph",
+    "id" : 235,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 54.0, 728.151, 253.559, 738.435 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "-I________ (have) a cake and some milk."
+  }, {
+    "type" : "paragraph",
+    "id" : 236,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 704.751, 358.199, 715.035 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "________ (a) apple a day ________ (keep) the doctor away."
+  }, {
+    "type" : "paragraph",
+    "id" : 237,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 681.351, 296.517, 691.635 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Eating too much fast food is ________(health)."
+  }, {
+    "type" : "paragraph",
+    "id" : 238,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 657.951, 286.436, 668.235 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "John likes_______(skip) with his classmates."
+  }, {
+    "type" : "paragraph",
+    "id" : 239,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 634.551, 316.2, 644.835 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "You_______(get) fat now.Please eat less every day."
+  }, {
+    "type" : "heading",
+    "id" : 240,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 54.0, 611.029, 347.916, 621.687 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "五、 Rewrite the sentences as required( 按要求改写句子 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 241,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 587.751, 365.915, 598.287 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1.Jill's grandparents lived in Beijing last year.( 对画线部分提问 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 242,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 564.351, 318.035, 574.635 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "______ _______ Jill's grandparents _______ last year?"
+  }, {
+    "type" : "paragraph",
+    "id" : 243,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 540.951, 354.996, 551.487 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2.It is unhealthy to eat a lot of sweets.( 改为否定句 , 意思不变 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 244,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 517.551, 295.198, 527.835 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "_______ ________ ______ to eat_______ sweets."
+  }, {
+    "type" : "paragraph",
+    "id" : 245,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 494.151, 321.996, 504.687 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "3.My sister had some ham for lunch.( 改为一般疑问句 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 246,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 470.751, 331.955, 481.035 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "_______ _______ sister_______ _______ ham for lunch?"
+  }, {
+    "type" : "paragraph",
+    "id" : 247,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 447.351, 328.236, 457.887 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "He ate some noodles this morning.( 对画线部分提问 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 248,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 423.951, 247.474, 434.235 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "What_______ he_______ this morning?"
+  }, {
+    "type" : "paragraph",
+    "id" : 249,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 400.551, 426.516, 411.087 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "is good for, eating fruit and vegetables, to keep healthy, people( 连词成句 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 250,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 377.151, 390.0, 387.435 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "________________________________________________________"
+  }, {
+    "type" : "heading",
+    "id" : 251,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 54.0, 353.629, 457.796, 364.287 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "六、 Read and write （阅读短文，把句子填写完整，每格一词，首字母已给）"
+  }, {
+    "type" : "paragraph",
+    "id" : 252,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 260.151, 535.787, 340.635 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "It's 1.s_______ day.The pupils are having a 2.p_______ in the park.They have got many drinks And 3.m________ food.They are eating and drinking.There's a 4.s_______.It says 'No littering'. They put the 5.r______ in the bin.Now the girls are singing 6.u______ the tree.The boys are 7.f______ kites.Their teacher,Miss Ling is looking at 8.t_______."
+  }, {
+    "type" : "image",
+    "id" : 253,
+    "page number" : 2,
+    "bounding box" : [ 54.078, 215.151, 130.628, 259.016 ],
+    "source" : "Module 2 Unit 1 Food and drinks（课时练）-五年级英语下学期同步备课系列（牛津上海版试用本）[52332535]_images/imageFile5.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 254,
+    "page number" : 2,
+    "bounding box" : [ 94.2, 224.555, 130.2, 234.087 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "拓展练"
+  }, {
+    "type" : "paragraph",
+    "id" : 255,
+    "page number" : 2,
+    "bounding box" : [ 94.2, 224.555, 130.2, 234.087 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "拓展练"
+  }, {
+    "type" : "heading",
+    "id" : 256,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 54.0, 189.829, 367.955, 200.487 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "七、 Read and answer the questions( 阅读短文 , 回答下列问题 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 257,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 143.151, 520.643, 176.835 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "We need to get different vitamins in the diet because our body needs them for health and we can't make them. Here are some key points about vitamins."
+  }, {
+    "type" : "paragraph",
+    "id" : 258,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 119.751, 197.637, 130.035 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "There are 13 known vitamins."
+  }, {
+    "type" : "paragraph",
+    "id" : 259,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 96.351, 283.556, 106.635 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Vitamins are either water-soluble or fat-soluble."
+  }, {
+    "type" : "paragraph",
+    "id" : 260,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 72.951, 457.559, 83.235 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The fat-soluble vitamins are easier for the body to store than the water-soluble ones."
+  }, {
+    "type" : "footer",
+    "id" : 354,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 360,
+      "page number" : 2,
+      "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 262,
+    "page number" : 3,
+    "bounding box" : [ 53.631, 786.254, 95.821, 799.393 ],
+    "source" : "Module 2 Unit 1 Food and drinks（课时练）-五年级英语下学期同步备课系列（牛津上海版试用本）[52332535]_images/imageFile6.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 263,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 751.551, 224.397, 761.835 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Food is the best source of vitamins."
+  }, {
+    "type" : "paragraph",
+    "id" : 264,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 704.751, 538.199, 738.435 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The vitamins are named by letters of the alphabet, Here are some important types of vitamins in our body."
+  }, {
+    "type" : "paragraph",
+    "id" : 265,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 681.351, 232.558, 691.635 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Vitamin A is important for eye health"
+  }, {
+    "type" : "paragraph",
+    "id" : 266,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 657.951, 295.439, 668.235 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The B vitamins can help the body produce energy."
+  }, {
+    "type" : "list",
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 54.0, 611.151, 307.437, 644.835 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.0, 634.551, 307.437, 644.835 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "Vitamin C plays an important role in immune health.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 54.0, 611.151, 243.478, 621.435 ],
+      "font" : null,
+      "font size" : 12.0,
+      "text color" : "null",
+      "content" : "Vitamin D is important for bone health.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 269,
+    "page number" : 3,
+    "bounding box" : [ 59.759, 587.751, 208.679, 598.035 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Vitamin E is good for our skin."
+  }, {
+    "type" : "paragraph",
+    "id" : 270,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 564.351, 250.594, 574.635 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Why do we need vitamins in the diet?"
+  }, {
+    "type" : "paragraph",
+    "id" : 271,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 540.951, 312.0, 551.235 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "___________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 272,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 517.551, 258.153, 527.835 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "How many kinds of vitamins are there?"
+  }, {
+    "type" : "paragraph",
+    "id" : 273,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 494.151, 312.0, 504.435 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "___________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 274,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 470.751, 319.474, 481.035 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "What kind of vitamin is easier for the body to store?"
+  }, {
+    "type" : "paragraph",
+    "id" : 275,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 447.351, 312.0, 457.635 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "___________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 276,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 423.951, 212.194, 434.235 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "How are the vitamins named?"
+  }, {
+    "type" : "paragraph",
+    "id" : 277,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 400.551, 312.0, 410.835 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "___________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 278,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 377.151, 303.633, 387.435 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Which vitamin helps support energy production?"
+  }, {
+    "type" : "paragraph",
+    "id" : 279,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 353.751, 312.0, 364.035 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "___________________________________________"
+  }, {
+    "type" : "footer",
+    "id" : 355,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 361,
+      "page number" : 3,
+      "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 281,
+    "page number" : 4,
+    "bounding box" : [ 53.6, 786.725, 95.743, 799.465 ],
+    "source" : "Module 2 Unit 1 Food and drinks（课时练）-五年级英语下学期同步备课系列（牛津上海版试用本）[52332535]_images/imageFile7.png"
+  }, {
+    "type" : "heading",
+    "id" : 282,
+    "level" : "Doctitle",
+    "page number" : 4,
+    "bounding box" : [ 260.04, 747.18, 335.279, 759.095 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "答案与解析"
+  }, {
+    "type" : "heading",
+    "id" : 283,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 54.0, 720.229, 437.398, 730.887 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "一、 Read and choose the correct words （选出画线部分发音不同的单词）"
+  }, {
+    "type" : "paragraph",
+    "id" : 284,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 54.0, 696.951, 106.992, 707.487 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1. 答案： C"
+  }, {
+    "type" : "paragraph",
+    "id" : 285,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 673.551, 541.32, 684.087 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： A. down /daʊn/ ； B. bow /baʊ/ ； C. blow /bləʊ/ ； D. house /haʊs/ ， A 、 B 、 D 中 'ow' 发"
+  }, {
+    "type" : "paragraph",
+    "id" : 286,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 650.151, 202.44, 660.687 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "/aʊ/ ， C 中 'ow' 发 /əʊ/ 。"
+  }, {
+    "type" : "paragraph",
+    "id" : 287,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 54.0, 626.751, 107.664, 637.287 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2. 答案： D"
+  }, {
+    "type" : "paragraph",
+    "id" : 288,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 603.351, 541.235, 613.887 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： A. yellow /ˈjeləʊ/ ； B. snow /snəʊ/ ； C. grow /ɡrəʊ/ ； D. how /haʊ/ ， A 、 B 、 C 中 'ow'"
+  }, {
+    "type" : "paragraph",
+    "id" : 289,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 579.951, 221.04, 590.487 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "发 /əʊ/ ， D 中 'ow' 发 /aʊ/ 。"
+  }, {
+    "type" : "paragraph",
+    "id" : 290,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 54.0, 556.551, 107.664, 567.087 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "3. 答案： A"
+  }, {
+    "type" : "paragraph",
+    "id" : 291,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 509.751, 541.223, 543.687 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： A. bean /biːn/ ； B. bread /bred/ ； C. breakfast /ˈbrekfəst/ ； D. healthy /ˈhelθi/ ， B 、 C 、 D 中 'ea' 发 /e/ ， A 中 'ea' 发 /iː/ 。"
+  }, {
+    "type" : "paragraph",
+    "id" : 292,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 54.0, 486.351, 106.992, 496.887 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4. 答案： B"
+  }, {
+    "type" : "paragraph",
+    "id" : 293,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 439.551, 541.235, 473.487 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： A. either /ˈaɪðə(r)/ ； B. eight /eɪt/ ； C. height /haɪt/ ； D. high /haɪ/ ， A 、 C 、 D 中 'ei/igh' 发 /aɪ/ ， B 中 'ei' 发 /eɪ/ 。"
+  }, {
+    "type" : "heading",
+    "id" : 294,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 54.0, 416.029, 441.479, 426.687 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "二、 Write the words according to the phonetic symbols ( 根据音标写出单词"
+  }, {
+    "type" : "heading",
+    "id" : 295,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 441.6, 416.029, 445.596, 426.435 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ")"
+  }, {
+    "type" : "paragraph",
+    "id" : 296,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 392.751, 138.275, 403.287 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "答案： cabbage"
+  }, {
+    "type" : "paragraph",
+    "id" : 297,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 54.0, 369.351, 128.987, 379.887 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2. 答案： drinks"
+  }, {
+    "type" : "paragraph",
+    "id" : 298,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 345.951, 155.386, 356.487 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "答案： hamburgers"
+  }, {
+    "type" : "paragraph",
+    "id" : 299,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 54.0, 322.551, 156.466, 333.087 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4. 答案： French fries"
+  }, {
+    "type" : "paragraph",
+    "id" : 300,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 299.151, 126.274, 309.687 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "答案： better"
+  }, {
+    "type" : "heading",
+    "id" : 301,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 54.0, 275.629, 306.118, 286.287 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "三、 Choose the best answer （选择正确的答案）"
+  }, {
+    "type" : "heading",
+    "id" : 302,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 54.0, 252.351, 107.664, 262.887 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1. 答案： A"
+  }, {
+    "type" : "paragraph",
+    "id" : 303,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 206.555, 517.319, 239.487 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： ' 在墙里的一个小洞 ' ， 表示在物体内部用 in ； on 表示在 …… 表面； between 表示在 之间 。"
+  }, {
+    "type" : "paragraph",
+    "id" : 304,
+    "page number" : 4,
+    "bounding box" : [ 517.32, 228.951, 541.32, 239.235 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "……"
+  }, {
+    "type" : "heading",
+    "id" : 305,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 54.0, 182.151, 106.992, 192.687 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2. 答案： C"
+  }, {
+    "type" : "paragraph",
+    "id" : 306,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 135.351, 541.319, 169.287 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： too 用于肯定句末； all 意为 ' 全部 ' ； either 用于否定句末，表示 ' 也 ' ，此句是否定 句，故选 C 。"
+  }, {
+    "type" : "paragraph",
+    "id" : 307,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 54.0, 111.951, 106.992, 122.487 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "3. 答案： B"
+  }, {
+    "type" : "paragraph",
+    "id" : 308,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 88.551, 394.2, 99.087 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： 'What's for + 三餐 ' 是固定句型，用于询问某餐吃什么 。"
+  }, {
+    "type" : "footer",
+    "id" : 356,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 362,
+      "page number" : 4,
+      "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 310,
+    "page number" : 5,
+    "bounding box" : [ 53.662, 787.0, 95.646, 799.429 ],
+    "source" : "Module 2 Unit 1 Food and drinks（课时练）-五年级英语下学期同步备课系列（牛津上海版试用本）[52332535]_images/imageFile8.png"
+  }, {
+    "type" : "heading",
+    "id" : 311,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 54.0, 751.551, 106.992, 762.087 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4. 答案： B"
+  }, {
+    "type" : "paragraph",
+    "id" : 312,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 704.751, 539.28, 738.687 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： A. often 经常； B. never 从不； C. sometimes 有时 ，句中 'any' 常用于否定句，所以 选表示否定意义的 never 。"
+  }, {
+    "type" : "heading",
+    "id" : 313,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 54.0, 681.351, 107.664, 691.887 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "5. 答案： A"
+  }, {
+    "type" : "paragraph",
+    "id" : 314,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 634.551, 547.32, 668.487 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： like...best 意为 ' 最喜欢 ……' ； better 是比较级； very 不能直接修饰 like ，故选 A 。 6. 答案： B"
+  }, {
+    "type" : "paragraph",
+    "id" : 315,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 611.151, 474.24, 621.687 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： there be 句型遵循就近原则， bread 是不可数名词，所以 be 动词用 is 。"
+  }, {
+    "type" : "heading",
+    "id" : 316,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 54.0, 564.351, 514.198, 598.287 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "四、 Fill in the blanks with proper forms of the words given （用所给词的适当形式填空） 1. 答案： did; have; had"
+  }, {
+    "type" : "paragraph",
+    "id" : 317,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 517.551, 537.0, 551.487 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析：根据 'this morning' 可知是一般过去时，特殊疑问句借助助动词 did ，后接动词原形 have ；答句用 have 的过去式 had 。"
+  }, {
+    "type" : "paragraph",
+    "id" : 318,
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 54.0, 494.151, 147.227, 504.687 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2. 答案： An; keeps"
+  }, {
+    "type" : "paragraph",
+    "id" : 319,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 447.351, 541.235, 481.287 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： 'an apple a day keeps the doctor away' 是谚语，意为 ' 一天一苹果，医生远离我 ' ， apple 发音以元音音素开头，用 An ；主语是单数， keep 用第三人称单数形式 keeps 。"
+  }, {
+    "type" : "paragraph",
+    "id" : 320,
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 54.0, 423.951, 146.278, 434.487 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "3. 答案： unhealthy"
+  }, {
+    "type" : "paragraph",
+    "id" : 321,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 400.551, 423.24, 411.087 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析：吃太多快餐是 ' 不健康的 ' ， health 的否定形式是 unhealthy 。"
+  }, {
+    "type" : "paragraph",
+    "id" : 322,
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 54.0, 377.151, 140.398, 387.687 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4. 答案： skipping"
+  }, {
+    "type" : "paragraph",
+    "id" : 323,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 353.751, 458.28, 364.287 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： like doing sth. 表示 ' 喜欢做某事 ' ， skip 的动名词形式是 skipping 。"
+  }, {
+    "type" : "paragraph",
+    "id" : 324,
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 54.0, 330.351, 149.998, 340.887 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "5. 答案： are getting"
+  }, {
+    "type" : "paragraph",
+    "id" : 325,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 283.551, 534.0, 317.487 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析：根据 'now' 可知用现在进行时，结构是 be + 动词 -ing ，主语是 You ， be 动词用 are ， get 的现在分词是 getting 。"
+  }, {
+    "type" : "heading",
+    "id" : 326,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 54.0, 260.029, 344.916, 270.687 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "五、 Rewrite the sentences as required ( 按要求改写句子 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 327,
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 54.0, 236.751, 173.675, 247.287 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1. 答案： Where did; live"
+  }, {
+    "type" : "paragraph",
+    "id" : 328,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 189.951, 539.04, 223.887 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析：对地点提问用 Where ，原句是一般过去时，借助助动词 did ，后接动词原形 live 。 2. 答案： It's healthy; few"
+  }, {
+    "type" : "paragraph",
+    "id" : 329,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 144.155, 541.319, 177.087 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： 'unhealthy' 的反义词是 'healthy' ， 'a lot of' （许多）意思相反可以用 'few' （几乎没 有） ，改写后意思不变。"
+  }, {
+    "type" : "paragraph",
+    "id" : 330,
+    "level" : "4",
+    "page number" : 5,
+    "bounding box" : [ 54.0, 119.751, 191.28, 130.287 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "3. 答案： Did your; have any"
+  }, {
+    "type" : "paragraph",
+    "id" : 331,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 96.351, 541.32, 106.887 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析：原句是一般过去时，改为一般疑问句借助助动词 Did ，放句首，首字母大写； some 用"
+  }, {
+    "type" : "footer",
+    "id" : 357,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 363,
+      "page number" : 5,
+      "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 333,
+    "page number" : 6,
+    "bounding box" : [ 53.53, 786.944, 95.675, 799.359 ],
+    "source" : "Module 2 Unit 1 Food and drinks（课时练）-五年级英语下学期同步备课系列（牛津上海版试用本）[52332535]_images/imageFile9.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 334,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 751.551, 447.0, 762.087 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "于肯定句，一般疑问句中改为 any ；第一人称 My 改为第二人称 Your 。"
+  }, {
+    "type" : "paragraph",
+    "id" : 335,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 54.0, 728.151, 134.483, 738.687 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4. 答案： did; eat"
+  }, {
+    "type" : "paragraph",
+    "id" : 336,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 681.351, 537.72, 715.287 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析：对 ' 吃的东西 ' 提问用 What ，原句是一般过去时，借助助动词 did ，后接动词原形 eat 。"
+  }, {
+    "type" : "paragraph",
+    "id" : 337,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 54.0, 657.951, 396.597, 668.487 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "5. 答案： Eating fruit and vegetables is good for people to keep healthy."
+  }, {
+    "type" : "paragraph",
+    "id" : 338,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 611.151, 509.88, 645.087 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析： 'be good for sb. to do sth.' 表示 ' 做某事对某人有好处 ' ，动名词 Eating fruit and vegetables 作主语 。"
+  }, {
+    "type" : "heading",
+    "id" : 339,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 54.0, 587.629, 457.796, 598.287 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "六、 Read and write （阅读短文，把句子填写完整，每格一词，首字母已给）"
+  }, {
+    "type" : "paragraph",
+    "id" : 340,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 54.0, 540.951, 509.639, 574.887 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1. 答案： sunny 2. 答案： picnic 3. 答案： much 4. 答案： sign 5. 答案： rubbish 6. 答案： under 7. 答案： flying 8. 答案： them"
+  }, {
+    "type" : "heading",
+    "id" : 341,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 54.0, 517.429, 380.076, 528.087 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "七、 Read and answer the questions ( 阅读短文，回答下列问题 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 342,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 54.0, 494.151, 413.039, 504.687 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1. 答案： Because our body needs them for health and we can't make them."
+  }, {
+    "type" : "paragraph",
+    "id" : 343,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 447.351, 521.314, 481.287 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析：根据文中 'We need to get different vitamins in the diet because our body needs them for health and we can't make them.' 可知答案 。"
+  }, {
+    "type" : "paragraph",
+    "id" : 344,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 54.0, 423.951, 242.637, 434.487 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2. 答案： There are 13 known vitamins."
+  }, {
+    "type" : "paragraph",
+    "id" : 345,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 400.551, 394.2, 411.087 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析：从文中 'There are 13 known vitamins.' 可直接得出答案 。"
+  }, {
+    "type" : "paragraph",
+    "id" : 346,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 54.0, 377.151, 374.158, 387.687 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "3. 答案： The fat - soluble vitamins are easier for the body to store."
+  }, {
+    "type" : "paragraph",
+    "id" : 347,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 330.351, 537.155, 364.287 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析：依据文中 'The fat - soluble vitamins are easier for the body to store than the water - soluble ones.' 可知 。"
+  }, {
+    "type" : "paragraph",
+    "id" : 348,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 54.0, 306.951, 339.117, 317.487 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4. 答案： The vitamins are named by letters of the alphabet."
+  }, {
+    "type" : "paragraph",
+    "id" : 349,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 283.551, 442.8, 294.087 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析：根据文中 'The vitamins are named by letters of the alphabet.' 可知 。"
+  }, {
+    "type" : "paragraph",
+    "id" : 350,
+    "level" : "4",
+    "page number" : 6,
+    "bounding box" : [ 54.0, 260.151, 329.038, 270.687 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "5. 答案： The B vitamins help support energy production."
+  }, {
+    "type" : "paragraph",
+    "id" : 351,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 236.751, 455.88, 247.287 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "解析：由文中 'The B vitamins can help the body produce energy.' 可知答案 。"
+  }, {
+    "type" : "footer",
+    "id" : 358,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 364,
+      "page number" : 6,
+      "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+      "heading level" : 1,
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  } ]
+}

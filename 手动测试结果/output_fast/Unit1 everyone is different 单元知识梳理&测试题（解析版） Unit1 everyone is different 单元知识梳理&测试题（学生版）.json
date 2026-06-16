@@ -1,0 +1,5240 @@
+{
+  "file name" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）.pdf",
+  "number of pages" : 32,
+  "author" : "Administrator",
+  "title" : "",
+  "creation date" : "D:20260413235421+08'00'",
+  "modification date" : "D:20260413235421+08'00'",
+  "kids" : [ {
+    "type" : "heading",
+    "id" : 147,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 48.0, 716.974, 115.778, 728.474 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 11.5,
+    "text color" : "[0.439, 0.188, 0.627]",
+    "content" : "【课前热身】"
+  }, {
+    "type" : "header",
+    "id" : 142,
+    "page number" : 1,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 105,
+      "page number" : 1,
+      "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile1.png"
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 145,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 139.08, 763.694, 461.62, 779.751 ],
+    "heading level" : 1,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 14.5,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "6B Unit1 everyone is different 单元知识梳理&测试题"
+  }, {
+    "type" : "paragraph",
+    "id" : 146,
+    "page number" : 1,
+    "bounding box" : [ 273.6, 739.8, 326.288, 750.25 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.69, 0.314]",
+    "content" : "（学生版）"
+  }, {
+    "type" : "paragraph",
+    "id" : 148,
+    "page number" : 1,
+    "bounding box" : [ 69.0, 644.81, 551.944, 703.45 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "语法选择 阅读下面短文，从每题所给的 A、B、C、D 四个选项中，选出可以填入空白处的最佳选项。 Helen Keller was a very bright and beautiful girl. At the age of 19 months, a serious illness (1) ______ her blind"
+  }, {
+    "type" : "paragraph",
+    "id" : 149,
+    "page number" : 1,
+    "bounding box" : [ 48.0, 597.89, 551.371, 632.982 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "and deaf. Before her illness, she could see and hear like other children. But after that, she could (2) ______ see or hear. So she couldn't learn to speak."
+  }, {
+    "type" : "paragraph",
+    "id" : 150,
+    "page number" : 1,
+    "bounding box" : [ 48.0, 527.571, 552.132, 586.062 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Her parents were very sad. They didn't know (3) ______ to help her. Then, when Helen was seven years old, they met a young teacher named Anne Sullivan. Anne came to live with Helen's family and became her teacher. She taught Helen (4) ______ words by touching things and others' lips."
+  }, {
+    "type" : "paragraph",
+    "id" : 151,
+    "page number" : 1,
+    "bounding box" : [ 48.0, 433.85, 551.827, 515.743 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Helen was a very clever girl and she learned very quickly. Soon, she could read books and write. Later, she learned to speak, too. She went to college and became a famous writer and speaker. She wrote many books, including *The Story of My Life*. She also traveled around the world and gave talks to people. She wanted to help other people who were blind and deaf."
+  }, {
+    "type" : "paragraph",
+    "id" : 152,
+    "page number" : 1,
+    "bounding box" : [ 48.0, 386.931, 552.309, 421.903 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Helen Keller is a great example for all of us. She showed us that even if we are in a bad situation, we can still be strong and (5) ______. She said, “Keep your face to the sunshine and you cannot see the shadow.”"
+  }, {
+    "type" : "image",
+    "id" : 143,
+    "page number" : 1,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile2.png"
+  }, {
+    "type" : "list",
+    "id" : 153,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 69.0, 269.69, 368.349, 374.982 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 69.0, 363.41, 365.224, 374.982 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. A. make B. makes C. made D. making",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 69.0, 340.01, 368.349, 351.582 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. A. not longer B. no longer C. not more D. no more",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 69.0, 316.49, 359.468, 328.062 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. A. what B. how C. when D. where",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 69.0, 293.09, 364.743, 304.662 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4. A. learn B. to learn C. learning D. learned",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 69.0, 269.69, 367.023, 281.262 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5. A. success B. successfully C. successful D. succeed",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 154,
+    "page number" : 1,
+    "bounding box" : [ 48.0, 82.971, 546.96, 235.33 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "情景对话 Situation: Tom 和 Jack 在谈论自己的性格，发现两人的性格差异很大。 Tom: Jack, I find we are quite different from each other. Jack: Really? 1. _______________________________? (询问具体哪里不同) Tom: I am very outgoing and like making new friends, but you always like staying at home. Jack: You’re right. 2. _______________________________? (询问 Tom 周末通常做什么) Tom: I usually go to the park with my friends or play sports. 3. ______________________? (反问 Jack 的周末活动)"
+  }, {
+    "type" : "image",
+    "id" : 144,
+    "page number" : 1,
+    "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile3.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 155,
+    "page number" : 1,
+    "bounding box" : [ 297.84, 49.684, 302.34, 59.651 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "1"
+  }, {
+    "type" : "header",
+    "id" : 156,
+    "page number" : 2,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 106,
+      "page number" : 2,
+      "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile4.png"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 159,
+    "page number" : 2,
+    "bounding box" : [ 48.0, 745.97, 449.85, 780.222 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Jack: I usually read books or play chess with my dad. It’s quiet and interesting. Tom: 4. _________________. (表达认同，逻辑承接) Different people have different hobbies."
+  }, {
+    "type" : "paragraph",
+    "id" : 160,
+    "page number" : 2,
+    "bounding box" : [ 48.0, 700.293, 115.778, 711.793 ],
+    "font" : "SimSun",
+    "font size" : 11.5,
+    "text color" : "[0.439, 0.188, 0.627]",
+    "content" : "【知识梳理】"
+  }, {
+    "type" : "heading",
+    "id" : 161,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 208.08, 675.422, 396.338, 688.158 ],
+    "heading level" : 2,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 11.5,
+    "text color" : "[0.0, 0.0, 1.0]",
+    "content" : "Unit 1 Everyone is different 知识点梳理"
+  }, {
+    "type" : "paragraph",
+    "id" : 162,
+    "page number" : 2,
+    "bounding box" : [ 48.0, 651.65, 166.022, 663.222 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "P4-5 Viewing and Listening"
+  }, {
+    "type" : "image",
+    "id" : 158,
+    "page number" : 2,
+    "bounding box" : [ 41.04, 80.12, 468.48, 648.68 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile5.png"
+  }, {
+    "type" : "list",
+    "id" : 163,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 48.0, 97.731, 442.689, 615.942 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 7,
+    "next list id" : 168,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 48.0, 490.97, 396.488, 615.942 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1 notice differences 注意不同点 different adj.不同的 be different from... 与...不同 difference n. 不同点 the differences between A and B A 和 B 之间的不同 拓：be the same as... 和...相同",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 141,
+        "page number" : 2,
+        "bounding box" : [ 91.8, 467.69, 350.17, 479.262 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "be similar to... 和...相似"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 48.0, 444.29, 363.368, 455.862 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2 share with sb. 和某人分享",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 48.0, 420.771, 352.809, 432.343 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3 visiting students 来访学生",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 48.0, 397.37, 352.809, 408.942 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4 partner school 搭档学校",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 48.0, 190.85, 442.689, 385.422 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5 sizes and shapes: 尺寸和形状 tall short/ big small/ thin slim fat 高的矮的/大的小的/瘦的胖的 hair: 头发： curly straight/short long/dark brown hair 卷的直的/短的长的/黑色棕色 skin colour: 皮肤颜色 fair skin/ dark skin 白皮/黑皮 clothes: 衣服： T-shirt T 恤衫 trousers 长裤 jeans 牛仔裤 skirt 短裙 dress 连衣裙 sweater 毛衣",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 48.0, 144.171, 429.248, 178.303 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6 what do they look like? 提问某人的外貌 what is your school day like? 提问某人/物的品质，性质",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 48.0, 97.731, 331.93, 132.222 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7 wear 穿着 put on 穿上",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 157,
+    "page number" : 2,
+    "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile6.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 164,
+    "page number" : 2,
+    "bounding box" : [ 297.84, 61.203, 302.34, 71.17 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "2"
+  }, {
+    "type" : "image",
+    "id" : 165,
+    "page number" : 3,
+    "bounding box" : [ 41.04, 666.92, 468.48, 788.96 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile7.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 167,
+    "page number" : 3,
+    "bounding box" : [ 70.8, 768.29, 374.769, 779.862 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "in... 穿着...(颜色）"
+  }, {
+    "type" : "list",
+    "id" : 168,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 48.0, 675.89, 363.368, 756.342 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "previous list id" : 163,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 48.0, 744.77, 363.368, 756.342 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8 no need to compare 不需要比较",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 48.0, 699.05, 339.73, 733.303 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9 laugh v.大笑 smile v.微笑",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 48.0, 675.89, 352.809, 687.462 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10 have fun=have a good time=enjoy +反身代词 玩得开心",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 169,
+    "page number" : 3,
+    "bounding box" : [ 48.0, 628.37, 109.503, 639.942 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "P6-7 Speaking"
+  }, {
+    "type" : "image",
+    "id" : 166,
+    "page number" : 3,
+    "bounding box" : [ 41.04, 99.68, 468.48, 622.4 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile8.png"
+  }, {
+    "type" : "list",
+    "id" : 170,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 48.0, 119.931, 415.807, 616.662 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 11,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 48.0, 605.09, 363.607, 616.662 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1 find differences 发现不同点",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 48.0, 581.571, 342.489, 593.143 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2 talent show 才艺秀",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 48.0, 558.531, 358.089, 570.103 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3 prepare for sth 为..做准备",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 48.0, 512.69, 394.568, 546.942 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4 offer V.主动提供 offer to do sth V.主动提供做某事",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 48.0, 397.37, 363.368, 500.743 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5 play the violin 拉小提琴 tell the story 讲故事 shoot in one minute 一分钟投篮 sing a song 唱歌 play The Butterfly Lovers 演奏梁祝",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 48.0, 282.41, 342.489, 385.903 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6 感官动词 sound 听起来 look 看起来 taste +adj. 尝起来 smell 闻起来 feel 摸起来",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 48.0, 259.01, 384.368, 270.582 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7 That is what I am good at. 这就是我擅长的",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 48.0, 235.85, 350.289, 247.422 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8 How about doing==What about doing... ...怎么样",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 48.0, 212.45, 394.808, 224.022 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9 have a beautiful voice 有一个美丽的嗓音",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 48.0, 143.09, 415.807, 200.503 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10 voice 嗓音 sound 泛指自然界的一切声音 noise 噪音",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 48.0, 119.931, 386.049, 131.503 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "11 drum--drummer v.击鼓--n.击鼓者",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 171,
+    "page number" : 3,
+    "bounding box" : [ 110.76, 64.084, 302.34, 74.051 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 45,
+      "page number" : 3,
+      "bounding box" : [ 297.84, 64.084, 302.34, 74.051 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3"
+    }, {
+      "type" : "image",
+      "id" : 46,
+      "page number" : 3,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile9.png"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 172,
+    "page number" : 4,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 107,
+      "page number" : 4,
+      "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile10.png"
+    } ]
+  }, {
+    "type" : "caption",
+    "id" : 174,
+    "level" : "3",
+    "page number" : 4,
+    "bounding box" : [ 48.0, 768.65, 126.423, 780.304 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : " P8-9 Reading"
+  }, {
+    "type" : "image",
+    "id" : 173,
+    "page number" : 4,
+    "bounding box" : [ 41.04, 99.56, 468.48, 765.68 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile11.png"
+  }, {
+    "type" : "list",
+    "id" : 175,
+    "level" : "2",
+    "page number" : 4,
+    "bounding box" : [ 48.0, 120.89, 415.807, 756.822 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 15,
+    "next list id" : 181,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 48.0, 700.01, 353.048, 756.822 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1 accept differences 接受不同 accept v.接受 receive v 接收",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 48.0, 676.49, 415.807, 688.062 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2 tell a fable in the talent show 在才艺秀上讲一个寓言",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 48.0, 607.25, 363.368, 664.662 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3 learn from sb. 向某人学习 learn to do sth. 学习做某事 learner 学习者",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 48.0, 583.731, 373.808, 595.303 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4 look sad 看起来很悲伤",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 48.0, 560.331, 352.809, 571.903 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5 say to sb 对某人说",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 48.0, 513.89, 363.368, 548.382 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6 a lovely voice 甜美的嗓音 a loud voice 大声的嗓音",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 48.0, 490.85, 342.369, 502.422 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7 sing well(副词 well 修饰动词） 唱得好",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 48.0, 444.531, 352.81, 478.903 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8 in a few years 在几年后 in+一段时间 在....年后",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 48.0, 375.171, 394.808, 432.343 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9 colour n.颜色 colourful adj.彩色的 Your feathers are colourful. 你的羽毛是彩色的",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 48.0, 328.731, 342.489, 363.222 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10 in the future 在将来 in the past 在过去",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 48.0, 237.65, 375.61, 317.262 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "11 sing--singer v.唱歌--n.歌手 dance--dancer v.跳舞--n.舞者 paint--painter v.画画--n.画家 drum--drummer v.击鼓--n.鼓者",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 48.0, 214.25, 352.809, 225.822 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "12 without any doubt 毫无疑问",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 48.0, 190.731, 352.809, 202.303 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "13 dancing skills 舞蹈技能",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 48.0, 167.331, 415.807, 178.903 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "14 Everyone is unique. 每个人都是独一无二的",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 48.0, 120.89, 331.81, 155.382 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "15 strong points 优点 weak points 缺点",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 176,
+    "page number" : 4,
+    "bounding box" : [ 110.76, 64.563, 302.34, 74.53 ],
+    "kids" : [ {
+      "type" : "heading",
+      "id" : 47,
+      "page number" : 4,
+      "bounding box" : [ 297.84, 64.563, 302.34, 74.53 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4"
+    }, {
+      "type" : "image",
+      "id" : 48,
+      "page number" : 4,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile12.png"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 178,
+    "page number" : 5,
+    "bounding box" : [ 41.04, 750.92, 468.48, 788.96 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile13.png"
+  }, {
+    "type" : "list",
+    "id" : 181,
+    "level" : "2",
+    "page number" : 5,
+    "bounding box" : [ 48.0, 768.29, 352.809, 779.862 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 175,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 48.0, 768.29, 352.809, 779.862 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "16 teach a lesson 给以教训",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 182,
+    "level" : "3",
+    "page number" : 5,
+    "bounding box" : [ 48.0, 686.026, 141.597, 697.662 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : " P10-11 Grammar"
+  }, {
+    "type" : "image",
+    "id" : 179,
+    "page number" : 5,
+    "bounding box" : [ 41.04, 442.52, 468.48, 683.12 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile14.png"
+  }, {
+    "type" : "list",
+    "id" : 183,
+    "level" : "2",
+    "page number" : 5,
+    "bounding box" : [ 48.0, 453.89, 405.367, 674.262 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 7,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 48.0, 662.69, 405.367, 674.262 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1 get a big prize for doing 做某事获得一个大奖",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 48.0, 639.65, 349.33, 651.222 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2 borrow some books 借(入)书",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 48.0, 593.331, 373.808, 627.703 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3 on Friday afternoon 在星期五下午 在具体某一天的上/下/晚上用 on",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 48.0, 546.65, 357.849, 580.782 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4 a success 一个成功 successful adj.成功的",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 48.0, 500.45, 375.49, 534.703 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5 make a decision 做一个决定 decide--decision v.决定--n.决定",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 48.0, 477.29, 360.849, 488.862 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6 at the moment of 在...的时刻",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 48.0, 453.89, 352.809, 465.462 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7 host the class meeting 主持班会",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 184,
+    "level" : "3",
+    "page number" : 5,
+    "bounding box" : [ 48.0, 406.49, 170.65, 418.144 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : " P12-13 Writing--Project"
+  }, {
+    "type" : "image",
+    "id" : 180,
+    "page number" : 5,
+    "bounding box" : [ 41.04, 129.68, 468.48, 398.0 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile15.png"
+  }, {
+    "type" : "list",
+    "id" : 185,
+    "level" : "2",
+    "page number" : 5,
+    "bounding box" : [ 48.0, 146.21, 457.805, 395.022 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 8,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 48.0, 337.85, 375.61, 395.022 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1 introduce--introduction v.介绍--n.介绍 introduce a to b 把 a 介绍给 b self-introduction 自我介绍",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 48.0, 314.45, 415.807, 326.022 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2 note down everyone’s special points 记下每个人的特别之处",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 48.0, 290.931, 363.368, 302.503 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3 form a good habit 养成好习惯",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 48.0, 263.45, 384.368, 275.022 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4 be able to speak English well 能够说英语很好",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 48.0, 240.05, 426.366, 251.622 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5 spend much time on computer games 花很多时间在电脑游戏上",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 48.0, 216.531, 331.81, 228.103 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6 get hurt 受伤",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 48.0, 171.721, 457.805, 204.703 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7 one of the most famous Chinese books about warfare 中国最著名的战争题材的书籍之 一",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 5,
+      "bounding box" : [ 48.0, 146.21, 426.366, 157.782 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8 become a famous writer and speaker 成为著名的作家和演说家",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 177,
+    "page number" : 5,
+    "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile16.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 186,
+    "page number" : 5,
+    "bounding box" : [ 297.84, 60.003, 302.34, 69.97 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "5"
+  }, {
+    "type" : "paragraph",
+    "id" : 189,
+    "page number" : 6,
+    "bounding box" : [ 157.68, 745.25, 445.089, 781.398 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Unit 1 Everyone is different 语法填空 1（课文 Reading 改编） The peacock and the wise old tree"
+  }, {
+    "type" : "image",
+    "id" : 187,
+    "page number" : 6,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile17.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 190,
+    "page number" : 6,
+    "bounding box" : [ 48.0, 674.931, 554.709, 733.422 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "In a forest live a peacock and a nightingale. They are good friends. But one day the peacock looks sad and says to the wise old tree, “Wise old tree, my friend the nightingale has a lovely voice. She sings so (1) ______ (good). Without any doubt, she will be a singer in a few years. I have a loud voice. But when I sing, everyone will laugh (2) ______ me.”"
+  }, {
+    "type" : "paragraph",
+    "id" : 191,
+    "page number" : 6,
+    "bounding box" : [ 69.0, 604.49, 551.982, 662.982 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The wise old tree smiles and says, “But you’re beautiful. Your (3) ______ (feather) are colourful.” “What can I do in the future? Can I be a singer?” the peacock (4) ______ (worry). The wise old tree pats him, “Not everyone will be a singer. You can be a good dancer with your beautiful feathers"
+  }, {
+    "type" : "paragraph",
+    "id" : 192,
+    "page number" : 6,
+    "bounding box" : [ 48.0, 557.69, 551.985, 592.662 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "and (5) ______ (dance) skills. Different people are good at different things. The elephant is strong. The monkey is clever. The tiger jumps far. Everyone is (6) ______ (uniquely).”"
+  }, {
+    "type" : "paragraph",
+    "id" : 193,
+    "page number" : 6,
+    "bounding box" : [ 69.0, 534.171, 517.411, 545.743 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The peacock finally understands that he doesn’t need to be like the nightingale. He can be (7) ______ (he)."
+  }, {
+    "type" : "paragraph",
+    "id" : 194,
+    "page number" : 6,
+    "bounding box" : [ 48.0, 440.571, 448.929, 500.118 ],
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Unit 1 Everyone is different 语法填空 2（课文 Discovery 改编） What qualities do they have? Sun Bin"
+  }, {
+    "type" : "paragraph",
+    "id" : 195,
+    "page number" : 6,
+    "bounding box" : [ 48.0, 393.65, 551.852, 428.622 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "\"Favourable¹ weather conditions, geographic² advantages and the unity³ of the people all must be in place. If not, victory will be costly.\""
+  }, {
+    "type" : "paragraph",
+    "id" : 196,
+    "page number" : 6,
+    "bounding box" : [ 48.0, 346.329, 552.224, 381.822 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "He could not walk after his knees got hurt, but he wrote *Sun Bin: The Art of War*, one of the most famous Chinese books (1) ______ warfare⁴."
+  }, {
+    "type" : "image",
+    "id" : 188,
+    "page number" : 6,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile18.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 197,
+    "page number" : 6,
+    "bounding box" : [ 48.0, 253.131, 552.184, 311.503 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Helen Keller \"Keep your face to the sunshine and you cannot see the shadow⁵.\" She was blind and deaf when she was 19 months old. She started (2) ______ (learn) words by touching things and"
+  }, {
+    "type" : "paragraph",
+    "id" : 198,
+    "level" : "3",
+    "page number" : 6,
+    "bounding box" : [ 48.0, 229.731, 322.65, 241.303 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "(3) ______ (other) lips. She became a famous writer and speaker."
+  }, {
+    "type" : "paragraph",
+    "id" : 199,
+    "page number" : 6,
+    "bounding box" : [ 48.0, 135.89, 551.469, 194.382 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Ludwig van Beethoven \"There are and will be thousands of princes. There is only one Beethoven!\" He wrote some of his most famous (4) ______ (piece) after he was (5) ______ (complete) deaf. He was one of the"
+  }, {
+    "type" : "paragraph",
+    "id" : 200,
+    "page number" : 6,
+    "bounding box" : [ 48.0, 89.09, 551.653, 124.062 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "greatest (6) ______ (composer) of all time. These three people all faced big challenges in their lives, but they didn’t give (7) ______. They showed us that"
+  }, {
+    "type" : "footer",
+    "id" : 201,
+    "page number" : 6,
+    "bounding box" : [ 110.76, 48.723, 302.34, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 49,
+      "page number" : 6,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile19.png"
+    }, {
+      "type" : "heading",
+      "id" : 50,
+      "page number" : 6,
+      "bounding box" : [ 297.84, 48.723, 302.34, 58.69 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 202,
+    "page number" : 7,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 108,
+      "page number" : 7,
+      "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile20.png"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 206,
+    "page number" : 7,
+    "bounding box" : [ 48.0, 697.329, 409.449, 780.222 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "everyone can be strong and (8) ______ (success) if they try their best. Word box ¹ favourable 有利的 ² geographic 地理的 ³ unity 统一 ⁴warfare 战争 ⁵shadow 阴影 ⁶composer 作曲家"
+  }, {
+    "type" : "image",
+    "id" : 204,
+    "page number" : 7,
+    "bounding box" : [ 65.04, 692.36, 439.92, 765.68 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile21.png"
+  }, {
+    "type" : "image",
+    "id" : 205,
+    "page number" : 7,
+    "bounding box" : [ 47.04, 603.08, 91.08, 623.84 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile22.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 208,
+    "page number" : 7,
+    "bounding box" : [ 48.0, 605.04, 90.248, 615.49 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.125, 0.376]",
+    "content" : "一、词汇"
+  }, {
+    "type" : "heading",
+    "id" : 207,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 190.2, 626.703, 410.497, 639.439 ],
+    "heading level" : 2,
+    "font" : "TimesNewRomanPS-BoldMT",
+    "font size" : 11.5,
+    "text color" : "[0.0, 0.0, 1.0]",
+    "content" : "Unit 1 Everyone is different 单元基础知识精讲"
+  }, {
+    "type" : "list",
+    "id" : 209,
+    "level" : "2",
+    "page number" : 7,
+    "bounding box" : [ 48.0, 88.01, 331.684, 591.822 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "next list id" : 214,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 48.0, 275.45, 331.684, 591.822 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1.different /ˈdɪfrənt/ adj. 不平常；与众不同；不同的；有区别的 反义词：___________adj. 相同的；一模一样 拓展： ___________ n. 差异；不同 ___________ adv. 不同地；差异 短语： ______________________与……不同，不同于 different than 不同于 ______________________ 以不同方式；用不同的方法 例句： Let's play a different game.让我们玩一个与众不同的游戏。 Cars are different from buses.小汽车不同于公交车。 You look different than before.你看上去与之前不一样了。 They respond in different ways.他们的反应各不相同。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 7,
+      "bounding box" : [ 48.0, 88.01, 221.406, 240.222 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2.notice /ˈnəʊtɪs/ v. 注意 n. 通知；注意 现在分词：___________ 拓展： ___________ adj. 显著的；显而易见的 短语： ___________ 注意到；留意 ___________没有事先通知",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 203,
+    "page number" : 7,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile23.png"
+  }, {
+    "type" : "footer",
+    "id" : 210,
+    "page number" : 7,
+    "bounding box" : [ 110.76, 48.723, 302.34, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 51,
+      "page number" : 7,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile24.png"
+    }, {
+      "type" : "heading",
+      "id" : 52,
+      "page number" : 7,
+      "bounding box" : [ 297.84, 48.723, 302.34, 58.69 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 214,
+    "level" : "2",
+    "page number" : 8,
+    "bounding box" : [ 48.0, 89.09, 337.325, 780.371 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "previous list id" : 209,
+    "next list id" : 219,
+    "list items" : [ {
+      "type" : "list item",
+      "id" : 213,
+      "page number" : 8,
+      "bounding box" : [ 48.0, 721.731, 333.726, 780.371 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "例句： I hope you'll take notice of his advice.我希望你会注意他的建议。 He was fired without notice.他没得到事先通知就被解雇了。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 48.0, 534.29, 337.325, 686.382 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3.swan /swɒn/ n. 天鹅 复数：___________ 短语： ___________ 黑天鹅；珍品 例句： The swan is flying over a lake.天鹅正在湖面上飞翔。 Look! That's a beautiful black swan.看！那是一只漂亮的黑天鹅。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 48.0, 346.85, 273.846, 498.942 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4.partner /ˈpɑːtnə(r)/ n. 搭档；同伴 拓展：___________ n. 合伙；合作关系 短语： ___________ 商业伙伴 例句： Can I be your partner?我可以做你的搭档吗？ Mike is my business partner.迈克是我的商业伙伴。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 48.0, 135.89, 263.767, 311.503 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5.slim /slɪm/ adj. 苗条的；纤细的 近义词：___________adj. 苗条的；狭窄的 短语： ___________消瘦；减肥 ___________ 个矮又苗条 例句： Judy needs to slim down.朱迪需要减肥。 My mother is short and slim.我妈妈个矮又苗条。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 8,
+      "bounding box" : [ 48.0, 89.09, 162.608, 100.662 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6.fat /fæt/ adj. 肥的；胖的",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 212,
+    "page number" : 8,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile25.png"
+  }, {
+    "type" : "footer",
+    "id" : 215,
+    "page number" : 8,
+    "bounding box" : [ 110.76, 48.723, 302.34, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 53,
+      "page number" : 8,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile26.png"
+    }, {
+      "type" : "heading",
+      "id" : 54,
+      "page number" : 8,
+      "bounding box" : [ 297.84, 48.723, 302.34, 58.69 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 211,
+    "page number" : 8,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 109,
+      "page number" : 8,
+      "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile27.png"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 219,
+    "level" : "2",
+    "page number" : 9,
+    "bounding box" : [ 48.0, 90.171, 334.685, 781.45 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "previous list id" : 214,
+    "next list id" : 223,
+    "list items" : [ {
+      "type" : "list item",
+      "id" : 218,
+      "page number" : 9,
+      "bounding box" : [ 48.0, 629.09, 267.847, 781.45 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "拓展： ___________adj. 脂肪的；肥胖的 短语： fat man 胖人 例句： This dress makes me look fat.这衣服我穿着显胖。 The fat man likes jam.这个胖男人喜欢吃果酱。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 48.0, 441.65, 334.685, 593.862 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7.curly /ˈkɜːli/ adj. 卷曲状的 比较级：___________ 最高级：___________ 短语：___________卷发；自然卷发 例句： Do you want it straight or curly?你想要直发还是要卷曲的呢？ I'm short and I have curly hair.我长得不太高，并且有一头卷发。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 48.0, 254.09, 318.966, 406.303 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8.straight /streɪt/ adj. 直的 短语： ___________直走 ___________直线 例句： You have to turn right and go straight.你需要右转再直走。 In the ideal case it's this straight line.在理想情况下这是直线。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 9,
+      "bounding box" : [ 48.0, 90.171, 308.528, 218.862 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9.T-shirt /ˈtiː ʃɜːt/ n. T 恤衫；短袖汗衫 短语： a new T-shirt 一件新 T 恤衫 例句： Who is the man in blue T-shirt?穿蓝色 T 恤衫的男人是谁？ I need a new T-shirt.我需要一件新 T 恤衫。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 217,
+    "page number" : 9,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile28.png"
+  }, {
+    "type" : "footer",
+    "id" : 220,
+    "page number" : 9,
+    "bounding box" : [ 110.76, 49.803, 302.34, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 55,
+      "page number" : 9,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile29.png"
+    }, {
+      "type" : "heading",
+      "id" : 56,
+      "page number" : 9,
+      "bounding box" : [ 297.84, 49.803, 302.34, 59.77 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 216,
+    "page number" : 9,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile30.png"
+  }, {
+    "type" : "header",
+    "id" : 221,
+    "page number" : 10,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 110,
+      "page number" : 10,
+      "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile31.png"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 223,
+    "level" : "2",
+    "page number" : 10,
+    "bounding box" : [ 48.0, 89.09, 399.603, 756.703 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "previous list id" : 219,
+    "next list id" : 230,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 48.0, 628.01, 343.085, 756.703 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10.jeans /dʒiːnz/ n. 牛仔裤 短语： ___________牛仔裤；蓝色牛仔裤 例句： We can't wear jeans at work.我们工作时不准穿牛仔裤。 Your jacket matches the blue jeans.你的夹克和蓝色牛仔裤很相称。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 48.0, 393.65, 399.603, 592.662 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "11.size /saɪz/ n. 大小；尺码 拓展： ___________ adj. 有……大小的 短语： ___________小号；小码 ___________ 大号；大码 例句： I want a small size.我想要个小号的。 Jack is fat, so he needs large size clothes.杰克是个胖子，所以他需要大码衣服。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 48.0, 182.81, 337.804, 358.422 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "12.shape /ʃeɪp/ n. 形状；外形 拓展：___________ adj. 合适的；有计划的 短语： ___________在外形上；处于良好状态 ___________体型；身形 例句： Their bodies were in shape.他们的身体都处于良好状态。 His body shape has changed greatly.他的体型发生了很大的变化。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 10,
+      "bounding box" : [ 48.0, 89.09, 147.609, 147.462 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "13.skin /skɪn/ n. 皮肤 短语： ___________干性皮肤",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 222,
+    "page number" : 10,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile32.png"
+  }, {
+    "type" : "footer",
+    "id" : 224,
+    "page number" : 10,
+    "bounding box" : [ 110.76, 48.844, 304.618, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 57,
+      "page number" : 10,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile33.png"
+    }, {
+      "type" : "heading",
+      "id" : 58,
+      "page number" : 10,
+      "bounding box" : [ 295.559, 48.844, 304.618, 58.811 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 227,
+    "page number" : 11,
+    "bounding box" : [ -0.96, 839.96, 2.04, 842.96 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile34.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 228,
+    "page number" : 11,
+    "bounding box" : [ 48.0, 746.521, 126.61, 780.103 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "___________肤色 例句："
+  }, {
+    "type" : "image",
+    "id" : 225,
+    "page number" : 11,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile35.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 229,
+    "page number" : 11,
+    "bounding box" : [ 48.0, 698.21, 417.965, 733.303 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "There are many levels of dry skin.干性皮肤分为好多种。 People all over the world have different skin colours.全世界的人们拥有不同的肤色。"
+  }, {
+    "type" : "list",
+    "id" : 230,
+    "level" : "2",
+    "page number" : 11,
+    "bounding box" : [ 48.0, 88.971, 351.725, 662.982 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "previous list id" : 223,
+    "next list id" : 235,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 48.0, 487.37, 351.725, 662.982 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "14.special /ˈspeʃ(ə)l/ adj. 特殊的；特别的 拓展：___________adv. 特别地；专门地 ___________ adj. 专家的；专业的 n. 专家 短语： ___________ 特殊的 例句： We don't want any special treatment.我们不需要任何特殊待遇。 He teaches his students in special ways.他用特殊的方法教他的学生。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 48.0, 299.931, 286.207, 452.022 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "15.number /ˈnʌmbə(r)/ n. 编号；数字；数量 短语： ___________电话号码 ___________总共；总数 例句： What's your telephone number?你的电话号码是多少？ We are sixty in number.我们总共 60 人。",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 136,
+        "page number" : 11,
+        "bounding box" : [ 200.52, 253.01, 399.489, 264.582 ],
+        "font" : "TimesNewRomanPS-BoldMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "辨析：a number of 和 the number of 的区别"
+      }, {
+        "type" : "list",
+        "id" : 137,
+        "level" : "3",
+        "page number" : 11,
+        "bounding box" : [ 48.0, 159.29, 409.69, 241.182 ],
+        "numbering style" : "unknown style",
+        "number of list items" : 2,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 11,
+          "bounding box" : [ 48.0, 206.09, 405.25, 241.182 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "①a number of +可数名词复数，表示“许多；大量”。谓语动词用___________。 A number of students are singing in the park.许多学生正在公园里唱歌。",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 11,
+          "bounding box" : [ 48.0, 159.29, 409.69, 194.262 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "②the number of+可数名词复数，表示“……的数量”。谓语动词用___________。 The number of the students in our class is 40.我们班的学生人数是 40 人。",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 11,
+      "bounding box" : [ 48.0, 88.971, 163.45, 100.543 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "16.than /ðæn; ðən/ prep. 比",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 226,
+    "page number" : 11,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile36.png"
+  }, {
+    "type" : "footer",
+    "id" : 231,
+    "page number" : 11,
+    "bounding box" : [ 110.76, 48.723, 304.618, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 59,
+      "page number" : 11,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile37.png"
+    }, {
+      "type" : "heading",
+      "id" : 60,
+      "page number" : 11,
+      "bounding box" : [ 295.559, 48.723, 304.618, 58.69 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "11"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 235,
+    "level" : "2",
+    "page number" : 12,
+    "bounding box" : [ 48.0, 112.49, 353.525, 780.371 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "previous list id" : 230,
+    "next list id" : 240,
+    "list items" : [ {
+      "type" : "list item",
+      "id" : 234,
+      "page number" : 12,
+      "bounding box" : [ 48.0, 604.49, 348.246, 780.371 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "短语： less than ___________ rather than ___________ no more than ___________ 例句： I eat lots less than I used to.我比以前吃的少多了。 She prefers to act rather than direct.她宁愿当演员，而不愿当导演。 There is a room for no more than three cars.这个地方只能停三辆车。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 48.0, 417.05, 333.965, 569.262 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "17.fair /feə(r)/ adj. (头发或皮肤)浅色的；白皙的 短语： ___________ 浅色的头发 ______________________白皙的肤色 例句： All of her children have fair hair.她的孩子们都长着浅色的头发。 She has a fair complexion.她肤色白皙。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 48.0, 229.61, 353.525, 381.822 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "18.talent /ˈtælənt/ n. 天才；天赋 短语： ______________________天才；有……的天赋 ___________才艺表演会 例句： They have talent for learning math.他们有学习数学的天赋。 Frank did great job at the talent show.弗兰克在才艺表演上做得很好。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 12,
+      "bounding box" : [ 48.0, 112.49, 324.605, 194.262 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "19.programme /ˈprəʊɡræm/ n. 节目单；计划；方案；活动安排 注意：该单词的美式写法为 program。 短语： ___________电视节目",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 233,
+    "page number" : 12,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile38.png"
+  }, {
+    "type" : "footer",
+    "id" : 236,
+    "page number" : 12,
+    "bounding box" : [ 48.0, 48.844, 304.618, 100.811 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 61,
+      "page number" : 12,
+      "bounding box" : [ 48.0, 90.361, 79.449, 100.811 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "例句："
+    }, {
+      "type" : "image",
+      "id" : 62,
+      "page number" : 12,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile39.png"
+    }, {
+      "type" : "paragraph",
+      "id" : 63,
+      "page number" : 12,
+      "bounding box" : [ 295.559, 48.844, 304.618, 58.811 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "12"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 232,
+    "page number" : 12,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 111,
+      "page number" : 12,
+      "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile40.png"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 240,
+    "level" : "2",
+    "page number" : 13,
+    "bounding box" : [ 48.0, 112.371, 347.885, 780.103 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "previous list id" : 235,
+    "next list id" : 245,
+    "list items" : [ {
+      "type" : "list item",
+      "id" : 239,
+      "page number" : 13,
+      "bounding box" : [ 48.0, 745.131, 347.885, 780.103 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "What's your favourite TV programme?你最喜欢的电视节目是什么？ I usually watch the news programme.我通常看新闻节目。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 48.0, 557.69, 284.047, 709.782 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "20.hall /hɔːl/ n. 礼堂；大厅 短语： ___________在大厅里，在饭厅 ___________ 音乐厅 例句： Smoking is not allowed in the hall.大厅内不准吸烟。 Is there a music hall around here?这附近有音乐厅吗？",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 48.0, 393.65, 306.37, 522.342 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "21.butterfly /ˈbʌtəflaɪ/ n. 蝴蝶 复数：___________ 短语：___________ 蝴蝶效应 例句： The butterfly is flying to us.蝴蝶正飞向我们。 Do you know the \"Butterfly Effect\"?你知道“蝴蝶效应”吗？",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 48.0, 206.09, 343.325, 358.303 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "22.violin /ˌvaɪəˈlɪn/ n. 小提琴 拓展：___________ n. 小提琴家 短语： ______________________ 拉小提琴 例句： She has a violin lesson this afternoon.她今天下午有一节小提琴课。 He can play the violin.他会拉小提琴。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 13,
+      "bounding box" : [ 48.0, 112.371, 213.248, 170.862 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "23.host /həʊst/ n. 节目主持人 拓展：___________n. 女主人 短语：___________ 主办国；所在国",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 238,
+    "page number" : 13,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile41.png"
+  }, {
+    "type" : "footer",
+    "id" : 241,
+    "page number" : 13,
+    "bounding box" : [ 48.0, 48.723, 304.618, 100.811 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 64,
+      "page number" : 13,
+      "bounding box" : [ 48.0, 90.361, 79.449, 100.811 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "例句："
+    }, {
+      "type" : "image",
+      "id" : 65,
+      "page number" : 13,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile42.png"
+    }, {
+      "type" : "paragraph",
+      "id" : 66,
+      "page number" : 13,
+      "bounding box" : [ 295.559, 48.723, 304.618, 58.69 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "13"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 237,
+    "page number" : 13,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 112,
+      "page number" : 13,
+      "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile43.png"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 245,
+    "level" : "2",
+    "page number" : 14,
+    "bounding box" : [ 48.0, 160.37, 363.004, 781.182 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "previous list id" : 240,
+    "next list id" : 252,
+    "list items" : [ {
+      "type" : "list item",
+      "id" : 244,
+      "page number" : 14,
+      "bounding box" : [ 48.0, 746.21, 333.726, 781.182 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "He is an excellent host.他是一位优秀的主持人。 China is the host country of the event.中国是这场活动的主办国。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 48.0, 535.25, 363.004, 710.862 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "24.sound /saʊnd/ v. 听起来 n. 声音 近义词：___________ n. 声音 短语： sound like 听起来像 __________ 音响系统 例句： It might sound like a word you know.它可能听起来像一个你知道的词。 Your car's sound system is amazing.你的车载音响系统实在太震撼了。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 48.0, 347.81, 302.526, 500.022 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "25.excite /ɪkˈsaɪt/ v. 使激动；使兴奋 拓展：___________adj. 令人兴奋的；使人激动的 短语： ___________使兴奋；激动 例句： What would excite me?什么会使我激动？ ______________________.似乎没有一件事能使她兴奋。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 48.0, 160.37, 360.245, 312.582 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "26.exciting /ɪkˈsaɪtɪŋ/ adj. 令人兴奋的；令人激动的 短语： be very exciting 令人兴奋的；使人愉悦的 ______________________ 平平淡淡；不令人激动 例句： ______________________.那一定很精彩。 Nothing exciting happened this year.这一年没有什么令人激动的事情。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 243,
+    "page number" : 14,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile44.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 246,
+    "page number" : 14,
+    "bounding box" : [ 226.32, 136.971, 373.569, 148.543 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "辨析：exciting 和 excited 的区别"
+  }, {
+    "type" : "list",
+    "id" : 247,
+    "level" : "3",
+    "page number" : 14,
+    "bounding box" : [ 48.0, 90.05, 313.325, 125.022 ],
+    "numbering style" : "circled arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 251,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 14,
+      "bounding box" : [ 48.0, 90.05, 313.325, 125.022 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "①exciting：强调事物本身令人兴奋的性质。 Let's do something exciting.让我们做一些激动人心的事吧。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 248,
+    "page number" : 14,
+    "bounding box" : [ 110.76, 49.803, 304.618, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 67,
+      "page number" : 14,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile45.png"
+    }, {
+      "type" : "heading",
+      "id" : 68,
+      "page number" : 14,
+      "bounding box" : [ 295.559, 49.803, 304.618, 59.77 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "14"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 242,
+    "page number" : 14,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile46.png"
+  }, {
+    "type" : "list",
+    "id" : 251,
+    "level" : "3",
+    "page number" : 15,
+    "bounding box" : [ 48.0, 721.731, 302.286, 756.703 ],
+    "numbering style" : "circled arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 247,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 48.0, 721.731, 302.286, 756.703 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "②excited: 强调人对事物的兴奋感受。 Travelling makes people excited.旅行使人们感受到兴奋。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 249,
+    "page number" : 15,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 113,
+      "page number" : 15,
+      "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile47.png"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 252,
+    "level" : "2",
+    "page number" : 15,
+    "bounding box" : [ 48.0, 88.85, 389.404, 686.382 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "previous list id" : 245,
+    "next list id" : 256,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 48.0, 510.77, 370.685, 686.382 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "27.anything /ˈeniθɪŋ/ pron. 任何东西；任何事物 巧记：any(任何的) + thing(事情) = anything 短语： anything but ___________ if anything ___________ 例句： _________________________________.这家旅馆根本不便宜。 _________________________________.如果出了什么事，请保持冷静。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 48.0, 346.731, 389.404, 475.542 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "28.someone /ˈsʌmwʌn/ pron. 某人 巧记：some(一些) + one(一个) = someone 同义词：somebody 短语：______________________特别的人 例句：There is someone at the door.门口有个人。 Today, we're shopping for someone special.今天我们要为一个特别的人购物。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 48.0, 229.49, 298.928, 311.382 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "29.drum /drʌm/ v. 打鼓 n. 鼓 短语：Drum Tower 鼓楼 drum for 鼓吹 例句：We are around the Drum Tower.我们在鼓楼附近。 ______________________.他们鼓吹自由。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 15,
+      "bounding box" : [ 48.0, 88.85, 381.245, 194.262 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "30.voice /vɔɪs/ n. 嗓音；说话声；歌唱声 拓展：___________adj. 无声的；清音的；沉默的 短语：___________低声地；低声说 例句：_________________________________.她的声音出人意料地平静。 _________________________________.他低声地告诉了我这个消息。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 250,
+    "page number" : 15,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile48.png"
+  }, {
+    "type" : "footer",
+    "id" : 253,
+    "page number" : 15,
+    "bounding box" : [ 110.76, 48.603, 304.618, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 69,
+      "page number" : 15,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile49.png"
+    }, {
+      "type" : "heading",
+      "id" : 70,
+      "page number" : 15,
+      "bounding box" : [ 295.559, 48.603, 304.618, 58.57 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "15"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 254,
+    "page number" : 16,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 114,
+      "page number" : 16,
+      "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile50.png"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 256,
+    "level" : "2",
+    "page number" : 16,
+    "bounding box" : [ 48.0, 113.331, 439.085, 757.782 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "previous list id" : 252,
+    "next list id" : 260,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 48.0, 652.49, 383.885, 757.782 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "31.person /ˈpɜːs(ə)n/ n. 人；个人 拓展：___________ adj. 个人的；身体的；亲自的 短语：___________亲自；外貌上 one person 一人，单人住户 例句：Why not have a talk with her in person?为什么不亲自和她谈一谈呢？ One person should always be awake.一个人应该永远保持清醒。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 48.0, 511.85, 347.645, 617.142 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "32.hobby /ˈhɒbi/ n. 业余爱好 复数：___________ 短语：the same hobby 相同的爱好 例句：His hobby is planting flowers.他的爱好是种花。 Do your parents have the same hobby?你的父母有着同样的爱好吗？",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 48.0, 371.09, 362.526, 476.503 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "33.personality /ˌpɜːsəˈnæləti/ n. 性格；个性 复数：___________ 短语：______________________ 健康人格 例句：______________________.她有着可爱活泼的性格。 Teenagers should form a healthy personality.青少年应该形成健康人格。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 48.0, 230.45, 439.085, 335.862 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "34.ability /əˈbɪləti/ n. 才能；本领；能力 复数：abilities 短语：______________________学习能力 例句：Almost everyone has some musical ability.几乎人人都有一些音乐才能。 ____________________________________________.有很多方法来提高你的学习能力。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 16,
+      "bounding box" : [ 48.0, 113.331, 377.165, 195.222 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "35.easy-going /ˌiːzi ˈɡəʊɪŋ/ adj. 随和的 短语：______________________ 一个随和的人 例句：It's an interesting and easy-going way.这是一种有趣且随和的方式。 I'm an easy-going person.我是一个随和的人。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 255,
+    "page number" : 16,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile51.png"
+  }, {
+    "type" : "footer",
+    "id" : 257,
+    "page number" : 16,
+    "bounding box" : [ 110.76, 49.563, 304.618, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 71,
+      "page number" : 16,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile52.png"
+    }, {
+      "type" : "heading",
+      "id" : 72,
+      "page number" : 16,
+      "bounding box" : [ 295.559, 49.563, 304.618, 59.53 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "16"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 258,
+    "page number" : 17,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 115,
+      "page number" : 17,
+      "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile53.png"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 260,
+    "level" : "2",
+    "page number" : 17,
+    "bounding box" : [ 48.0, 88.731, 412.688, 780.103 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "previous list id" : 256,
+    "next list id" : 265,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 48.0, 651.29, 364.686, 780.103 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "36.accept /əkˈsept/ v. 接受；同意 反义词：___________v. 拒绝；回绝 拓展：___________ adj. 可接受的；可忍受的 短语：accept of 接受；承兑 例句：She won't accept advice from anyone.她不会接受任何人的忠告。 I cannot accept of your proposal.我不能接受你的建议。",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 139,
+        "page number" : 17,
+        "bounding box" : [ 229.44, 627.89, 370.449, 639.462 ],
+        "font" : "SimSun",
+        "font size" : 10.45,
+        "text color" : "[0.753, 0.0, 0.0]",
+        "content" : "辨析：accept 与 receive 的区别"
+      }, {
+        "type" : "list",
+        "id" : 140,
+        "level" : "3",
+        "page number" : 17,
+        "bounding box" : [ 48.0, 510.65, 463.569, 615.942 ],
+        "numbering style" : "unknown style",
+        "number of list items" : 2,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 17,
+          "bounding box" : [ 48.0, 580.97, 455.396, 615.942 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "①accept 表示主观上的接受，多指抽象的东西，如：想法、表扬、道歉、帮助、邀请等。 She accepted my apology.她接受了我的道歉。",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 17,
+          "bounding box" : [ 48.0, 510.65, 463.569, 545.622 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "②receive 表示客观上的收到，多指接受具体的东西，如：信件、礼物等，常与 from 连用。 I received a gift from him.我收到了来自他的礼物。",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 48.0, 393.41, 383.885, 475.422 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "37.peacock /ˈpiːkɒk/ n. 孔雀 短语：___________孔雀蓝 例句：He finally found the peacock at the zoo.他最终在动物园找到了孔雀。 Abby pointed out a peacock blue dress.艾比指着一件孔雀蓝的连衣裙。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 48.0, 229.37, 412.688, 358.182 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "38.wise /waɪz/ adj. 充满智慧的；明智的 近义词：___________ adj. 聪明的；智能的 拓展：___________ adv. 明智地；聪明地 ___________ n. 智慧；才智；明智 短语：wise choice 明智的选择 例句：She made a very wise decision.她做了一个非常明智的决定。 Trying again is a wise choice.再试一次是明智的选择。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 48.0, 112.131, 351.007, 194.022 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "39.nightingale /ˈnaɪtɪŋɡeɪl/ n. 夜莺 短语：______________________ 像夜莺一样 例句：There are many nightingales in the zoo.动物园里有许多夜莺。 _________________________________.她唱歌像夜莺一样甜美。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 17,
+      "bounding box" : [ 48.0, 88.731, 213.849, 100.303 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "40.without /wɪˈðaʊt/ prep. 没有；缺乏",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 259,
+    "page number" : 17,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile54.png"
+  }, {
+    "type" : "footer",
+    "id" : 261,
+    "page number" : 17,
+    "bounding box" : [ 110.76, 48.363, 304.618, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 73,
+      "page number" : 17,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile55.png"
+    }, {
+      "type" : "heading",
+      "id" : 74,
+      "page number" : 17,
+      "bounding box" : [ 295.559, 48.363, 304.618, 58.33 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "17"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 265,
+    "level" : "2",
+    "page number" : 18,
+    "bounding box" : [ 48.0, 89.81, 481.083, 781.182 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "previous list id" : 260,
+    "next list id" : 270,
+    "list items" : [ {
+      "type" : "list item",
+      "id" : 264,
+      "page number" : 18,
+      "bounding box" : [ 48.0, 699.29, 418.565, 781.182 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "巧记：with(和) + out(外面) = without 短语：do without 没有……也行；摒弃 go without 没有；没有得到 例句：We can do without fish.我们没有鱼也行。 Five days is too long to go without having a break.五天当中没有太长时间可以休息。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 48.0, 488.331, 481.083, 664.062 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "41.doubt /daʊt/ n. 疑惑；疑问 拓展：___________adj. 可疑的；令人生疑的 短语：___________无疑地；很可能地 ___________ 可怀疑的；不能肯定的 ______________________ 毫无疑问 ___________无疑地；毫无疑问 例句：There seemed to be no doubt about it.此事似乎毫无疑问。 When in doubt, throw it out.一旦怀疑，就把它丢掉。 ____________________________________________.毫无疑问我们做得对。 ____________________________________________.毫无疑问，袁隆平是一位真正的超级英雄。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 48.0, 347.69, 345.246, 452.982 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "42.laugh /lɑːf/ v. 笑；发笑 短语：___________嘲笑；因……而发笑 ___________大声笑 例句：All my classmates will laugh at me.所有的同学都会嘲笑我。 The joke made all laugh loudly.这个笑话使所有人开怀大笑。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 48.0, 207.05, 402.125, 312.343 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "43.smile /smaɪl/ v. 微笑；笑 现在分词：smiling 短语：___________对……微笑 keep smile 保持微笑 例句：Everyone stopped to look and smile at us.每个人停止看并且对我们微笑。 Keep smile while feeling down.当难过时保持微笑。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 18,
+      "bounding box" : [ 48.0, 89.81, 336.609, 171.703 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "44.feather /ˈfeðə(r)/ n. 羽毛 拓展：___________ adj. 有羽毛的；羽状的 短语：___________羽绒被；羽毛被 ___________一丘之貉 例句：He likes to cover the feather quilt.他喜欢盖羽绒被。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 262,
+    "page number" : 18,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile56.png"
+  }, {
+    "type" : "image",
+    "id" : 263,
+    "page number" : 18,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile57.png"
+  }, {
+    "type" : "footer",
+    "id" : 266,
+    "page number" : 18,
+    "bounding box" : [ 110.76, 49.563, 304.618, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 75,
+      "page number" : 18,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile58.png"
+    }, {
+      "type" : "heading",
+      "id" : 76,
+      "page number" : 18,
+      "bounding box" : [ 295.559, 49.563, 304.618, 59.53 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "18"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 270,
+    "level" : "2",
+    "page number" : 19,
+    "bounding box" : [ 48.0, 89.931, 410.407, 781.182 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 6,
+    "previous list id" : 265,
+    "next list id" : 276,
+    "list items" : [ {
+      "type" : "list item",
+      "id" : 269,
+      "page number" : 19,
+      "bounding box" : [ 48.0, 769.61, 245.528, 781.182 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "They are birds of a feather.他们是一丘之貉。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 48.0, 628.97, 339.125, 734.382 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "45.colourful /ˈkʌləf(ə)l/ adj. 颜色鲜艳的；五彩缤纷的 近义词：___________adj. 生动的；鲜艳的 短语：colourful life 多彩的生活 例句：Children's world is colourful.孩子们的世界是多姿多彩的。 It brings me a colourful life.它让我的生活丰富多彩。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 48.0, 464.931, 382.925, 593.743 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "46.future /ˈfjuːtʃə(r)/ n. 将来；未来 短语：in the future ___________ in future ___________ for the future ___________ 例句：We expect better of you in the future.我们期待你将来有更好的表现。 In future, don't forget to lock the door.从今以后，千万别忘记锁门。 We need to plan for the future.我们需要为将来做好打算。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 48.0, 300.89, 329.885, 429.703 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "47.pat /pæt/ v. 轻拍 现在分词：___________ 过去式：___________ 短语：______________________鼓励；表扬 例句：Pat it dry with a soft towel.用柔软的毛巾将它轻轻拍干。 _________________________________.运动员们值得表扬。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 48.0, 160.25, 410.407, 265.543 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "48.skill /skɪl/ n. 技巧；技艺 拓展：___________adj. 熟练的；有技能的 ___________ adj. 熟练的；巧妙的 短语：___________ 基本技能；基本功 例句：Save is a skill that everyone needs.节约是每个人都需要的技能。 I have a basic skill of English.我有良好的英语基础。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 19,
+      "bounding box" : [ 48.0, 89.931, 241.927, 101.503 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "49.unique /juˈniːk/ adj. 唯一的；独一无二的",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 267,
+    "page number" : 19,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile59.png"
+  }, {
+    "type" : "image",
+    "id" : 268,
+    "page number" : 19,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile60.png"
+  }, {
+    "type" : "footer",
+    "id" : 271,
+    "page number" : 19,
+    "bounding box" : [ 110.76, 49.684, 304.618, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 77,
+      "page number" : 19,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile61.png"
+    }, {
+      "type" : "heading",
+      "id" : 78,
+      "page number" : 19,
+      "bounding box" : [ 295.559, 49.684, 304.618, 59.651 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "19"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 276,
+    "level" : "2",
+    "page number" : 20,
+    "bounding box" : [ 48.0, 300.771, 532.084, 781.182 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "previous list id" : 270,
+    "list items" : [ {
+      "type" : "list item",
+      "id" : 275,
+      "page number" : 20,
+      "bounding box" : [ 48.0, 722.69, 383.885, 781.182 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "短语：___________独特的风格 ___________绝招；绝技 例句：As a writer he has his unique style.作为作家，他有自己独特的风格。 Making noises seems to be his unique skill.制造各种声音正是他的绝招。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 48.0, 582.05, 532.084, 687.462 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "50.mean /miːn/ v. 意思是 拓展：___________adj.意味深长的 n. 意义；含义___________ adv. 有意义地；有意图地 短语：___________同时 ___________ 意思是…… 例句：I'm cleaning the house. In the mean time, my sister is washing.我在打扫房间，同时，我妹妹在洗衣服。 What do you mean by that?你这话是什么意思？",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 48.0, 441.41, 372.725, 546.822 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "51.noticeboard /ˈnəʊtɪsbɔːd/ n. 布告栏；布告板 巧记：notice(注意) + board(板) = noticeboard 短语：______________________在布告栏上 例句：Look at the noticeboard. It's so big.看这个布告栏，它很大。 _________________________________?你能不能把这个贴到布告栏上？",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 48.0, 300.771, 473.288, 406.182 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "52.would /wʊd/ modal v. (客气地建议或邀请)将；将会 短语：would like 愿意；想要 would like to do sth. 想要做某事 ___________宁愿；宁肯 例句：I would like a place I could call my own.我想要一个只属于我自己的地方。 She would like to talk to people one to one.她想和人们一对一地谈话。 Kids would rather play than study.孩子们宁愿玩而不愿学习。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 272,
+    "page number" : 20,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile62.png"
+  }, {
+    "type" : "image",
+    "id" : 273,
+    "page number" : 20,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile63.png"
+  }, {
+    "type" : "image",
+    "id" : 274,
+    "page number" : 20,
+    "bounding box" : [ 47.04, 253.4, 112.08, 274.16 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile64.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 277,
+    "page number" : 20,
+    "bounding box" : [ 48.0, 255.24, 111.247, 265.69 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "二、常见表达"
+  }, {
+    "type" : "list",
+    "id" : 278,
+    "level" : "2",
+    "page number" : 20,
+    "bounding box" : [ 48.0, 208.44, 248.888, 242.022 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 284,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 48.0, 208.44, 248.888, 242.022 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1.What do/does sb. look like? 某人长什么样？ 解析：",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 279,
+    "level" : "3",
+    "page number" : 20,
+    "bounding box" : [ 48.0, 113.45, 552.248, 195.222 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 48.0, 161.64, 552.248, 195.222 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "①此句用来询问某人的外貌特征。其中 do/does 为助动词，随主语的变化而变化；look like 为固定搭配，意为看 起来像。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 20,
+      "bounding box" : [ 48.0, 113.45, 317.047, 148.69 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "②回答时，可以具体描述高矮、胖瘦、发型等。 例句：— What does your father look like? 你父亲长什么样？",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 280,
+    "level" : "4",
+    "page number" : 20,
+    "bounding box" : [ 48.0, 89.931, 349.204, 101.503 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "— He has a round face and a big nose. 他有一张圆脸和一个大鼻子。"
+  }, {
+    "type" : "footer",
+    "id" : 281,
+    "page number" : 20,
+    "bounding box" : [ 110.76, 49.684, 304.618, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 79,
+      "page number" : 20,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile65.png"
+    }, {
+      "type" : "heading",
+      "id" : 80,
+      "page number" : 20,
+      "bounding box" : [ 295.559, 49.684, 304.618, 59.651 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "20"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 282,
+    "page number" : 21,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 116,
+      "page number" : 21,
+      "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile66.png"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 284,
+    "level" : "2",
+    "page number" : 21,
+    "bounding box" : [ 48.0, 160.68, 552.125, 756.703 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "previous list id" : 278,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 48.0, 651.41, 551.169, 756.703 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2.主语 + need/needs sb. to do sth. 某人/某物需要某人做某事。 解析：此句型是某人需要他人帮忙的常用表达。to do sth.是动词不定式，做宾语补足语，补充说明宾语“sb.”需 要执行的具体行为。 例句：They need us to give them some advice. 他们需要我们给他们一些建议。 You need him to bring some water. 你需要他去拿些水来。",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 131,
+        "page number" : 21,
+        "bounding box" : [ 284.28, 605.88, 315.729, 616.33 ],
+        "font" : "SimSun",
+        "font size" : 10.45,
+        "text color" : "[0.439, 0.188, 0.627]",
+        "content" : "辨析："
+      }, {
+        "type" : "list",
+        "id" : 132,
+        "level" : "4",
+        "page number" : 21,
+        "bounding box" : [ 48.0, 510.77, 349.325, 592.662 ],
+        "numbering style" : "circled arabic numbers",
+        "number of list items" : 2,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 21,
+          "bounding box" : [ 48.0, 557.69, 342.844, 592.662 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "①主语 + need/needs sb. to do sth. 中强调主语需要他人来做某事。 He needs me to clean the room. 他需要我去打扫房间。",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 21,
+          "bounding box" : [ 48.0, 510.77, 349.325, 545.743 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "②主语 + need/needs to do sth. 中，主语是直接需要做某事的主体。 He needs to clean room. 他需要打扫房间。",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 48.0, 370.131, 552.125, 475.422 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3.Is there anything + 主语 + can do + 目的状语? 有没有……能做的，以……？ 解析：此句型用来寻求帮助或建议。目的状语通常由不定式 to do 或介词短语 for sth.充当，表明做某事是为了 达到什么目标或起到什么作用。 例句：Is there anything I can do to make you feel better? 有什么我能做的让你感觉好点吗？ Is there anything I can do to help? 有什么我能帮忙做的吗？",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 133,
+        "page number" : 21,
+        "bounding box" : [ 284.28, 348.121, 315.729, 358.571 ],
+        "font" : "SimSun",
+        "font size" : 10.45,
+        "text color" : "[0.753, 0.0, 0.0]",
+        "content" : "拓展："
+      }, {
+        "type" : "paragraph",
+        "id" : 134,
+        "page number" : 21,
+        "bounding box" : [ 48.0, 229.49, 268.088, 335.171 ],
+        "font" : "SimSun",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "其他表示提供帮助的句型： Do you want me to give you a hand? 要我帮你吗？ Can I be of any help to you? 我能帮你什么忙吗？ What can I do for you? 我能为您做些什么？ Just ask me for any help, anytime. 随时找我帮忙。"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 48.0, 160.68, 246.488, 194.262 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4.Sb. be good at doing sth. 某人擅长做某事。 解析：",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 283,
+    "page number" : 21,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile67.png"
+  }, {
+    "type" : "list",
+    "id" : 285,
+    "level" : "3",
+    "page number" : 21,
+    "bounding box" : [ 48.0, 88.971, 466.928, 147.462 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 48.0, 135.89, 375.366, 147.462 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "①此句型用来表达某人擅长做某件事情。be 动词随主语的变化而变化。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 21,
+      "bounding box" : [ 48.0, 88.971, 466.928, 124.062 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "②同义表达：Sb. do well in doing sth. 例句：He is good at playing basketball. (=He does well in playing basketball.) 他很擅长打篮球。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 286,
+    "page number" : 21,
+    "bounding box" : [ 110.76, 48.723, 304.618, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 81,
+      "page number" : 21,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile68.png"
+    }, {
+      "type" : "heading",
+      "id" : 82,
+      "page number" : 21,
+      "bounding box" : [ 295.559, 48.723, 304.618, 58.69 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "21"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 289,
+    "page number" : 22,
+    "bounding box" : [ 47.04, 744.92, 91.08, 765.68 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile69.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 291,
+    "page number" : 22,
+    "bounding box" : [ 48.0, 699.6, 100.449, 756.971 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "三、语音 1.清辅音/f/ 发音技巧："
+  }, {
+    "type" : "list",
+    "id" : 292,
+    "level" : "3",
+    "page number" : 22,
+    "bounding box" : [ 48.0, 606.0, 373.319, 686.65 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 22,
+      "bounding box" : [ 48.0, 676.2, 173.886, 686.65 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "①上齿轻轻接触在下唇上。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 22,
+      "bounding box" : [ 48.0, 652.8, 373.319, 663.25 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "②把口腔中的空气透过唇齿间的缝隙，挤压出来引起气流和牙齿摩擦。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 22,
+      "bounding box" : [ 48.0, 606.0, 340.681, 639.582 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "③/f/是个清辅音，声带不震动，产生的声音不是声带而是气流。 例词：",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 287,
+    "page number" : 22,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 117,
+      "page number" : 22,
+      "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile70.png"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 293,
+    "page number" : 22,
+    "bounding box" : [ 48.0, 440.571, 428.525, 592.782 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "f：fish、leaf、face、fruit ph：phone、elephant、dolphin、photo gh：laugh、cough 例句： I want some fish and fruit for lunch.我午餐想吃一些鱼和水果。 There are elephants and dolphins in the zoo.动物园里有大象和海豚。 He had a cough last night and didn't get much rest.他昨天晚上一直在咳嗽，没休息好。"
+  }, {
+    "type" : "image",
+    "id" : 290,
+    "page number" : 22,
+    "bounding box" : [ 47.04, 393.68, 91.08, 414.44 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile71.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 294,
+    "page number" : 22,
+    "bounding box" : [ 48.0, 395.04, 90.248, 405.49 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "四、语法"
+  }, {
+    "type" : "image",
+    "id" : 288,
+    "page number" : 22,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile72.png"
+  }, {
+    "type" : "list",
+    "id" : 296,
+    "level" : "2",
+    "page number" : 22,
+    "bounding box" : [ 48.0, 206.09, 139.688, 358.422 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "next list id" : 310,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 22,
+      "bounding box" : [ 48.0, 346.85, 139.688, 358.422 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 10.45,
+      "text color" : "[0.439, 0.188, 0.627]",
+      "content" : "1.一般将来时的定义",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 129,
+        "level" : "3",
+        "page number" : 22,
+        "bounding box" : [ 48.0, 276.41, 280.683, 334.903 ],
+        "numbering style" : "arabic numbers",
+        "number of list items" : 2,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 22,
+          "bounding box" : [ 48.0, 323.331, 280.683, 334.903 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "(1)表示将来某个时间要发生的动作或存在的状态。",
+          "kids" : [ {
+            "type" : "list",
+            "id" : 128,
+            "level" : "4",
+            "page number" : 22,
+            "bounding box" : [ 48.0, 299.931, 253.208, 311.503 ],
+            "numbering style" : "english letters",
+            "number of list items" : 1,
+            "next list id" : 406,
+            "list items" : [ {
+              "type" : "list item",
+              "page number" : 22,
+              "bounding box" : [ 48.0, 299.931, 253.208, 311.503 ],
+              "font" : "TimesNewRomanPSMT",
+              "font size" : 10.45,
+              "text color" : "[0.0, 0.0, 0.0]",
+              "content" : "I will go to work next week. 我下周要去上班。",
+              "kids" : [ ]
+            } ]
+          } ]
+        }, {
+          "type" : "list item",
+          "page number" : 22,
+          "bounding box" : [ 48.0, 276.41, 238.684, 287.982 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "(2)表示在最近或将来计划、打算做某事。",
+          "kids" : [ ]
+        } ]
+      }, {
+        "type" : "list",
+        "id" : 130,
+        "level" : "4",
+        "page number" : 22,
+        "bounding box" : [ 48.0, 253.01, 305.287, 264.582 ],
+        "numbering style" : "english letters",
+        "number of list items" : 1,
+        "next list id" : 405,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 22,
+          "bounding box" : [ 48.0, 253.01, 305.287, 264.582 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "I am going to have a picnic tomorrow. 我打算明天去野餐。",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 22,
+      "bounding box" : [ 48.0, 206.09, 139.688, 217.662 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 10.45,
+      "text color" : "[0.439, 0.188, 0.627]",
+      "content" : "2.一般将来时的结构",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 297,
+    "level" : "3",
+    "page number" : 22,
+    "bounding box" : [ 48.0, 182.69, 89.65, 194.262 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "next list id" : 303,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 22,
+      "bounding box" : [ 48.0, 182.69, 89.65, 194.262 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(1)will 型",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 298,
+    "level" : "4",
+    "page number" : 22,
+    "bounding box" : [ 48.0, 88.85, 243.572, 170.862 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 22,
+      "bounding box" : [ 48.0, 135.771, 236.972, 170.862 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "①肯定句：主语 + will + 动词原形 + 其他. He will go tomorrow. 他明天会走。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 22,
+      "bounding box" : [ 48.0, 88.85, 243.572, 123.943 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "②否定句：主语 + won't + 动词原形 + 其他. He won't go tomorrow. 他明天不会走。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 295,
+    "page number" : 22,
+    "bounding box" : [ 265.08, 370.25, 334.928, 381.822 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "(一)一般将来时"
+  }, {
+    "type" : "footer",
+    "id" : 299,
+    "page number" : 22,
+    "bounding box" : [ 110.76, 48.603, 304.618, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 83,
+      "page number" : 22,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile73.png"
+    }, {
+      "type" : "heading",
+      "id" : 84,
+      "page number" : 22,
+      "bounding box" : [ 295.559, 48.603, 304.618, 58.57 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "22"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 302,
+    "level" : "5",
+    "page number" : 23,
+    "bounding box" : [ 48.0, 745.131, 267.729, 780.103 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "③一般疑问句：Will + 主语 + 动词原形 + 其他？ Will he go tomorrow? 他明天会走吗？"
+  }, {
+    "type" : "header",
+    "id" : 300,
+    "page number" : 23,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 118,
+      "page number" : 23,
+      "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile74.png"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 303,
+    "level" : "3",
+    "page number" : 23,
+    "bounding box" : [ 48.0, 299.69, 422.049, 709.782 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "previous list id" : 297,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 23,
+      "bounding box" : [ 48.0, 698.21, 120.609, 709.782 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(2)be going to 型",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 126,
+        "level" : "4",
+        "page number" : 23,
+        "bounding box" : [ 48.0, 557.571, 340.329, 686.382 ],
+        "numbering style" : "unknown style",
+        "number of list items" : 3,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 23,
+          "bounding box" : [ 48.0, 651.29, 305.013, 686.382 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "①肯定句：主语 + is/am/are + going to + 动词原形 + 其他. He is going to play football. 他打算去踢足球。",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 23,
+          "bounding box" : [ 48.0, 604.49, 329.613, 639.462 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "②否定句：主语 + is/am/are + not + going to + 动词原形 + 其他. He isn't going to play football. 他不打算去踢足球。",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 23,
+          "bounding box" : [ 48.0, 557.571, 340.329, 592.542 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "③一般疑问句：Is/Am/Are + 主语 + going to + 动词原形 + 其他？ Is he going to play soccer? 他打算去踢足球吗？",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 23,
+      "bounding box" : [ 48.0, 534.05, 203.646, 545.622 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 10.45,
+      "text color" : "[0.753, 0.0, 0.0]",
+      "content" : "(3)there be 句型的一般将来时结构",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 127,
+        "level" : "5",
+        "page number" : 23,
+        "bounding box" : [ 48.0, 440.331, 318.487, 522.222 ],
+        "numbering style" : "circled arabic numbers",
+        "number of list items" : 2,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 23,
+          "bounding box" : [ 48.0, 487.25, 318.487, 522.222 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "①There will be + 其他. There will be a math exam next Tuesday. 下周二有数学考试。",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 23,
+          "bounding box" : [ 48.0, 440.331, 310.687, 475.303 ],
+          "font" : "SimSun",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "②There is/are + going to be + 其他. There is going to be concert next week. 下周有一场音乐会。",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 23,
+      "bounding box" : [ 48.0, 346.49, 422.049, 404.982 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(4)现在进行时表将来 现在进行时表将来的动词有：go, come, fly, leave, start, begin, finish, end, arrive 等。 Winter holiday is coming soon! 寒假马上要来了。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 23,
+      "bounding box" : [ 48.0, 299.69, 144.128, 311.262 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(5)一般现在时表将来",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 301,
+    "page number" : 23,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile75.png"
+  }, {
+    "type" : "list",
+    "id" : 304,
+    "level" : "4",
+    "page number" : 23,
+    "bounding box" : [ 48.0, 88.731, 552.247, 287.862 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 4,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 23,
+      "bounding box" : [ 48.0, 229.37, 552.247, 287.862 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "①一般现在时表将来的动词有：come, go, arrive, leave, start, begin, return 等，主要用来表示在时间上已确定或安 排好的事情。 The train leaves at six tomorrow morning. 火车明天早上六点开。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 23,
+      "bounding box" : [ 48.0, 159.171, 297.003, 217.543 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "②以 here, there 等开始的倒装句，表示动作正在进行。 Here comes the bus. = The bus is coming. There goes the bell. = The bell is ringing.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 23,
+      "bounding box" : [ 48.0, 137.04, 184.326, 147.49 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "③在时间或条件状语从句中。",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 125,
+        "level" : "5",
+        "page number" : 23,
+        "bounding box" : [ 48.0, 112.25, 357.126, 123.822 ],
+        "numbering style" : "english letters",
+        "number of list items" : 1,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 23,
+          "bounding box" : [ 48.0, 112.25, 357.126, 123.822 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "I will write to you as soon as I arrive there. 我到了那里，就写信给你。",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 23,
+      "bounding box" : [ 48.0, 88.731, 266.047, 100.303 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "④在动词 hope, make sure that 等的宾语从句中。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 306,
+    "page number" : 23,
+    "bounding box" : [ 110.76, 48.484, 304.618, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 85,
+      "page number" : 23,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile76.png"
+    }, {
+      "type" : "heading",
+      "id" : 86,
+      "page number" : 23,
+      "bounding box" : [ 295.559, 48.484, 304.618, 58.451 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "23"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 309,
+    "level" : "5",
+    "page number" : 24,
+    "bounding box" : [ 48.0, 769.61, 353.645, 781.182 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "next list id" : 403,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 48.0, 769.61, 353.645, 781.182 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "I hope they have a nice time next week. 我希望他们下星期玩得开心。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 307,
+    "page number" : 24,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile77.png"
+  }, {
+    "type" : "list",
+    "id" : 310,
+    "level" : "2",
+    "page number" : 24,
+    "bounding box" : [ 48.0, 722.81, 150.247, 734.382 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 296,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 48.0, 722.81, 150.247, 734.382 ],
+      "font" : "TimesNewRomanPS-BoldMT",
+      "font size" : 10.45,
+      "text color" : "[0.439, 0.188, 0.627]",
+      "content" : "3.一般将来时的标志词",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 311,
+    "level" : "3",
+    "page number" : 24,
+    "bounding box" : [ 48.0, 605.57, 366.97, 710.862 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 48.0, 699.29, 265.69, 710.862 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(1)与 next 相关，如：next week，month，year。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 48.0, 675.89, 366.97, 687.462 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(2)与 tomorrow 相关，如：the day after tomorrow，tomorrow morning。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 48.0, 652.49, 205.809, 664.062 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(3)in + 将来的年份，如：in 2030。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 48.0, 628.97, 275.53, 640.542 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(4)in + 一段时间，如：in three hours，in one day。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 48.0, 605.57, 277.45, 617.142 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(5)其他，如：one day，in the future，soon，later。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 313,
+    "level" : "2",
+    "page number" : 24,
+    "bounding box" : [ 48.0, 441.531, 129.248, 546.822 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 48.0, 535.25, 129.248, 546.822 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1.指示代词的含义",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 124,
+        "level" : "3",
+        "page number" : 24,
+        "bounding box" : [ 48.0, 488.331, 222.96, 523.422 ],
+        "numbering style" : "arabic numbers",
+        "number of list items" : 2,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 24,
+          "bounding box" : [ 48.0, 511.85, 210.12, 523.422 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "(1)单数形式：this(近指)、that(远指)",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 24,
+          "bounding box" : [ 48.0, 488.331, 222.96, 499.903 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "(2)复数形式：these(近指)、those(远指)",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 48.0, 441.531, 129.248, 453.103 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2.指示代词的用法",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 312,
+    "page number" : 24,
+    "bounding box" : [ 270.359, 558.65, 329.529, 570.222 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "(二)指示代词"
+  }, {
+    "type" : "list",
+    "id" : 314,
+    "level" : "3",
+    "page number" : 24,
+    "bounding box" : [ 48.0, 324.29, 551.886, 429.582 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 48.0, 394.61, 365.645, 429.582 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(1)打电话时，常用 this 介绍自己是谁，用 that 询问对方是谁。 Hello! This is John. Who is that speaking? 你好，我是约翰。你是哪位？",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 48.0, 324.29, 551.886, 382.662 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "(2)that, those 常替代已提到的名词。that 指代不可数名词或特指的单数可数名词，those 指代特指的复数可数名 词。 The days in summer are longer than those in winter. 夏季的白天比冬季的白天长。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 308,
+    "page number" : 24,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile78.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 315,
+    "page number" : 24,
+    "bounding box" : [ 284.4, 278.761, 315.849, 289.211 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "练一练"
+  }, {
+    "type" : "paragraph",
+    "id" : 316,
+    "page number" : 24,
+    "bounding box" : [ 48.0, 230.571, 344.882, 265.811 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "一、词汇选择题 从 A、B、C、D 四个选项中，选出可以填入空白处的最佳选项。"
+  }, {
+    "type" : "list",
+    "id" : 317,
+    "level" : "2",
+    "page number" : 24,
+    "bounding box" : [ 48.0, 90.05, 425.468, 218.862 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "next list id" : 323,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 48.0, 183.771, 423.583, 218.862 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. The two brothers have totally different ______. One is outgoing, the other is quiet. A. personalities B. abilities C. hobbies D. voices",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 48.0, 136.85, 425.468, 171.942 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. She is so ______ that she never gets angry easily, even when things go wrong. A. wise B. easy-going C. special D. unique",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 24,
+      "bounding box" : [ 48.0, 90.05, 336.091, 101.622 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. I need you to ______ this invitation for me. I can't say no to them.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 318,
+    "page number" : 24,
+    "bounding box" : [ 110.76, 49.684, 304.618, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 87,
+      "page number" : 24,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile79.png"
+    }, {
+      "type" : "heading",
+      "id" : 88,
+      "page number" : 24,
+      "bounding box" : [ 295.559, 49.684, 304.618, 59.651 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "24"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 319,
+    "page number" : 25,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 119,
+      "page number" : 25,
+      "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile80.png"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 323,
+    "level" : "2",
+    "page number" : 25,
+    "bounding box" : [ 48.0, 440.331, 445.146, 780.222 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 8,
+    "previous list id" : 317,
+    "list items" : [ {
+      "type" : "list item",
+      "id" : 322,
+      "page number" : 25,
+      "bounding box" : [ 69.0, 768.65, 409.694, 780.222 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A. receive B. accept C. excite D. pat",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 48.0, 721.731, 420.252, 756.822 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4. The ______ of students in our class has increased to 45 this term. A. number B. size C. shape D. talent",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 48.0, 674.81, 414.304, 709.903 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5. He is good at playing the ______, and he wants to be a famous musician one day. A. butterfly B. drum C. noticeboard D. skin",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 48.0, 627.89, 414.799, 662.982 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6. The movie was so ______ that everyone in the cinema stood up and cheered. A. excited B. exciting C. fair D. slim",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 48.0, 581.09, 434.108, 616.062 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7. There is ______ I can't do if I put my heart into it. A. something B. anything C. nothing D. someone",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 48.0, 534.171, 445.146, 569.143 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8. She has a beautiful ______, and she dreams of becoming a singer. A. voice B. feather C. shape D. programme",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 48.0, 487.25, 411.599, 522.222 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9. ______ doubt, he is the best student in our school. A. With B. Without C. In D. For",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 48.0, 440.331, 421.984, 475.422 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10. You should not ______ at people who are in trouble. A. smile B. laugh C. mean D. sound",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 324,
+    "page number" : 25,
+    "bounding box" : [ 48.0, 371.4, 446.876, 405.25 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "二、选词填空 从方框中选择合适的单词或短语，并用其适当形式填空。每个单词或短语只能用一次。"
+  }, {
+    "type" : "image",
+    "id" : 320,
+    "page number" : 25,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile81.png"
+  }, {
+    "type" : "image",
+    "id" : 321,
+    "page number" : 25,
+    "bounding box" : [ 65.76, 317.24, 418.92, 367.28 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile82.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 325,
+    "page number" : 25,
+    "bounding box" : [ 72.84, 322.731, 365.851, 357.822 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "different from, take notice of, a number of, the number of, sound like, in person, in the future, be good at, without notice, rather than"
+  }, {
+    "type" : "list",
+    "id" : 326,
+    "level" : "2",
+    "page number" : 25,
+    "bounding box" : [ 48.0, 87.771, 387.09, 287.022 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 9,
+    "next list id" : 330,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 48.0, 275.45, 368.372, 287.022 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. We should __________ the small details in life, as they can teach us a lot.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 48.0, 251.931, 357.211, 263.503 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. My opinion is __________ yours on this matter. I can't agree with you.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 48.0, 228.531, 324.448, 240.103 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. __________ students are playing basketball on the playground.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 48.0, 205.01, 272.852, 216.582 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4. __________ the teachers in our school is over 100.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 48.0, 181.61, 339.57, 193.182 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5. He decided to meet the old man __________ to express his thanks.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 48.0, 158.09, 329.128, 169.662 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6. I want to be a scientist __________ a businessman __________.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 48.0, 134.69, 215.128, 146.262 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7. No one likes to be fired __________.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 48.0, 111.29, 218.826, 122.862 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8. What do you want to be __________?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 25,
+      "bounding box" : [ 48.0, 87.771, 387.09, 99.343 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9. She __________ playing the piano, and she often performs at school concerts.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 327,
+    "page number" : 25,
+    "bounding box" : [ 110.76, 48.484, 304.618, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 89,
+      "page number" : 25,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile83.png"
+    }, {
+      "type" : "heading",
+      "id" : 90,
+      "page number" : 25,
+      "bounding box" : [ 295.559, 48.484, 304.618, 58.451 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "25"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 330,
+    "level" : "2",
+    "page number" : 26,
+    "bounding box" : [ 48.0, 769.731, 371.369, 781.303 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "previous list id" : 326,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 48.0, 769.731, 371.369, 781.303 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10. Your idea __________ a good one, but we need to think it over carefully.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 328,
+    "page number" : 26,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile84.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 331,
+    "page number" : 26,
+    "bounding box" : [ 48.0, 699.41, 383.884, 734.65 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "三、语法填空 阅读下面短文，在空白处填入 1 个适当的单词或括号内单词的正确形式。"
+  }, {
+    "type" : "paragraph",
+    "id" : 332,
+    "page number" : 26,
+    "bounding box" : [ 48.0, 629.09, 554.709, 687.582 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "In a forest live a peacock and a nightingale. They are good friends. But one day the peacock looks sad and says to the wise old tree, “Wise old tree, my friend the nightingale has a lovely voice. She sings so (1) ______ (good). Without any doubt, she will be a singer in a few years. I have a loud voice. But when I sing, everyone will laugh (2) ______ me.”"
+  }, {
+    "type" : "paragraph",
+    "id" : 333,
+    "page number" : 26,
+    "bounding box" : [ 69.0, 558.77, 551.982, 617.262 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The wise old tree smiles and says, “But you’re beautiful. Your (3) ______ (feather) are colourful.” “What can I do in the future? Can I be a singer?” the peacock (4) ______ (worry). The wise old tree pats him, “Not everyone will be a singer. You can be a good dancer with your beautiful feathers"
+  }, {
+    "type" : "paragraph",
+    "id" : 334,
+    "page number" : 26,
+    "bounding box" : [ 48.0, 511.85, 551.985, 546.942 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "and (5) ______ (dance) skills. Different people are good at different things. The elephant is strong. The monkey is clever. The tiger jumps far. Everyone is (6) ______ (uniquely).”"
+  }, {
+    "type" : "paragraph",
+    "id" : 335,
+    "page number" : 26,
+    "bounding box" : [ 48.0, 441.531, 552.189, 500.022 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "The peacock finally understands that he doesn’t need to be like the nightingale. He can be (7) ______ (he). He decides to show off his beautiful feathers and practice (8) ______ (dance) every day. He believes that one day, he will become (9) ______ excellent dancer and make everyone (10) ______ (surprise)."
+  }, {
+    "type" : "heading",
+    "id" : 336,
+    "level" : "Subtitle",
+    "page number" : 26,
+    "bounding box" : [ 48.0, 396.574, 115.778, 408.074 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 11.5,
+    "text color" : "[0.439, 0.188, 0.627]",
+    "content" : "【课后巩固】"
+  }, {
+    "type" : "paragraph",
+    "id" : 337,
+    "page number" : 26,
+    "bounding box" : [ 48.0, 372.48, 111.247, 382.93 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "一、单项选择"
+  }, {
+    "type" : "image",
+    "id" : 329,
+    "page number" : 26,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile85.png"
+  }, {
+    "type" : "list",
+    "id" : 338,
+    "level" : "2",
+    "page number" : 26,
+    "bounding box" : [ 48.0, 89.931, 448.983, 359.503 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 6,
+    "next list id" : 347,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 48.0, 324.41, 401.464, 359.503 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．We have ________ ICT lesson ________ this afternoon. A．a; / B．an; / C．a; in D．an; in",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 48.0, 277.49, 385.454, 312.582 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．The spaceman flew through the galaxy ________ the speed of light. A．for B．in C．on D．at",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 48.0, 230.69, 448.983, 265.662 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．If it ________ rainy tomorrow morning, we ________ a barbecue at 11:30 am. A．isn’t; will have B．isn’t; were having C．won’t; to have D．won’t be; having",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 48.0, 183.771, 419.613, 218.743 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4．We should eat ________ vegetables every day according to the Food Guide Pagoda. A．few B．a little C．much D．plenty of",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 48.0, 136.85, 428.342, 171.822 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5．Look! Three little white cats ________ under the trees. A．sleep B．slept C．is sleeping D．are sleeping",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 26,
+      "bounding box" : [ 48.0, 89.931, 442.743, 125.022 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6．Ben isn’t ________ to finish his homework before 8:00 p.m.. A．enough quick B．quick enough C．enough quickly D．quickly enough",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 339,
+    "page number" : 26,
+    "bounding box" : [ 110.76, 49.563, 304.618, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 91,
+      "page number" : 26,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile86.png"
+    }, {
+      "type" : "heading",
+      "id" : 92,
+      "page number" : 26,
+      "bounding box" : [ 295.559, 49.563, 304.618, 59.53 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "26"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 347,
+    "level" : "2",
+    "page number" : 27,
+    "bounding box" : [ 48.0, 371.09, 539.491, 781.303 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 9,
+    "previous list id" : 338,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 27,
+      "bounding box" : [ 48.0, 746.331, 401.224, 781.303 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7．The slogan of our club is “Let the world ________us!” A．to hear B．hearing C．hear D．heard",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 27,
+      "bounding box" : [ 48.0, 699.41, 413.851, 734.382 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8．I plan to travel to America next month, and I think 2,000 dollars ________ enough. A．will be B．be C．was D．were",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 27,
+      "bounding box" : [ 48.0, 652.49, 404.224, 687.462 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9．—Would you like some _______ in your noodles? —Oh, yes, just a little. A．egg B．mutton C．tomato D．potato",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 27,
+      "bounding box" : [ 48.0, 605.57, 439.983, 640.662 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10．—What are they doing on the mat?—________. A．Badminton B．Sit-ups C．Swimming D．Rock climbing",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 27,
+      "bounding box" : [ 48.0, 558.65, 444.943, 593.743 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "11．—How does your brother go to school every day? —________. A．Once a day B．Two miles C．He takes a bus D．Twenty minutes",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 27,
+      "bounding box" : [ 48.0, 511.85, 409.335, 546.822 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "12．It’s going to rain. You ________ water the flowers. A．need to B．needn’t to C．don’t need D．needn’t",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 27,
+      "bounding box" : [ 48.0, 464.931, 539.491, 499.903 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "13．—________ do you want to be in the future?—I’d like to be a doctor because I want to make sick people better. A．How B．Why C．What D．When",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 27,
+      "bounding box" : [ 48.0, 418.01, 453.598, 452.982 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "14．Scientists ________ many tests to make solar panels ________ in the past few years. A．did; light B．did; lighter C．have done; light D．have done; lighter",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 27,
+      "bounding box" : [ 48.0, 371.09, 515.828, 406.062 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "15．—Could you help me with my luggage?—________ A．You are welcome. B．That’s all right. C．With pleasure. D．How come?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 340,
+    "page number" : 27,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile87.png"
+  }, {
+    "type" : "image",
+    "id" : 341,
+    "page number" : 27,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile88.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 348,
+    "page number" : 27,
+    "bounding box" : [ 48.0, 294.24, 310.441, 328.09 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "二、选词填空 将下列单词填入空格。每空格限填一词，每词只能填一次"
+  }, {
+    "type" : "image",
+    "id" : 342,
+    "page number" : 27,
+    "bounding box" : [ 76.32, 254.96, 463.92, 289.16 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile89.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 349,
+    "page number" : 27,
+    "bounding box" : [ 83.159, 265.131, 439.198, 276.703 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "A．technology B．learn C． reply D．three E. simple F. myself"
+  }, {
+    "type" : "paragraph",
+    "id" : 350,
+    "page number" : 27,
+    "bounding box" : [ 48.0, 237.171, 89.971, 248.743 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Dear Leo,"
+  }, {
+    "type" : "paragraph",
+    "id" : 351,
+    "page number" : 27,
+    "bounding box" : [ 48.0, 190.25, 551.824, 225.343 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "My name is Zhang Fei. I got to know your name and email address from Penfriends' World, and I would like to be your penfriend. Now let me introduce 16 ."
+  }, {
+    "type" : "image",
+    "id" : 343,
+    "page number" : 27,
+    "bounding box" : [ 224.16, 190.04, 267.36, 193.04 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile90.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 352,
+    "page number" : 27,
+    "bounding box" : [ 48.0, 143.45, 550.08, 178.422 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "I am a middle school student from Shanghai, China. My favourite subjects are History and Geography, because I can 17 a lot of things about different countries in the world from these two subjects."
+  }, {
+    "type" : "image",
+    "id" : 344,
+    "page number" : 27,
+    "bounding box" : [ 67.32, 143.6, 110.52, 146.6 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile91.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 353,
+    "page number" : 27,
+    "bounding box" : [ 48.0, 73.01, 555.903, 131.503 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "There are 18 people in my family. My father is a 19 worker and he works for a big engineering company. My mother is a tour guide（导游）and she works for a travel agency. We are a happy family and we all enjoy travelling around the world on our holidays."
+  }, {
+    "type" : "image",
+    "id" : 345,
+    "page number" : 27,
+    "bounding box" : [ 120.6, 120.32, 164.64, 123.32 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile92.png"
+  }, {
+    "type" : "image",
+    "id" : 346,
+    "page number" : 27,
+    "bounding box" : [ 323.88, 120.32, 367.92, 123.32 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile93.png"
+  }, {
+    "type" : "footer",
+    "id" : 354,
+    "page number" : 27,
+    "bounding box" : [ 110.76, 49.563, 304.618, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 93,
+      "page number" : 27,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile94.png"
+    }, {
+      "type" : "heading",
+      "id" : 94,
+      "page number" : 27,
+      "bounding box" : [ 295.559, 49.563, 304.618, 59.53 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "27"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 364,
+    "page number" : 28,
+    "bounding box" : [ 75.959, 769.731, 366.093, 781.303 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Would you like to be my penfriend? I’m waiting for your 20 ."
+  }, {
+    "type" : "image",
+    "id" : 357,
+    "page number" : 28,
+    "bounding box" : [ 320.88, 768.68, 364.08, 771.68 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile95.png"
+  }, {
+    "type" : "image",
+    "id" : 355,
+    "page number" : 28,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile96.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 366,
+    "page number" : 28,
+    "bounding box" : [ 48.0, 700.56, 111.247, 711.01 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "三、单词拼写"
+  }, {
+    "type" : "list",
+    "id" : 367,
+    "level" : "2",
+    "page number" : 28,
+    "bounding box" : [ 48.0, 558.77, 417.119, 687.582 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 6,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 28,
+      "bounding box" : [ 48.0, 676.01, 344.611, 687.582 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "21．The fashion show is very (excite). I like it very much.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 28,
+      "bounding box" : [ 48.0, 652.49, 286.867, 664.062 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "22．Can you say these (number) in English?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 28,
+      "bounding box" : [ 48.0, 629.09, 297.308, 640.662 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "23．Which gift do you think is (special) of all?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 28,
+      "bounding box" : [ 48.0, 605.69, 417.119, 617.262 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "24．You’d better not eat too much chocolate, or you’ll get much . (fat)",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 28,
+      "bounding box" : [ 48.0, 582.171, 285.118, 593.743 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "25．They put up important there. (notice)",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 28,
+      "bounding box" : [ 48.0, 558.77, 353.25, 570.342 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "26．I want to know the (different) between the two pictures.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 358,
+    "page number" : 28,
+    "bounding box" : [ 179.16, 675.68, 222.36, 678.68 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile97.png"
+  }, {
+    "type" : "image",
+    "id" : 359,
+    "page number" : 28,
+    "bounding box" : [ 149.76, 651.68, 192.96, 654.68 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile98.png"
+  }, {
+    "type" : "image",
+    "id" : 360,
+    "page number" : 28,
+    "bounding box" : [ 184.32, 628.4, 227.52, 631.4 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile99.png"
+  }, {
+    "type" : "image",
+    "id" : 361,
+    "page number" : 28,
+    "bounding box" : [ 324.6, 605.12, 394.2, 608.12 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile100.png"
+  }, {
+    "type" : "image",
+    "id" : 362,
+    "page number" : 28,
+    "bounding box" : [ 167.76, 581.84, 221.52, 584.84 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile101.png"
+  }, {
+    "type" : "image",
+    "id" : 363,
+    "page number" : 28,
+    "bounding box" : [ 152.04, 558.68, 195.24, 561.68 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile102.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 365,
+    "page number" : 28,
+    "bounding box" : [ 509.28, 722.81, 552.464, 757.903 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Yours Zhang Fei"
+  }, {
+    "type" : "paragraph",
+    "id" : 368,
+    "page number" : 28,
+    "bounding box" : [ 48.0, 316.49, 551.73, 515.65 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "四、完成句子 Situation: Ben 和 Sam 在讨论学习方式，发现两人的学习方法差异很大，但都能取得好成绩。 Ben: Sam, you always get good grades in English, but you never read English books after class. 1.__________________________ ? (询问 Sam 的英语学习方法) Sam: I learn English by listening to English songs and watching cartoon videos. It’s fun and easy. Ben: 2.__________________________ ! (感叹学习方法很有趣) I never thought of that way. Sam: What about you? 3.__________________________ ? (询问 Ben 如何学习英语) Ben: I learn English by reading English stories and reciting words every morning. It’s a little boring but useful. Sam: 4.__________________________ . (表达观点) Different learning ways work for different people."
+  }, {
+    "type" : "image",
+    "id" : 356,
+    "page number" : 28,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile103.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 369,
+    "page number" : 28,
+    "bounding box" : [ 48.0, 270.84, 111.247, 281.29 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "五、阅读理解"
+  }, {
+    "type" : "paragraph",
+    "id" : 370,
+    "page number" : 28,
+    "bounding box" : [ 48.0, 222.89, 551.849, 257.862 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "For years, I fought with the “bird’s nest” on top of my head. My mother thought my hair was naturally beautiful, but my classmates didn’t agree. They made fun of it, calling my hair “the mop”(拖把)."
+  }, {
+    "type" : "paragraph",
+    "id" : 371,
+    "page number" : 28,
+    "bounding box" : [ 48.0, 175.971, 552.092, 210.942 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "When I got to university, I decided to change my hairstyle. I had my curly (卷曲的) hair straightened (拉直). However, it cost me＄700 once every six months to do this. People said I was crazy to spend that much on my hair. But"
+  }, {
+    "type" : "list",
+    "id" : 372,
+    "level" : "3",
+    "page number" : 28,
+    "bounding box" : [ 48.0, 129.05, 551.588, 164.022 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "next list id" : 402,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 28,
+      "bounding box" : [ 48.0, 129.05, 551.588, 164.022 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "I would do anything to never again see that curly-haired girl in the mirror. But when I had to rent my own apartment, the cost became too high. So I turned to Google. In the end, I found a",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 373,
+    "page number" : 28,
+    "bounding box" : [ 48.0, 82.131, 551.823, 117.222 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "“curly haired” salon, a place designed for girls with crazy hair. When I arrived there, the stylist, Jacquai, was waiting for me."
+  }, {
+    "type" : "footer",
+    "id" : 374,
+    "page number" : 28,
+    "bounding box" : [ 110.76, 49.563, 304.618, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 95,
+      "page number" : 28,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile104.png"
+    }, {
+      "type" : "heading",
+      "id" : 96,
+      "page number" : 28,
+      "bounding box" : [ 295.559, 49.563, 304.618, 59.53 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "28"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 380,
+    "page number" : 29,
+    "bounding box" : [ 69.0, 722.81, 552.254, 781.303 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "“Do you really think this will work?” I asked. “No curly hair is hopeless,” she replied. “You just haven’t found a way to work with it. That’s all.” After the hour was over, Jacquai had completed her task. She had fixed my hair using only her hands. I couldn’t"
+  }, {
+    "type" : "image",
+    "id" : 375,
+    "page number" : 29,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile105.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 381,
+    "page number" : 29,
+    "bounding box" : [ 48.0, 699.41, 198.45, 710.982 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "believe it: my hair looked beautiful."
+  }, {
+    "type" : "paragraph",
+    "id" : 382,
+    "page number" : 29,
+    "bounding box" : [ 48.0, 652.49, 551.704, 687.462 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Now my world has changed. I am more outgoing and confident than ever. People say that I’m looking better than ever but that they don’t know what has changed. Hair is not just hair. I don’t need to tell them my hair speaks for itself."
+  }, {
+    "type" : "list",
+    "id" : 383,
+    "level" : "2",
+    "page number" : 29,
+    "bounding box" : [ 48.0, 253.85, 410.998, 640.662 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 29,
+      "bounding box" : [ 48.0, 582.171, 358.77, 640.662 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "32．How often did the writer straighten her hair? A．Once a month. B．Every six months. C．Every six weeks. D．Every three months.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 29,
+      "bounding box" : [ 48.0, 511.85, 410.998, 570.222 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "33．The writer found that getting her hair straightened ________. A．was expensive and useless B．did not make her look good C．was helpful but too expensive D．caused others to make fun of her",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 29,
+      "bounding box" : [ 48.0, 488.331, 404.707, 499.903 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "34．What was the reaction(反应) of the stylist in the salon when she saw the writer?",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 123,
+        "level" : "3",
+        "page number" : 29,
+        "bounding box" : [ 66.959, 394.49, 308.731, 476.503 ],
+        "numbering style" : "english letters",
+        "number of list items" : 4,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 29,
+          "bounding box" : [ 66.959, 464.931, 283.268, 476.503 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "A．She was very angry because the writer was late",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 29,
+          "bounding box" : [ 66.959, 441.41, 296.132, 452.982 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "B．She thought the writer’s hair was a disaster(灾难).",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 29,
+          "bounding box" : [ 66.959, 418.01, 262.291, 429.582 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "C．She was calm(冷静) and sure of her work.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 29,
+          "bounding box" : [ 66.959, 394.49, 308.731, 406.062 ],
+          "font" : "TimesNewRomanPSMT",
+          "font size" : 10.45,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "D．She thought there was no way to fix the writer’s hair.",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 29,
+      "bounding box" : [ 48.0, 324.171, 375.428, 382.662 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "35．The writer’s world has changed because ________. A．she became confident B．she cut her curly hair C．she found a way to straighten her hair D．people knew her change",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 29,
+      "bounding box" : [ 48.0, 253.85, 400.199, 312.343 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "36．The best title of the passage can be ________. A．A successful stylist B．Learn to change my curly hair C．Road to beauty D．No curly hair is hopeless",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 376,
+    "page number" : 29,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile106.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 384,
+    "page number" : 29,
+    "bounding box" : [ 48.0, 152.331, 553.628, 210.73 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "六、完形填空 What might a person’s life be like if he or she is blind from birth? Do they understand the 37 of color? Philip is a 55-year-old blind man. He can smell a rose, but he cannot tell if it is red, white, or blue. It does not"
+  }, {
+    "type" : "image",
+    "id" : 377,
+    "page number" : 29,
+    "bounding box" : [ 457.44, 175.88, 511.2, 178.88 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile107.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 385,
+    "page number" : 29,
+    "bounding box" : [ 48.0, 128.931, 304.891, 140.503 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "matter to him; he 38 the beauty of the smell itself."
+  }, {
+    "type" : "image",
+    "id" : 378,
+    "page number" : 29,
+    "bounding box" : [ 125.04, 129.32, 178.8, 132.32 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile108.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 386,
+    "page number" : 29,
+    "bounding box" : [ 48.0, 82.01, 551.825, 116.982 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "But his life is not a bed of roses. It is 39 for him to travel. He cannot drive to wonderful places himself. At home, he cannot just look out of the window to see what the weather is like. He can’t look at the clock on"
+  }, {
+    "type" : "image",
+    "id" : 379,
+    "page number" : 29,
+    "bounding box" : [ 247.32, 105.32, 310.08, 108.32 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile109.png"
+  }, {
+    "type" : "footer",
+    "id" : 387,
+    "page number" : 29,
+    "bounding box" : [ 110.76, 49.444, 304.618, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 97,
+      "page number" : 29,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile110.png"
+    }, {
+      "type" : "heading",
+      "id" : 98,
+      "page number" : 29,
+      "bounding box" : [ 295.559, 49.444, 304.618, 59.411 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "29"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 398,
+    "page number" : 30,
+    "bounding box" : [ 48.0, 769.731, 308.011, 781.303 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "the wall to see what time it is. He uses a special radio for that."
+  }, {
+    "type" : "image",
+    "id" : 388,
+    "page number" : 30,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile111.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 399,
+    "page number" : 30,
+    "bounding box" : [ 48.0, 722.81, 551.948, 757.903 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "He is a 40 . He plays the saxophone, but not in a band. Four times a week, he sits down on the sidewalk and plays. He puts an upside-down hat in front of him with a little 41 in it."
+  }, {
+    "type" : "image",
+    "id" : 390,
+    "page number" : 30,
+    "bounding box" : [ 113.76, 745.4, 178.08, 748.4 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile112.png"
+  }, {
+    "type" : "image",
+    "id" : 391,
+    "page number" : 30,
+    "bounding box" : [ 369.6, 722.24, 423.36, 725.24 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile113.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 400,
+    "page number" : 30,
+    "bounding box" : [ 48.0, 675.89, 554.491, 710.982 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "“The change keeps the hat from blowing away,” he says. “It also lets people know where to put their money. I’ll make anywhere from ＄10 to ＄30. One evening I made almost ＄100. Another evening, someone took all the money."
+  }, {
+    "type" : "list",
+    "id" : 401,
+    "level" : "4",
+    "page number" : 30,
+    "bounding box" : [ 48.0, 371.21, 241.388, 664.062 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 30,
+      "bounding box" : [ 48.0, 652.49, 241.388, 664.062 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "I guess he needed it 42 than I did.”",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 121,
+        "page number" : 30,
+        "bounding box" : [ 48.0, 511.85, 408.238, 640.662 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "37．A．matter B．meaning C．shape D．life 38．A．enjoys B．hates C．wonders D．means 39．A．easy B．difficult C．wonderful D．good 40．A．doctor B．driver C．musician D．teacher 41．A．paper B．bottle C．water D．change 42．A．more B．less C．fewer D．better"
+      }, {
+        "type" : "paragraph",
+        "id" : 122,
+        "page number" : 30,
+        "bounding box" : [ 48.0, 418.131, 341.88, 476.53 ],
+        "font" : "SimSun",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "七、选句填空 根据对话内容，从所给的选项中选出能填入空白处的最佳选项。 (Helen and John are talking about sky lanterns. H=Helen, J=John)"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 30,
+      "bounding box" : [ 48.0, 371.21, 199.148, 406.303 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "J: Hey, Helen! What are you doing? H: 1",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 392,
+    "page number" : 30,
+    "bounding box" : [ 135.6, 651.68, 189.36, 654.68 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile114.png"
+  }, {
+    "type" : "image",
+    "id" : 389,
+    "page number" : 30,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile115.png"
+  }, {
+    "type" : "image",
+    "id" : 393,
+    "page number" : 30,
+    "bounding box" : [ 63.48, 371.0, 111.96, 374.0 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile116.png"
+  }, {
+    "type" : "list",
+    "id" : 402,
+    "level" : "3",
+    "page number" : 30,
+    "bounding box" : [ 48.0, 300.89, 545.824, 359.382 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "previous list id" : 372,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 30,
+      "bounding box" : [ 48.0, 300.89, 545.824, 359.382 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "J: Oh, it looks so nice. I’ve never seen one before. Can you tell me about it? H: Sure. It’s believed that Zhuge Liang was the first person to use a sky lantern. 2 Now, Chinese people fly it on special days.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 394,
+    "page number" : 30,
+    "bounding box" : [ 388.32, 324.44, 436.8, 327.44 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile117.png"
+  }, {
+    "type" : "list",
+    "id" : 403,
+    "level" : "5",
+    "page number" : 30,
+    "bounding box" : [ 48.0, 277.49, 195.789, 289.062 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "previous list id" : 309,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 30,
+      "bounding box" : [ 48.0, 277.49, 195.789, 289.062 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "J: What is the sky lantern made of?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 404,
+    "level" : "4",
+    "page number" : 30,
+    "bounding box" : [ 48.0, 207.05, 505.53, 265.543 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 30,
+      "bounding box" : [ 48.0, 253.971, 505.53, 265.543 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "H: 3 And you need some glue (胶水), too. The glue helps to stick the bamboo and paper together.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 120,
+        "page number" : 30,
+        "bounding box" : [ 48.0, 230.571, 295.748, 242.143 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "J: Wow, that sounds cool. Who taught you how to make it?"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 30,
+      "bounding box" : [ 48.0, 207.05, 239.012, 218.622 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "H: 4 He taught me when I was 10.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 395,
+    "page number" : 30,
+    "bounding box" : [ 63.48, 254.0, 111.96, 257.0 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile118.png"
+  }, {
+    "type" : "image",
+    "id" : 396,
+    "page number" : 30,
+    "bounding box" : [ 63.48, 207.32, 111.96, 210.32 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile119.png"
+  }, {
+    "type" : "list",
+    "id" : 405,
+    "level" : "4",
+    "page number" : 30,
+    "bounding box" : [ 48.0, 160.25, 303.665, 195.222 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "previous list id" : 130,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 30,
+      "bounding box" : [ 48.0, 160.25, 303.665, 195.222 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "J: How long does it take to make a sky lantern? H: It usually takes me about three hours to make one. 5",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 397,
+    "page number" : 30,
+    "bounding box" : [ 277.32, 160.04, 325.8, 163.04 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile120.png"
+  }, {
+    "type" : "list",
+    "id" : 406,
+    "level" : "4",
+    "page number" : 30,
+    "bounding box" : [ 48.0, 113.331, 224.131, 148.303 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "previous list id" : 128,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 30,
+      "bounding box" : [ 48.0, 113.331, 224.131, 148.303 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "J: That sounds great! Thank you so much. H: You’re welcome.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 407,
+    "level" : "5",
+    "page number" : 30,
+    "bounding box" : [ 48.0, 89.81, 174.21, 101.382 ],
+    "numbering style" : "english letters",
+    "number of list items" : 1,
+    "next list id" : 417,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 30,
+      "bounding box" : [ 48.0, 89.81, 174.21, 101.382 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A．I’m making a sky lantern.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "footer",
+    "id" : 408,
+    "page number" : 30,
+    "bounding box" : [ 110.76, 49.563, 304.618, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 99,
+      "page number" : 30,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile121.png"
+    }, {
+      "type" : "heading",
+      "id" : 100,
+      "page number" : 30,
+      "bounding box" : [ 295.559, 49.563, 304.618, 59.53 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "30"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 411,
+    "page number" : 31,
+    "bounding box" : [ -0.96, 839.96, 2.04, 842.96 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile122.png"
+  }, {
+    "type" : "list",
+    "id" : 417,
+    "level" : "5",
+    "page number" : 31,
+    "bounding box" : [ 48.0, 675.89, 309.81, 781.303 ],
+    "numbering style" : "english letters",
+    "number of list items" : 5,
+    "previous list id" : 407,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 31,
+      "bounding box" : [ 48.0, 769.731, 199.051, 781.303 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B．It’s made of bamboo and paper.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 31,
+      "bounding box" : [ 48.0, 746.331, 212.132, 757.903 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "C．My dad likes Chinese culture a lot.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 31,
+      "bounding box" : [ 48.0, 722.81, 243.57, 734.382 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "D．It’s dangerous and can cause air pollution.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 31,
+      "bounding box" : [ 48.0, 699.41, 296.468, 710.982 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "E．Would you like to sit here and make one with me now?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 31,
+      "bounding box" : [ 48.0, 675.89, 309.81, 687.462 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "F．He sent it up to ask for help when his army was in trouble.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 409,
+    "page number" : 31,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile123.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 418,
+    "page number" : 31,
+    "bounding box" : [ 48.0, 622.44, 121.687, 632.89 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "八、任务型阅读"
+  }, {
+    "type" : "list",
+    "id" : 419,
+    "level" : "6",
+    "page number" : 31,
+    "bounding box" : [ 48.0, 480.65, 551.948, 609.462 ],
+    "numbering style" : "unknown style",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 31,
+      "bounding box" : [ 75.959, 597.89, 421.678, 609.462 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "①What could a poet and a movie director have in common? More than you think!",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 31,
+      "bounding box" : [ 48.0, 480.65, 551.948, 586.062 ],
+      "font" : "SimSun",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "②Langston Hughes began writing poems in high school and soon became one of the greatest poets. He wrote poems about people who had a hard life but still found things to be happy about. He wrote plays and books about justice (正义) for all people, and he wrote kids’ books, too. The Sweet and Sour Animal Book is a book of his animal poems. The book was illustrated by kids. “Hold fast to dreams,” is a line in a famous Hughes poem. That’s almost what he did throughout his life.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 416,
+    "page number" : 31,
+    "bounding box" : [ 47.04, 397.52, 164.64, 475.28 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile124.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 421,
+    "level" : "7",
+    "page number" : 31,
+    "bounding box" : [ 172.559, 386.81, 552.132, 468.822 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "③Jia Zhangke got interested in making movies when he was in high school, and later became a well-known director in China. He made movies about people who had difficult lives but still managed to find joy in life. Jia Zhangke’s movie Platform (站台) shows how China changed in the 1980s. People liked the movie a lot, and it helped him become"
+  }, {
+    "type" : "image",
+    "id" : 410,
+    "page number" : 31,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile125.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 422,
+    "page number" : 31,
+    "bounding box" : [ 48.0, 316.49, 551.945, 374.982 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "famous around the world. Jia Zhangke keeps chasing his dream of making movies, he once said, “Do what you want to do, do what you believe in, always remember why you started and what you love the most. I love making movies, and now I still want to make movies.”"
+  }, {
+    "type" : "image",
+    "id" : 412,
+    "page number" : 31,
+    "bounding box" : [ 47.04, 209.24, 120.36, 305.0 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile126.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 423,
+    "level" : "8",
+    "page number" : 31,
+    "bounding box" : [ 75.959, 183.771, 330.693, 195.343 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "④ ."
+  }, {
+    "type" : "image",
+    "id" : 413,
+    "page number" : 31,
+    "bounding box" : [ 86.04, 183.32, 328.92, 186.32 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile127.png"
+  }, {
+    "type" : "list",
+    "id" : 424,
+    "level" : "2",
+    "page number" : 31,
+    "bounding box" : [ 48.0, 113.45, 362.948, 171.942 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "next list id" : 431,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 31,
+      "bounding box" : [ 48.0, 160.37, 362.948, 171.942 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "50．Langston Hughes is one of the most famous movie directors, isn’t he?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 31,
+      "bounding box" : [ 48.0, 113.45, 261.307, 125.022 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "51．When did Jia Zhangke enjoy making movies?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 414,
+    "page number" : 31,
+    "bounding box" : [ 47.76, 136.88, 217.08, 139.88 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile128.png"
+  }, {
+    "type" : "image",
+    "id" : 415,
+    "page number" : 31,
+    "bounding box" : [ 47.76, 90.32, 217.08, 93.32 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile129.png"
+  }, {
+    "type" : "footer",
+    "id" : 425,
+    "page number" : 31,
+    "bounding box" : [ 110.76, 49.803, 304.618, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 101,
+      "page number" : 31,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile130.png"
+    }, {
+      "type" : "heading",
+      "id" : 102,
+      "page number" : 31,
+      "bounding box" : [ 295.559, 49.803, 304.618, 59.77 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "31"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 431,
+    "level" : "2",
+    "page number" : 32,
+    "bounding box" : [ 48.0, 676.01, 490.531, 781.303 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "previous list id" : 424,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 32,
+      "bounding box" : [ 48.0, 769.731, 490.531, 781.303 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "52．How do you understand the underlined sentence in the second paragraph? Explain the meaning of it.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 32,
+      "bounding box" : [ 48.0, 722.931, 415.678, 734.503 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "53．What do Langston Hughes and Jia Zhangke have in common? (at least two points)",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 32,
+      "bounding box" : [ 48.0, 676.01, 282.569, 687.582 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "54．Write a concluding sentence for the last paragraph.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 426,
+    "page number" : 32,
+    "bounding box" : [ 398.16, 778.04, 400.92, 780.8 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile131.png"
+  }, {
+    "type" : "image",
+    "id" : 428,
+    "page number" : 32,
+    "bounding box" : [ 47.76, 745.4, 217.08, 748.4 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile132.png"
+  }, {
+    "type" : "image",
+    "id" : 429,
+    "page number" : 32,
+    "bounding box" : [ 47.76, 698.84, 217.08, 701.84 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile133.png"
+  }, {
+    "type" : "image",
+    "id" : 430,
+    "page number" : 32,
+    "bounding box" : [ 47.76, 651.68, 217.08, 654.68 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile134.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 432,
+    "page number" : 32,
+    "bounding box" : [ 48.0, 552.24, 551.635, 609.49 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "九、书面表达 假如你是 Jimmy，你在海报上看到学生中心在招募志愿者的消息。每逢周末，你也想去帮助有需要的人，因为 这既能锻炼自己，又能回报社会。请写一封信，申请一份你喜欢的志愿者工作。内容包括："
+  }, {
+    "type" : "list",
+    "id" : 433,
+    "level" : "2",
+    "page number" : 32,
+    "bounding box" : [ 48.0, 458.521, 433.677, 539.262 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 32,
+      "bounding box" : [ 48.0, 527.69, 280.988, 539.262 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1.你想去什么地方做志愿，志愿工作的内容是什么?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 32,
+      "bounding box" : [ 48.0, 504.29, 433.677, 515.862 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2.你的情况年龄，兴趣爱好，性格等以及你能胜任这份工作的原因（两点及以上）。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 32,
+      "bounding box" : [ 48.0, 458.521, 192.246, 492.343 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3.表达想要成为志愿者的愿望。 作文要求：",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 434,
+    "level" : "2",
+    "page number" : 32,
+    "bounding box" : [ 48.0, 293.21, 552.03, 445.542 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 32,
+      "bounding box" : [ 48.0, 433.97, 307.682, 445.542 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1.不得在作文中出现学校的真实名称和学生的真实姓名。",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 32,
+      "bounding box" : [ 48.0, 293.21, 552.03, 422.022 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2.语句连贯，词数 80 个左右。 Dear sir or madam, ________________________________________________________________________________________________ ________________________________________________________________________________________________ ________________________________________________________________________________________________ _____________________________________________________________________________________",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 427,
+    "page number" : 32,
+    "bounding box" : [ 206.16, 374.96, 211.2, 380.72 ],
+    "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile135.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 435,
+    "page number" : 32,
+    "bounding box" : [ 484.44, 246.29, 552.089, 281.382 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Yours sincerely, Jimmy"
+  }, {
+    "type" : "footer",
+    "id" : 436,
+    "page number" : 32,
+    "bounding box" : [ 110.76, 49.923, 304.618, 72.32 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 103,
+      "page number" : 32,
+      "bounding box" : [ 110.76, 69.56, 113.52, 72.32 ],
+      "source" : "Unit1 everyone is different 单元知识梳理&测试题（解析版） Unit1 everyone is different 单元知识梳理&测试题（学生版）_images/imageFile136.png"
+    }, {
+      "type" : "heading",
+      "id" : 104,
+      "page number" : 32,
+      "bounding box" : [ 295.559, 49.923, 304.618, 59.89 ],
+      "heading level" : 4,
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 9.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "32"
+    } ]
+  } ]
+}

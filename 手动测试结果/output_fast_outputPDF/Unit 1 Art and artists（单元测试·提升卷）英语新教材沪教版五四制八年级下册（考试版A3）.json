@@ -1,0 +1,2057 @@
+{
+  "file name" : "Unit 1 Art and artists（单元测试·提升卷）英语新教材沪教版五四制八年级下册（考试版A3）.pdf",
+  "number of pages" : 4,
+  "author" : "Lenovo",
+  "title" : "",
+  "creation date" : "D:20260413235423+08'00'",
+  "modification date" : "D:20260413235423+08'00'",
+  "kids" : [ {
+    "type" : "paragraph",
+    "id" : 105,
+    "page number" : 1,
+    "bounding box" : [ 12.22, -21.141, 22.67, 791.744 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "………………○………………外………………○………………装………………○………………订………………○………………线………………○………………"
+  }, {
+    "type" : "paragraph",
+    "id" : 103,
+    "page number" : 1,
+    "bounding box" : [ 76.72, -21.08, 87.17, 791.684 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "………………○………………内………………○………………装………………○………………订………………○………………线………………○………………"
+  }, {
+    "type" : "paragraph",
+    "id" : 107,
+    "page number" : 1,
+    "bounding box" : [ 44.41, 40.39, 56.01, 655.09 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "学校：姓名：班级：考号：…________________________________________________________________"
+  }, {
+    "type" : "heading",
+    "id" : 113,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 206.4, 758.447, 540.84, 778.381 ],
+    "heading level" : 1,
+    "font" : "SimHei",
+    "font size" : 18.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "2025-2026 学年七年级下册英语单元测试卷"
+  }, {
+    "type" : "image",
+    "id" : 112,
+    "page number" : 1,
+    "bounding box" : [ 478.56, 777.39, 479.28, 778.11 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+    "format" : "jpeg"
+  }, {
+    "type" : "list",
+    "id" : 121,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 641.4, 90.481, 989.223, 775.972 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 9,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 641.4, 764.4, 879.93, 775.972 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9．—________ is your brother? —He is thirteen.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 55,
+        "page number" : 1,
+        "bounding box" : [ 656.4, 736.32, 1017.544, 747.892 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．How old B．How tall C．How long D．How much"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 641.4, 708.24, 943.771, 719.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10．—Excuse me. ________ I come in? —Sure. Come in here.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 56,
+        "page number" : 1,
+        "bounding box" : [ 660.359, 680.16, 990.304, 691.732 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．Do B．Did C．Will D．May"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 641.4, 652.081, 928.41, 663.653 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "11．—How do you ____________ your name? —J-A-C-K.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 57,
+        "page number" : 1,
+        "bounding box" : [ 660.359, 624.0, 955.813, 635.572 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．say B．know C．spell"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 641.4, 595.92, 828.332, 607.492 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "12．I am ________ ，I am an English boy.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 58,
+        "page number" : 1,
+        "bounding box" : [ 660.359, 567.84, 1019.828, 579.412 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．John Brown B．Brown John C．Gina Green D．Green Gina"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 641.4, 539.76, 766.771, 551.332 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "13．Let’s ________ the map.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 59,
+        "page number" : 1,
+        "bounding box" : [ 660.359, 511.681, 984.548, 523.253 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．look B．look at C．look to D．see"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 641.4, 483.6, 781.507, 495.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "14．Can you English?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 61,
+        "page number" : 1,
+        "bounding box" : [ 660.359, 455.521, 995.103, 467.093 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．tell B．say C．talk D．speak"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 641.4, 427.44, 903.092, 439.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "15．Angela is an English girl. She is __________ China now.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 62,
+        "page number" : 1,
+        "bounding box" : [ 660.359, 399.36, 978.733, 410.932 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．of B．in C．on D．at"
+      }, {
+        "type" : "paragraph",
+        "id" : 63,
+        "page number" : 1,
+        "bounding box" : [ 641.4, 371.281, 911.76, 382.853 ],
+        "font" : "SimSun",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "二、完形填空。(本大题共 10 小题，每小题 1 分，共 10 分)"
+      }, {
+        "type" : "paragraph",
+        "id" : 64,
+        "page number" : 1,
+        "bounding box" : [ 641.4, 343.2, 1095.726, 354.772 ],
+        "font" : "SimSun",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "通读下面短文，掌握其大意，然后在各题所给的四个选项（A、B、C 和 D）中选出一个最佳选项。"
+      }, {
+        "type" : "paragraph",
+        "id" : 65,
+        "page number" : 1,
+        "bounding box" : [ 662.4, 315.121, 1124.464, 326.693 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "Good afternoon, boys and girls. My 16 is Cherry King. I am from the USA, but now I am 17"
+      }, {
+        "type" : "paragraph",
+        "id" : 68,
+        "page number" : 1,
+        "bounding box" : [ 641.4, 287.04, 1124.371, 298.612 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "China. My father and mother are here(在这里), too. I am a 18 school student. I am in Class Three."
+      }, {
+        "type" : "paragraph",
+        "id" : 70,
+        "page number" : 1,
+        "bounding box" : [ 641.4, 258.96, 1124.371, 270.532 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "Grade Seven. I have some good 19 at school. They are very friendly(友好的) and 20 to me."
+      }, {
+        "type" : "paragraph",
+        "id" : 73,
+        "page number" : 1,
+        "bounding box" : [ 641.4, 230.881, 1124.292, 242.453 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "I like them very much. Please look(看) here. What is this? Oh, it is my 21 . My mother buys the jacket"
+      }, {
+        "type" : "paragraph",
+        "id" : 75,
+        "page number" : 1,
+        "bounding box" : [ 641.4, 202.8, 1124.385, 214.372 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "for me. The 22 of it is red and yellow. And what’s that? It’s a cup. Is it 23 cup, too? No, it is"
+      }, {
+        "type" : "paragraph",
+        "id" : 78,
+        "page number" : 1,
+        "bounding box" : [ 641.4, 174.721, 1103.25, 186.293 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "my brother’s. It is blue. He has 24 cups. One is blue and three are white. I have one cup. It’s green."
+      }, {
+        "type" : "paragraph",
+        "id" : 80,
+        "page number" : 1,
+        "bounding box" : [ 662.4, 146.64, 986.829, 158.212 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "My phone 25 is 467-0936. Do you want to make friends with me?"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 641.4, 118.56, 989.223, 130.132 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "16．A．phone B．name C．school D．card",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 641.4, 90.481, 983.398, 102.053 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "17．A．from B．at C．in D．for",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 114,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 324.24, 728.975, 414.0, 745.587 ],
+    "heading level" : 2,
+    "font" : "SimSun",
+    "font size" : 15.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Unit 1·提升卷"
+  }, {
+    "type" : "paragraph",
+    "id" : 115,
+    "page number" : 1,
+    "bounding box" : [ 127.559, 644.904, 568.319, 714.353 ],
+    "font" : "SimSun",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "学校:___________班级：___________姓名：___________分数：___________ （时间：90 分钟，满分：100 分） 一、单项选择。(本大题共 15 小题，每小题 1 分，共 15 分)"
+  }, {
+    "type" : "image",
+    "id" : 116,
+    "page number" : 1,
+    "bounding box" : [ 568.32, 703.71, 569.04, 704.43 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+    "format" : "jpeg"
+  }, {
+    "type" : "list",
+    "id" : 117,
+    "level" : "2",
+    "page number" : 1,
+    "bounding box" : [ 127.559, 140.4, 443.129, 629.332 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 8,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 127.559, 617.76, 413.971, 629.332 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1．—Hi, I ________ Bob. —Hi! My name ________ Grace.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 82,
+        "page number" : 1,
+        "bounding box" : [ 142.559, 589.681, 488.479, 601.253 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．is; are B．am; is C．is; am D．are; am"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 127.559, 561.6, 443.129, 573.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2．This is Mary Miller. Mary is her ________ and Miller is her ________.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 83,
+        "page number" : 1,
+        "bounding box" : [ 142.559, 533.521, 457.749, 545.093 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．first name；middle name B．last name；middle name"
+      }, {
+        "type" : "paragraph",
+        "id" : 84,
+        "page number" : 1,
+        "bounding box" : [ 142.559, 505.44, 446.109, 517.012 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "C．first name；last name D．last name；first name"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 127.559, 477.36, 258.667, 488.932 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3．—Is Green your last name?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 85,
+        "level" : "3",
+        "page number" : 1,
+        "bounding box" : [ 138.12, 449.281, 292.891, 460.853 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "—________. My last name is Smith."
+      }, {
+        "type" : "paragraph",
+        "id" : 86,
+        "page number" : 1,
+        "bounding box" : [ 142.559, 421.2, 506.415, 432.772 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．Yes, it is B．Yes, he is C．No, it isn’t D．No, he isn’t"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 127.559, 393.121, 341.611, 404.693 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4．—________ —Nice to meet you, too.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 87,
+        "page number" : 1,
+        "bounding box" : [ 142.559, 365.04, 450.331, 376.612 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．How are you? B．Nice to meet you, Bob."
+      }, {
+        "type" : "paragraph",
+        "id" : 88,
+        "page number" : 1,
+        "bounding box" : [ 142.559, 336.96, 405.548, 348.532 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "C．Is she your friend? D．What’s this?"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 127.559, 308.881, 386.25, 320.453 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5．This ________ my sister and those ________ my parents.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 89,
+        "page number" : 1,
+        "bounding box" : [ 142.559, 280.8, 488.469, 292.372 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．is; is B．is; are C．are; is D．are; are"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 127.559, 252.721, 322.889, 264.293 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6．I’m an English boy. My name’s ________.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 90,
+        "page number" : 1,
+        "bounding box" : [ 142.559, 224.64, 477.068, 236.212 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．Amy B．David C．Nancy D．Julia"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 127.559, 196.56, 355.411, 208.132 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7．Mom，________my good friends, Mike and Bob.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 91,
+        "page number" : 1,
+        "bounding box" : [ 142.559, 168.481, 494.348, 180.053 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．she is B．he is C．this is D．these are"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 127.559, 140.4, 395.85, 151.972 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8．—Where are you ________? —I ________ China.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 118,
+    "page number" : 1,
+    "bounding box" : [ 142.559, 112.321, 399.199, 123.893 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "A．come from; from B．from; from"
+  }, {
+    "type" : "paragraph",
+    "id" : 119,
+    "page number" : 1,
+    "bounding box" : [ 142.559, 84.24, 427.759, 95.812 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "C．from; come from D．be from; am from"
+  }, {
+    "type" : "paragraph",
+    "id" : 101,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 316.559, 51.553, 915.12, 61.52 ],
+    "font" : "SimSun",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "试题 第 1页（共 8 页） 试题 第 2页（共 8 页）"
+  }, {
+    "type" : "image",
+    "id" : 122,
+    "page number" : 1,
+    "bounding box" : [ 915.96, -27.09, 952.92, 11.91 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAYAEoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//2Q==",
+    "format" : "jpeg"
+  }, {
+    "type" : "image",
+    "id" : 123,
+    "page number" : 1,
+    "bounding box" : [ 915.96, -27.09, 952.92, 11.91 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAYAEoDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigD//2Q==",
+    "format" : "jpeg"
+  }, {
+    "type" : "header",
+    "id" : 92,
+    "page number" : 1,
+    "bounding box" : [ 1038.0, 784.11, 1134.12, 799.11 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 5,
+      "page number" : 1,
+      "bounding box" : [ 1038.0, 784.11, 1134.12, 799.11 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 124,
+    "page number" : 2,
+    "bounding box" : [ 56.76, 784.23, 152.76, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 6,
+      "page number" : 2,
+      "bounding box" : [ 56.76, 784.23, 152.76, 799.35 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "text block",
+    "id" : 147,
+    "page number" : 2,
+    "bounding box" : [ 564.86, 725.77, 755.39, 782.9 ],
+    "kids" : [ {
+      "type" : "list",
+      "id" : 2,
+      "level" : "1",
+      "page number" : 2,
+      "bounding box" : [ 570.48, 734.281, 651.716, 773.932 ],
+      "numbering style" : "english letters",
+      "number of list items" : 2,
+      "list items" : [ {
+        "type" : "list item",
+        "page number" : 2,
+        "bounding box" : [ 570.48, 762.36, 629.972, 773.932 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "E．Yes, he is.",
+        "kids" : [ ]
+      }, {
+        "type" : "list item",
+        "page number" : 2,
+        "bounding box" : [ 570.48, 734.281, 651.716, 745.853 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "F．Good morning!",
+        "kids" : [ ]
+      } ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 133,
+    "level" : "3",
+    "page number" : 2,
+    "bounding box" : [ 56.64, 566.281, 419.583, 774.412 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 8,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 762.84, 404.413, 774.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "18．A．middle B．first C．last D．next",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 734.76, 415.543, 746.332 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "19．A．keys B．rulers C．cups D．friends",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 706.681, 413.223, 718.253 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "20．A．nice B．red C．green D．brown",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 678.6, 401.584, 690.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "21．A．map B．jacket C．book D．pen",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 650.52, 419.583, 662.092 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "22．A．afternoon B．morning C．color D．evening",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 622.44, 399.784, 634.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "23．A．her B．your C．his D．my",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 594.36, 402.668, 605.932 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "24．A．two B．three C．four D．five",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 566.281, 405.613, 577.853 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "25．A．number B．English C．orange D．quilt",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 148,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 570.48, 705.72, 840.839, 717.292 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "四、阅读理解。(本大题共 10 小题，每小题 2 分，共 20 分)"
+  }, {
+    "type" : "paragraph",
+    "id" : 149,
+    "page number" : 2,
+    "bounding box" : [ 808.2, 677.64, 815.745, 689.212 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "A"
+  }, {
+    "type" : "paragraph",
+    "id" : 150,
+    "page number" : 2,
+    "bounding box" : [ 591.48, 649.56, 1034.611, 661.132 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Hello! My name is Nancy White. I’m 14. I’m a new student in Miss Lin’s class, Class 4. She is very nice."
+  }, {
+    "type" : "paragraph",
+    "id" : 151,
+    "page number" : 2,
+    "bounding box" : [ 570.48, 621.481, 750.691, 633.053 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "There are 16 boys and 12 girls in my class."
+  }, {
+    "type" : "paragraph",
+    "id" : 152,
+    "level" : "5",
+    "page number" : 2,
+    "bounding box" : [ 596.759, 593.4, 1053.493, 604.972 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "▲ His name is Musio. He is a robot (机器人). He can speak (说) English very well. And he can spell"
+  }, {
+    "type" : "paragraph",
+    "id" : 154,
+    "page number" : 2,
+    "bounding box" : [ 570.48, 565.32, 815.611, 576.892 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "many words for me. So he can be my English teacher, too."
+  }, {
+    "type" : "heading",
+    "id" : 134,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 56.64, 538.2, 316.56, 549.772 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "三、补全对话。(本大题共 5 小题，每小题 1 分，共 5 分)"
+  }, {
+    "type" : "paragraph",
+    "id" : 155,
+    "page number" : 2,
+    "bounding box" : [ 591.48, 537.24, 1053.464, 548.812 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "I want to make friends with you. Do you want to be my friend? Please call me. My telephone number is"
+  }, {
+    "type" : "paragraph",
+    "id" : 135,
+    "page number" : 2,
+    "bounding box" : [ 56.64, 511.03, 319.081, 521.48 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "从选项中选择合适的句子，补全对话。其中有一项多余。"
+  }, {
+    "type" : "paragraph",
+    "id" : 156,
+    "level" : "6",
+    "page number" : 2,
+    "bounding box" : [ 570.48, 509.16, 865.65, 520.732 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "582306. Or you can write to me at nancywhite@sina.com. Thank you."
+  }, {
+    "type" : "list",
+    "id" : 136,
+    "level" : "4",
+    "page number" : 2,
+    "bounding box" : [ 56.64, 453.96, 134.637, 493.612 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 482.04, 134.637, 493.612 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A: Good morning!",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 453.96, 98.105, 465.532 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B: 26",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 157,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 570.48, 172.2, 857.109, 492.653 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 5,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 570.48, 481.081, 786.451, 492.653 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "31．There are ________ students in Nancy’s class.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 45,
+        "page number" : 2,
+        "bounding box" : [ 589.44, 453.0, 910.745, 464.572 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．12 B．16 C．18 D．28"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 570.48, 424.92, 719.588, 436.492 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "32．Which can be put in the ▲ ?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 47,
+        "page number" : 2,
+        "bounding box" : [ 589.44, 396.84, 870.331, 408.412 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．How are you? B．Nice to meet you."
+      }, {
+        "type" : "paragraph",
+        "id" : 48,
+        "page number" : 2,
+        "bounding box" : [ 589.44, 368.76, 894.09, 380.332 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "C．This is my friend. D．Are you a student here."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 570.48, 340.681, 678.669, 352.253 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "33．What can Musio do?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 49,
+        "page number" : 2,
+        "bounding box" : [ 589.44, 312.6, 889.05, 324.172 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．He can draw on the book. B．He can speak English."
+      }, {
+        "type" : "paragraph",
+        "id" : 50,
+        "page number" : 2,
+        "bounding box" : [ 589.44, 284.521, 866.372, 296.093 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "C．He can listen in class. D．He can stand up."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 570.48, 256.44, 709.05, 268.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "34．We know (知道) ________.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 51,
+        "page number" : 2,
+        "bounding box" : [ 589.44, 228.36, 904.743, 239.932 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．Musio is a boy’s name B．Nancy’s friend is very old"
+      }, {
+        "type" : "paragraph",
+        "id" : 52,
+        "page number" : 2,
+        "bounding box" : [ 589.44, 200.281, 913.677, 211.853 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "C．Nancy’s number is 582396 D．Miss Lin is Nancy’s teacher"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 570.48, 172.2, 857.109, 183.772 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "35．Which (哪一个) can be the title for the passage (文章的标题)?",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 138,
+    "level" : "4",
+    "page number" : 2,
+    "bounding box" : [ 56.64, 397.8, 206.705, 437.453 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 425.881, 206.705, 437.453 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A: My name’s Maria White. 27",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 397.8, 166.385, 409.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B: Yes, I’m Grace. 28",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 140,
+    "level" : "4",
+    "page number" : 2,
+    "bounding box" : [ 56.64, 341.64, 305.708, 381.293 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 369.721, 305.708, 381.293 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A: Nice to meet you, too. A girl is there. Do you know her?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 341.64, 108.692, 353.212 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B: Yes, I do.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 141,
+    "level" : "4",
+    "page number" : 2,
+    "bounding box" : [ 56.64, 285.481, 172.171, 325.132 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 313.56, 98.705, 325.132 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A: 29",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 285.481, 172.171, 297.053 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B: Her name is Jane Green.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 142,
+    "level" : "4",
+    "page number" : 2,
+    "bounding box" : [ 56.64, 229.32, 267.187, 268.972 ],
+    "numbering style" : "english letters",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 257.4, 267.187, 268.972 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "A: Look at that boy. Is he your friend Jeff Brown?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 229.32, 261.929, 240.892 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "B: 30 My friend’s name is Mike Brown.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 144,
+    "page number" : 2,
+    "bounding box" : [ 56.64, 201.24, 142.171, 212.812 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "A: I see. Thank you."
+  }, {
+    "type" : "text block",
+    "id" : 145,
+    "page number" : 2,
+    "bounding box" : [ 51.06, 79.52, 241.59, 193.2 ],
+    "kids" : [ {
+      "type" : "list",
+      "id" : 1,
+      "level" : "1",
+      "page number" : 2,
+      "bounding box" : [ 56.64, 88.44, 150.428, 184.253 ],
+      "numbering style" : "english letters",
+      "number of list items" : 4,
+      "list items" : [ {
+        "type" : "list item",
+        "page number" : 2,
+        "bounding box" : [ 56.64, 172.681, 150.428, 184.253 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．What’s her name?",
+        "kids" : [ ]
+      }, {
+        "type" : "list item",
+        "page number" : 2,
+        "bounding box" : [ 56.64, 144.6, 125.851, 156.172 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "B．No, he isn’t.",
+        "kids" : [ ]
+      }, {
+        "type" : "list item",
+        "page number" : 2,
+        "bounding box" : [ 56.64, 116.521, 140.588, 128.093 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "C．Are you Grace?",
+        "kids" : [ ]
+      }, {
+        "type" : "list item",
+        "page number" : 2,
+        "bounding box" : [ 56.64, 88.44, 149.371, 100.012 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "D．Nice to meet you.",
+        "kids" : [ ]
+      } ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 158,
+    "page number" : 2,
+    "bounding box" : [ 589.44, 144.121, 880.557, 155.693 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "A．My friend and I B．My English Teacher"
+  }, {
+    "type" : "paragraph",
+    "id" : 159,
+    "page number" : 2,
+    "bounding box" : [ 589.44, 116.04, 879.066, 127.612 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "C．My English Lesson D．My New Classmate"
+  }, {
+    "type" : "paragraph",
+    "id" : 160,
+    "page number" : 2,
+    "bounding box" : [ 819.0, 87.96, 825.96, 99.532 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "B"
+  }, {
+    "type" : "paragraph",
+    "id" : 125,
+    "page number" : 2,
+    "bounding box" : [ 263.64, 50.234, 839.64, 60.32 ],
+    "font" : "SimSun",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "试题 第 3页（共 8 页） 试题 第 4页（共 8 页）"
+  }, {
+    "type" : "paragraph",
+    "id" : 131,
+    "page number" : 2,
+    "bounding box" : [ 1168.28, -0.694, 1178.73, 812.191 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "………………○………………外………………○………………装………………○………………订………………○………………线………………○………………"
+  }, {
+    "type" : "paragraph",
+    "id" : 127,
+    "page number" : 2,
+    "bounding box" : [ 1103.69, -1.384, 1114.14, 811.5 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "………………○………………内………………○………………装………………○………………订………………○………………线………………○………………"
+  }, {
+    "type" : "paragraph",
+    "id" : 129,
+    "page number" : 2,
+    "bounding box" : [ 1136.0, 259.642, 1146.45, 623.61 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "此卷只装订不密封"
+  }, {
+    "type" : "paragraph",
+    "id" : 174,
+    "page number" : 3,
+    "bounding box" : [ 12.22, -21.141, 22.67, 791.744 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "………………○………………外………………○………………装………………○………………订………………○………………线………………○………………"
+  }, {
+    "type" : "paragraph",
+    "id" : 172,
+    "page number" : 3,
+    "bounding box" : [ 76.72, -21.08, 87.17, 791.684 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "………………○………………内………………○………………装………………○………………订………………○………………线………………○………………"
+  }, {
+    "type" : "paragraph",
+    "id" : 176,
+    "page number" : 3,
+    "bounding box" : [ 44.41, 40.39, 56.01, 655.09 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "学校：姓名：班级：考号：…________________________________________________________________"
+  }, {
+    "type" : "image",
+    "id" : 181,
+    "page number" : 3,
+    "bounding box" : [ 478.56, 777.39, 479.28, 778.11 ],
+    "data" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAABAAEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iiigD//2Q==",
+    "format" : "jpeg"
+  }, {
+    "type" : "caption",
+    "id" : 182,
+    "page number" : 3,
+    "bounding box" : [ 148.559, 764.4, 610.624, 775.972 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Do you know English people’s family names? Everyone（每个人）has a family name. But what does it mean"
+  }, {
+    "type" : "list",
+    "id" : 192,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 641.4, 118.56, 931.65, 775.972 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 14,
+    "previous list id" : 189,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 641.4, 764.4, 841.412, 775.972 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "46．Can you play the （吉他）.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 641.4, 736.32, 858.572, 747.892 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "47．It’s easy! (甚至) a child can do it.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 641.4, 708.24, 931.65, 719.812 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "48．Australia and France are my favorite (country).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 641.4, 680.16, 848.108, 691.732 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "49．Do you have many (hobby)?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 641.4, 652.081, 878.851, 663.653 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "50．The twins (not be) at school today.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 14,
+        "page number" : 3,
+        "bounding box" : [ 641.4, 624.0, 906.48, 635.572 ],
+        "font" : "SimSun",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "六、完成句子。(本大题共 5 小题，每小题 2 分，共 10 分)"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 641.4, 595.92, 830.285, 607.492 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "51．鲍勃是我的名字，格林是我的姓氏。",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 15,
+        "page number" : 3,
+        "bounding box" : [ 662.4, 567.84, 922.411, 579.412 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "Bob is my ________ name, and Green is my ________ name."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 641.4, 539.76, 788.285, 551.332 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "52．我越了解他，就越喜欢他。",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 16,
+        "page number" : 3,
+        "bounding box" : [ 662.4, 511.681, 960.69, 523.253 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "The more I him, the more I like him."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 641.4, 483.6, 830.284, 495.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "53．我们是好朋友，我们经常互相帮助。",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 18,
+        "page number" : 3,
+        "bounding box" : [ 662.4, 455.521, 921.571, 467.093 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "We are good friends and we often help ."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 641.4, 427.44, 749.012, 439.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "54．我们在同一个班级.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 20,
+        "page number" : 3,
+        "bounding box" : [ 662.4, 399.36, 856.892, 410.932 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "We are ."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 641.4, 371.281, 756.727, 382.853 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "55．我想成为你的朋友。",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 22,
+        "page number" : 3,
+        "bounding box" : [ 662.4, 343.2, 848.371, 354.772 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "I’d like to with you."
+      }, {
+        "type" : "paragraph",
+        "id" : 24,
+        "page number" : 3,
+        "bounding box" : [ 641.4, 315.121, 906.48, 326.693 ],
+        "font" : "SimSun",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "七、句型转换。(本大题共 5 小题，每小题 2 分，共 10 分)"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 641.4, 287.04, 849.848, 298.612 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "56．They are both my friends. （同义句转换）",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 26,
+        "level" : "3",
+        "page number" : 3,
+        "bounding box" : [ 735.84, 258.96, 822.81, 270.532 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "them are my friends."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 641.4, 230.881, 810.488, 242.453 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "57．This is my jacket.（改为复数句）",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 28,
+        "level" : "3",
+        "page number" : 3,
+        "bounding box" : [ 735.84, 202.8, 788.613, 214.372 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "my ."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 641.4, 174.721, 859.447, 186.293 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "58．That girl in red is Linda.（对划线部分提问）",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 32,
+        "level" : "3",
+        "page number" : 3,
+        "bounding box" : [ 735.84, 146.64, 800.348, 158.212 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "that girl in red?"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 641.4, 118.56, 840.247, 130.132 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "59．That is Linda’s cup.（改为一般疑问句）",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 183,
+    "page number" : 3,
+    "bounding box" : [ 127.559, 736.32, 335.468, 747.892 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "（意思是）? What do family names come from?"
+  }, {
+    "type" : "paragraph",
+    "id" : 184,
+    "page number" : 3,
+    "bounding box" : [ 148.559, 708.24, 610.544, 719.812 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "First, some family names are from the place（地点）of people’s homes. If a man lives on or near a hill, his"
+  }, {
+    "type" : "paragraph",
+    "id" : 185,
+    "page number" : 3,
+    "bounding box" : [ 127.559, 680.16, 610.508, 691.732 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "family name may be Hill. In England, people’s family names may be Wood or Lake, because they live near the"
+  }, {
+    "type" : "paragraph",
+    "id" : 186,
+    "page number" : 3,
+    "bounding box" : [ 127.559, 652.081, 610.772, 663.653 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "wood or lake（树林或湖) . Second, family names are from a person’s job. If a person is a cook, he may be Mr."
+  }, {
+    "type" : "paragraph",
+    "id" : 187,
+    "page number" : 3,
+    "bounding box" : [ 127.559, 624.0, 610.509, 635.572 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Cook. Third, many people get their family names from their fathers’ given names. If you hear the family name"
+  }, {
+    "type" : "paragraph",
+    "id" : 188,
+    "page number" : 3,
+    "bounding box" : [ 127.559, 595.92, 344.491, 607.492 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "“Jackson”, you will know that he is the son of Jack."
+  }, {
+    "type" : "list",
+    "id" : 189,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 127.559, 90.481, 508.41, 579.412 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 10,
+    "next list id" : 192,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 127.559, 567.84, 379.169, 579.412 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "36．Some family names come from the place of ________.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 33,
+        "page number" : 3,
+        "bounding box" : [ 146.64, 539.76, 311.623, 551.332 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．people’s homes B．people’s habits"
+      }, {
+        "type" : "paragraph",
+        "id" : 34,
+        "page number" : 3,
+        "bounding box" : [ 146.64, 511.681, 422.503, 523.253 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "C．people’s dreams D．people’s schools"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 127.559, 483.6, 387.909, 495.172 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "37．If a man lives near a lake, what may his family name be?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 35,
+        "page number" : 3,
+        "bounding box" : [ 146.64, 455.521, 482.611, 467.093 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．Hill. B．Wood. C．Lake. D．Cook."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 127.559, 427.44, 508.41, 439.012 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "38．If you hear the family name “Jackson”, you will know that he is the son of ________.",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 36,
+        "page number" : 3,
+        "bounding box" : [ 146.64, 399.36, 485.293, 410.932 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．Tom B．Jack C．Jasper D．Daniel"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 127.559, 371.281, 400.149, 382.853 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "39．How many kinds of family names are mentioned（提到）?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 37,
+        "page number" : 3,
+        "bounding box" : [ 146.64, 343.2, 479.371, 354.772 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．One. B．Two. C．Three. D．Four."
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 127.559, 315.121, 298.987, 326.693 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "40．What’s the best title of the passage?",
+      "kids" : [ {
+        "type" : "paragraph",
+        "id" : 38,
+        "page number" : 3,
+        "bounding box" : [ 146.64, 287.04, 487.302, 298.612 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "A．A Cook B．English People’s Family Names"
+      }, {
+        "type" : "paragraph",
+        "id" : 39,
+        "page number" : 3,
+        "bounding box" : [ 146.64, 258.96, 408.478, 270.532 ],
+        "font" : "TimesNewRomanPSMT",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "C．Hill and Lake D．Jack’s Father"
+      }, {
+        "type" : "paragraph",
+        "id" : 40,
+        "page number" : 3,
+        "bounding box" : [ 127.559, 230.881, 397.92, 242.453 ],
+        "font" : "SimSun",
+        "font size" : 10.45,
+        "text color" : "[0.0, 0.0, 0.0]",
+        "content" : "五、单词拼写。(本大题共 10 小题，每小题 1 分，共 10 分)"
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 127.559, 202.8, 324.908, 214.372 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "41．What (年级) are you in, Jack?",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 127.559, 174.721, 382.291, 186.293 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "42．He has many (同班同学) this year.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 127.559, 146.64, 377.85, 158.212 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "43．They often play (网球) in the afternoon.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 127.559, 118.56, 368.132, 130.132 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "44．Thanks for giving me some (信息).",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 127.559, 90.481, 453.813, 102.053 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "45．Tom likes singing and takes part in the school （乐队）.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 194,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 735.84, 90.481, 789.908, 102.053 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Linda’s cup?"
+  }, {
+    "type" : "paragraph",
+    "id" : 170,
+    "level" : "1",
+    "page number" : 3,
+    "bounding box" : [ 316.559, 51.553, 915.12, 61.52 ],
+    "font" : "SimSun",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "试题 第 5页（共 8 页） 试题 第 6页（共 8 页）"
+  }, {
+    "type" : "header",
+    "id" : 161,
+    "page number" : 3,
+    "bounding box" : [ 1038.0, 784.11, 1134.12, 799.11 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 7,
+      "page number" : 3,
+      "bounding box" : [ 1038.0, 784.11, 1134.12, 799.11 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 195,
+    "page number" : 4,
+    "bounding box" : [ 56.76, 784.23, 152.76, 799.35 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 8,
+      "page number" : 4,
+      "bounding box" : [ 56.76, 784.23, 152.76, 799.35 ],
+      "data" : "data:image/jpeg;base64,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",
+      "format" : "jpeg"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 204,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 762.84, 191.97, 774.412 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "60．Lucy comes from England."
+  }, {
+    "type" : "paragraph",
+    "id" : 239,
+    "page number" : 4,
+    "bounding box" : [ 570.48, 762.84, 1053.511, 774.412 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "____________________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 205,
+    "page number" : 4,
+    "bounding box" : [ 77.64, 734.76, 236.609, 746.332 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Lucy England."
+  }, {
+    "type" : "paragraph",
+    "id" : 240,
+    "page number" : 4,
+    "bounding box" : [ 570.48, 734.76, 1053.511, 746.332 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "____________________________________________________________________________________________"
+  }, {
+    "type" : "heading",
+    "id" : 207,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 56.64, 706.681, 327.0, 718.253 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "八、短文填空。(本大题共 10 小题，每小题 1 分，共 10 分)"
+  }, {
+    "type" : "paragraph",
+    "id" : 241,
+    "page number" : 4,
+    "bounding box" : [ 570.48, 706.681, 1053.511, 718.253 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "____________________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 208,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 678.6, 431.885, 690.172 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "阅读下面材料，在空白处填入适当的内容（1 个单词）或括号内单词的正确形式。"
+  }, {
+    "type" : "paragraph",
+    "id" : 242,
+    "page number" : 4,
+    "bounding box" : [ 570.48, 678.6, 1053.511, 690.172 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "____________________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 209,
+    "page number" : 4,
+    "bounding box" : [ 84.72, 650.52, 539.705, 662.092 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Good morning. 61 are you? Nice to meet you. My name is Nancy Hand. Nancy is my 62"
+  }, {
+    "type" : "paragraph",
+    "id" : 243,
+    "page number" : 4,
+    "bounding box" : [ 570.48, 650.52, 1053.511, 662.092 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "____________________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 212,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 622.44, 539.85, 634.012 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "(one) name. Hand is my last name. I am from the UK. I am 13 years old. I’m a student 63 China now."
+  }, {
+    "type" : "paragraph",
+    "id" : 244,
+    "page number" : 4,
+    "bounding box" : [ 570.48, 622.44, 1053.511, 634.012 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "____________________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 214,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 594.36, 519.931, 605.932 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "I’m in Xingzhi Middle School. Students in my class 64 (be) very nice. I like to play(玩) with them."
+  }, {
+    "type" : "paragraph",
+    "id" : 245,
+    "page number" : 4,
+    "bounding box" : [ 570.48, 594.36, 1053.511, 605.932 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "____________________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 216,
+    "page number" : 4,
+    "bounding box" : [ 84.72, 566.281, 539.609, 577.853 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Peter is in Class One, Grade Seven. He’s my classmate. I can 65 (spell) his name, P-E-T-E-R."
+  }, {
+    "type" : "paragraph",
+    "id" : 246,
+    "page number" : 4,
+    "bounding box" : [ 570.48, 566.281, 1053.511, 577.853 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "____________________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 218,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 538.2, 539.971, 549.772 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "He’s 13, too. He likes black very much. He has a black phone, three black 66 (ruler) and a black eraser."
+  }, {
+    "type" : "paragraph",
+    "id" : 247,
+    "page number" : 4,
+    "bounding box" : [ 570.48, 538.2, 1053.511, 549.772 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "____________________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 220,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 510.121, 539.638, 521.693 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "And 325-2145 is 67 (he) telephone number. Cathy is my friend. She’s 68 English girl. Her"
+  }, {
+    "type" : "paragraph",
+    "id" : 248,
+    "page number" : 4,
+    "bounding box" : [ 570.48, 510.121, 1053.511, 521.693 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "____________________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 223,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 482.04, 539.705, 493.612 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "favourite color is white. She has a white jacket, a white pen 69 a white cup. Her favorite 70"
+  }, {
+    "type" : "paragraph",
+    "id" : 249,
+    "page number" : 4,
+    "bounding box" : [ 591.48, 482.04, 728.131, 493.612 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "I want to make friends with you."
+  }, {
+    "type" : "paragraph",
+    "id" : 226,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 453.96, 539.707, 465.532 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "(number) are six and eight, because she thinks they are lucky numbers. Her telephone is red. Her telephone"
+  }, {
+    "type" : "paragraph",
+    "id" : 227,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 425.881, 143.97, 437.453 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "number is 365-2458."
+  }, {
+    "type" : "heading",
+    "id" : 228,
+    "level" : "Subtitle",
+    "page number" : 4,
+    "bounding box" : [ 56.64, 397.8, 174.239, 409.372 ],
+    "heading level" : 3,
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "九、书面表达。(共 10 分)"
+  }, {
+    "type" : "paragraph",
+    "id" : 229,
+    "page number" : 4,
+    "bounding box" : [ 77.64, 370.63, 539.514, 381.08 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "明天是新学期的第一堂英语课，老师让你们用英语进行自我介绍。请你写一段话为明天英语课上的发"
+  }, {
+    "type" : "paragraph",
+    "id" : 230,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 342.43, 109.088, 352.88 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "言做准备。"
+  }, {
+    "type" : "paragraph",
+    "id" : 231,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 314.471, 109.088, 324.921 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "要点包括："
+  }, {
+    "type" : "list",
+    "id" : 232,
+    "level" : "4",
+    "page number" : 4,
+    "bounding box" : [ 56.64, 229.32, 300.722, 297.053 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 3,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 56.64, 285.481, 164.287, 297.053 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. 姓名，年龄，电话；",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 56.64, 257.4, 216.725, 268.972 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. 最喜欢的颜色是白色，爱整洁；",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 4,
+      "bounding box" : [ 56.64, 229.32, 300.722, 240.892 ],
+      "font" : "TimesNewRomanPSMT",
+      "font size" : 10.45,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. 喜欢运动，放学后总是和朋友们在学校打乒乓球。",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 233,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 201.24, 334.802, 212.812 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "要求：50 词左右。短文开头和结尾已给出，不计入总词数。"
+  }, {
+    "type" : "paragraph",
+    "id" : 234,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 173.16, 260.879, 184.732 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "参考词汇：我最喜欢的颜色 my favorite color"
+  }, {
+    "type" : "paragraph",
+    "id" : 235,
+    "page number" : 4,
+    "bounding box" : [ 77.64, 145.081, 460.603, 156.653 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Hello, everyone! ___________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 236,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 117.0, 539.671, 128.572 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "____________________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 237,
+    "page number" : 4,
+    "bounding box" : [ 56.64, 88.921, 539.671, 100.493 ],
+    "font" : "TimesNewRomanPSMT",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "____________________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 196,
+    "page number" : 4,
+    "bounding box" : [ 263.64, 50.234, 839.64, 60.32 ],
+    "font" : "SimSun",
+    "font size" : 9.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "试题 第 7页（共 8 页） 试题 第 8页（共 8 页）"
+  }, {
+    "type" : "paragraph",
+    "id" : 202,
+    "page number" : 4,
+    "bounding box" : [ 1168.28, -0.694, 1178.73, 812.191 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "………………○………………外………………○………………装………………○………………订………………○………………线………………○………………"
+  }, {
+    "type" : "paragraph",
+    "id" : 198,
+    "page number" : 4,
+    "bounding box" : [ 1103.69, -1.384, 1114.14, 811.5 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "………………○………………内………………○………………装………………○………………订………………○………………线………………○………………"
+  }, {
+    "type" : "paragraph",
+    "id" : 200,
+    "page number" : 4,
+    "bounding box" : [ 1136.0, 259.642, 1146.45, 623.61 ],
+    "font" : "SimSun",
+    "font size" : 10.45,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "此卷只装订不密封"
+  } ]
+}

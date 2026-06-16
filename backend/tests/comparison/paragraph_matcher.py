@@ -80,9 +80,9 @@ class ParagraphMatcher:
         result.unmatched_gen = positional_result.unmatched_gen
         result.unmatched_ref = positional_result.unmatched_ref
 
-        # 计算匹配率
+        # 计算匹配率（只计算真正匹配的配对，排除unmatched_gen和unmatched_ref）
         total = max(len(self.gen_paras), len(self.ref_paras), 1)
-        matched = len([p for p in result.pairs if p.match_type != "unmatched"])
+        matched = len([p for p in result.pairs if p.match_type not in ("unmatched_gen", "unmatched_ref")])
         result.match_rate = matched / total
 
         return result

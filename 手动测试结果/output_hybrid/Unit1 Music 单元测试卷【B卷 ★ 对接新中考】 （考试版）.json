@@ -1,0 +1,2937 @@
+{
+  "file name" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）.pdf",
+  "number of pages" : 8,
+  "author" : "追梦团队工作室出品17085053077",
+  "title" : "追梦团队工作室出品17085053077",
+  "creation date" : "D:20260413235421+08'00'",
+  "modification date" : "D:20260413235421+08'00'",
+  "kids" : [ {
+    "type" : "image",
+    "id" : 296,
+    "page number" : 1,
+    "bounding box" : [ 53.138, 787.07, 93.76, 801.434 ],
+    "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile1.png"
+  }, {
+    "type" : "heading",
+    "id" : 297,
+    "level" : "Doctitle",
+    "page number" : 1,
+    "bounding box" : [ 222.6, 745.172, 384.119, 758.495 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Unit1 Music 单元测试卷"
+  }, {
+    "type" : "heading",
+    "id" : 298,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 224.4, 713.087, 377.769, 725.566 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "【 B 卷 ◆ 对接新中考】"
+  }, {
+    "type" : "paragraph",
+    "id" : 299,
+    "page number" : 1,
+    "bounding box" : [ 222.6, 686.91, 372.589, 695.646 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "（时间： 90 分钟，满分： 100 分）"
+  }, {
+    "type" : "heading",
+    "id" : 300,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 228.359, 632.314, 366.839, 641.846 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "（第二部分 语法和词汇）"
+  }, {
+    "type" : "heading",
+    "id" : 301,
+    "level" : "Subtitle",
+    "page number" : 1,
+    "bounding box" : [ 54.0, 592.548, 544.08, 622.526 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ⅱ. Choose the best answer （选择最恰当的答案，每题只有一个正确答案）（本大题共 10 题， 每题 1 分，共 10 分）"
+  }, {
+    "type" : "paragraph",
+    "id" : 302,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 522.654, 541.263, 580.568 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Do you know how to make music? Do you want to make music by yourself? In fact, there 1 many ways of making music in the world. You can use almost anything that will make a sound, even a piece of fruit! Some people use food and a computer to make music. They can play music with 2 kinds of fruit."
+  }, {
+    "type" : "paragraph",
+    "id" : 303,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 424.854, 541.33, 507.468 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "It is not just people with 3 and food who can make music. The Blue Man Group uses usual ( 平常 的 ) things to tell stories with 4 music. The group is famous for their music shows. In their shows, the group uses a really long pipe ( 管子 ). They move it around to make music. It is very big, 5 they need two people in their group to take it. 6 group also makes music by moving a long stick ( 木棍 ) up and down."
+  }, {
+    "type" : "paragraph",
+    "id" : 304,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 351.533, 541.264, 409.328 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Alot of people 7 different things to play music, such as food, computers, and water. You can also make music 8 home. You can put dry beans into a cup and shake it. Even a glass of water can help you make music. It's easy 9 music, right?"
+  }, {
+    "type" : "paragraph",
+    "id" : 305,
+    "page number" : 1,
+    "bounding box" : [ 102.959, 327.054, 287.012, 336.009 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "10 do you use to make music? Tell us."
+  }, {
+    "type" : "paragraph",
+    "id" : 306,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 302.573, 100.639, 311.868 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1 ． A ． am"
+  }, {
+    "type" : "paragraph",
+    "id" : 309,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 278.213, 123.732, 287.387 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2 ． A ． different"
+  }, {
+    "type" : "paragraph",
+    "id" : 307,
+    "page number" : 1,
+    "bounding box" : [ 192.6, 302.573, 216.945, 311.868 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． is"
+  }, {
+    "type" : "paragraph",
+    "id" : 310,
+    "page number" : 1,
+    "bounding box" : [ 192.6, 278.213, 254.102, 287.387 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． differently"
+  }, {
+    "type" : "paragraph",
+    "id" : 312,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 253.733, 127.438, 262.907 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "3 ． A ． computer"
+  }, {
+    "type" : "paragraph",
+    "id" : 315,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 229.254, 108.799, 238.547 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "4 ． A ． them"
+  }, {
+    "type" : "paragraph",
+    "id" : 318,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 204.773, 101.294, 214.068 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "5 ． A ． but"
+  }, {
+    "type" : "paragraph",
+    "id" : 321,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 180.413, 95.385, 189.587 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "6 ． A ． A"
+  }, {
+    "type" : "paragraph",
+    "id" : 324,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 155.933, 101.829, 165.107 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "7 ． A ． use"
+  }, {
+    "type" : "paragraph",
+    "id" : 327,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 131.454, 95.414, 140.747 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "8 ． A ． at"
+  }, {
+    "type" : "paragraph",
+    "id" : 330,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 106.973, 121.269, 116.268 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "9 ． A ． to make"
+  }, {
+    "type" : "paragraph",
+    "id" : 333,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 82.613, 118.024, 91.787 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "10 ． A ． When"
+  }, {
+    "type" : "paragraph",
+    "id" : 313,
+    "page number" : 1,
+    "bounding box" : [ 192.6, 253.733, 253.663, 262.907 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． computers"
+  }, {
+    "type" : "paragraph",
+    "id" : 316,
+    "page number" : 1,
+    "bounding box" : [ 192.6, 229.254, 229.199, 238.547 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． their"
+  }, {
+    "type" : "paragraph",
+    "id" : 319,
+    "page number" : 1,
+    "bounding box" : [ 192.6, 204.773, 218.76, 214.068 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． or"
+  }, {
+    "type" : "paragraph",
+    "id" : 322,
+    "page number" : 1,
+    "bounding box" : [ 192.6, 180.413, 222.784, 189.587 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． An"
+  }, {
+    "type" : "paragraph",
+    "id" : 325,
+    "page number" : 1,
+    "bounding box" : [ 192.6, 155.933, 229.264, 165.107 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． used"
+  }, {
+    "type" : "paragraph",
+    "id" : 328,
+    "page number" : 1,
+    "bounding box" : [ 192.6, 131.454, 220.505, 140.747 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． by"
+  }, {
+    "type" : "paragraph",
+    "id" : 331,
+    "page number" : 1,
+    "bounding box" : [ 192.6, 106.973, 232.748, 116.268 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． made"
+  }, {
+    "type" : "paragraph",
+    "id" : 334,
+    "page number" : 1,
+    "bounding box" : [ 192.6, 82.613, 232.694, 91.787 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． What"
+  }, {
+    "type" : "paragraph",
+    "id" : 308,
+    "page number" : 1,
+    "bounding box" : [ 331.08, 302.573, 361.389, 311.868 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． are"
+  }, {
+    "type" : "paragraph",
+    "id" : 311,
+    "page number" : 1,
+    "bounding box" : [ 331.08, 278.213, 390.906, 287.387 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． difference"
+  }, {
+    "type" : "paragraph",
+    "id" : 314,
+    "page number" : 1,
+    "bounding box" : [ 331.08, 253.733, 395.505, 262.907 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． computer's"
+  }, {
+    "type" : "paragraph",
+    "id" : 317,
+    "page number" : 1,
+    "bounding box" : [ 331.08, 229.254, 366.664, 238.547 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． they"
+  }, {
+    "type" : "paragraph",
+    "id" : 320,
+    "page number" : 1,
+    "bounding box" : [ 331.08, 204.773, 357.905, 214.068 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． so"
+  }, {
+    "type" : "paragraph",
+    "id" : 323,
+    "page number" : 1,
+    "bounding box" : [ 331.08, 180.413, 364.868, 189.587 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． The"
+  }, {
+    "type" : "paragraph",
+    "id" : 326,
+    "page number" : 1,
+    "bounding box" : [ 331.08, 155.933, 381.429, 165.107 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． will use"
+  }, {
+    "type" : "paragraph",
+    "id" : 329,
+    "page number" : 1,
+    "bounding box" : [ 331.08, 131.454, 359.105, 140.747 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． on"
+  }, {
+    "type" : "paragraph",
+    "id" : 332,
+    "page number" : 1,
+    "bounding box" : [ 331.08, 106.973, 379.984, 116.268 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． making"
+  }, {
+    "type" : "paragraph",
+    "id" : 335,
+    "page number" : 1,
+    "bounding box" : [ 331.08, 82.613, 368.945, 91.787 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． Why"
+  }, {
+    "type" : "footer",
+    "id" : 537,
+    "page number" : 1,
+    "bounding box" : [ 54.0, 49.864, 66.944, 53.259 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 545,
+      "page number" : 1,
+      "bounding box" : [ 54.0, 52.504, 66.944, 53.259 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 546,
+      "page number" : 1,
+      "bounding box" : [ 54.0, 51.185, 66.944, 51.94 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 547,
+      "page number" : 1,
+      "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 339,
+    "page number" : 2,
+    "bounding box" : [ 53.065, 787.095, 93.736, 801.373 ],
+    "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile2.png"
+  }, {
+    "type" : "heading",
+    "id" : 340,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 54.0, 701.508, 541.272, 731.235 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ⅲ. Choose the proper words or phrases in the box to complete the following passage. Each word or phrase can be used only once . （本大题共 5 题，每题 1 分，共 5 分）"
+  }, {
+    "type" : "paragraph",
+    "id" : 341,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 681.447, 426.725, 689.747 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "选择最恰当的选项填入空格，每题只有一个正确选 项，每个选项只能使用一次。"
+  }, {
+    "type" : "paragraph",
+    "id" : 342,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 627.173, 290.399, 636.347 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． makes B ． the C ． in D ． because E. poor"
+  }, {
+    "type" : "formula",
+    "id" : 343,
+    "page number" : 2,
+    "bounding box" : [ 302.4, 627.173, 326.054, 636.128 ],
+    "content" : "F. but"
+  }, {
+    "type" : "paragraph",
+    "id" : 344,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 549.294, 541.263, 607.209 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Music Star is a music show. I enjoy watching the show very much 11 I can learn a lot from many excellent singers. My favorite singer is Laura, who is a true winner in singing 12 my heart. She has a talent for singing and she can sing many songs. There are a lot of people loving her singing."
+  }, {
+    "type" : "paragraph",
+    "id" : 345,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 500.454, 541.213, 534.107 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Laura comes from a 13 family. She couldn't afford ( 支付得起 ) to take singing lessons, so she taught herself, like listening to her favorite singers and artists and practicing every day when she was in college ( 大学 )."
+  }, {
+    "type" : "paragraph",
+    "id" : 346,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 402.654, 541.319, 484.928 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "After college, she taught people how to sing in music clubs and took part in some music shows to show her singing skills ( 技能 ). She faced many difficult problems along the way, 14 she never gave up. She worked hard to sing better than before. Her hard work finally paid off, and now she is one of the most popular singers in our town. Everybody likes her."
+  }, {
+    "type" : "paragraph",
+    "id" : 347,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 329.213, 541.305, 387.128 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Her singing always 15 people excited. She thinks that everyone should enjoy good music. Laura's story shows that anything can come true if you work hard. She also gives me a lot of power ( 力量 ) to try to live my life. I am happy to meet her in my life."
+  }, {
+    "type" : "heading",
+    "id" : 348,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 54.0, 251.429, 518.759, 284.487 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ⅳ. Complete the following dialogue as required. （本大题共 5 小题，每题 1 分，共 5 分） 根据所给要求完成对话 。"
+  }, {
+    "type" : "paragraph",
+    "id" : 349,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 203.933, 517.264, 237.368 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "(Yiming and his friend Ben are talking about their favourite music after class. They start the conversation with music taste.)"
+  }, {
+    "type" : "paragraph",
+    "id" : 350,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 179.466, 403.2, 188.747 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Yiming: 16____________________ _. ( 用特殊疑问句询问对方喜欢的音乐类型 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 351,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 154.987, 538.56, 164.268 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ben: I really love classical music. 17____________________ _. ( 承接喜爱古典音乐的话题，描述对其的感受并"
+  }, {
+    "type" : "heading",
+    "id" : 352,
+    "level" : "Subtitle",
+    "page number" : 2,
+    "bounding box" : [ 54.0, 130.506, 152.28, 139.787 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "说明日常聆听的频率 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 353,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 106.133, 255.429, 115.088 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Yiming: What about pop music? Do you like it?"
+  }, {
+    "type" : "paragraph",
+    "id" : 354,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 81.773, 315.788, 90.728 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ben: Yes, but not so much as classical music. How about you?"
+  }, {
+    "type" : "footer",
+    "id" : 538,
+    "page number" : 2,
+    "bounding box" : [ 54.0, 49.864, 66.944, 53.259 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 548,
+      "page number" : 2,
+      "bounding box" : [ 54.0, 52.504, 66.944, 53.259 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 549,
+      "page number" : 2,
+      "bounding box" : [ 54.0, 51.185, 66.944, 51.94 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 550,
+      "page number" : 2,
+      "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 358,
+    "page number" : 3,
+    "bounding box" : [ 53.086, 786.857, 93.765, 801.439 ],
+    "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile3.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 359,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 751.854, 316.531, 760.809 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Yiming: Well, I'm interested in pop music. I like it very much."
+  }, {
+    "type" : "paragraph",
+    "id" : 360,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 727.266, 433.439, 736.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ben: 18____________________ ( 用一般疑问句询问对方是否是韩国流行音乐的粉丝 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 361,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 703.013, 149.97, 711.968 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Yiming: Yes, certainly."
+  }, {
+    "type" : "paragraph",
+    "id" : 362,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 678.533, 188.829, 687.488 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ben: But can you understand it?"
+  }, {
+    "type" : "paragraph",
+    "id" : 364,
+    "page number" : 3,
+    "bounding box" : [ 217.92, 654.054, 484.92, 663.347 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "回应能否听懂的问题，说明仅能听懂一点但并不影响欣赏 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 363,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 653.947, 217.92, 663.009 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Yiming: 19____________________ _ ("
+  }, {
+    "type" : "paragraph",
+    "id" : 365,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 629.573, 257.468, 638.528 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ben: How about soft music? Do you like it, too?"
+  }, {
+    "type" : "paragraph",
+    "id" : 366,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 605.213, 210.21, 614.168 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Yiming: Yes, I do. It's very beautiful."
+  }, {
+    "type" : "paragraph",
+    "id" : 367,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 580.626, 541.205, 589.907 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ben: Really? I don't like it at all. 20____________________ ( 结合 ' 觉得轻音乐无聊 ' ，具体表达对其的负面感"
+  }, {
+    "type" : "image",
+    "id" : 368,
+    "page number" : 3,
+    "bounding box" : [ 52.974, 556.205, 67.984, 567.825 ],
+    "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile4.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 369,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 557.247, 64.45, 565.547 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "受"
+  }, {
+    "type" : "paragraph",
+    "id" : 370,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 557.247, 64.45, 565.547 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "受"
+  }, {
+    "type" : "paragraph",
+    "id" : 371,
+    "page number" : 3,
+    "bounding box" : [ 64.44, 556.254, 67.92, 565.209 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ")"
+  }, {
+    "type" : "paragraph",
+    "id" : 372,
+    "page number" : 3,
+    "bounding box" : [ 64.44, 556.254, 67.92, 565.209 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : ")"
+  }, {
+    "type" : "paragraph",
+    "id" : 373,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 531.773, 307.917, 540.728 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Yiming: No worries! Everyone has their own taste of music!"
+  }, {
+    "type" : "heading",
+    "id" : 374,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 226.2, 484.548, 369.118, 494.954 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Part 3 Reading and Writing"
+  }, {
+    "type" : "heading",
+    "id" : 375,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 246.48, 466.234, 348.72, 475.766 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "（第三部分 读写）"
+  }, {
+    "type" : "paragraph",
+    "id" : 376,
+    "level" : "1",
+    "page number" : 3,
+    "bounding box" : [ 54.0, 445.788, 420.72, 456.446 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ⅴ. Reading comprehension （阅读理解）（本大题共 20 题，共 40 分）"
+  }, {
+    "type" : "paragraph",
+    "id" : 377,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 426.469, 519.359, 437.127 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Choose the best answer （根据以下内容，选择最恰当的答案）（每题 2 分，共 16 分）"
+  }, {
+    "type" : "paragraph",
+    "id" : 378,
+    "page number" : 3,
+    "bounding box" : [ 281.28, 407.148, 313.92, 417.806 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "（ A ）"
+  }, {
+    "type" : "image",
+    "id" : 380,
+    "page number" : 3,
+    "bounding box" : [ 78.085, 288.045, 117.835, 340.703 ],
+    "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile7.png"
+  }, {
+    "type" : "heading",
+    "id" : 379,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 158.88, 332.706, 337.628, 366.128 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "MUSIC FESTIVALEnjoy days of music and performances!"
+  }, {
+    "type" : "paragraph",
+    "id" : 382,
+    "page number" : 3,
+    "bounding box" : [ 186.0, 308.226, 310.57, 317.288 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "JUNE 23rd, THURSDAY-"
+  }, {
+    "type" : "paragraph",
+    "id" : 383,
+    "page number" : 3,
+    "bounding box" : [ 203.64, 283.854, 298.783, 292.809 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "JUNE 26th, SUNDAY"
+  }, {
+    "type" : "paragraph",
+    "id" : 384,
+    "page number" : 3,
+    "bounding box" : [ 185.88, 259.266, 310.559, 268.328 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "CONCERTS CAN'T MISS!"
+  }, {
+    "type" : "image",
+    "id" : 381,
+    "page number" : 3,
+    "bounding box" : [ 374.753, 291.996, 421.719, 336.869 ],
+    "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile6.png"
+  }, {
+    "type" : "heading",
+    "id" : 386,
+    "level" : "Subtitle",
+    "page number" : 3,
+    "bounding box" : [ 92.64, 222.547, 205.626, 231.609 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "COUNTRYMUSICTime"
+  }, {
+    "type" : "paragraph",
+    "id" : 388,
+    "page number" : 3,
+    "bounding box" : [ 78.959, 198.173, 219.452, 207.128 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Thursday 7: 00 p.m. -9: 00 p.m."
+  }, {
+    "type" : "paragraph",
+    "id" : 390,
+    "page number" : 3,
+    "bounding box" : [ 137.28, 173.706, 161.108, 182.768 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Place the Central Square"
+  }, {
+    "type" : "image",
+    "id" : 385,
+    "page number" : 3,
+    "bounding box" : [ 310.676, 216.802, 389.147, 239.885 ],
+    "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile5.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 387,
+    "page number" : 3,
+    "bounding box" : [ 334.559, 222.547, 389.105, 231.609 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "ROCKTime"
+  }, {
+    "type" : "paragraph",
+    "id" : 389,
+    "page number" : 3,
+    "bounding box" : [ 286.68, 194.094, 413.731, 203.049 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Sunday 7:00 p.m. -9:00 p.m."
+  }, {
+    "type" : "paragraph",
+    "id" : 391,
+    "page number" : 3,
+    "bounding box" : [ 338.28, 169.506, 362.108, 178.568 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Place the Sports Center"
+  }, {
+    "type" : "footer",
+    "id" : 539,
+    "page number" : 3,
+    "bounding box" : [ 54.0, 49.864, 66.944, 53.259 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 551,
+      "page number" : 3,
+      "bounding box" : [ 54.0, 52.504, 66.944, 53.259 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 552,
+      "page number" : 3,
+      "bounding box" : [ 54.0, 51.185, 66.944, 51.94 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 553,
+      "page number" : 3,
+      "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 395,
+    "page number" : 4,
+    "bounding box" : [ 53.058, 786.425, 93.784, 801.424 ],
+    "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile8.png"
+  }, {
+    "type" : "image",
+    "id" : 396,
+    "page number" : 4,
+    "bounding box" : [ 212.714, 704.169, 285.359, 762.102 ],
+    "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile9.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 397,
+    "page number" : 4,
+    "bounding box" : [ 110.159, 673.866, 188.293, 682.928 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Price $10/ an adult"
+  }, {
+    "type" : "paragraph",
+    "id" : 399,
+    "page number" : 4,
+    "bounding box" : [ 128.4, 649.493, 169.984, 658.448 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "$5/a child"
+  }, {
+    "type" : "paragraph",
+    "id" : 401,
+    "page number" : 4,
+    "bounding box" : [ 115.559, 624.906, 182.744, 633.968 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "FOLK MUSIC"
+  }, {
+    "type" : "paragraph",
+    "id" : 403,
+    "page number" : 4,
+    "bounding box" : [ 137.64, 600.426, 160.629, 609.488 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Time"
+  }, {
+    "type" : "paragraph",
+    "id" : 405,
+    "page number" : 4,
+    "bounding box" : [ 87.72, 576.173, 210.692, 585.128 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Friday 5:00 p.m. -7:00 p.m."
+  }, {
+    "type" : "paragraph",
+    "id" : 407,
+    "page number" : 4,
+    "bounding box" : [ 137.28, 551.587, 161.108, 560.649 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Place"
+  }, {
+    "type" : "paragraph",
+    "id" : 409,
+    "page number" : 4,
+    "bounding box" : [ 117.48, 527.213, 180.903, 536.168 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "the Grand Park"
+  }, {
+    "type" : "paragraph",
+    "id" : 411,
+    "page number" : 4,
+    "bounding box" : [ 124.32, 502.626, 174.013, 511.688 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Free for all"
+  }, {
+    "type" : "paragraph",
+    "id" : 413,
+    "page number" : 4,
+    "bounding box" : [ 102.48, 478.373, 196.05, 487.328 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "For more information,"
+  }, {
+    "type" : "paragraph",
+    "id" : 415,
+    "page number" : 4,
+    "bounding box" : [ 77.759, 453.894, 220.622, 462.849 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "please contact Katie at 5463-7943"
+  }, {
+    "type" : "paragraph",
+    "id" : 398,
+    "page number" : 4,
+    "bounding box" : [ 311.159, 673.866, 389.293, 682.928 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Price $20/ an adult"
+  }, {
+    "type" : "paragraph",
+    "id" : 400,
+    "page number" : 4,
+    "bounding box" : [ 326.759, 649.493, 373.624, 658.448 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "$10/a child"
+  }, {
+    "type" : "paragraph",
+    "id" : 402,
+    "page number" : 4,
+    "bounding box" : [ 336.84, 624.906, 363.479, 633.968 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "JAZZ"
+  }, {
+    "type" : "paragraph",
+    "id" : 404,
+    "page number" : 4,
+    "bounding box" : [ 338.64, 600.426, 361.629, 609.488 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Time"
+  }, {
+    "type" : "paragraph",
+    "id" : 406,
+    "page number" : 4,
+    "bounding box" : [ 282.48, 576.173, 417.931, 585.128 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Saturday 6:00 p.m. -8: 00 p.m."
+  }, {
+    "type" : "paragraph",
+    "id" : 408,
+    "page number" : 4,
+    "bounding box" : [ 338.28, 551.587, 362.108, 560.649 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Place"
+  }, {
+    "type" : "paragraph",
+    "id" : 410,
+    "page number" : 4,
+    "bounding box" : [ 297.6, 527.213, 402.733, 536.168 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "the Riverside Music Hall"
+  }, {
+    "type" : "paragraph",
+    "id" : 412,
+    "page number" : 4,
+    "bounding box" : [ 338.64, 502.626, 361.868, 511.688 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Price"
+  }, {
+    "type" : "paragraph",
+    "id" : 414,
+    "page number" : 4,
+    "bounding box" : [ 322.8, 478.373, 377.653, 487.328 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "$25/ an adult"
+  }, {
+    "type" : "paragraph",
+    "id" : 416,
+    "page number" : 4,
+    "bounding box" : [ 326.759, 453.894, 373.624, 462.849 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "$10/a child"
+  }, {
+    "type" : "paragraph",
+    "id" : 417,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 424.973, 346.148, 434.147 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "21 ． If Jim is free on Sunday night, what kind of music can he enjoy?"
+  }, {
+    "type" : "paragraph",
+    "id" : 418,
+    "page number" : 4,
+    "bounding box" : [ 72.959, 400.493, 224.851, 409.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． Country music. B ． Folk music."
+  }, {
+    "type" : "paragraph",
+    "id" : 419,
+    "page number" : 4,
+    "bounding box" : [ 261.84, 400.493, 299.851, 409.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． Jazz."
+  }, {
+    "type" : "paragraph",
+    "id" : 420,
+    "page number" : 4,
+    "bounding box" : [ 365.64, 400.493, 408.45, 409.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． Rock."
+  }, {
+    "type" : "paragraph",
+    "id" : 421,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 376.013, 410.588, 385.187 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "22 ． How much will Mr. Green pay if he goes to enjoy jazz music with his two kids?"
+  }, {
+    "type" : "paragraph",
+    "id" : 422,
+    "page number" : 4,
+    "bounding box" : [ 72.959, 351.533, 112.172, 360.828 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． $ 20."
+  }, {
+    "type" : "paragraph",
+    "id" : 423,
+    "page number" : 4,
+    "bounding box" : [ 157.92, 351.533, 196.412, 360.828 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． $ 45."
+  }, {
+    "type" : "paragraph",
+    "id" : 424,
+    "page number" : 4,
+    "bounding box" : [ 261.84, 351.533, 300.331, 360.828 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． $ 35."
+  }, {
+    "type" : "paragraph",
+    "id" : 425,
+    "page number" : 4,
+    "bounding box" : [ 365.64, 351.533, 404.852, 360.828 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． $ 40."
+  }, {
+    "type" : "paragraph",
+    "id" : 426,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 327.173, 294.809, 336.347 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "23 ． The information above may come from a ________."
+  }, {
+    "type" : "paragraph",
+    "id" : 427,
+    "page number" : 4,
+    "bounding box" : [ 72.959, 302.694, 116.758, 311.868 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． poster"
+  }, {
+    "type" : "paragraph",
+    "id" : 428,
+    "page number" : 4,
+    "bounding box" : [ 157.92, 302.694, 196.918, 311.868 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． letter"
+  }, {
+    "type" : "paragraph",
+    "id" : 429,
+    "page number" : 4,
+    "bounding box" : [ 261.84, 302.694, 297.304, 311.868 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． map"
+  }, {
+    "type" : "paragraph",
+    "id" : 430,
+    "page number" : 4,
+    "bounding box" : [ 365.64, 302.694, 408.852, 311.868 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． report"
+  }, {
+    "type" : "paragraph",
+    "id" : 431,
+    "page number" : 4,
+    "bounding box" : [ 281.64, 255.348, 313.68, 266.006 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "（ B ）"
+  }, {
+    "type" : "paragraph",
+    "id" : 432,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 209.933, 541.262, 243.368 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Do you feel more energetic when listening to your favorite songs? Do you study better with background music? There's real science behind why music has such a powerful influence on teenage brains."
+  }, {
+    "type" : "paragraph",
+    "id" : 433,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 112.133, 541.304, 194.528 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "During the teenage years, your brain is going through big changes. It's growing and forming new connections every day. Music can actually help this process ( 过程 ). When you listen to music, many different areas of your brain work together-the parts that control hearing, memory, emotions ( 情绪 ), and even movement. This 'workout' makes your brain stronger and more connected."
+  }, {
+    "type" : "paragraph",
+    "id" : 434,
+    "page number" : 4,
+    "bounding box" : [ 81.959, 87.773, 541.144, 96.728 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Music also helps teenagers deal with stress and strong emotions. The teenage years can be challenging, with"
+  }, {
+    "type" : "footer",
+    "id" : 540,
+    "page number" : 4,
+    "bounding box" : [ 54.0, 49.864, 66.944, 53.259 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 554,
+      "page number" : 4,
+      "bounding box" : [ 54.0, 52.504, 66.944, 53.259 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 555,
+      "page number" : 4,
+      "bounding box" : [ 54.0, 51.185, 66.944, 51.94 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 556,
+      "page number" : 4,
+      "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 438,
+    "page number" : 5,
+    "bounding box" : [ 53.103, 786.608, 93.71, 801.452 ],
+    "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile10.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 439,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 703.013, 541.292, 760.809 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "school pressure, friendship problems, and family problems. Studies show that listening to music releases dopamine, a chemical that makes you feel good. It can calm you down when you're angry or lift your spirits when you're sad. Many teenagers use music as a healthy way to express and manage their feelings."
+  }, {
+    "type" : "paragraph",
+    "id" : 440,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 629.573, 541.264, 687.488 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Learning to play a musical instrument brings even more benefits. It improves your memory, attention, and problem-solving skills. Musicians often do better in subjects like math and languages because music training strengthens the brain's ability to recognize patterns and deal with information quickly."
+  }, {
+    "type" : "paragraph",
+    "id" : 441,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 580.733, 541.148, 614.168 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "However, it's important to listen to music wisely. Playing music too loudly through headphones can damage your hearing. Experts suggest keeping the volume ( 音量 ) at 60% or lower and taking breaks every hour."
+  }, {
+    "type" : "paragraph",
+    "id" : 442,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 531.773, 541.148, 565.209 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Music can also influence your sleep. While calm music helps you relax before bed, loud or exciting music might make it harder to fall asleep. Choose your music carefully, depending on what you need."
+  }, {
+    "type" : "paragraph",
+    "id" : 443,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 458.454, 541.264, 516.587 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The teenage brain is special-it's flexible ( 灵活的 ) and ready to learn. Music is a powerful tool that can help you grow smarter, happier, and healthier. So next time you press play, remember: you're not just enjoying a song; you're training your brain ！"
+  }, {
+    "type" : "heading",
+    "id" : 444,
+    "level" : "Subtitle",
+    "page number" : 5,
+    "bounding box" : [ 54.0, 434.967, 179.886, 443.267 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "根据材料内容选择最佳答案"
+  }, {
+    "type" : "paragraph",
+    "id" : 445,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 409.613, 413.851, 418.787 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "24 ． In the second paragraph, listening to music is like a (n) ________ for your brain."
+  }, {
+    "type" : "paragraph",
+    "id" : 446,
+    "page number" : 5,
+    "bounding box" : [ 72.959, 385.133, 106.214, 394.307 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． rest"
+  }, {
+    "type" : "paragraph",
+    "id" : 447,
+    "page number" : 5,
+    "bounding box" : [ 157.92, 385.133, 189.974, 394.307 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． test"
+  }, {
+    "type" : "paragraph",
+    "id" : 448,
+    "page number" : 5,
+    "bounding box" : [ 261.84, 385.133, 305.478, 394.307 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． dream"
+  }, {
+    "type" : "paragraph",
+    "id" : 450,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 360.654, 288.908, 369.947 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "25 ． What does dopamine do when you listen to music?"
+  }, {
+    "type" : "paragraph",
+    "id" : 449,
+    "page number" : 5,
+    "bounding box" : [ 365.64, 385.133, 418.026, 394.307 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． exercise"
+  }, {
+    "type" : "paragraph",
+    "id" : 451,
+    "page number" : 5,
+    "bounding box" : [ 72.959, 336.173, 165.09, 345.468 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． It hurts your ears."
+  }, {
+    "type" : "paragraph",
+    "id" : 453,
+    "page number" : 5,
+    "bounding box" : [ 72.959, 311.813, 187.531, 320.987 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． It makes you feel tired."
+  }, {
+    "type" : "paragraph",
+    "id" : 452,
+    "page number" : 5,
+    "bounding box" : [ 261.84, 336.173, 378.091, 345.468 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． It makes you feel good."
+  }, {
+    "type" : "paragraph",
+    "id" : 454,
+    "page number" : 5,
+    "bounding box" : [ 261.84, 311.813, 368.611, 320.987 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． It makes you hungry."
+  }, {
+    "type" : "paragraph",
+    "id" : 455,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 287.333, 379.626, 296.507 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "26 ． How does the writer show the benefits of learning a musical instrument?"
+  }, {
+    "type" : "paragraph",
+    "id" : 456,
+    "page number" : 5,
+    "bounding box" : [ 72.959, 262.854, 165.811, 272.147 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． By telling a story."
+  }, {
+    "type" : "paragraph",
+    "id" : 457,
+    "page number" : 5,
+    "bounding box" : [ 261.84, 262.854, 366.57, 272.147 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． By asking questions."
+  }, {
+    "type" : "paragraph",
+    "id" : 458,
+    "page number" : 5,
+    "bounding box" : [ 72.959, 238.373, 176.969, 247.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． By giving examples."
+  }, {
+    "type" : "paragraph",
+    "id" : 459,
+    "page number" : 5,
+    "bounding box" : [ 261.84, 238.373, 362.371, 247.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． By listing numbers."
+  }, {
+    "type" : "paragraph",
+    "id" : 460,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 214.013, 403.889, 223.187 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "27 ． According to the text, improper listening habits may be bad for our ________."
+  }, {
+    "type" : "paragraph",
+    "id" : 461,
+    "page number" : 5,
+    "bounding box" : [ 72.959, 189.533, 164.464, 198.707 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． hearing and sleep"
+  }, {
+    "type" : "paragraph",
+    "id" : 463,
+    "page number" : 5,
+    "bounding box" : [ 72.959, 165.054, 146.504, 174.347 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． eyes and ears"
+  }, {
+    "type" : "paragraph",
+    "id" : 465,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 140.573, 231.428, 149.868 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "28 ． What is the theme ( 主题 ) of the text?"
+  }, {
+    "type" : "paragraph",
+    "id" : 466,
+    "page number" : 5,
+    "bounding box" : [ 72.959, 116.213, 125.13, 125.387 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A ． Culture."
+  }, {
+    "type" : "paragraph",
+    "id" : 467,
+    "page number" : 5,
+    "bounding box" : [ 157.92, 116.213, 210.69, 125.387 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． Science."
+  }, {
+    "type" : "paragraph",
+    "id" : 462,
+    "page number" : 5,
+    "bounding box" : [ 261.84, 189.533, 367.783, 198.707 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． memory and feelings"
+  }, {
+    "type" : "paragraph",
+    "id" : 464,
+    "page number" : 5,
+    "bounding box" : [ 261.84, 165.054, 348.104, 174.347 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． study and sports"
+  }, {
+    "type" : "paragraph",
+    "id" : 468,
+    "page number" : 5,
+    "bounding box" : [ 261.84, 116.213, 308.61, 125.387 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C ． Sports."
+  }, {
+    "type" : "paragraph",
+    "id" : 469,
+    "page number" : 5,
+    "bounding box" : [ 365.64, 116.213, 417.329, 125.387 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "D ． History."
+  }, {
+    "type" : "footer",
+    "id" : 541,
+    "page number" : 5,
+    "bounding box" : [ 54.0, 49.864, 66.944, 53.259 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 557,
+      "page number" : 5,
+      "bounding box" : [ 54.0, 52.504, 66.944, 53.259 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 558,
+      "page number" : 5,
+      "bounding box" : [ 54.0, 51.185, 66.944, 51.94 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 559,
+      "page number" : 5,
+      "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 473,
+    "page number" : 6,
+    "bounding box" : [ 53.156, 787.216, 93.764, 801.452 ],
+    "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile11.png"
+  }, {
+    "type" : "heading",
+    "id" : 474,
+    "level" : "Subtitle",
+    "page number" : 6,
+    "bounding box" : [ 54.0, 734.148, 533.88, 764.126 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B. Choose the best answer and complete the passage （选择最恰当的选项完成短文）（每题 2 分，共 12 分）"
+  }, {
+    "type" : "paragraph",
+    "id" : 475,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 664.254, 541.264, 722.168 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Music is everywhere in our lives. It makes our days more colorful. Different people like different 29 of music. Some love pop music because it's easy to sing along with. Others prefer classical music for its 30 sound."
+  }, {
+    "type" : "paragraph",
+    "id" : 476,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 590.933, 541.269, 648.728 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Music can also change our feelings. When we are sad, soft music can make us feel 31 . It's like a warm hug. And when we are happy, energetic music can make us even 32 . We may start dancing to the rhythm."
+  }, {
+    "type" : "paragraph",
+    "id" : 477,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 541.973, 541.214, 575.409 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Music is a great way to communicate, too. People can share their 33 through songs. A song can tell a story or express love. We can understand the singer's feelings 34 we listen carefully."
+  }, {
+    "type" : "paragraph",
+    "id" : 478,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 493.133, 541.143, 526.568 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "In a word, music is full of magic. It brings us joy and helps us connect with others. Let's enjoy music every day."
+  }, {
+    "type" : "table",
+    "id" : 479,
+    "level" : "2",
+    "page number" : 6,
+    "bounding box" : [ 53.071, 346.585, 408.415, 479.496 ],
+    "number of rows" : 6,
+    "number of columns" : 9,
+    "rows" : [ {
+      "type" : "table row",
+      "row number" : 1,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 53.071, 457.344, 92.553, 479.496 ],
+        "row number" : 1,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 228,
+          "page number" : 6,
+          "bounding box" : [ 53.071, 457.344, 92.553, 479.496 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "29 ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 92.553, 457.344, 132.036, 479.496 ],
+        "row number" : 1,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 229,
+          "page number" : 6,
+          "bounding box" : [ 92.553, 457.344, 132.036, 479.496 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "A ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 132.036, 457.344, 171.519, 479.496 ],
+        "row number" : 1,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 230,
+          "page number" : 6,
+          "bounding box" : [ 132.036, 457.344, 171.519, 479.496 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "names"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 171.519, 457.344, 211.001, 479.496 ],
+        "row number" : 1,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 231,
+          "page number" : 6,
+          "bounding box" : [ 171.519, 457.344, 211.001, 479.496 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "B ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 211.001, 457.344, 250.484, 479.496 ],
+        "row number" : 1,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 232,
+          "page number" : 6,
+          "bounding box" : [ 211.001, 457.344, 250.484, 479.496 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "kinds"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 250.484, 457.344, 289.967, 479.496 ],
+        "row number" : 1,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 233,
+          "page number" : 6,
+          "bounding box" : [ 250.484, 457.344, 289.967, 479.496 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "C ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 289.967, 457.344, 329.449, 479.496 ],
+        "row number" : 1,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 234,
+          "page number" : 6,
+          "bounding box" : [ 289.967, 457.344, 329.449, 479.496 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "colors"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 329.449, 457.344, 368.932, 479.496 ],
+        "row number" : 1,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 235,
+          "page number" : 6,
+          "bounding box" : [ 329.449, 457.344, 368.932, 479.496 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "D ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 368.932, 457.344, 408.415, 479.496 ],
+        "row number" : 1,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 236,
+          "page number" : 6,
+          "bounding box" : [ 368.932, 457.344, 408.415, 479.496 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "prices"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 2,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 53.071, 435.193, 92.553, 457.344 ],
+        "row number" : 2,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 237,
+          "page number" : 6,
+          "bounding box" : [ 53.071, 435.193, 92.553, 457.344 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "30 ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 92.553, 435.193, 132.036, 457.344 ],
+        "row number" : 2,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 238,
+          "page number" : 6,
+          "bounding box" : [ 92.553, 435.193, 132.036, 457.344 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "A ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 132.036, 435.193, 171.519, 457.344 ],
+        "row number" : 2,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 239,
+          "page number" : 6,
+          "bounding box" : [ 132.036, 435.193, 171.519, 457.344 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "noisy"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 171.519, 435.193, 211.001, 457.344 ],
+        "row number" : 2,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 240,
+          "page number" : 6,
+          "bounding box" : [ 171.519, 435.193, 211.001, 457.344 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "B ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 211.001, 435.193, 250.484, 457.344 ],
+        "row number" : 2,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 241,
+          "page number" : 6,
+          "bounding box" : [ 211.001, 435.193, 250.484, 457.344 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "quiet"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 250.484, 435.193, 289.967, 457.344 ],
+        "row number" : 2,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 242,
+          "page number" : 6,
+          "bounding box" : [ 250.484, 435.193, 289.967, 457.344 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "C ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 289.967, 435.193, 329.449, 457.344 ],
+        "row number" : 2,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 243,
+          "page number" : 6,
+          "bounding box" : [ 289.967, 435.193, 329.449, 457.344 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "strange"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 329.449, 435.193, 368.932, 457.344 ],
+        "row number" : 2,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 244,
+          "page number" : 6,
+          "bounding box" : [ 329.449, 435.193, 368.932, 457.344 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "D ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 368.932, 435.193, 408.415, 457.344 ],
+        "row number" : 2,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 245,
+          "page number" : 6,
+          "bounding box" : [ 368.932, 435.193, 408.415, 457.344 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "loud"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 3,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 53.071, 413.041, 92.553, 435.193 ],
+        "row number" : 3,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 246,
+          "page number" : 6,
+          "bounding box" : [ 53.071, 413.041, 92.553, 435.193 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "31 ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 92.553, 413.041, 132.036, 435.193 ],
+        "row number" : 3,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 247,
+          "page number" : 6,
+          "bounding box" : [ 92.553, 413.041, 132.036, 435.193 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "A ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 132.036, 413.041, 171.519, 435.193 ],
+        "row number" : 3,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 248,
+          "page number" : 6,
+          "bounding box" : [ 132.036, 413.041, 171.519, 435.193 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "better"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 171.519, 413.041, 211.001, 435.193 ],
+        "row number" : 3,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 249,
+          "page number" : 6,
+          "bounding box" : [ 171.519, 413.041, 211.001, 435.193 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "B ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 211.001, 413.041, 250.484, 435.193 ],
+        "row number" : 3,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 250,
+          "page number" : 6,
+          "bounding box" : [ 211.001, 413.041, 250.484, 435.193 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "worse"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 250.484, 413.041, 289.967, 435.193 ],
+        "row number" : 3,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 251,
+          "page number" : 6,
+          "bounding box" : [ 250.484, 413.041, 289.967, 435.193 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "C ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 289.967, 413.041, 329.449, 435.193 ],
+        "row number" : 3,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 252,
+          "page number" : 6,
+          "bounding box" : [ 289.967, 413.041, 329.449, 435.193 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "colder"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 329.449, 413.041, 368.932, 435.193 ],
+        "row number" : 3,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 253,
+          "page number" : 6,
+          "bounding box" : [ 329.449, 413.041, 368.932, 435.193 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "D ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 368.932, 413.041, 408.415, 435.193 ],
+        "row number" : 3,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 254,
+          "page number" : 6,
+          "bounding box" : [ 368.932, 413.041, 408.415, 435.193 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "hotter"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 4,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 53.071, 390.889, 92.553, 413.041 ],
+        "row number" : 4,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 255,
+          "page number" : 6,
+          "bounding box" : [ 53.071, 390.889, 92.553, 413.041 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "32 ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 92.553, 390.889, 132.036, 413.041 ],
+        "row number" : 4,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 256,
+          "page number" : 6,
+          "bounding box" : [ 92.553, 390.889, 132.036, 413.041 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "A ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 132.036, 390.889, 171.519, 413.041 ],
+        "row number" : 4,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 257,
+          "page number" : 6,
+          "bounding box" : [ 132.036, 390.889, 171.519, 413.041 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "sadder"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 171.519, 390.889, 211.001, 413.041 ],
+        "row number" : 4,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 258,
+          "page number" : 6,
+          "bounding box" : [ 171.519, 390.889, 211.001, 413.041 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "B ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 211.001, 390.889, 250.484, 413.041 ],
+        "row number" : 4,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 259,
+          "page number" : 6,
+          "bounding box" : [ 211.001, 390.889, 250.484, 413.041 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "angrier"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 250.484, 390.889, 289.967, 413.041 ],
+        "row number" : 4,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 260,
+          "page number" : 6,
+          "bounding box" : [ 250.484, 390.889, 289.967, 413.041 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "C ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 289.967, 390.889, 329.449, 413.041 ],
+        "row number" : 4,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 261,
+          "page number" : 6,
+          "bounding box" : [ 289.967, 390.889, 329.449, 413.041 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "happier"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 329.449, 390.889, 368.932, 413.041 ],
+        "row number" : 4,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 262,
+          "page number" : 6,
+          "bounding box" : [ 329.449, 390.889, 368.932, 413.041 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "D ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 368.932, 390.889, 408.415, 413.041 ],
+        "row number" : 4,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 263,
+          "page number" : 6,
+          "bounding box" : [ 368.932, 390.889, 408.415, 413.041 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "busier"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 5,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 53.071, 368.737, 92.553, 390.889 ],
+        "row number" : 5,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 264,
+          "page number" : 6,
+          "bounding box" : [ 53.071, 368.737, 92.553, 390.889 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "33 ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 92.553, 368.737, 132.036, 390.889 ],
+        "row number" : 5,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 265,
+          "page number" : 6,
+          "bounding box" : [ 92.553, 368.737, 132.036, 390.889 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "A ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 132.036, 368.737, 171.519, 390.889 ],
+        "row number" : 5,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 266,
+          "page number" : 6,
+          "bounding box" : [ 132.036, 368.737, 171.519, 390.889 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "money"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 171.519, 368.737, 211.001, 390.889 ],
+        "row number" : 5,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 267,
+          "page number" : 6,
+          "bounding box" : [ 171.519, 368.737, 211.001, 390.889 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "B ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 211.001, 368.737, 250.484, 390.889 ],
+        "row number" : 5,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 268,
+          "page number" : 6,
+          "bounding box" : [ 211.001, 368.737, 250.484, 390.889 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "food"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 250.484, 368.737, 289.967, 390.889 ],
+        "row number" : 5,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 269,
+          "page number" : 6,
+          "bounding box" : [ 250.484, 368.737, 289.967, 390.889 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "C ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 289.967, 368.737, 329.449, 390.889 ],
+        "row number" : 5,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 270,
+          "page number" : 6,
+          "bounding box" : [ 289.967, 368.737, 329.449, 390.889 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "feelings"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 329.449, 368.737, 368.932, 390.889 ],
+        "row number" : 5,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 271,
+          "page number" : 6,
+          "bounding box" : [ 329.449, 368.737, 368.932, 390.889 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "D ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 368.932, 368.737, 408.415, 390.889 ],
+        "row number" : 5,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 272,
+          "page number" : 6,
+          "bounding box" : [ 368.932, 368.737, 408.415, 390.889 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "toys"
+        } ]
+      } ]
+    }, {
+      "type" : "table row",
+      "row number" : 6,
+      "cells" : [ {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 53.071, 346.585, 92.553, 368.737 ],
+        "row number" : 6,
+        "column number" : 1,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 273,
+          "page number" : 6,
+          "bounding box" : [ 53.071, 346.585, 92.553, 368.737 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "34 ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 92.553, 346.585, 132.036, 368.737 ],
+        "row number" : 6,
+        "column number" : 2,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 274,
+          "page number" : 6,
+          "bounding box" : [ 92.553, 346.585, 132.036, 368.737 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "A ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 132.036, 346.585, 171.519, 368.737 ],
+        "row number" : 6,
+        "column number" : 3,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 275,
+          "page number" : 6,
+          "bounding box" : [ 132.036, 346.585, 171.519, 368.737 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "if"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 171.519, 346.585, 211.001, 368.737 ],
+        "row number" : 6,
+        "column number" : 4,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 276,
+          "page number" : 6,
+          "bounding box" : [ 171.519, 346.585, 211.001, 368.737 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "B ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 211.001, 346.585, 250.484, 368.737 ],
+        "row number" : 6,
+        "column number" : 5,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 277,
+          "page number" : 6,
+          "bounding box" : [ 211.001, 346.585, 250.484, 368.737 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "but"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 250.484, 346.585, 289.967, 368.737 ],
+        "row number" : 6,
+        "column number" : 6,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 278,
+          "page number" : 6,
+          "bounding box" : [ 250.484, 346.585, 289.967, 368.737 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "C ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 289.967, 346.585, 329.449, 368.737 ],
+        "row number" : 6,
+        "column number" : 7,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 279,
+          "page number" : 6,
+          "bounding box" : [ 289.967, 346.585, 329.449, 368.737 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "or"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 329.449, 346.585, 368.932, 368.737 ],
+        "row number" : 6,
+        "column number" : 8,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 280,
+          "page number" : 6,
+          "bounding box" : [ 329.449, 346.585, 368.932, 368.737 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "D ．"
+        } ]
+      }, {
+        "type" : "table cell",
+        "page number" : 6,
+        "bounding box" : [ 368.932, 346.585, 408.415, 368.737 ],
+        "row number" : 6,
+        "column number" : 9,
+        "row span" : 1,
+        "column span" : 1,
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 281,
+          "page number" : 6,
+          "bounding box" : [ 368.932, 346.585, 408.415, 368.737 ],
+          "font" : null,
+          "font size" : 12.0,
+          "content" : "so"
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "heading",
+    "id" : 480,
+    "level" : "Doctitle",
+    "page number" : 6,
+    "bounding box" : [ 54.0, 290.988, 468.0, 301.646 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "C. Read the passage and answer the following questions. （每题 2 分，共 12 分）"
+  }, {
+    "type" : "paragraph",
+    "id" : 481,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 270.054, 290.52, 279.228 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Answer the questions ( 根据短文内容，回答下列问题 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 482,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 172.254, 541.333, 254.528 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "As we know music can not only bring us wonderful enjoyment, but also happiness when we are tired or sad. And many people have the habit of enjoying music when they are free. But to our surprise, one English school allows children to listen to music or even to have the TV on while they are studying, and they find it is helpful to improve the students' grades."
+  }, {
+    "type" : "paragraph",
+    "id" : 483,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 98.813, 541.264, 156.728 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "According to a research at Millfield School, about 20% of teenagers work best with background music, 10% excellent when allowed to finish their work with short walks around the room while up to 80% can concentrate better if allowed to play with a small object."
+  }, {
+    "type" : "paragraph",
+    "id" : 484,
+    "page number" : 6,
+    "bounding box" : [ 81.959, 74.454, 541.263, 83.409 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "The research has made the school use a very new way, encouraging students to discover which learning"
+  }, {
+    "type" : "footer",
+    "id" : 542,
+    "page number" : 6,
+    "bounding box" : [ 54.0, 49.864, 66.944, 53.259 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 560,
+      "page number" : 6,
+      "bounding box" : [ 54.0, 52.504, 66.944, 53.259 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 561,
+      "page number" : 6,
+      "bounding box" : [ 54.0, 51.185, 66.944, 51.94 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 562,
+      "page number" : 6,
+      "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 488,
+    "page number" : 7,
+    "bounding box" : [ 52.982, 786.691, 93.721, 801.506 ],
+    "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile12.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 489,
+    "page number" : 7,
+    "bounding box" : [ 54.0, 703.013, 541.302, 760.809 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "styles suit them best, and then let them do their homework listening to music or even lying down. Some parents don't believe, but many are now accepting it at home where children are allowed to do their work with the television on."
+  }, {
+    "type" : "paragraph",
+    "id" : 490,
+    "page number" : 7,
+    "bounding box" : [ 54.0, 629.573, 541.32, 687.488 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "'I prefer to work on the floor with music on low,' said Sam, a 13-year-old girl. 'At first my parents thought I didn't study hard, but my teacher asked them to look at my homework and when they saw it was okay, they agreed at last.'"
+  }, {
+    "type" : "paragraph",
+    "id" : 491,
+    "page number" : 7,
+    "bounding box" : [ 54.0, 605.213, 199.509, 614.387 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "35 ． What can the music bring us?"
+  }, {
+    "type" : "paragraph",
+    "id" : 492,
+    "level" : "3",
+    "page number" : 7,
+    "bounding box" : [ 258.72, 580.733, 261.333, 589.688 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "."
+  }, {
+    "type" : "paragraph",
+    "id" : 493,
+    "page number" : 7,
+    "bounding box" : [ 54.0, 556.254, 380.106, 565.547 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "36 ． Which school allows children to listen to music while they are studying?"
+  }, {
+    "type" : "paragraph",
+    "id" : 495,
+    "page number" : 7,
+    "bounding box" : [ 54.0, 507.413, 235.268, 516.587 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "37 ． How did 80% of teenagers work best?"
+  }, {
+    "type" : "paragraph",
+    "id" : 494,
+    "level" : "3",
+    "page number" : 7,
+    "bounding box" : [ 258.72, 531.773, 261.333, 540.728 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "."
+  }, {
+    "type" : "paragraph",
+    "id" : 496,
+    "level" : "3",
+    "page number" : 7,
+    "bounding box" : [ 258.72, 482.933, 261.333, 491.888 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "."
+  }, {
+    "type" : "paragraph",
+    "id" : 497,
+    "page number" : 7,
+    "bounding box" : [ 54.0, 458.454, 406.269, 467.747 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "38 ． The research has made Millfield School different from other schools, hasn't it?"
+  }, {
+    "type" : "paragraph",
+    "id" : 499,
+    "page number" : 7,
+    "bounding box" : [ 54.0, 409.613, 146.948, 418.787 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "39 ． How old is Sam?"
+  }, {
+    "type" : "paragraph",
+    "id" : 498,
+    "level" : "3",
+    "page number" : 7,
+    "bounding box" : [ 258.72, 433.973, 261.333, 442.928 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "."
+  }, {
+    "type" : "paragraph",
+    "id" : 500,
+    "level" : "3",
+    "page number" : 7,
+    "bounding box" : [ 258.72, 385.133, 261.333, 394.088 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "."
+  }, {
+    "type" : "paragraph",
+    "id" : 501,
+    "page number" : 7,
+    "bounding box" : [ 54.0, 360.654, 343.049, 369.947 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "40 ． Tell your ideas about listening to music while doing homework."
+  }, {
+    "type" : "paragraph",
+    "id" : 502,
+    "level" : "3",
+    "page number" : 7,
+    "bounding box" : [ 258.72, 336.173, 261.333, 345.128 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "."
+  }, {
+    "type" : "heading",
+    "id" : 503,
+    "level" : "Subtitle",
+    "page number" : 7,
+    "bounding box" : [ 54.0, 280.788, 324.12, 291.446 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Ⅵ. Writing （作文）（本大题共 2 大题，共 20 分）"
+  }, {
+    "type" : "paragraph",
+    "id" : 504,
+    "page number" : 7,
+    "bounding box" : [ 54.0, 259.747, 307.08, 269.028 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "A. Translation ( 第一题 1 分；第二、三题各分，共 5 分 )"
+  }, {
+    "type" : "paragraph",
+    "id" : 505,
+    "page number" : 7,
+    "bounding box" : [ 54.0, 235.373, 252.958, 244.547 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "1 ．音乐节每年夏天在我们城市举行。 (hold)"
+  }, {
+    "type" : "paragraph",
+    "id" : 506,
+    "page number" : 7,
+    "bounding box" : [ 54.0, 211.013, 392.588, 219.968 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "________________________________________________________________."
+  }, {
+    "type" : "paragraph",
+    "id" : 507,
+    "page number" : 7,
+    "bounding box" : [ 54.0, 186.413, 269.997, 195.707 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "2 ．你能推荐城里的一家好餐馆吗 ? (recommend)"
+  }, {
+    "type" : "paragraph",
+    "id" : 508,
+    "page number" : 7,
+    "bounding box" : [ 54.0, 162.054, 392.588, 171.009 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "________________________________________________________________."
+  }, {
+    "type" : "paragraph",
+    "id" : 509,
+    "page number" : 7,
+    "bounding box" : [ 54.0, 137.573, 412.93, 146.747 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "3 ．这个最知名的旋律不仅鼓励了我而且给了我信心。（ not only… but also… ）"
+  }, {
+    "type" : "paragraph",
+    "id" : 510,
+    "page number" : 7,
+    "bounding box" : [ 54.0, 113.213, 392.588, 122.168 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "________________________________________________________________."
+  }, {
+    "type" : "footer",
+    "id" : 543,
+    "page number" : 7,
+    "bounding box" : [ 54.0, 49.864, 66.944, 53.259 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 563,
+      "page number" : 7,
+      "bounding box" : [ 54.0, 52.504, 66.944, 53.259 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 564,
+      "page number" : 7,
+      "bounding box" : [ 54.0, 51.185, 66.944, 51.94 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 565,
+      "page number" : 7,
+      "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  }, {
+    "type" : "image",
+    "id" : 514,
+    "page number" : 8,
+    "bounding box" : [ 53.025, 787.094, 93.69, 801.493 ],
+    "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile13.png"
+  }, {
+    "type" : "heading",
+    "id" : 515,
+    "level" : "Subtitle",
+    "page number" : 8,
+    "bounding box" : [ 54.0, 751.747, 489.729, 761.147 ],
+    "heading level" : 1,
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "B ． Please write a short passage of at least 60 words ( 请写一篇不少于 60 词的短文 ) （共 15 分）"
+  }, {
+    "type" : "paragraph",
+    "id" : 516,
+    "page number" : 8,
+    "bounding box" : [ 54.0, 703.887, 541.207, 736.667 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "某英文论坛以 ' 音乐和我 ' 为主题向大家征帖，作为一个音乐迷的你看到了也跃跃欲试。请你根据以下 要点提示，用英语写一篇短文，分享音乐给你带来了什么，并向大家推荐你最喜欢的歌曲。"
+  }, {
+    "type" : "paragraph",
+    "id" : 517,
+    "page number" : 8,
+    "bounding box" : [ 54.0, 679.407, 85.449, 687.707 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "要求："
+  }, {
+    "type" : "paragraph",
+    "id" : 518,
+    "page number" : 8,
+    "bounding box" : [ 54.0, 654.054, 345.24, 663.347 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "内容须包含提示中的要点，可适当增加细节，以使行文连贯；"
+  }, {
+    "type" : "paragraph",
+    "id" : 519,
+    "page number" : 8,
+    "bounding box" : [ 54.0, 629.573, 213.965, 638.867 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "语言表达要准确，语意要通顺；"
+  }, {
+    "type" : "paragraph",
+    "id" : 520,
+    "page number" : 8,
+    "bounding box" : [ 54.0, 605.213, 303.243, 614.387 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "词数 60 词左右，短文开头已给出，不计入总词数。"
+  }, {
+    "type" : "paragraph",
+    "id" : 522,
+    "page number" : 8,
+    "bounding box" : [ 73.0, 571.567, 168.333, 586.233 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "What music brings me:"
+  }, {
+    "type" : "paragraph",
+    "id" : 525,
+    "page number" : 8,
+    "bounding box" : [ 85.0, 554.233, 150.333, 566.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "give me energy"
+  }, {
+    "type" : "image",
+    "id" : 521,
+    "page number" : 8,
+    "bounding box" : [ 183.062, 523.338, 256.011, 596.458 ],
+    "source" : "Unit1 Music 单元测试卷【B卷 ★ 对接新中考】 （考试版）_images/imageFile14.png"
+  }, {
+    "type" : "paragraph",
+    "id" : 523,
+    "page number" : 8,
+    "bounding box" : [ 286.333, 576.9, 360.333, 589.567 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "My favorite song:"
+  }, {
+    "type" : "paragraph",
+    "id" : 524,
+    "page number" : 8,
+    "bounding box" : [ 295.333, 558.9, 375.667, 572.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Name/Kind/Singer"
+  }, {
+    "type" : "paragraph",
+    "id" : 526,
+    "page number" : 8,
+    "bounding box" : [ 295.667, 540.9, 384.333, 552.9 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "Reasons why I like it"
+  }, {
+    "type" : "paragraph",
+    "id" : 527,
+    "page number" : 8,
+    "bounding box" : [ 54.0, 474.773, 541.183, 508.209 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "I have been a music fan since I was a little girl. Over the years, music has brought so many beautiful things into my life."
+  }, {
+    "type" : "paragraph",
+    "id" : 528,
+    "page number" : 8,
+    "bounding box" : [ 54.0, 450.294, 537.031, 459.249 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "____________________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 529,
+    "page number" : 8,
+    "bounding box" : [ 54.0, 425.813, 537.031, 434.768 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "____________________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 530,
+    "page number" : 8,
+    "bounding box" : [ 54.0, 401.454, 537.031, 410.409 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "____________________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 531,
+    "page number" : 8,
+    "bounding box" : [ 54.0, 376.973, 537.031, 385.928 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "____________________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 532,
+    "page number" : 8,
+    "bounding box" : [ 54.0, 352.494, 537.031, 361.449 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "____________________________________________________________________________________________"
+  }, {
+    "type" : "paragraph",
+    "id" : 533,
+    "page number" : 8,
+    "bounding box" : [ 54.0, 328.013, 537.031, 336.968 ],
+    "font" : null,
+    "font size" : 12.0,
+    "content" : "____________________________________________________________________________________________"
+  }, {
+    "type" : "footer",
+    "id" : 544,
+    "page number" : 8,
+    "bounding box" : [ 54.0, 49.864, 66.944, 53.259 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 566,
+      "page number" : 8,
+      "bounding box" : [ 54.0, 52.504, 66.944, 53.259 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 567,
+      "page number" : 8,
+      "bounding box" : [ 54.0, 51.185, 66.944, 51.94 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    }, {
+      "type" : "paragraph",
+      "id" : 568,
+      "page number" : 8,
+      "bounding box" : [ 54.0, 49.864, 66.944, 50.619 ],
+      "font" : null,
+      "font size" : 12.0,
+      "content" : "学科网（北京）股份有限公司"
+    } ]
+  } ]
+}

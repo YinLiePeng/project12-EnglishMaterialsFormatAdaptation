@@ -1,0 +1,837 @@
+{
+  "file name" : "Unit 3 Food 基础过关练-2025-2026学年高中英语沪外版（2020）必修第二册[56421977].pdf",
+  "number of pages" : 3,
+  "author" : "Administrator",
+  "title" : "",
+  "creation date" : "D:20260413235420+08'00'",
+  "modification date" : "D:20260413235420+08'00'",
+  "kids" : [ {
+    "type" : "header",
+    "id" : 52,
+    "page number" : 1,
+    "bounding box" : [ 441.0, 790.18, 441.72, 790.9 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 4,
+      "page number" : 1,
+      "bounding box" : [ 441.0, 790.18, 441.72, 790.9 ],
+      "source" : "Unit 3 Food 基础过关练-2025-2026学年高中英语沪外版（2020）必修第二册[56421977]_images/imageFile1.png"
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 61,
+    "page number" : 1,
+    "bounding box" : [ 193.559, 755.307, 401.64, 768.713 ],
+    "font" : "SimSun",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "沪外版英语必修二 U3 Food 基础过关练"
+  }, {
+    "type" : "list",
+    "id" : 62,
+    "level" : "1",
+    "page number" : 1,
+    "bounding box" : [ 90.0, 99.027, 505.284, 752.993 ],
+    "numbering style" : "roman numbers",
+    "number of list items" : 3,
+    "next list id" : 75,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 90.0, 723.987, 505.271, 752.993 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "I. Directions: Fill in the blanks according to the Chinese meaning or initials to make the sentences coherent and grammatically correct.",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 45,
+        "level" : "2",
+        "page number" : 1,
+        "bounding box" : [ 90.0, 489.987, 505.318, 721.913 ],
+        "numbering style" : "arabic numbers",
+        "number of list items" : 10,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 90.0, 692.907, 505.2, 721.913 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "1. After greeting the gift should be passed immediately to the (主 人)",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 90.0, 661.587, 505.318, 690.713 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "2. His eyes slowly began to (聚焦)on what looked like a small dark ball.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 90.0, 646.107, 456.996, 659.513 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "3. He is a very popular writer, but I don't like his (风格)",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 90.0, 614.787, 505.233, 643.793 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "4.A t of something is a group of those things that have particular features in common.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 90.0, 599.187, 423.744, 612.593 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "5.Abu is not his real name, but it's one he uses to disguise his i",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 90.0, 583.587, 422.112, 596.993 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "6. After four months in foreign parts, every hour at home was p",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 90.0, 552.387, 505.271, 581.393 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "7. You can use u to describe things that you admire because they are very unusual and special.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 90.0, 536.788, 465.201, 550.194 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "8. The only way for us to survive is to live in h with nature.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 90.0, 505.587, 505.272, 534.594 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "9.If you g something, you take it or pick it up suddenly and roughly",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 90.0, 489.987, 490.762, 503.393 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "10. Weight loss can be achieved by physical activity and a n diet.",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 90.0, 443.188, 505.284, 472.194 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "II. Directions: Complete the following sentences by using the correct forms of the words in the box. Each word can be used only once.",
+      "kids" : [ {
+        "type" : "text block",
+        "id" : 47,
+        "page number" : 1,
+        "bounding box" : [ 83.76, 410.12, 493.74, 442.3 ],
+        "kids" : [ {
+          "type" : "paragraph",
+          "id" : 1,
+          "page number" : 1,
+          "bounding box" : [ 101.4, 411.507, 451.283, 440.513 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "slice, serving, phenomenon, phase, identify, cuisine, flavour, sour, bitter, costume"
+        } ]
+      }, {
+        "type" : "list",
+        "id" : 48,
+        "level" : "2",
+        "page number" : 1,
+        "bounding box" : [ 90.0, 145.827, 505.391, 408.833 ],
+        "numbering style" : "arabic numbers",
+        "number of list items" : 10,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 90.0, 379.827, 505.32, 408.833 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "1. The of a country or district is the style of cooking that is characteristic of that place.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 90.0, 364.227, 500.963, 377.633 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "2. The wedding marked the beginning of a new in Emma's life.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 90.0, 333.027, 505.271, 362.033 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "3. Something that is has a sharp, unpleasant taste like the taste of a lemon.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 90.0, 301.827, 505.272, 330.833 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "4. A is an amount of food that is given to one person at a meal.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 90.0, 270.627, 505.272, 299.633 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "5. The performers, in and make-up, were walking up and down backstage.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 90.0, 255.027, 462.922, 268.433 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "6. Foods which go through a factory process lose much of their colour,",
+          "kids" : [ {
+            "type" : "paragraph",
+            "id" : 31,
+            "level" : "3",
+            "page number" : 1,
+            "bounding box" : [ 156.72, 239.427, 220.161, 252.833 ],
+            "font" : "ArialMT",
+            "font size" : 12.0,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "and texture."
+          } ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 90.0, 208.227, 505.391, 237.233 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "7. This time he also brought with him a of bread and butter for the children.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 90.0, 192.627, 458.363, 206.033 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "8.I've learnt from experience not to trust what he says.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 90.0, 161.427, 505.319, 190.433 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "9. Passengers were asked to their own suitcases before they were put on the plane.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 1,
+          "bounding box" : [ 90.0, 145.827, 454.522, 159.233 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "10.It's an interesting scientific, but of no practical use.",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 1,
+      "bounding box" : [ 90.0, 99.027, 505.284, 128.033 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "III. Directions: Complete the following sentences by using the correct forms of the phrases in the box. Each phrase can be used only once.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 63,
+    "page number" : 2,
+    "bounding box" : [ 441.0, 790.18, 441.72, 790.9 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 5,
+      "page number" : 2,
+      "bounding box" : [ 441.0, 790.18, 441.72, 790.9 ],
+      "source" : "Unit 3 Food 基础过关练-2025-2026学年高中英语沪外版（2020）必修第二册[56421977]_images/imageFile2.png"
+    } ]
+  }, {
+    "type" : "text block",
+    "id" : 72,
+    "page number" : 2,
+    "bounding box" : [ 106.26, 737.72, 424.74, 769.9 ],
+    "kids" : [ {
+      "type" : "paragraph",
+      "id" : 1,
+      "page number" : 2,
+      "bounding box" : [ 135.84, 739.107, 397.403, 768.113 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "run into, call out, tend to, used to, grow up, point out, identify with, pass down"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 73,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 90.0, 551.427, 505.391, 720.833 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 8,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 90.0, 707.427, 496.043, 720.833 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1. There are far more opportunities for young people than there be.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 90.0, 676.227, 505.315, 705.233 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2.Humans their skills and knowledge to the next generations through education.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 90.0, 660.627, 476.002, 674.033 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. As has already been , grammar is not a set of dead rules.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 90.0, 645.027, 445.163, 658.433 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4.Jane her friend's name when she saw her get on a bus.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 90.0, 629.427, 482.361, 642.833 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5. She would only play a role if she could the character.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 90.0, 598.227, 505.391, 627.233 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6.When someone he gradually changes from being a child into being an adult.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 90.0, 567.027, 505.318, 596.033 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7.The company trouble early on, when a major order was cancelled.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 90.0, 551.427, 415.403, 564.833 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8. Most people in this kind of job work long hours.",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 75,
+    "level" : "1",
+    "page number" : 2,
+    "bounding box" : [ 90.0, 255.027, 505.271, 533.633 ],
+    "numbering style" : "roman numbers",
+    "number of list items" : 2,
+    "previous list id" : 62,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 90.0, 504.627, 505.271, 533.633 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "IV. Directions: Fill in the blanks with the proper forms of the given words to make the sentences coherent and grammatically correct.",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 50,
+        "level" : "2",
+        "page number" : 2,
+        "bounding box" : [ 90.0, 286.227, 505.391, 502.433 ],
+        "numbering style" : "arabic numbers",
+        "number of list items" : 10,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 2,
+          "bounding box" : [ 90.0, 489.027, 496.042, 502.433 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "1. Everyone in the street (shock) when they heard the news.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 2,
+          "bounding box" : [ 90.0, 457.827, 505.391, 486.833 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "2. (variety) of these crops have been collected from all around the district.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 2,
+          "bounding box" : [ 90.0, 426.627, 505.272, 455.633 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "3. Penny tended (work) through her lunch hour in an effort to keep up with her work.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 2,
+          "bounding box" : [ 90.0, 411.027, 482.601, 424.433 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "4. The teacher (grab) the two boys and dragged them apart.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 2,
+          "bounding box" : [ 90.0, 379.827, 505.315, 408.833 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "5. If you (stress),you feel tense and anxious because of difficulties in your life.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 2,
+          "bounding box" : [ 90.0, 364.227, 498.922, 377.633 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "6. She burned the letters so her husband would never read them.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 2,
+          "bounding box" : [ 90.0, 348.627, 502.16, 362.033 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "7. Good financial accounts are vital the success of any enterprise.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 2,
+          "bounding box" : [ 90.0, 333.027, 494.241, 346.433 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "8. Sure enough, one day they began to find the idea very_ (appeal).",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 2,
+          "bounding box" : [ 90.0, 317.427, 457.762, 330.833 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "9. You need a password to get access the computer system.",
+          "kids" : [ ]
+        }, {
+          "type" : "list item",
+          "page number" : 2,
+          "bounding box" : [ 90.0, 286.227, 505.199, 315.233 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "10.Someone who (inform) knows about a subject or what is happening in the world.",
+          "kids" : [ ]
+        } ]
+      } ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 90.0, 255.027, 406.27, 268.433 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "V. Directions: Translate the following sentences into English",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 76,
+    "level" : "2",
+    "page number" : 2,
+    "bounding box" : [ 90.0, 83.427, 385.354, 252.833 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 6,
+    "next list id" : 86,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 90.0, 239.427, 263.192, 252.833 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "1.这一工具有多种用途。(variety)",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 90.0, 208.227, 316.714, 221.633 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2.这次讨论集中在三个主要问题上。(focus)",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 90.0, 177.027, 232.712, 190.433 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3.我坚信他会成功。(belief)",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 90.0, 145.827, 385.354, 159.233 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4.警察仍在寻找跟上星期的抢劫案有牵连的那些人(seek)",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 90.0, 114.627, 329.311, 128.033 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5.我们在第一周遇到了一些困难。(encounter)",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 2,
+      "bounding box" : [ 90.0, 83.427, 313.354, 96.833 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6.只有高级官员才可以接近总统。(access)",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "header",
+    "id" : 77,
+    "page number" : 3,
+    "bounding box" : [ 441.0, 790.18, 441.72, 790.9 ],
+    "kids" : [ {
+      "type" : "image",
+      "id" : 6,
+      "page number" : 3,
+      "bounding box" : [ 441.0, 790.18, 441.72, 790.9 ],
+      "source" : "Unit 3 Food 基础过关练-2025-2026学年高中英语沪外版（2020）必修第二册[56421977]_images/imageFile3.png"
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 86,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 90.0, 614.787, 505.32, 753.113 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 4,
+    "previous list id" : 76,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 90.0, 739.707, 290.07, 753.113 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7.这课文太难了,理解不了。(too...to...)",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 90.0, 708.507, 285.993, 721.913 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8.直到她回来我才开始看电视。(until)",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 90.0, 661.707, 505.32, 690.713 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9.我在上大学时就开始认识他，一个奇怪但有能力的学生。(while 引导让步状语 从句的省略)",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 90.0, 614.787, 350.04, 643.913 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10.不管是谁干的这事,早晚要被抓住并受到惩罚。 (whoever)",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 87,
+    "page number" : 3,
+    "bounding box" : [ 181.559, 552.507, 413.64, 565.913 ],
+    "font" : "SimSun",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "沪外版英语必修二 U3 Food 基础过关练答案"
+  }, {
+    "type" : "list",
+    "id" : 88,
+    "level" : "1",
+    "page number" : 3,
+    "bounding box" : [ 90.0, 458.788, 402.117, 534.594 ],
+    "numbering style" : "roman numbers",
+    "number of list items" : 2,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 90.0, 505.587, 402.117, 534.594 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "I.1.host 2.focus 3.style 4. type 5.identity 6.precious 7.unique 8.harmony 9.grab 10. nutritious",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 90.0, 458.788, 380.828, 487.794 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "II.1.cuisine 2.phase 3.sour 4.serving 5.costume 6.flavour 7.slice 8.bitter 9.identify 10.phenomenon",
+      "kids" : [ ]
+    } ]
+  }, {
+    "type" : "paragraph",
+    "id" : 89,
+    "level" : "2",
+    "page number" : 3,
+    "bounding box" : [ 90.0, 427.707, 394.883, 441.113 ],
+    "font" : "ArialMT",
+    "font size" : 12.0,
+    "text color" : "[0.0, 0.0, 0.0]",
+    "content" : "Ⅲ.1.used to 2.pass down 3.pointed out 4. Called out"
+  }, {
+    "type" : "list",
+    "id" : 90,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 90.0, 411.987, 354.071, 425.393 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 1,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 90.0, 411.987, 354.071, 425.393 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5.identify with 6.grows up 7.ran into 8.tend to",
+      "kids" : [ {
+        "type" : "list",
+        "id" : 8,
+        "level" : "1",
+        "page number" : 3,
+        "bounding box" : [ 90.0, 333.988, 456.91, 394.194 ],
+        "numbering style" : "roman numbers",
+        "number of list items" : 2,
+        "list items" : [ {
+          "type" : "list item",
+          "page number" : 3,
+          "bounding box" : [ 90.0, 380.788, 456.91, 394.194 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "IV.1.was shocked 2.Varieties 3.to work 4.grabbed 5.are stressed",
+          "kids" : [ {
+            "type" : "paragraph",
+            "id" : 7,
+            "page number" : 3,
+            "bounding box" : [ 90.0, 365.188, 351.549, 378.594 ],
+            "font" : "ArialMT",
+            "font size" : 12.0,
+            "text color" : "[0.0, 0.0, 0.0]",
+            "content" : "6.that 7.to 8.appealing 9.to 10.is informed"
+          } ]
+        }, {
+          "type" : "list item",
+          "page number" : 3,
+          "bounding box" : [ 90.0, 333.988, 332.843, 347.394 ],
+          "font" : "ArialMT",
+          "font size" : 12.0,
+          "text color" : "[0.0, 0.0, 0.0]",
+          "content" : "V.1.This tool can be used in a variety of ways.",
+          "kids" : [ ]
+        } ]
+      } ]
+    } ]
+  }, {
+    "type" : "list",
+    "id" : 91,
+    "level" : "3",
+    "page number" : 3,
+    "bounding box" : [ 90.0, 177.987, 490.281, 331.794 ],
+    "numbering style" : "arabic numbers",
+    "number of list items" : 9,
+    "list items" : [ {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 90.0, 318.388, 361.282, 331.794 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "2. The discussion focused on three main problems.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 90.0, 302.788, 282.682, 316.194 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "3. I hold a firm belief that he will win.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 90.0, 287.188, 459.44, 300.594 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "4. The police are still seeking the men involved in last week's robbery.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 90.0, 255.987, 347.11, 284.994 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "5. We encountered a number of difficulties in the first week.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 90.0, 240.388, 356.601, 253.794 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "6. Only high officials have access to the president.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 90.0, 224.788, 299.0, 238.194 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "7. The text is too difficult to understand.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 90.0, 209.188, 308.639, 222.594 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "8. I did not watch TV until she came back",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 90.0, 193.588, 490.281, 206.994 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "9. While (I was) at college, I began to know him, a strange but able student.",
+      "kids" : [ ]
+    }, {
+      "type" : "list item",
+      "page number" : 3,
+      "bounding box" : [ 90.0, 177.987, 431.003, 191.393 ],
+      "font" : "ArialMT",
+      "font size" : 12.0,
+      "text color" : "[0.0, 0.0, 0.0]",
+      "content" : "10.Whoever did this will be caught and punished sooner or later.",
+      "kids" : [ ]
+    } ]
+  } ]
+}
